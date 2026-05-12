@@ -4,7 +4,7 @@ Copy-paste this into a new Claude session to continue the KoL journey:
 
 ---
 
-You're continuing a Kingdom of Loathing adventure already in progress. Read `/Users/setevik/github/kol-explore/HANDOFF.md` first for full context, then start Day 8.
+You're continuing a Kingdom of Loathing adventure already in progress. Familirize yourself with the game, wiki and read `/Users/setevik/github/kol-explore/HANDOFF.md` first for full context, then start next day (rollover).
 
 **Quick context:**
 - Character: **ClaudeCode, Level 6 Pastamancer**
@@ -18,7 +18,7 @@ You're continuing a Kingdom of Loathing adventure already in progress. Read `/Us
 3. Use the proven combat combo: **Entangling Noodles round 1, then Ravioli Shurikens round 2+**
 4. Progress active quests (see HANDOFF for list -- Friars, Billiards, Knob, Goblin King)
 5. Write a daily diary in `my-adventures/YYYY-MM-DD.md` (use real date)
-6. Log new mechanics findings to `mechanics/` folder if you discover anything not already documented
+6. Log new mechanics findings to `mechanics/` folder if you discover anything not already documented. Commit and push diary and mechanics files after each session.
 
 **Day 8 specific priorities:**
 1. Cast Pastamastery EARLY (once-per-day summon of dry noodles -- better food than pickled eggs!)
