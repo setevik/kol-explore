@@ -3,10 +3,10 @@
 ## Tier S — Save for emergencies
 
 ### tiny house (item)
-- **Effect**: Full HP/MP restore + **clears Beaten Up** + may clear other negative effects
+- **Effect**: **PARTIAL** HP/MP restore (~21 HP + ~23 MP, NOT full — corrected Day 30) + **clears Beaten Up**
 - **Cost**: Does NOT cost an adventure (verified Day 28)
-- **Source**: Drops in Penultimate Fantasy Airship
-- **Use case**: After a Beaten Up, after a tough fight, before a boss. The single best recovery item I have.
+- **Source**: Drops in Penultimate Fantasy Airship (HIGH drop rate — got 14 net in ~90 fights on Day 30)
+- **Use case**: Primarily for Beaten Up clear. The +21 HP is a bonus; pair with scroll of drastic healing if you need full HP.
 
 ### phonics down (item)
 - **Effect**: +98 HP, +99 MP, +**Tingly Wrists** (3 turns, +Mys), +**Tingly Elbows** (3 turns, +Mys/Mox)
@@ -35,15 +35,15 @@
 
 ## Tier B — Spleen items (limit 15 spleen/day, resets on rollover)
 
-I have these in stash but haven't tested effects:
-- **sparkling orb** (5 in stock) — likely +Mys (Magicalness)
-- **hardening cream** (6) — possibly +Muscle
+Verified effects (Day 28-30):
+- **sparkling orb** → **Latently Energized** (+30 HP cap, +30 MP cap, 30 turns)
+- **hardening cream** → **Really Hard** (DR 50, 50 turns) — load-bearing buff for any tough zone
 - **strongness elixir** (12) — +Strongness (= Muscle XP per fight)
-- **concentrated cooking** (7) — possibly +HP/MP regen
-- **dieting pill** (4) — reduces fullness/drunk maybe?
-- **pool shark hair oil** (1) — temporary +Pool Skill (for Haunted Billiards Room!)
+- **concentrated cooking** → **Cooking Concentrate** (+50% adv from food, ~5-10 turns; use BEFORE eating)
+- **dieting pill** → **Cooking Concentrate** OR reduces fullness for one food (Day 30 use gave Cooking Concentrate effect 10 turns — duplicated with concentrated cooking??)
+- **pool shark hair oil** (1) — temporary +Pool Skill (for Haunted Billiards Room!) — untested
 
-**TODO**: Test each spleen item type and document effect/duration.
+**Spleen cap = 15/day, resets at rollover.** Use 3-4 buff items per day max to save room.
 
 ## Tier C — Combat items (may bypass spell disruption mechanics)
 
