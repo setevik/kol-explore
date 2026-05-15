@@ -1,20 +1,21 @@
-# KoL Session Handoff (latest as of Day 32 / 2026-05-15)
+# KoL Session Handoff (latest as of Day 33 / 2026-05-16)
 
-## Character Current State (End of Day 32 - FINAL)
+## Character Current State (End of Day 33 - FINAL)
 
 - **Character**: ClaudeCode, **Level 11** Pastamancer
-- **Stats**: Mus 78 / **Mys 111 base (124 buffed)** / Mox 73
-- **Max HP/MP**: 131/186
-- **Currently**: HP 131, MP 3 (drained from grinding)
-- **Meat**: ~42,441
-- **Adventures banked**: **165** (will roll over big)
-- **Drunk**: 0/14 (NO usable booze — see below), **Full**: 15/15
+- **Stats**: Mus 84 / **Mys 117 base (130 buffed w/ Pasta Oneness)** / Mox 78
+- **Max HP/MP**: 137/195
+- **Currently**: HP 137, MP 98
+- **Meat**: ~37,565
+- **Adventures**: ~4 (end of day — rests consumed the tail; nothing banked)
+- **🔺 HOLY MACGUFFIN: Arid Desert exploration = 63%** (need 100% for the pyramid, OR 15 worm-riding pages→Gnasir hooks+drum machine for +30%; worm pages refused to drop Day 33)
+- **Drunk**: 0/14 (NO usable booze — open sauce/Ye Olde Meade unimplemented), **Full**: 15/15
 - **Familiar**: Marcellus, 20-pound Mosquito (drains blood, heals me)
 - **Pasta Thrall**: Ned, Lvl 10 Vampieroghi (drains blood, heals me, deals damage)
 - **Equipment** (current):
   - Hat: fuzzy earmuffs (Power 130, +5 Mys)
   - Weapon: pasta spoon (1-2 dmg 1h) — keep for Pastamancer synergy
-  - Off-Hand: skull of the Bonerdagon
+  - Off-Hand: **UV-resistant compass** (+1% desert exploration/fight — keep equipped during Holy MacGuffin desert phase; was skull of the Bonerdagon)
   - Pants: snowboarder pants (Power 100)
   - Accessories: Baron von Ratsworth's monocle (+10% item drops), whalebone corset, imp unity ring
 - **Inventory hot items (Day 32 EOD)**:
@@ -55,10 +56,14 @@ Chrome extension drops ~every 8-12 min (likely service-worker sleep when Chrome 
    - **Twin Peak = snarfblat 297** (confirmed Day 31). Hedge-maze topiary animals → "Great Overlook Lodge" interior.
    - Gated by 4 noncombats needing: hot res ≥4, stench res ≥4, drunkenness check, Spookyraven library quest done. **Blocked** — don't grind here without prep gear.
 2. ~~**The Rain on the Plains is Mainly Garbage**~~ ✅ **COMPLETE Day 32** — kitchen-counter noncombat fired on Top Floor (324) after ~22 advs; turned in at Council; reward: giant discarded plastic fork
-3. **The Holy MacGuffin** (Council, NEW Day 32) — IN PROGRESS
-   - Father (archaeologist) missing; need his diary; need a passport but offices closed → use the **Black Market**
-   - **Black Forest = snarfblat 405** (place.php?whichplace=woods → "The Black Forest" img → adventure.php?snarfblat=405)
-   - Quest text: *"Keep exploring the Black Forest until you find the Black Market."* — grind 405 for the Black Market RNG noncombat, then buy forged ID/passport, then Travel Agency at The Shore for the diary
+3. **The Holy MacGuffin** (Council) — IN PROGRESS, deep into Staff of Ed phase (Day 33)
+   - ✅ Black Market (Black Forest 405) → forged identification documents (`shop.php?whichshop=blackmarket` whichrow=281, 5k meat)
+   - ✅ Desert Bus pass (General Store `shop.php?whichshop=generalstore` whichrow=657, 5k meat) → Desert Beach unlocked
+   - ✅ The Shore Inc (snarfblat 355 / **choice 793 OPTION 1** "Distant Lands Dude Ranch" — works ONLY with forged ID in inventory) → **father's MacGuffin diary** (3 adv + 500 meat)
+   - ✅ Read diary (inventory [read] link) → **Staff of Ed questline** unlocked
+   - 🔺 **NOW: Arid Extra-Dry Desert exploration = 63%** (snarfblat 364). Need 100% → pyramid noncombat. Mechanic: Oasis (snarfblat 122) gives **Ultrahydrated** (~5 turns) → desert becomes Ultrahydrated version where exploration counts + worm-riding manual pages drop (need 15 → Gnasir → worm-riding hooks + drum machine = +30%; pages did NOT drop Day 33, raw exploration is the route). **UV-resistant compass equipped = +1%/fight.** **AUTO-CYCLE loop**: snarfblat = /Ultrahydrated/.test(charpane) ? 364 : 122.
+   - **Gnasir's Place** (Desert Beach map, element title 'Gnasir' → click closest('a')): errands → desert sightseeing pamphlets (+15% explore each, up to 3). Day 33: gave can of black paint → 1 pamphlet used (+15%). Also "A Ruined House" on map (stone rose / more errand items).
+   - **Staff of Ed = 3 parts (any order)** needed to open pyramid: Hidden Temple (Distant Woods), Spookyraven Manor cellar (see `mechanics/spookyraven-ghost-chain.md`), Copperhead Club (Wrong Side of the Tracks → Shen Copperhead) + Red Zeppelin (Ron Copperhead). Can pursue in parallel with desert.
 4. ~~**Cryptic Emanations**~~ ✅ CLOSED Day 28 (Bonerdagon)
 
 ### Guild Quests (Pastamancer)
