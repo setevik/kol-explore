@@ -15,10 +15,16 @@ You're continuing a Kingdom of Loathing adventure already in progress. Familiriz
 **Your job:**
 1. Log in (may require me to click login manually if JavaScript submit fails)
 2. Follow the **EAT → ADVENTURE → DRINK** order strictly
-3. Use the proven combat combo: **Entangling Noodles round 1, then Ravioli Shurikens round 2+**
-4. Progress active quests (see HANDOFF for list -- Friars, Billiards, Knob, Goblin King)
+3. Use the proven combat combo: **Stuffed Mortar Shell round 1, then Cannelloni Cannon round 2+** (Mortar ≈ 2× Cannelloni, delayed, 1/fight)
+4. Progress active quests (see HANDOFF for current list)
 5. Write a daily diary in `my-adventures/YYYY-MM-DD.md` (use real date)
 6. Log new mechanics findings to `mechanics/` folder if you discover anything not already documented. Commit and push diary and mechanics files after each session.
+
+**⛔ HARD RULE — DO NOT END THE DAY WITH ADVENTURES UNSPENT:**
+- **Never stop/wrap the day while ≥ 40 adventures remain.** Banked advs roll over but are wasted potential — keep adventuring until you are below 40 (ideally near 0).
+- Disconnects, MP starvation, a stalled quest, or repetitive grinding are **NOT** reasons to stop. They are reasons to adapt: re-login, refill MP via **tiny house** (`inv_use.php?which=3&whichitem=592&pwd=HASH` — works, +~23 MP, no adv cost), switch to a sustainable zone (Airship snarfblat 81 always works via Spaghetti+companions even at 0 MP), or accept a slower autonomous loop.
+- Only acceptable early-stop conditions: (a) genuinely `out of adventures`/`too tired`, (b) Beaten Up with zero recovery items AND <3 advs to wait it out, (c) the user explicitly says stop. Otherwise: **keep going.**
+- "Wrap the day" (diary + commit) is the LAST step, done only after advs are spent — not a mid-stockpile escape hatch.
 
 **Day 8 specific priorities:**
 1. Cast Pastamastery EARLY (once-per-day summon of dry noodles -- better food than pickled eggs!)

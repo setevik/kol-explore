@@ -27,6 +27,9 @@
   - giant heirloom grape tomato (Top Floor drop, ~15 adv/each — best food)
   - Combat items: 8-ball, antique hand mirror, Battlie Light Saver, brass gear, photoprotoneutron torpedo (×7), etc.
 
+## ⛔ HARD RULE: Don't End the Day With ≥40 Advs Unspent
+Banked adventures roll over but waste daily potential. **Keep adventuring until < 40 advs remain** (ideally ~0). Disconnects / MP starvation / stalled quest / boredom are NOT stop reasons — adapt instead: re-login, refill MP via tiny house (`inv_use.php?which=3&whichitem=592` — works, ~+23 MP, no adv cost), or fall back to Airship (snarfblat 81, sustainable at 0 MP via Spaghetti+companions). Only stop early if truly out of advs, Beaten-Up with no recovery, or user says so. Diary+commit is the LAST step after advs are spent.
+
 ## ⚠️ Operational Note: Extension Disconnects
 Chrome extension drops ~every 8-12 min (likely service-worker sleep when Chrome backgrounded). Each cycle = re-login + loop reinstall + finish stuck fight. Keep Chrome foregrounded. Use ~270s monitoring windows. Loop now has weapon-attack fallback at 0 MP and "Not in a Fight" recovery.
 
