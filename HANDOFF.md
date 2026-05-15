@@ -27,6 +27,15 @@
   - giant heirloom grape tomato (Top Floor drop, ~15 adv/each — best food)
   - Combat items: 8-ball, antique hand mirror, Battlie Light Saver, brass gear, photoprotoneutron torpedo (×7), etc.
 
+## ⚔️ Combat Template (Day 32 — proven)
+**Entangle-first loop**: Round 1 = **Entangling Noodles** (3 MP, STUNS for Pastamancer) → Rounds 2+ = **Stuffed Mortar Shell** then **Cannelloni Cannon**. Lasagna at HP<40%, Spaghetti at MP<6, weapon-attack at 0 MP. Track per-fight turn with `window._ft` (reset to 0 each new adventure). Stun + familiar (Marcellus heals ~40/rd) + thrall (Ned) = clean ~3-round wins at ~100% HP, near-zero Beaten Ups even with no DR. Loop also needs `window._idleN`→re-adventure after 2 idle ticks (recovers from blank/donation-banner stalls after disconnects).
+
+## 💧 MP Economy (Day 32 — SOLVED)
+**`inv_use.php?which=3&whichitem=592&pwd=HASH` (tiny house) WORKS via URL** — ~+23 MP, no adv cost, no DOM-click needed. Refill between fights to keep Mortar/Cannelloni fast. Campground rest x8 also builds a buffer (1 adv each, ~+13 MP). 17 tiny houses were available Day 32 (now ~0 — replenish from Airship).
+
+## 🎓 Guild Skills (Day 32)
+Account already knows the ENTIRE Pastamancer tree (Level 4–15, permed). Nothing to train. Brie list = full catalog. Underused already-known skills: Entangling Noodles (R1 stun), Cannelloni Cocoon (expensive full heal — often hidden from menu when MP too low), Spirit of Ravioli (DR), Spirit of Rigatoni, Weapon of the Pastalord, Thrall Unit Tactics. Buyskill param = `whichskill` not `skillid`.
+
 ## ⛔ HARD RULE: Don't End the Day With ≥40 Advs Unspent
 Banked adventures roll over but waste daily potential. **Keep adventuring until < 40 advs remain** (ideally ~0). Disconnects / MP starvation / stalled quest / boredom are NOT stop reasons — adapt instead: re-login, refill MP via tiny house (`inv_use.php?which=3&whichitem=592` — works, ~+23 MP, no adv cost), or fall back to Airship (snarfblat 81, sustainable at 0 MP via Spaghetti+companions). Only stop early if truly out of advs, Beaten-Up with no recovery, or user says so. Diary+commit is the LAST step after advs are spent.
 
@@ -45,13 +54,12 @@ Chrome extension drops ~every 8-12 min (likely service-worker sleep when Chrome 
    - A-Boo Peak ✓, Oil Peak ✓, **Twin Peak (mysterious!)** still pending
    - **Twin Peak = snarfblat 297** (confirmed Day 31). Hedge-maze topiary animals → "Great Overlook Lodge" interior.
    - Gated by 4 noncombats needing: hot res ≥4, stench res ≥4, drunkenness check, Spookyraven library quest done. **Blocked** — don't grind here without prep gear.
-2. **The Rain on the Plains is Mainly Garbage** (Castle quest) — IN PROGRESS
-   - **Castle Basement (322)** → progressed quest to "kitchen counter" (Day 31)
-   - **Castle Ground Floor (323) UNLOCKED** (Day 31) → "Top of the Castle, Ma" noncombat after Renaissance Giant
-   - **Castle Top Floor (324) UNLOCKED** (Day 31) → quest now: *"Find some way to get on top of the kitchen counter. Maybe you can get to it from above?"*
-   - **NEXT STEP**: grind Top Floor (324) until the kitchen-counter RNG noncombat fires (did NOT fire in 25+ advs Day 32 — pure attrition; may need a specific item/giant — research "Rain on the Plains" wiki mechanics)
-   - Floor entry: Basement/Ground bypass with `&ignorewarning=1`; **Top Floor needs CLICKING "I am brave or foolish" button** (URL param fails). This noncombat fires every Top Floor adv while buffed Mys < 130.
-3. ~~**Cryptic Emanations**~~ ✅ CLOSED Day 28 (Bonerdagon)
+2. ~~**The Rain on the Plains is Mainly Garbage**~~ ✅ **COMPLETE Day 32** — kitchen-counter noncombat fired on Top Floor (324) after ~22 advs; turned in at Council; reward: giant discarded plastic fork
+3. **The Holy MacGuffin** (Council, NEW Day 32) — IN PROGRESS
+   - Father (archaeologist) missing; need his diary; need a passport but offices closed → use the **Black Market**
+   - **Black Forest = snarfblat 405** (place.php?whichplace=woods → "The Black Forest" img → adventure.php?snarfblat=405)
+   - Quest text: *"Keep exploring the Black Forest until you find the Black Market."* — grind 405 for the Black Market RNG noncombat, then buy forged ID/passport, then Travel Agency at The Shore for the diary
+4. ~~**Cryptic Emanations**~~ ✅ CLOSED Day 28 (Bonerdagon)
 
 ### Guild Quests (Pastamancer)
 4. **Me and My Nemesis** — Retrieve the Epic Weapon (see `mechanics/nemesis-quest.md`)
