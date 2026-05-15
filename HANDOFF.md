@@ -1,62 +1,84 @@
-# KoL Session Handoff (latest as of Day 29 / 2026-05-11)
+# KoL Session Handoff (latest as of Day 32 / 2026-05-15)
 
-## Character Current State (End of Day 29 - FINAL)
+## Character Current State (End of Day 32 - FINAL)
 
-- **Character**: ClaudeCode, Level 10 Pastamancer
-- **Stats**: Mus 70(70), Mys 111(100), Mox 65(65) — **base Mys hit 100!** Mus +1, Mys +4, Mox +2 from Day 29
-- **Max HP/MP**: 133/197
-- **Currently**: HP 132, MP 12 (drained from grinding)
-- **Meat**: ~27,251
-- **Adventures banked**: ~92
-- **Drunk**: 4/14 (open sauce drunk), **Full**: ~15/15
+- **Character**: ClaudeCode, **Level 11** Pastamancer
+- **Stats**: Mus 78 / **Mys 111 base (124 buffed)** / Mox 73
+- **Max HP/MP**: 131/186
+- **Currently**: HP 131, MP 3 (drained from grinding)
+- **Meat**: ~42,441
+- **Adventures banked**: **165** (will roll over big)
+- **Drunk**: 0/14 (NO usable booze — see below), **Full**: 15/15
 - **Familiar**: Marcellus, 20-pound Mosquito (drains blood, heals me)
 - **Pasta Thrall**: Ned, Lvl 10 Vampieroghi (drains blood, heals me, deals damage)
-- **Equipment** (UPGRADED Day 28):
-  - Hat: fuzzy earmuffs (Power 130)
+- **Equipment** (current):
+  - Hat: fuzzy earmuffs (Power 130, +5 Mys)
   - Weapon: pasta spoon (1-2 dmg 1h) — keep for Pastamancer synergy
-  - Off-Hand: **skull of the Bonerdagon** ⭐ NEW from boss kill
-  - Pants: **snowboarder pants** (Power 100) ⭐ NEW (was Knob Goblin Uberpants Power 45)
-  - Accessory: amulet of extreme plot significance, badge of authority, Pine-Fresh air freshener
-- **Inventory hot items (Day 29 EOD)**: 
-  - **3 tiny house** (refilled from Airship drops!)
-  - 1 scroll of drastic healing, 6 soft green echo eyedrop antidote, **3 phonics down** (refilled from Airship!)
-  - **Meatcar parts**: 13 springs, 9 sprockets, 11 cogs, 10 empty meat tanks, 14 tires (need Untinker access — knoll_friendly blocked)
-  - **Buff stash**: 6 glittery mascara, 6 hair spray, 6 Ben-Gal Balm, 5 fortune cookies
-  - Spleen items: 4 hardening cream (DR 50), 3 sparkling orb, 12 strongness elixir, 7 concentrated cooking, 4 dieting pill, 1 pool shark hair oil
-  - 15 cocoa eggshell fragments, 36 dry noodles
-  - **chest of the Bonerdagon = GONE** (consumed at rollover or not actually obtained — wiki says it's a usable quest item but it's not in inventory)
+  - Off-Hand: skull of the Bonerdagon
+  - Pants: snowboarder pants (Power 100)
+  - Accessories: Baron von Ratsworth's monocle (+10% item drops), whalebone corset, imp unity ring
+- **Inventory hot items (Day 32 EOD)**:
+  - **17 tiny house** (Airship stockpile — partial HP/MP restore + clears Beaten Up)
+  - 8 scroll of drastic healing (full HP), 22 soft green echo eyedrop antidote, 0-1 phonics down
+  - **Buff stash**: ~4 glittery mascara, ~1 hair spray, ~4 Ben-Gal Balm, super-spiky hair gel
+  - Spleen: 0 hardening cream (used up — NEED MORE for Really Hard DR 50), 0 sparkling orb, ~4 strongness elixir, ~5 concentrated cooking, ~4 dieting pill
+  - ~10 cocoa eggshell fragment, 42 dry noodles
+  - **open sauce + Ye Olde Meade = UNIMPLEMENTED** ("not implemented yet" — cannot drink, no adv banking)
+  - giant heirloom grape tomato (Top Floor drop, ~15 adv/each — best food)
+  - Combat items: 8-ball, antique hand mirror, Battlie Light Saver, brass gear, photoprotoneutron torpedo (×7), etc.
+
+## ⚠️ Operational Note: Extension Disconnects
+Chrome extension drops ~every 8-12 min (likely service-worker sleep when Chrome backgrounded). Each cycle = re-login + loop reinstall + finish stuck fight. Keep Chrome foregrounded. Use ~270s monitoring windows. Loop now has weapon-attack fallback at 0 MP and "Not in a Fight" recovery.
 
 ## Login Credentials (test account, not secret)
 - Login: `ClaudeCode`
 - Password: `REDACTED`
 - URL: `https://www.kingdomofloathing.com/login.php`
 
-## Active Quests (Day 28 EOD — verified via questlog.php)
+## Active Quests (Day 32 EOD — verified via questlog.php)
 
 ### Council Quests
 1. **There Can Be Only One Topping** (Highland Lord signal fires)
    - A-Boo Peak ✓, Oil Peak ✓, **Twin Peak (mysterious!)** still pending
-   - Pantry signal needs 50% item drop gear (NOT attempted yet Day 28)
+   - **Twin Peak = snarfblat 297** (confirmed Day 31). Hedge-maze topiary animals → "Great Overlook Lodge" interior.
+   - Gated by 4 noncombats needing: hot res ≥4, stench res ≥4, drunkenness check, Spookyraven library quest done. **Blocked** — don't grind here without prep gear.
 2. **The Rain on the Plains is Mainly Garbage** (Castle quest) — IN PROGRESS
-   - Need to find source of giant garbage in Castle
-   - **Castle Basement (322) ENTERED Day 28** with Mys 110 buffed via `ignorewarning=1`
-   - Fought Furry Giant + Neckbeard Giant, no quest drops yet
-   - Ground/Top floors still locked, need to find specific drop or progress in Basement
-3. ~~**Cryptic Emanations** (Cyrpt boss)~~ ✅ **CLOSED Day 28** — Bonerdagon defeated, Council acknowledged
+   - **Castle Basement (322)** → progressed quest to "kitchen counter" (Day 31)
+   - **Castle Ground Floor (323) UNLOCKED** (Day 31) → "Top of the Castle, Ma" noncombat after Renaissance Giant
+   - **Castle Top Floor (324) UNLOCKED** (Day 31) → quest now: *"Find some way to get on top of the kitchen counter. Maybe you can get to it from above?"*
+   - **NEXT STEP**: grind Top Floor (324) until the kitchen-counter RNG noncombat fires (did NOT fire in 25+ advs Day 32 — pure attrition; may need a specific item/giant — research "Rain on the Plains" wiki mechanics)
+   - Floor entry: Basement/Ground bypass with `&ignorewarning=1`; **Top Floor needs CLICKING "I am brave or foolish" button** (URL param fails). This noncombat fires every Top Floor adv while buffed Mys < 130.
+3. ~~**Cryptic Emanations**~~ ✅ CLOSED Day 28 (Bonerdagon)
 
 ### Guild Quests (Pastamancer)
-4. **Me and My Nemesis** — Retrieve the Epic Weapon (NEMESIS QUEST — see `mechanics/nemesis-quest.md`)
-5. **My Other Car Is Made of Meat** — Parts gathered Day 28! Need to find Untinker NPC (knoll_friendly path was blocked, may need different approach)
+4. **Me and My Nemesis** — Retrieve the Epic Weapon (see `mechanics/nemesis-quest.md`)
+5. **My Other Car Is Made of Meat** — parts gathered; Untinker at Degrassi Knoll (knoll_friendly path was blocked — needs different approach)
 
-## Critical Discoveries Day 28
+## Critical Discoveries (Days 28–32)
 
-### Tiny house = best recovery item
-- Full HP/MP restore + clears Beaten Up + **no adventure cost**
-- Currently have 3. Hoard them for emergencies.
+### ⭐ Stuffed Mortar Shell (skill 3007, 8 MP) — Day 31
+- **~2× Cannelloni Cannon damage** at same Mys/MP cost
+- Damage is **delayed to NEXT round**, and it can only be cast **once per fight** (vanishes from skill menu while a Mortar is pending)
+- Optimal combo: R1 Mortar (queues ~100) → R2 Cannelloni (~55 immediate + Mortar lands) = ~155 burst over 2 rounds for 16 MP
+- Combat tick prefers Mortar if present in dropdown, else Cannelloni
 
-### Phonics down = pre-boss buff
-- +98 HP, +99 MP, +Tingly Wrists (+Mys), +Tingly Elbows (+Mys/Mox) for 3 turns each
-- Currently have 1 left.
+### Pastamastery (skill 3006, 10 MP, once/day) — Day 31
+- Summons +3 dry noodles. Only appears in skills.php on days not yet cast. "Daily Reminders" on main.php tracks it.
+
+### Tiny house — CORRECTED (Day 30)
+- **PARTIAL** restore (~21 HP, ~23 MP), NOT full. But **does clear Beaten Up**.
+- Use `scroll of drastic healing` (8 in stock) for full HP. Have **17 tiny house** (Airship stockpile).
+- Spleen/some misc items fail via `inv_use.php?which=3` URL — **DOM-click the [use] link** in inventory.php instead (see `mechanics/browser-automation.md`).
+
+### Phonics down — split behavior (Day 32)
+- Buff (Tingly Wrists/Elbows: +Mys and/or +Mox, 3 turns) → applies via URL ✅
+- +99 MP restore → does NOT apply via `inv_use.php?which=3` ❌. Use campground rest or tiny-house DOM-click for MP.
+
+### Booze items unimplemented (Day 32)
+- `open sauce` (6274), `Ye Olde Meade` (6276) → "This item is not implemented yet." Cannot drink. No rollover-booze adv banking. Need a real booze source (Bat Hole / Typical Tavern 233 / mall).
+
+### giant heirloom grape tomato (Day 32)
+- Top Floor giant drop. ~15 adventures each. Best food available — always eat these.
 
 ### Bonerdagon wing-flap mechanic (CORRECTED via wiki + observation)
 - **Boss has only 120 HP** — one Cannelloni at Mys 97+ does ~98 dmg = nearly one-shots
