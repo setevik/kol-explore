@@ -1,14 +1,18 @@
-# KoL Session Handoff (latest as of Day 33 / 2026-05-16)
+# KoL Session Handoff (latest as of Day 34 / 2026-05-16)
 
-## Character Current State (End of Day 33 - FINAL)
+## Character Current State (End of Day 34 - FINAL)
 
 - **Character**: ClaudeCode, **Level 11** Pastamancer
-- **Stats**: Mus 84 / **Mys 117 base (130 buffed w/ Pasta Oneness)** / Mox 78
-- **Max HP/MP**: 137/195
-- **Currently**: HP 137, MP 98
-- **Meat**: ~37,565
-- **Adventures**: ~4 (end of day — rests consumed the tail; nothing banked)
-- **🔺 HOLY MACGUFFIN: Arid Desert exploration = 63%** (need 100% for the pyramid, OR 15 worm-riding pages→Gnasir hooks+drum machine for +30%; worm pages refused to drop Day 33)
+- **Stats**: Mus 86 / **Mys 120 base (131 buffed w/ Pasta Oneness)** / Mox 80
+- **Max HP/MP**: 139/197
+- **Currently**: HP 139, MP ~10
+- **Meat**: ~40,919
+- **Adventures**: 0 (fully spent on Airship — HARD RULE satisfied, zero Beaten Ups all session)
+- **🔺 HOLY MACGUFFIN: Arid Desert exploration = 100% — COMPLETE. Pyramid at Desert Beach REVEALED** (`place.php?whichplace=desertbeach` → `db_pyramid1`). It needs the **Staff of Ed (3 parts)** inserted into the model's socket.
+- **Have worm-riding hooks** (from Gnasir, turning in the 15 manual pages — choice 805 option 3). drum machine never obtained, but desert is 100% so it's moot.
+
+### Day 34 quick summary
+Rollover 44 advs → ate to 78 (2× stolen sushi = +25 adv & stat points; **centipede eggs POISON you — never eat them**). Gnasir gave worm-riding hooks. Burned food-poison off in Spooky Forest (15). AUTO-CYCLE desert(364)/Oasis(122) ground exploration 63→100%. Pyramid revealed & investigated (needs Staff of Ed). Spent the tail safely farming Airship (81) at Mys 131. Airship dropped **no tiny houses** — still 0 in stock.
 - **Drunk**: 0/14 (NO usable booze — open sauce/Ye Olde Meade unimplemented), **Full**: 15/15
 - **Familiar**: Marcellus, 20-pound Mosquito (drains blood, heals me)
 - **Pasta Thrall**: Ned, Lvl 10 Vampieroghi (drains blood, heals me, deals damage)
@@ -40,8 +44,14 @@ Account already knows the ENTIRE Pastamancer tree (Level 4–15, permed). Nothin
 ## ⛔ HARD RULE: Don't End the Day With ≥40 Advs Unspent
 Banked adventures roll over but waste daily potential. **Keep adventuring until < 40 advs remain** (ideally ~0). Disconnects / MP starvation / stalled quest / boredom are NOT stop reasons — adapt instead: re-login, refill MP via tiny house (`inv_use.php?which=3&whichitem=592` — works, ~+23 MP, no adv cost), or fall back to Airship (snarfblat 81, sustainable at 0 MP via Spaghetti+companions). Only stop early if truly out of advs, Beaten-Up with no recovery, or user says so. Diary+commit is the LAST step after advs are spent.
 
-## ⚠️ Operational Note: Extension Disconnects
-Chrome extension drops ~every 8-12 min (likely service-worker sleep when Chrome backgrounded). Each cycle = re-login + loop reinstall + finish stuck fight. Keep Chrome foregrounded. Use ~270s monitoring windows. Loop now has weapon-attack fallback at 0 MP and "Not in a Fight" recovery.
+## ⚠️ Operational Note: Extension Disconnects + Tab Throttling (Day 34)
+Chrome extension drops ~every 8-12 min (service-worker sleep when backgrounded). **Worse #1 limiter: background-tab timer throttling** — a backgrounded tab's in-page `setTimeout` loop drops to ~1 tick/min. **Workaround (Day 34, works):** fire an `async` burst of ~7-9 `_tick()`s with ~4.4s spacing from one `javascript_tool` call. CDP eval "times out" at 45s **but the async keeps running in-page past the timeout** — the timeout error is benign; verify progress with a follow-up read. Each burst ≈ 2-4 advs. Keeping the Chrome tab foregrounded eliminates the throttle entirely (best fix). Also: returning page HTML/hrefs containing `pwd=`/query strings → `[BLOCKED: Cookie/query string data]`; strip query strings, return only labels + parsed params.
+
+## ⚔️ Day 34 Combat/Consumable Lessons
+- **NEVER eat centipede eggs** — inflicts "Somewhat Poisoned" (~−53 flat Mys, capped HP/MP, ~9-10 turns). Burn it off in a safe no-warning zone (Spooky Forest 15) before doing high-Mys zones.
+- **stolen sushi** = excellent food: ~12-13 adv + big substats + often a stat point each. Eat these first.
+- **Do NOT trade combat kill-speed for MP economy while 0 tiny houses.** Tried low-MP (Entangle+Spaghetti+companions) — tanky desert monsters (cactuary) out-damage it once stun lapses → HP to 26%. The proven R1 Entangle → R2 Mortar → R3+ Cannelloni combo is mandatory for safety. Accept the ~1-rest-per-fight tax.
+- **Tiny house restock is the top logistical priority** — 0 in stock all of Day 34 caused a ~50%-efficient rest spiral. Airship (81) did NOT drop any. Source them early Day 35.
 
 ## Login Credentials (test account, not secret)
 - Login: `ClaudeCode`
@@ -56,7 +66,10 @@ Chrome extension drops ~every 8-12 min (likely service-worker sleep when Chrome 
    - **Twin Peak = snarfblat 297** (confirmed Day 31). Hedge-maze topiary animals → "Great Overlook Lodge" interior.
    - Gated by 4 noncombats needing: hot res ≥4, stench res ≥4, drunkenness check, Spookyraven library quest done. **Blocked** — don't grind here without prep gear.
 2. ~~**The Rain on the Plains is Mainly Garbage**~~ ✅ **COMPLETE Day 32** — kitchen-counter noncombat fired on Top Floor (324) after ~22 advs; turned in at Council; reward: giant discarded plastic fork
-3. **The Holy MacGuffin** (Council) — IN PROGRESS, deep into Staff of Ed phase (Day 33)
+3. **The Holy MacGuffin** (Council) — desert phase **DONE (Day 34)**. **Now: assemble the Staff of Ed (3 parts, any order), insert into the pyramid socket at Desert Beach (`db_pyramid1`).**
+   - ✅ **Arid Desert 100% explored → pyramid revealed & investigated (Day 34)**. AUTO-CYCLE desert(364)/Oasis(122); Oasis warning bypass = POST form `action=ignorewarning`+`nozonewarnings=1` (NOT `ignorewarning=1`).
+   - **Staff of Ed parts still needed**: (a) Spookyraven Manor cellar, (b) Hidden Temple in Distant Woods (NOT yet unlocked — likely Spooky Forest "Arboreal Respite"→sapling→temple-map chain; no notes yet), (c) Copperhead Club → Shen (+ Red Zeppelin → Ron Copperhead). No mechanics notes for any — document as you go.
+   - Older Staff-of-Ed phase log (Day 33):
    - ✅ Black Market (Black Forest 405) → forged identification documents (`shop.php?whichshop=blackmarket` whichrow=281, 5k meat)
    - ✅ Desert Bus pass (General Store `shop.php?whichshop=generalstore` whichrow=657, 5k meat) → Desert Beach unlocked
    - ✅ The Shore Inc (snarfblat 355 / **choice 793 OPTION 1** "Distant Lands Dude Ranch" — works ONLY with forged ID in inventory) → **father's MacGuffin diary** (3 adv + 500 meat)
