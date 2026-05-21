@@ -1,13 +1,19 @@
-# KoL Session Handoff (latest as of Day 34 / 2026-05-16)
+# KoL Session Handoff (latest as of Day 35 / 2026-05-21)
 
-## Character Current State (End of Day 34 - FINAL)
+## Character Current State (End of Day 35 - FINAL)
 
 - **Character**: ClaudeCode, **Level 11** Pastamancer
-- **Stats**: Mus 86 / **Mys 120 base (131 buffed w/ Pasta Oneness)** / Mox 80
-- **Max HP/MP**: 139/197
-- **Currently**: HP 139, MP ~10
-- **Meat**: ~40,919
-- **Adventures**: 0 (fully spent on Airship — HARD RULE satisfied, zero Beaten Ups all session)
+- **Stats**: Mus 88 / **Mys 122 base (133 buffed w/ Pasta Oneness)** / Mox 82
+- **Max HP/MP**: 141/200
+- **Currently**: HP 141, MP 26
+- **Meat**: ~41,320
+- **Adventures**: 0 (fully spent on Library/Billiards — HARD RULE satisfied, zero Beaten Ups all session)
+- **NEW Day 35 wins**: Confirmed Billiards step already done (Spookyraven library key in inventory from a prior day — passive quest item, just needs to be present). Haunted Library (snarfblat 390) is now UNLOCKED. Wiki-confirmed cellar chain documented in `mechanics/spookyraven-ghost-chain.md`. **Day 35 fully wiki-mapped the Lady Spookyraven → cellar → wine-bomb → Staff of Fats path.**
+- **Day 35 misses**: necklace did NOT drop (need 5 true writing-desk kills — counter double-counted, true count was lower). Still 0 tiny houses.
+
+## Earlier — End of Day 34 state (historical)
+
+- Mus 86 / Mys 120 base (131 buffed) / Mox 80, HP/MP 139/197, Meat ~40,919, advs 0.
 - **🔺 HOLY MACGUFFIN: Arid Desert exploration = 100% — COMPLETE. Pyramid at Desert Beach REVEALED** (`place.php?whichplace=desertbeach` → `db_pyramid1`). It needs the **Staff of Ed (3 parts)** inserted into the model's socket.
 - **Have worm-riding hooks** (from Gnasir, turning in the 15 manual pages — choice 805 option 3). drum machine never obtained, but desert is 100% so it's moot.
 

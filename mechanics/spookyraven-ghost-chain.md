@@ -2,7 +2,25 @@
 
 ## Overview
 
-This is a multi-step side quest (unrelated to Council quests) that opens Spookyraven Manor's upper floors. Rewards at the end: massive stat gains (+100 in each substat + 1 point to each primary) and likely access to the third floor.
+This is a multi-step side quest that opens Spookyraven Manor's upper floors AND, critically, **gates the Spookyraven Manor cellar** — which is the Staff of Fats sub-quest for the Holy MacGuffin. Until the full ghost chain is done and the **"We'll All Be Flat"** encounter fires in the Haunted Ballroom, the cellar (`place.php?whichplace=manor4`) returns "You shouldn't be down here yet."
+
+Rewards at the end: massive stat gains (+100 in each substat + 1 point to each primary), Ballroom access, and the cellar unlock path.
+
+## Confirmed zone IDs (verified Day 35)
+
+- 388 = Haunted Kitchen
+- 389 = Haunted Conservatory
+- 390 = Haunted Library
+- 391 = Haunted Billiards Room
+- 392 = Haunted Bathroom
+- 393 = Haunted Bedroom
+- 394 = Haunted Gallery
+- 395 = Haunted Ballroom
+- 113 = Haunted Pantry (also listed on manor1)
+- `place.php?whichplace=manor1` = First Floor
+- `place.php?whichplace=manor2` = Second Floor (Stairs Up from manor1)
+- `place.php?whichplace=manor3` = Third Floor (lady's chamber via `manor3_ladys`)
+- `place.php?whichplace=manor4` = Cellar (gated until "We'll All Be Flat")
 
 ## Chain Walkthrough
 
@@ -10,7 +28,9 @@ This is a multi-step side quest (unrelated to Council quests) that opens Spookyr
 You need the **Spookyraven library key** (from beating the Billiards Room pool-shark ghost). See `pool-skill.md`.
 
 ### Step 1: Find the Necklace
-Zone: **The Haunted Library** (snarfblat 390). Grind combats (chalkdust wraiths, animated dictionaries, etc.) until you find **Lady Spookyraven's necklace**. Rare-ish drop; took me ~10 advs.
+Zone: **The Haunted Library** (snarfblat 390). **CONFIRMED via wiki Day 35: the necklace is a GUARANTEED drop from the 5th writing desk you defeat in the Library — NOT a random rate.** The Library has multiple monsters (writing desks, bookbats, banshee librarians); only writing desks count. With Library NCs (book readings) being very frequent, expect to burn 30+ advs just to encounter 5 actual writing desks.
+
+⚠️ Counter trap (learned Day 35): a naive "monster name in mainpane text" detector will double-count after disconnects / page reloads / mid-fight reads. Build the counter to gate on per-fight monotonic round numbers that reset *only* on the explicit `Adventure Again` page navigation.
 
 Also look out for:
 - **"Take a Look, it's in a Book!"** choice — read chapters for +stats or minor rewards. *Rise of the House of Spookyraven* tells the Lord's story; also *Better Haunted Homes and Conservatories Cookbook* (recipes) and *Ancient Forbidden Unspeakable Evil, a Love Story* (spells).
@@ -88,6 +108,12 @@ Lady Spookyraven departs peacefully. The ghost chain is complete.
 After the dance, Stairs Up on manor2 still gives: *"You hear a terrifying moaning and wailing from upstairs, and you lose your nerve by the fifth step."*
 
 Unclear what unlocks it — possibly a quest item from the Ballroom, or more Ballroom grinding, or a specific outfit. TBD.
+
+### Step 7: Cellar Unlock — "We'll All Be Flat" (Holy MacGuffin gate)
+
+After the dance, continue adventuring in the **Haunted Ballroom (395)**. Eventually the **"We'll All Be Flat"** noncombat fires → **opens the Spookyraven Manor Cellar** (`place.php?whichplace=manor4`). This is the entry point for the Staff of Fats chain (Haunted Wine Cellar / Laundry / Boiler Room → wine bomb → blow wall → Staff of Fats). See `staff-of-ed-quest.md` for the wine-bomb chain.
+
+Per wiki: once cellar is open, also useful — get **Lord Spookyraven's spectacles**, equip them, click the cellar wall for a glyph/list, use the list to identify which wine bottles match the symbols (the wine-bottle puzzle).
 
 ## Useful Drops by Zone
 
