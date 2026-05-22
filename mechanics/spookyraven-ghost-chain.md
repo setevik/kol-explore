@@ -111,9 +111,33 @@ Unclear what unlocks it — possibly a quest item from the Ballroom, or more Bal
 
 ### Step 7: Cellar Unlock — "We'll All Be Flat" (Holy MacGuffin gate)
 
-After the dance, continue adventuring in the **Haunted Ballroom (395)**. Eventually the **"We'll All Be Flat"** noncombat fires → **opens the Spookyraven Manor Cellar** (`place.php?whichplace=manor4`). This is the entry point for the Staff of Fats chain (Haunted Wine Cellar / Laundry / Boiler Room → wine bomb → blow wall → Staff of Fats). See `staff-of-ed-quest.md` for the wine-bomb chain.
+After the dance, continue adventuring in the **Haunted Ballroom (395)**. The **"We'll All Be Flat"** noncombat fires → **opens the Spookyraven Manor Cellar** (`place.php?whichplace=manor4`).
 
-Per wiki: once cellar is open, also useful — get **Lord Spookyraven's spectacles**, equip them, click the cellar wall for a glyph/list, use the list to identify which wine bottles match the symbols (the wine-bottle puzzle).
+**VERIFIED Day 36**: On a character that already finished the Lady chain in a prior playthrough, manor2 is already open and the Ballroom NC fires within a few turns — no need to re-do necklace/finery/dance. **Always probe `manor2` directly first** to see if the chain is already done before grinding the Library for the necklace.
+
+### Step 8: Staff of Fats — dissolve the Suspicious Masonry (MODERN mechanic, VERIFIED Day 36)
+
+NOT a wine bomb (that's older lore). The cellar's **Suspicious Masonry** wall
+(`place.php?whichplace=manor4&action=manor4_chamberwall`) is dissolved with a
+**mortar-dissolving solution**, crafted from 6 room-specific ingredients (each a normal
+combat drop, ~1 per 6-7 fights):
+
+| Ingredient | Room | snarfblat |
+| --- | --- | --- |
+| loosening powder | Haunted Kitchen | 388 |
+| powdered castoreum | Haunted Conservatory | 389 |
+| drain dissolver | Haunted Bathroom | 392 |
+| triple-distilled turpentine | Haunted Gallery | 394 |
+| detartrated anhydrous sublicalc | "Lab" (locate — maybe Boiler Room 399?) | ? |
+| triatomaceous dust | "Storage Room" (locate — maybe Laundry 400?) | ? |
+
+- Recipe item: **"recipe: mortar-dissolving solution"** (id 7495), dropped by first
+  clicking the wall; [use] it to learn the recipe.
+- Cellar room snarfblats: **Boiler Room 399, Laundry Room 400, Wine Cellar 401.**
+- Once all 6 held → craft the solution → use on the Suspicious Masonry → reach the
+  Summoning Chamber → **Staff of Fats** (one of 3 Staff of Ed parts).
+- **The Wine Cellar (401) grind for "Chateau de Vinegar" was a dead end** — that's the old
+  wine-bomb path and is NOT how the current quest works. Ignore wine racks / vinegar.
 
 ## Useful Drops by Zone
 

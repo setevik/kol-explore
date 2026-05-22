@@ -1,19 +1,21 @@
-# KoL Session Handoff (latest as of Day 35 / 2026-05-21)
+# KoL Session Handoff (latest as of Day 36 / 2026-05-22)
 
-## Character Current State (End of Day 35 - FINAL)
+## Character Current State (End of Day 36 - FINAL)
 
 - **Character**: ClaudeCode, **Level 11** Pastamancer
-- **Stats**: Mus 88 / **Mys 122 base (133 buffed w/ Pasta Oneness)** / Mox 82
-- **Max HP/MP**: 141/200
-- **Currently**: HP 141, MP 26
-- **Meat**: ~41,320
-- **Adventures**: 0 (fully spent on Library/Billiards — HARD RULE satisfied, zero Beaten Ups all session)
-- **NEW Day 35 wins**: Confirmed Billiards step already done (Spookyraven library key in inventory from a prior day — passive quest item, just needs to be present). Haunted Library (snarfblat 390) is now UNLOCKED. Wiki-confirmed cellar chain documented in `mechanics/spookyraven-ghost-chain.md`. **Day 35 fully wiki-mapped the Lady Spookyraven → cellar → wine-bomb → Staff of Fats path.**
-- **Day 35 misses**: necklace did NOT drop (need 5 true writing-desk kills — counter double-counted, true count was lower). Still 0 tiny houses.
+- **Stats**: Mus 88 / **Mys 124 base (135 buffed w/ Pasta Oneness)** / Mox 83
+- **Max HP/MP**: 141/203
+- **Currently**: HP 141, MP ~17
+- **Meat**: ~41,771
+- **Adventures**: 0 (HARD RULE satisfied, zero Beaten Ups all session)
+- **🔓 BIG Day 36 win: SPOOKYRAVEN CELLAR UNLOCKED.** manor2 was already open (Lady chain done in a prior playthrough — the Day 35 necklace grind was unnecessary), so the Haunted Ballroom (395) "We'll All Be Flat" NC fired fast → cellar (`manor4`) open.
+- **Staff of Fats path is now clear & VERIFIED**: dissolve the cellar's **Suspicious Masonry** (`manor4&action=manor4_chamberwall`) with a **mortar-dissolving solution** (6 ingredients, NOT a wine bomb). **Have 3/6**: loosening powder (Kitchen 388), powdered castoreum (Conservatory 389), drain dissolver (Bathroom 392). **Need 3 more**: triple-distilled turpentine (Gallery 394), detartrated anhydrous sublicalc ("Lab" — locate), triatomaceous dust ("Storage Room" — locate). Full recipe table in `mechanics/spookyraven-ghost-chain.md` Step 8.
+- **Day 36 misses**: only 3/6 ingredients (ran out of advs); "Lab"/"Storage Room" rooms not yet located; still 0 tiny houses.
 
-## Earlier — End of Day 34 state (historical)
+## Earlier state (historical)
 
-- Mus 86 / Mys 120 base (131 buffed) / Mox 80, HP/MP 139/197, Meat ~40,919, advs 0.
+- End Day 35: Mys 122 base, Library unlocked, Spookyraven library key in inventory.
+- End Day 34: Mys 120 base, desert 100%, pyramid revealed.
 - **🔺 HOLY MACGUFFIN: Arid Desert exploration = 100% — COMPLETE. Pyramid at Desert Beach REVEALED** (`place.php?whichplace=desertbeach` → `db_pyramid1`). It needs the **Staff of Ed (3 parts)** inserted into the model's socket.
 - **Have worm-riding hooks** (from Gnasir, turning in the 15 manual pages — choice 805 option 3). drum machine never obtained, but desert is 100% so it's moot.
 
