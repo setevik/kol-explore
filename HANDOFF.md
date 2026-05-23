@@ -1,19 +1,40 @@
-# KoL Session Handoff (latest as of Day 36 / 2026-05-22)
+# KoL Session Handoff (latest as of Day 37 / 2026-05-23)
 
-## Character Current State (End of Day 36 - FINAL)
+## Character Current State (End of Day 37 - FINAL)
 
 - **Character**: ClaudeCode, **Level 11** Pastamancer
-- **Stats**: Mus 88 / **Mys 124 base (135 buffed w/ Pasta Oneness)** / Mox 83
-- **Max HP/MP**: 141/203
-- **Currently**: HP 141, MP ~17
-- **Meat**: ~41,771
+- **Stats**: Mus 90 / **Mys 126 base (137 buffed w/ Pasta Oneness)** / Mox 85
+- **Max HP/MP**: 143/206
+- **Currently**: HP 143, MP ~17
+- **Meat**: ~42,833
 - **Adventures**: 0 (HARD RULE satisfied, zero Beaten Ups all session)
-- **🔓 BIG Day 36 win: SPOOKYRAVEN CELLAR UNLOCKED.** manor2 was already open (Lady chain done in a prior playthrough — the Day 35 necklace grind was unnecessary), so the Haunted Ballroom (395) "We'll All Be Flat" NC fired fast → cellar (`manor4`) open.
-- **Staff of Fats path is now clear & VERIFIED**: dissolve the cellar's **Suspicious Masonry** (`manor4&action=manor4_chamberwall`) with a **mortar-dissolving solution** (6 ingredients, NOT a wine bomb). **Have 3/6**: loosening powder (Kitchen 388), powdered castoreum (Conservatory 389), drain dissolver (Bathroom 392). **Need 3 more**: triple-distilled turpentine (Gallery 394), detartrated anhydrous sublicalc ("Lab" — locate), triatomaceous dust ("Storage Room" — locate). Full recipe table in `mechanics/spookyraven-ghost-chain.md` Step 8.
-- **Day 36 misses**: only 3/6 ingredients (ran out of advs); "Lab"/"Storage Room" rooms not yet located; still 0 tiny houses.
+- **🏆 BIG Day 37 win: SPOOKYRAVEN CELLAR QUEST COMPLETE — Eye of Ed acquired (1 of 3 Staff of Ed parts).**
+  - All 6 mortar-dissolving reagents collected (today added: turpentine, sublicalc, triatomaceous dust).
+  - **Lab + Storage Room are on manor3 (3rd floor): Lab = 396, Storage Room = 398.** (Old hypothesis "Boiler Room 399 = Lab" was wrong.)
+  - **Wall auto-mixes** with all 6 reagents (no manual crafting needed).
+  - **Lord Spookyraven** killed in 3 rounds via Entangle→Mortar→Cannelloni — Mortar's queued ~200-dmg detonation is decisive on bosses.
+  - Drops: **Eye of Ed** + Lord Spookyraven's ear trumpet + +Mus point + heavy stat XP.
+- **Big correction**: cellar gives **Eye of Ed**, NOT Staff of Fats as old notes claimed. Staff of Fats is from **Palindome (Dr. Awkward boss)** — separate questline (Mr. Alarm → wet stunt nut stew → Mega Gem → Palindome → Dr. Awkward). Mechanics files updated.
+- **Cannelloni Cannon damage element**: landed "hailstones" on Lord Spookyraven → looks like **COLD**. Should let us beat Hidden City protector spirits (immune to physical, need elemental). Verify in-game.
+- **Day 37 misses**: still 0 tiny houses (Airship grind didn't drop any in ~10 fights).
+
+## Staff of Ed assembly status (1/3 components)
+
+```
+ancient amulet (Hidden City — protector spirits + Protector Spectre boss)  [❌]
+                  +
+Eye of Ed (Spookyraven cellar — Lord Spookyraven boss)                     [✅ Day 37]
+                  ↓
+            headpiece of the Staff of Ed
+                  +
+Staff of Fats (Palindome — Dr. Awkward boss)                               [❌]
+                  ↓
+              STAFF OF ED → insert into pyramid socket (Desert Beach)
+```
 
 ## Earlier state (historical)
 
+- End Day 36: Mys 124 base, cellar unlocked, 3/6 reagents.
 - End Day 35: Mys 122 base, Library unlocked, Spookyraven library key in inventory.
 - End Day 34: Mys 120 base, desert 100%, pyramid revealed.
 - **🔺 HOLY MACGUFFIN: Arid Desert exploration = 100% — COMPLETE. Pyramid at Desert Beach REVEALED** (`place.php?whichplace=desertbeach` → `db_pyramid1`). It needs the **Staff of Ed (3 parts)** inserted into the model's socket.

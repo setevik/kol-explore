@@ -115,29 +115,39 @@ After the dance, continue adventuring in the **Haunted Ballroom (395)**. The **"
 
 **VERIFIED Day 36**: On a character that already finished the Lady chain in a prior playthrough, manor2 is already open and the Ballroom NC fires within a few turns — no need to re-do necklace/finery/dance. **Always probe `manor2` directly first** to see if the chain is already done before grinding the Library for the necklace.
 
-### Step 8: Staff of Fats — dissolve the Suspicious Masonry (MODERN mechanic, VERIFIED Day 36)
+### Step 8: Cellar Boss — dissolve the Suspicious Masonry → Lord Spookyraven → **Eye of Ed** (FULLY VERIFIED Day 37)
 
-NOT a wine bomb (that's older lore). The cellar's **Suspicious Masonry** wall
-(`place.php?whichplace=manor4&action=manor4_chamberwall`) is dissolved with a
-**mortar-dissolving solution**, crafted from 6 room-specific ingredients (each a normal
-combat drop, ~1 per 6-7 fights):
+**Correction (Day 37):** the cellar boss drops the **Eye of Ed**, NOT the Staff of Fats. Old notes were wrong. Staff of Fats comes from the **Palindome** (Dr. Awkward boss) — separate questline.
 
-| Ingredient | Room | snarfblat |
+The cellar's **Suspicious Masonry** wall (`place.php?whichplace=manor4&action=manor4_chamberwall`) is dissolved with a **mortar-dissolving solution**, made from 6 room-specific ingredients. Each ingredient is a normal combat drop, ~1 per 6-10 fights:
+
+| Ingredient | Room | snarfblat (VERIFIED Day 37) |
 | --- | --- | --- |
 | loosening powder | Haunted Kitchen | 388 |
 | powdered castoreum | Haunted Conservatory | 389 |
 | drain dissolver | Haunted Bathroom | 392 |
 | triple-distilled turpentine | Haunted Gallery | 394 |
-| detartrated anhydrous sublicalc | "Lab" (locate — maybe Boiler Room 399?) | ? |
-| triatomaceous dust | "Storage Room" (locate — maybe Laundry 400?) | ? |
+| detartrated anhydrous sublicalc | **Haunted Laboratory (manor3 / 3rd floor)** | **396** |
+| triatomaceous dust | **Haunted Storage Room (manor3 / 3rd floor)** | **398** |
 
-- Recipe item: **"recipe: mortar-dissolving solution"** (id 7495), dropped by first
-  clicking the wall; [use] it to learn the recipe.
-- Cellar room snarfblats: **Boiler Room 399, Laundry Room 400, Wine Cellar 401.**
-- Once all 6 held → craft the solution → use on the Suspicious Masonry → reach the
-  Summoning Chamber → **Staff of Fats** (one of 3 Staff of Ed parts).
-- **The Wine Cellar (401) grind for "Chateau de Vinegar" was a dead end** — that's the old
-  wine-bomb path and is NOT how the current quest works. Ignore wine racks / vinegar.
+manor3 also has: Haunted Nursery (397, not part of the recipe — flavor/XP) and Lady Spookyraven NPC (`manor3&action=manor3_ladys`).
+
+Cellar (manor4) room snarfblats: **Boiler Room 399, Laundry Room 400, Wine Cellar 401.** (None of these drop a mortar reagent — the Lab and Storage Room are upstairs on manor3, not downstairs in the cellar.)
+
+**Crafting the solution: NOT needed manually.** When you visit the Suspicious Masonry wall holding all 6 reagents, the game auto-mixes and consumes them: *"You mix the mortar-dissolving ingredients into a nasty-smelling paste, and smear it all over the brickwork. ... The wall collapses."* No `craft.php` step.
+
+The wall collapse reveals **The Summoning Chamber** (`place.php?whichplace=manor4&action=manor4_chamberboss`) → boss fight with **Lord Spookyraven**.
+
+**Lord Spookyraven (Day 37 fight log):**
+- Entangling Noodles R1: stuns him (Pastamancer); Marcellus and Ned heal me ~50 HP off him.
+- Stuffed Mortar Shell R2: queued.
+- Cannelloni Cannon R3 (61 damage, "hailstones" — implies COLD elemental) triggers the queued Mortar → ~200 damage finisher. Done in 3 rounds, full HP throughout.
+- **Drops: Eye of Ed (Staff of Ed component), Lord Spookyraven's ear trumpet, +stat XP, +Mus point.**
+
+**The Wine Cellar (401) "Chateau de Vinegar" path is a dead end** — that was the old wine-bomb mechanic; in the current quest it's irrelevant.
+
+### Note: Cannelloni Cannon damage element
+The cannon described "hailstones" on Lord Spookyraven → strongly suggests **COLD** element. This matters for the Hidden City protector spirits + Protector Spectre, which are immune to physical and need elemental damage. Verify in-game before committing to the Hidden City chain.
 
 ## Useful Drops by Zone
 

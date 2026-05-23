@@ -23,7 +23,22 @@ The in-game charpane lists these active objectives:
 - Find your way into the cellar of Spookyraven Manor
 - Investigate the pyramid in Desert Beach ✅ (done Day 34)
 
-## Component 1 — Staff of Fats (Spookyraven Manor cellar)
+## Component 1 — Staff of Fats (Palindome / Dr. Awkward)
+
+**CORRECTION (Day 37):** the Spookyraven cellar drops the **Eye of Ed**, not the Staff
+of Fats. The actual Staff of Fats comes from the **Palindome**: Mr. Alarm gives the
+Mega Gem after you cook a **wet stunt nut stew** (bird rib + lion oil from Whitey's
+Grove + stunt nuts from the Palindome). Equip Mega Gem, re-enter the Palindome →
+**Dr. Awkward** boss → drops **Staff of Fats** (and the Drowsy Sword).
+
+The wine-cellar / wine-bomb / unstable-fulminate path below is **the old game's lore**
+and does not apply to the current cellar (which uses the mortar-dissolving solution
+instead — see `spookyraven-ghost-chain.md` Step 8). Keeping the historical wine-bomb
+notes below for reference only.
+
+---
+
+### Historical (pre-revamp) Spookyraven wine-bomb path — DOES NOT APPLY
 
 Route: build a **wine bomb** to blow open a wall in the Haunted Wine Cellar.
 
@@ -62,11 +77,15 @@ Spookyraven side-chain, not the cellar itself). Verify the cellar entrance in-ga
 4. With 4 stone triangles → enter **A Massive Ziggurat** → defeat the **Protector
    Spectre** (also physical-immune, needs elemental) → **ancient amulet**.
 
-## Component 3 — Eye of Ed (Hidden Temple)
+## Component 3 — Eye of Ed (Spookyraven Manor cellar) ✅ ACQUIRED Day 37
 
-The Hidden Temple yields the **Eye of Ed** (the third base item). Search excerpts are
-fuzzy on the exact temple noncombat for the Eye vs. the Nostril; both come from Hidden
-Temple adventuring. **Verify which Hidden Temple noncombat gives the Eye of Ed in-game.**
+**CORRECTION (verified Day 37):** the Eye of Ed comes from the **Spookyraven cellar**
+boss (Lord Spookyraven), NOT the Hidden Temple. See `spookyraven-ghost-chain.md` Step 8
+for the full chain (Lady ghost chain → Ballroom "We'll All Be Flat" → cellar opens →
+6 mortar-dissolving reagents → wall auto-dissolves → Lord Spookyraven boss → Eye of Ed).
+
+The Hidden Temple is still required, but for **Component 2 (ancient amulet)** — it's the
+gateway to the Hidden City.
 
 ## The Copperhead Club / Red Zeppelin sub-quest (Shen + Ron)
 
