@@ -1,13 +1,19 @@
-# KoL Session Handoff (latest as of Day 37 / 2026-05-23)
+# KoL Session Handoff (latest as of Day 38 / 2026-05-24)
 
-## Character Current State (End of Day 37 - FINAL)
+## Character Current State (End of Day 38 - FINAL)
 
 - **Character**: ClaudeCode, **Level 11** Pastamancer
-- **Stats**: Mus 90 / **Mys 126 base (137 buffed w/ Pasta Oneness)** / Mox 85
-- **Max HP/MP**: 143/206
-- **Currently**: HP 143, MP ~17
-- **Meat**: ~42,833
+- **Stats**: Mus 90 / **Mys 127 base (138 buffed w/ Pasta Oneness)** / Mox 86
+- **Max HP/MP**: 143/207
+- **Currently**: HP 143, MP ~24
+- **Meat**: ~44,511
 - **Adventures**: 0 (HARD RULE satisfied, zero Beaten Ups all session)
+- **Day 38 outcome: slow.** Tried Dakota Fanning (needs 3 items I lack: bendy soda straw / high-octane plant food / sewing needle). Pivoted to Spooky Forest Arboreal Respite chain. NC fired ~4 times. Sub-NC tree more nested than expected ("Arboreal opt 1 'Follow the old road' → 'Road Less Traveled' opt 2 'Knock on the cottage door' → ???") — chain ended without acquiring sapling. **0/3 Hidden Temple unlock items acquired.** Stats +1 each base from grinding. Still 0 tiny houses. Eye of Ed (from Day 37) intact.
+- **Day 39 plan**: step through Arboreal Respite manually next time it fires, inspect the cottage-door sub-screen's option labels, then encode the correct path. Sapling expected from a "buy a tree for 100 meat" option at "Tree's Last Stand" inside the Road Less Traveled chain.
+
+## Earlier — End of Day 37 state (historical)
+
+- Mus 90 / Mys 126 base (137 buffed) / Mox 85, HP/MP 143/206, Meat ~42,833, advs 0.
 - **🏆 BIG Day 37 win: SPOOKYRAVEN CELLAR QUEST COMPLETE — Eye of Ed acquired (1 of 3 Staff of Ed parts).**
   - All 6 mortar-dissolving reagents collected (today added: turpentine, sublicalc, triatomaceous dust).
   - **Lab + Storage Room are on manor3 (3rd floor): Lab = 396, Storage Room = 398.** (Old hypothesis "Boiler Room 399 = Lab" was wrong.)
