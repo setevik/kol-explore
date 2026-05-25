@@ -26,32 +26,39 @@ Bring all three back → he climbs up, and you can follow → Hidden Temple unlo
 
 Adventure in **Spooky Forest (15)** until **Arboreal Respite** NC fires (~1 in 6 advs).
 
-### Top-level options
+### VERIFIED CHOICE TREE (Day 39)
 
-- **Opt 1** "Follow the old road" → **The Road Less Traveled** sub-NC.
-- **Opt 2** "..." → **Consciousness of a Stream** (per wiki: gives larva / vampire
-  hearts / a quest coin / possibly the tree-holed coin).
-- **Opt 3** "..." → **Through Thicket and Thinnet** (fertilizer; with a tree-holed coin,
-  unlocks **O Lith, Mon** for the temple map).
+```
+Arboreal Respite (choice 502)  [~1 in 6 advs in Spooky Forest 15]
+  opt 1 "Follow the old road"  → Road Less Traveled (503)
+       opt 1 Follow the ruts
+       opt 2 Knock on the cottage door  → Footprints (27) → Corpse in the Copse (seal gear, IGNORE)
+       opt 3 Talk to the hunter         → Tree's Last Stand (504)
+                                            opt 1/2 Sell bar skin(s)
+                                            opt 3 Buy a tree (100 Meat) → 🌱 spooky sapling
+                                            opt 4 Take your leave
+  opt 2 "Explore the stream"   → Consciousness of a Stream (505)
+       opt 1 March to the marsh      → random (Fairy Gravy Ring → mushrooms)
+       opt 2 Squeeze into the cave   → Chester Meatpot → +300 Meat + 🪙 tree-holed coin
+       opt 3 Go further upstream     → vampire encounter (choice 46)
+  opt 3 "Brave the dark thicket" → Through Thicket and Thinnet (506)
+       opt 1 Follow the even darker path  → A Three-Tined Fork (26, zone unlock — IGNORE for Temple)
+       opt 2 Investigate the dense foliage → 🌿 Spooky-Gro Fertilizer
+       opt 3 Follow the coin  [appears with tree-holed coin]  → O Lith, Mon (507)
+                                                                  opt 1 Insert coin → 🗺️ Spooky Temple map
+       opt 4 Give up and go back
+```
 
-### Needed items
+### Needed items (all 3 to unlock Temple)
 
-1. **Spooky Sapling** — Arboreal opt 1 → Road Less Traveled → opt 2 "Knock on the
-   cottage door" → expected to lead to **"Tree's Last Stand"** sub-NC → choose
-   "Buy a tree for 100 meat" (or similar wording). **VERIFY THE EXACT SUB-OPTION LABEL.**
-   Day 38 tried this path and the chain ended without acquiring a sapling — the
-   third-level option my auto-handler picked wasn't the buy-tree one.
-2. **Spooky-Gro Fertilizer** — Arboreal opt 3 → Through Thicket and Thinnet → pick the
-   fertilizer-named sub-option. Verify exact label.
-3. **Spooky Temple Map** — needs a **tree-holed coin** first. Tree-holed coin comes from
-   Consciousness of a Stream (opt 2) sub-options — verify. Then Arboreal opt 3 → Through
-   Thicket and Thinnet → "Follow the coin" → **O Lith, Mon** → trade coin for map.
+1. **Spooky Sapling** — Arboreal opt 1 → Road Less Traveled **opt 3 (Talk to the hunter)** → Tree's Last Stand opt 3 (Buy a tree for 100 Meat). **NOT** opt 2 "Knock on the cottage door" (Day 38's mistake — that's a flavor dead end).
+2. **Spooky-Gro Fertilizer** — Arboreal opt 3 → Through Thicket and Thinnet opt 2 (Investigate the dense foliage). Single-step.
+3. **tree-holed coin** — Arboreal opt 2 → Consciousness of a Stream opt 2 (Squeeze into the cave). Also yields +300 Meat from Chester Meatpot's corpse.
+4. **Spooky Temple map** — with tree-holed coin in inventory: Arboreal opt 3 → Through Thicket and Thinnet opt 3 (Follow the coin — only appears with the coin) → O Lith, Mon opt 1 (Insert coin).
 
 ### Final step
 
-Once you have all three items (Sapling + Fertilizer + Map), **`use` the Spooky Temple
-Map** in inventory → Hidden Temple location is revealed → `adventure.php?snarfblat=280`
-becomes accessible.
+Once Sapling + Fertilizer + Map are held, `inv_use.php?which=3&whichitem=74&pwd=…` (map id 74) → "You plant your Spooky Sapling… spray Spooky-Gro Fertilizer… grows to 20 feet… you can easily climb the branches" → `adventure.php?snarfblat=280` (The Hidden Temple) is now adventureable.
 
 ### Backup: buy spooky sapling for 100 meat from the Hermit
 
@@ -71,6 +78,15 @@ shortcut. Skip.
 4. Repeat for fertilizer (opt 3 → Thicket and Thinnet) and tree-holed coin
    (opt 2 → Stream) and map (opt 3 with coin → "Follow the coin" → O Lith, Mon).
 5. Use the map → Hidden Temple unlocks.
+
+## Inside the Hidden Temple — verified Day 39 (snarfblat 280)
+
+- Combat monsters include **craven carven raven** (Poe-themed flavor).
+- **Hidden Heart of the Hidden Temple** (choice 580) — central junction:
+  - opt 1 "Go through the door" — door has a "carved stone hemisphere" — likely needs **Nostril of the Serpent** key (probably from "Such Great Heights" NC, not yet observed).
+  - opt 2 "Go down the stairs" → **Confusing Buttons** (583): "Press a button at random" — random press **ejects you from the temple** (wastes the adventure). Per wiki, **stone wool (Stone-Faced effect)** lets you pick a specific NC option here — invest in stone wool first if grinding the temple.
+  - opt 3 "Go back the way you came".
+- Need to find **"Such Great Heights"** NC → climb down vines → **Nostril of the Serpent** (Hidden City key). Verify next session.
 
 ## After unlock: Hidden Temple → Hidden City → ancient amulet
 

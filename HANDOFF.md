@@ -1,13 +1,19 @@
-# KoL Session Handoff (latest as of Day 38 / 2026-05-24)
+# KoL Session Handoff (latest as of Day 39 / 2026-05-25)
 
-## Character Current State (End of Day 38 - FINAL)
+## Character Current State (End of Day 39 - FINAL)
 
 - **Character**: ClaudeCode, **Level 11** Pastamancer
-- **Stats**: Mus 90 / **Mys 127 base (138 buffed w/ Pasta Oneness)** / Mox 86
-- **Max HP/MP**: 143/207
-- **Currently**: HP 143, MP ~24
-- **Meat**: ~44,511
+- **Stats**: Mus 91 / **Mys 127 base (138 buffed w/ Pasta Oneness)** / Mox 86
+- **Max HP/MP**: 144/207
+- **Currently**: HP 144, MP ~16
+- **Meat**: ~44,877
 - **Adventures**: 0 (HARD RULE satisfied, zero Beaten Ups all session)
+- **🏛️ BIG Day 39 win: HIDDEN TEMPLE UNLOCKED.** Manually walked the entire Spooky Forest Arboreal Respite tree. Collected Spooky Sapling (Road Less Traveled **opt 3 hunter** → Tree's Last Stand opt 3 "Buy a tree" 100 Meat), Spooky-Gro Fertilizer (Thicket opt 2), tree-holed coin (Stream opt 2 cave, +300 Meat bonus), Spooky Temple map (Thicket opt 3 "Follow the coin" → O Lith Mon opt 1). Used map (id 74) → Temple unlocked → entered, found Hidden Heart (choice 580) and Confusing Buttons (583, random press = eject — needs stone wool for Stone-Faced effect per wiki).
+- **Lesson**: Day 38's "Knock on cottage door" was a flavor dead end; the right path is **"Talk to the hunter"** (opt 3 of Road Less Traveled). Verified tree saved in `mechanics/hidden-temple-unlock.md`.
+
+## Earlier — End of Day 38 state (historical)
+
+- Mus 90 / Mys 127 base (138 buffed) / Mox 86, HP/MP 143/207, Meat ~44,511, advs 0.
 - **Day 38 outcome: slow.** Tried Dakota Fanning (needs 3 items I lack: bendy soda straw / high-octane plant food / sewing needle). Pivoted to Spooky Forest Arboreal Respite chain. NC fired ~4 times. Sub-NC tree more nested than expected ("Arboreal opt 1 'Follow the old road' → 'Road Less Traveled' opt 2 'Knock on the cottage door' → ???") — chain ended without acquiring sapling. **0/3 Hidden Temple unlock items acquired.** Stats +1 each base from grinding. Still 0 tiny houses. Eye of Ed (from Day 37) intact.
 - **Day 39 plan**: step through Arboreal Respite manually next time it fires, inspect the cottage-door sub-screen's option labels, then encode the correct path. Sapling expected from a "buy a tree for 100 meat" option at "Tree's Last Stand" inside the Road Less Traveled chain.
 
