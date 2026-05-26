@@ -1,13 +1,21 @@
-# KoL Session Handoff (latest as of Day 39 / 2026-05-25)
+# KoL Session Handoff (latest as of Day 40 / 2026-05-26)
 
-## Character Current State (End of Day 39 - FINAL)
+## Character Current State (End of Day 40 - FINAL)
 
 - **Character**: ClaudeCode, **Level 11** Pastamancer
-- **Stats**: Mus 91 / **Mys 127 base (138 buffed w/ Pasta Oneness)** / Mox 86
-- **Max HP/MP**: 144/207
-- **Currently**: HP 144, MP ~16
-- **Meat**: ~44,877
+- **Stats**: Mus 91 / **Mys 128 base (139 buffed w/ Pasta Oneness)** / Mox 87
+- **Max HP/MP**: 144/209
+- **Currently**: HP 144, MP ~24
+- **Meat**: ~44,937
 - **Adventures**: 0 (HARD RULE satisfied, zero Beaten Ups all session)
+- **🐍 Day 40 win: Nostril of the Serpent acquired** (Hidden City key) via Such Great Heights (choice 579) opt 2 "Climb down some vines" — one-shot.
+- **Day 40 block: Hidden Heart door is RNG-randomized**. Choice 580 opt 1 "Go through the door" rolls a random decoration per fire — "carved stone hemisphere" accepts the Nostril (Hidden City entry); "tongue-wagging stone gargoyle" gives +100 MP flavor but no entry. Today rolled gargoyle, ran out of advs before re-rolling hemisphere. Re-grind Temple 280 next day until hemisphere hits.
+- Also explored Such Great Depths (581) opt 2 "The glowering" → Hidden Power effect (stat buff). Opts 1/3 unverified. Stone wool not seen in ~5 fights of common temple monsters.
+- mechanics/hidden-temple-unlock.md updated with verified NC structure and the RNG-door discovery.
+
+## Earlier — End of Day 39 state (historical)
+
+- Mus 91 / Mys 127 base (138 buffed) / Mox 86, HP/MP 144/207, Meat ~44,877, advs 0.
 - **🏛️ BIG Day 39 win: HIDDEN TEMPLE UNLOCKED.** Manually walked the entire Spooky Forest Arboreal Respite tree. Collected Spooky Sapling (Road Less Traveled **opt 3 hunter** → Tree's Last Stand opt 3 "Buy a tree" 100 Meat), Spooky-Gro Fertilizer (Thicket opt 2), tree-holed coin (Stream opt 2 cave, +300 Meat bonus), Spooky Temple map (Thicket opt 3 "Follow the coin" → O Lith Mon opt 1). Used map (id 74) → Temple unlocked → entered, found Hidden Heart (choice 580) and Confusing Buttons (583, random press = eject — needs stone wool for Stone-Faced effect per wiki).
 - **Lesson**: Day 38's "Knock on cottage door" was a flavor dead end; the right path is **"Talk to the hunter"** (opt 3 of Road Less Traveled). Verified tree saved in `mechanics/hidden-temple-unlock.md`.
 

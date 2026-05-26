@@ -79,14 +79,30 @@ shortcut. Skip.
    (opt 2 → Stream) and map (opt 3 with coin → "Follow the coin" → O Lith, Mon).
 5. Use the map → Hidden Temple unlocks.
 
-## Inside the Hidden Temple — verified Day 39 (snarfblat 280)
+## Inside the Hidden Temple — verified Days 39–40 (snarfblat 280)
 
-- Combat monsters include **craven carven raven** (Poe-themed flavor).
-- **Hidden Heart of the Hidden Temple** (choice 580) — central junction:
-  - opt 1 "Go through the door" — door has a "carved stone hemisphere" — likely needs **Nostril of the Serpent** key (probably from "Such Great Heights" NC, not yet observed).
-  - opt 2 "Go down the stairs" → **Confusing Buttons** (583): "Press a button at random" — random press **ejects you from the temple** (wastes the adventure). Per wiki, **stone wool (Stone-Faced effect)** lets you pick a specific NC option here — invest in stone wool first if grinding the temple.
+Combat monsters include **craven carven raven** (Poe-themed), **baa-relief sheep**, **stone temple pirate**. Drops include shiny stones; stone wool NOT seen on these monsters in ~5 fights each.
+
+### Choice NCs
+
+- **Such Great Heights** (choice 579) — high-ledge ridge:
+  - opt 1 "Sidle along the ledge"
+  - **opt 2 "Climb down some vines"** → **Nostril of the Serpent** (Hidden City key) ✅ ONE-SHOT (Day 40)
+  - opt 3 "Head towards the top of the temple"
+- **Such Great Depths** (choice 581) — three-way junction:
+  - opt 1 "The glowing" — unverified (likely fungus)
+  - opt 2 "The glowering" → underground lake of magic water → **Hidden Power effect** (stat buff, no item)
+  - opt 3 "The growling" — unverified (likely combat)
+- **Hidden Heart of the Hidden Temple** (choice 580) — central junction with **RNG door decoration**:
+  - opt 1 "Go through the door" — door decoration is **randomized per fire**:
+    - "carved stone hemisphere" → accepts **Nostril of the Serpent** → Hidden City entry (Day 39 saw this variant; didn't have key yet)
+    - "tongue-wagging stone gargoyle" → does NOT accept Nostril; pulling tongue gives +100 MP flavor (Day 40)
+    - other variants likely exist
+  - opt 2 "Go down the stairs" → **Confusing Buttons** (583): "Press a button at random" → ejects you from temple. Per wiki, **stone wool (Stone-Faced effect)** lets you pick a specific NC at this junction.
   - opt 3 "Go back the way you came".
-- Need to find **"Such Great Heights"** NC → climb down vines → **Nostril of the Serpent** (Hidden City key). Verify next session.
+
+### Holding the Nostril, the play is:
+Grind 280 → wait for Hidden Heart with the HEMISPHERE door variant → opt 1 → Hidden City unlocks. Other door variants (gargoyle) waste the adventure; just back out (opt 3) or pull the tongue for +100 MP and re-grind.
 
 ## After unlock: Hidden Temple → Hidden City → ancient amulet
 
