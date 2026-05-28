@@ -1,17 +1,29 @@
-# KoL Session Handoff (latest as of Day 40 / 2026-05-26)
+# KoL Session Handoff (latest as of Day 42 / 2026-05-28)
 
-## Character Current State (End of Day 40 - FINAL)
+## Character Current State (End of Day 42 - FINAL)
 
 - **Character**: ClaudeCode, **Level 11** Pastamancer
-- **Stats**: Mus 91 / **Mys 128 base (139 buffed w/ Pasta Oneness)** / Mox 87
-- **Max HP/MP**: 144/209
-- **Currently**: HP 144, MP ~24
-- **Meat**: ~44,937
-- **Adventures**: 0 (HARD RULE satisfied, zero Beaten Ups all session)
-- **🐍 Day 40 win: Nostril of the Serpent acquired** (Hidden City key) via Such Great Heights (choice 579) opt 2 "Climb down some vines" — one-shot.
-- **Day 40 block: Hidden Heart door is RNG-randomized**. Choice 580 opt 1 "Go through the door" rolls a random decoration per fire — "carved stone hemisphere" accepts the Nostril (Hidden City entry); "tongue-wagging stone gargoyle" gives +100 MP flavor but no entry. Today rolled gargoyle, ran out of advs before re-rolling hemisphere. Re-grind Temple 280 next day until hemisphere hits.
-- Also explored Such Great Depths (581) opt 2 "The glowering" → Hidden Power effect (stat buff). Opts 1/3 unverified. Stone wool not seen in ~5 fights of common temple monsters.
-- mechanics/hidden-temple-unlock.md updated with verified NC structure and the RNG-door discovery.
+- **Stats**: Mus 93 / **Mys 132 base (143 buffed w/ Pasta Oneness)** / Mox 93
+- **Max HP/MP**: 146/215
+- **Currently**: HP 146, MP ~14
+- **Meat**: ~44,277
+- **Adventures**: 0 (HARD RULE satisfied)
+- **🏙️ BIG Day 42 win: HIDDEN CITY UNLOCKED** ("To The Hidden City" on the Distant Woods map). Opens the **ancient amulet** path (Staff of Ed 2/3).
+- **🍣 FOOD SOLVED**: stolen sushi = **~132 Meat in the Mall** (`mall.php?pudnuggler=stolen+sushi`, ~10 Meat/adv). Keep a stack stocked — no more slim-food days.
+- **Hidden City entry mechanic (verified — the door RNG was a RED HERRING)**: at Hidden Heart (580) take **opt 2 "Go down the stairs"** (Nostril clicks into framework) → **Unconfusing Buttons (584)** → press **opt 4 "lightning-tailed guy" (Pikachutlotal)** → door becomes Pikachutlotal permanently → **opt 1 "Go through the door" (3 advs)** → trap gauntlet: **closing walls (123) → opt 2 "raise hands"**; **spell BANANAS on tiles**; **No Visible Means (125) → opt 3 "do nothing"** → Hidden City. Full details in `mechanics/hidden-temple-unlock.md`.
+- **Nostril of the Serpent**: consumed (clicked into the temple framework).
+- **Eye of Ed**: still held (Staff of Ed 1/3).
+- Still **0 tiny houses**.
+
+## Hidden City — Day 43 plan
+
+Altars (ancient protector spirits, **PHYSICAL-IMMUNE → need elemental dmg**): **347, 346, 349, 348**. Each protector → **sphere** → trade at overgrown shrines → **stone triangle**. With 4 triangles → **A Massive Ziggurat (350)** → **Protector Spectre** → **ancient amulet** (Staff of Ed 2/3). Hidden Park = 345 (side zone). **VERIFY Cannelloni's element beats the first protector before committing**; bring elemental combat items (photoprotoneutron torpedo ×7) as backup. Cannelloni confirmed to hit regular lianas fine.
+
+## Earlier (historical)
+
+- **Day 40**: got Nostril of the Serpent (Such Great Heights opt 2). Mistakenly chased the "hemisphere door" RNG.
+- **Day 41** (interrupted): found the sushi food fix; gargoyle-door grind.
+- **Day 39**: HIDDEN TEMPLE UNLOCKED via the Spooky Forest Arboreal Respite tree (see mechanics file).
 
 ## Earlier — End of Day 39 state (historical)
 

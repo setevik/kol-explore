@@ -101,8 +101,37 @@ Combat monsters include **craven carven raven** (Poe-themed), **baa-relief sheep
   - opt 2 "Go down the stairs" → **Confusing Buttons** (583): "Press a button at random" → ejects you from temple. Per wiki, **stone wool (Stone-Faced effect)** lets you pick a specific NC at this junction.
   - opt 3 "Go back the way you came".
 
-### Holding the Nostril, the play is:
-Grind 280 → wait for Hidden Heart with the HEMISPHERE door variant → opt 1 → Hidden City unlocks. Other door variants (gargoyle) waste the adventure; just back out (opt 3) or pull the tongue for +100 MP and re-grind.
+### ✅ VERIFIED Hidden City entry (Day 42) — the door RNG was a RED HERRING
+
+The hemisphere/gargoyle door grind is WRONG. The real, deterministic path with the Nostril:
+
+1. At **Hidden Heart (580)** → **opt 2 "Go down the stairs"** (NOT the door). With the
+   Nostril in inventory, it clicks into a framework and the room becomes
+   **Unconfusing Buttons (choice 584)**.
+2. **Unconfusing Buttons (584)** → press **opt 4 "the cute little lightning-tailed guy"**
+   (Pikachutlotal). The temple rearranges and the Hidden Heart door becomes the
+   lightning-tailed (Pikachutlotal) variant permanently.
+3. Back at **Hidden Heart (580)** → door is now Pikachutlotal → **opt 1 "Go through the
+   door" (costs 3 Adventures)**.
+4. **Trap gauntlet** (memorize — wrong answers = death/Beaten Up):
+   - **At Least It's Not Full Of Trash (123, closing walls)** → **opt 2 "Raise your hands
+     up toward the heavens"**. (opt 3 kneel = -145 HP/Beaten Up; opt 1 weapon = also wrong.)
+   - **Spelling tiles** → spell **BANANAS** (one tile/row; tile letter = image filename
+     `tileX.gif` → X). Wrong tile = instant death.
+   - **No Visible Means of Support (125)** → **opt 3 "Do nothing"** → roof → Hidden City.
+
+Reaching Hidden Heart (580) is itself a low-rate temple NC; **stone wool → Stone-Faced →
+"Fitting In" (582) → opt 2 "ground floor"** forces a Hidden Heart visit for 1 adv (stone
+wool drops from temple monsters, ~1/15-20). Once you've pressed the lightning button once,
+the door stays Pikachutlotal, so subsequent visits just need opt 1.
+
+### Hidden City layout (snarfblats, verified Day 42)
+
+- **Altars: 1=347, 2=346, 3=349, 4=348** — lianas (regular) + ancient protector spirit
+  (PHYSICAL-IMMUNE, needs elemental). Spirit → sphere → trade at overgrown shrines → stone triangle.
+- **A Massive Ziggurat = 350** — needs 4 stone triangles → Protector Spectre → **ancient amulet**.
+- **The Hidden Park = 345** — side zone.
+- Cannelloni hits regular lianas fine; protector elemental requirement still to verify.
 
 ## After unlock: Hidden Temple → Hidden City → ancient amulet
 
