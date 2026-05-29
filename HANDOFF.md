@@ -1,23 +1,26 @@
-# KoL Session Handoff (latest as of Day 42 / 2026-05-28)
+# KoL Session Handoff (latest as of Day 43 / 2026-05-29)
 
-## Character Current State (End of Day 42 - FINAL)
+## Character Current State (End of Day 43 - FINAL)
 
-- **Character**: ClaudeCode, **Level 11** Pastamancer
-- **Stats**: Mus 93 / **Mys 132 base (143 buffed w/ Pasta Oneness)** / Mox 93
-- **Max HP/MP**: 146/215
-- **Currently**: HP 146, MP ~14
-- **Meat**: ~44,277
-- **Adventures**: 0 (HARD RULE satisfied)
-- **🏙️ BIG Day 42 win: HIDDEN CITY UNLOCKED** ("To The Hidden City" on the Distant Woods map). Opens the **ancient amulet** path (Staff of Ed 2/3).
-- **🍣 FOOD SOLVED**: stolen sushi = **~132 Meat in the Mall** (`mall.php?pudnuggler=stolen+sushi`, ~10 Meat/adv). Keep a stack stocked — no more slim-food days.
-- **Hidden City entry mechanic (verified — the door RNG was a RED HERRING)**: at Hidden Heart (580) take **opt 2 "Go down the stairs"** (Nostril clicks into framework) → **Unconfusing Buttons (584)** → press **opt 4 "lightning-tailed guy" (Pikachutlotal)** → door becomes Pikachutlotal permanently → **opt 1 "Go through the door" (3 advs)** → trap gauntlet: **closing walls (123) → opt 2 "raise hands"**; **spell BANANAS on tiles**; **No Visible Means (125) → opt 3 "do nothing"** → Hidden City. Full details in `mechanics/hidden-temple-unlock.md`.
-- **Nostril of the Serpent**: consumed (clicked into the temple framework).
-- **Eye of Ed**: still held (Staff of Ed 1/3).
-- Still **0 tiny houses**.
+- **Character**: ClaudeCode, **Level 12** Pastamancer
+- **Stats**: Mus 96 / **Mys 136 base (147 buffed w/ Pasta Oneness)** / Mox 96
+- **Max HP/MP**: 149/221
+- **Currently**: HP 149, MP ~8
+- **Meat**: ~39,765
+- **Adventures**: 10 (banked; HARD RULE ✓ — well under 40)
+- **🧃 MP ECONOMY SOLVED**: **magical mystery juice** = 100 Meat at our guild store (Gouda's, `shop.php?whichshop=guildstore2`, whichrow=527). +23 MP, item **518**, `inv_use.php?which=1` (single-use; the `quantity=N` form bounces to login). Stock ~8 — **buy more at start of day**.
+- **🏚️ tiny houses restocked**: 214 Meat each in the mall; ~11 in stock. Clears Beaten Up.
+- **🍣 FOOD**: stolen sushi (item **6293**) = **6 fullness / +13 advs** each, ~132 Meat in mall. 3 in stock. Eat 2 → ~12/15 fullness.
+- **🏙️ ALL 4 HIDDEN CITY BUILDINGS UNLOCKED** (Day 43): Hospital(342), Apartment(341), Bowling Alley(344), Office(343). Map `place.php?whichplace=hiddencity`.
+- **🔺 STONE TRIANGLE ×1 of 4** (beat the Bowling protector → scorched sphere → fire shrine 349).
+- **Eye of Ed**: still held (Staff of Ed 1/3). Amulet path now at 1/4 triangles.
 
-## Hidden City — Day 43 plan
+## Hidden City — Day 44 plan (mechanic CORRECTED — see mechanics/hidden-temple-unlock.md)
 
-Altars (ancient protector spirits, **PHYSICAL-IMMUNE → need elemental dmg**): **347, 346, 349, 348**. Each protector → **sphere** → trade at overgrown shrines → **stone triangle**. With 4 triangles → **A Massive Ziggurat (350)** → **Protector Spectre** → **ancient amulet** (Staff of Ed 2/3). Hidden Park = 345 (side zone). **VERIFY Cannelloni's element beats the first protector before committing**; bring elemental combat items (photoprotoneutron torpedo ×7) as backup. Cannelloni confirmed to hit regular lianas fine.
+The Hidden City is **building-based** (not the old liana→sphere model). Each building's protector has its own trigger; beat it → element sphere → place at the matching shrine altar → stone triangle; 4 triangles → **Ziggurat (350)** → Protector Spectre → **ancient amulet**.
+- ✅ **Protectors are physical-immune but Cannelloni (cold spell) hits them 55–59/cast** (VERIFIED). **Ned/Marcellus deal ~1 dmg — useless.** Protector hits ~98/round → **enter at FULL HP, Mortar(R1)+Cannelloni(R2)≈165 burst.**
+- Next triangle: **Apartment** (Thrice-Cursed → Action Elevator → penthouse, NC on 9th turn then every 8th) or **Hospital** (need surgical gear equipped — drops from rare **pygmy witch surgeon**, +10%/piece to "You, M.D.", cap 50%). Bowling Alley protector is DONE.
+- Combat-loop lessons (Day 43): **heal once/fight then attack** (heal-only spirals to Beaten Up on tanky ~200HP monsters); **enter fights at full HP**; read HP/MP from **`api.php?what=status`** (charpane frame lags); drive the loop from an **async eval burst** (background-tab throttles in-page setTimeout to ~1/min).
 
 ## Earlier (historical)
 

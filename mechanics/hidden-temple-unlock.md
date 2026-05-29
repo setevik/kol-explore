@@ -125,26 +125,67 @@ Reaching Hidden Heart (580) is itself a low-rate temple NC; **stone wool → Sto
 wool drops from temple monsters, ~1/15-20). Once you've pressed the lightning button once,
 the door stays Pikachutlotal, so subsequent visits just need opt 1.
 
-### Hidden City layout (snarfblats, verified Day 42)
+### Hidden City layout + REAL mechanic (CORRECTED & verified Day 43)
 
-- **Altars: 1=347, 2=346, 3=349, 4=348** — lianas (regular) + ancient protector spirit
-  (PHYSICAL-IMMUNE, needs elemental). Spirit → sphere → trade at overgrown shrines → stone triangle.
-- **A Massive Ziggurat = 350** — needs 4 stone triangles → Protector Spectre → **ancient amulet**.
-- **The Hidden Park = 345** — side zone.
-- Cannelloni hits regular lianas fine; protector elemental requirement still to verify.
+The earlier "fight liana → protector → sphere in the same shrine" model was WRONG. The
+current game is **building-based**. The four "Altars" on the map are **Overgrown Shrines**
+(dense liana zones) that act as *doorways*: adventuring grinds dense lianas (~200 HP) until
+a god-altar NC fires; **"Place your head in the impression"** grants a vision that
+**unlocks the adjacent building** (costs ~62 HP, no other downside).
+
+| Shrine | snarfblat | God (element) | Unlocks (snarfblat) |
+|---|---|---|---|
+| Altar 1 (SW) | 347 | Squirtlcthulli (water) | **Hidden Hospital** (342) |
+| Altar 2 (NE) | 346 | Bulbazinalli (plants/earth) | **Hidden Apartment Building** (341) |
+| Altar 3 | 349 | Charcoatl (fire/war) | **Hidden Bowling Alley** (344) |
+| Altar 4 | 348 | Pikachutlotal (lightning) | **Hidden Office Building** (343) |
+
+Other zones: **Hidden Park = 345**, **A Massive Ziggurat = 350**.
+
+**Per-building protector triggers** (each building hides one ancient protector spirit):
+- **Hospital (342)**: "You, M.D." superlikely; needs **surgical gear EQUIPPED**
+  (+10%/unique piece, cap 50%). Gear = half-size scalpel, head mirror, surgical mask,
+  surgical apron (needs Torso Awareness), bloodied surgical dungarees. Source: **pygmy
+  witch surgeon** (rare; drops 1 piece/kill, picks one you lack) OR the **Hidden Park
+  dumpster**. NB: ordinary pygmy orderlies/janitors/witch nurses do NOT drop gear.
+- **Bowling Alley (344)**: ✅ VERIFIED Day 43. Pygmy bowlers drop **bowling balls**; the
+  **"Life is Like a Cherry of Bowls"** NC fires whenever you hold a ball → **opt 1 "Let's
+  roll"** consumes it. The **5th roll summons the protector.**
+- **Apartment (341)**: need **Thrice-Cursed** effect → "Action Elevator" → Thrice-Cursed
+  Penthouse. Superlikely on 9th turn in-zone, then every 8th.
+- **Office (343)**: McClusky files mechanic (collect/assemble).
+
+**Protector fight (✅ VERIFIED Day 43 on the Bowling protector):**
+- Physical-immune. **Ned (Vampieroghi) + Marcellus (Mosquito) deal ~1 dmg — useless.**
+- **Cannelloni Cannon (COLD/elemental spell) WORKS: 55–59 dmg/cast.** Mortar also works.
+- Protector hits ~**98/round** — squishy danger. ENTER AT FULL HP, then **Mortar (R1, queues
+  ~110) + Cannelloni (R2, ~59) = ~165 burst** kills it before the 2nd big hit.
+- Drops an **element-matched sphere** (Bowling/fire → **scorched stone sphere**).
+
+**Sphere → triangle:** return to the MATCHING shrine; with the sphere in inventory the
+altar NC adds **"Place the [X] sphere in the impression"** → "a niche opens… odd triangular
+stone" → **stone triangle**. (Scorched sphere → fire shrine 349 → triangle. ✅ Day 43.)
+
+**Endgame:** 4 stone triangles → A Massive Ziggurat (350) → **Protector Spectre**
+(physical-immune too) → **ancient amulet** (Staff of Ed component 2/3).
+
+**Day 43 progress: all 4 buildings unlocked; Bowling protector beaten; stone triangle 1/4.**
+
+> Park dumpster note: ground the Hidden Park (345, boaraffe monsters) ~25 advs and its
+> dumpster/antique-machete NC never fired — may be rare or counter-gated. Surgical gear may
+> have to come from pygmy witch surgeons. Verify before sinking advs into the Hospital.
 
 ## After unlock: Hidden Temple → Hidden City → ancient amulet
 
 Once Hidden Temple is open (snarfblat 280):
 - Adventure until **"Such Great Heights"** → climb down vines → **Nostril of the Serpent**
-  (key to enter Hidden City).
-- Hidden City: 4 buildings — Hidden Hospital, Bowling Alley, Apartment Building, Office
-  Building — each has an **ancient protector spirit** (immune to physical, needs
-  **elemental damage**). Cannelloni Cannon landed "hailstones" on Lord Spookyraven
-  (Day 37) → likely **COLD** — should work.
-- Each spirit drops a **sphere** → trade at overgrown shrines for a **stone triangle**.
-- All 4 stone triangles → enter **A Massive Ziggurat** → defeat **Protector Spectre**
-  (also physical-immune) → **ancient amulet**.
+  (key to enter Hidden City). (Done — Hidden City unlocked Day 42.)
+- Hidden City mechanic: see **"Hidden City layout + REAL mechanic (CORRECTED & verified
+  Day 43)"** above. Short version: 4 shrines unlock 4 buildings; each building's protector
+  has its own trigger; protector → element sphere → matching shrine → stone triangle; 4
+  triangles → Massive Ziggurat (350) → Protector Spectre → **ancient amulet**.
+- ✅ Confirmed Day 43: **Cannelloni Cannon (cold spell) damages the physical-immune
+  protectors (55–59/cast)** — the pasta build is NOT blocked. Companions are useless on them.
 
 ## References
 
