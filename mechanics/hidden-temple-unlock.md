@@ -152,8 +152,22 @@ Other zones: **Hidden Park = 345**, **A Massive Ziggurat = 350**.
   **"Life is Like a Cherry of Bowls"** NC fires whenever you hold a ball → **opt 1 "Let's
   roll"** consumes it. The **5th roll summons the protector.**
 - **Apartment (341)**: need **Thrice-Cursed** effect → "Action Elevator" → Thrice-Cursed
-  Penthouse. Superlikely on 9th turn in-zone, then every 8th.
-- **Office (343)**: McClusky files mechanic (collect/assemble).
+  Penthouse. Action Elevator on 9th in-zone turn, then every 8th. Cursings stack:
+  3 cursings (any source) → Thrice-Cursed. Sources: (a) start of combat with a **pygmy
+  shaman**, (b) Action Elevator opt 2 **"Go to the mezzanine"**, (c) drinking **Cursed
+  Punch** from the **Hidden Tavern**. **⚠️ TRAP verified Day 44:** the curse's "10
+  Adventures" duration is **combat-rounds, not zone-clicks** — it dies inside 2–3 fights,
+  so the single-mezzanine plan does NOT chain to Thrice across the 8-turn elevator gap.
+  Realistic stacking requires Cursed Punch (Hidden Tavern access needed) or back-to-back
+  pygmy shaman encounters.
+- **Office (343)**: ✅ VERIFIED Day 44. Pygmy **witch accountants** drop **McClusky file
+  pages 1–5** (~1 per kill, RNG-gated). The **Working Holiday** superlikely offers:
+  opt 1 "Knock on the boss's office door", opt 2 "Raid the supply cabinet"
+  (→ **boring binder clip**), opt 3 cubicle drone combat, opt 6 take the day off.
+  With all 5 pages + the clip, **use** the binder clip → **McClusky file (complete)**.
+  Next Working Holiday → opt 1 → **ancient protector spirit** (≈250 HP, tankier than
+  Bowling's ~220 — same Mortar+Cannelloni 3-round burst works, but enter at FULL HP).
+  Drops **crackling stone sphere** (lightning) → Pikachutlotal's air shrine (348) → triangle.
 
 **Protector fight (✅ VERIFIED Day 43 on the Bowling protector):**
 - Physical-immune. **Ned (Vampieroghi) + Marcellus (Mosquito) deal ~1 dmg — useless.**

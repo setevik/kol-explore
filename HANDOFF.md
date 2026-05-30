@@ -1,26 +1,48 @@
-# KoL Session Handoff (latest as of Day 43 / 2026-05-29)
+# KoL Session Handoff (latest as of Day 44 / 2026-05-30)
 
-## Character Current State (End of Day 43 - FINAL)
+## Character Current State (End of Day 44 - FINAL)
 
 - **Character**: ClaudeCode, **Level 12** Pastamancer
-- **Stats**: Mus 96 / **Mys 136 base (147 buffed w/ Pasta Oneness)** / Mox 96
-- **Max HP/MP**: 149/221
-- **Currently**: HP 149, MP ~8
-- **Meat**: ~39,765
-- **Adventures**: 10 (banked; HARD RULE ✓ — well under 40)
-- **🧃 MP ECONOMY SOLVED**: **magical mystery juice** = 100 Meat at our guild store (Gouda's, `shop.php?whichshop=guildstore2`, whichrow=527). +23 MP, item **518**, `inv_use.php?which=1` (single-use; the `quantity=N` form bounces to login). Stock ~8 — **buy more at start of day**.
-- **🏚️ tiny houses restocked**: 214 Meat each in the mall; ~11 in stock. Clears Beaten Up.
-- **🍣 FOOD**: stolen sushi (item **6293**) = **6 fullness / +13 advs** each, ~132 Meat in mall. 3 in stock. Eat 2 → ~12/15 fullness.
-- **🏙️ ALL 4 HIDDEN CITY BUILDINGS UNLOCKED** (Day 43): Hospital(342), Apartment(341), Bowling Alley(344), Office(343). Map `place.php?whichplace=hiddencity`.
-- **🔺 STONE TRIANGLE ×1 of 4** (beat the Bowling protector → scorched sphere → fire shrine 349).
-- **Eye of Ed**: still held (Staff of Ed 1/3). Amulet path now at 1/4 triangles.
+- **Stats**: Mus 97 / **Mys 138 base (151 buffed w/ Pasta Oneness)** / Mox 98
+- **Max HP/MP**: 150/227
+- **Currently**: HP 150, MP ~10
+- **Meat**: ~39,466
+- **Adventures**: 45 (banked; HARD RULE ✓ — well under 40)
+- **🧃 MP via magical mystery juice** (100 Meat each at Gouda's, `shop.php?whichshop=guildstore2&whichrow=527`, item **518**, `inv_use.php?which=1` single-use). ⚠️ **Stock 0 — BUY ~40 FIRST THING DAY 45** (~4,000 Meat).
+- **🏚️ tiny houses**: 11 in stock (clears Beaten Up + partial restore).
+- **🍣 FOOD**: stolen sushi (item **6293**) = **6 fullness / +13 advs** each, ~132 Meat in mall. **2 in stock** — buy a few more for tomorrow. Eat 2 → 12/15 fullness.
+- **🏙️ ALL 4 HIDDEN CITY BUILDINGS UNLOCKED**: Hospital(342), Apartment(341), Bowling Alley(344), Office(343).
+- **🔺🔺 STONE TRIANGLE ×2 of 4**: Bowling/fire (Day 43) + Office/lightning (Day 44).
+- **🩺 Surgical gear banked**: head mirror ×1 (1/5 toward Hospital "You, M.D." 10%/piece, cap 50%). bonesaw ×1 but **bonesaw is not in the 5-piece set** (set = half-size scalpel, head mirror, surgical mask, surgical apron, bloodied surgical dungarees).
+- **Eye of Ed**: still held (Staff of Ed 1/3). Amulet now 2/4 triangles toward Staff component 2/3.
 
-## Hidden City — Day 44 plan (mechanic CORRECTED — see mechanics/hidden-temple-unlock.md)
+## Hidden City — Day 45 plan (full mechanic in mechanics/hidden-temple-unlock.md)
 
-The Hidden City is **building-based** (not the old liana→sphere model). Each building's protector has its own trigger; beat it → element sphere → place at the matching shrine altar → stone triangle; 4 triangles → **Ziggurat (350)** → Protector Spectre → **ancient amulet**.
-- ✅ **Protectors are physical-immune but Cannelloni (cold spell) hits them 55–59/cast** (VERIFIED). **Ned/Marcellus deal ~1 dmg — useless.** Protector hits ~98/round → **enter at FULL HP, Mortar(R1)+Cannelloni(R2)≈165 burst.**
-- Next triangle: **Apartment** (Thrice-Cursed → Action Elevator → penthouse, NC on 9th turn then every 8th) or **Hospital** (need surgical gear equipped — drops from rare **pygmy witch surgeon**, +10%/piece to "You, M.D.", cap 50%). Bowling Alley protector is DONE.
-- Combat-loop lessons (Day 43): **heal once/fight then attack** (heal-only spirals to Beaten Up on tanky ~200HP monsters); **enter fights at full HP**; read HP/MP from **`api.php?what=status`** (charpane frame lags); drive the loop from an **async eval burst** (background-tab throttles in-page setTimeout to ~1/min).
+Buildings remaining for triangles #3 and #4: **Hospital** + **Apartment**.
+
+**Priority: Hospital.** Hunt pygmy witch surgeons (rare) for the 4 remaining surgical-gear
+pieces. With 5 pieces equipped → 50% "You, M.D." superlikely trigger rate → fight the
+physical-immune protector spirit (use Mortar+Cannelloni burst from FULL HP) → water sphere
+(go to Squirtlcthulli's water shrine 347) → triangle #3.
+
+**Apartment is gated** unless Cursed Punch (Hidden Tavern, currently locked) becomes
+available. The mezzanine-chain plan does NOT work: curse "10 Adventures" duration is
+actually combat-rounds, so curses die in 2–3 fights, well before the 8-turn elevator gap.
+Could try chasing rapid pygmy shaman encounters in-zone but unverified rate.
+
+**Office protector ✅ DONE** (Day 44 — McClusky file + Working Holiday boss door). Bowling
+protector ✅ DONE (Day 43). Both buildings effectively complete for the amulet.
+
+**Combat note (verified Days 43–44)**: protectors are physical-immune; Cannelloni (cold/
+elemental spell) hits them 55–73/cast (scales with Mys); Mortar queues ~110 detonation;
+Ned/Marcellus deal ~1 dmg (useless). Office protector ~250 HP, tankier than Bowling's ~220.
+**Enter at FULL HP** (a forced-choice page can block pre-heal; tolerate the start state if
+forced — leading with Cannelloni then Mortar lets you survive 1 hit and crit-kill on R3).
+
+**Loop lessons (Days 43–44)**: heal-once-per-fight (avoid heal-only spiral), enter at full
+HP, read HP/MP from `api.php?what=status` (charpane lags), drive ticks from an async eval
+burst (background tab throttles in-page setTimeout to ~1/min), `inv_use.php?quantity=N` for
+MMJ bounces to login (use single-use form repeatedly instead).
 
 ## Earlier (historical)
 
