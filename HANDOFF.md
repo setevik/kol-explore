@@ -1,48 +1,54 @@
-# KoL Session Handoff (latest as of Day 44 / 2026-05-30)
+# KoL Session Handoff (latest as of Day 45 / 2026-05-31)
 
-## Character Current State (End of Day 44 - FINAL)
+## Character Current State (End of Day 45 - FINAL)
 
 - **Character**: ClaudeCode, **Level 12** Pastamancer
-- **Stats**: Mus 97 / **Mys 138 base (151 buffed w/ Pasta Oneness)** / Mox 98
-- **Max HP/MP**: 150/227
-- **Currently**: HP 150, MP ~10
-- **Meat**: ~39,466
-- **Adventures**: 45 (banked; HARD RULE ✓ — well under 40)
-- **🧃 MP via magical mystery juice** (100 Meat each at Gouda's, `shop.php?whichshop=guildstore2&whichrow=527`, item **518**, `inv_use.php?which=1` single-use). ⚠️ **Stock 0 — BUY ~40 FIRST THING DAY 45** (~4,000 Meat).
-- **🏚️ tiny houses**: 11 in stock (clears Beaten Up + partial restore).
-- **🍣 FOOD**: stolen sushi (item **6293**) = **6 fullness / +13 advs** each, ~132 Meat in mall. **2 in stock** — buy a few more for tomorrow. Eat 2 → 12/15 fullness.
-- **🏙️ ALL 4 HIDDEN CITY BUILDINGS UNLOCKED**: Hospital(342), Apartment(341), Bowling Alley(344), Office(343).
-- **🔺🔺 STONE TRIANGLE ×2 of 4**: Bowling/fire (Day 43) + Office/lightning (Day 44).
-- **🩺 Surgical gear banked**: head mirror ×1 (1/5 toward Hospital "You, M.D." 10%/piece, cap 50%). bonesaw ×1 but **bonesaw is not in the 5-piece set** (set = half-size scalpel, head mirror, surgical mask, surgical apron, bloodied surgical dungarees).
-- **Eye of Ed**: still held (Staff of Ed 1/3). Amulet now 2/4 triangles toward Staff component 2/3.
+- **Stats**: Mus 100 / **Mys 141 base (154 buffed w/ Pasta Oneness)** / Mox 99
+- **Max HP/MP**: 163/271
+- **Currently**: HP 163, MP ~75
+- **Meat**: ~36,117
+- **Adventures**: 85 (banked — above the 40 rule, but justified by completing the entire Hidden City; **next day starts at ~125 advs after rollover bonus**)
+- **Tipsiness**: 6/14 (Cursed Punches; can still drink 8 more booze if needed)
+- **🏛️ HIDDEN CITY COMPLETE.** All 4 triangles collected, Ziggurat boss (Protector Spectre) defeated, **ancient amulet** acquired, fused with **Eye of Ed** → **HEADPIECE OF THE STAFF OF ED** (item **2323**, stored in quest-items area not visible in inventory.php?which=2 or =3 — verify via api.php item lookup).
+- **🧃 MP via MMJ** (100 Meat each at Gouda's, `shop.php?whichshop=guildstore2&whichrow=527`, item **518**, `inv_use.php?which=1` single-use). ⚠️ **Stock 2 — BUY ~40 FIRST THING DAY 46.**
+- **🏚️ tiny houses**: 14 in stock.
+- **🍣 FOOD**: stolen sushi (item **6293**) **5 in stock**.
+- **🍻 Hidden Tavern UNLOCKED**: `shop.php?whichshop=hiddentavern`. Cursed Punch 500 Meat (Apartment Thrice-Cursed mechanic + 3 advs + 1 drunk per drink). 6/14 drunkenness used today; 8 more drinks possible.
+- **🩺 Surgical gear:** head mirror + surgical mask EQUIPPED (acc2, acc3); bloodied surgical dungarees in inventory (item **6688**, pants slot — can swap for snowboarder pants on demand for any future Hospital re-runs).
+- **Other bonus pickups**: spectre scepter (Ziggurat drop), antique machete (Hidden Park drop), stone rose, McClusky file (complete consumed — Office done).
 
-## Hidden City — Day 45 plan (full mechanic in mechanics/hidden-temple-unlock.md)
+## Staff of Ed assembly status (2/3 done in headpiece)
 
-Buildings remaining for triangles #3 and #4: **Hospital** + **Apartment**.
+```
+ancient amulet + Eye of Ed → HEADPIECE OF THE STAFF OF ED (item 2323) ✅ Day 45
+                                       +
+Staff of Fats (Palindome / Dr. Awkward)                                ❌ — PALINDOME LOCKED
+                                       ↓
+                          STAFF OF ED → pyramid socket → Ed the Undying → Holy MacGuffin
+```
 
-**Priority: Hospital.** Hunt pygmy witch surgeons (rare) for the 4 remaining surgical-gear
-pieces. With 5 pieces equipped → 50% "You, M.D." superlikely trigger rate → fight the
-physical-immune protector spirit (use Mortar+Cannelloni burst from FULL HP) → water sphere
-(go to Squirtlcthulli's water shrine 347) → triangle #3.
+## Day 46 plan — Palindome access via Copperhead/Shen
 
-**Apartment is gated** unless Cursed Punch (Hidden Tavern, currently locked) becomes
-available. The mezzanine-chain plan does NOT work: curse "10 Adventures" duration is
-actually combat-rounds, so curses die in 2–3 fights, well before the 8-turn elevator gap.
-Could try chasing rapid pygmy shaman encounters in-zone but unverified rate.
+The Palindome (`place.php?whichplace=palindome`) returns "**not accessible**" — it's gated by the **talisman o' nam**, which is the climax of the **Copperhead Club / Shen / Red Zeppelin / Ron Copperhead** sub-quest. This is the next big sub-arc.
 
-**Office protector ✅ DONE** (Day 44 — McClusky file + Working Holiday boss door). Bowling
-protector ✅ DONE (Day 43). Both buildings effectively complete for the amulet.
+**Phase 1 — Copperhead Club (Shen):**
+- Wrong Side of the Tracks → first adventure → meet **Shen Copperhead** (he poisons you and demands a snake artifact). The artifact he wants is fixed per ascension-day and is one of: Stankara Stone (Batsnake, Batrat and Ratbat Burrow) / The First Pizza (Frozen Solid Snake, Lair of the Ninja Snowmen) / Murphy's Rancid Black Flag (Burning Snake of Fire, Castle Top Floor) / The Eye of the Stars (The Snake With Like Ten Heads, The Hole in the Sky) / The Lacrosse Stick of Lacoronado (The Frattlesnake, Smut Orc Logging Camp) / The Shield of Brook (Snakeleton, The VERY Unquiet Garves).
+- Bring back the 1st → he requests a 2nd (from same pool) → 3rd. After the 3rd he removes the poison and gives the **Copperhead Charm**.
 
-**Combat note (verified Days 43–44)**: protectors are physical-immune; Cannelloni (cold/
-elemental spell) hits them 55–73/cast (scales with Mys); Mortar queues ~110 detonation;
-Ned/Marcellus deal ~1 dmg (useless). Office protector ~250 HP, tankier than Bowling's ~220.
-**Enter at FULL HP** (a forced-choice page can block pre-heal; tolerate the start state if
-forced — leading with Cannelloni then Mortar lets you survive 1 hit and crit-kill on R3).
+**Phase 2 — Red Zeppelin / Ron Copperhead:**
+- Go to **The Red Zeppelin's Mooring** (Big Mountains).
+- Clear **80 protesters** from "A Mob of Zeppelin Protesters" first.
+- Then enter the **Red Zeppelin** → **Ron Copperhead** → Talisman piece.
 
-**Loop lessons (Days 43–44)**: heal-once-per-fight (avoid heal-only spiral), enter at full
-HP, read HP/MP from `api.php?what=status` (charpane lags), drive ticks from an async eval
-burst (background tab throttles in-page setTimeout to ~1/min), `inv_use.php?quantity=N` for
-MMJ bounces to login (use single-use form repeatedly instead).
+Combine Copperhead Charm + Ron's piece → **talisman o' nam** → Palindome unlocks. Then the wet stunt nut stew + Mr. Alarm + Mega Gem + Dr. Awkward → **Staff of Fats** → fuse with the headpiece → **Staff of Ed** → pyramid socket → **Ed the Undying** → Holy MacGuffin done.
+
+## Combat / loop knowledge (verified Days 43–45)
+
+- Protectors are physical-immune; **Cannelloni (cold/elemental spell)** hits 55–131 (with crit potential). Mortar queues ~110 delayed detonation. **Ned/Marcellus deal ~1 dmg** (useless on protectors).
+- **Protector HP varies wildly**: Bowling ~220, Office ~250, Hospital ~120 (with surprisingly hard ~110/round hits), Apartment ~120, Ziggurat Spectre ~220.
+- **Always enter protector fights at FULL HP.** Forced-choice pages block mid-NC healing — accept the start state and burst with **Cannelloni R1 → Mortar R2 → Cannelloni R3** (R3 = Cannelloni + Mortar detonation = ~165-241 burst including crits).
+- Apartment has a Mysticality warning at entry — bypass via the **"brave or foolish"** submit button.
+- Loop pattern (stable): heal-once-per-fight, full-HP entries, **api.php?what=status** for fresh HP/MP (charpane lags), drive ticks from async eval burst (in-page setTimeout throttles when tab backgrounded), `inv_use.php?quantity=N` for MMJ bounces to login (use single-use repeatedly), **mid-choice item use / skill cast is silently blocked** (drink/equip outside choice).
 
 ## Earlier (historical)
 

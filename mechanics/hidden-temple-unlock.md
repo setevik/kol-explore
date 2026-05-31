@@ -151,15 +151,20 @@ Other zones: **Hidden Park = 345**, **A Massive Ziggurat = 350**.
 - **Bowling Alley (344)**: ✅ VERIFIED Day 43. Pygmy bowlers drop **bowling balls**; the
   **"Life is Like a Cherry of Bowls"** NC fires whenever you hold a ball → **opt 1 "Let's
   roll"** consumes it. The **5th roll summons the protector.**
-- **Apartment (341)**: need **Thrice-Cursed** effect → "Action Elevator" → Thrice-Cursed
-  Penthouse. Action Elevator on 9th in-zone turn, then every 8th. Cursings stack:
-  3 cursings (any source) → Thrice-Cursed. Sources: (a) start of combat with a **pygmy
-  shaman**, (b) Action Elevator opt 2 **"Go to the mezzanine"**, (c) drinking **Cursed
-  Punch** from the **Hidden Tavern**. **⚠️ TRAP verified Day 44:** the curse's "10
-  Adventures" duration is **combat-rounds, not zone-clicks** — it dies inside 2–3 fights,
-  so the single-mezzanine plan does NOT chain to Thrice across the 8-turn elevator gap.
-  Realistic stacking requires Cursed Punch (Hidden Tavern access needed) or back-to-back
-  pygmy shaman encounters.
+- **Apartment (341)**: ✅ VERIFIED Day 45. Need **Thrice-Cursed** effect → "Action
+  Elevator" NC (on 9th in-zone turn, then every 8th) → opt 1 **Thrice-Cursed Penthouse**
+  → protector spirit. ⚠️ Zone has a **Mysticality warning** at entry — bypass via the
+  "brave or foolish" submit button. Curse sources (each cursing advances Once→Twice→
+  Thrice): (a) start of combat with **pygmy shaman**, (b) Action Elevator opt 2 "Go to
+  the mezzanine", (c) drinking **Cursed Punch** from the **Hidden Tavern**.
+  **⚠️ DURATION TRAP:** "10 Adventures" effect duration ≈ **combat-rounds, not
+  zone-clicks** — curses die inside 2-3 fights. **PROVEN PATH:** buy 3+ Cursed Punch
+  from the Hidden Tavern (500 Meat each, 1 drunkenness each), drink them all in one
+  burst at a clean post-fight state (mid-choice drinks are silently blocked) →
+  Thrice-Cursed (10 turns) → IMMEDIATELY race to Apartment. The Action Elevator usually
+  fires before the curse expires across ~2 fights. Apartment protector is **squishy
+  (~120 HP)**, dies in 2 Cannellonis. Drops **moss-covered stone sphere** (earth) →
+  Bulbazinalli's earth shrine (346) → triangle.
 - **Office (343)**: ✅ VERIFIED Day 44. Pygmy **witch accountants** drop **McClusky file
   pages 1–5** (~1 per kill, RNG-gated). The **Working Holiday** superlikely offers:
   opt 1 "Knock on the boss's office door", opt 2 "Raid the supply cabinet"
@@ -180,10 +185,28 @@ Other zones: **Hidden Park = 345**, **A Massive Ziggurat = 350**.
 altar NC adds **"Place the [X] sphere in the impression"** → "a niche opens… odd triangular
 stone" → **stone triangle**. (Scorched sphere → fire shrine 349 → triangle. ✅ Day 43.)
 
-**Endgame:** 4 stone triangles → A Massive Ziggurat (350) → **Protector Spectre**
-(physical-immune too) → **ancient amulet** (Staff of Ed component 2/3).
+**Endgame ✅ VERIFIED Day 45:** With all 4 stone triangles, adventure at A Massive
+Ziggurat (350). Grind through dense liana guards → **"Legend of the Temple in the Hidden
+City"** NC → opt 1 **"Open the door"** → **Protector Spectre** fight (physical immune,
+~220 HP; Cannelloni + Mortar burst from full HP kills in 3 rounds; lead with Cannelloni).
+**Drops: ancient amulet + spectre scepter.** Done with the Hidden City. The 4 triangles
+are consumed by the door.
 
-**Day 43 progress: all 4 buildings unlocked; Bowling protector beaten; stone triangle 1/4.**
+**Crafting next:** at meat-paste combiner (craft.php?mode=combine), **ancient amulet +
+Eye of Ed → headpiece of the Staff of Ed** (item **2323**, stored in a quest-items area
+that does NOT appear in standard inventory.php?which=2 or =3 — only via api.php item
+lookup). That's Staff of Ed components 2/3 fused. Then +Staff of Fats (Palindome →
+Dr. Awkward) → Staff of Ed → pyramid socket → Ed the Undying → Holy MacGuffin.
+
+**Hidden Tavern access (Day 45):** unlocked by *using* a **book of matches** (item
+**6683**, drops from pygmy janitors). The Tavern lives at `shop.php?whichshop=hiddentavern`
+(NOT place.php?whichplace=hiddentavern). Sells **Cursed Punch** at 500 Meat each — the
+key to the Apartment Thrice-Cursed mechanic, and also gives +3 advs and 1 drunkenness
+per drink as a side benefit.
+
+**Hidden City progress:** Day 43 — 4 buildings unlocked + Bowling triangle; Day 44 —
+Office triangle (McClusky path); Day 45 — Hospital + Apartment triangles + Ziggurat +
+ancient amulet + crafted headpiece. **HIDDEN CITY COMPLETE.**
 
 > Park dumpster note: ground the Hidden Park (345, boaraffe monsters) ~25 advs and its
 > dumpster/antique-machete NC never fired — may be rare or counter-gated. Surgical gear may
