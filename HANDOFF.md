@@ -29,16 +29,17 @@ Staff of Fats (Palindome / Dr. Awkward)                                ❌ — P
 
 ## Day 47 plan — finish Shen + continue protesters
 
-**Today's Shen artifact (set by ascension-day Day 46): EYE OF THE STARS from the Snake With Like Ten Heads in The Hidden Tavern's neighbor, The Hole in the Sky (snarf 84).**
+**Today's Shen artifact (set by ascension-day Day 46): EYE OF THE STARS from the Snake With Like Ten Heads in The Hole in the Sky (snarfblat 83 — see correction below).**
 
-### CRITICAL: Hole in the Sky daily cap
-The Hole in the Sky has a **~1 adventure/day cap** (or some short cap — verify). After the cap is hit, every navigation returns "*You shouldn't be here.*" Each retry attempt does NOT consume adventures, but it does waste real-world time scanning. **Day 46 burned ~6 scan attempts before I figured this out — DO NOT REPEAT.** Make every daily Sky adventure count: enter once, kill what you fight; if it's not the Snake With Like Ten Heads, come back tomorrow.
+### ✅ CORRECTION: Hole in the Sky is snarfblat 83 (NOT 84). No daily cap.
+Day 46's HANDOFF wrongly claimed a "~1 adv/day cap" — that was a misdiagnosis. The truth: **snarf 84 is a different zone that blocks you with "You shouldn't be here." (no "yet"); snarf 83 is the actual Hole in the Sky** and is freely adventureable once you hold a steam-powered model rocketship. The Day-46 first Sky-fight at snarf 84 ("Skinflute") was a fluke — probably my session was in a weird state or 84 routed elsewhere. **Always use snarf 83 going forward.** The "shouldn't be here YET" stat-warning is a different message (has a brave-or-foolish bypass).
 
 ### Day 47 ordered plan
 1. **Open the day** — buy MMJ (top to ~50), eat 2 sushi (3 in stock; buy more from mall too), Pastamastery + Manicotti ×10. **YOU ARE STILL POISONED BY SHEN** (stat-penalty intrinsic) until you give him the 3rd artifact.
-2. **First action: snarf 84 (Hole in the Sky)** — single attempt for the daily fight. RNG-roll for Snake With Like Ten Heads → Eye of the Stars. If you get it, go to Shen → he'll ask for artifact #2 (random from same pool, NOT necessarily Sky again — could be any of: Stankara Stone/First Pizza/Murphy's Black Flag/Lacrosse Stick of Lacoronado/Shield of Brook/Eye of the Stars). Check questlog for new request and route to that zone.
-3. **Parallel grind: Red Zeppelin protesters (snarf 384)** with remaining advs. Each fight clears 1 protester. **"Fire Up Above" NC** (auto-handled by loop now) clears 3 protesters at once via option 1 "Join in." Need ~80 total cleared. Day 46 cleared ~10-15 — still ~65-70 to go (uncertain count — the Mooring page doesn't show a counter).
-4. After 80 protesters cleared, the **Red Zeppelin** opens → fight **Ron Copperhead** → get the other talisman piece. Combine with **Copperhead Charm** → **talisman o' nam** → **Palindome unlocks**.
+2. **Adventure at snarf 83 (Hole in the Sky)** freely. 19-monster pool; **Snake With Like Ten Heads** drops **Eye of the Stars**. Day 46 encountered the Snake once but LOST the fight at HP 69 start. **Snake combat rule: enter at FULL HP, Cannelloni R1 → Mortar R2 → Cannelloni R3 burst, NO Lasagna detour** (the heal-once-at-low-HP rule loses to the snake — the round wasted healing costs the kill). Other Sky monsters seen: Hooded Warrior, Pork Sword, Trouser Snake, Burrowing Bishop, Family Jewels, Junk — these are all easy 2-Cannelloni kills.
+3. After Eye of the Stars → return to **Copperhead Club (snarf 383)** → adventure → Shen → he'll ask for artifact #2 (random from same pool: Stankara Stone / First Pizza / Murphy's Rancid Black Flag / Lacrosse Stick of Lacoronado / Shield of Brook / Eye of the Stars). Check questlog (`questlog.php?which=1`, search for "Shen") for new request.
+4. **Parallel grind: Red Zeppelin protesters (snarf 384)** with remaining advs. Each fight clears 1 protester. **"Fire Up Above" NC** (auto-handled by loop now) clears 3 protesters at once via option 1 "Join in." Need ~80 total cleared. Day 46 cleared ~10-15 — still ~65-70 to go (uncertain count — the Mooring page doesn't show a counter).
+5. After 80 protesters cleared, the **Red Zeppelin** opens → fight **Ron Copperhead** → get the other talisman piece. Combine with **Copperhead Charm** → **talisman o' nam** → **Palindome unlocks**.
 
 ### Full Staff of Ed completion chain (for reference)
 ```
