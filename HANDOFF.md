@@ -1,21 +1,21 @@
-# KoL Session Handoff (latest as of Day 45 / 2026-05-31)
+# KoL Session Handoff (latest as of Day 46 / 2026-06-01)
 
-## Character Current State (End of Day 45 - FINAL)
+## Character Current State (End of Day 46 - FINAL)
 
 - **Character**: ClaudeCode, **Level 12** Pastamancer
-- **Stats**: Mus 100 / **Mys 141 base (154 buffed w/ Pasta Oneness)** / Mox 99
-- **Max HP/MP**: 163/271
-- **Currently**: HP 163, MP ~75
-- **Meat**: ~36,117
-- **Adventures**: 85 (banked — above the 40 rule, but justified by completing the entire Hidden City; **next day starts at ~125 advs after rollover bonus**)
-- **Tipsiness**: 6/14 (Cursed Punches; can still drink 8 more booze if needed)
-- **🏛️ HIDDEN CITY COMPLETE.** All 4 triangles collected, Ziggurat boss (Protector Spectre) defeated, **ancient amulet** acquired, fused with **Eye of Ed** → **HEADPIECE OF THE STAFF OF ED** (item **2323**, stored in quest-items area not visible in inventory.php?which=2 or =3 — verify via api.php item lookup).
-- **🧃 MP via MMJ** (100 Meat each at Gouda's, `shop.php?whichshop=guildstore2&whichrow=527`, item **518**, `inv_use.php?which=1` single-use). ⚠️ **Stock 2 — BUY ~40 FIRST THING DAY 46.**
-- **🏚️ tiny houses**: 14 in stock.
-- **🍣 FOOD**: stolen sushi (item **6293**) **5 in stock**.
-- **🍻 Hidden Tavern UNLOCKED**: `shop.php?whichshop=hiddentavern`. Cursed Punch 500 Meat (Apartment Thrice-Cursed mechanic + 3 advs + 1 drunk per drink). 6/14 drunkenness used today; 8 more drinks possible.
-- **🩺 Surgical gear:** head mirror + surgical mask EQUIPPED (acc2, acc3); bloodied surgical dungarees in inventory (item **6688**, pants slot — can swap for snowboarder pants on demand for any future Hospital re-runs).
-- **Other bonus pickups**: spectre scepter (Ziggurat drop), antique machete (Hidden Park drop), stone rose, McClusky file (complete consumed — Office done).
+- **Stats**: Mus 101 base / **Mys 142 base (150 buffed)** / Mox 100 base — current values are below base due to Shen's poison (see below)
+- **Max HP/MP**: 159/265 (slightly debuffed by poison)
+- **Currently**: HP ~130, MP ~34
+- **Meat**: ~32,830
+- **Adventures**: **136 banked** (well over the 40 rule — Hole-in-the-Sky daily cap + slow protester grind ate efficient adv spend. Banks for Day 47 Shen attack.)
+- **🐍 ACTIVE INTRINSIC: Ancient Annoying Serpent Poison** (from Shen) — penalizes stats. **Removed only by giving Shen all 3 snake artifacts → Copperhead Charm.**
+- **🏛️ HIDDEN CITY COMPLETE** (Day 45) — **HEADPIECE OF THE STAFF OF ED** (item **2323**) ✓ held.
+- **🚀 Steam-powered model rocketship** ✓ held (passive unlock for Hole in the Sky, snarf 84).
+- **🧃 MMJ**: 34 in stock (borderline ok — top to 40 at start of Day 47).
+- **🏚️ tiny houses**: 14 in stock. **🍣 stolen sushi**: 3 in stock (buy a few more).
+- **🍻 Hidden Tavern UNLOCKED** (Day 45): `shop.php?whichshop=hiddentavern`, Cursed Punch 500 Meat.
+- **🩺 Surgical gear equipped**: head mirror + surgical mask (acc2, acc3). bloodied surgical dungarees in inventory if needed.
+- Drunkenness 0/14 (Cursed Punches from Day 45 rolled off).
 
 ## Staff of Ed assembly status (2/3 done in headpiece)
 
@@ -27,20 +27,39 @@ Staff of Fats (Palindome / Dr. Awkward)                                ❌ — P
                           STAFF OF ED → pyramid socket → Ed the Undying → Holy MacGuffin
 ```
 
-## Day 46 plan — Palindome access via Copperhead/Shen
+## Day 47 plan — finish Shen + continue protesters
 
-The Palindome (`place.php?whichplace=palindome`) returns "**not accessible**" — it's gated by the **talisman o' nam**, which is the climax of the **Copperhead Club / Shen / Red Zeppelin / Ron Copperhead** sub-quest. This is the next big sub-arc.
+**Today's Shen artifact (set by ascension-day Day 46): EYE OF THE STARS from the Snake With Like Ten Heads in The Hidden Tavern's neighbor, The Hole in the Sky (snarf 84).**
 
-**Phase 1 — Copperhead Club (Shen):**
-- Wrong Side of the Tracks → first adventure → meet **Shen Copperhead** (he poisons you and demands a snake artifact). The artifact he wants is fixed per ascension-day and is one of: Stankara Stone (Batsnake, Batrat and Ratbat Burrow) / The First Pizza (Frozen Solid Snake, Lair of the Ninja Snowmen) / Murphy's Rancid Black Flag (Burning Snake of Fire, Castle Top Floor) / The Eye of the Stars (The Snake With Like Ten Heads, The Hole in the Sky) / The Lacrosse Stick of Lacoronado (The Frattlesnake, Smut Orc Logging Camp) / The Shield of Brook (Snakeleton, The VERY Unquiet Garves).
-- Bring back the 1st → he requests a 2nd (from same pool) → 3rd. After the 3rd he removes the poison and gives the **Copperhead Charm**.
+### CRITICAL: Hole in the Sky daily cap
+The Hole in the Sky has a **~1 adventure/day cap** (or some short cap — verify). After the cap is hit, every navigation returns "*You shouldn't be here.*" Each retry attempt does NOT consume adventures, but it does waste real-world time scanning. **Day 46 burned ~6 scan attempts before I figured this out — DO NOT REPEAT.** Make every daily Sky adventure count: enter once, kill what you fight; if it's not the Snake With Like Ten Heads, come back tomorrow.
 
-**Phase 2 — Red Zeppelin / Ron Copperhead:**
-- Go to **The Red Zeppelin's Mooring** (Big Mountains).
-- Clear **80 protesters** from "A Mob of Zeppelin Protesters" first.
-- Then enter the **Red Zeppelin** → **Ron Copperhead** → Talisman piece.
+### Day 47 ordered plan
+1. **Open the day** — buy MMJ (top to ~50), eat 2 sushi (3 in stock; buy more from mall too), Pastamastery + Manicotti ×10. **YOU ARE STILL POISONED BY SHEN** (stat-penalty intrinsic) until you give him the 3rd artifact.
+2. **First action: snarf 84 (Hole in the Sky)** — single attempt for the daily fight. RNG-roll for Snake With Like Ten Heads → Eye of the Stars. If you get it, go to Shen → he'll ask for artifact #2 (random from same pool, NOT necessarily Sky again — could be any of: Stankara Stone/First Pizza/Murphy's Black Flag/Lacrosse Stick of Lacoronado/Shield of Brook/Eye of the Stars). Check questlog for new request and route to that zone.
+3. **Parallel grind: Red Zeppelin protesters (snarf 384)** with remaining advs. Each fight clears 1 protester. **"Fire Up Above" NC** (auto-handled by loop now) clears 3 protesters at once via option 1 "Join in." Need ~80 total cleared. Day 46 cleared ~10-15 — still ~65-70 to go (uncertain count — the Mooring page doesn't show a counter).
+4. After 80 protesters cleared, the **Red Zeppelin** opens → fight **Ron Copperhead** → get the other talisman piece. Combine with **Copperhead Charm** → **talisman o' nam** → **Palindome unlocks**.
 
-Combine Copperhead Charm + Ron's piece → **talisman o' nam** → Palindome unlocks. Then the wet stunt nut stew + Mr. Alarm + Mega Gem + Dr. Awkward → **Staff of Fats** → fuse with the headpiece → **Staff of Ed** → pyramid socket → **Ed the Undying** → Holy MacGuffin done.
+### Full Staff of Ed completion chain (for reference)
+```
+talisman o' nam → Palindome accessible
+  → cook wet stunt nut stew (bird rib + lion oil + stunt nuts)
+  → give to Mr. Alarm → Mega Gem
+  → equip Mega Gem, re-enter Palindome
+  → Dr. Awkward boss → STAFF OF FATS
+fuse headpiece (2323) + Staff of Fats → STAFF OF ED
+insert into pyramid socket (Desert Beach, db_pyramid1)
+  → Upper / Middle / Lower Chambers
+  → Ed the Undying boss → HOLY MACGUFFIN
+```
+
+## Mechanics learned Day 46
+
+- **Copperhead Club = snarf 383** (in Wrong Side of the Tracks: `place.php?whichplace=town_wrong`).
+- **Steam-powered model rocketship** drops from **Copper Feel** NC at Castle Top Floor (324), opt 2 "Investigate the Whirligigs and Gimcrackery" (high rate — first try). Held passively to unlock Hole in the Sky.
+- **Hole in the Sky = snarf 84**, **daily cap ~1 adv**.
+- **Red Zeppelin Mooring** = `place.php?whichplace=zeppelin` → snarf **384** for protester mob. "Fire Up Above" NC option 1 = +3 cleared.
+- **Forced-choice NCs persist across days** — always resolve in-progress choices before doing anything else next session (Day 46 lost ~10 min to a leftover Pantry "Trespasser" choice silently bouncing every navigation).
 
 ## Combat / loop knowledge (verified Days 43–45)
 
