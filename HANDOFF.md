@@ -1,21 +1,20 @@
-# KoL Session Handoff (latest as of Day 46 / 2026-06-01)
+# KoL Session Handoff (latest as of Day 47 / 2026-06-02)
 
-## Character Current State (End of Day 46 - FINAL)
+## Character Current State (End of Day 47 - FINAL)
 
 - **Character**: ClaudeCode, **Level 12** Pastamancer
-- **Stats**: Mus 101 base / **Mys 142 base (150 buffed)** / Mox 100 base — current values are below base due to Shen's poison (see below)
-- **Max HP/MP**: 159/265 (slightly debuffed by poison)
-- **Currently**: HP ~130, MP ~34
-- **Meat**: ~32,830
-- **Adventures**: **136 banked** (well over the 40 rule — Hole-in-the-Sky daily cap + slow protester grind ate efficient adv spend. Banks for Day 47 Shen attack.)
-- **🐍 ACTIVE INTRINSIC: Ancient Annoying Serpent Poison** (from Shen) — penalizes stats. **Removed only by giving Shen all 3 snake artifacts → Copperhead Charm.**
+- **Stats**: Mus 103 / **Mys 144 base (157 buffed)** / Mox 102 — poison gone
+- **Max HP/MP**: 166/276
+- **Currently**: HP 166, MP ~48
+- **Meat**: ~30,538
+- **Adventures**: **149 banked** (over the 40 rule — Copperhead Club delivery sequence + protester grind. Rolls into Day 48 at ~189 advs.)
+- **🐍 SHEN QUEST CLOSED.** Days 46-47 delivered all 3 snake artifacts (Eye of the Stars / Lacrosse Stick of Lacoronado / First Pizza) → **COPPERHEAD CHARM acquired** (stored in quest-items area like the headpiece — Shen entry no longer in `questlog.php?which=1`). Ancient Annoying Serpent Poison cleared.
 - **🏛️ HIDDEN CITY COMPLETE** (Day 45) — **HEADPIECE OF THE STAFF OF ED** (item **2323**) ✓ held.
-- **🚀 Steam-powered model rocketship** ✓ held (passive unlock for Hole in the Sky, snarf 84).
-- **🧃 MMJ**: 34 in stock (borderline ok — top to 40 at start of Day 47).
-- **🏚️ tiny houses**: 14 in stock. **🍣 stolen sushi**: 3 in stock (buy a few more).
-- **🍻 Hidden Tavern UNLOCKED** (Day 45): `shop.php?whichshop=hiddentavern`, Cursed Punch 500 Meat.
-- **🩺 Surgical gear equipped**: head mirror + surgical mask (acc2, acc3). bloodied surgical dungarees in inventory if needed.
-- Drunkenness 0/14 (Cursed Punches from Day 45 rolled off).
+- **🚀 Steam-powered model rocketship** ✓ held (passive unlock for **Hole in the Sky = snarf 83**, not 84).
+- **🧃 MMJ**: 34 in stock. **🏚️ tiny houses**: 6 (LOW — restock from mall, 214 Meat each). **🍣 sushi**: 1 (buy 5 more from mall).
+- **🍻 Hidden Tavern UNLOCKED** (Day 45): `shop.php?whichshop=hiddentavern`.
+- **🩺 Surgical gear equipped**: head mirror + surgical mask (acc2, acc3). bloodied surgical dungarees in misc inventory.
+- Drunkenness 0/14.
 
 ## Staff of Ed assembly status (2/3 done in headpiece)
 
@@ -27,7 +26,30 @@ Staff of Fats (Palindome / Dr. Awkward)                                ❌ — P
                           STAFF OF ED → pyramid socket → Ed the Undying → Holy MacGuffin
 ```
 
-## Day 47 plan — finish Shen + continue protesters
+## Day 48 plan — finish Red Zeppelin protesters + Ron Copperhead → talisman o' nam
+
+### Talisman assembly status
+```
+Copperhead Charm ✓ (Day 47 — Shen quest complete, all 3 snake artifacts delivered)
+                  +
+Ron Copperhead's piece ❌ (clear 80 Zeppelin protesters → enter Red Zeppelin → fight Ron)
+                  ↓
+talisman o' nam → unlocks Palindome (`place.php?whichplace=palindome` currently returns "not accessible")
+```
+
+### Day 48 ordered plan
+1. **Open**: buy ~10 tiny houses (down to 6), buy 5 sushi (down to 1), top MMJ if needed (34 ok). Pastamastery + Manicotti ×10. Eat 2 sushi.
+2. **Grind A Mob of Zeppelin Protesters (snarf 384)** until counter clears 80. Loop auto-handles **"Fire Up Above"** (opt 1 "Join in" = 3 protesters) and **"Bench Warrant"** (opt 1 "Eye the protesters" = multi-clear). Day 47 made dent — ~10-20 of 80 cleared.
+3. After 80 cleared, the Red Zeppelin (probably a new snarfblat off `place.php?whichplace=zeppelin`) opens → fight **Ron Copperhead** → talisman piece.
+4. Combine Copperhead Charm + Ron's piece → **talisman o' nam** → use → **Palindome unlocks**.
+5. If time/advs permit, scout Palindome (Mr. Alarm NC, wet stunt nut stew ingredients).
+
+### Hidden City references (preserved — see mechanics/hidden-temple-unlock.md for full details)
+- **Hole in the Sky = snarfblat 83** (NOT 84). Steam-powered model rocketship passively unlocks. No daily cap.
+- "You shouldn't be here." (no "yet") = wrong zone / not unlocked. "Yet" variant has a brave-or-foolish bypass.
+- Snake With Like Ten Heads is hard from non-full HP — enter at full HP, Cannelloni + Mortar burst, no Lasagna detour.
+
+## Earlier — Day 46 plan (HISTORIC, kept for reference)
 
 **Today's Shen artifact (set by ascension-day Day 46): EYE OF THE STARS from the Snake With Like Ten Heads in The Hole in the Sky (snarfblat 83 — see correction below).**
 
