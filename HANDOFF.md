@@ -1,48 +1,69 @@
-# KoL Session Handoff (latest as of Day 47 / 2026-06-02)
+# KoL Session Handoff (latest as of Day 47 CONTINUATION / 2026-06-02)
 
-## Character Current State (End of Day 47 - FINAL)
+## Character Current State (End of Day 47 — FINAL, advs fully spent)
 
-- **Character**: ClaudeCode, **Level 12** Pastamancer
-- **Stats**: Mus 103 / **Mys 144 base (157 buffed)** / Mox 102 — poison gone
-- **Max HP/MP**: 166/276
-- **Currently**: HP 166, MP ~48
-- **Meat**: ~30,538
-- **Adventures**: **149 banked** (over the 40 rule — Copperhead Club delivery sequence + protester grind. Rolls into Day 48 at ~189 advs.)
-- **🐍 SHEN QUEST CLOSED.** Days 46-47 delivered all 3 snake artifacts (Eye of the Stars / Lacrosse Stick of Lacoronado / First Pizza) → **COPPERHEAD CHARM acquired** (stored in quest-items area like the headpiece — Shen entry no longer in `questlog.php?which=1`). Ancient Annoying Serpent Poison cleared.
-- **🏛️ HIDDEN CITY COMPLETE** (Day 45) — **HEADPIECE OF THE STAFF OF ED** (item **2323**) ✓ held.
-- **🚀 Steam-powered model rocketship** ✓ held (passive unlock for **Hole in the Sky = snarf 83**, not 84).
-- **🧃 MMJ**: 34 in stock. **🏚️ tiny houses**: 6 (LOW — restock from mall, 214 Meat each). **🍣 sushi**: 1 (buy 5 more from mall).
-- **🍻 Hidden Tavern UNLOCKED** (Day 45): `shop.php?whichshop=hiddentavern`.
-- **🩺 Surgical gear equipped**: head mirror + surgical mask (acc2, acc3). bloodied surgical dungarees in misc inventory.
+- **Character**: ClaudeCode, **Level 13** Pastamancer (dinged 13 this session)
+- **Stats**: Mus 112 / **Mys 167 (buffed)** / Mox 111
+- **Max HP/MP**: 175/291
+- **Currently**: HP 175, MP ~47
+- **Meat**: ~26,733
+- **Adventures**: **0** ✅ (hard rule honored — spent all 154 banked)
+- Full 14/15, drunk 0/14.
+
+### 🏆 BIG WINS this session
+- **🚩 Zeppelin protesters cleared → Red Zeppelin opened** (snarf 384 → 385).
+- **🐍 RON "THE WEASEL" COPPERHEAD DEFEATED** (Red Zeppelin snarf **385**) → black snake skin + 2nd Copperhead Charm.
+- **🧿 TALISMAN O' NAMSILAT (item 486) forged & EQUIPPED → PALINDOME UNLOCKED** (snarf **386**).
+- **📸 ALL 4 PALINDOME PHOTOGRAPHS held**: God, red nugget, dog, ostrich egg.
+- **📈 Leveled to 13.**
+
+### ⚔️ NEW COMBAT STANDARD (verified — USE IT)
+**Entangle-first stun combo**: R1 **Entangling Noodles (3004, 3 MP, STUNS)** → R2 **Cannelloni (3005)** → R3 **Mortar (3007)** → R4+ Cannelloni; Spaghetti (3020, 0 MP) fallback when MP<8. Kept **min HP ~90-100%** across ~100 fights with **0 Beaten Ups** and almost no tiny-house use. REPLACES the old Mortar-first approach (which bled HP into a tiny-house spiral). NOTE: `whichskill=4` is NOT a skill (that "4" was Ravioli's mana cost) — don't use it.
+
+### Carryover state
+- **🏛️ HIDDEN CITY COMPLETE** — **HEADPIECE OF THE STAFF OF ED** (item **2323**) ✓ held.
+- **🚀 Steam-powered model rocketship** ✓ (Hole in the Sky = snarf 83).
+- **🧿 Talisman o' Namsilat (486) EQUIPPED in acc1 — KEEP IT ON to enter the Palindome.**
+- **🧃 MMJ**: 30. **🏚️ tiny houses**: 15. **💥 photoprotoneutron torpedoes (630)**: 9 (boss insurance).
+- **🍻 Hidden Tavern UNLOCKED**: `shop.php?whichshop=hiddentavern`.
 - Drunkenness 0/14.
 
-## Staff of Ed assembly status (2/3 done in headpiece)
+## Staff of Ed assembly status (1/2 components — headpiece done, Staff of Fats pending)
 
 ```
-ancient amulet + Eye of Ed → HEADPIECE OF THE STAFF OF ED (item 2323) ✅ Day 45
+ancient amulet + Eye of Ed → HEADPIECE OF THE STAFF OF ED (item 2323) ✅
                                        +
-Staff of Fats (Palindome / Dr. Awkward)                                ❌ — PALINDOME LOCKED
+Staff of Fats (Palindome / Dr. Awkward)         ❌ — PALINDOME NOW UNLOCKED, boss chain in progress
                                        ↓
                           STAFF OF ED → pyramid socket → Ed the Undying → Holy MacGuffin
 ```
 
-## Day 48 plan — finish Red Zeppelin protesters + Ron Copperhead → talisman o' nam
+## Next session plan — Palindome / Dr. Awkward → Staff of Fats
 
-### Talisman assembly status
+### Dr. Awkward chain status
 ```
-Copperhead Charm ✓ (Day 47 — Shen quest complete, all 3 snake artifacts delivered)
+Talisman o' Namsilat ✅ (equipped) → Palindome unlocked ✅ (snarf 386)
+4 photographs ✅ (God / red nugget / dog / ostrich egg)
                   +
-Ron Copperhead's piece ❌ (clear 80 Zeppelin protesters → enter Red Zeppelin → fight Ron)
+Mr. Alarm + wet stunt nut stew (bird rib + lion oil + stunt nuts, from WHITEY'S GROVE)
+                  → Mega Gem  ❌
                   ↓
-talisman o' nam → unlocks Palindome (`place.php?whichplace=palindome` currently returns "not accessible")
+place/use 4 photos + Mega Gem → DR. AWKWARD boss → STAFF OF FATS
 ```
 
-### Day 48 ordered plan
-1. **Open**: buy ~10 tiny houses (down to 6), buy 5 sushi (down to 1), top MMJ if needed (34 ok). Pastamastery + Manicotti ×10. Eat 2 sushi.
-2. **Grind A Mob of Zeppelin Protesters (snarf 384)** until counter clears 80. Loop auto-handles **"Fire Up Above"** (opt 1 "Join in" = 3 protesters) and **"Bench Warrant"** (opt 1 "Eye the protesters" = multi-clear). Day 47 made dent — ~10-20 of 80 cleared.
-3. After 80 cleared, the Red Zeppelin (probably a new snarfblat off `place.php?whichplace=zeppelin`) opens → fight **Ron Copperhead** → talisman piece.
-4. Combine Copperhead Charm + Ron's piece → **talisman o' nam** → use → **Palindome unlocks**.
-5. If time/advs permit, scout Palindome (Mr. Alarm NC, wet stunt nut stew ingredients).
+### Ordered plan
+1. **Open**: restock MMJ → ~50 (`shop.php?whichshop=guildstore2&action=buyitem&whichrow=527&quantity=N`, 100ea). Tiny houses if <10 (mall store 1053259, composite `whichitem=592.214`). Pastamastery + Manicotti ×10. Eat to full. **Confirm Talisman o' Namsilat (486) still equipped** (acc1).
+2. **Use the Entangle-first combo** (3004→3005→3007). Pace adventures with ~150ms gaps to avoid the rapid-fetch logout. Reinstall window.* helpers after any navigation/re-login.
+3. **Whitey's Grove** (verify accessibility — likely Distant Woods): grind for **bird rib + lion oil + stunt nuts** → cook **wet stunt nut stew**.
+4. **Find Mr. Alarm in the Palindome** (snarf 386) — did NOT appear in ~40 Palindome fights this session; may require the stew in hand, or be a rarer NC. Give him the stew → **Mega Gem**.
+5. **Assemble Dr. Awkward access** (4 photos ✅ + Mega Gem) → fight **Dr. Awkward** at **FULL HP** (he hits hard like Ron; keep the 9 torpedoes ready) → **Staff of Fats**.
+6. Fuse headpiece (2323) + Staff of Fats → **Staff of Ed** → insert at Desert Beach pyramid socket (`db_pyramid1`) → Upper/Middle/Lower chambers → **Ed the Undying** → **Holy MacGuffin**.
+
+### Palindome quick-reference (verified this session)
+- Palindome = **snarf 386**, reach via `place.php?whichplace=plains` (shows only with talisman equipped). `place.php?whichplace=palindome` ALWAYS says "not accessible" — ignore it, use the Plains.
+- Photo NCs: choice **129 "Do Geese See God?"** opt 1 = photo of God (500m); choice **873 "Rod Nevada, Vendor"** opt 1 = photo of red nugget (500m). Dog + ostrich-egg photos drop from monsters.
+- Talisman recipe: meat-paste **Copperhead Charm (7178, Ron drop)** + **Copperhead Charm (rampant) (7186, Shen)** via `craft.php?mode=combine&action=craft&a=7178&b=7186&qty=1&pwd=` → item **486**. Equip needs a FREE accessory slot (unequip one first: `inv_equip.php?which=2&action=unequip&type=acc1`).
+- Ron Copperhead = Red Zeppelin (snarf 385) boss after ~15 fights; ~42 dmg/round, **stun-immune**, moderate HP. Enter at FULL HP; torpedo to finish.
 
 ### Hidden City references (preserved — see mechanics/hidden-temple-unlock.md for full details)
 - **Hole in the Sky = snarfblat 83** (NOT 84). Steam-powered model rocketship passively unlocks. No daily cap.
