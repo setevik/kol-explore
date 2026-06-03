@@ -1,75 +1,61 @@
-# KoL Session Handoff (latest as of Day 47 CONTINUATION / 2026-06-02)
+# KoL Session Handoff (latest as of Day 48 / 2026-06-03)
 
-## Character Current State (End of Day 47 — FINAL, advs fully spent)
+## Character Current State (End of Day 48 — FINAL, advs fully spent)
 
-- **Character**: ClaudeCode, **Level 13** Pastamancer (dinged 13 this session)
-- **Stats**: Mus 112 / **Mys 167 (buffed)** / Mox 111
-- **Max HP/MP**: 175/291
-- **Currently**: HP 175, MP ~47
-- **Meat**: ~26,733
-- **Adventures**: **0** ✅ (hard rule honored — spent all 154 banked)
-- Full 14/15, drunk 0/14.
+- **Character**: ClaudeCode, **Level 13** Pastamancer
+- **Stats**: Mus 114 / **Mys 173 (buffed)** / Mox 114
+- **Max HP/MP**: 177/300
+- **Currently**: HP ~111, MP ~31
+- **Meat**: ~26,587
+- **Adventures**: **0** ✅ (hard rule honored — spent all 49)
+- Full 0/15, drunk 0/14.
 
-### 🏆 BIG WINS this session
-- **🚩 Zeppelin protesters cleared → Red Zeppelin opened** (snarf 384 → 385).
-- **🐍 RON "THE WEASEL" COPPERHEAD DEFEATED** (Red Zeppelin snarf **385**) → black snake skin + 2nd Copperhead Charm.
-- **🧿 TALISMAN O' NAMSILAT (item 486) forged & EQUIPPED → PALINDOME UNLOCKED** (snarf **386**).
-- **📸 ALL 4 PALINDOME PHOTOGRAPHS held**: God, red nugget, dog, ostrich egg.
-- **📈 Leveled to 13.**
+### 🏆 BIG WINS Day 48 — the Palindome arc is DONE
+- **🏆 STAFF OF ED ASSEMBLED** (headpiece 2323 + Staff of Fats 2268 → Staff of Ed).
+- **⚔️ DR. AWKWARD DEFEATED** → Staff of Fats + Drowsy Sword.
+- **📖 Photo puzzle + Mr. Alarm + Mega Gem** all done in one day.
+- **🔺 ANCIENT BURIED PYRAMID OPENED**: Upper (406) → Middle (407) → **Lower Chambers** now reachable.
 
-### ⚔️ NEW COMBAT STANDARD (verified — USE IT)
-**Entangle-first stun combo**: R1 **Entangling Noodles (3004, 3 MP, STUNS)** → R2 **Cannelloni (3005)** → R3 **Mortar (3007)** → R4+ Cannelloni; Spaghetti (3020, 0 MP) fallback when MP<8. Kept **min HP ~90-100%** across ~100 fights with **0 Beaten Ups** and almost no tiny-house use. REPLACES the old Mortar-first approach (which bled HP into a tiny-house spiral). NOTE: `whichskill=4` is NOT a skill (that "4" was Ravioli's mana cost) — don't use it.
+### ⚔️ COMBAT STANDARD (keep using)
+**Entangle-first stun combo**: R1 **Entangling Noodles (3004)** → R2 **Cannelloni (3005)** → R3 **Mortar (3007)** → R4+ Cannelloni; Spaghetti (3020) fallback at MP<8. Bosses (Ron, Dr. Awkward) are **stun-immune & hit hard (~42–63/round)** — enter at FULL HP, lead Cannelloni, queue Mortar, finish with the detonation; familiar+thrall heal you mid-fight. Keep **9 photoprotoneutron torpedoes (630)** as boss insurance. `whichskill=4` is NOT a skill.
 
 ### Carryover state
-- **🏛️ HIDDEN CITY COMPLETE** — **HEADPIECE OF THE STAFF OF ED** (item **2323**) ✓ held.
+- **🏆 STAFF OF ED** ✓ held (ready to use at the pyramid — already opened the chambers).
+- **🧿 Talisman o' Namsilat (486)** equipped acc1; **💎 Mega Gem (2267)** equipped acc3.
 - **🚀 Steam-powered model rocketship** ✓ (Hole in the Sky = snarf 83).
-- **🧿 Talisman o' Namsilat (486) EQUIPPED in acc1 — KEEP IT ON to enter the Palindome.**
-- **🧃 MMJ**: 30. **🏚️ tiny houses**: 15. **💥 photoprotoneutron torpedoes (630)**: 9 (boss insurance).
-- **🍻 Hidden Tavern UNLOCKED**: `shop.php?whichshop=hiddentavern` — **our booze source**.
-  Three drinks @ 500 Meat (lvl 6): **Cursed Punch (row 173)**, **Bowl of Scorpions (row 174)**,
-  **Fog Murderer (row 175)**. Drink via `inv_booze.php?which=1&whichitem=ID`.
-  **⚠️ Weak on this server**: ~+1 drunkenness & ~1.5–3 advs PER drink (descs overstate
-  potency). Cursed Punch also inflicts a random curse. Booze = a minor, pricey rollover-adv
-  source; only use end-of-day if Meat is plentiful.
-- **Drunkenness 4/14** (drank 2 Fog Murderer + 2 Cursed Punch end of Day 47 → **~9 advs
-  banked into next rollover**). Two minor curse effects active (will lapse).
+- **🧃 MMJ**: 27. **🏚️ tiny houses**: 8 (restock toward 15). **💥 torpedoes (630)**: 9.
+- **🍻 Hidden Tavern booze** (`shop.php?whichshop=hiddentavern`): Cursed Punch (row 173),
+  Bowl of Scorpions (row 174), Fog Murderer (row 175), 500m each, drink via
+  `inv_booze.php?which=1&whichitem=ID`. **⚠️ Weak**: ~+1 drunk & ~1.5–3 advs/drink; Cursed
+  Punch inflicts a curse. Only bank booze the night before a big-adventure day (e.g. Ed).
 
-## Staff of Ed assembly status (1/2 components — headpiece done, Staff of Fats pending)
+## 🔺 FINAL STRETCH — Holy MacGuffin via the pyramid
 
 ```
-ancient amulet + Eye of Ed → HEADPIECE OF THE STAFF OF ED (item 2323) ✅
-                                       +
-Staff of Fats (Palindome / Dr. Awkward)         ❌ — PALINDOME NOW UNLOCKED, boss chain in progress
-                                       ↓
-                          STAFF OF ED → pyramid socket → Ed the Undying → Holy MacGuffin
+Staff of Ed ✅  →  Ancient Buried Pyramid OPEN ✅
+   Upper Chamber  = snarf 406
+   Middle Chamber = snarf 407
+   Lower Chambers = "nothing on the left, RUBBLE on the right"  (place.php?whichplace=pyramid)
+        → grind Middle Chamber (407) for an ANCIENT BOMB to clear the rubble
+        → rotate the pyramid to Ed's tomb
+        → ED THE UNDYING (multi-life boss — needs a BIG adventure budget)
+        → HOLY MACGUFFIN  →  turn in at Council  →  spine quest COMPLETE
 ```
 
-## Next session plan — Palindome / Dr. Awkward → Staff of Fats
+### Ordered plan (Day 49)
+1. **Open**: restock MMJ → ~50 (`shop.php?whichshop=guildstore2&action=buyitem&whichrow=527&quantity=N`, 100ea). Tiny houses → ~15 (mall store 1053259, composite `whichitem=592.214`). Pastamastery + Manicotti ×10. **Source food** (mall stolen sushi / pasta dishes) for extra fullness advs — Ed needs turns.
+2. Reinstall `window.*` helpers after login (they wipe on navigation). Pace adventures ~150ms to avoid the rapid-fetch logout. Confirm Talisman (486) + Mega Gem (2267) still equipped.
+3. **Middle Chamber (407)**: grind for the **ancient bomb** (clears Lower-Chambers rubble) + rotation control NC.
+4. **Lower Chambers**: clear rubble, rotate to Ed's tomb.
+5. **Ed the Undying**: multi-life boss — FULL HP entry, torpedoes + MMJ ready. Budget many advs.
+6. **Holy MacGuffin** → Council turn-in.
 
-### Dr. Awkward chain status
-```
-Talisman o' Namsilat ✅ (equipped) → Palindome unlocked ✅ (snarf 386)
-4 photographs ✅ (God / red nugget / dog / ostrich egg)
-                  +
-Mr. Alarm + wet stunt nut stew (bird rib + lion oil + stunt nuts, from WHITEY'S GROVE)
-                  → Mega Gem  ❌
-                  ↓
-place/use 4 photos + Mega Gem → DR. AWKWARD boss → STAFF OF FATS
-```
-
-### Ordered plan
-1. **Open**: restock MMJ → ~50 (`shop.php?whichshop=guildstore2&action=buyitem&whichrow=527&quantity=N`, 100ea). Tiny houses if <10 (mall store 1053259, composite `whichitem=592.214`). Pastamastery + Manicotti ×10. Eat to full. **Confirm Talisman o' Namsilat (486) still equipped** (acc1).
-2. **Use the Entangle-first combo** (3004→3005→3007). Pace adventures with ~150ms gaps to avoid the rapid-fetch logout. Reinstall window.* helpers after any navigation/re-login.
-3. **Whitey's Grove** (verify accessibility — likely Distant Woods): grind for **bird rib + lion oil + stunt nuts** → cook **wet stunt nut stew**.
-4. **Find Mr. Alarm in the Palindome** (snarf 386) — did NOT appear in ~40 Palindome fights this session; may require the stew in hand, or be a rarer NC. Give him the stew → **Mega Gem**.
-5. **Assemble Dr. Awkward access** (4 photos ✅ + Mega Gem) → fight **Dr. Awkward** at **FULL HP** (he hits hard like Ron; keep the 9 torpedoes ready) → **Staff of Fats**.
-6. Fuse headpiece (2323) + Staff of Fats → **Staff of Ed** → insert at Desert Beach pyramid socket (`db_pyramid1`) → Upper/Middle/Lower chambers → **Ed the Undying** → **Holy MacGuffin**.
-
-### Palindome quick-reference (verified this session)
-- Palindome = **snarf 386**, reach via `place.php?whichplace=plains` (shows only with talisman equipped). `place.php?whichplace=palindome` ALWAYS says "not accessible" — ignore it, use the Plains.
-- Photo NCs: choice **129 "Do Geese See God?"** opt 1 = photo of God (500m); choice **873 "Rod Nevada, Vendor"** opt 1 = photo of red nugget (500m). Dog + ostrich-egg photos drop from monsters.
-- Talisman recipe: meat-paste **Copperhead Charm (7178, Ron drop)** + **Copperhead Charm (rampant) (7186, Shen)** via `craft.php?mode=combine&action=craft&a=7178&b=7186&qty=1&pwd=` → item **486**. Equip needs a FREE accessory slot (unequip one first: `inv_equip.php?which=2&action=unequip&type=acc1`).
-- Ron Copperhead = Red Zeppelin (snarf 385) boss after ~15 fights; ~42 dmg/round, **stun-immune**, moderate HP. Enter at FULL HP; torpedo to finish.
+### Palindome reference (DONE — for the record)
+- Palindome = snarf 386 via `place.php?whichplace=plains` (talisman equipped). Offices appear on `place.php?whichplace=palindome` after reading the books: Vol. I (7262) → `pal_droffice` (Dr. Awkward); Vol. 2 (7270) → `pal_mroffice` (Mr. Alarm).
+- Drawn Onward photo order (choice 872): God(2259), red nugget(7264), dog(7263), ostrich egg(7265).
+- Revamp: after meeting Mr. Alarm, **Bob monsters drop the finished wet stunt nut stew directly** (no Whitey's Grove cooking). Deliver → Mega Gem (2267).
+- Recurring Palindome stat NCs: 126 "Sun at Noon, Tan Us" (opt 1), 127 "papaya war" (opt 3).
+- Dr. Awkward via choice 131 (any option starts the fight); needs Talisman + Mega Gem equipped.
 
 ### Hidden City references (preserved — see mechanics/hidden-temple-unlock.md for full details)
 - **Hole in the Sky = snarfblat 83** (NOT 84). Steam-powered model rocketship passively unlocks. No daily cap.
