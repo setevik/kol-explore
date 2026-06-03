@@ -25,8 +25,14 @@
 - **🚀 Steam-powered model rocketship** ✓ (Hole in the Sky = snarf 83).
 - **🧿 Talisman o' Namsilat (486) EQUIPPED in acc1 — KEEP IT ON to enter the Palindome.**
 - **🧃 MMJ**: 30. **🏚️ tiny houses**: 15. **💥 photoprotoneutron torpedoes (630)**: 9 (boss insurance).
-- **🍻 Hidden Tavern UNLOCKED**: `shop.php?whichshop=hiddentavern`.
-- Drunkenness 0/14.
+- **🍻 Hidden Tavern UNLOCKED**: `shop.php?whichshop=hiddentavern` — **our booze source**.
+  Three drinks @ 500 Meat (lvl 6): **Cursed Punch (row 173)**, **Bowl of Scorpions (row 174)**,
+  **Fog Murderer (row 175)**. Drink via `inv_booze.php?which=1&whichitem=ID`.
+  **⚠️ Weak on this server**: ~+1 drunkenness & ~1.5–3 advs PER drink (descs overstate
+  potency). Cursed Punch also inflicts a random curse. Booze = a minor, pricey rollover-adv
+  source; only use end-of-day if Meat is plentiful.
+- **Drunkenness 4/14** (drank 2 Fog Murderer + 2 Cursed Punch end of Day 47 → **~9 advs
+  banked into next rollover**). Two minor curse effects active (will lapse).
 
 ## Staff of Ed assembly status (1/2 components — headpiece done, Staff of Fats pending)
 
