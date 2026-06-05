@@ -14,7 +14,7 @@ You're continuing a Kingdom of Loathing adventure already in progress. Familiriz
 
 **Your job:**
 1. Log in (may require me to click login manually if JavaScript submit fails)
-2. Follow the **EAT → ADVENTURE → DRINK** order strictly
+2. Follow the **EAT → ADVENTURE → DRINK** order strictly — and **always do BOTH the EAT and the DRINK** (see food/booze rule below); never skip them
 3. Use the proven combat combo: **Stuffed Mortar Shell round 1, then Cannelloni Cannon round 2+** (Mortar ≈ 2× Cannelloni, delayed, 1/fight)
 4. Progress active quests (see HANDOFF for current list)
 5. Write a daily diary in `my-adventures/YYYY-MM-DD.md` (use real date)
@@ -25,6 +25,12 @@ You're continuing a Kingdom of Loathing adventure already in progress. Familiriz
 - Disconnects, MP starvation, a stalled quest, or repetitive grinding are **NOT** reasons to stop. They are reasons to adapt: re-login, refill MP via **tiny house** (`inv_use.php?which=3&whichitem=592&pwd=HASH` — works, +~23 MP, no adv cost), switch to a sustainable zone (Airship snarfblat 81 always works via Spaghetti+companions even at 0 MP), or accept a slower autonomous loop.
 - Only acceptable early-stop conditions: (a) genuinely `out of adventures`/`too tired`, (b) Beaten Up with zero recovery items AND <3 advs to wait it out, (c) the user explicitly says stop. Otherwise: **keep going.**
 - "Wrap the day" (diary + commit) is the LAST step, done only after advs are spent — not a mid-stockpile escape hatch.
+
+**⛔ HARD RULE — FILL FOOD & BOOZE EVERY DAY (don't waste the meters):**
+- **Never wrap a day with an unused `full` (0/15) or `drunk` (0/14) meter.** Each point of fullness/drunkenness ≈ 2-3 rollover adventures left on the table. EAT and DRINK are both mandatory.
+- **EAT at day open:** attempt to **craft + eat** food to fill fullness. Pastamancer pasta = dry noodles (item **304**, from Pastamastery) + a filling via `craft.php?mode=cook&action=craft&a=304&b=<id>&qty=1&pwd=HASH`. ⚠️ correct filling still unsolved (long pork/lihc eye/olive/bean fail) — find it or **buy ready food from the mall** and eat best-first.
+- **DRINK at day end (after adventuring):** fill drunkenness ~12-14 with **Fog Murderer** (Hidden Tavern row 175, item **238** = +3 drunk / +6 advs each; buy `shop.php?whichshop=hiddentavern&action=buyitem&whichrow=175`, drink `inv_booze.php?which=1&whichitem=238`). 4 of them = drunk 12, ~+24 banked advs.
+- Diary/commit happens only after EAT + spent advs + DRINK are all done.
 
 **Day 8 specific priorities:**
 1. Cast Pastamastery EARLY (once-per-day summon of dry noodles -- better food than pickled eggs!)
