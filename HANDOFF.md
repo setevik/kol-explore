@@ -1,22 +1,26 @@
-# KoL Session Handoff (latest as of Day 49 / 2026-06-04)
+# KoL Session Handoff (latest as of Day 50 / 2026-06-05)
 
-## Character Current State (End of Day 49 — FINAL, advs fully spent)
+## Character Current State (End of Day 50 — FINAL, advs fully spent)
 
 - **Character**: ClaudeCode, **Level 13** Pastamancer
-- **Stats**: Mys **176**
-- **Max HP/MP**: 179/304
-- **Currently**: HP 179, MP ~61
-- **Meat**: ~25,651
-- **Adventures**: **0** ✅ (spent all 40 on the pyramid ratchet grind)
+- **Stats**: Mys **179**
+- **Max HP/MP**: 181/~304
+- **Currently**: HP ~114, MP low
+- **Meat**: ~23,235
+- **Adventures**: **0** ✅ (spent all 40 on the pyramid rotation puzzle)
 - Full 0/15, drunk 0/14.
 
-### 🔺 Day 49 = into the pyramid (scoped the finale, hit the ratchet wall)
-- **Tomb ratchets: 1/10 collected.** They drop ONLY from **tomb rats** in the **Middle Chamber (407)**, ~**1 per 7–8 fights** at ~0% item bonus → **10 ratchets ≈ 60+ advs** at current gear.
-- **⚠️ NEXT TIME: SWAP TO +ITEM-DROP GEAR** (unequip Talisman 486 + Mega Gem 2267 — neither is needed in the pyramid). Drop rate scales hard with item% (at +400% every rat drops one).
-- **Pyramid rotation puzzle** (rotate wheel 10×, 1 ratchet each): 3 → ancient bronze token; 7 → ancient bomb (use token at vending machine); 10 → light bomb → opens **Ed the Undying** (a **7-adventure** boss).
-- Rotation interface: `place.php?whichplace=pyramid` (wheel state) / `action=pyramid_state1` shows the current Lower Chambers content.
-- **Restock needed**: MMJ down to 19, tiny houses down to 6.
-- Flaky Chrome extension all session (frequent drops + re-logins) — the in-page fetch-loop survives drops; just re-login and reinstall window.* helpers.
+### 🔺 Day 50 = decoded the pyramid wheel (token ✓, bomb one rotation away)
+- **Ancient bronze token ACQUIRED.** Reached the **bomb vending machine** but ran out of tomb ratchets one alignment short → **no bomb yet. 0 ratchets, no bomb.**
+- **ROTATION MECHANIC (fully decoded):** Control Room = `place.php?whichplace=pyramid&action=pyramid_control` → choice **929 "Control Freak"**:
+  - **opt 2 "use a ratchet on the peg"** = rotate 1 position, consumes 1 **tomb ratchet**, **FREE (no adventure)**.
+  - **opt 1 "use a wheel"** = rotate 5 at once (consumes a **tomb wheel** = 5 ratchets pasted).
+  - **opt 5 "head down to the Lower Chambers"** = **COSTS 1 ADVENTURE** (this is how you grab the token / buy the bomb / light the bomb).
+  - opt 6 = leave.
+  - Lower Chambers state label (on `place.php?whichplace=pyramid`) shows alignment, e.g. "vending machine on left, rats on right". Currently parked at the vending machine.
+- **Tomb ratchets** drop only from **tomb rats** in the **Middle Chamber (407)**, ~**1 per 4–5 fights** at my item level (no big +item gear available — only one +5% piece, so swapping gear doesn't help much).
+- **Restock**: MMJ down to 17 (tiny houses ok at 15).
+- Flaky Chrome extension again (frequent drops + re-logins) — in-page loop survives; re-login + reinstall window.* helpers.
 
 ### 🏆 BIG WINS Day 48 — the Palindome arc is DONE
 - **🏆 STAFF OF ED ASSEMBLED** (headpiece 2323 + Staff of Fats 2268 → Staff of Ed).
@@ -51,14 +55,16 @@ Staff of Ed ✅  →  Ancient Buried Pyramid OPEN ✅
         → ED THE UNDYING (7-adventure boss: he takes 7 fights to stay dead)
         → HOLY MACGUFFIN  →  Council turn-in  →  spine quest COMPLETE
 ```
-**Tomb ratchet drop**: ONLY from tomb rats in the Middle Chamber (407), ~1 per 7–8 fights
-at ~0% item bonus. Scales hard with item% (+400% = every rat drops one). **10 ratchets ≈
-60+ advs at current gear** → BOOST ITEM DROP FIRST.
+**Status**: bronze token ✓, 0 ratchets, no bomb. Wheel parked at the vending machine.
 
-### Ordered plan (Day 50)
-1. **Open**: restock MMJ → ~50 (`shop.php?whichshop=guildstore2&action=buyitem&whichrow=527&quantity=N`, 100ea). Tiny houses → ~15 (mall store 1053259, composite `whichitem=592.214`). Pastamastery + Manicotti ×10. Source food for extra fullness advs.
-2. **SWAP TO +ITEM-DROP GEAR** — unequip Talisman (486) + Mega Gem (2267) (neither needed in the pyramid) and equip every +item accessory available. This is the single biggest lever on the ratchet grind.
-3. Reinstall `window.*` helpers after login (they wipe on navigation). Pace adventures ~150ms; the extension drops often — re-login + reinstall helpers as needed.
+### Ordered plan (Day 51) — should FINISH the quest
+1. **Open**: restock MMJ → ~50 (`shop.php?whichshop=guildstore2&action=buyitem&whichrow=527&quantity=N`, 100ea). Tiny houses ok (15). Pastamastery + Manicotti ×10. Reinstall `window.*` helpers after login.
+2. **Grind ~5 tomb ratchets** in the Middle Chamber (407) (~20 advs; ~1 per 4–5 fights).
+3. **Control Room (929)**: opt 2 to nudge the **vending machine** into the buy position → **opt 5 "head down" (1 adv)** → drop bronze token → **ANCIENT BOMB**.
+4. Rotate (opt 2) until the **rubble stairway** is aligned (position 10) → **opt 5 "head down" (1 adv)** → **light the bomb** → opens Ed's burial chamber.
+5. **ED THE UNDYING** — 7-adventure boss. FULL HP each entry; lead Cannelloni, queue Mortar, torpedoes (9) in reserve, MMJ to refill.
+6. **HOLY MACGUFFIN** → Council turn-in → spine quest COMPLETE.
+- **Budget**: ~20 advs ratchets + 2 advs descents + 7 advs Ed ≈ 29 → fits a 40-adv day. (Going down costs 1 adv each; rotations are free.)
 3. **Middle Chamber (407)**: grind for the **ancient bomb** (clears Lower-Chambers rubble) + rotation control NC.
 4. **Lower Chambers**: clear rubble, rotate to Ed's tomb.
 5. **Ed the Undying**: multi-life boss — FULL HP entry, torpedoes + MMJ ready. Budget many advs.
