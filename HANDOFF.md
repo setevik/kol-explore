@@ -1,38 +1,45 @@
-# KoL Session Handoff (latest as of Day 52 / 2026-06-07)
+# KoL Session Handoff (latest as of Day 53 / 2026-06-08)
 
-## Character Current State (End of Day 52 — 💣 BOMB ACQUIRED; advs spent, drank to 45 banked)
+## Character Current State (End of Day 53 — 🏆 HOLY MACGUFFIN COMPLETE; drank to 41 banked)
 
-- **Character**: ClaudeCode, **Level 13** Pastamancer
-- **Stats**: Mys **184**
-- **Max HP/MP**: 186/~309
-- **Meat**: ~4,694 (recovers fast from tomb-rat drops — restock MMJ freely mid-grind)
-- **Adventures**: **45 banked** (drank 3 Fog Murderers → overshot to drunk 18; advs bank anyway)
-- Full 15/15. ✅ EAT done. (drunk reset at rollover.)
+- **Character**: ClaudeCode, **Level 14** Pastamancer
+- **Stats**: Mys **194**
+- **Max HP/MP**: ~193/~325
+- **Meat**: ~7,548 (farmed up nicely from tomb-monster drops)
+- **Adventures**: **41 banked** (2 Fog Murderers + 1 brandy → clean drunk 14)
+- Full 15/15. ✅ EAT done. (drunk resets at rollover.)
 
-### 💣 Day 52 = ANCIENT BOMB ACQUIRED (the wall since Day 50 is BROKEN)
-- **Got the bomb!** Ground a 3rd tomb ratchet (RNG was brutal: ~1 ratchet in ~90 fights
-  today), then rotated #1→#4 (rotate-and-watch, 3 ratchets) to **"rubble on left, vending
-  machine on right"** → descended with token → **ancient bomb**. The decoded map worked
-  perfectly (no overshoot).
-- **NOW: have ancient bomb, 1 crumbling wooden wheel, 0 tomb ratchets, NO token (spent).**
-  Wheel parked at **#4 "rubble on left, vending machine on right"** (the vending alignment).
-- **NEXT (to open Ed's chamber):** reach **#2 "nothing on the left, rubble on the right"**
-  (rubble) and descend with the bomb. From #4, rubble is +7 forward: use **1 wheel (+5)**
-  then **rotate-and-watch with ~2 ratchets** until the label is "nothing on left, rubble on
-  right", then opt 5 descend → Ed's burial chamber opens. **Need ~2 ratchets** (grind in 407).
-- **⚠️ THE SILENT GRIND STALL (debugged today):** MP starvation → weak combat → **Beaten
-  Up** → Beaten Up **caps your stats** (Mys read 99 instead of 184) → drops you below the
-  zone's recommendation → Middle Chamber throws a **"too tough for you (140 Mys)" warning
-  page** that is NOT a fight, costs no adventure, and an auto-loop spins on it forever.
-  **Fix:** the grind loop must (a) check for "Beaten Up" *as an effect* before adventuring
-  and campground-rest if present, (b) keep MMJ stocked so MP never starves, (c) add
-  `&ignorewarning=1` to the adventure URL as a backstop. A rest clears Beaten Up AND
-  restores the stat cap.
-- **🍣 stolen sushi (6293) = GREAT food: 6 fullness, ~12 adv each.** 2 sushi + junk = full
-  15 and a big adventure boost (Day 52 opened to 95 advs). The 165-sushi stockpile is a
-  real asset, ~30 days of food. (Day 51's "1-adv sushi" was the OLIVE, item 245.)
-- **🍶 Fog Murderer (item 6682) = +6 drunkenness** (NOT +3) & ~14 adv each — strong. 2 Fog
-  + 1 brandy ≈ drunk 14. Don't drink a 3rd Fog from drunk 12 (overshoots to 18).
+### 🏆🎊 Day 53 = HOLY MACGUFFIN QUEST COMPLETE — the big one is DONE
+- Ground tomb ratchets (warmer RNG today), used the wheel(+5) → landed on #5 → 2 ratchets
+  rotate-and-watch → **#2 "nothing on the left, rubble on the right"** → descended with the
+  bomb → **passageway to Ed's tomb opened**.
+- **ED THE UNDYING defeated.** Multi-life boss; **Cannelloni → Mortar → Cannelloni burst
+  melts each incarnation in 2-3 rounds at near-full HP.** Heal (scroll 595) + MMJ between
+  lives. ⚠️ Completion detection: match the literal **"You acquire an item: Holy MacGuffin"**
+  line — the words "Holy MacGuffin" appear in ALL of Ed's flavor text (false positives).
+- **HOLY MACGUFFIN turned in at the Council** (`council.php`, auto-completes on visit) →
+  parade + handful of confetti → quest GONE from the log. **The pyramid arc is over.** 🔺✅
+- ⚠️ **Operational:** the extension disconnected right at the bomb-light moment, and heavy
+  rapid fetching + a session drop made **api.php return an account/HTML page** (looked like
+  a login). **Re-logging in fixes api.php.** Don't mistake the account page for JSON.
+
+### ✅ MAJOR QUESTS DONE (for the record)
+- **The Holy MacGuffin** ✅ (Day 53) — Staff of Ed → pyramid → wheel → bomb → Ed → MacGuffin.
+- The full pyramid wheel decode lives in **`mechanics/pyramid-lower-chamber-wheel.md`** (kept
+  for reference / future ascensions).
+
+### Carryover consumable notes
+- **🍣 stolen sushi (item 6293) = GREAT food: 6 fullness, ~12 adv each.** 2 sushi + junk =
+  full 15 and ~+30 adventures. ~160 banked = a huge food reserve. (Day 51's "1-adv sushi"
+  was the OLIVE, item 245 — different item.)
+- **🍶 Fog Murderer (item 6682) = +6 drunk / ~14 adv each.** Best ratio. **2 Fog + 1 brandy
+  (item 1956, +2 drunk) = exactly drunk 14.** Don't drink a 3rd Fog from 12 (→ overshoots 18).
+- **🧃 MMJ** (`shop.php?whichshop=guildstore2&action=buyitem&whichrow=527`, 100ea): restock
+  ~30 at open; meat recovers from grinding. **📜 scroll of drastic healing (item 595)** =
+  full HP. **🧪 antidote (588)** cures poison via `uneffect.php?...whicheffect=284`.
+- **⚔️ Combat loop notes (proven):** check "Beaten Up" as an *effect* → campground rest
+  (clears it + restores the Beaten-Up stat cap); keep MMJ stocked; `&ignorewarning=1` on the
+  adventure URL backstops the Mys-warning stall.
 
 ### 🔺 Day 51 = wheel decode CORRECTED; bomb still pending (RNG + recovery drought)
 - **Net pyramid progress: have 2 tomb ratchets, 1 crumbling wooden wheel, 1 bronze token. NO bomb yet.** Wheel parked at alignment **#1 "vending machine on left, rats on right"**.
@@ -85,9 +92,8 @@
   (campground rest clears Beaten Up + ~10 MP/adv as fallback). **💥 torpedoes (630): 9.**
   **📜 scroll of drastic healing: ~9** (full HP, item 595; does NOT clear Beaten Up).
   **🧪 soft green echo eyedrop antidote: ~27** (item 588, cures poison via uneffect.php).
-- **💣 Pyramid: ANCIENT BOMB ✓, 1 crumbling wooden wheel, 0 ratchets, token spent.** Wheel
-  parked at alignment **#4** ("rubble on left, vending machine on right"). Need ~2 ratchets
-  → wheel(+5)+rotate-and-watch to #2 (rubble) → descend → opens Ed's chamber.
+- **🔺 Pyramid / Holy MacGuffin: ✅ COMPLETE (Day 53).** Ed defeated, MacGuffin turned in.
+  Nothing left to do at the pyramid.
 - **🍶 Booze on hand (no need to buy):** snifter of thoroughly aged brandy ×~3 (item 1956,
   **+2 drunk / +3 advs**), Fog Murderer ×~2 (item **6682**, **+6 drunk / ~14 advs each —
   strong!**), Green Manalishi ×5 (7206), bottle of gin ×6 (237), vodka (238). Drink via
@@ -96,41 +102,34 @@
 - **🍣 Food: 165 stolen sushi (6293, 6-fullness)** banked + assorted junk food. Mall stolen
   sushi is ~132 meat but only ~1 fullness/1 adv when "olive" (245) — the real one is 6293.
 
-## 🔺 FINAL STRETCH — Holy MacGuffin via the pyramid (full decode in mechanics file)
+## 🌋 NEXT OBJECTIVE — the Island War ("Make War, Not... Oh, Wait")
 
-```
-Staff of Ed ✅  →  Ancient Buried Pyramid OPEN ✅
-   Middle Chamber = snarf 407   ← grind TOMB RATS for TOMB RATCHETS (have 2; cure asp poison!)
-   Lower Chambers wheel = control room choice 929 (opt 1 wheel +5, opt 2 ratchet +1, opt 5 descend=1 adv)
-   ROTATE-AND-WATCH the alignment label; descend ONLY when it matches:
-        label "rubble on left, vending machine on right" (#4) + token  → ANCIENT BOMB
-        label "nothing on the left, rubble on the right"  (#2) + bomb   → Ed's chamber opens
-        → ED THE UNDYING (7-fight boss) → HOLY MACGUFFIN → Council turn-in → spine quest COMPLETE
-```
-**Status**: 💣 **ancient bomb ✓**, 1 wheel, **0 ratchets**, no token (spent). Wheel parked at
-**#4 "rubble on left, vending machine on right"**. See
-**`mechanics/pyramid-lower-chamber-wheel.md`** for the verified 5-label map (forward order
-#1→#2→#3→#4→#5→…).
+The Council's current pointer (Highland Lord still wants the **Topping** signal fires too).
+The Mysterious Island War is the next big Council quest: go to the island, start the
+hippy/frat war, side with a faction, do the side quests (lighthouse/junkyard/farm/orchard),
+then win the battlefield.
 
-### Ordered plan (Day 53) — should FINISH the quest
-1. **Open**: restock **MMJ ~30** (`shop.php?whichshop=guildstore2&action=buyitem&whichrow=527&quantity=N`,
-   100ea — meat recovers from the grind). EAT 2 sushi (6293) + junk → full 15 (gives ~+30
-   advs!). Confirm monocle (1312) on acc3. Re-establish `window._pwd` + helpers.
-2. **Grind ~2 tomb ratchets** in 407 (RNG is cruel — could be 10-40 fights; you have ~45
-   banked + 40 base + sushi advs, so budget generously). Use the **hardened loop**: check
-   "Beaten Up" effect → rest; keep MP topped via MMJ; `&ignorewarning=1` on the adventure
-   URL; cure poison (antidote 588 → uneffect.php whicheffect=284). Stop on 2 ratchets.
-3. **To open Ed:** from #4, **use 1 wheel (opt 1, +5)** then **rotate-and-watch with the 2
-   ratchets** (opt 2) until label = **"nothing on the left, rubble on the right"** → **opt 5
-   descend (1 adv)** with the bomb → **Ed's burial chamber opens**. (Activate choice 929 via
-   `action=pyramid_control` immediately before each option POST.)
-4. **ED THE UNDYING** — 7-fight boss. FULL HP each entry (scroll of drastic healing #595);
-   lead Cannelloni, queue Mortar, torpedoes (9, item 630) in reserve, MMJ to refill.
-5. **HOLY MACGUFFIN** → Council turn-in → spine quest COMPLETE.
-- **NEW PARALLEL QUEST available:** Council opened **"Make War, Not... Oh, Wait"** (Island
-  War, Hippy/Frat). ⚠️ Island not yet accessible (`place.php?whichplace=island` empty — need
-  a **dinghy**: dingy planks + bailer, or the Pretentious Artist quest, or buy a dingy
-  dinghy). Good productive pivot once the pyramid is done.
+**GATE (do this first):** the island is NOT accessible — `island.php` says *"You can't go to
+the island unless you have a means of transportation."* Need a **dinghy**:
+- Path: **Pretentious Artist** (in `place.php?whichplace=town_wrong`) → bring his 3 requested
+  items → **dinghy plans**; combine plans + **dingy planks** → **dingy dinghy** → island opens.
+  (The `townwrong_artist` action returned empty today — the artist may need the quest started
+  a specific way, or a prerequisite. Investigate at open: check the Wrong Side of the Tracks
+  map, and the mall for dingy planks.)
+- Meat is healthy (~7,548) so buy components from the mall if available.
+
+### Ordered plan (Day 54)
+1. **Open**: restock MMJ ~30; EAT 2 sushi (6293) + junk → full 15 (≈+30 advs); confirm
+   monocle (1312); re-establish `window._pwd` + combat helpers (lost on each relogin).
+2. **Unlock the island** (dinghy — see gate above). If it's a slow chain, farm a good zone
+   meanwhile (Middle Chamber 407 is safe and pays ~80 meat/fight + Mys substats).
+3. **Start the war** on the island; pick a faction; grind the side quests.
+- **Other open quests:** Twin Peak signal fire (Topping — gated by hot/stench res ≥4 +
+  Spookyraven library, may be doable now); Guild: **Me and My Nemesis** (epic weapon) and
+  **My Other Car Is Made of Meat** (meatcar at Degrassi Knoll).
+- **⚔️ Ed/boss combat template (proven, reuse for any boss):** full HP entry (scroll 595),
+  **Cannelloni R1 → Mortar R2 → Cannelloni R3+**, torpedoes (item 630, have 9) in reserve,
+  MMJ to refill. Melts most things in 2-3 rounds.
 
 ### Palindome reference (DONE — for the record)
 - Palindome = snarf 386 via `place.php?whichplace=plains` (talisman equipped). Offices appear on `place.php?whichplace=palindome` after reading the books: Vol. I (7262) → `pal_droffice` (Dr. Awkward); Vol. 2 (7270) → `pal_mroffice` (Mr. Alarm).
