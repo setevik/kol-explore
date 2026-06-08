@@ -1,11 +1,14 @@
 # KoL Session Handoff (latest as of Day 53 / 2026-06-08)
 
-## Character Current State (End of Day 53 — 🏆 HOLY MACGUFFIN COMPLETE; drank to 41 banked)
+## Character Current State (End of Day 53 — 🏆 MACGUFFIN done; started Island-War prep)
 
 - **Character**: ClaudeCode, **Level 14** Pastamancer
-- **Stats**: Mys **194**
+- **Stats**: Mys **199**
 - **Max HP/MP**: ~193/~325
-- **Meat**: ~7,548 (farmed up nicely from tomb-monster drops)
+- **Meat**: ~7,477
+- **Adventures**: ~27 in hand (post-drink, rolling over) — spent the booze-banked advs after
+  the MacGuffin on Island-War prep (see below). Drunk 14/14, full 15/15.
+- **(history)** Meat farmed to ~7,548 earlier; Mys rose to 199 from prep grinding.
 - **Adventures**: **41 banked** (2 Fog Murderers + 1 brandy → clean drunk 14)
 - Full 15/15. ✅ EAT done. (drunk resets at rollover.)
 
@@ -109,21 +112,37 @@ The Mysterious Island War is the next big Council quest: go to the island, start
 hippy/frat war, side with a faction, do the side quests (lighthouse/junkyard/farm/orchard),
 then win the battlefield.
 
-**GATE (do this first):** the island is NOT accessible — `island.php` says *"You can't go to
-the island unless you have a means of transportation."* Need a **dinghy**:
-- Path: **Pretentious Artist** (in `place.php?whichplace=town_wrong`) → bring his 3 requested
-  items → **dinghy plans**; combine plans + **dingy planks** → **dingy dinghy** → island opens.
-  (The `townwrong_artist` action returned empty today — the artist may need the quest started
-  a specific way, or a prerequisite. Investigate at open: check the Wrong Side of the Tracks
-  map, and the mall for dingy planks.)
-- Meat is healthy (~7,548) so buy components from the mall if available.
+**GATE — unlock the island first** (`island.php` = *"You can't go to the island unless you
+have a means of transportation."*). You need a **dingy dinghy** = **dinghy plans** + **dingy
+planks**, combined. ⚠️ Neither component is mall-tradeable (untradeable quest items), so no
+shortcut. The verified path (KoL wiki):
+- **dinghy plans** = adventure at **The Shore** (Shore Vacations, snarf **355**; ~5 advs;
+  costs meat per trip). ⚠️ verify exact mechanic in-game (Vacation choice — may need Ship
+  Trip Scrip / be a vacation reward).
+- **dingy planks** = trade at the **Hermit** (`hermit.php`). Requires a **Hermit Permit
+  ✅ ALREADY BOUGHT (General Store row 651)** + **worthless items** (worthless trinket /
+  gewgaw / knick-knack) as trade currency. **Worthless items come from the Unfortunate
+  Sewer** (or mall). I have **0 worthless items, 0 clovers** right now → get some first.
+- Combine plans + planks → **dingy dinghy** → island opens.
+- (Alt transports if ever available: junk junk, skeletal skiff, pirate dinghy, yellow sub.)
 
-### Ordered plan (Day 54)
+**⚠️ MISTAKE LOGGED (Day 53):** I assumed the **Pretentious Artist** quest gave the dinghy
+plans — it does NOT. (That quest: hovel in `town_wrong`, action `townwrong_artist_noquest`;
+bring **pail of pretentious paint** [Sleazy Back Alley snarf **112**], **pretentious palette**
+[Haunted Pantry **113**], **pretentious paintbrush** [Knob Goblin, Outskirts **114**]. Reward
+= an empty pail + stats. **Unrelated to the dinghy.** Already COMPLETED Day 53 — don't redo.)
+
+### Ordered plan (Day 54) — unlock the island, then start the war
 1. **Open**: restock MMJ ~30; EAT 2 sushi (6293) + junk → full 15 (≈+30 advs); confirm
    monocle (1312); re-establish `window._pwd` + combat helpers (lost on each relogin).
-2. **Unlock the island** (dinghy — see gate above). If it's a slow chain, farm a good zone
-   meanwhile (Middle Chamber 407 is safe and pays ~80 meat/fight + Mys substats).
-3. **Start the war** on the island; pick a faction; grind the side quests.
+2. **Get worthless items** (Unfortunate Sewer, or mall) → **Hermit** (`hermit.php`, permit ✓)
+   → **dingy planks**.
+3. **The Shore (355)** → **dinghy plans** (verify mechanic; ~5 advs + meat; meat is healthy).
+4. **Combine** plans + planks → **dingy dinghy** → island unlocks (`island.php`).
+5. **Start the war** on the island; pick a faction; grind the side quests
+   (lighthouse/junkyard/farm/orchard) → battlefield.
+- ⚠️ **Session was unstable Day 53** (frequent logouts + api.php returning an account page
+  under heavy fetching). Re-login fixes both. Work in short bursts; re-set helpers each time.
 - **Other open quests:** Twin Peak signal fire (Topping — gated by hot/stench res ≥4 +
   Spookyraven library, may be doable now); Guild: **Me and My Nemesis** (epic weapon) and
   **My Other Car Is Made of Meat** (meatcar at Degrassi Knoll).
