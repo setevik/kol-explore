@@ -1,16 +1,37 @@
-# KoL Session Handoff (latest as of Day 53 / 2026-06-08)
+# KoL Session Handoff (latest as of Day 54 / 2026-06-09)
 
-## Character Current State (End of Day 53 — 🏆 MACGUFFIN done; started Island-War prep)
+## Character Current State (End of Day 54 — 🏝️ ISLAND UNLOCKED + ⚔️ WAR STARTED, frat side)
 
 - **Character**: ClaudeCode, **Level 14** Pastamancer
-- **Stats**: Mys **199**
-- **Max HP/MP**: ~193/~325
-- **Meat**: ~7,477
-- **Adventures**: ~27 in hand (post-drink, rolling over) — spent the booze-banked advs after
-  the MacGuffin on Island-War prep (see below). Drunk 14/14, full 15/15.
-- **(history)** Meat farmed to ~7,548 earlier; Mys rose to 199 from prep grinding.
-- **Adventures**: **41 banked** (2 Fog Murderers + 1 brandy → clean drunk 14)
-- Full 15/15. ✅ EAT done. (drunk resets at rollover.)
+- **Stats**: Mys **180** base (~199 buffed)
+- **Max HP/MP**: ~193/~325 (HP was 9 at wrap — heal at open)
+- **Meat**: ~1,747 (LOW — spent heavily on the island unlock; farm meat early. War hippies
+  drop meat.)
+- **Adventures**: **53 banked** (drank brandy + Green Manalishi to drunk 14; out of Fog
+  Murderers now). Full 15/15. ✅ EAT done.
+- **👕 STILL WEARING THE FRAT WARRIOR FATIGUES** (hat 239 / pants 240 / weapon 241) — keep
+  it on to fight on the battlefield. (My Mys hat/pasta spoon are off; combat is still
+  Cannelloni-based so it works, but war hippies hit hard → ~1 Beaten Up per 4-8 fights.)
+
+### 🏝️⚔️ Day 54 = built the dinghy, UNLOCKED THE ISLAND, STARTED THE WAR (frat side)
+- **Mysterious Island UNLOCKED.** Built a **dingy dinghy** from scratch:
+  - **dingy planks** = **General Store row 655, 400 meat** (NOT the Hermit — Hermit needs
+    worthless items and doesn't even list planks; the General Store is the easy path).
+  - **dinghy plans** = **The Shore Gift Shop** (`shop.php?whichshop=shore`, **row 176, costs
+    3 Ship Trip Scrip**). Earn scrip via **Shore Vacations**: `adventure.php?snarfblat=355`
+    → choice **793** opt 1 (Distant Lands Dude Ranch) = **3 advs + 500 meat → 1 scrip**. So
+    **3 trips = 3 scrip = 1 dinghy plans** (9 advs, 1500 meat).
+  - **Combine:** `inv_use` the **dinghy plans (item 146)** while holding planks → **dingy
+    dinghy** → island opens (`island.php`).
+- **⚠️ MISTAKE (logged):** the **Pretentious Artist** quest does NOT give dinghy plans — it's
+  unrelated. (Completed it Day 53 anyway.)
+- **WAR STARTED:** collected the full **Frat Warrior Fatigues** by adventuring the **Orcish
+  Frat House (snarf 27)** — drops Orcish baseball cap (239), Orcish cargo shorts (240),
+  Orcish frat-paddle (241). **Equipped all 3, then adventured at the Hippy Camp (snarf 26)**
+  → instantly in combat with a **War Hippy** → **the war is ON** (frat side, vs hippies).
+- **Battlefield = snarf 26** (wartime Hippy Camp, frat uniform). Day 54 cleared **~27 war
+  hippy fights + ~14 NCs** (a real dent; exact remaining count not parsed). NCs auto-resolve
+  fine with option 1.
 
 ### 🏆🎊 Day 53 = HOLY MACGUFFIN QUEST COMPLETE — the big one is DONE
 - Ground tomb ratchets (warmer RNG today), used the wheel(+5) → landed on #5 → 2 ratchets
@@ -105,47 +126,34 @@
 - **🍣 Food: 165 stolen sushi (6293, 6-fullness)** banked + assorted junk food. Mall stolen
   sushi is ~132 meat but only ~1 fullness/1 adv when "olive" (245) — the real one is 6293.
 
-## 🌋 NEXT OBJECTIVE — the Island War ("Make War, Not... Oh, Wait")
+## 🌋 CURRENT OBJECTIVE — WIN the Island War ("Make War, Not... Oh, Wait") — frat side
 
-The Council's current pointer (Highland Lord still wants the **Topping** signal fires too).
-The Mysterious Island War is the next big Council quest: go to the island, start the
-hippy/frat war, side with a faction, do the side quests (lighthouse/junkyard/farm/orchard),
-then win the battlefield.
+Island ✅ unlocked, war ✅ started (frat side). **Now: reduce the hippy army to 0 to win.**
+The efficient way is the **side quests** (each removes a big chunk of enemies), then mop up
+the battlefield. Battlefield = **snarf 26** (wartime Hippy Camp; must wear the Frat Warrior
+Fatigues 239/240/241).
 
-**GATE — unlock the island first** (`island.php` = *"You can't go to the island unless you
-have a means of transportation."*). You need a **dingy dinghy** = **dinghy plans** + **dingy
-planks**, combined. ⚠️ Neither component is mall-tradeable (untradeable quest items), so no
-shortcut. The verified path (KoL wiki):
-- **dinghy plans** = adventure at **The Shore** (Shore Vacations, snarf **355**; ~5 advs;
-  costs meat per trip). ⚠️ verify exact mechanic in-game (Vacation choice — may need Ship
-  Trip Scrip / be a vacation reward).
-- **dingy planks** = trade at the **Hermit** (`hermit.php`). Requires a **Hermit Permit
-  ✅ ALREADY BOUGHT (General Store row 651)** + **worthless items** (worthless trinket /
-  gewgaw / knick-knack) as trade currency. **Worthless items come from the Unfortunate
-  Sewer** (or mall). I have **0 worthless items, 0 clovers** right now → get some first.
-- Combine plans + planks → **dingy dinghy** → island opens.
-- (Alt transports if ever available: junk junk, skeletal skiff, pirate dinghy, yellow sub.)
-
-**⚠️ MISTAKE LOGGED (Day 53):** I assumed the **Pretentious Artist** quest gave the dinghy
-plans — it does NOT. (That quest: hovel in `town_wrong`, action `townwrong_artist_noquest`;
-bring **pail of pretentious paint** [Sleazy Back Alley snarf **112**], **pretentious palette**
-[Haunted Pantry **113**], **pretentious paintbrush** [Knob Goblin, Outskirts **114**]. Reward
-= an empty pail + stats. **Unrelated to the dinghy.** Already COMPLETED Day 53 — don't redo.)
-
-### Ordered plan (Day 54) — unlock the island, then start the war
-1. **Open**: restock MMJ ~30; EAT 2 sushi (6293) + junk → full 15 (≈+30 advs); confirm
-   monocle (1312); re-establish `window._pwd` + combat helpers (lost on each relogin).
-2. **Get worthless items** (Unfortunate Sewer, or mall) → **Hermit** (`hermit.php`, permit ✓)
-   → **dingy planks**.
-3. **The Shore (355)** → **dinghy plans** (verify mechanic; ~5 advs + meat; meat is healthy).
-4. **Combine** plans + planks → **dingy dinghy** → island unlocks (`island.php`).
-5. **Start the war** on the island; pick a faction; grind the side quests
-   (lighthouse/junkyard/farm/orchard) → battlefield.
-- ⚠️ **Session was unstable Day 53** (frequent logouts + api.php returning an account page
-  under heavy fetching). Re-login fixes both. Work in short bursts; re-set helpers each time.
-- **Other open quests:** Twin Peak signal fire (Topping — gated by hot/stench res ≥4 +
-  Spookyraven library, may be doable now); Guild: **Me and My Nemesis** (epic weapon) and
-  **My Other Car Is Made of Meat** (meatcar at Degrassi Knoll).
+### Ordered plan (Day 55) — push the war
+1. **Open**: ⭐ **restock scroll of drastic healing AND MMJ FIRST** — Day 54 ran scrolls to 0
+   and HP recovery broke (war hippies hit hard; ~1 Beaten Up per 4-8 fights). Meat is LOW
+   (~1,747) → **farm meat first** (war hippies on snarf 26 drop meat, or any easy zone) or
+   sell spare items. EAT 2 sushi (6293) + junk → full 15 (≈+30 advs). Confirm Frat Warrior
+   Fatigues still equipped (239/240/241). Re-establish `window._pwd` + helpers.
+2. **Do the frat-side war quests** (much faster than raw battlefield grind) — explore from
+   the island map / `bigisland.php`:
+   - **The Junkyard** (Yossarian: bring tires/wheel/cog/sprocket etc.) → reward.
+   - **The Lighthouse** (fight lobsterfrogmen for gunpowder ×5 → make a barrel → blow up the
+     hippy supply → big enemy reduction).
+   - **The Arena** (Mysterious Island Arena: put on a concert → combat buff).
+   - **The Orchard / Frat House intel** as applicable.
+3. **Grind the battlefield (snarf 26)** to finish off the hippies. Combat = standard
+   Cannelloni/Mortar (works in frat uniform). Heal at <60% HP (scrolls), rest on Beaten Up.
+   NCs auto-resolve with option 1 and often clear several enemies at once.
+4. Win → return to Council. (Then: Twin Peak signal fire for the Topping quest; Guild
+   quests **Me and My Nemesis** + **My Other Car Is Made of Meat** still open.)
+- ⚠️ **Session instability** (Day 53-54): frequent logouts; heavy fetching can make api.php
+  return an account/HTML page (not JSON). Re-login fixes both; work in short bursts; re-set
+  helpers each time.
 - **⚔️ Ed/boss combat template (proven, reuse for any boss):** full HP entry (scroll 595),
   **Cannelloni R1 → Mortar R2 → Cannelloni R3+**, torpedoes (item 630, have 9) in reserve,
   MMJ to refill. Melts most things in 2-3 rounds.
