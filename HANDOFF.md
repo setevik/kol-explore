@@ -1,17 +1,26 @@
-# KoL Session Handoff (latest as of Day 54 / 2026-06-09)
+# KoL Session Handoff (latest as of Day 55 / 2026-06-10)
 
-## Character Current State (End of Day 54 — 🏝️ ISLAND UNLOCKED + ⚔️ WAR STARTED, frat side)
+## Character Current State (End of Day 55 — war dented; ⚠️ meat-bottleneck found; WAR CHEST farmed)
 
-- **Character**: ClaudeCode, **Level 14** Pastamancer
-- **Stats**: Mys **180** base (~199 buffed)
-- **Max HP/MP**: ~193/~325 (HP was 9 at wrap — heal at open)
-- **Meat**: ~1,747 (LOW — spent heavily on the island unlock; farm meat early. War hippies
-  drop meat.)
-- **Adventures**: **53 banked** (drank brandy + Green Manalishi to drunk 14; out of Fog
-  Murderers now). Full 15/15. ✅ EAT done.
-- **👕 STILL WEARING THE FRAT WARRIOR FATIGUES** (hat 239 / pants 240 / weapon 241) — keep
-  it on to fight on the battlefield. (My Mys hat/pasta spoon are off; combat is still
-  Cannelloni-based so it works, but war hippies hit hard → ~1 Beaten Up per 4-8 fights.)
+- **Character**: ClaudeCode, **Level 14** Pastamancer · Max HP/MP ~206/~325
+- **Meat**: ~3,699 + some MMJ (**WAR CHEST** — farmed at the Airship Day 55; this is war
+  fuel for MMJ).
+- **Adventures**: **31 banked** (drank to drunk 15). Full 15/15. ✅ EAT done.
+- **👕 STILL WEARING FRAT WARRIOR FATIGUES** (hat 239 / pants 240 / weapon 241) — required
+  to fight on the battlefield. Keep it on for the war.
+- **⚠️ KEY DAY-55 FINDINGS (read before grinding the war):**
+  - **War hippies (battlefield snarf 26) drop ~0 MEAT.** The war is **meat-NEGATIVE** —
+    combat + HP-healing burn MP (= MMJ = meat) with no income. So **you need a meat war
+    chest BEFORE grinding the war.** (Day 55 burned ~1,600 meat on MMJ for ~12 war fights.)
+  - **HP recovery without scrolls: Lasagna Bandages (skill 3009) WORKS out of combat** —
+    ~20 HP per cast / ~6 MP. Spam it to heal (MMJ powers it). Cannelloni Cocoon is NOT on
+    skillz.php and id 3012 did nothing — use Lasagna Bandages instead.
+  - **Full-heal every fight is too MP-expensive** for the war. Either heal lean (only at
+    <45% HP) and accept some Beaten Ups (rest clears them, but rest only gives ~10 MP so
+    it's a poor MP source), or come loaded with MMJ.
+  - **Airship (snarf 81) is a good MEAT FARM:** ~100 meat/fight net once bootstrapped
+    (Cannelloni one-shots most; weak monsters, rare Beaten Up). Day 55 farmed 147 → ~3,700
+    meat. Convert surplus to MMJ (buy when meat ≥900). This is how to fund the war.
 
 ### 🏝️⚔️ Day 54 = built the dinghy, UNLOCKED THE ISLAND, STARTED THE WAR (frat side)
 - **Mysterious Island UNLOCKED.** Built a **dingy dinghy** from scratch:
@@ -133,27 +142,27 @@ The efficient way is the **side quests** (each removes a big chunk of enemies), 
 the battlefield. Battlefield = **snarf 26** (wartime Hippy Camp; must wear the Frat Warrior
 Fatigues 239/240/241).
 
-### Ordered plan (Day 55) — push the war
-1. **Open**: ⭐ **restock scroll of drastic healing AND MMJ FIRST** — Day 54 ran scrolls to 0
-   and HP recovery broke (war hippies hit hard; ~1 Beaten Up per 4-8 fights). Meat is LOW
-   (~1,747) → **farm meat first** (war hippies on snarf 26 drop meat, or any easy zone) or
-   sell spare items. EAT 2 sushi (6293) + junk → full 15 (≈+30 advs). Confirm Frat Warrior
-   Fatigues still equipped (239/240/241). Re-establish `window._pwd` + helpers.
-2. **Do the frat-side war quests** (much faster than raw battlefield grind) — explore from
-   the island map / `bigisland.php`:
-   - **The Junkyard** (Yossarian: bring tires/wheel/cog/sprocket etc.) → reward.
-   - **The Lighthouse** (fight lobsterfrogmen for gunpowder ×5 → make a barrel → blow up the
-     hippy supply → big enemy reduction).
-   - **The Arena** (Mysterious Island Arena: put on a concert → combat buff).
-   - **The Orchard / Frat House intel** as applicable.
-3. **Grind the battlefield (snarf 26)** to finish off the hippies. Combat = standard
-   Cannelloni/Mortar (works in frat uniform). Heal at <60% HP (scrolls), rest on Beaten Up.
-   NCs auto-resolve with option 1 and often clear several enemies at once.
-4. Win → return to Council. (Then: Twin Peak signal fire for the Topping quest; Guild
-   quests **Me and My Nemesis** + **My Other Car Is Made of Meat** still open.)
-- ⚠️ **Session instability** (Day 53-54): frequent logouts; heavy fetching can make api.php
+### Ordered plan (Day 56) — fund + push the war (efficiently this time)
+1. **Open**: EAT 2 sushi (6293) + junk → full 15 (≈+30 advs). Confirm Frat Warrior Fatigues
+   equipped (239/240/241). Re-establish `window._pwd` + helpers (Lasagna-heal 3009; MMJ MP;
+   meat-aware buy). HP recovery = **Lasagna Bandages 3009** (no scrolls needed).
+2. **Convert the war chest to MMJ:** buy ~30-40 MMJ (`guildstore2` row 527, 100ea) with the
+   ~3,700 meat. Top up the chest by farming the **Airship (snarf 81)** if you want a bigger
+   buffer (~100 meat/fight).
+3. **PREFER THE SIDE QUESTS over raw battlefield grind** (far fewer adventures to win):
+   - **The Lighthouse** (island zone): fight **lobsterfrogmen** for **barrels of gunpowder**
+     (need ~5) → give to the frat boy → **blows up a big chunk of the hippy army**.
+   - **The Junkyard** (Yossarian: bring tires/wheel/cog/sprocket) → reward.
+   - **The Arena** (concert → combat buff). Explore zones via the island map / `bigisland.php`.
+4. **Mop up the battlefield (snarf 26)** with the MMJ buffer: Cannelloni→Mortar burst, heal
+   lean (Lasagna at <45%), NCs auto-resolve opt 1 (often clear several hippies at once).
+5. Win → Council. (Then: Twin Peak signal fire [Topping]; Guild quests **Me and My Nemesis**
+   + **My Other Car Is Made of Meat** still open.)
+- ⚠️ **Session instability** (Days 53-55): frequent logouts; heavy fetching can make api.php
   return an account/HTML page (not JSON). Re-login fixes both; work in short bursts; re-set
   helpers each time.
+- ⚠️ **Drunk overshot to 15** Day 55 (Green Manalishi +3 from drunk 12). Harmless (advs bank,
+  resets at rollover) but stop at 12 next time.
 - **⚔️ Ed/boss combat template (proven, reuse for any boss):** full HP entry (scroll 595),
   **Cannelloni R1 → Mortar R2 → Cannelloni R3+**, torpedoes (item 630, have 9) in reserve,
   MMJ to refill. Melts most things in 2-3 rounds.
