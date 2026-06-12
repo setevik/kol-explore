@@ -1,27 +1,29 @@
-# KoL Session Handoff (latest as of Day 56 / 2026-06-11)
+# KoL Session Handoff (latest as of Day 57 / 2026-06-12)
 
-## Character Current State (End of Day 56 — war battlefield dented; ⚠️ SIDE-QUEST ACCESS BLOCKED)
+## Character Current State (End of Day 57 — ⭐ WAR-START MECHANIC CRACKED; war not yet started)
 
-- **Character**: ClaudeCode, **Level 14** Pastamancer · Max HP/MP ~208/~325
-- **Meat**: ~802 + 7 MMJ (small war chest; rebuild at the Airship at open).
-- **Adventures**: **43 banked** (drank to drunk 15 — slight overshoot again). Full 15/15.
-- **👕 STILL WEARING FRAT WARRIOR FATIGUES** (hat 239 / pants 240 / weapon 241) — required
-  to fight the battlefield. Keep it on.
-- **⚔️ Funded full-heal war combat works:** convert meat→MMJ (`guildstore2` row 527), heal
-  via **Lasagna Bandages (3009)** to ~90% before each fight → 0 Beaten Ups. Ground ~35 war
-  hippies on the battlefield (snarf 26) Day 56.
-- **🧱 KEY BLOCKER (solve this Day 57): can't access the war SIDE QUESTS.** The war mechanic:
-  each side has **1,000 enemies**; **each completed side quest DOUBLES kills/fight** (the
-  Arena is "super easy" with Entangling Noodles — that's us). Raw grinding 1 kill/fight is
-  hopeless; **side quests are mandatory** to win. BUT: `bigisland.php` renders **BLANK** (0
-  bytes, no elements, even via read_page/navigation); `island.php` only shows the base zones
-  (Hippy Camp 26 / Frat House 27 / Pirate's Cove 66) with peacetime-looking labels; no side
-  zone unlocked after ~44 battlefield kills; direct snarf probes (132/149/150/151/173/182)
-  found nothing. **Next session, figure out wartime side-zone access:** try (a) a screenshot
-  of bigisland.php (maybe a render/tooling issue, not truly blank), (b) adventuring/visiting
-  the **Orcish Frat House (27)** during war — the side-quest hub/enlistment may be there,
-  (c) the wiki "Mysterious Island Quest" for the exact zone URLs/snarfblats, (d) grinding
-  the battlefield further in case side zones unlock at a higher kill threshold.
+- **Character**: ClaudeCode, **Level 14** Pastamancer · Max HP/MP ~210/~325
+- **Meat**: low (~spent on MMJ) + a few MMJ. Rebuild war chest at the Airship (snarf 81).
+- **Adventures**: **13 banked** (out of strong booze — only weak drinks left; drunk 5/14).
+  Full 15/15.
+- **👕 NOW WEARING THE WAR HIPPY FATIGUES (outfit #32)** — keep it equipped for the war-start.
+- **⭐⭐ BIG REALIZATION (Day 57): THE WAR WAS NEVER ACTUALLY STARTED.** The "War Hippies" I
+  fought at snarf 26 for days were just **verge-of-war GUARDS** attacking me for wearing the
+  **Frat Boy Ensemble** (infiltration disguise) in their camp — NOT the real war. That's why
+  `bigisland.php` is empty and the side quests are inaccessible: **the war isn't declared.**
+- **HOW TO START THE WAR (verified mechanic):** you must wear the **WAR FATIGUES** (not the
+  infiltration *Ensemble*) and adventure in the **opposing** base until the war-start NC fires:
+  - **Frat side:** Frat Warrior Fatigues (beer helmet / distressed denim pants / bejeweled
+    pledge pin) → adventure the **Hippy Camp (26)** → NC **"Blockin' Out the Scenery"** →
+    choose **"The Lookout Tower"**. ⚠️ With the *Frat Boy Ensemble* (cap/cargo shorts/paddle,
+    which I HAD on), "Blockin' Out the Scenery" only shows **yurts** (Chill-Out/Rations/
+    H.A.S.H./Munitions/Barracks = sabotage distractions, NO Lookout Tower) — wrong outfit.
+  - **Hippy side:** War Hippy Fatigues (reinforced beaded headband 2337 / bullet-proof
+    corduroys 2032 / round purple sunglasses 2033) → adventure the **Orcish Frat House (27)**
+    → NC **"Fratacombs"** → choose **"Screw this, head to the roof"**.
+- **I HAVE the complete War Hippy Fatigues (outfit 32, equipped) but NOT the Frat Warrior
+  Fatigues** → **commit to the HIPPY side.** (Collected the hippy fatigues from fighting war
+  hippies. The Frat Boy Ensemble + frat prep is now irrelevant.)
 - **⚠️ KEY DAY-55 FINDINGS (read before grinding the war):**
   - **War hippies (battlefield snarf 26) drop ~0 MEAT.** The war is **meat-NEGATIVE** —
     combat + HP-healing burn MP (= MMJ = meat) with no income. So **you need a meat war
@@ -156,23 +158,25 @@ The efficient way is the **side quests** (each removes a big chunk of enemies), 
 the battlefield. Battlefield = **snarf 26** (wartime Hippy Camp; must wear the Frat Warrior
 Fatigues 239/240/241).
 
-### Ordered plan (Day 57) — ⭐ SOLVE SIDE-QUEST ACCESS, then win the war
-1. **Open**: EAT 2 sushi (6293) + junk → full 15 (≈+30 advs). Confirm Frat Warrior Fatigues
-   (239/240/241). Re-establish `window._pwd` + helpers (Lasagna-heal 3009; MMJ MP; meat-aware
-   buy). Rebuild the war chest at the **Airship (snarf 81)** (~100 meat/fight) → buy MMJ.
-2. **⭐ CRACK THE SIDE-QUEST ACCESS (the blocker — see Character State above).** Without side
-   quests the war is unwinnable in reasonable time (1 kill/fight vs 1,000). Try in order:
-   - **Screenshot `bigisland.php`** (it fetches blank — may be a render/tooling artifact, not
-     truly empty; the map's image-map areas would give the zone snarfblats).
-   - **Visit/adventure the Orcish Frat House (snarf 27)** during war — the side-quest
-     hub/quest-givers/enlistment likely live there; look for the Arena/Junkyard/Lighthouse.
-   - Re-read the **wiki Mysterious Island Quest** for the exact wartime zone URLs/snarfblats.
-   - Prioritize the **Arena** (easy with Entangling Noodles) and the **Lighthouse** (gunpowder
-     → big army cut). Each side quest DOUBLES kills/fight.
-3. **Then mop up the battlefield (snarf 26)** — with side quests done, each fight kills many.
-   Funded full-heal combat: Cannelloni→Mortar burst, Lasagna-heal to ~90% pre-fight, NCs opt 1.
-4. Win → Council. (Then: Twin Peak signal fire [Topping]; Guild quests **Me and My Nemesis**
+### Ordered plan (Day 58) — ⭐ START THE WAR (hippy side), then do side quests
+1. **Open**: EAT 2 sushi (6293) + junk → full 15 (≈+30 advs). Re-establish `window._pwd` +
+   helpers (Lasagna-heal 3009; MMJ MP; meat-aware buy). **Equip the War Hippy Fatigues
+   (outfit #32).** Rebuild war chest at the **Airship (snarf 81)** → buy ~20 MMJ.
+2. **⭐ START THE WAR:** adventure the **Orcish Frat House (snarf 27)** in the War Hippy
+   Fatigues until the **"Fratacombs"** NC fires (random, ~1/8 turns) → choose **"Screw this,
+   head to the roof"**. This declares the war, flips the island to Wartime, opens
+   `bigisland.php` + the side-quest zones. (Day 57 found the mechanic but ran out of advs
+   before "Fratacombs" appeared — just needs a full day of turns.)
+3. **Do the hippy-side war SIDE QUESTS** (each DOUBLES kills/fight) — now reachable on the
+   wartime `bigisland.php` map: the **Arena** (easy with Entangling Noodles), the **Lighthouse**
+   (lobsterfrogmen → gunpowder → big army cut), the **Junkyard**, the **Orchard/filthworms**.
+4. **Mop up the battlefield** (the wartime Frat-side front, now that you're a hippy you fight
+   frat boys). Funded full-heal combat: Cannelloni→Mortar burst, Lasagna-heal to ~90%.
+5. Win → Council. (Then: Twin Peak signal fire [Topping]; Guild quests **Me and My Nemesis**
    + **My Other Car Is Made of Meat** still open.)
+- ⚠️ **Don't waste advs on the verge-of-war yurt NCs** ("The Thin Tie-Dyed Line" c140,
+  "Blockin' Out the Scenery" c141 with the *Frat Boy Ensemble*) — they're sabotage
+  distractions, NOT the war-start. The war-start needs the **War Fatigues** + the specific NC.
 - ⚠️ **Session instability**: frequent logouts; heavy fetching can make api.php return an
   account/HTML page (not JSON). Re-login fixes both; work in short bursts; re-set helpers.
 - ⚠️ **Drunk overshot to 15** Day 55 (Green Manalishi +3 from drunk 12). Harmless (advs bank,
