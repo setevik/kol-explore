@@ -1,11 +1,58 @@
-# KoL Session Handoff (latest as of Day 57 / 2026-06-12)
+# KoL Session Handoff (latest as of Day 58 / 2026-06-13)
 
-## Character Current State (End of Day 57 — ⭐ WAR-START MECHANIC CRACKED; war not yet started)
+## Character Current State (End of Day 58 — ⚔️⭐ WAR DECLARED, hippy side; battlefield grind begun)
 
-- **Character**: ClaudeCode, **Level 14** Pastamancer · Max HP/MP ~210/~325
-- **Meat**: low (~spent on MMJ) + a few MMJ. Rebuild war chest at the Airship (snarf 81).
-- **Adventures**: **13 banked** (out of strong booze — only weak drinks left; drunk 5/14).
-  Full 15/15.
+- **Character**: ClaudeCode, **Level 14** Pastamancer · Max HP/MP ~250/~377
+- **Meat**: **~420** + **5 MMJ** stocked. **47 unidentified jerky** + **151 stolen sushi** food reserve.
+  6 scroll of drastic healing (595), 31 antidote (588), 14 torpedo (630).
+- **Adventures**: 0 (all spent). **Drunk 11/14, Full 14/15** at rollover.
+- **👕 WEARING WAR HIPPY FATIGUES (outfit #32)** — keep equipped on the battlefield.
+
+### 🎺⚔️ Day 58 = THE WAR IS DECLARED (hippy side) — the multi-day blocker is DONE
+- **HOW (verified, executed):** equip outfit #32 → adventure **Orcish Frat House (snarf 27)** →
+  fight ~12 War Pledge / Frat Warrior guards → **"Fratacombs" NC = choice 146** → pick
+  **option 3 "Screw this, head to the roof"** → war ON. `bigisland.php` now fully wartime.
+- **WARTIME MAP / snarfblats:**
+  - **Battlefield = snarf 140** (as a hippy I fight FRAT BOYS: War Frat 110th/151st/500th
+    Infantry, Sorority Operator/Nurse, Kegrider, Griller). ~1000-strong frat army; ~33 down today.
+  - Side-quest hubs via `bigisland.php?place=`: `orchard` `farm` `nunnery` (HIPPY side, OPEN now)
+    · `lighthouse` `junkyard` `concert`(arena) (FRAT side, GATED behind battlefield progress —
+    *"can't fight through the frat boys"*; the first unlocks ~64 kills in).
+  - **Orchard filthworm chambers** (open): Hatching **127** → Feeding **128** → Guards **129** →
+    Queen **130** (gland-gated: kill worm → use gland → effect lets you enter next chamber).
+  - HQ / Quartermaster = `bigisland.php?place=camp`.
+- **⚠️ THE WAR IS MEAT-NEGATIVE** (frat boys drop ~17 meat; MMJ for MP costs ~33/fight). **Build
+  the Airship (snarf 81) meat chest + a big MMJ stack BEFORE battlefield grinding** (Day 58 burned
+  into a Beaten-Up spiral by charging the battlefield at 12 MP / 0 MMJ). Airship = ~67 meat/fight
+  NET, 0 Beaten-Ups, Cannelloni one-shots.
+
+### 🍖🧪 Day 58 operational discoveries (IMPORTANT)
+- **unidentified jerky (item 2620) = +2 fullness / +8 adventures** — BEST food I own (4 adv/full).
+  **Eat these for the EAT step, not sushi** (sushi 6293 = 6 full / ~12 adv = 2 adv/full). Have 47.
+- **Out-of-combat Lasagna Bandages (skill 3009) heals ~16 HP/cast via
+  `runskillz.php?action=Skillz&whichskill=3009&ajax=1&quantity=1&pwd=HASH`.** Spam between fights
+  for **full-HP entries** → battlefield frat boys become trivial (they die in 1-2 Cannelloni;
+  at full HP they can't Beaten-Up you). This is the key to sustainable battlefield combat.
+- **MMJ = item 518**, MP +25 each, buy `shop.php?whichshop=guildstore2&action=buyitem&whichrow=527`.
+- **Hidden Tavern (accessible) booze = 500 meat each**: Fog Murderer (6682, row 175, +6 drunk/+14
+  advs), Cursed Punch (6680, row 173), Bowl of Scorpions (6681, row 174). Budget meat for booze
+  at day-end, OR scrounge inventory drinks (Mad Train wine 564 = +3; unnamed cocktail 7187 = +2).
+- **Fetch-driven combat engine** (in `window._kolMain`) is robust: all GETs to adventure/fight/
+  choice in page context, survives extension disconnects + tab throttling. Rebuilds each session.
+
+### 🌋 CURRENT OBJECTIVE — WIN the Island War (hippy side): reduce frat army to 0 → Council
+- **Day 59 plan:** (1) Open: eat **jerky** to full, equip outfit #32, **farm Airship (81)** to
+  ~1500+ meat + buy ~15 MMJ war chest. (2) Either grind the **Orchard filthworm quest** (127→130,
+  open, gland-gated — permanent army chunk) OR push the **battlefield (140)** with funded full-HP
+  combat (Lasagna-to-full between fights) toward unlocking the **Lighthouse** (gunpowder = big cut).
+  (3) Wrap EAT→ADV→DRINK; budget ~500-1000 meat for Fog Murderers.
+- ⚠️ **Auto-buy MMJ on the battlefield drains your meat cushion** (war is meat-negative) — expected;
+  just refarm the Airship. Don't expect to net meat while battlefield grinding.
+
+---
+## (Historical — Day 57 and earlier below)
+
+### Day 57 state (war-start mechanic cracked but NOT yet executed — superseded by Day 58)
 - **👕 NOW WEARING THE WAR HIPPY FATIGUES (outfit #32)** — keep it equipped for the war-start.
 - **⭐⭐ BIG REALIZATION (Day 57): THE WAR WAS NEVER ACTUALLY STARTED.** The "War Hippies" I
   fought at snarf 26 for days were just **verge-of-war GUARDS** attacking me for wearing the
