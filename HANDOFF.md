@@ -1,12 +1,55 @@
-# KoL Session Handoff (latest as of Day 58 / 2026-06-13)
+# KoL Session Handoff (latest as of Day 59 / 2026-06-14)
 
-## Character Current State (End of Day 58 — ⚔️⭐ WAR DECLARED, hippy side; battlefield grind begun)
+## Character Current State (End of Day 59 — ⚔️ war grind ongoing; Level 15; drinks strategy solved)
 
-- **Character**: ClaudeCode, **Level 14** Pastamancer · Max HP/MP ~250/~377
-- **Meat**: **~420** + **5 MMJ** stocked. **47 unidentified jerky** + **151 stolen sushi** food reserve.
-  6 scroll of drastic healing (595), 31 antidote (588), 14 torpedo (630).
-- **Adventures**: 0 (all spent). **Drunk 11/14, Full 14/15** at rollover.
+- **Character**: ClaudeCode, **Level 15** Pastamancer (dinged today) · Max HP/MP ~254/~392 · Mys 209
+- **Meat**: **~1,918** + **2 MMJ** stocked. **40 unidentified jerky** + **151 stolen sushi** food reserve.
+  6 scroll of drastic healing (595), antidotes (588), 14 torpedo (630).
+- **Adventures**: 0 (all spent). **Drunk 12/14, Full 14/15** at rollover.
 - **👕 WEARING WAR HIPPY FATIGUES (outfit #32)** — keep equipped on the battlefield.
+
+### 🍸 DRINKS STRATEGY — SOLVED (wiki-consulted Day 59)
+- **Fog Murderer (item 6682, Hidden Tavern row 175, 500 meat) = 14 adv / 6 drunk = best no-skill booze.**
+  Budget ~1,000 meat/day → 2 Fog → drunk 12 (+28 advs). Don't overthink it. (Mixed drinks need a
+  777-meat Cocktailcrafting kit and are WORSE per drunk — 1.83 vs 2.33. Not worth it.)
+- **The real upgrade = Advanced Cocktailcrafting → Garnished Drinks (~3.5 adv/drunk).** Gated behind
+  the **Gnomish Gnomad Camp**, which needs the **unbuilt meatcar** ("My Other Car Is Made of Meat"
+  quest, still open). Future project. I have NO cocktailcrafting skill currently.
+- Drink yields confirmed: Fog +6 drunk/+14 adv; Mad Train wine (564) +3; unnamed cocktail (7187) +2.
+
+### 🪱 ORCHARD = MEAT MINE + filthworm gland chain (Day 59 discovery)
+- **Orchard filthworm chambers drop ~62 meat/fight** — a war-themed meat farm rivaling the Airship.
+- **Quest is gland-gated** (kill worm → use scent gland → short "stench" effect admits next chamber):
+  - Hatching **127** → **hatchling gland (2344)** → use → "Filthworm Larva Stench" (4 turns) → Feeding.
+  - Feeding **128** → **drone gland (2345)** → use → "Filthworm Drone Stench" (10 turns) → Guards.
+  - Guards **129** → royal guard gland (id unknown; **drop rate LOW — 0/10 even with +item monocle**) → Queen.
+  - Queen **130** → giant filthworm queen → report to Organic Produce Stand (`bigisland.php?place=orchard`).
+  - ⚠️ If a stench expires before the next gland drops, you must restart the chain. Bring max +item gear
+    and don't dawdle. Day 59 abandoned completion at the Guards tier (royal guard gland wouldn't drop).
+
+### 🐛 Combat engine = v7 (Day 59) — low-MP deadlock FIXED
+- **Fetch-driven loop `window._kolMain(n)`** (rebuilt each session; wiped on login). Robust against
+  disconnects/throttling. Modes: `window._snarf` = 81 (Airship farm), 140 (battlefield), 127-130 (orchard).
+- **KEY FIX:** at MP<1, cast nothing works ("you twiddle your thumbs") and you can't refill mid-fight →
+  DEADLOCK. v7 falls back to **weapon attack (`fight.php?action=attack`)** at MP<1 so companions finish.
+  Also added an MMJ-fail bailout (if inv_use doesn't raise MP, stop churning). When numbers look frozen,
+  verify via the **charpane** (`charpane.php`), not api.php.
+- Combat: Cannelloni (3005) at MP≥8, Spaghetti (3020) at MP≥1, attack at MP<1; lean heal (Lasagna 3009
+  via runskillz) only below 50% HP; Springy Fusilli (3015) every 8 fights for initiative.
+
+### ⚔️ War status (Day 59)
+- Battlefield = **snarf 140** (frat boys). ~47 kills today, ~80 total over 2 days — army barely dented.
+  Frat-side side quests (Lighthouse/Junkyard/Arena via `bigisland.php?place=`) still GATED (unlock deep).
+- Hippy-side quests OPEN: Orchard (gland-gated, see above), Farm (`place=farm`), Nunnery (`place=nunnery`).
+- **The war is a long, meat-negative grind.** Sustainable pattern: Airship-farm a chest → spend on
+  battlefield/orchard → refarm. ~50-60 meat/fight net cost on the battlefield (MP for Cannelloni).
+
+### Day 60 plan
+1. EAT jerky to full (2 full/8 adv each — huge adv boost). Equip outfit #32. Re-inject engine v7.
+2. Airship (81) farm a chest if needed (have 1,918 to start). Push **battlefield (140)** funded, OR
+   grind **Orchard (127→130)** for meat + retry the royal guard gland (monocle + fresh stench).
+3. Day-end: 2 Fog Murderers (1,000 meat) → drunk 12. Diary + commit.
+4. Longer-term: finish the meatcar → Gnomad Camp → Advanced Cocktailcrafting (doubles booze-advs).
 
 ### 🎺⚔️ Day 58 = THE WAR IS DECLARED (hippy side) — the multi-day blocker is DONE
 - **HOW (verified, executed):** equip outfit #32 → adventure **Orcish Frat House (snarf 27)** →
