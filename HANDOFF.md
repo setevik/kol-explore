@@ -37,10 +37,19 @@
 - Combat: Cannelloni (3005) at MP≥8, Spaghetti (3020) at MP≥1, attack at MP<1; lean heal (Lasagna 3009
   via runskillz) only below 50% HP; Springy Fusilli (3015) every 8 fights for initiative.
 
-### ⚔️ War status (Day 59)
-- Battlefield = **snarf 140** (frat boys). ~47 kills today, ~80 total over 2 days — army barely dented.
-  Frat-side side quests (Lighthouse/Junkyard/Arena via `bigisland.php?place=`) still GATED (unlock deep).
-- Hippy-side quests OPEN: Orchard (gland-gated, see above), Farm (`place=farm`), Nunnery (`place=nunnery`).
+### ⚔️ War status (Day 59 EOD — ⭐ LIGHTHOUSE NOW UNLOCKED)
+- Battlefield = **snarf 140** (frat boys). ~80 kills total over 2 days pushed the line far enough that
+  the **LIGHTHOUSE side quest is now ACCESSIBLE** (was blocked Day 58). Side-quest availability checked:
+  - 🟢 **Lighthouse** (`place=lighthouse`) — **TOP PRIORITY**. **Sonofa Beach = snarf 136** (fight
+    lobsterfrogmen → barrels of gunpowder, ~5 needed) → give to keeper via **`action=pyro`** →
+    blows up a BIG chunk of the frat army. Most efficient army-reducer in the war.
+  - 🟢 **Orchard** (`place=orchard`) — chambers 127→130, gland-gated (see above) + ~62 meat/fight mine.
+  - 🟢 **Farm** (`place=farm`) — The Barn = **snarf 137** → farmer (`action=farmer`); duck-flood quest.
+  - 🟢 **Nunnery** (`place=nunnery`) — Themthar Hills = **snarf 126**; recover meat from brigands.
+  - 🔴 **Junkyard** (`place=junkyard`) — still GATED ("can't fight through the frat boys").
+  - 🔴 **Arena/concert** (`place=concert`) — still GATED.
+- **Day 60 priority: do the LIGHTHOUSE** (snarf 136 lobsterfrogmen → gunpowder → `action=pyro` keeper)
+  for a big army cut, then keep pushing the battlefield to unlock the Junkyard + Arena.
 - **The war is a long, meat-negative grind.** Sustainable pattern: Airship-farm a chest → spend on
   battlefield/orchard → refarm. ~50-60 meat/fight net cost on the battlefield (MP for Cannelloni).
 
