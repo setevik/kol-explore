@@ -37,7 +37,17 @@
 - Combat: Cannelloni (3005) at MP≥8, Spaghetti (3020) at MP≥1, attack at MP<1; lean heal (Lasagna 3009
   via runskillz) only below 50% HP; Springy Fusilli (3015) every 8 fights for initiative.
 
-### ⚔️ War status (Day 59 EOD — ⭐ LIGHTHOUSE NOW UNLOCKED)
+### ⚔️ War status (Day 60 EOD — 🎇 LIGHTHOUSE COMPLETE)
+- **LIGHTHOUSE SIDE QUEST DONE (Day 60)** — first side quest completed; permanent frat-army cut.
+  Mechanic: farm **Sonofa Beach (snarf 136)** lobsterfrogmen for **barrel of gunpowder (item 2403)**;
+  collect **5**, then click **The Lighthouse** building on `bigisland.php?place=lighthouse` → keeper
+  takes them → done. ⚠️ Lobsterfrogmen HIT HARD — fight at FULL MP (Cannelloni one-shots) or Beaten Up.
+  Sonofa Beach is ~50% filler non-combats. Item **786 is a red-herring** drop (NOT the barrel).
+- Carryover: **meat ~2,290, MMJ 2, 33 jerky, 151 sushi, drunk 12/14 & full 14/15 at rollover, L15.**
+- **Day 61: re-check side-quest availability** (Lighthouse done + more battlefield kills may have
+  unlocked the Junkyard/Arena). Then do the next accessible side quest or push battlefield (140).
+
+### ⚔️ War status (Day 59 EOD — historical: LIGHTHOUSE UNLOCKED)
 - Battlefield = **snarf 140** (frat boys). ~80 kills total over 2 days pushed the line far enough that
   the **LIGHTHOUSE side quest is now ACCESSIBLE** (was blocked Day 58). Side-quest availability checked:
   - 🟢 **Lighthouse** (`place=lighthouse`) — **TOP PRIORITY**. **Sonofa Beach = snarf 136** (fight
