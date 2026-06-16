@@ -37,7 +37,26 @@
 - Combat: Cannelloni (3005) at MP≥8, Spaghetti (3020) at MP≥1, attack at MP<1; lean heal (Lasagna 3009
   via runskillz) only below 50% HP; Springy Fusilli (3015) every 8 fights for initiative.
 
-### ⚔️ War status (Day 61 EOD — Nunnery grind started)
+### ⭐⭐ WAR-WINNING MECHANIC (wiki-confirmed Day 61) — READ THIS FIRST
+- **Each completed side quest DOUBLES the enemies your comrades kill per battlefield fight:**
+  0 done = 1/fight · 1 (Lighthouse✅) = 2 · 2 = 4 · 3 = 8 · 4 = 16 · 5 = 32 · 6 = 64.
+  (Battlefield = 32 soldiers/segment × ~31 segments.) **This is why raw battlefield grinding is hopeless
+  at 1-2 kills/fight.** WIN PATH: complete side quests FIRST → then mop up the battlefield (clears
+  dozens/fight) which also unlocks the remaining gated frat quests.
+- **Therefore prioritize the FASTEST side quests, not the slowest** (any quest gives the same doubling):
+  - **Orchard** (~12-15 gland fights) ≫ Nunnery (~100 fights). Orchard also gives ~4,000 meat/day reward.
+    Gland chain: hatchling 2344 → Larva Stench(4t) → Feeding 128; drone 2345 → Drone Stench(10t) →
+    Guards 129; royal guard gland (low drop, bring +item monocle + full MP) → Queen 130. **DO THIS.**
+  - **Farm** — duck quest; a **chaos butterfly** triggers a tornado that HALVES remaining ducks (check
+    if we have one). Choice 147 "Cornered!" needs manual handling.
+  - **Arena** (gated) — "super easy with Entangling Noodles" (3004, which we have). Top priority once unlocked.
+  - **Nunnery** = SLOWEST (1000 base meat/brigand × 100 = 100,000; +Meat% stacks & multiplies but we have
+    NO leprechaun / no +meat gear → ~100 fights). Only pursue with big +Meat%. **DEPRIORITIZED.**
+- **Nunnery +Meat% notes:** fatigues lock hat/pants/1acc; weapon+offhand+2acc+familiar slots free for
+  +meat. Leprechaun familiar (weight-scaled) + Polka of Plenty(+50%) + meat accessories help. Nuns do
+  NOT count familiar-BONUS meat (Hobo Monkey/Cocoabo/meat vortex) — only the +Meat% drop modifier.
+
+### ⚔️ War status (Day 61 EOD — Nunnery grind started; NOW REPRIORITIZED to Orchard)
 - **Side-quest availability:** Lighthouse ✅ done. **Junkyard & Arena/concert STILL GATED** after ~135
   battlefield kills (unlock much deeper — battlefield is the SLOW path; no per-fight army counter visible).
   Open hippy-side: Orchard (gland-RNG), Farm (duck quest w/ finicky c147 "Cornered!" NC), **Nunnery**.
