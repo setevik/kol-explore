@@ -37,6 +37,17 @@
 - Combat: Cannelloni (3005) at MP≥8, Spaghetti (3020) at MP≥1, attack at MP<1; lean heal (Lasagna 3009
   via runskillz) only below 50% HP; Springy Fusilli (3015) every 8 fights for initiative.
 
+### ⚔️ War status (Day 61 EOD — Nunnery grind started)
+- **Side-quest availability:** Lighthouse ✅ done. **Junkyard & Arena/concert STILL GATED** after ~135
+  battlefield kills (unlock much deeper — battlefield is the SLOW path; no per-fight army counter visible).
+  Open hippy-side: Orchard (gland-RNG), Farm (duck quest w/ finicky c147 "Cornered!" NC), **Nunnery**.
+- **NUNNERY = best available side quest** (Our Lady of Perpetual Indecision, **Themthar Hills snarf 126**):
+  pure "dirty thieving brigand" combat, NO choices/RNG — engine-friendly. Recover **100,000 meat** for the
+  nuns (counter persists across days; recovered meat does NOT go to you → meat-negative, fund via Airship).
+  Day 61 ground ~34 brigands toward 100k. **Day 62: keep grinding 126 toward completion → big army chunk.**
+- Carryover: **meat ~1,487, MMJ 1, 26 jerky, 151 sushi, drunk 12/14 & full 14/15 at rollover, L15 Mys 213.**
+- Farm quest tabled: The Barn (snarf 137) ducks + choice **147 "Cornered!"** needs deliberate handling.
+
 ### ⚔️ War status (Day 60 EOD — 🎇 LIGHTHOUSE COMPLETE)
 - **LIGHTHOUSE SIDE QUEST DONE (Day 60)** — first side quest completed; permanent frat-army cut.
   Mechanic: farm **Sonofa Beach (snarf 136)** lobsterfrogmen for **barrel of gunpowder (item 2403)**;
