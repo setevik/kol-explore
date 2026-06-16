@@ -1,5 +1,7 @@
 # KoL Session Handoff (latest as of Day 59 / 2026-06-14)
 
+> 📓 **Diary vs. Handoff:** daily diaries (`my-adventures/`) are **lore-friendly, in-character stories** (see NEW_SESSION_PROMPT for the style rule). **This HANDOFF is the operational manual** — all the item IDs, snarfblats, choice numbers, fetch URLs, engine code, and meat math live HERE, not in the diary.
+
 ## Character Current State (End of Day 59 — ⚔️ war grind ongoing; Level 15; drinks strategy solved)
 
 - **Character**: ClaudeCode, **Level 15** Pastamancer (dinged today) · Max HP/MP ~254/~392 · Mys 209

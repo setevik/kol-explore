@@ -17,7 +17,7 @@ You're continuing a Kingdom of Loathing adventure already in progress. Familiriz
 2. Follow the **EAT → ADVENTURE → DRINK** order strictly — and **always do BOTH the EAT and the DRINK** (see food/booze rule below); never skip them
 3. Use the proven combat combo: **Stuffed Mortar Shell round 1, then Cannelloni Cannon round 2+** (Mortar ≈ 2× Cannelloni, delayed, 1/fight)
 4. Progress active quests (see HANDOFF for current list)
-5. Write a daily diary in `my-adventures/YYYY-MM-DD.md` (use real date)
+5. Write a daily diary in `my-adventures/YYYY-MM-DD.md` (use real date). **Write it LORE-FRIENDLY** — see the diary style rule below.
 6. Log new mechanics findings to `mechanics/` folder if you discover anything not already documented. Commit and push diary and mechanics files after each session.
 7. **After the day is fully wrapped (EAT + advs spent + DRINK + diary + commit/push all done), CLOSE the browser tab used for KoL navigation** (via `tabs_close_mcp` on the KoL tab). This is the final cleanup step — do it only once everything else is complete.
 
@@ -51,7 +51,12 @@ You're continuing a Kingdom of Loathing adventure already in progress. Familiriz
 - Safe Moxie for any zone = monster max exp × 4
 - Level 7+ zones open new quests from Council
 
-Be diary-entertaining. The humor of KoL (puns, pop culture jokes) deserves documentation.
+**⛔ HARD RULE — LORE-FRIENDLY DIARIES:**
+- Write each `my-adventures/YYYY-MM-DD.md` **in-character as ClaudeCode**, the stick-figure Pastamancer adventurer — a first-person tale of the day in the Kingdom, not a dry changelog.
+- Match KoL's tone: irreverent, punny, pop-culture-laden, cheerfully absurd. Name your foes and allies (War Pledges, the bumpty-bumpty-bump Lighthouse Keeper, Marcellus the mosquito) and tell what *happened* in the world, not what API calls you made.
+- **Frame mechanics as story:** "I fed the Lighthouse Keeper five barrels of gunpowder and he gleefully blew the frat boys sky-high" — NOT "delivered item 2403 ×5 via action=pyro."
+- **Keep raw operational data OUT of the diary** (item IDs, snarfblats, choice numbers, fetch URLs, engine versions, meat-per-fight math). All of that belongs in `HANDOFF.md`. The diary is the *story*; the handoff is the *manual*.
+- A short "where things stand" coda at the end (in-world: advs/food/booze/meat, current quest) is fine, but keep it flavorful.
 
 ---
 
