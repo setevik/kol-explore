@@ -58,7 +58,19 @@
   +meat. Leprechaun familiar (weight-scaled) + Polka of Plenty(+50%) + meat accessories help. Nuns do
   NOT count familiar-BONUS meat (Hobo Monkey/Cocoabo/meat vortex) — only the +Meat% drop modifier.
 
-### ⚔️ War status (Day 61 EOD — Nunnery grind started; NOW REPRIORITIZED to Orchard)
+### ⚔️ War status (Day 62 EOD — Orchard ABANDONED (gland RNG wall); Nunnery is the play)
+- **Orchard: gave up.** Across 2+ sessions the drone gland (2345) refuses to drop (0 in ~15+ Feeding
+  fights even with the +item monocle); Larva Stench duration is also inconsistent (seen 1, 4, 10 turns).
+  Too RNG-cursed to rely on. **Don't sink more advs here unless you bring much bigger +item%.**
+- **Nunnery (Themthar Hills snarf 126) is the reliable path** — pure brigand combat, no RNG. Cumulative
+  **~63 brigands** down (×1000 base meat ≈ 63k of the 100,000 goal — roughly 2/3 there). ~37 more
+  brigands ≈ finishes it → 2nd side quest done → battlefield kills DOUBLE again (to 4/fight).
+- ⚠️ **Day 62 booze was MISSED** — session dropped mid-wrap (re-login needed), drunk left at 0. Watch for
+  api.php returning an HTML/account page = session drop; re-login fixes it. Don't let it eat the DRINK step.
+- Carryover into Day 63: **meat only ~310** (Airship rebuild didn't finish), adv 67 rollover, L15.
+  Open Day 63 with an Airship farm FIRST (meat chest), then grind the Nunnery to completion.
+
+### ⚔️ War status (Day 61 EOD — Nunnery grind started; reprioritized — superseded by Day 62 above)
 - **Side-quest availability:** Lighthouse ✅ done. **Junkyard & Arena/concert STILL GATED** after ~135
   battlefield kills (unlock much deeper — battlefield is the SLOW path; no per-fight army counter visible).
   Open hippy-side: Orchard (gland-RNG), Farm (duck quest w/ finicky c147 "Cornered!" NC), **Nunnery**.
