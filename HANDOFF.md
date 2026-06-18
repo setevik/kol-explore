@@ -58,7 +58,20 @@
   +meat. Leprechaun familiar (weight-scaled) + Polka of Plenty(+50%) + meat accessories help. Nuns do
   NOT count familiar-BONUS meat (Hobo Monkey/Cocoabo/meat vortex) — only the +Meat% drop modifier.
 
-### ⚔️ War status (Day 62 EOD — Orchard ABANDONED (gland RNG wall); Nunnery is the play)
+### ⚔️ War status (Day 63 EOD — 🎉 NUNNERY DONE (2nd side quest); JUNKYARD unlocked)
+- **NUNNERY COMPLETE** — recovered the full 100,000 meat ("You've already retrieved all of the stolen
+  Meat"). **2 side quests done (Lighthouse + Nunnery) → battlefield now kills 4/fight.** Confirmed the
+  doubling mechanic in practice: the battlefield went from a crawl to fast, meat-leaner progress.
+- **JUNKYARD now UNLOCKED** (the 4/fight push advanced the line to it). ⚠️ Junkyard needs the
+  **molybdenum magnet** to make gremlins drop the 4 tools — check the Yossarian/junkyard NPC gives it;
+  if not, it's hard. Arena/concert STILL gated (push battlefield more to reach it).
+- **Day 63 plan worked:** finish Nunnery → battlefield 4/fight → unlock more. **Day 64: keep pushing the
+  battlefield (4/fight) to unlock the Arena (trivial w/ Entangling Noodles), and/or start the Junkyard.**
+  Each new side quest doubles kills again (→8/fight) — snowballs toward the win.
+- Carryover into Day 64: **meat ~479** (thin — Airship-farm at open), **jerky DOWN TO ~12** (RESTOCK food
+  soon — buy more jerky/sushi from mall or it'll run out). drunk 12/14 & full 14/15 at rollover, L15.
+
+### ⚔️ War status (Day 62 EOD — Orchard ABANDONED (gland RNG wall); superseded by Day 63 above)
 - **Orchard: gave up.** Across 2+ sessions the drone gland (2345) refuses to drop (0 in ~15+ Feeding
   fights even with the +item monocle); Larva Stench duration is also inconsistent (seen 1, 4, 10 turns).
   Too RNG-cursed to rely on. **Don't sink more advs here unless you bring much bigger +item%.**
