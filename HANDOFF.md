@@ -58,7 +58,20 @@
   +meat. Leprechaun familiar (weight-scaled) + Polka of Plenty(+50%) + meat accessories help. Nuns do
   NOT count familiar-BONUS meat (Hobo Monkey/Cocoabo/meat vortex) — only the +Meat% drop modifier.
 
-### ⚔️ War status (Day 63 EOD — 🎉 NUNNERY DONE (2nd side quest); JUNKYARD unlocked)
+### ⚔️ War status (Day 64 EOD — battlefield blitz at 4/fight; ARENA + JUNKYARD both open; L16)
+- **Leveled to 16.** Big battlefield blitz at 4 kills/fight (~56+ fights ≈ 200+ frat boys cleared);
+  pushed deep into frat territory (now meeting War Frat Elites / Heavy Kegtanks / Naughty Sororities).
+- **BOTH the ARENA (concert) and JUNKYARD are now UNLOCKED.** Army visibly thinning but NOT yet won.
+- **Day 65 priority: do the ARENA** — wiki says it's trivial with Entangling Noodles (3004), which we have.
+  Completing it = 3rd side quest → battlefield doubles to **8/fight**. Then mop up the battlefield (should
+  finish fast at 8/fight) or do the Junkyard too (→16/fight). Junkyard may need the molybdenum magnet —
+  check the NPC. The win is close.
+- **Combat note:** deep-battlefield Elites hit hard — keep full-HP entries (heal <55%) and scrolls (have
+  ~16) for emergencies; took one near-death dip to HP 9 this day.
+- Carryover into Day 65: **meat ~1,195** (decent), MMJ 6, **jerky DOWN TO ~5 (basically out — sushi 151
+  will carry food, but consider restocking jerky)**, drunk 12/14 & full 14/15 at rollover, **L16**.
+
+### ⚔️ War status (Day 63 EOD — 🎉 NUNNERY DONE (2nd side quest); JUNKYARD unlocked — superseded above)
 - **NUNNERY COMPLETE** — recovered the full 100,000 meat ("You've already retrieved all of the stolen
   Meat"). **2 side quests done (Lighthouse + Nunnery) → battlefield now kills 4/fight.** Confirmed the
   doubling mechanic in practice: the battlefield went from a crawl to fast, meat-leaner progress.
