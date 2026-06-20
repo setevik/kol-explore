@@ -58,7 +58,22 @@
   +meat. Leprechaun familiar (weight-scaled) + Polka of Plenty(+50%) + meat accessories help. Nuns do
   NOT count familiar-BONUS meat (Hobo Monkey/Cocoabo/meat vortex) — only the +Meat% drop modifier.
 
-### ⚔️ War status (Day 64 EOD — battlefield blitz at 4/fight; ARENA + JUNKYARD both open; L16)
+### ⚔️ War status (Day 65 EOD — battlefield down to the frat ELITE core; WIN ~1 day away)
+- Big battlefield push at 4/fight (~47 fights ≈ ~190 kills). Now meeting the army's deepest units:
+  **War Frat Elite / Senior / Heavy Kegtank / Naughty Sorority Nurse / Panty Raider** = the hard core.
+  **War NOT won yet but very close** — frat house visible through a thinning crowd. **Day 66: finish it.**
+- **⚠️ ARENA quest is a riddle — battlefield wins do NOT promote the band.** The promoter (`bigisland.php?place=
+  concert`) just complains about low popularity ("two tin cans and string") with NO action/form/link on the
+  page, and 30+ battlefield wins didn't change him. Promotion mechanism unknown — DON'T waste time here;
+  the battlefield win is the direct path. (Wiki said "trivial with Entangling Noodles" but the in-game page
+  offers no fight/action — consult wiki for the actual concert-promotion mechanic if pursuing it.)
+- **Food restock learned:** unidentified jerky (2620) is **mall-buyable at ~180 meat** (Clerk's has 240k+
+  stock). Buy via the mall UI "[buy some]" → "How Many?" dialog (fetch-buy needs store id + item hash, fiddly).
+  ⚠️ Eat SUSHI first then jerky to top (jerky-first can leave you stuck at full 10 since sushi(6) overshoots).
+- Carryover into Day 66: **meat ~1,725** (good), MMJ 2, jerky 4, sushi 151, drunk 12/14 & full 14/15, L16.
+  **Day 66 plan: Airship chest → battlefield to the WIN (4/fight, army's nearly gone) → Council reward.**
+
+### ⚔️ War status (Day 64 EOD — battlefield blitz at 4/fight; ARENA + JUNKYARD opened — superseded above)
 - **Leveled to 16.** Big battlefield blitz at 4 kills/fight (~56+ fights ≈ 200+ frat boys cleared);
   pushed deep into frat territory (now meeting War Frat Elites / Heavy Kegtanks / Naughty Sororities).
 - **BOTH the ARENA (concert) and JUNKYARD are now UNLOCKED.** Army visibly thinning but NOT yet won.
