@@ -58,7 +58,28 @@
   +meat. Leprechaun familiar (weight-scaled) + Polka of Plenty(+50%) + meat accessories help. Nuns do
   NOT count familiar-BONUS meat (Hobo Monkey/Cocoabo/meat vortex) — only the +Meat% drop modifier.
 
-### ⚔️ War status (Day 65 EOD — battlefield down to the frat ELITE core; WIN ~1 day away)
+### 🏁 War status (Day 66 EOD — ⭐ BATTLEFIELD CLEARED; only the FINAL BOSS "The Man" remains)
+- **THE ENTIRE FRAT ARMY IS DEFEATED.** Adventuring the battlefield (snarf 140) now gives *"There are no
+  Frat soldiers left -- the way to their house is clear!"* (battlefield reached image #32/33 = the last).
+  ⚠️ Battlefield progress = the **"Image #N"** number on the bigisland zone links (#0→#32), NOT the map
+  sprite count (sprites look full even when nearly done) and NOT the "(1)" label.
+- **FINAL BOSS = "The Man"** at the Orcish Frat House. ⚠️ The pre-war **snarf 27 is now "you shouldn't be
+  here"** — instead **click the "The Orcish Frat House" building on the rendered `bigisland.php` map**
+  (mainpane, ~x505,y322), then click the **"Commence the Sense-Knocking"** link → boss fight.
+- **⚔️ THE MAN IS A HARD BOSS — lost to him TWICE Day 66 (was resource-depleted from the grind).** Lessons:
+  - He has **high HP (>750)** and hits **~45-90/round**. Mortar + 4-5 Cannelloni did NOT kill him.
+  - **Scrolls of drastic healing (595) do NOT work in combat** (confirmed). In-combat heal = Lasagna (3009,
+    only ~20/cast) + companion heals (Marcellus/Ned). That's not enough alone vs his damage.
+  - **WIN PLAN (Day 67): come with a FULL TANK.** Farm a big MMJ stockpile FIRST (sustained MP), enter at
+    FULL HP, then: Mortar R1 → Cannelloni every round for damage + **Lasagna every round** (need MP for both)
+    + **spam the 28 photoprotoneutron torpedoes (item 630, MP-free big damage)** + companions. Buy
+    **hardening cream** (spleen, "Really Hard" DR 50) if available — turns his hits into chip damage = easy win.
+  - Re-attempt is free-ish: lose → Beaten Up → campground rest clears it → re-click frat house → retry.
+- ⚠️ **Day 66 booze MISSED** — war-chest hit meat 32 after the battlefield clear + 2 boss attempts; couldn't
+  afford Fog. Carryover: **meat ~164** (thin — Airship-farm at open), 28 torpedoes, 17 scrolls, MMJ 0,
+  jerky 1 + sushi ~147, **drunk 0 & full 14 at rollover**, L16. **Day 67: farm chest → KILL THE MAN → Council.**
+
+### ⚔️ War status (Day 65 EOD — battlefield down to the frat ELITE core — superseded above)
 - Big battlefield push at 4/fight (~47 fights ≈ ~190 kills). Now meeting the army's deepest units:
   **War Frat Elite / Senior / Heavy Kegtank / Naughty Sorority Nurse / Panty Raider** = the hard core.
   **War NOT won yet but very close** — frat house visible through a thinning crowd. **Day 66: finish it.**
