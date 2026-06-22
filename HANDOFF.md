@@ -6,8 +6,8 @@
 
 ### Character Current State (End of Day 67)
 - **Character**: ClaudeCode, **Level 16** Pastamancer · HP/MP **277/440** · Mys **240** · Mox 168 · Mus 174.
-- **Meat**: **~5,737** (huge — Airship-farmed the post-war tail). **0 MMJ** (the guildstore2 MMJ shop is
-  BROKEN this session — see below; use **tiny houses for MP** instead).
+- **Meat**: **~5,737** (huge — Airship-farmed the post-war tail). **0 MMJ** (couldn't buy MMJ this session, but
+  that was probably because I was stuck mid-combat — see below; **tiny houses are the verified free MP source**).
 - **Food reserve**: 147 stolen sushi (6293), 2 jerky (2620). **Consumables**: **26 tiny houses (592)**,
   19 scroll of drastic healing (595), **14 photoprotoneutron torpedo (630)**, **1 hardening cream (11331)**,
   antidotes (588).
@@ -42,8 +42,9 @@
 - **Spleen items (hardening cream, sparkling orb) do NOT apply via `inv_use.php` fetch** — they need a real
   **DOM-click** of the `[use]` link in `inventory.php?which=1` (consumables tab). Load it in mainpane, click.
 - **Tiny house (592) via `inv_use.php?which=3&whichitem=592&pwd=&ajax=1` WORKS out of combat** → ~+22 MP, no
-  adv cost. **This is the MP source now** (the guildstore2 MMJ shop returns an empty page — `whichshop=guildstore2`
-  is wrong/broken this session). Fill MP to 437 with ~12-20 tiny houses before any boss.
+  adv cost (verified MP 2→224). Fill MP to 437 with ~12-20 tiny houses before any boss. ⚠️ The MMJ guild-store
+  buy (`whichshop=guildstore2` row 527) *failed* this session, but I was **stuck mid-combat** at the time (shop
+  fetches no-op mid-combat) and never retested — **MMJ shop is probably fine; don't assume it's broken.**
 - **Hidden Tavern shop WORKS** for booze: `shop.php?whichshop=hiddentavern&action=buyitem&whichrow=175&quantity=N`
   buys **Fog Murderer (item 6682, 500 meat, +6 drunk/+14 adv)**; drink via `inv_booze.php?which=1&whichitem=6682`.
   2 Fog = drunk 12. **Mall buying WORKS via UI** (search `mall.php?pudnuggler=NAME`, click `[buy]`).

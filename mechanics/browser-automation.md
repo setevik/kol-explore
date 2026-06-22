@@ -127,10 +127,17 @@ These cost hours on Day 67. The newer, more robust automation style is **fetch-d
 `fetch(url,{credentials:'include',cache:'no-store'})` in page context, parse the returned HTML), NOT the
 old `frames['mainpane'].location.href` + setTimeout tick. Fetch survives backgrounding/throttling. But it has traps:
 
-### 1. `api.php?what=status&for=NAME` returns STALE/CACHED data — DO NOT trust it for live HP/MP
-- MP stays frozen at an old value; meat/adv lag. Cache-busting query params do NOT fix it.
-- `api.php?what=status` **without** `for=NAME` returns empty JSON — the `for=` is required but serves stale data.
-- **api inventory (`what=inventory`) IS reliable for item COUNTS.** Only the status (hp/mp/meat/adv/full/drunk) is stale.
+### 1. `api.php?what=status&for=NAME` can FREEZE at a stale snapshot — verify HP/MP against the charpane
+- **Observed (verified):** at one point a freshly-reloaded charpane frame showed MP **224/437** while
+  `api.php?what=status&for=ClaudeCode` returned **mp=2** — and api was simultaneously stale on hp (264 vs 276),
+  meat (1459 vs 1569) and adv (59 vs 58). So api had frozen at an earlier snapshot. Cache-busting (`_cb`,
+  `cache:'no-store'`) did not refresh it.
+- **Nuance / not fully root-caused:** api was ACCURATE at session open (gave mp=26 correctly) and only froze
+  later. The freeze may be server-side caching of the `for=` public-status lookup with a TTL, or a session
+  quirk. The call `api.php?what=status` **without** `for=` returned empty/unparsed JSON in one test, but I never
+  inspected the raw body — so "the `for=` param is required" is unconfirmed, not fact.
+- **Takeaway (safe):** treat the reloaded **charpane frame** as the source of truth for live HP/MP/meat/adv;
+  cross-check api before relying on it. **api inventory (`what=inventory`) was reliable for item COUNTS** all session.
 - **TRUTH for live HP/MP = reload the charpane FRAME and parse its text:**
   ```js
   // reload frame, wait for onload, then read
@@ -169,12 +176,18 @@ old `frames['mainpane'].location.href` + setTimeout tick. Fetch survives backgro
   `/name=["']?whichchoice["']?\s+value=["']?(\d+)/i`, NOT `/whichchoice[=:](\d+)/` (that misses the value attr).
 - Resolve with `choice.php?whichchoice=NNN&option=K&pwd=HASH`. Default option 1 works for Airship NCs (e.g. ch182).
 
-### 6. MP source = tiny houses, NOT the guild MMJ shop
-- `shop.php?whichshop=guildstore2&action=buyitem&whichrow=527` (MMJ) returned an empty/generic page this session
-  — that shop id appears wrong/broken. **Use tiny house (592) via `inv_use.php?which=3&whichitem=592&ajax=1`** for
-  free out-of-combat MP (~+22 each, no adv cost). The **Hidden Tavern** shop DOES work
-  (`shop.php?whichshop=hiddentavern&action=buyitem&whichrow=175` = Fog Murderer 6682). **Mall buys work via UI**
-  (`mall.php?pudnuggler=NAME`, click `[buy]`).
+### 6. MP source = tiny houses (verified); guild MMJ shop status UNVERIFIED
+- **Tiny house (592) via `inv_use.php?which=3&whichitem=592&ajax=1` WORKS** out of combat — verified MP 2→224
+  with 10 uses (~+22 each, no adv cost). This is the reliable free MP source. ✅
+- ⚠️ **CORRECTION — do NOT trust the earlier "guildstore2 MMJ shop is broken" claim.**
+  `shop.php?whichshop=guildstore2&action=buyitem&whichrow=527` (MMJ) failed to deduct meat / add MMJ *this session*,
+  BUT at the time **I was stuck in an unresolved Protagonist combat** (see #2 — shop/inv_use fetches silently
+  no-op mid-combat). I **never retested the MMJ shop after clearing combat**, so it is **likely fine** and the
+  failure was probably the combat artifact, not a broken shop id. Re-test out of combat before relying on tiny
+  houses as the *only* MP source.
+- **Hidden Tavern shop VERIFIED working** (tested out of combat): `shop.php?whichshop=hiddentavern&action=buyitem&whichrow=175`
+  = Fog Murderer 6682 (bought 2, drank → drunk 12). **Mall buys VERIFIED via UI** (`mall.php?pudnuggler=NAME`,
+  click `[buy]` — bought hardening cream, "You spent 100 Meat").
 
 ### 7. Tab can drop out of the MCP group
 - Creating/closing other tabs can silently remove the game tab from the group. The **game session (cookies) persists** —
