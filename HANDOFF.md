@@ -1,6 +1,68 @@
-# KoL Session Handoff (latest as of Day 59 / 2026-06-14)
+# KoL Session Handoff (latest as of Day 67 / 2026-06-22)
 
 > 📓 **Diary vs. Handoff:** daily diaries (`my-adventures/`) are **lore-friendly, in-character stories** (see NEW_SESSION_PROMPT for the style rule). **This HANDOFF is the operational manual** — all the item IDs, snarfblats, choice numbers, fetch URLs, engine code, and meat math live HERE, not in the diary.
+
+## 🏆🎉 Day 67 — ISLAND WAR WON. The Man defeated. (READ THIS FIRST)
+
+### Character Current State (End of Day 67)
+- **Character**: ClaudeCode, **Level 16** Pastamancer · HP/MP **277/440** · Mys **240** · Mox 168 · Mus 174.
+- **Meat**: **~5,737** (huge — Airship-farmed the post-war tail). **0 MMJ** (the guildstore2 MMJ shop is
+  BROKEN this session — see below; use **tiny houses for MP** instead).
+- **Food reserve**: 147 stolen sushi (6293), 2 jerky (2620). **Consumables**: **26 tiny houses (592)**,
+  19 scroll of drastic healing (595), **14 photoprotoneutron torpedo (630)**, **1 hardening cream (11331)**,
+  antidotes (588).
+- **Adventures**: 0 (all spent). **Drunk 12/14, Full 14/15** at rollover (~28 advs banked).
+- **🏅 WAR REWARD: Blue Diamond of Honesty** acquired at Council. **THE ISLAND WAR IS COMPLETE.**
+
+### ⭐⭐ HOW TO BEAT "THE MAN" (final frat boss) — hard-won, 5 losses then a win
+- **He RAMPS UP damage every round.** Sleaze paddle ~55-59 early, climbs to ~70-100+ by round ~25.
+  **Turtling/attrition LOSES** — the longer the fight, the harder he hits; you run out of MP healing and die.
+  (Lost at r10 no-DR, r27 & r45 with healing — every time his ramp outran my Lasagna+companions.)
+- **WIN = pure DPS race.** Open **Mortar (3007)**, then **Cannelloni Cannon (3005) EVERY round** (scales with
+  Mys 240 = our best damage), **heal ONLY at HP<35%.** Killed him in **~12 rounds, HP never below 175.**
+  Enter at FULL HP (scroll 595) + FULL MP (tiny houses).
+- **hardening cream (item 11331, mall ~100 meat, spleen → "Really Hard" DR 50)** extends survival but does
+  NOT win on its own and barely dents his sleaze. Optional. The *race* is what wins, not the DR.
+- **Torpedo-first / heal-heavy = slower DPS = drags into his ramp = loss.** DON'T. Cannelloni-spam.
+- **Boss attempts cost 0 adventures** — only the Beaten-Up recovery rest costs 1. Retries are cheap:
+  lose → `campground.php?action=rest` (clears Beaten Up) → scroll+tiny houses → re-click frat house → retry.
+- **Reach him:** click **"The Orcish Frat House"** building on rendered `bigisland.php` (mainpane ~x503,y320)
+  → **"Commence the Sense-Knocking"** link → fight. (snarf 27 is dead — "you shouldn't be here.")
+
+### ⚠️⚠️ CRITICAL OPERATIONAL LESSONS (Day 67 — these wasted hours; don't repeat)
+- **`api.php?what=status&for=ClaudeCode` returns STALE/CACHED data** (MP frozen, meat/adv lagging) even with
+  cache-busting. **DO NOT trust it for live HP/MP.** **TRUTH = reload the charpane FRAME and parse it:**
+  `frames['charpane'].location.href='charpane.php?_cb='+rnd` then read `frames['charpane'].document.body.innerText`,
+  match `/(\d+)\s*\/\s*(\d+)/g` → pair[0]=HP, pair[1]=MP. charpane number order: lvl,mus,mys,mox, drunk, full,
+  HPcur,HPmax, MPcur,MPmax, **meat, adv**, familiar... (api is OK for inventory item COUNTS, just not status.)
+- **inv_use / inv_booze / shop fetches return a generic ~5922-byte page and SILENTLY FAIL if you are stuck in
+  a combat.** If MP/effects won't change, **you're probably mid-fight** (a leftover fight from a prior loop).
+  Check `fight.php` for "you're fighting"; finish/flee it first. (Day 67: a stuck Airship "Protagonist" fight
+  ate ~30 min of "why won't tiny house work" — it was twiddling thumbs mid-combat.)
+- **Spleen items (hardening cream, sparkling orb) do NOT apply via `inv_use.php` fetch** — they need a real
+  **DOM-click** of the `[use]` link in `inventory.php?which=1` (consumables tab). Load it in mainpane, click.
+- **Tiny house (592) via `inv_use.php?which=3&whichitem=592&pwd=&ajax=1` WORKS out of combat** → ~+22 MP, no
+  adv cost. **This is the MP source now** (the guildstore2 MMJ shop returns an empty page — `whichshop=guildstore2`
+  is wrong/broken this session). Fill MP to 437 with ~12-20 tiny houses before any boss.
+- **Hidden Tavern shop WORKS** for booze: `shop.php?whichshop=hiddentavern&action=buyitem&whichrow=175&quantity=N`
+  buys **Fog Murderer (item 6682, 500 meat, +6 drunk/+14 adv)**; drink via `inv_booze.php?which=1&whichitem=6682`.
+  2 Fog = drunk 12. **Mall buying WORKS via UI** (search `mall.php?pudnuggler=NAME`, click `[buy]`).
+- **Background-loop overlap bug:** a `javascript_tool` call that launches a long async loop returns `{}` (blocked)
+  but the loop **keeps running in the page**. Launching another overlaps them (double-spends advs, corrupts logs).
+  **Use a `window._running` single-instance guard**, and **don't call `_readChar` (which reloads the charpane frame)
+  while a fight/farm loop is also reloading it** — concurrent frame reloads deadlock the onload promises (stalls).
+- **Win/loss detection:** "**You lose 59 hit points**" is normal damage text — do NOT match `'you lose'` for defeat.
+  Detect defeat via the **`beaten up`** effect in the reloaded charpane after the fight ends, OR HP→0.
+- **The MCP tab can drop out of the group** (creating/closing other tabs). The game session (cookies) persists —
+  just `navigate` a tab back to `game.php` (still logged in) and rebuild the JS helpers (`_pwd`, `_gp`, `_readChar`).
+
+### Day 68 priorities (post-war)
+1. EAT (sushi 6293 → full ~14), then spend the day's advs. Big Meat cushion (~5,737) for once.
+2. **Next quest: Highland Lord "There Can Be Only One Topping"** — light **Twin Peak** signal fire (A-Boo ✓,
+   Oil ✓, Twin Peak pending = snarf 297, gated by hot/stench res ≥4 NCs — prep resistance gear). Also open:
+   **Nemesis** (Epic Weapon) + **My Other Car Is Made of Meat** (meatcar → Gnomad Camp → Advanced Cocktailcrafting).
+3. Combat reminder: **Cannelloni-spam is our best single-target DPS** (Mys 240). Tiny houses = free MP.
+4. DRINK at day-end (2 Fog Murderers via Hidden Tavern row 175 → drunk 12).
 
 ## Character Current State (End of Day 59 — ⚔️ war grind ongoing; Level 15; drinks strategy solved)
 
