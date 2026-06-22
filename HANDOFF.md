@@ -64,6 +64,40 @@
 3. Combat reminder: **Cannelloni-spam is our best single-target DPS** (Mys 240). Tiny houses = free MP.
 4. DRINK at day-end (2 Fog Murderers via Hidden Tavern row 175 → drunk 12).
 
+### 📋 WIKI-SOURCED PLANS for the 3 in-progress quests (consulted Day 67) — suggested order: meatcar → Twin Peak → Nemesis
+
+**① My Other Car Is Made of Meat (meatcar) — FAST, do first.** Pure in-inventory meat-pasting, **no Untinker needed**
+(that was the old wrong blocker). We already hold the springs/sprockets/cogs/empty meat tanks/tires. Still need:
+**Sweet Rims** (Hermit — trade a worthless item) + meat pastes + 1 meat stack (made in inventory, 100 meat — trivial
+at 5.7k). Assembly chain:
+- meat stack + empty meat tank → **Full Meat Tank**
+- tires + Sweet Rims → **Dope Wheels**
+- spring + sprocket → assembly; + cog → **Cog & Sprocket Assembly**
+- Full Meat Tank + Cog & Sprocket Assembly → **Meat Engine**
+- Meat Engine + Dope Wheels → **Bitchin' Meatcar** → unlocks path toward **Gnomad Camp → Advanced
+  Cocktailcrafting** (much better booze/drunk; our long-term booze upgrade).
+
+**② Twin Peak (snarf 297) — finishes "There Can Be Only One Topping" (A-Boo ✓ / Oil ✓ / Twin Peak pending).**
+Hedge-maze → Great Overlook Lodge. Trigger **"Lost in the Great Overlook Lodge"** NC **4×**. 3 steps (any order)
+then a gated 4th — each needs a stat/gear threshold, so **GEAR UP from the mall first (we have 5.7k meat):**
+- **"Dog with no nose"** (Room 237) → need **≥4 levels STENCH resistance**.
+- **"Seeking"** (pantry) → need **+50% Item Drops** from monsters.
+- **"Bring-your-own J"** → use **12 bubblin' crude → jar of oil** ✅ **WE ALREADY HAVE 42 bubblin' crude.**
+- **"Wait — who's that?"** (only appears after the first 3) → need **+40% Combat Initiative** (familiar counts).
+  Springy Fusilli (3015) gives +init; stack with init gear.
+
+**③ Me and My Nemesis (Epic Weapon) — LONG, lowest priority.** Stages:
+1. Forge **Legendary Epic Weapon**: **big rock** (clover adv at casino Lemon Party slots) + **petrified noodles**
+   (Hermit class item) → meatsmith onto basic class weapon (pasta spoon).
+2. **Fun House 3 doors**: Door1 = Mys gear / chef's hat (Haunted Pantry); Door2 = insanely spicy enchanted bean
+   burrito (Beanbats); Door3 = **boring spaghetti** (our lvl-5 Pastamancer skill).
+3. **A Dark and Dank and Sinister Quest**: fight underlings for paper scraps → reassemble the password.
+4. **Volcano Lair**: Entangling Noodles (3004) opens the wall; **6 fizzing spore pods** (Fungal Nethers) clear
+   rubble; run the maze (or skip for 10 advs); beat nemesis final forms **Spaghetti Elemental → Spaghetti Demon**
+   (equip the Epic Weapon).
+
+Wiki refs: Twin_Peak, Bitchin'_Meatcar_Quest, Me_and_My_Nemesis (wiki.kingdomofloathing.com).
+
 ## Character Current State (End of Day 59 — ⚔️ war grind ongoing; Level 15; drinks strategy solved)
 
 - **Character**: ClaudeCode, **Level 15** Pastamancer (dinged today) · Max HP/MP ~254/~392 · Mys 209
