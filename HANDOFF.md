@@ -6,8 +6,8 @@
 
 ### Character Current State (End of Day 67)
 - **Character**: ClaudeCode, **Level 16** Pastamancer · HP/MP **277/440** · Mys **240** · Mox 168 · Mus 174.
-- **Meat**: **~5,737** (huge — Airship-farmed the post-war tail). **0 MMJ** (couldn't buy MMJ this session, but
-  that was probably because I was stuck mid-combat — see below; **tiny houses are the verified free MP source**).
+- **Meat**: **~5,637** (huge — Airship-farmed the post-war tail). **MMJ shop WORKS** (retested — earlier
+  "broken" was a stuck-mid-combat artifact); also **tiny houses (592) = free MP** (no meat/adv cost), the default.
 - **Food reserve**: 147 stolen sushi (6293), 2 jerky (2620). **Consumables**: **26 tiny houses (592)**,
   19 scroll of drastic healing (595), **14 photoprotoneutron torpedo (630)**, **1 hardening cream (11331)**,
   antidotes (588).
@@ -30,11 +30,13 @@
   → **"Commence the Sense-Knocking"** link → fight. (snarf 27 is dead — "you shouldn't be here.")
 
 ### ⚠️⚠️ CRITICAL OPERATIONAL LESSONS (Day 67 — these wasted hours; don't repeat)
-- **`api.php?what=status&for=ClaudeCode` returns STALE/CACHED data** (MP frozen, meat/adv lagging) even with
-  cache-busting. **DO NOT trust it for live HP/MP.** **TRUTH = reload the charpane FRAME and parse it:**
-  `frames['charpane'].location.href='charpane.php?_cb='+rnd` then read `frames['charpane'].document.body.innerText`,
-  match `/(\d+)\s*\/\s*(\d+)/g` → pair[0]=HP, pair[1]=MP. charpane number order: lvl,mus,mys,mox, drunk, full,
-  HPcur,HPmax, MPcur,MPmax, **meat, adv**, familiar... (api is OK for inventory item COUNTS, just not status.)
+- **`api.php?what=status` needs a `for=` param** (errors without it) and is **accurate normally** — but it **can
+  freeze under HEAVY rapid polling** of the same `for=` string (my per-round combat/farm loops triggered it: api
+  showed mp=2 while a fresh charpane showed 224). Mitigate by polling less / varying `for=` / reading the charpane.
+  (RETESTED Day 67: out of combat with light polling, api correctly tracked a buy and an MP change. `what=inventory`
+  is reliable for item counts.) **Charpane parse caveat:** match `/(\d+)\s*\/\s*(\d+)/g`, but **HP & MP are the LAST
+  TWO pairs** — when drunk/full are nonzero they prepend a `[drunk/full]` pair, so `pairs[0]` is NOT always HP
+  (number order: lvl,mus,mys,mox,[drunk,full,]HPc,HPm,MPc,MPm,meat,adv).
 - **inv_use / inv_booze / shop fetches return a generic ~5922-byte page and SILENTLY FAIL if you are stuck in
   a combat.** If MP/effects won't change, **you're probably mid-fight** (a leftover fight from a prior loop).
   Check `fight.php` for "you're fighting"; finish/flee it first. (Day 67: a stuck Airship "Protagonist" fight
@@ -42,9 +44,9 @@
 - **Spleen items (hardening cream, sparkling orb) do NOT apply via `inv_use.php` fetch** — they need a real
   **DOM-click** of the `[use]` link in `inventory.php?which=1` (consumables tab). Load it in mainpane, click.
 - **Tiny house (592) via `inv_use.php?which=3&whichitem=592&pwd=&ajax=1` WORKS out of combat** → ~+22 MP, no
-  adv cost (verified MP 2→224). Fill MP to 437 with ~12-20 tiny houses before any boss. ⚠️ The MMJ guild-store
-  buy (`whichshop=guildstore2` row 527) *failed* this session, but I was **stuck mid-combat** at the time (shop
-  fetches no-op mid-combat) and never retested — **MMJ shop is probably fine; don't assume it's broken.**
+  meat, no adv cost (verified). Fill MP to 437 with ~12-20 tiny houses before any boss. The **MMJ guild-store buy
+  (`whichshop=guildstore2&whichrow=527`, 100 meat) ALSO works** (retested: meat −100, MMJ +1) — the earlier
+  "broken" was just the stuck-mid-combat no-op. **Tiny houses are still the better MP source** (free).
 - **Hidden Tavern shop WORKS** for booze: `shop.php?whichshop=hiddentavern&action=buyitem&whichrow=175&quantity=N`
   buys **Fog Murderer (item 6682, 500 meat, +6 drunk/+14 adv)**; drink via `inv_booze.php?which=1&whichitem=6682`.
   2 Fog = drunk 12. **Mall buying WORKS via UI** (search `mall.php?pudnuggler=NAME`, click `[buy]`).

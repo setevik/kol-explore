@@ -127,27 +127,33 @@ These cost hours on Day 67. The newer, more robust automation style is **fetch-d
 `fetch(url,{credentials:'include',cache:'no-store'})` in page context, parse the returned HTML), NOT the
 old `frames['mainpane'].location.href` + setTimeout tick. Fetch survives backgrounding/throttling. But it has traps:
 
-### 1. `api.php?what=status&for=NAME` can FREEZE at a stale snapshot — verify HP/MP against the charpane
-- **Observed (verified):** at one point a freshly-reloaded charpane frame showed MP **224/437** while
-  `api.php?what=status&for=ClaudeCode` returned **mp=2** — and api was simultaneously stale on hp (264 vs 276),
-  meat (1459 vs 1569) and adv (59 vs 58). So api had frozen at an earlier snapshot. Cache-busting (`_cb`,
-  `cache:'no-store'`) did not refresh it.
-- **Nuance / not fully root-caused:** api was ACCURATE at session open (gave mp=26 correctly) and only froze
-  later. The freeze may be server-side caching of the `for=` public-status lookup with a TTL, or a session
-  quirk. The call `api.php?what=status` **without** `for=` returned empty/unparsed JSON in one test, but I never
-  inspected the raw body — so "the `for=` param is required" is unconfirmed, not fact.
-- **Takeaway (safe):** treat the reloaded **charpane frame** as the source of truth for live HP/MP/meat/adv;
-  cross-check api before relying on it. **api inventory (`what=inventory`) was reliable for item COUNTS** all session.
-- **TRUTH for live HP/MP = reload the charpane FRAME and parse its text:**
+### 1. `api.php?what=status` — `for=` is REQUIRED; it can go stale under HEAVY rapid polling (RETESTED Day 67)
+- **`for=` is genuinely required** (RETESTED): `api.php?what=status` with no `for=` returns
+  `{"error":"You must supply a \"for\" parameter describing why..."}`. With `for=anything` it returns full
+  status JSON (keys: playerid,name,hardcore,drunk,full,hp,mp,meat,turnsplayed,familiar,...).
+- **api is NOT inherently stale** (RETESTED out of combat, light polling): it correctly reflected a live MMJ
+  purchase (meat 5737→5637) and a tiny-house MP change (mp 17→83) immediately. Use it freely for normal reads.
+- **BUT it CAN freeze under heavy rapid polling.** During the Day-67 combat/farm loops I polled
+  `for=ClaudeCode` every single round; mid-session a fresh charpane showed MP 224 while api returned mp=2 (and
+  hp/meat/adv also lagged). Most likely KoL **rate-limits/caches the status endpoint per `for=` string** when
+  hammered. **Mitigations:** poll less often, **vary the `for=` value** between calls, or read the charpane.
+- **api `what=inventory` was reliable for item COUNTS** throughout (used for MMJ, fog, torpedo, cream counts).
+- **Backup for live HP/MP = reload the charpane FRAME and parse it — but mind the VARIABLE pair order:**
   ```js
-  // reload frame, wait for onload, then read
   frames['charpane'].location.href = 'charpane.php?_cb=' + Math.floor(performance.now()*1000);
-  // after load:
+  // after onload:
   var c = frames['charpane'].document.body.innerText.replace(/\s+/g,' ').trim();
-  var pairs = c.match(/(\d+)\s*\/\s*(\d+)/g);   // pairs[0]=HP cur/max, pairs[1]=MP cur/max
-  var allNums = c.match(/\b\d[\d,]*\b/g);        // order: lvl,mus,mys,mox, drunk, full, HPc,HPm, MPc,MPm, MEAT, ADV, fam...
+  var pairs = c.match(/(\d+)\s*\/\s*(\d+)/g);
+  // ⚠️ pairs[0] is NOT always HP. When drunk/full are NONZERO they render as the FIRST "X / Y" pair:
+  //   drunk=0: pairs = [HP, MP]                 e.g. ["277/277","83/440"]
+  //   drunk>0: pairs = [drunk/full, HP, MP]     e.g. ["12/14","277/277","83/440"]
+  // ROBUST: HP and MP are always the LAST TWO pairs ->
+  var hp = pairs[pairs.length-2], mp = pairs[pairs.length-1];
   ```
-  Promise-wrap the frame reload (resolve on `frame.onload`, with a ~1.6s timeout fallback) so one call returns fresh data.
+  This pair-shift was a real latent bug (RETESTED Day 67): with drunk=12 the old `pairs[0]=HP / pairs[1]=MP`
+  reader returned HP (277) where MP was expected. The flat number sequence ALSO shifts by 2 when drunk/full are
+  present (lvl,mus,mys,mox,[drunk,full,]HPc,HPm,MPc,MPm,meat,adv) — don't index it by fixed position either.
+  Promise-wrap the reload (resolve on `frame.onload`, ~1.6s timeout fallback).
 
 ### 2. `inv_use` / `inv_booze` / `shop.php` fetches SILENTLY FAIL while you're stuck in a combat
 - They return a generic ~5922-byte page containing "adventure" and the combat dropdown, and **do nothing**
@@ -176,18 +182,18 @@ old `frames['mainpane'].location.href` + setTimeout tick. Fetch survives backgro
   `/name=["']?whichchoice["']?\s+value=["']?(\d+)/i`, NOT `/whichchoice[=:](\d+)/` (that misses the value attr).
 - Resolve with `choice.php?whichchoice=NNN&option=K&pwd=HASH`. Default option 1 works for Airship NCs (e.g. ch182).
 
-### 6. MP source = tiny houses (verified); guild MMJ shop status UNVERIFIED
-- **Tiny house (592) via `inv_use.php?which=3&whichitem=592&ajax=1` WORKS** out of combat — verified MP 2→224
-  with 10 uses (~+22 each, no adv cost). This is the reliable free MP source. ✅
-- ⚠️ **CORRECTION — do NOT trust the earlier "guildstore2 MMJ shop is broken" claim.**
-  `shop.php?whichshop=guildstore2&action=buyitem&whichrow=527` (MMJ) failed to deduct meat / add MMJ *this session*,
-  BUT at the time **I was stuck in an unresolved Protagonist combat** (see #2 — shop/inv_use fetches silently
-  no-op mid-combat). I **never retested the MMJ shop after clearing combat**, so it is **likely fine** and the
-  failure was probably the combat artifact, not a broken shop id. Re-test out of combat before relying on tiny
-  houses as the *only* MP source.
-- **Hidden Tavern shop VERIFIED working** (tested out of combat): `shop.php?whichshop=hiddentavern&action=buyitem&whichrow=175`
-  = Fog Murderer 6682 (bought 2, drank → drunk 12). **Mall buys VERIFIED via UI** (`mall.php?pudnuggler=NAME`,
-  click `[buy]` — bought hardening cream, "You spent 100 Meat").
+### 6. MP sources — BOTH the guild MMJ shop AND tiny houses work (RETESTED Day 67)
+- ✅ **guild MMJ shop WORKS** (RETESTED out of combat): `shop.php?whichshop=guildstore2&action=buyitem&whichrow=527&quantity=N&pwd=HASH`
+  → meat 5737→5637, MMJ count 0→1, returns a real ~15KB shop page. **The earlier "shop is broken" claim was WRONG**
+  — the original failure was the **stuck-mid-combat** no-op (see #2: shop/inv_use fetches do nothing during a fight),
+  not a bad shop id. MMJ = item 518, 100 meat each, +25 MP.
+- ✅ **Tiny house (592) via `inv_use.php?which=3&whichitem=592&ajax=1` WORKS** out of combat — verified MP 17→83
+  with 3 uses (~+22 each, **no meat, no adv cost**). Cheaper than MMJ for MP; use these as the default free MP source.
+- ✅ **Hidden Tavern shop WORKS**: `shop.php?whichshop=hiddentavern&action=buyitem&whichrow=175` = Fog Murderer 6682
+  (bought 2, drank → drunk 12). ✅ **Mall buys WORK via UI**: `mall.php?pudnuggler=NAME`, click `[buy]` (bought
+  hardening cream, "You spent 100 Meat").
+- **General rule:** if a `shop.php`/`inv_use`/`inv_booze` fetch silently no-ops, you're almost certainly **stuck in
+  a combat** (#2) — check `fight.php` and clear it first; the shop/item is probably fine.
 
 ### 7. Tab can drop out of the MCP group
 - Creating/closing other tabs can silently remove the game tab from the group. The **game session (cookies) persists** —
