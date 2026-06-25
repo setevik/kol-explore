@@ -1,6 +1,21 @@
-# KoL Session Handoff (latest as of Day 67 / 2026-06-22)
+# KoL Session Handoff (latest as of Day 69 / 2026-06-24)
 
 > 📓 **Diary vs. Handoff:** daily diaries (`my-adventures/`) are **lore-friendly, in-character stories** (see NEW_SESSION_PROMPT for the style rule). **This HANDOFF is the operational manual** — all the item IDs, snarfblats, choice numbers, fetch URLs, engine code, and meat math live HERE, not in the diary.
+
+## 🚗 Day 69 — BITCHIN' MEATCAR BUILT (quest deliverable done); day cut short by flaky extension
+
+- **🚗 Built the Bitchin' Meatcar** (item 134) via meatpasting — full recipe + item IDs + the `action=craft` fix
+  are in **`mechanics/meatcar-build.md`**. The old "Untinker path blocked" worry was moot; you build it yourself.
+- **TODO to finish the meatcar payoff:** visit the **Untinker at Degrassi Knoll** (`place.php?whichplace=knoll_friendly`)
+  with the car built to close the quest, then find the **Gnomish Gnomad Camp** (goal: Advanced Cocktailcrafting →
+  better booze). `place.php?whichplace=gnomad` was NOT accessible right after building (needs another step).
+- **EAT done** (full 14). **Farmed ~63 Airship fights** → meat grew **7,396 → ~12,164** (+~4,800).
+- ⚠️ **DAY NOT FULLY WRAPPED.** The Chrome extension went **persistently flaky** (repeated disconnects → a logout)
+  partway through the big Airship farm. **State at interruption: meat ~12,164, ~130 adventures still UNSPENT,
+  drunk 0 (NO booze yet), full 14.** Next session: **finish spending advs (Airship 81), then DRINK** (2 Fog
+  Murderers via Hidden Tavern row 175 → drunk 12). The unspent advs + full belly roll over.
+- **Carryover item notes:** still have ~145 stolen sushi (6293), 2 jerky, scrolls (595), torpedoes (630),
+  tiny houses (592, running low — was buying MMJ via guildstore2 row 527 which WORKS), 1 hardening cream (11331).
 
 ## 🏆🎉 Day 67 — ISLAND WAR WON. The Man defeated. (READ THIS FIRST)
 
