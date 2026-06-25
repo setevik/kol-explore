@@ -9,13 +9,18 @@
 - **TODO to finish the meatcar payoff:** visit the **Untinker at Degrassi Knoll** (`place.php?whichplace=knoll_friendly`)
   with the car built to close the quest, then find the **Gnomish Gnomad Camp** (goal: Advanced Cocktailcrafting →
   better booze). `place.php?whichplace=gnomad` was NOT accessible right after building (needs another step).
-- **EAT done** (full 14). **Farmed ~63 Airship fights** → meat grew **7,396 → ~12,164** (+~4,800).
-- ⚠️ **DAY NOT FULLY WRAPPED.** The Chrome extension went **persistently flaky** (repeated disconnects → a logout)
-  partway through the big Airship farm. **State at interruption: meat ~12,164, ~130 adventures still UNSPENT,
-  drunk 0 (NO booze yet), full 14.** Next session: **finish spending advs (Airship 81), then DRINK** (2 Fog
-  Murderers via Hidden Tavern row 175 → drunk 12). The unspent advs + full belly roll over.
-- **Carryover item notes:** still have ~145 stolen sushi (6293), 2 jerky, scrolls (595), torpedoes (630),
-  tiny houses (592, running low — was buying MMJ via guildstore2 row 527 which WORKS), 1 hardening cream (11331).
+- **EAT ✅ (full 14) · big Airship farm ✅ · DRINK ✅ (drunk 12).** Day is wrapped (despite a very flaky extension).
+- **🤑 HUGE FARM HAUL:** ground ~150+ Airship fights across the day → **meat 5,637 → ~23,557** (+~18,000!).
+  Mysticality crept **240 → 245** from the spell grind. **End state: Level 16, HP 281/281, MP ~4/448, meat
+  ~23,557, drunk 12, full 14, ~47 adventures banked (roll over).**
+- ⚠️ **The Chrome extension flapped badly all session** (repeated disconnects/logouts wiped the in-page farm
+  engine many times). Workarounds that helped: get pwd from the **frame DOM** (not fetch) after re-login;
+  relaunch the farm in a fresh page each time; the **drink had to be re-done** (first attempt's fetches no-op'd
+  during a flap — always VERIFY drunk via api after drinking). Couldn't spend the final ~47 advs (engine kept
+  getting wiped) — they roll over; not worth fighting the connection further.
+- **Carryover items:** ~143 stolen sushi (6293), 2 jerky, scrolls (595), torpedoes (630), tiny houses (592,
+  low — top up or rely on MMJ via guildstore2 row 527 which WORKS), 1 hardening cream (11331). Bought MMJ to
+  sustain MP during the farm. **Meat cushion is now huge (~23.5k) → can afford Twin Peak resistance gear.**
 
 ## 🏆🎉 Day 67 — ISLAND WAR WON. The Man defeated. (READ THIS FIRST)
 
