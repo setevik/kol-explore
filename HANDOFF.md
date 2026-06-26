@@ -1,6 +1,25 @@
-# KoL Session Handoff (latest as of Day 69 / 2026-06-24)
+# KoL Session Handoff (latest as of Day 70 / 2026-06-25)
 
 > 📓 **Diary vs. Handoff:** daily diaries (`my-adventures/`) are **lore-friendly, in-character stories** (see NEW_SESSION_PROMPT for the style rule). **This HANDOFF is the operational manual** — all the item IDs, snarfblats, choice numbers, fetch URLs, engine code, and meat math live HERE, not in the diary.
+
+## 📅 Day 70 (2026-06-25) — Twin Peak is 3/4 DONE; only the +item pantry remains. (READ FIRST)
+- **End state:** Level 16, Mys **248**, HP 283/283, **meat ~28,947**, drunk 12, full 15, **~67 adv banked** (rollover).
+  EAT ✅ (sushi + strawberries — **OUT OF JERKY**, restock; strawberry item **786** = 1 fullness filler) ·
+  big Airship farm ✅ (meat 23,557 → ~28,947, +~5,400) · DRINK ✅ (2 Fog Murderers).
+- **⭐ TWIN PEAK = snarf 297, and it's 3/4 COMPLETE.** Adventuring 297 → fires **choice 606 "Lost in the Great
+  Overlook Lodge."** It now offers **ONLY option 2 "Search the pantry"** (+ option 6 "Leave") — meaning the other
+  three rooms (Room 237/stench-res, music/jar-of-oil, double/init) are **already done**. The pantry needs
+  **+50% Item Drops**; option 2 failed with "not enough item drops." **TO FINISH TWIN PEAK: get to +50% item
+  (buy +item gear from the mall — we have ~29k meat — or a +item familiar; we have NO item familiar in the
+  terrarium), then `choice.php?whichchoice=606&option=2`.** That lights the 3rd signal fire → completes the
+  Highland Lord "Topping" quest → opens the Orc Chasm road. **This is the highest-value next task.**
+- ⚠️ **STUCK-PROTAGONIST GOTCHA (cost me the drink step twice):** the Airship farm can leave an unresolved
+  **Protagonist** fight — it's tanky enough to survive `_resolveFight`'s 25-round cap at low MP, so the loop
+  moves on leaving you **stuck in combat**. Then ALL `shop.php`/`inv_booze`/`inv_use` fetches silently no-op
+  ("you twiddle your thumbs"). **ALWAYS check `fight.php` for an active fight before the DRINK/shop step**; kill
+  the Protagonist with **2 photoprotoneutron torpedoes (630, MP-free)**. Consider a torpedo-finisher in
+  `_resolveFight` when it hits maxr. (Hidden Tavern Fog buy + mall both work fine ONCE out of combat.)
+- Connection was **much more stable** this session than Day 69 (the 78-fight farm ran without dropping).
 
 ## 🚗 Day 69 — BITCHIN' MEATCAR BUILT (quest deliverable done); day cut short by flaky extension
 
