@@ -1,8 +1,25 @@
-# KoL Session Handoff (latest as of Day 70 / 2026-06-25)
+# KoL Session Handoff (latest as of Day 71 / 2026-06-26)
 
 > 📓 **Diary vs. Handoff:** daily diaries (`my-adventures/`) are **lore-friendly, in-character stories** (see NEW_SESSION_PROMPT for the style rule). **This HANDOFF is the operational manual** — all the item IDs, snarfblats, choice numbers, fetch URLs, engine code, and meat math live HERE, not in the diary.
 
-## 📅 Day 70 (2026-06-25) — Twin Peak is 3/4 DONE; only the +item pantry remains. (READ FIRST)
+## 📅 Day 71 (2026-06-26) — Twin Peak pantry needs +50% item from GEAR+FOOD (familiars excluded); huge farm → ~42k meat. (READ FIRST)
+- **End state:** Level 16, Mys 248, HP 283/283, **meat ~41,950** (+~13,000 today), drunk 12, full 15, **adv 0** (all spent).
+  EAT ✅ (sushi + strawberries 786) · big Airship farm ✅ (~140 fights, meat 28,947 → ~41,950) · DRINK ✅ (2 Fog).
+- **⭐ TWIN PEAK (snarf 297) — the pantry (choice 606 option 2) requires ≥+50% Item Drops, and per the wiki it
+  ONLY counts GEAR + FOOD-effect item bonuses** (familiars, thralls, companions, minstrels, Florist plants, and
+  booze bonuses are EXCLUDED). Our ~+10% (Baron monocle 1312) is far short, and a +item familiar wouldn't even
+  help. **NEXT SESSION = a +item GEAR-SHOPPING project** (we now have ~42k meat): buy item-find accessories/gear
+  (e.g. a golden Mr. A → "Smile of Mr. A" +25%, item-find accessories, item-find food effects), stack to +50%,
+  then `choice.php?whichchoice=606&option=2` to light the 3rd signal fire → completes Highland Lord "Topping"
+  → opens the Orc Chasm. (WebFetch is 403-blocked on the KoL wiki/forums; research +item gear via WebSearch
+  snippets or in-game, or the user may know good cheap sources.)
+- ✅ **Torpedo-finisher added to `_resolveFight`** (fires a torpedo 630 if a fight reaches round 12) — this fixed
+  the stuck-Protagonist problem; the whole ~140-fight farm ran with no stuck combats. Keep this in the engine.
+- ⚠️ **Connection flapped at session start** (killed the first farm launch + a logout) but then **held stable**
+  for the entire farm. Pattern: re-login, rebuild helpers from frame DOM, relaunch; it usually settles.
+- **Out of jerky** — strawberry (786, 1 fullness) is the topoff filler now; consider restocking jerky from mall.
+
+## 📅 Day 70 (2026-06-25) — Twin Peak is 3/4 DONE; only the +item pantry remains.
 - **End state:** Level 16, Mys **248**, HP 283/283, **meat ~28,947**, drunk 12, full 15, **~67 adv banked** (rollover).
   EAT ✅ (sushi + strawberries — **OUT OF JERKY**, restock; strawberry item **786** = 1 fullness filler) ·
   big Airship farm ✅ (meat 23,557 → ~28,947, +~5,400) · DRINK ✅ (2 Fog Murderers).
