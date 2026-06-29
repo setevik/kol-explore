@@ -1,8 +1,35 @@
-# KoL Session Handoff (latest as of Day 71 / 2026-06-26)
+# KoL Session Handoff (latest as of Day 72 / 2026-06-27)
 
 > 📓 **Diary vs. Handoff:** daily diaries (`my-adventures/`) are **lore-friendly, in-character stories** (see NEW_SESSION_PROMPT for the style rule). **This HANDOFF is the operational manual** — all the item IDs, snarfblats, choice numbers, fetch URLs, engine code, and meat math live HERE, not in the diary.
 
-## 📅 Day 71 (2026-06-26) — Twin Peak pantry needs +50% item from GEAR+FOOD (familiars excluded); huge farm → ~42k meat. (READ FIRST)
+## 📅 Day 72 (2026-06-27) — ⛔ Cocktailcrafting is Disco-Bandit-only (dead end); +42k→~47k farm. (READ FIRST)
+- **End state:** Level 16, Mys **255**, HP 288/288, **meat ~47,026** (+~5,100), drunk 12, full 14, **adv ~43** (rolled over).
+  EAT ✅ · Airship farm ~50 fights ✅ · DRINK ✅ (2 Fog). Mandatory meters filled despite bad connection flapping.
+- **⛔⛔ CORRECTION — DROP the "Gnomad Camp → Advanced Cocktailcrafting → better booze" goal entirely.**
+  **Advanced/Superhuman/Salacious Cocktailcrafting are DISCO BANDIT class-exclusive skills** (like Pastamastery is
+  ours). A **Pastamancer can NEVER learn them** — confirmed via wiki. The Gnomads' Camp also requires a
+  Wombat/Blender/Packrat moon sign. **There is NO booze upgrade beyond Fog Murderer for this character.** All prior
+  handoff/memory notes treating this as a "future project" were WRONG (memory `kol-drinks-strategy.md` is corrected).
+- **🎯 RECOMMENDED NEXT DIRECTION = "Me and My Nemesis" (reclaim the Epic Weapon).** Doesn't need +item gear or
+  cocktailcrafting. Multi-stage but concrete. **Research the exact steps first** (WebSearch works; WebFetch 403s on
+  the KoL wiki). Rough outline from prior research: forge Legendary Epic Weapon (big rock from a casino "Lucky!"
+  Lemon-Party-slots adventure via a ten-leaf clover; + petrified noodles from the Hermit; meatsmith) → Fun House 3
+  doors (Door1 Mys gear/chef's hat from Haunted Pantry; Door2 insanely spicy enchanted bean burrito from Beanbats;
+  Door3 boring spaghetti, our lvl-5 skill) → "A Dark and Dank and Sinister Quest" (paper-scrap password) → Volcanic
+  Cave (Entangling Noodles 3004 + 6 fizzing spore pods from Fungal Nethers + maze) → beat Spaghetti Elemental →
+  Spaghetti Demon. **Day 72 couldn't verify prerequisites (clover/Hermit) — api inventory read failed in the flap.**
+- **Twin Peak still 3/4 done, still walled on +50% item from gear+food** (see Day 71 below). Cheap stacking caps at
+  ~+24% (monocle 1312 +10% + 2 lucky rabbit's foot +7% ea); the in-game charsheet does NOT display item% so you
+  can't measure it. Big +item sources (golden Mr. A "Smile of Mr. A" +25%; AT buff Fat Leon's Phat Loot Lyric +20%
+  via a buffbot) are expensive/third-party. **User was asked Day 72 and chose the Gnomad path — which turned out
+  impossible — so direction is open again; Nemesis is the best remaining real-progress quest.**
+- ⚠️ **Connection flapped HARD** (Day-69-style: repeated logouts, hung fetches, `api.php` returning an ~11KB HTML
+  page instead of JSON). Workarounds: get pwd + state from the **charpane FRAME** (reload `charpane.php`, parse
+  numbers: lvl,mus,mys,mox,[drunk,full,]HPc,HPm,MPc,MPm,meat,adv); do shop/drink in tight sequences right after
+  re-login; the farm engine's **torpedo-finisher** kept it from getting stuck in a Protagonist (no stuck combat
+  this session — a stall late on was just a hung fetch, NOT a stuck fight; verified "Not in a Fight").
+
+## 📅 Day 71 (2026-06-26) — Twin Peak pantry needs +50% item from GEAR+FOOD (familiars excluded); huge farm → ~42k meat.
 - **End state:** Level 16, Mys 248, HP 283/283, **meat ~41,950** (+~13,000 today), drunk 12, full 15, **adv 0** (all spent).
   EAT ✅ (sushi + strawberries 786) · big Airship farm ✅ (~140 fights, meat 28,947 → ~41,950) · DRINK ✅ (2 Fog).
 - **⭐ TWIN PEAK (snarf 297) — the pantry (choice 606 option 2) requires ≥+50% Item Drops, and per the wiki it
