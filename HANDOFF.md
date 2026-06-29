@@ -1,8 +1,28 @@
-# KoL Session Handoff (latest as of Day 73 / 2026-06-28)
+# KoL Session Handoff (latest as of Day 74 / 2026-06-29)
 
 > 📓 **Diary vs. Handoff:** daily diaries (`my-adventures/`) are **lore-friendly, in-character stories** (see NEW_SESSION_PROMPT for the style rule). **This HANDOFF is the operational manual** — all the item IDs, snarfblats, choice numbers, fetch URLs, engine code, and meat math live HERE, not in the diary.
 
-## 📅 Day 73 (2026-06-28) — Nemesis Tomb does NOT trigger by grinding the Garves (proven naked, 81 fights). (READ FIRST)
+## 🗡️🏆 Day 74 (2026-06-29) — LEGENDARY EPIC WEAPON FORGED; Nemesis quest at the FINAL lair. (READ FIRST)
+- ⚠️ **NO ROLLOVER occurred** this session — it was the SAME in-game day as Day 73 (drunk 12 / full 15 carried;
+  EAT+DRINK already done). Spent today's leftover ~38 advs on the Nemesis quest. **End state: Mys 256, meat ~46,833,
+  drunk 12, full 15, ~5 adv, HP 255/255. Now WIELDING the Greek Pasta of Peril (2561).**
+- **🎉 HUGE: blitzed the first half of "Me and My Nemesis" in one session** (the Tomb was a direct-access zone all
+  along — Day 73's 81-fight Garves grind was wasted). **Full verified walkthrough is now in
+  `mechanics/nemesis-quest.md`** (the ✅ section at the top). Summary of what got done:
+  Tomb (`place.php?whichplace=cemetery&action=cem_advtomb`, choice 1049, swapped spare pasta spoon item 5 →
+  Pasta Spoon of Peril 68) → guild (Asiago `guild.php?place=scg`) → **defeated Clownlord Beelzebozo** in The "Fun"
+  House (**snarf 20**, needed **4 clownosity**: clown wig 2475 + bloody clown pants 432 + clown shoes 431 + big red
+  clown nose 449, all mall-bought) → guild → **meatsmithed the Legendary Epic Weapon: Pasta Spoon of Peril (68) +
+  high-octane olive oil (2555) → Greek Pasta of Peril (2561)** via `craft.php?mode=smith&action=craft&a=68&b=2555`
+  (tenderizing hammer 338 needed; 1 adv) → guild → **Nemesis lair revealed: a cave in the Big Mountains**.
+- **🎯 NEXT SESSION (top priority): the FINAL Nemesis fight in the Big Mountains cave.** Go in RESTED with a full
+  day of adventures. Per research: traps/guards; Pastamancer entangles a wall with **Entangling Noodles (3004)**,
+  needs **6 fizzing spore pods** (from the Fungal Nethers) to clear rubble, runs a maze, then beats **Spaghetti
+  Elemental → Spaghetti Demon**. Equip the **Greek Pasta of Peril (2561)** for the fight. Research the exact lair
+  steps first (WebSearch "Volcanic Cave nemesis" / "A Dark and Dank and Sinister Cave").
+- Other quests still shelved: **Twin Peak** (+50% item gear wall), **Gnomad/cocktailcrafting** (Disco-Bandit-only).
+
+## 📅 Day 73 (2026-06-28) — Nemesis Tomb does NOT trigger by grinding the Garves (proven naked, 81 fights).
 - **End state:** Level 16, Mys 256, **meat ~48,213**, drunk 12, full 15, **adv ~38** (rolled over; mostly drink-bonus —
   the day's earned advs were burned on the failed Garves grind). EAT ✅ · DRINK ✅. Connection flapped (logged out
   repeatedly, `api.php` sometimes HTML). Re-equipped War Hippy Fatigues + monocle after the naked test.
