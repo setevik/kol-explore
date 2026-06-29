@@ -1,5 +1,8 @@
 # Nemesis Quest (Class-Specific)
 
+> ⛔ **CORRECTION (Day 73, 2026-06-28): the "adventure the Garves until the Tomb NC fires" claim below is WRONG / insufficient for the current game.** Tested empirically: **81 fights in The Unquiet Garves (snarf 21) produced ZERO noncombats**, including ~10 fights fully naked (all gear off) — so it is NOT +combat-gear suppression. The Tomb of the Unknown {Class} does **not** appear by blind grinding. **Do NOT repeat that grind.** The real 2015+ trigger is still unknown — research it (WebSearch "Tomb of the Unknown Your Class Here" / "Legendary Epic Weapon Quest"; WebFetch 403s on the wiki) BEFORE spending turns. Candidates: a required item/key (grave robbing shovel?), a separate place/door click in the Misspelled Cemetary, re-talking to guildmaster Asiago, or a +noncombat requirement. A spare basic **pasta spoon** (mall, 100 meat, un-equipped) IS still needed for the plinth-swap puzzle — already bought.
+
+
 ## Trigger
 
 Talk to your **class trainer / guildmaster** at the guild. For Pastamancers, that's **Asiago** at `guild.php?place=scg`. The Nemesis quest activates around **Level 7** (or possibly when you reach the right level + complete prereqs).

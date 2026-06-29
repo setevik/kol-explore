@@ -1,8 +1,33 @@
-# KoL Session Handoff (latest as of Day 72 / 2026-06-27)
+# KoL Session Handoff (latest as of Day 73 / 2026-06-28)
 
 > 📓 **Diary vs. Handoff:** daily diaries (`my-adventures/`) are **lore-friendly, in-character stories** (see NEW_SESSION_PROMPT for the style rule). **This HANDOFF is the operational manual** — all the item IDs, snarfblats, choice numbers, fetch URLs, engine code, and meat math live HERE, not in the diary.
 
-## 📅 Day 72 (2026-06-27) — ⛔ Cocktailcrafting is Disco-Bandit-only (dead end); +42k→~47k farm. (READ FIRST)
+## 📅 Day 73 (2026-06-28) — Nemesis Tomb does NOT trigger by grinding the Garves (proven naked, 81 fights). (READ FIRST)
+- **End state:** Level 16, Mys 256, **meat ~48,213**, drunk 12, full 15, **adv ~38** (rolled over; mostly drink-bonus —
+  the day's earned advs were burned on the failed Garves grind). EAT ✅ · DRINK ✅. Connection flapped (logged out
+  repeatedly, `api.php` sometimes HTML). Re-equipped War Hippy Fatigues + monocle after the naked test.
+- **⛔ KEY NEGATIVE RESULT — the "Me and My Nemesis / Retrieve the Epic Weapon" Tomb DOES NOT appear by simply
+  adventuring The Unquiet Garves (snarf 21).** Ground **81 fights, ZERO noncombats of any kind**, including ~10
+  fights **fully naked** (all gear unequipped) — so it is **NOT** a +combat-gear suppression issue, and NOT the
+  War Hippy Fatigues. The old `mechanics/nemesis-quest.md` ("adventure the Garves until the Tomb NC fires") is
+  WRONG/insufficient for the current game. **DO NOT repeat the blind grind — it wasted Day 73.**
+  - ✅ Prereq secured: bought a **spare basic "pasta spoon"** (mall, 100 meat) for the plinth-swap puzzle. It's an
+    un-equipped pasta spoon in the pack (distinct from the chocolate/iron pasta spoons). Keep it; don't equip it.
+  - **NEXT SESSION: research the EXACT current trigger BEFORE grinding.** Candidates to investigate: (a) a required
+    item/key that makes the Tomb NC appear (e.g. the "grave robbing shovel" drop — does it have a [use]?);
+    (b) the Garves NC may be on a counter that needs +noncombat or is suppressed by something non-gear;
+    (c) re-talk to the Pastamancer guildmaster **Asiago** (`guild.php?place=scg`) to (re)activate the Tomb;
+    (d) the Tomb may be a separate place/door click in the Misspelled Cemetary (`place.php?whichplace=plains` →
+    cemetary), NOT a random Garves NC. Use **WebSearch** (WebFetch 403s on the wiki) on "Tomb of the Unknown
+    Your Class Here" / "Legendary Epic Weapon Quest" for the precise 2015+ mechanism.
+- **The Unquiet Garves = snarf 21** (confirmed via "Last Adventure" — zone IS accessible, combats are weak; just
+  no Tomb NC). Combat there is trivial (Cannelloni/Spaghetti + companions, even naked).
+- Other quests still blocked: **Twin Peak** (+50% item gear wall), **Gnomad/cocktailcrafting** (Disco-Bandit-only).
+  ⚠️ Also noticed the questlog STILL lists **"My Other Car Is Made of Meat"** as open ("you need to build a new
+  one") even though the Bitchin' Meatcar (134) IS built/in inventory — may need to USE the car or visit the
+  Untinker/guild to formally close it. Low priority.
+
+## 📅 Day 72 (2026-06-27) — ⛔ Cocktailcrafting is Disco-Bandit-only (dead end); +42k→~47k farm.
 - **End state:** Level 16, Mys **255**, HP 288/288, **meat ~47,026** (+~5,100), drunk 12, full 14, **adv ~43** (rolled over).
   EAT ✅ · Airship farm ~50 fights ✅ · DRINK ✅ (2 Fog). Mandatory meters filled despite bad connection flapping.
 - **⛔⛔ CORRECTION — DROP the "Gnomad Camp → Advanced Cocktailcrafting → better booze" goal entirely.**
