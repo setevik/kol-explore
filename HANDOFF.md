@@ -5,6 +5,11 @@
 ## 🏆 Day 75 (2026-06-30) — NEMESIS BOSS SLAIN (Spaghetti Elemental); quest advanced to the bounty/lair-search phase. (READ FIRST)
 - **Rollover DID happen** (fresh day after Day 74). **End state: Level 16, Mys 268 (257 base), Muscle 187, Moxie 181,
   meat ~38,075, HP 296/297, MP 43/442, full 14/15, drunk 18/14 (over-full), adv 47 banked.** EAT ✅ · ADVENTURE ✅ · DRINK ✅.
+- **🧭 LONG-TERM GOAL (user, Day 75): farm karma via HARDCORE ascensions + Hardcore perms.** Karma BANKS across runs (HC
+  =211 vs Normal 111). BUT this only kicks in *after* we **finish the current run** (Council quests → NS Tower/six keys →
+  free King Ralph → ascend), so **Twin Peak + Nemesis + the tower are the on-ramp, not a detour.** ⚠️ HC bans the mall /
+  buffbots / Hagnk's pulls — brutal for our mall-dependent style, so the plan is **Softcore first** (perm Pastamastery +
+  meat/sauce skills to get self-sufficient), THEN escalate to Hardcore. Full plan + perm-priority list in `mechanics/ascension.md`.
 - **🎯🏔️ NEXT SESSION TOP PRIORITY = TWIN PEAK (per user, Day 75).** It is NOT "gated/impossible" — it's a 4-step zone
   (`adventure.php?snarfblat=297`, "Lost in the Great Overlook Lodge"). Each step is a SEPARATE noncombat checking ONE
   modifier, so **swap gear per step** (never need +item and +stench at once). Steps (first 3 any order):

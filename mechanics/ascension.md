@@ -39,19 +39,23 @@ On ascending, your inventory + closet are dumped into **Hagnk's Ancestral Mini-S
   player gifts/buffs) until you **free King Ralph**. Most restrictive, most karma.
 
 ## Karma (the perm currency)
-**Earning** (spent in Valhalla):
-- **Normal completion: ~111 karma.** **Hardcore completion: ~211 karma.**
-- **Always** get an **Instant Karma** if you beat the final boss **at Level 13** (regardless of type), and an extra Instant
-  Karma if the run is leaderboard-qualifying.
-- **Special challenge path** (if started while that path was "current"): **+50 karma (Normal)** / **+100 (Hardcore)**.
-- Some optional/skippable bosses drop **Instant Karma** items, each **discardable for 11 karma** (~9 instant karmas ≈ one
-  softcore perm, since 9×11≈100).
+**Earning** (spent in Valhalla): base per completion = **11 Casual / 111 Normal / 211 Hardcore.**
+- ⭐ **KARMA BANKS across ascensions** — unspent karma persists and is available at future Valhalla visits. So you can
+  **save up and perm multiple skills at once** (or stockpile for expensive Hardcore perms). This is what makes "farm karma"
+  a real strategy: each finished run adds to a running total.
+- **+11 karma per Instant Karma discarded** at ascension. You **always** get an Instant Karma for beating the final boss
+  **at Level 13** (any difficulty), plus an extra one if the run is leaderboard-qualifying. Some optional/skippable bosses
+  also drop Instant Karma items (~9 instant karmas ≈ one softcore perm, since 9×11≈100).
+- **Special challenge path** (if started while "current"): **+50 (Normal)** / **+100 (Hardcore)**.
 
 **Spending:**
-- **100 karma → mark a skill Permanent** (you keep it in any future Normal-or-easier run).
-- **+100 karma more → upgrade Permanent → Hardcore Permanent** (kept even in Hardcore). So a fresh HC perm = **200 karma**.
-- Astral pet + astral consumables pack cost the small remainder (hence 111 = ~1 softcore perm + pet + pack; 211 = ~1 HC
-  perm + pet + pack). **Practical takeaway: you perm roughly ONE skill per ascension.**
+- **100 karma → make a skill Permanent** for future **Casual/Normal** runs.
+- **200 karma total → make it Hardcore Permanent** (kept even in Hardcore). You can pay **100 now** (softcore perm), then
+  **+100 later** to upgrade. **A Hardcore perm is just a karma cost — you do NOT need to be in a Hardcore run to buy one**;
+  Hardcore runs are simply the most karma-efficient way to *earn* the karma (211 vs 111).
+- Astral pet + astral consumables pack cost a small remainder each. So one Normal run (111) ≈ one softcore perm + pet +
+  pack; one Hardcore run (211) ≈ one HC perm + pet + pack. **Roughly ONE perm's worth of karma per ascension** — but since
+  karma banks, you can also skip perming for a run and save toward a bigger purchase.
 
 ## Perming skills (Jermery's Permery)
 - ~390 skills can be permed total. **Softcore perm** = available in Normal/Casual runs; **Hardcore perm** = also available
@@ -79,11 +83,36 @@ On ascending, your inventory + closet are dumped into **Hagnk's Ancestral Mini-S
 Ranked by **fewest DAYS first**, then **fewest turns (adventures) spent** as the tiebreaker. So speed-ascension is about
 minimizing real days, then turn-efficiency within those days.
 
-## Relevance to ClaudeCode (Pastamancer, ~Day 75, Level 16)
-- **Not ascendable yet:** we've passed Level 13 but **haven't finished the Council questline or the NS Tower.** Remaining
-  known work: light the 3rd Highland signal fire (**Twin Peak** — current top priority), finish the **Nemesis** quest, and
-  whatever Council quests remain, *then* the six-key tower.
-- **When we DO ascend:** go **Normal (Softcore)**, not Casual (Casual gives no perm). First perm candidates for value across
-  any class are general utility/econ skills rather than Pastamancer-only ones — decide at the Permery with the karma in hand.
-- A fresh ascension is also the clean way to **re-roll our Moon Sign** if we ever want Gnomad Camp access (the
-  cocktailcrafting dead-end) — though that's class-locked anyway, so low value. See [[kol-drinks-strategy]] context.
+## 🎯 STRATEGY: Hardcore + Hardcore-perm karma farming (per user directive, Day 75)
+**Goal (user-set):** prioritize **Hardcore ascensions** and **Hardcore perms** to farm karma. Valid — HC = 211 karma/run
+(≈2× Normal's 111) and karma banks, so over several runs you accumulate enough to perm many skills (incl. HC perms at 200).
+
+**Reality / sequencing (important):**
+1. **You can't go Hardcore mid-run.** Difficulty is chosen **at the next ascension, in Valhalla.** This character is already
+   mid-run, so the *only* way to reach that choice is to **FINISH the current run**: remaining Council quests → free King
+   Ralph via the **NS Tower** (six keys). **⇒ Twin Peak, Nemesis, and the tower are the on-ramp — they stay near-term
+   priorities and do NOT conflict with the hardcore goal.**
+2. **Hardcore forbids the mall, Hagnk's pulls (except free pulls), clan stash, and all player buffs/gifts until you free the
+   King.** Our whole playstyle is mall/buffbot-dependent (we BUY jerky, sodas, Fog Murderers, gear; the Twin Peak plan needs
+   a buffbot). A cold jump to HC would be brutal and slow.
+3. **Recommended ramp: do the FIRST ascension Softcore (Normal), not Hardcore.** It still banks 111 karma, is far survivable,
+   and lets us perm the **survival/economy skills** first. Then escalate to Hardcore once self-sufficient. HC perms can still
+   be bought from Softcore runs (it's just karma) — so we lose nothing by ramping.
+   - **Why Pastamancer makes this clean:** **Pastamastery** (summon dry noodles → self-made food) is exactly the kind of
+     self-sufficiency a no-mall Hardcore run needs. Perm it early.
+
+**Perm priority (first → later), general-purpose / Pastamancer-relevant** (verify vs the wiki's *Hardcore Skill Analysis* /
+ASS tier list at perm time — tiers shift):
+1. **Pastamastery** — daily food summon; huge for no-mall HC self-sufficiency and speeds every run.
+2. **Meat/econ skills** — e.g. **Nimble Fingers**, **The Polka of Plenty** (more Meat from monsters).
+3. **Sauce/utility** — **Impetuous Sauciness** / **The Way of Sauce** (more Reagent-potion use), other always-on utility.
+4. **Then** broader combat/quality-of-life perms and class-specific niche skills.
+Perm **general skills that help every future run before class-locked niche ones.** Save karma if nothing high-tier is
+affordable yet rather than wasting it on a low-value perm.
+
+**Other notes for the eventual ascension:**
+- Go **Softcore first, never Casual** (Casual gives only 11 karma — no perm).
+- A fresh ascension also re-rolls the **Moon Sign** (could grant Gnomad Camp access — but cocktailcrafting is class-locked,
+  so low value). See [[kol-drinks-strategy]].
+- Future runs: finishing the final boss **at Level 13** grants a bonus Instant Karma (+11) — a reason to NOT over-level on
+  speed runs. (Our *current* run is already Level 16, so we miss that bonus this time.)
