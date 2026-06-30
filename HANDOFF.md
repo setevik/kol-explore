@@ -5,10 +5,25 @@
 ## 🏆 Day 75 (2026-06-30) — NEMESIS BOSS SLAIN (Spaghetti Elemental); quest advanced to the bounty/lair-search phase. (READ FIRST)
 - **Rollover DID happen** (fresh day after Day 74). **End state: Level 16, Mys 268 (257 base), Muscle 187, Moxie 181,
   meat ~38,075, HP 296/297, MP 43/442, full 14/15, drunk 18/14 (over-full), adv 47 banked.** EAT ✅ · ADVENTURE ✅ · DRINK ✅.
-- **🎯 NEXT SESSION (top priority): check Asiago (`guild.php?place=scg`) for the Nemesis LAIR reveal.** The quest is
-  on a **scout-search delay** — it does NOT open by re-visiting; the guild "will alert you" when found (likely a future
-  rollover / turn counter). Once it opens, the next stage is the actual Nemesis' Lair (per research: collect ~5 cult
-  memos, decode them, defeat a cultist for a **spaghetti cult robe** disguise, equip it to enter the inner lair, final fight).
+- **🎯🏔️ NEXT SESSION TOP PRIORITY = TWIN PEAK (per user, Day 75).** It is NOT "gated/impossible" — it's a 4-step zone
+  (`adventure.php?snarfblat=297`, "Lost in the Great Overlook Lodge"). Each step is a SEPARATE noncombat checking ONE
+  modifier, so **swap gear per step** (never need +item and +stench at once). Steps (first 3 any order):
+  1. **"Dog with no nose" (Room 237) — need +4 stench resistance.** TODO: buy cheap stench-res gear OR get a buffbot
+     elemental-resistance buff (Astral Shell / Elemental Saucesphere). Easy once sourced.
+  2. **"Seeking" (pantry) — need ≥+50% item drop (monsters, EXCLUDING familiars).** ← the only hard step. **Plan:**
+     gear = **monocle (+10%) + 2 lucky rabbit's feet (+~14%) = ~+24% (ALREADY BOUGHT/equipped-ready)**; + **Fat Leon's
+     Phat Loot Lyric (+20%, from a free Accordion Thief CHAT BUFFBOT)** → ~+44%; + **~6% filler** (a +item hat e.g. Tam
+     O'Shanter, or a +item potion) → clears +50%. Verify exact % with the in-game **Maximizer** (`/maximizer`-style) — the
+     charsheet doesn't show item%. Buffbot is the realistic unlock; gear-only +50% is marginal for our budget.
+  3. **"Bring-your-own J" — use 12 bubblin' crude (item 5789) → jar of oil, follow the music. ✅ HAVE 42 crude already.**
+  4. **(last, after the other 3) "Wait — who's that?" — need +40% combat initiative.** ✅ EASY: cast **Springy Fusilli**
+     (have it) + a little init gear. Then pursue your double.
+  - **Prep DONE Day 75 (no turns spent):** bought 2 lucky rabbit's feet (have 2), confirmed 42 bubblin' crude, confirmed
+    Springy Fusilli known. **Remaining to source next session: +4 stench-res gear/buff, Fat Leon's buffbot cast, ~6% item filler.**
+  - Completing Twin Peak lights the **3rd signal fire** → finishes the Highland Lord's "There Can Be Only One Topping."
+- **🎯 ALSO each session: quick-check Asiago (`guild.php?place=scg`) for the Nemesis LAIR reveal** (lower priority — it's a
+  **scout-search delay**, opens on its own/"will alert you", likely a future rollover). When it opens: the actual Nemesis'
+  Lair (per research: collect ~5 cult memos, decode, defeat a cultist for a **spaghetti cult robe** disguise, equip to enter, final fight).
 - **✅ DONE TODAY — beat the cave boss in one go.** Full verified walkthrough now in `mechanics/nemesis-quest.md`. Quick map:
   - Cave is in the **Big Mountains** (`place.php?whichplace=mountains`). Before clearing it's action `mts_caveblocked`;
     after, the zone becomes its own place **`whichplace=nemesiscave`**.
