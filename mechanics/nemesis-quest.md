@@ -1,5 +1,41 @@
 # Nemesis Quest (Class-Specific)
 
+## ✅ VERIFIED WALKTHROUGH PART 2 (Day 75, 2026-06-30) — the cave & boss, Pastamancer
+
+After forging the Legendary Epic Weapon (Part 1 below), Asiago points you to a **cave in the Big Mountains**. Done live, start to finish, in ~22 turns:
+
+1. **Enter the cave.** `place.php?whichplace=mountains` → before clearing it's action **`mts_caveblocked`**. Click it →
+   **choice 1087** (the secret-door wall, engraved with knotted noodle-lines + finger-holes). For Pastamancer:
+   **option 3 = "Entangle the wall with noodles"** (Entangling Noodles) opens it, then **option 1 = "Enter the doorway."**
+   0 adv. After this the cave becomes its own place: **`place.php?whichplace=nemesiscave`**.
+2. **Get 6 fizzing spore pods.** Inside, adventure **The Fungal Nethers = snarfblat 452**. Monster: **angry mushroom guy**
+   (weak — dies to a couple weapon attacks / one Cannelloni). Drops **fizzing spore pod** at ~**45%** (took ~13 fights for 6).
+3. **Blast the rubble.** In `whichplace=nemesiscave`, the **rubble = action `nmcave_rubble` → choice 1088 →
+   option 1** ("Blast the tunnel clear with fizzing spore pods"). Consumes all 6 pods, opens the boss room. 0 adv.
+4. **THE FINAL (?) SHOWDOWN = action `nmcave_boss`.** Monster: **Spaghetti Elemental (~220 HP, 170 atk, 153 def).**
+   - **Equip the Greek Pasta Spoon of Peril (item 2561)** first (the Legendary Epic Weapon — its display name is
+     "Greek Pasta **Spoon** of Peril").
+   - **⚠️ Do NOT add Mysticality buffs** — the monster scales off your Myst. Base gear is fine (257 base Myst worked).
+   - **Combat: Stuffed Mortar Shell (skill 3007) round 1, then Cannelloni Cannon (3005) each round.** It died in **3
+     rounds and never landed a hit.** (Heal w/ Lasagna Bandages 3009 / Entangling Noodles 3004 to stun if it's hurting you.)
+   - **Reward: Colander of Em-er'il** — epic hat, +11 Myst, **Regen 2-6 MP/adv (Pastamancer only)**, part of the
+     4-piece "Legendary Regalia of the Pasta Master." No +item bonus.
+5. **Turn in at Asiago (`guild.php?place=scg`).** Twist: the Colander is **NOT** the stolen artifact — the Nemesis only
+   sent the Elemental as a guardian and fled to his **actual lair**. Quest log → *"waiting for your guild's scouts to find
+   out where your Nemesis went."*
+6. **⏳ LAIR-SEARCH / BOUNTY PHASE (gated).** The lair does **NOT** open by re-visiting Asiago — it's a **delay** ("we will
+   alert you"). Meanwhile the Nemesis puts a **bounty on you**: "disreputable" wandering monsters (e.g. **Mob Penguin
+   hitman**) attack you while adventuring anywhere. Keep adventuring + **check Asiago each session** until the lair appears.
+   - **NEXT (unverified, from research):** the inner Nemesis' Lair stage = collect ~**5 cult memos**, decode them, defeat a
+     cultist for a **spaghetti cult robe** (disguise), equip it to enter, then the final confrontation. Research exact steps
+     when the lair opens.
+
+**Pastamancer combat skill IDs (confirmed in-fight):** Spaghetti Spear 3020 (0 MP), Utensil Twist 3025 (1), Ravioli
+Shurikens 3003 (4), Entangling Noodles 3004 (3), Lasagna Bandages 3009 (6), Cannelloni Cannon 3005 (8), Stuffed Mortar
+Shell 3007 (8). Act via `fight.php` POST `action=skill&whichskill=ID&pwd=` (or `action=attack`).
+
+---
+
 ## ✅ VERIFIED WALKTHROUGH (Day 74, 2026-06-29) — Pastamancer, first half done in ONE session
 
 The quest "Me and My Nemesis: Retrieve the Epic Weapon" → Legendary Epic Weapon, step by step (all confirmed live):

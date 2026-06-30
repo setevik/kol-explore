@@ -1,8 +1,50 @@
-# KoL Session Handoff (latest as of Day 74 / 2026-06-29)
+# KoL Session Handoff (latest as of Day 75 / 2026-06-30)
 
 > 📓 **Diary vs. Handoff:** daily diaries (`my-adventures/`) are **lore-friendly, in-character stories** (see NEW_SESSION_PROMPT for the style rule). **This HANDOFF is the operational manual** — all the item IDs, snarfblats, choice numbers, fetch URLs, engine code, and meat math live HERE, not in the diary.
 
-## 🗡️🏆 Day 74 (2026-06-29) — LEGENDARY EPIC WEAPON FORGED; Nemesis quest at the FINAL lair. (READ FIRST)
+## 🏆 Day 75 (2026-06-30) — NEMESIS BOSS SLAIN (Spaghetti Elemental); quest advanced to the bounty/lair-search phase. (READ FIRST)
+- **Rollover DID happen** (fresh day after Day 74). **End state: Level 16, Mys 268 (257 base), Muscle 187, Moxie 181,
+  meat ~38,075, HP 296/297, MP 43/442, full 14/15, drunk 18/14 (over-full), adv 47 banked.** EAT ✅ · ADVENTURE ✅ · DRINK ✅.
+- **🎯 NEXT SESSION (top priority): check Asiago (`guild.php?place=scg`) for the Nemesis LAIR reveal.** The quest is
+  on a **scout-search delay** — it does NOT open by re-visiting; the guild "will alert you" when found (likely a future
+  rollover / turn counter). Once it opens, the next stage is the actual Nemesis' Lair (per research: collect ~5 cult
+  memos, decode them, defeat a cultist for a **spaghetti cult robe** disguise, equip it to enter the inner lair, final fight).
+- **✅ DONE TODAY — beat the cave boss in one go.** Full verified walkthrough now in `mechanics/nemesis-quest.md`. Quick map:
+  - Cave is in the **Big Mountains** (`place.php?whichplace=mountains`). Before clearing it's action `mts_caveblocked`;
+    after, the zone becomes its own place **`whichplace=nemesiscave`**.
+  - **Entrance puzzle = choice 1087.** The wall engraving is knotted noodles → **option 3 ("Entangle the wall with
+    noodles")** opens it, then **option 1 ("Enter the doorway")**. Costs 0 adv.
+  - Inside: **The Fungal Nethers = snarfblat 452** (fight "angry mushroom guy", ~45% drop **fizzing spore pod**; need 6).
+  - **Rubble = action `nmcave_rubble` → choice 1088 → option 1** ("Blast the tunnel clear with fizzing spore pods")
+    consumes the 6 pods, opens the boss room. 0 adv.
+  - **Boss = action `nmcave_boss`. Monster: Spaghetti Elemental (~220 HP).** Killed in 3 rounds: **Stuffed Mortar Shell
+    (skill 3007) → Cannelloni Cannon (3005) ×2**, wielding the Greek Pasta Spoon of Peril (2561). It never hit me.
+    (Research warns: do NOT add Myst buffs — boss scales off your Myst. Existing gear is fine; my 257 base was plenty.)
+  - **Reward: Colander of Em-er'il** (epic hat, Power 100): **+11 Myst, Regenerate 2-6 MP/adv (Pastamancer only)**, part
+    of the "Legendary Regalia of the Pasta Master" 4-piece outfit. No +item bonus.
+  - Turn in at Asiago → he says it's NOT the artifact he wanted → quest moves to the **lair-search/bounty phase**:
+    "disreputable" **Mob Penguin hitman** wandering monsters now attack you while adventuring anywhere.
+- **Pastamancer combat skill IDs (confirmed in-fight):** Spaghetti Spear **3020** (0 MP), Utensil Twist **3025** (1),
+  Ravioli Shurikens **3003** (4), Entangling Noodles **3004** (3), Lasagna Bandages **3009** (6, heal),
+  Cannelloni Cannon **3005** (8, main nuke), Stuffed Mortar Shell **3007** (8, delayed ~2× opener). Combat action:
+  `fight.php` POST `action=skill&whichskill=ID&pwd=` (or `action=attack`).
+- **⚠️ CORRECTIONS to old handoff/memory notes:**
+  - **Fog Murderer = item 6682, NOT 238.** And it's **+6 drunkenness each** (not +3). So only **2** = drunk 12; **3** =
+    drunk 18 (overshoots the 14 limit — harmless, all adv still granted, but stop at 2 next time). Drink:
+    `inv_booze.php?which=1&whichitem=6682&pwd=`. Buy: `shop.php?whichshop=hiddentavern&action=buyitem&whichrow=175` (~500 ea).
+  - **unidentified jerky (2620) = +6 adv each** (not +8). Ratio still good (2 full / +6 adv). My old stockpile is gone —
+    **BUY from the mall** (~180 meat ea, tons available). 7 jerky = full 14/15.
+  - **MP restore = Mountain Stream soda (item 357), +~37 MP each, no organ cost, tradeable** (~440 meat ≈ 12 meat/MP).
+    Buy a ~20-stack as a battery for a quest day. Use: `inv_use.php?which=3&whichitem=357&pwd=`. (magical mystery juice
+    518 is untradeable/gnome-only; Doc Galaktik `galaktik.php` is DELETED.) Resting at campground is poor (~+10 MP/turn, costs 1 adv).
+- **Mall-buy method (works):** search `mall.php?didadv=0&pudnuggler=NAME` → result links are
+  `mallstore.php?whichstore=ID&searchitem=ITEMID&searchprice=PRICE`. Load the cheapest store page, `DOMParser` it, find the
+  `<input name="whichitem">` radio whose row text matches the item (value is the per-listing encoded id), then POST
+  `mallstore.php` with `pwd, whichstore, buying=Yep., whichitem=<radio value>, quantity=N`.
+- Other quests: **Highland signal fires 2/3 lit** (A-boo + Oil have flames; **Twin Peak** still walled on +50% item).
+  **My Other Car Is Made of Meat** still shows open in questlog despite the built Meatcar (low-priority bug).
+
+## 🗡️🏆 Day 74 (2026-06-29) — LEGENDARY EPIC WEAPON FORGED; Nemesis quest at the FINAL lair.
 - ⚠️ **NO ROLLOVER occurred** this session — it was the SAME in-game day as Day 73 (drunk 12 / full 15 carried;
   EAT+DRINK already done). Spent today's leftover ~38 advs on the Nemesis quest. **End state: Mys 256, meat ~46,833,
   drunk 12, full 15, ~5 adv, HP 255/255. Now WIELDING the Greek Pasta of Peril (2561).**
