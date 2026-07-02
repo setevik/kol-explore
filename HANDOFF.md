@@ -1,8 +1,36 @@
-# KoL Session Handoff (latest as of Day 75 / 2026-06-30)
+# KoL Session Handoff (latest as of Day 77 / 2026-07-02)
 
 > 📓 **Diary vs. Handoff:** daily diaries (`my-adventures/`) are **lore-friendly, in-character stories** (see NEW_SESSION_PROMPT for the style rule). **This HANDOFF is the operational manual** — all the item IDs, snarfblats, choice numbers, fetch URLs, engine code, and meat math live HERE, not in the diary.
 
-## 🏆 Day 75 (2026-06-30) — NEMESIS BOSS SLAIN (Spaghetti Elemental); quest advanced to the bounty/lair-search phase. (READ FIRST)
+## 🌋 Day 77 (2026-07-02) — NEMESIS LAIR FOUND & OPEN; Level 17; ~210-turn backlog cleared. (READ FIRST)
+- **End state: Level 17, Mys 273 (262 base), Musc 191, Mox 184, meat ~39,600, HP 294/294, MP low, full ~14, drunk 12/14
+  (clean — drank exactly 2 Fog), adv 32 banked.** EAT ✅ (7 jerky) · ADVENTURE ✅ (burned the whole ~210 backlog) · DRINK ✅.
+  (Big adv pile because the interrupted Day 76 banked all its turns.)
+- **🎯🌋 NEXT SESSION TOP PRIORITY = the NEMESIS FINALE (lair is now OPEN).** Farming the Airship through the bounty-hunter
+  waves (mob penguins → tougher assassins) auto-completed the "price on your head" phase and dropped a **map to the secret
+  tropical island volcano lair.** Quest log: *"...found a map to the secret tropical island volcano lair, it's time to take
+  the fight to your foe."*
+  - **⚠️ ACCESS UNRESOLVED — research first.** Per wiki, you take the map to a **navigator on the Poop Deck** (pirate ship).
+    `place.php?whichplace=poopdeck` = "Invalid place" for us, and we did the **Island War** (not the pirate quest), so the
+    Poop Deck may be locked/renamed. Next session: figure out the real access (WebSearch "Secret Tropical Island Volcano
+    Lair" access; check the map item's [use]; check the pirate cove / airport / a new island place). Wiki page:
+    "Secret Tropical Island Volcano Lair (Pastamancer)".
+  - **Pastamancer finale steps (from research, verify live):** in the lair you fight **cult "middle-managers"** → collect
+    **5 encoded cult documents**; use them to summon/link a new **pasta thrall**; **level that thrall to 3 (use it in ~9
+    combats)** so it **steals a spaghetti cult robe**; **equip the robe** to pass as a cultist and enter the inner lair →
+    final confrontation. **This needs a full fresh day of turns.**
+- **🏔️ Twin Peak pantry step = CONFIRMED WALLED today.** The lodge NC is **choice 606**; "Search the pantry" = option 2,
+  "Leave" = option 6. It checks **≥+50% item drop (non-familiar).** Our max cheap gear = **+24%** (monocle 1312 +10 + 2
+  lucky rabbit's feet 1485 +7 ea; only 3 accessory slots). **Radio KoL Maracas (+15%, item 1664) costs 500,000,000 meat** —
+  not an option. Realistic unlock still = a **Fat Leon's Phat Loot Lyric (+20%) buffbot cast** + ~6% filler. Twin Peak's
+  lodge shares snarf **297** with combats (Troll Twins etc.) — the room NCs fire among fights.
+- **Farming note:** with MP dead and no soda budget for a 200-turn grind, **pure weapon attacks with the Greek Pasta Spoon
+  of Peril one-shot/at-worst-few-shot Airship (snarf 81) monsters** — leanest combat (`fight.php` action=attack). Big batches
+  time out the CDP call at 45s but **the turns still execute**; just re-read charpane after and fire again (~30-50 turns/cycle).
+- Highland fires still 2/3 (Twin Peak = the holdout). Ascension/hardcore plan unchanged (see `mechanics/ascension.md`; not
+  ascendable until the questline + NS Tower are done).
+
+## 🏆 Day 75 (2026-06-30) — NEMESIS BOSS SLAIN (Spaghetti Elemental); quest advanced to the bounty/lair-search phase.
 - **Rollover DID happen** (fresh day after Day 74). **End state: Level 16, Mys 268 (257 base), Muscle 187, Moxie 181,
   meat ~38,075, HP 296/297, MP 43/442, full 14/15, drunk 18/14 (over-full), adv 47 banked.** EAT ✅ · ADVENTURE ✅ · DRINK ✅.
 - **🧭 LONG-TERM GOAL (user, Day 75): farm karma via HARDCORE ascensions + Hardcore perms.** Karma BANKS across runs (HC
