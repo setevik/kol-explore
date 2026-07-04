@@ -1,8 +1,47 @@
-# KoL Session Handoff (latest as of Day 77 / 2026-07-02)
+# KoL Session Handoff (latest as of Day 78 / 2026-07-03)
+
+## 🌋🧩 Day 78 (2026-07-03) — NEMESIS FINALE ~90% DONE; stuck at the final LAVA MAZE. (READ FIRST)
+- **End state: Level 17, Mys 276 (265 base), meat ~17,500, HP full, drunk 12/14 (clean, 2 Fog), ~32 adv banked.**
+  EAT ✅ (7 jerky) · ADVENTURE ✅ · DRINK ✅. Leveled twice from cult fights.
+- **🎯 NEXT SESSION TOP PRIORITY = finish the Nemesis: solve the LAVA MAZE → final boss.** I'm parked at the maze
+  (`volcanomaze.php`) in the volcano's heart. **The maze is a JS/AJAX click-grid that only renders inside the game
+  frameset (mainpane)** — `fetch()` returns just "A Volcanic Cave YOU (Instructions: Click adjacent rocks...)" with no
+  readable grid, and navigating the tab straight to `volcanomaze.php` redirects to game.php. **Research the maze solver
+  first** (WebSearch "KoL volcanic cave maze solver / volcanomaze"; it's a shared grid that shifts periodically; moves are
+  AJAX `volcanomaze.php?move=`). May need to drive the mainpane frame's DOM (read cell classes, click the path cells).
+  After the maze = the final **Nemesis boss fight** → quest complete.
+- **✅ VERIFIED FULL WALKTHROUGH of the lair up to the maze (Pastamancer) — do this exact sequence next time:**
+  1. **Access:** `use` the **secret tropical island volcano lair map (item 3291)** → you "arrive" at the island. The lair
+     is a dedicated page **`volcanoisland.php`** (NOT place.php/adventure.php). Since 2015 the map = direct access; no
+     Poop Deck / pirate quest needed. All `volcanoisland.php?action=...` links **require `&pwd=`** or you get "Something is
+     just not right."
+  2. **Island areas:** **Protestor** = `action=npc` (free intro/flavor). **Temple Portico** = `action=tuba` (outer
+     cultist combats). **Temple** = `action=tniat` (inner temple, needs the robe).
+  3. **Get 5 cult memos:** adventure the **Portico (`action=tuba`)** — "evil spaghetti cult neophyte" fights drop **cult
+     memos** (~1 each, plus "half of a memo" halves). Weak monsters.
+  4. **Decode:** `use` a **cult memo** (item 3883) once → consumes memos, produces **decoded cult documents (item 3884)**.
+  5. **Learn the summon:** `use` **decoded cult documents (3884)** → **learn skill Bind Spaghetti Elemental (skill 3041).**
+  6. **Bind the thrall:** cast 3041 (`runskillz.php?action=Skillz&whichskill=3041&ajax=0&quantity=1&pwd=`). **Costs ~229
+     MP** — top MP with sodas first. Charpane then shows "... the Lvl. 1 Spaghetti Elemental".
+  7. **Level the thrall to 3 (⚠️ KEY GOTCHA):** fight Portico cultists **using WEAPON ATTACKS (action=attack), NOT
+     Cannelloni** — the thrall only gains XP if it **acts** in combat, and Cannelloni one-shots the monster before it can.
+     Took ~4 acting-fights to hit Lvl 2, ~16 total acting-fights to hit Lvl 3. (Shortcut item exists: "experimental carbon
+     fiber pasta additive".) Rest at campground when HP<120 (weapon combat takes hits).
+  8. **Get the robe:** at thrall Lvl 3, keep fighting Portico cultists — the thrall **steals a spaghetti cult robe (item
+     4175)** within a few fights.
+  9. **Equip robe + enter temple:** the robe is an **ACCESSORY** (unequip a rabbit's foot first — 3-slot cap). Then
+     `action=tniat` → "you pull up the hood" → you're inside.
+  10. **Clear the inner temple:** adventure **`action=tniat`** — "evil spaghetti cult zealot" fights (**TANKY, mana-hungry**
+      — keep MP topped; ~full-MP Cannelloni or they drag 14 rounds). After clearing, a noncombat fires: you find the altar,
+      descend a ladder, chase the Elemental into the volcano → the **lava maze**.
+- **Combat/econ notes:** bought MP sodas twice (temple zealots burn ~100+ MP/fight); Fog Murderer DRINK worked clean (2 =
+  drunk 12). Weapon-attack farming at Airship (snarf 81) to spend down leftover turns worked without timeouts at ~20/batch.
+
+
 
 > 📓 **Diary vs. Handoff:** daily diaries (`my-adventures/`) are **lore-friendly, in-character stories** (see NEW_SESSION_PROMPT for the style rule). **This HANDOFF is the operational manual** — all the item IDs, snarfblats, choice numbers, fetch URLs, engine code, and meat math live HERE, not in the diary.
 
-## 🌋 Day 77 (2026-07-02) — NEMESIS LAIR FOUND & OPEN; Level 17; ~210-turn backlog cleared. (READ FIRST)
+## 🌋 Day 77 (2026-07-02) — NEMESIS LAIR FOUND & OPEN; Level 17; ~210-turn backlog cleared.
 - **End state: Level 17, Mys 273 (262 base), Musc 191, Mox 184, meat ~39,600, HP 294/294, MP low, full ~14, drunk 12/14
   (clean — drank exactly 2 Fog), adv 32 banked.** EAT ✅ (7 jerky) · ADVENTURE ✅ (burned the whole ~210 backlog) · DRINK ✅.
   (Big adv pile because the interrupted Day 76 banked all its turns.)
