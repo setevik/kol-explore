@@ -1,6 +1,32 @@
-# KoL Session Handoff (latest as of Day 78 / 2026-07-03)
+# KoL Session Handoff (latest as of Day 79 / 2026-07-04)
 
-## 🌋🧩 Day 78 (2026-07-03) — NEMESIS FINALE ~90% DONE; stuck at the final LAVA MAZE. (READ FIRST)
+## 🏆🔓 Day 79 (2026-07-04) — NEMESIS QUEST COMPLETE + Twin Peak +item WALL CRACKED. (READ FIRST)
+- **End state: Level 17, ~344 meat (spent big on gear), full 14, drunk 12/14 (clean, 2 Fog), adv 0.** EAT ✅ · ADVENTURE ✅ · DRINK ✅.
+- **🏆 "Me and My Nemesis" is DONE** (now in completed quests). Solved the volcano lava maze + beat the Spaghetti Elemental.
+  - **LAVA MAZE solver (`volcanomaze.php`), fully cracked — reusable method:** cells carry alt-text `(X,Y - Platform/Lava/Goal/You)`;
+    moves are AJAX `volcanomaze.php?move=X,Y&ajax=1` returning JSON `{won, pos:"x,y", show:[platform indices]}` where index = **y*13+x**.
+    ⚠️ **Movement is 8-DIRECTIONAL (diagonals allowed!)** — this was the key; 4-dir BFS finds no path. The maze is **deterministic**
+    (reset via `?jump=1` = "Swim to Shore" gives the SAME 5 configs + start (6,12)); configs cycle by move-count mod 5. Method:
+    learn all 5 configs (reset → navigate frontier w/ known configs → 1 exploratory move to reveal next), then **space-time BFS**
+    over (x,y,t): move (P,t)→(Q,(t+1)%5) valid iff Q is 8-adjacent to P and Q∈C_t. Goal (6,6). My solution was 64 moves. Moves cost
+    0 HP (earlier "0 HP" was lava-falls from bad greedy moves). Boss after maze via `volcanoisland.php?action=tniat`.
+- **🔓 TWIN PEAK "Seeking" (+50% item) step = DONE.** How I cleared the wall (repeatable):
+  - **Gear (+34%):** monocle 1312 (+10, acc) + **2 lucky rabbit's feet 1485 (+7 ea)** + **spiky turtle shield 3926 (+10, OFFHAND** —
+    epic spoon is 1-h so offhand is free; needs 50 Musc). ⚠️ shield cost me 6,446 meat (pricey — drained my meat).
+  - **+ Fat Leon's Phat Loot Lyric (+20%) from a FREE buffbot: "Buffy" (#1889009)**, Clan of Meat and Loathing. **Just kmail Buffy
+    the buff name** (`sendmessage.php` POST: towho=1889009, message="Fat Leon's Phat Loot Lyric", sendmeat=1) — it auto-casts within
+    seconds. Gave **450 turns**. ⇒ total **~+54% item**, clears the +50% pantry. (Do NOT use obeliks buffbot — it wants a password login.)
+  - **Lodge = choice 606** at snarf **297** (fires among combats; combats are TOUGH — beat me up once at low HP; heal first, open with
+    Stuffed Mortar Shell 3007). Each visit shows **ONE room** (option N) + Leave (option 6). **Pantry = option 2**; success text =
+    "unable to process what you've just heard." **"Wait -- who's that?" (4th/init step) = option 4** (needs the other 3 done first).
+- **⏳ TWIN PEAK REMAINING (3 lodge steps) for next session:** ① **bubblin' crude** step (have 42 crude — free, just need its room);
+  ② **stench** step "Dog with no nose" (need **+4 stench resist** gear — cheap, but I was broke; buy some); ③ **initiative** step
+  "Wait -- who's that?" option 4 (cast **Springy Fusilli** skill 3015 for +init; needs first 3 done). Lodge gives 1 random room/visit
+  → turn-hungry; go in with meat (for stench gear + Fog Murderers), full HP, and Fat Leon's still up (~440 turns left). Then the 3rd
+  signal fire lights → finishes the Highland "There Can Be Only One Topping" council quest.
+- Other: **"My Other Car Is Made of Meat"** guild quest still shows open despite the built Meatcar (likely vestigial/closeable — low pri).
+
+## 🌋🧩 Day 78 (2026-07-03) — NEMESIS FINALE ~90% DONE; stuck at the final LAVA MAZE.
 - **End state: Level 17, Mys 276 (265 base), meat ~17,500, HP full, drunk 12/14 (clean, 2 Fog), ~32 adv banked.**
   EAT ✅ (7 jerky) · ADVENTURE ✅ · DRINK ✅. Leveled twice from cult fights.
 - **🎯 NEXT SESSION TOP PRIORITY = finish the Nemesis: solve the LAVA MAZE → final boss.** I'm parked at the maze
