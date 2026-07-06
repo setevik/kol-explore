@@ -1,6 +1,28 @@
 # KoL Session Handoff (latest as of Day 80 / 2026-07-05)
 
-## 🔥🏆 Day 80 (2026-07-05) — TWIN PEAK COMPLETE → Highland signal-fire quest DONE. (READ FIRST)
+## 🏰 ENDGAME UNLOCKED — Naughty Sorceress (final quest) is available; here's the gap to ascension. (READ FIRST)
+- **✅ ALL Council quests are DONE** (verified: larva/tavern/Bat/Knob/Friars/Cyrpt/Bonerdagon/Trapper/Highlands/Giant/Manor/
+  MacGuffin/War). The **Council has given the FINAL quest**: defeat the **Naughty Sorceress** + free **King Ralph XI**. Her
+  **Tower is OPEN** (`place.php?whichplace=nstower`) — currently at step 1, the **Contest Registration Desk**.
+- **What's missing to COMPLETE the final quest (= the ascension gate):**
+  1. **3 Contests** (Contest Desk = choice **1003**, action `ns_01_contestbooth`): everyone does **Fastest Adventurer** (needs
+     +init) + one random **stat** test + one random **elemental-damage** test. **One-shot evaluation** — prep modifiers FIRST.
+  2. **The SIX tower-door keys — I have ZERO assembled** (but some parts):
+     - **Boris's / Jarlsberg's / Sneaky Pete's keys** — from the **Daily Dungeon** (`da.php`, 1 run/day → fat loot tokens →
+       trade for hero keys). Biggest time sink (~1-2 days). Have none.
+     - **Richard's star key** — **Hole in the Sky**; recipe = star chart + 8 stars + 7 lines. **Have: star chart ✓, 1 star, a line** — need more.
+     - **skeleton key** — = skeleton bone + loose teeth (or Daily Dungeon room 3). **Have loose teeth ✓; need a skeleton bone.**
+     - **digital key** — **8-Bit Realm** (need ~30 white pixels). **Have 0.**
+  3. **Hedge Maze** (topiary golems), then the **5 tower levels** — combat gimmicks. Wall of Skin = 50 HP, 100% dmg-resist
+     (all hits → 1 dmg), must kill in <5 turns → needs the **Wand of Nagamar** (parts owned: **ruby W ✓, metallic A ✓, heavy D ✓** —
+     probably just need to assemble it / a 4th piece). Then the shadow + walls of Meat/Bones.
+  4. **The Naughty Sorceress (3 forms)** + **break King Ralph's prism** → quest done → astral gash → **can ascend**.
+- **Readiness concern:** Level 17 / Mys 282 Pastamancer — the tower walls + NS forms are tough; may need better burst damage/gear.
+- **Recommended next sessions:** (a) gather the keys (start Daily Dungeon daily for hero keys; quick trips to Hole in the Sky +
+  8-Bit Realm; buy a skeleton bone), (b) assemble the Wand of Nagamar, (c) then run the tower. Ascension plan itself = go
+  **Softcore first** (see `mechanics/ascension.md`), NOT Casual. The vestigial "My Other Car Is Made of Meat" is irrelevant to this.
+
+## 🔥🏆 Day 80 (2026-07-05) — TWIN PEAK COMPLETE → Highland signal-fire quest DONE.
 - **End state: Level 17, Mys 282, meat ~11,600, full 14, drunk 12/14 (clean, 2 Fog), adv 32 banked.** EAT ✅ · ADVENTURE ✅ · DRINK ✅.
   Woke broke (~344 meat) → farmed the Airship (with +item gear + Fat Leon's still up, ~+54% item) back to ~12k; lucrative.
 - **🏆 "There Can Be Only One Topping" (Highland 3 signal fires) is COMPLETE** (all lit; now in completed quests). Reward from the
