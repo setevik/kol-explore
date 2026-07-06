@@ -7,12 +7,18 @@
 - **What's missing to COMPLETE the final quest (= the ascension gate):**
   1. **3 Contests** (Contest Desk = choice **1003**, action `ns_01_contestbooth`): everyone does **Fastest Adventurer** (needs
      +init) + one random **stat** test + one random **elemental-damage** test. **One-shot evaluation** — prep modifiers FIRST.
-  2. **The SIX tower-door keys — I have ZERO assembled** (but some parts):
-     - **Boris's / Jarlsberg's / Sneaky Pete's keys** — from the **Daily Dungeon** (`da.php`, 1 run/day → fat loot tokens →
-       trade for hero keys). Biggest time sink (~1-2 days). Have none.
-     - **Richard's star key** — **Hole in the Sky**; recipe = star chart + 8 stars + 7 lines. **Have: star chart ✓, 1 star, a line** — need more.
-     - **skeleton key** — = skeleton bone + loose teeth (or Daily Dungeon room 3). **Have loose teeth ✓; need a skeleton bone.**
-     - **digital key** — **8-Bit Realm** (need ~30 white pixels). **Have 0.**
+  2. **The SIX tower-door keys — 2 of 6 DONE (Day 80):**
+     - ✅ **Boris's key** (got it) / ❌ **Jarlsberg's** / ❌ **Sneaky Pete's** — from the **Daily Dungeon = adventure.php?snarfblat=325**
+       (inside the Dungeoneers' Assoc. in the Big Mountains; **1 full run/day** = 15 rooms → **1 fat loot token**). Trade tokens at
+       the **DA Vending Machine** (`shop.php?whichshop=damachine`): **Boris's key = row 93, Jarlsberg's = row 94, Sneaky Pete's =
+       row 95, each 1 token.** So the other 2 hero keys = **2 more daily DD runs.** ⚙️ **DD tools (bought, keep them): eleven-foot
+       pole (6302) skips traps [choice 693 → option 2], ring of Detect Boring Doors (6303, equipped) + pick-o-matic lockpicks (280)
+       for doors [choice 692 → option 3]; chests = choices 690/691 → open (opt 1); final room 15 chest = choice 689 → "Open it!".**
+       Traps/doors are FREE (no adv) with tools; only monster/chest rooms cost a turn (~full run ≈ 6-8 adv).
+     - ✅ **skeleton key** (assembled) — recipe = **skeleton bone (163) + loose teeth (187)** via meat pasting
+       (`craft.php?mode=combine&action=craft&a=163&b=187`). Bones are 100 meat in the mall.
+     - ❌ **Richard's star key** — **Hole in the Sky**; recipe = star chart + 8 stars + 7 lines. **Have: star chart ✓, 1 star, 1 line** — farm more.
+     - ❌ **digital key** — **8-Bit Realm** (need ~30 white pixels). **Have 0.**
   3. **Hedge Maze** (topiary golems), then the **5 tower levels** — combat gimmicks. Wall of Skin = 50 HP, 100% dmg-resist
      (all hits → 1 dmg), must kill in <5 turns → needs the **Wand of Nagamar** (parts owned: **ruby W ✓, metallic A ✓, heavy D ✓** —
      probably just need to assemble it / a 4th piece). Then the shadow + walls of Meat/Bones.
