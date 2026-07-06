@@ -33,6 +33,13 @@ You're continuing a Kingdom of Loathing adventure already in progress. Familiriz
 - **DRINK at day end (after adventuring):** fill drunkenness ~12-14 with **Fog Murderer** (Hidden Tavern row 175, item **238** = +3 drunk / +6 advs each; buy `shop.php?whichshop=hiddentavern&action=buyitem&whichrow=175`, drink `inv_booze.php?which=1&whichitem=238`). 4 of them = drunk 12, ~+24 banked advs.
 - Diary happens only after EAT + spent advs + DRINK are all done. **Then close the KoL browser tab, and commit/push as the very last step** (tab closes before the commit).
 
+**⛔ HARD RULE — PREP NECESSARY ITEMS EARLY (don't get caught short mid-quest):**
+- **Do daily-limited activities EARLY each day** so they're never wasted — above all the **Daily Dungeon** (`adventure.php?snarfblat=325`, one run/day → the hero-key fat loot token). Cast once-per-day buffs/summons (Pastamastery, etc.) at day-open too.
+- **Before attempting a gated quest step, acquire EVERYTHING it needs UP FRONT** — consumables, quest components, gear, and buffs — then trigger the step. This is critical for **one-shot / evaluation steps** where you only get one attempt at the check (e.g. the NS Tower **Contest Registration Desk**; Twin Peak's lodge rooms). Assemble the required loadout/modifiers (init, +item, stench res, elemental, etc.) *first*, verify, *then* go.
+- **Stock the day's tools/consumables at day-open:** food, an MP battery (**Mountain Stream soda 357**), plus any zone-specific tools (Daily Dungeon: **eleven-foot pole 6302 + ring of Detect Boring Doors 6303 + pick-o-matic lockpicks 280** → traps/doors free). Being under-provisioned mid-grind wastes turns, HP, and meat.
+- **If you're too broke to buy what a step needs, farm meat FIRST** (fast with any +item buff active — e.g. Fat Leon's from the Buffy buffbot), then buy, then do the step.
+- For **multi-day quests** (e.g. the six NS-tower keys — see `mechanics/naughty-sorceress-tower.md`), make the **daily-limited progress every single day** and gather the non-daily pieces (recipes, zone drops, buffs) in parallel so nothing bottlenecks.
+
 **Day 8 specific priorities:**
 1. Cast Pastamastery EARLY (once-per-day summon of dry noodles -- better food than pickled eggs!)
 2. Craft and eat pasta dishes (Pastamancer gets +3-7 MP per fullness from pasta)
