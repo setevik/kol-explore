@@ -1,6 +1,29 @@
-# KoL Session Handoff (latest as of Day 79 / 2026-07-04)
+# KoL Session Handoff (latest as of Day 80 / 2026-07-05)
 
-## 🏆🔓 Day 79 (2026-07-04) — NEMESIS QUEST COMPLETE + Twin Peak +item WALL CRACKED. (READ FIRST)
+## 🔥🏆 Day 80 (2026-07-05) — TWIN PEAK COMPLETE → Highland signal-fire quest DONE. (READ FIRST)
+- **End state: Level 17, Mys 282, meat ~11,600, full 14, drunk 12/14 (clean, 2 Fog), adv 32 banked.** EAT ✅ · ADVENTURE ✅ · DRINK ✅.
+  Woke broke (~344 meat) → farmed the Airship (with +item gear + Fat Leon's still up, ~+54% item) back to ~12k; lucrative.
+- **🏆 "There Can Be Only One Topping" (Highland 3 signal fires) is COMPLETE** (all lit; now in completed quests). Reward from the
+  Highland Lord (`place.php?whichplace=highlands&action=highlands_dude`): a **Misty Robe**.
+- **How Twin Peak finished (the last 3 lodge steps):** The pantry (+item) was done Day 79. This session the lodge (choice 606 @
+  snarf 297) kept offering **only "Wait -- who's that?" (option 4)** — which means **the crude + stench steps were ALREADY done**
+  (they only unlock the 4th when all 3 firsts are complete; must've been handled in earlier sessions). So I never needed the
+  stench gear/crude after all. Option 4 → **choice 610 "Catch a Killer" → "Pursue your double" (option 1)** needs **+40% combat
+  initiative** to catch your double (reward: gold wedding ring). I lacked the init (Springy Fusilli skill 3015 gives some but
+  ⚠️ can't be cast mid-choice; the chase failed) → dumped me to **choice 618** with two options: opt 1 "lay one stone at a time"
+  (keep trying) vs **opt 2 "Burn this hotel to the ground" = valid alternate completion** (per official wiki — lights the fire,
+  forfeits the gold ring). **Chose opt 2 → Twin Peak signal fire LIT.** (If you ever want the gold-ring version: get +40% init
+  BEFORE triggering the lodge, cast Springy Fusilli out of any choice, then option 4 → 610 → pursue.)
+- **🧾 ONLY remaining active quest: "My Other Car Is Made of Meat"** (guild) — still shows open despite the Bitchin' Meatcar (134)
+  being built long ago. Almost certainly vestigial/closeable: next session try visiting the guild car-guy / Untinker or USE the
+  car to formally close it. Low priority — essentially the last loose end. War, Nemesis, and the Highlands are all DONE.
+- **📌 Research rule (user, Day 80): use the OFFICIAL wiki only** (`wiki.kingdomofloathing.com`) — not third-party fan sites.
+  WebFetch 403s on it; use `WebSearch` with `allowed_domains:["wiki.kingdomofloathing.com"]`, or verify facts in-game (item/effect
+  descriptions, char sheet) which is authoritative.
+- Gear note: still wearing the +item loadout (monocle 1312 + 2 lucky rabbit's feet 1485 + spiky turtle shield 3926 offhand +
+  Greek Pasta Spoon 2561). Fat Leon's (+20% item) from Buffy still had ~300 turns — great for meat farming until it lapses.
+
+## 🏆🔓 Day 79 (2026-07-04) — NEMESIS QUEST COMPLETE + Twin Peak +item WALL CRACKED.
 - **End state: Level 17, ~344 meat (spent big on gear), full 14, drunk 12/14 (clean, 2 Fog), adv 0.** EAT ✅ · ADVENTURE ✅ · DRINK ✅.
 - **🏆 "Me and My Nemesis" is DONE** (now in completed quests). Solved the volcano lava maze + beat the Spaghetti Elemental.
   - **LAVA MAZE solver (`volcanomaze.php`), fully cracked — reusable method:** cells carry alt-text `(X,Y - Platform/Lava/Goal/You)`;
