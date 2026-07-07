@@ -1,4 +1,30 @@
-# KoL Session Handoff (latest as of Day 80 / 2026-07-05)
+# KoL Session Handoff (latest as of Day 81 / 2026-07-07)
+
+## 🔑🔑 Day 81 (2026-07-07) — KEYS 2/6 → 4/6. Jarlsberg + Richard's star key bagged; 8-Bit digital-key grind started. (READ FIRST)
+- **End state: Level 17, Mys 286 (buffed), meat ~11,750, full 14/15, drunk 12/14 (clean, 2 Fog), adv 0 spent (31 rolled over from drink).**
+  EAT ✅ (2 sushi + 1 jerky → full 14) · ADVENTURE ✅ (spent ALL ~95 turns to 0) · DRINK ✅ (2 Fog Murderers).
+- **🔑 TOWER KEYS: now 4 of 6.** ✅ Boris's · ✅ **Jarlsberg's (NEW)** · ✅ skeleton key · ✅ **Richard's star key (NEW)**.
+  Remaining: **Sneaky Pete's** (1 more Daily Dungeon token → DA machine row 95, item 284) + **digital key** (8-Bit grind, see below).
+- **✅ Daily Dungeon run worked great** — full 15-room clear (`adventure.php?snarfblat=325`), only ~4 monster fights; pole/lockpicks/
+  Boring-Doors-ring made traps+doors free. Final chest → 1 fat loot token → **DA Vending Machine row 94 = Jarlsberg's key (item 283).**
+  (Boris's=282/row93, Jarlsberg's=283/row94, Sneaky Pete's=284/row95. 1 token/day so Sneaky Pete's = tomorrow's DD run.)
+- **✅ Richard's star key (non-daily, done today):** farmed **Hole in the Sky = `adventure.php?snarfblat=83`** (atop beanstalk;
+  ⚠️ 81=Airship, 83=Hole; snarf **15 is the SPOOKY FOREST — wasted ~20 turns there before I caught the mistake**). Monsters drop
+  **star (654) + line (655)**; got 13 stars + 7 lines in ~15 fights. **Craft the key at `shop.php?whichshop=starchart` row 141**
+  (consumes 8 stars + 7 lines; ⚠️ `inv_use` the star chart says "not implemented" — MUST use the shop URL).
+- **✅ 8-Bit Realm OPENED + digital-key grind STARTED (⚠️ handoff/memory were WRONG — NOT 30 white pixels anymore):**
+  Post-2023 revamp the digital key = **earn 10,000 "Score" points in the 8-Bit Realm → claim from the Treasure House.**
+  - Got the **continuum transfunctioner (item 458)** free from the **Crackpot Mystic** (`place.php?whichplace=forestvillage&action=fv_mystic`
+    → choice 664 opt 1). **Equipped it** (acc2, bumped a rabbit's foot) → **Inexplicable Door** → `place.php?whichplace=8bit`.
+  - Ground **Vanya's Castle (snarf 565)** ~50 fights: **Score 200 → 3,350** (~63 pts/fight). ⇒ 10,000 ≈ **~155 fights = multi-day.**
+    **Points PERSIST.** Score shows in the **charpane** ("Score: N"), NOT on the map/treasure pages. Treasure House
+    (`...&action=8treasure`) = chests [10k][20k][30k]; the **10k chest = digital key.** Grind it down on future days.
+- **⚙️ Engine notes (this session):** rebuilt a fetch-driven combat/farm engine each launch. **Add a `window._abort` flag** —
+  I had to kill a mis-targeted loop by nuking `window.fetch` (crude). MP topping via **tiny houses (592, free, had 58)** worked well;
+  8-bit monsters die in 2 rounds (~16 MP) WITH MP topped — a no-MP loop makes them look invincible (they're not; finish w/ torpedoes 630).
+- **Still to do for the tower:** Sneaky Pete's key, finish digital key (6,650 more pts), **Wand of Nagamar's 4th letter "N"** (have W/A/D),
+  the **3 Contests** (Registration Desk — prep init+stat+element FIRST; quest is now LIVE per charpane), hedge maze, 5 walls, NS (3 forms).
+- Consumables spent: ~2 Fog bought+drunk, some MP sodas, a stack of tiny houses; still flush (58→~40 tiny houses, ~20 sodas, 46 torpedoes, 65 heal scrolls, ~131 sushi).
 
 ## 🏰 ENDGAME UNLOCKED — Naughty Sorceress (final quest) is available; here's the gap to ascension. (READ FIRST)
 - **✅ ALL Council quests are DONE** (verified: larva/tavern/Bat/Knob/Friars/Cyrpt/Bonerdagon/Trapper/Highlands/Giant/Manor/

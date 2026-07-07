@@ -21,8 +21,35 @@ Trapper, Highlands, Giant, Manor/MacGuffin, War). Then the **Council gives the f
 |---|---|---|
 | **Boris's / Jarlsberg's / Sneaky Pete's** | **Daily Dungeon** → fat loot token → **DA Vending Machine** | 1 token/day ⇒ 3 days |
 | **skeleton key** | **skeleton bone (163) + loose teeth (187)**, meat-pasted | ✅verified: `craft.php?mode=combine&action=craft&a=163&b=187` |
-| **Richard's star key** | **Hole in the Sky** | recipe = star chart + **8 stars + 7 lines** |
-| **digital key** | **8-Bit Realm** | need ~**30 white pixels** |
+| **Richard's star key** | **Hole in the Sky** (beanstalk) | ✅verified-live Day 81 — see below |
+| **digital key** | **8-Bit Realm** (Treasure House) | ✅**10,000 points**, NOT pixels — see below |
+
+**Hero-key item IDs / DA Vending Machine rows** (`shop.php?whichshop=damachine`, 1 fat loot token each):
+Boris's key = **item 282, row 93** · Jarlsberg's = **item 283, row 94** · Sneaky Pete's = **item 284, row 95**.
+(Fat loot token = item 1470. Buy: `shop.php?whichshop=damachine&action=buyitem&whichrow=94&quantity=1&pwd=`.)
+
+### Richard's star key  ✅verified-live Day 81
+- **Farm the Hole in the Sky = `adventure.php?snarfblat=83`** (atop the beanstalk via `place.php?whichplace=beanstalk`;
+  81 = Airship, 83 = Hole in the Sky). Its constellation-monsters drop **star (654)** and **line (655)** at a good rate
+  (~13 stars + 7 lines in ~15 fights). Monsters die in 2 rounds to Mortar→Cannelloni.
+- **Craft the key at the star chart shop: `shop.php?whichshop=starchart`, Richard's star key = row 141**
+  (`&action=buyitem&whichrow=141&quantity=1&pwd=`). Consumes exactly **8 stars + 7 lines** (the star chart 656 is
+  the reusable "tool", not consumed). ⚠️ `inv_use` on the star chart says "not implemented" — you MUST use the shop URL.
+
+### digital key — 8-Bit Realm (⚠️ MECHANIC CHANGED — no longer 30 white pixels)  ✅verified-live Day 81
+- Since the **Jan 2023 revamp**, the old "30 white pixels → digital key at the Crackpot Mystic's Shed" recipe is GONE.
+  Now you **earn 10,000 "Score" points in the 8-Bit Realm** and claim the **digital key from the Treasure House**.
+- **Access:** get the **continuum transfunctioner (item 458)** from the **Crackpot Mystic**
+  (`place.php?whichplace=forestvillage&action=fv_mystic` → **choice 664 option 1** "Sure, old man" → he gives it;
+  this also opens his pixel-crafting Shed). **EQUIP the transfunctioner** (it's an accessory) → **The Inexplicable Door**
+  appears in the Distant Woods → **`place.php?whichplace=8bit`**.
+- **Zones (snarfblats):** Vanya's Castle = **565** (✅used), plus 563/564/566 (Fungus Plains / Megalo-City / Hero's Field).
+  Monsters die in ~2 rounds with MP topped (~16 MP/fight) — cheap; a naive no-MP loop makes them look invincible (they're not).
+- **Score** is shown in the **charpane** ("Score: N", between your stats and HP) — NOT on the place/treasure pages.
+  Rate ≈ **~63 points/fight** (Day 81: 200 → 3,350 over ~50 Vanya fights). ⇒ 10,000 pts ≈ **~155 fights total = a multi-day grind.**
+  **Points PERSIST across days** — chip at it whenever turns are spare.
+- **Treasure House** = `place.php?whichplace=8bit&action=8treasure`: three chests **[10,000] [20,000] [30,000] Points**.
+  The **10,000 chest = the digital key** (locked until you reach 10k).
 
 ### Daily Dungeon (hero keys)  ✅verified-live
 - **Zone = `adventure.php?snarfblat=325`** (inside the Dungeoneers' Assoc., Big Mountains). NOT 322 (that's the Giant castle).
@@ -52,6 +79,9 @@ around the Kingdom. *(Have ruby W ✓, metallic A ✓, heavy D ✓ as of Day 80 
 Fight the **Naughty Sorceress (3 forms)** → **break King Ralph's prism** to free him → quest complete → the **astral gash**
 opens → **ascend** (go Softcore first, not Casual — see [[ascension]]).
 
-## ⏳ Progress tracker (Day 80)
-✅ Boris's key · ✅ skeleton key · ❌ Jarlsberg's · ❌ Sneaky Pete's (daily DD) · ❌ star key (Hole in the Sky) ·
-❌ digital key (8-Bit Realm) · Wand of Nagamar: have W/A/D, need N. Not yet: contests, maze, tower fights, NS.
+## ⏳ Progress tracker (Day 81)
+**Keys 4 of 6:** ✅ Boris's · ✅ Jarlsberg's (Day 81) · ✅ skeleton key · ✅ Richard's star key (Day 81) ·
+❌ **Sneaky Pete's** (needs 1 more Daily Dungeon token → DA row 95) · ❌ **digital key** (8-Bit Score **3,350 / 10,000** — grind Vanya 565).
+Wand of Nagamar: have W/A/D, still need **N**. Not yet: contests, hedge maze, tower fights, NS.
+- Contest quest is LIVE (charpane: "Go investigate the weird contest ... at the Naughty Sorceress' Tower").
+- Continuum transfunctioner (458) is now **equipped in acc2** (bumped a lucky rabbit's foot 1485) for ongoing 8-bit grinding.
