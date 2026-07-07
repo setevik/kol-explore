@@ -66,7 +66,7 @@ Boris's key = **item 282, row 93** · Jarlsberg's = **item 283, row 94** · Snea
 
 ## Step 3 — Wand of Nagamar  (needed for the tower's Wall of Skin)
 Recipe (multi-step meat paste): **ruby W + metallic A + lowercase N + heavy D** (spells "WAND"). The four letters drop
-around the Kingdom. *(Have ruby W ✓, metallic A ✓, heavy D ✓ as of Day 80 — still need the lowercase N.)*
+around the Kingdom. *(Which letters are already collected for the active run is tracked in `CURRENT_ASCENSION.md`.)*
 
 ## Step 4 — The Hedge Maze, then the 5 Tower Levels  (from wiki; not yet done live)
 - **Hedge Maze** — topiary golems; "Frank" guides you (following him = slower + nugglets; ignoring = faster + harder).
@@ -79,9 +79,6 @@ around the Kingdom. *(Have ruby W ✓, metallic A ✓, heavy D ✓ as of Day 80 
 Fight the **Naughty Sorceress (3 forms)** → **break King Ralph's prism** to free him → quest complete → the **astral gash**
 opens → **ascend** (go Softcore first, not Casual — see [[ascension]]).
 
-## ⏳ Progress tracker (Day 81)
-**Keys 4 of 6:** ✅ Boris's · ✅ Jarlsberg's (Day 81) · ✅ skeleton key · ✅ Richard's star key (Day 81) ·
-❌ **Sneaky Pete's** (needs 1 more Daily Dungeon token → DA row 95) · ❌ **digital key** (8-Bit Score **3,350 / 10,000** — grind Vanya 565).
-Wand of Nagamar: have W/A/D, still need **N**. Not yet: contests, hedge maze, tower fights, NS.
-- Contest quest is LIVE (charpane: "Go investigate the weird contest ... at the Naughty Sorceress' Tower").
-- Continuum transfunctioner (458) is now **equipped in acc2** (bumped a lucky rabbit's foot 1485) for ongoing 8-bit grinding.
+## ⏳ Progress tracker
+**Current key/wand/contest progress for the active run lives in `CURRENT_ASCENSION.md`** — this file stays
+run-agnostic (the reusable walkthrough only).

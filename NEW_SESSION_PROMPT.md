@@ -1,72 +1,47 @@
-# Prompt for New Session
+# Prompt for a New Session
 
-Copy-paste this into a new Claude session to continue the KoL journey:
-
----
-
-You're continuing a Kingdom of Loathing adventure already in progress. Familirize yourself with the game, wiki and read `/Users/setevik/github/kol-explore/HANDOFF.md` first for full context, then start next day (rollover).
-
-**Quick context:**
-- Character: **ClaudeCode, Level 6 Pastamancer**
-- Credentials (test account, not secret): login `ClaudeCode`, password `REDACTED`
-- Login URL: `https://www.kingdomofloathing.com/login.php`
-- Game at `https://www.kingdomofloathing.com/game.php` uses a 4-frame layout (charpane, menupane, mainpane, chatpane). All navigation goes through `frames['mainpane'].location.href = 'path'`
-
-**Your job:**
-1. Log in (may require me to click login manually if JavaScript submit fails)
-2. Follow the **EAT → ADVENTURE → DRINK** order strictly — and **always do BOTH the EAT and the DRINK** (see food/booze rule below); never skip them
-3. Use the proven combat combo: **Stuffed Mortar Shell round 1, then Cannelloni Cannon round 2+** (Mortar ≈ 2× Cannelloni, delayed, 1/fight)
-4. Progress active quests (see HANDOFF for current list)
-5. Write a daily diary in `my-adventures/YYYY-MM-DD.md` (use real date). **Write it LORE-FRIENDLY** — see the diary style rule below.
-6. **Once gameplay is fully wrapped (EAT + advs spent + DRINK + diary all done), CLOSE the browser tab used for KoL navigation FIRST** (via `tabs_close_mcp` on the KoL tab) — before committing. The game is finished by this point, so close the tab, then do the git work.
-7. Log new mechanics findings to `mechanics/` folder if you discover anything not already documented. **Commit and push diary and mechanics files LAST** — this is the final step, after the tab is already closed.
-
-**⛔ HARD RULE — DO NOT END THE DAY WITH ADVENTURES UNSPENT:**
-- **Never stop/wrap the day while ≥ 40 adventures remain.** Banked advs roll over but are wasted potential — keep adventuring until you are below 40 (ideally near 0).
-- Disconnects, MP starvation, a stalled quest, or repetitive grinding are **NOT** reasons to stop. They are reasons to adapt: re-login, refill MP via **tiny house** (`inv_use.php?which=3&whichitem=592&pwd=HASH` — works, +~23 MP, no adv cost), switch to a sustainable zone (Airship snarfblat 81 always works via Spaghetti+companions even at 0 MP), or accept a slower autonomous loop.
-- Only acceptable early-stop conditions: (a) genuinely `out of adventures`/`too tired`, (b) Beaten Up with zero recovery items AND <3 advs to wait it out, (c) the user explicitly says stop. Otherwise: **keep going.**
-- "Wrap the day" (diary, then close tab, then commit) happens only after advs are spent — not a mid-stockpile escape hatch.
-
-**⛔ HARD RULE — FILL FOOD & BOOZE EVERY DAY (don't waste the meters):**
-- **Never wrap a day with an unused `full` (0/15) or `drunk` (0/14) meter.** Each point of fullness/drunkenness ≈ 2-3 rollover adventures left on the table. EAT and DRINK are both mandatory.
-- **EAT at day open:** attempt to **craft + eat** food to fill fullness. Pastamancer pasta = dry noodles (item **304**, from Pastamastery) + a filling via `craft.php?mode=cook&action=craft&a=304&b=<id>&qty=1&pwd=HASH`. ⚠️ correct filling still unsolved (long pork/lihc eye/olive/bean fail) — find it or **buy ready food from the mall** and eat best-first.
-- **DRINK at day end (after adventuring):** fill drunkenness ~12-14 with **Fog Murderer** (Hidden Tavern row 175, item **238** = +3 drunk / +6 advs each; buy `shop.php?whichshop=hiddentavern&action=buyitem&whichrow=175`, drink `inv_booze.php?which=1&whichitem=238`). 4 of them = drunk 12, ~+24 banked advs.
-- Diary happens only after EAT + spent advs + DRINK are all done. **Then close the KoL browser tab, and commit/push as the very last step** (tab closes before the commit).
-
-**⛔ HARD RULE — PREP NECESSARY ITEMS EARLY (don't get caught short mid-quest):**
-- **Do daily-limited activities EARLY each day** so they're never wasted — above all the **Daily Dungeon** (`adventure.php?snarfblat=325`, one run/day → the hero-key fat loot token). Cast once-per-day buffs/summons (Pastamastery, etc.) at day-open too.
-- **Before attempting a gated quest step, acquire EVERYTHING it needs UP FRONT** — consumables, quest components, gear, and buffs — then trigger the step. This is critical for **one-shot / evaluation steps** where you only get one attempt at the check (e.g. the NS Tower **Contest Registration Desk**; Twin Peak's lodge rooms). Assemble the required loadout/modifiers (init, +item, stench res, elemental, etc.) *first*, verify, *then* go.
-- **Stock the day's tools/consumables at day-open:** food, an MP battery (**Mountain Stream soda 357**), plus any zone-specific tools (Daily Dungeon: **eleven-foot pole 6302 + ring of Detect Boring Doors 6303 + pick-o-matic lockpicks 280** → traps/doors free). Being under-provisioned mid-grind wastes turns, HP, and meat.
-- **If you're too broke to buy what a step needs, farm meat FIRST** (fast with any +item buff active — e.g. Fat Leon's from the Buffy buffbot), then buy, then do the step.
-- For **multi-day quests** (e.g. the six NS-tower keys — see `mechanics/naughty-sorceress-tower.md`), make the **daily-limited progress every single day** and gather the non-daily pieces (recipes, zone drops, buffs) in parallel so nothing bottlenecks.
-
-**Day 8 specific priorities:**
-1. Cast Pastamastery EARLY (once-per-day summon of dry noodles -- better food than pickled eggs!)
-2. Craft and eat pasta dishes (Pastamancer gets +3-7 MP per fullness from pasta)
-3. Find the "imp in a beret" in Dark Neck of the Woods (Friars artifact thief)
-4. Grind toward 1,750 Meat for **Springy Fusilli** skill (+40% initiative)
-5. Try the Haunted Billiards Room (need Pool Skill 14+: cue +3, chalk +3, drunkenness up to 10 gives +10)
-
-**Automation tips (learned the hard way):**
-- Use recursive `setTimeout` or async bursts, NOT `setInterval` (dies on frame nav)
-- "Adventure Again" is a LINK, not a button -- navigate directly to `adventure.php?snarfblat=XXX`
-- Warning zones ("recommended X Mysticality"): submit the form with `ignorewarning=1` to bypass
-- If Chrome extension disconnects, ask user to check it -- it's transient
-
-**Stats targets for progression:**
-- To adventure Dark Heart/Elbow safely, need 45 Mysticality (currently 32)
-- Safe Moxie for any zone = monster max exp × 4
-- Level 7+ zones open new quests from Council
-
-**⛔ HARD RULE — LORE-FRIENDLY DIARIES:**
-- Write each `my-adventures/YYYY-MM-DD.md` **in-character as ClaudeCode**, the stick-figure Pastamancer adventurer — a first-person tale of the day in the Kingdom, not a dry changelog.
-- Match KoL's tone: irreverent, punny, pop-culture-laden, cheerfully absurd. Name your foes and allies (War Pledges, the bumpty-bumpty-bump Lighthouse Keeper, Marcellus the mosquito) and tell what *happened* in the world, not what API calls you made.
-- **Frame mechanics as story:** "I fed the Lighthouse Keeper five barrels of gunpowder and he gleefully blew the frat boys sky-high" — NOT "delivered item 2403 ×5 via action=pyro."
-- **Keep raw operational data OUT of the diary** (item IDs, snarfblats, choice numbers, fetch URLs, engine versions, meat-per-fight math). All of that belongs in `HANDOFF.md`. The diary is the *story*; the handoff is the *manual*.
-- A short "where things stand" coda at the end (in-world: advs/food/booze/meat, current quest) is fine, but keep it flavorful.
+Copy-paste this into a new Claude session to continue the KoL journey. It is **run-agnostic** — it never hard-codes
+the current day, level, or quest. All of that lives in `CURRENT_ASCENSION.md`.
 
 ---
 
-**Alternative short prompt (if you want to get started immediately):**
+You're continuing an ongoing game of Kingdom of Loathing. Get oriented, then play out the next day (rollover).
 
-> Continue Day 8 of KoL. Read `~/github/kol-explore/HANDOFF.md` for full state. Character is Level 6 Pastamancer "ClaudeCode", password "REDACTED". Start by logging in, cast buffs (Manicotti + Vampieroghi + Ben-Gal), use Pastamastery to summon dry noodles, craft pasta dishes to eat, then grind quests. Use Entangling Noodles → Ravioli Shurikens combat combo. Write diary to `my-adventures/YYYY-MM-DD.md`. Never drink booze until all adventuring is done.
+**Read these first, in order:**
+1. **`CURRENT_ASCENSION.md`** — the live run state: character state, quest progress, next-session priorities, session log.
+2. **`HANDOFF.md`** — the idempotent operational manual: login, the fetch-driven engine + gotchas, combat standard,
+   item/consumable references, buying, HARD RULES, URL/skill/snarfblat reference, daily routine.
+3. **`mechanics/*.md`** as needed — deep, reusable walkthroughs for specific quests/zones (e.g.
+   `naughty-sorceress-tower.md`, `ascension.md`).
+
+**Credentials (test account, not secret):** login `ClaudeCode`, password `REDACTED`,
+`https://www.kingdomofloathing.com/login.php`. The game (`game.php`) is a 4-frame layout; drive it with `fetch()` in
+the top window and `window.frames['mainpane'].location.href` for navigation (see HANDOFF for details).
+
+**Your job each session:**
+1. Log in, rebuild `window._pwd` + helpers, read status, and clear any leftover forced-choice / stuck fight.
+2. Follow **EAT → ADVENTURE → DRINK** strictly, and always do BOTH the EAT and the DRINK (fill both meters).
+3. Use the proven combat combo: **Stuffed Mortar Shell (round 1) → Cannelloni Cannon (round 2+)**.
+4. Do daily-limited things EARLY (Daily Dungeon, once/day casts). Progress the current priorities from `CURRENT_ASCENSION.md`.
+5. Write a **lore-friendly, in-character diary** to `my-adventures/YYYY-MM-DD.md` (use the real date).
+6. When wrapped (EAT + advs spent + DRINK + diary): **close the KoL browser tab FIRST**, then **commit & push LAST**.
+7. **Update `CURRENT_ASCENSION.md`** with the new state (progress, next priorities, a session-log line). Log any newly
+   discovered reusable mechanics into `mechanics/` and reusable operational lessons into `HANDOFF.md` — but keep those
+   two run-agnostic; all run-state goes in `CURRENT_ASCENSION.md`.
+
+**The HARD RULES (full text in `HANDOFF.md`) — the load-bearing ones:**
+- **Never end the day with ≥ 40 adventures unspent.** Adapt around disconnects/MP-starvation/stalls; don't stop early.
+- **Never wrap with an unused food or booze meter.** EAT and DRINK are both mandatory.
+- **Prep necessary items EARLY** — daily-limited activities and everything a gated/one-shot step needs, assembled and
+  verified BEFORE triggering the step.
+- **Diaries are stories; operational data (item IDs, snarfblats, choices, URLs) goes in `HANDOFF.md` / `CURRENT_ASCENSION.md`.**
+- **Research on the official wiki only** (`wiki.kingdomofloathing.com`) via WebSearch or in-game text.
+
+---
+
+**Alternative one-liner:**
+
+> Continue the KoL run. Read `CURRENT_ASCENSION.md` (state) then `HANDOFF.md` (manual). Log in as `ClaudeCode` /
+> `REDACTED`, do EAT → ADVENTURE → DRINK, use Mortar→Cannelloni, do the Daily Dungeon early, spend all adventures,
+> drink 2 Fog Murderers, write a lore diary to `my-adventures/YYYY-MM-DD.md`, then close the tab and commit — and
+> update `CURRENT_ASCENSION.md`.
