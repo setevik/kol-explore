@@ -43,13 +43,22 @@ Boris's key = **item 282, row 93** · Jarlsberg's = **item 283, row 94** · Snea
   (`place.php?whichplace=forestvillage&action=fv_mystic` → **choice 664 option 1** "Sure, old man" → he gives it;
   this also opens his pixel-crafting Shed). **EQUIP the transfunctioner** (it's an accessory) → **The Inexplicable Door**
   appears in the Distant Woods → **`place.php?whichplace=8bit`**.
-- **Zones (snarfblats):** Vanya's Castle = **565** (✅used), plus 563/564/566 (Fungus Plains / Megalo-City / Hero's Field).
-  Monsters die in ~2 rounds with MP topped (~16 MP/fight) — cheap; a naive no-MP loop makes them look invincible (they're not).
-- **Score** is shown in the **charpane** ("Score: N", between your stats and HP) — NOT on the place/treasure pages.
-  Rate ≈ **~63 points/fight** (Day 81: 200 → 3,350 over ~50 Vanya fights). ⇒ 10,000 pts ≈ **~155 fights total = a multi-day grind.**
-  **Points PERSIST across days** — chip at it whenever turns are spare.
-- **Treasure House** = `place.php?whichplace=8bit&action=8treasure`: three chests **[10,000] [20,000] [30,000] Points**.
-  The **10,000 chest = the digital key** (locked until you reach 10k).
+- **Zones by color (snarfblats):** each of the 4 zones is a color, and the **color of the "Score:" text in the charpane**
+  marks which zone currently pays **DOUBLE** (+100/win vs +50). The color cycles **every 5 kills**: **black→Vanya's Castle
+  565, blue→Megalo-City 566, green→Hero's Field 564, red→Fungus Plains 563.** (Bonus points from init/DA/item/meat need
+  300–595% to matter — negligible for us, so it's just +100 in the matching zone, +50 off-color.)
+- **⭐ ROTATION TRICK (✅verified Day 82 — ~110 pts/fight, ~1.7× a fixed zone):** before each fight, read the Score color
+  and adventure the matching zone. Detecting the color: the color word (green/red/blue/black) sits right after "Score:" in
+  the **fetched** `charpane.php` HTML (regex `/Score:[\s\S]{0,160}?(green|red|blue|black)/i`, default black); OR read the
+  **computed** color off the live charpane frame (`getComputedStyle(span.nes).color` — green = rgb(0,128,0)). Staying in one
+  zone averages only ~63/fight; rotating ≈ **~110/fight** ⇒ 10k from a standing start ≈ **~90 fights (doable in ~1 big day)**.
+- **Combat is cheap:** these monsters are weak — **weapon-attack one-shots most** (round 1–2 attack, escalate to Cannelloni
+  only if it survives) ⇒ near-zero MP over 50+ fights. Read the **Score number** from the charpane's second `span.nes`
+  (`[...doc.querySelectorAll('span.nes')]` → the `/^[\d,]+$/` one) — a loose regex grabs "Level 14" etc. by mistake.
+  **Points PERSIST across days.**
+- **Treasure House** = `place.php?whichplace=8bit&action=8treasure` = **choice 1493**: three chests
+  **opt 1 [10,000] · opt 2 [20,000] · opt 3 [30,000] Points · opt 4 Leave.** At ≥10k, **option 1 = the digital key**
+  (✅claimed Day 82). (Higher chests = better prizes but irrelevant to the tower.)
 
 ### Daily Dungeon (hero keys)  ✅verified-live
 - **Zone = `adventure.php?snarfblat=325`** (inside the Dungeoneers' Assoc., Big Mountains). NOT 322 (that's the Giant castle).

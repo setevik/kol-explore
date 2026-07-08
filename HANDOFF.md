@@ -73,8 +73,10 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
   Parse a shop's rows by splitting its HTML on `<tr>` and reading `whichrow=(\d+)` + the item `<b>name</b>` + `rel="itemid"`.
 - **Mall:** search `mall.php?didadv=0&pudnuggler=<NAME>` (the search field is `pudnuggler`); results link to
   `mallstore.php?whichstore=ID&searchitem=ITEMID&searchprice=PRICE`. Load the cheapest store page, find the
-  `<input name="whichitem">` radio matching the item, POST `mallstore.php` with `pwd, whichstore, buying=Yep., whichitem=<radio>, quantity=N`.
-  ⚠️ Never loop mall buys gated on `api.php?what=inventory` — it caches and you'll overbuy.
+  `<input name="whichitem">` radio for the item — **its value is `"<itemid>.<price>"`** (e.g. `"2620.180"`), so pick the
+  radio whose value starts with the item id — then POST `mallstore.php` with
+  `pwd, whichstore, buying=Yep., whichitem=<value>, quantity=N, searchitem=<itemid>, searchprice=<price>`.
+  ⚠️ Never loop mall buys gated on `api.php?what=inventory` — it caches and you'll overbuy. (Verified: 2 jerky for 360 meat.)
 
 ## Consumables & item reference
 
