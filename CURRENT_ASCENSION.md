@@ -38,18 +38,18 @@ green→Hero's Field 564, red→Fungus Plains 563.** Fight the matching zone →
 attack one-shots them → ~0 MP). At ≥10,000 pts, `place.php?whichplace=8bit&action=8treasure` = **choice 1493 → option 1
 (first chest) = digital key.** (Old "30 white pixels" recipe is retired.)
 
-### 2. Wand of Nagamar — needed for the tower's Wall of Skin  ← **THE sole blocker now**
-Have **ruby W ✓ / metallic A ✓ / heavy D ✓** — still need the **lowercase n**, then meat-paste all four (spells "WAND").
-- **lowercase n source:** The Valley of Rof L'm Fao (gated behind Black Angus / Fernswarthy's Basement — likely NOT
-  accessible to us). Post-2015 route: the **Bear Verb Orgy** noncombat (anagram of "Grave Robbery") in **The VERY
-  Unquiet Garves = snarf 58** (The Misspelled Cemetary, `place.php?whichplace=cemetery`; the regular Unquiet Garves = 21)
-  → pry open Nagamar's coffin → the assembled **Wand of Nagamar**.
-- **⚠️ BLOCKER (Day 83): the Bear Verb Orgy will NOT fire.** Adventured snarf 58 **51 times across the day → ZERO
-  noncombats of any kind** (both before and after reaching the Wall of Skin). This is classic **noncombat suppression** —
-  something is pushing combat frequency to ~100%. **NEXT SESSION: reduce combat rate before farming snarf 58** — strip any
-  +combat gear, and/or add a **-combat** source (e.g. Smooth Movements / a -combat potion / Louder Than Bomb), then the
-  Bear Verb Orgy should surface. (Our +combat source is unconfirmed — no +combat *effect* was active; suspect a gear piece.
-  Investigate with the in-game modifier maximizer.) Once it fires → wand → Wall of Skin.
+### 2. Wand of Nagamar — needed for the **Naughty Sorceress's THIRD form** (NOT the walls)  ✅mechanic re-verified Day 83
+**⚠️ CORRECTION (Day 83 wiki re-check): my earlier notes were wrong on two counts.**
+- **The wand is for the NS's final (3rd) form**, not the Wall of Skin. It must just be **in inventory** (not equipped,
+  post-NS13); it converts her attacks into harmless anagram junk.
+- **The Bear Verb Orgy wand-search unlocks ONLY after you've been *defeated by* the NS's 3rd form** — that is why snarf 58
+  gave 0 noncombats in 51 fights (it wasn't combat suppression; the search just isn't active yet). It's the game's safety net
+  for arriving at form 3 without the wand.
+- Two ways to get the wand: **(a) craft** it — meat-paste ruby W ✓ + metallic A ✓ + lowercase n + heavy D ✓ (still need the
+  **n**, whose only source is the Valley of Rof L'm Fao, gated behind Fernswarthy's Basement — probably not worth it); or
+  **(b) the Bear Verb Orgy** at The VERY Unquiet Garves (snarf 58), available only after losing to NS form 3.
+- **Practical route: don't chase the wand yet.** Beat the walls + NS forms 1–2, reach form 3, get defeated → then the Bear
+  Verb Orgy opens → farm snarf 58 for the wand → return and beat form 3.
 
 ### 3. The 3 Contests (Registration Desk) — ✅ **DONE (Day 83)**
 Won Fastest / Smoothest (Moxie) / Spookiest → **World's Best Adventurer sash**. (Mechanic is NOT one-shot pass/fail:
@@ -61,8 +61,11 @@ Total was ~25 opponent fights. ⚠️ keep MP topped — champions like the Tasm
 - ✅ **The six-lock door is OPEN** — `place.php?whichplace=nstower_door`, actions ns_lock1..ns_lock6 (one per key) + ns_doorknob.
   All 6 keys consumed; door swung open.
 - **Now at the Wall of Skin** = `place.php?whichplace=nstower&action=ns_05_monster1` (the 5 walls are ns_05_monster1..5).
-  Confirmed it **needs the Wand of Nagamar** (100% dmg-resist → all hits 1 dmg; it beat me up without the wand). **BLOCKED on
-  the wand (see §2).** After the walls: your shadow → NS familiars → **Naughty Sorceress (3 forms)** → break King Ralph's prism.
+  50 HP, **100% dmg-resist (all hits → 1), must kill in <5 turns, can't stun.** ⚠️ **It does NOT need the wand** (my Day-83
+  note was wrong). Beat it by stacking **multiple small damage sources**: best = a **beehive** (from The Black Forest →
+  "Bees Hate You"); or a **Glover familiar + weapon attack**; or multi-source familiars (Imitation Crab 4/rd, Sludgepuppy,
+  Mini-Crimbot); or passive-damage skills. **Prep this before re-attempting.** Then Wall of Meat → Wall of Bones → your
+  shadow (immune to normal damage — use items/HP-drain per wiki) → NS familiars → the **Naughty Sorceress (3 forms)**.
 - **Readiness concern:** Level 17 / Mys ~289 — the walls + NS are tough; want better burst/gear. Also **stock MP restoratives
   heavily** (we ran tiny houses + sodas to ZERO mid-session; fell back to MMJ from the guild store, row 527).
 
@@ -90,18 +93,20 @@ Almost certainly closeable — try USE-ing the car or visiting the guild car-guy
 
 ## 🔜 Next-session priorities (ordered)
 
-Contests, coronation, hedge maze, and the 6-key door are all DONE. Standing at the Wall of Skin. **One blocker: the Wand.**
+Contests, coronation, hedge maze, and the 6-key door are all DONE. Standing at the Wall of Skin. **The wand comes LATER**
+(it's for NS form 3, and its search only unlocks after losing to form 3 — see §2). So the flow is: climb → reach form 3 →
+lose → get wand → win.
 
-1. **GET THE WAND OF NAGAMAR (the whole run hinges on this).** The Bear Verb Orgy NC at **The VERY Unquiet Garves (snarf 58)**
-   is suppressed by our ~100% combat rate (51 fights, 0 NCs). **Fix combat rate FIRST:** open the in-game **maximizer** /
-   char sheet to find the +combat source (probably a gear piece), strip it, and/or add a **-combat** effect, THEN adventure
-   snarf 58 → Bear Verb Orgy → Wand of Nagamar. (Restock MP first — buy MMJ 518 from guild store row 527, and/or tiny
-   houses/sodas.) If snarf 58 truly won't yield it, research alternate n-sources or the Fernswarthy's/Valley route.
-2. **Beat the 5 walls** (`nstower&action=ns_05_monster1..5`): Wall of Skin (wand insta-clears it) → Wall of Meat →
-   Wall of Bones → your shadow (can't be damaged normally — use items/HP drain per wiki) → NS familiars. Enter each at
-   FULL HP + FULL MP; the walls hit hard. Consider better burst/gear (meat ~8.7k).
-3. **Naughty Sorceress (3 forms)** → break King Ralph's prism → quest done → **ascend** (Softcore first — see `mechanics/ascension.md`).
-4. **Restock MP restoratives at day-open** (tiny houses + sodas hit zero mid-Day-83 and caused a Beaten-Up cascade).
+1. **Prep to beat the Wall of Skin — needs MULTIPLE DAMAGE SOURCES, not the wand.** Acquire a **beehive** from The Black
+   Forest (best; gives "Bees Hate You" passive damage) OR line up a Glover / multi-source damage familiar / passive-damage
+   skills. Restock MP restoratives (MMJ 518 guild row 527, tiny houses, sodas) heavily first.
+2. **Climb the 5 walls** (`nstower&action=ns_05_monster1..5`): Wall of Skin → Wall of Meat → Wall of Bones → your shadow
+   (immune to normal damage — items/HP-drain per wiki) → NS familiars. Enter each at FULL HP + FULL MP.
+3. **Fight the Naughty Sorceress forms 1 → 2 → 3.** At **form 3 you WILL lose without the wand** — that's expected and it
+   **unlocks the Bear Verb Orgy** wand-search.
+4. **Get the wand:** adventure **The VERY Unquiet Garves (snarf 58)** → the Bear Verb Orgy noncombat (now unlocked) →
+   **Wand of Nagamar**. Then return to the NS chamber, redo forms 1–3 with the wand in inventory → beat form 3 →
+   **break King Ralph's prism** → quest done → **ascend** (Softcore first — see `mechanics/ascension.md`).
 5. Optional cleanup: close the vestigial "My Other Car Is Made of Meat" (USE the Meatcar / visit the guild car-guy).
 
 ---

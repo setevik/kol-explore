@@ -82,15 +82,18 @@ Boris's key = **item 282, row 93** · Jarlsberg's = **item 283, row 94** · Snea
 - ⚠️ The 3 hero keys are a "zap group" (zapping one → a different one you lack) but you need all 3 at once, so
   **acquire all 3 separately = 3 daily runs.** Do the Daily Dungeon EARLY each day so it's never wasted.
 
-## Step 3 — Wand of Nagamar  (needed for the tower's Wall of Skin)
-Recipe (multi-step meat paste): **ruby W + metallic A + lowercase n + heavy D** (spells "WAND"). Letter sources vary
-(metallic A ← MechaMech in the Airship; lowercase n ← The Valley of Rof L'm Fao, which is gated behind Fernswarthy's
-Basement/Black Angus and usually NOT accessible). *(Letters collected for the active run are tracked in `CURRENT_ASCENSION.md`.)*
-- **Easiest route = the whole assembled wand from the "Bear Verb Orgy"** (anagram of *Grave Robbery*) — a noncombat in
-  **The VERY Unquiet Garves = `adventure.php?snarfblat=58`** (The Misspelled Cemetary; the regular Unquiet Garves = 21).
-  You pry open Nagamar's coffin → **Wand of Nagamar**.
-- ⚠️ **The Bear Verb Orgy is the zone's ONLY noncombat, so a high combat rate suppresses it** (Day 83: 51 straight fights,
-  0 NCs). **Lower your combat rate first** — strip +combat gear and/or add a **-combat** source — then farm snarf 58.
+## Step 3 — Wand of Nagamar  (needed for the **NS's 3rd form**, NOT the walls)  ✅wiki-verified Day 83
+⚠️ **Common misconception (corrected):** the wand is **not** for the Wall of Skin — it's for the **Naughty Sorceress's
+third/final form** (must be **in inventory**, not equipped post-NS13; it turns her attacks into harmless anagram objects).
+Two ways to obtain it:
+- **Craft it:** meat-paste **ruby W + metallic A + lowercase n + heavy D** (spells "WAND"). The **lowercase n**'s only
+  source is **The Valley of Rof L'm Fao** (gated behind Fernswarthy's Basement / Black Angus — usually not worth it).
+  *(Letters collected for the active run are tracked in `CURRENT_ASCENSION.md`.)*
+- **Bear Verb Orgy** (anagram of *Grave Robbery*) — a **noncombat** in **The VERY Unquiet Garves = `adventure.php?snarfblat=58`**
+  (The Misspelled Cemetary; regular Unquiet Garves = 21) → pry open Nagamar's coffin → the assembled **Wand of Nagamar**.
+  🔑 **This search only UNLOCKS after you have been *defeated by* the NS's 3rd form** — it is the game's safety net for
+  arriving at form 3 without the wand. (Day 83: 51 fights at snarf 58 gave 0 NCs precisely because form 3 hadn't been
+  reached yet — it was NOT combat suppression.) Once unlocked, Frank helps you search and the NC surfaces after a few fights.
 
 ## Step 4 — Coronation → Hedge Maze → the 6-key Door → the 5 Tower Levels  ✅verified-live Day 83
 - **Coronation** (`ns_02_coronation`) — cutscene, **choice 1020 → 1021 → 1022**, all option 1. Free.
@@ -99,14 +102,23 @@ Basement/Black Angus and usually NOT accessible). *(Letters collected for the ac
 - **The 6-lock Door** = its own place **`place.php?whichplace=nstower_door`** — actions **ns_lock1..ns_lock6** (fetch each;
   each consumes the matching hero/other key) then **ns_doorknob** to open. Free (no adv). Need all 6 keys present.
 - **The 5 walls** = `place.php?whichplace=nstower&action=ns_05_monster1 .. ns_05_monster5`:
-  - **monster1 = Wall of Skin:** 50 HP, **100% damage resistance (all hits → 1 dmg)**, ramps with your max HP —
-    **must kill fast → the Wand of Nagamar clears it instantly.** Without the wand it just beats you up (verified Day 83).
+  - **monster1 = Wall of Skin:** 50 HP, **100% damage resistance (all hits → 1 dmg)**, ramps with your max HP, **can't be
+    stunned, must kill in <5 turns.** ⚠️ **Does NOT use the wand.** Win by stacking **multiple small damage sources** (each
+    does 1/round through the resistance, so you need ~10/round): best = a **beehive** (from **The Black Forest** → "Bees Hate
+    You"); or a **Glover familiar + "attack with your weapon"**; or multi-source damage familiars (**Imitation Crab** 4/rd,
+    Sludgepuppy, Mini-Crimbot); or passive-damage skills (Spiky Shell, Jalapeño Saucesphere, Psalm of Pointiness, Scarysauce,
+    Feel Nervous, Summon Love Stinkbug). Raising max HP does NOT help (its damage is %-based).
   - then **Wall of Meat**, **Wall of Bones**, your **shadow/doppelgänger** (can't be hurt by normal damage — see wiki),
     and the **Sorceress's familiars**. Enter each at FULL HP + FULL MP; they hit hard.
 
 ## Step 5 — The Naughty Sorceress + King Ralph  (from wiki)
-Fight the **Naughty Sorceress (3 forms)** → **break King Ralph's prism** to free him → quest complete → the **astral gash**
-opens → **ascend** (go Softcore first, not Casual — see [[ascension]]).
+Fight the **Naughty Sorceress (3 forms)**. Notes:
+- **Form 3 requires the Wand of Nagamar in inventory** (see Step 3). Without it you get defeated by form 3 — which is what
+  **unlocks the Bear Verb Orgy** wand-search. So the intended order is: reach form 3 → lose → get the wand → return and win.
+- Letting her beat you up lowers her block rate (≈30% after 4 losses); high buffed **Mysticality** reduces her spell blocks;
+  **Ambidextrous Funkslinging** lets your familiar act unless she blocks each item separately.
+- Beat form 3 → **break King Ralph's prism** to free him → quest complete → the **astral gash** opens → **ascend**
+  (go Softcore first, not Casual — see [[ascension]]).
 
 ## ⏳ Progress tracker
 **Current key/wand/contest progress for the active run lives in `CURRENT_ASCENSION.md`** — this file stays
