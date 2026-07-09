@@ -9,12 +9,21 @@ Finish **all Council of Loathing quests** (L2–L12: larva, tavern, Boss Bat, Co
 Trapper, Highlands, Giant, Manor/MacGuffin, War). Then the **Council gives the final quest** (`council.php`) and the
 **Tower opens: `place.php?whichplace=nstower`**.
 
-## Step 1 — Contest Registration Desk  ✅verified-live
-`place.php?whichplace=nstower&action=ns_01_contestbooth` → **choice 1003**. Three contests:
-- **Everyone: "Fastest Adventurer"** (option 1) — needs **+combat initiative**.
-- Plus **one random stat test** + **one random elemental-damage test** (Smoothest=opt 2, Spookiest=opt 3, etc.).
-- ⚠️ **One-shot evaluation** — the desk measures your bonuses at registration, so **buff/gear the needed modifiers
-  (init, the drawn stat, the drawn element) BEFORE registering.** (opt 6 = leave without committing.)
+## Step 1 — Contest Registration Desk  ✅verified-live Day 83
+`place.php?whichplace=nstower&action=ns_01_contestbooth` → **choice 1003**. You draw **three** contests:
+- **Everyone: "Fastest Adventurer"** (opt 1) — tests **+combat initiative** (2nd place = +400% init).
+- **one random stat test** — Smoothest (opt 2, Moxie) / Strongest (Muscle) / etc.; the stat that ISN'T your class's main
+  (2nd place = a buffed stat of **600**).
+- **one random elemental test** — Hottest/Coldest/Spookiest (opt 3)/Stinkiest/Sleaziest (2nd place = **+100** bonus
+  damage sum for that element).
+- **NOT one-shot pass/fail.** Your bonus sets a **rank #2–#11**, which just = **how many opponents you fight** (1 at rank 2,
+  up to 10 at rank 11). So you can win each even unbuffed — it just costs more turns. Buffing (Springy Fusilli 3015 for init,
+  etc.) only *lowers the opponent count*. Register all three (opts 1/2/3 each return to the desk).
+- **Then fight the crowds:** the tower shows **ns_01_crowd1 / crowd2 / crowd3** — `place.php?whichplace=nstower&action=ns_01_crowdN`
+  starts each opponent fight; keep clicking a crowd until it stops giving a fight (that contest won). ⚠️ opponents (esp. the
+  rank-1 champions like the **Tasmanian Dervish**) are **tanky — keep MP topped (Mortar→Cannelloni)**; MP-starving loses.
+- When all 3 crowds are gone, the desk offers **choice 1003 opt 4 "Claim your prize"** → **World's Best Adventurer sash** →
+  advances to `ns_02_coronation`.
 
 ## Step 2 — The SIX tower-door keys  (each consumed at the door)
 | Key | Source | Notes |
@@ -74,15 +83,26 @@ Boris's key = **item 282, row 93** · Jarlsberg's = **item 283, row 94** · Snea
   **acquire all 3 separately = 3 daily runs.** Do the Daily Dungeon EARLY each day so it's never wasted.
 
 ## Step 3 — Wand of Nagamar  (needed for the tower's Wall of Skin)
-Recipe (multi-step meat paste): **ruby W + metallic A + lowercase N + heavy D** (spells "WAND"). The four letters drop
-around the Kingdom. *(Which letters are already collected for the active run is tracked in `CURRENT_ASCENSION.md`.)*
+Recipe (multi-step meat paste): **ruby W + metallic A + lowercase n + heavy D** (spells "WAND"). Letter sources vary
+(metallic A ← MechaMech in the Airship; lowercase n ← The Valley of Rof L'm Fao, which is gated behind Fernswarthy's
+Basement/Black Angus and usually NOT accessible). *(Letters collected for the active run are tracked in `CURRENT_ASCENSION.md`.)*
+- **Easiest route = the whole assembled wand from the "Bear Verb Orgy"** (anagram of *Grave Robbery*) — a noncombat in
+  **The VERY Unquiet Garves = `adventure.php?snarfblat=58`** (The Misspelled Cemetary; the regular Unquiet Garves = 21).
+  You pry open Nagamar's coffin → **Wand of Nagamar**.
+- ⚠️ **The Bear Verb Orgy is the zone's ONLY noncombat, so a high combat rate suppresses it** (Day 83: 51 straight fights,
+  0 NCs). **Lower your combat rate first** — strip +combat gear and/or add a **-combat** source — then farm snarf 58.
 
-## Step 4 — The Hedge Maze, then the 5 Tower Levels  (from wiki; not yet done live)
-- **Hedge Maze** — topiary golems; "Frank" guides you (following him = slower + nugglets; ignoring = faster + harder).
-- **Level 1 — Wall of Skin:** 50 HP but **100% damage resistance (all hits → 1 dmg)** and attacks ramp with your max HP —
-  **must kill in <5 turns → use the Wand of Nagamar** (or other fixed/percent damage).
-- Then **Wall of Meat**, **Wall of Bones**, your **shadow/doppelgänger**, and the **Sorceress's familiars** (there's a
-  "Debuff Familiar" action that under-weights her pets).
+## Step 4 — Coronation → Hedge Maze → the 6-key Door → the 5 Tower Levels  ✅verified-live Day 83
+- **Coronation** (`ns_02_coronation`) — cutscene, **choice 1020 → 1021 → 1022**, all option 1. Free.
+- **Hedge Maze** (`ns_03_hedgemaze`) — **choice 1005 "Do what Frank says" (opt 1)**; following Frank chains cleanly through
+  **choices 1005→1013 with NO fights** (~9 turns). (Opposing Frank = faster but topiary-golem combats.)
+- **The 6-lock Door** = its own place **`place.php?whichplace=nstower_door`** — actions **ns_lock1..ns_lock6** (fetch each;
+  each consumes the matching hero/other key) then **ns_doorknob** to open. Free (no adv). Need all 6 keys present.
+- **The 5 walls** = `place.php?whichplace=nstower&action=ns_05_monster1 .. ns_05_monster5`:
+  - **monster1 = Wall of Skin:** 50 HP, **100% damage resistance (all hits → 1 dmg)**, ramps with your max HP —
+    **must kill fast → the Wand of Nagamar clears it instantly.** Without the wand it just beats you up (verified Day 83).
+  - then **Wall of Meat**, **Wall of Bones**, your **shadow/doppelgänger** (can't be hurt by normal damage — see wiki),
+    and the **Sorceress's familiars**. Enter each at FULL HP + FULL MP; they hit hard.
 
 ## Step 5 — The Naughty Sorceress + King Ralph  (from wiki)
 Fight the **Naughty Sorceress (3 forms)** → **break King Ralph's prism** to free him → quest complete → the **astral gash**

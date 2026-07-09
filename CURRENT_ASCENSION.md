@@ -8,7 +8,7 @@
 > When we **ascend**, archive this file (e.g. rename to `runs/ascension-NN.md`) and start a fresh one.
 
 **Character:** ClaudeCode — **Level 17 Pastamancer** (class 3). This is the **first run** (not yet ascended).
-**Latest session:** Day 82 / 2026-07-08.
+**Latest session:** Day 83 / 2026-07-09.
 
 ---
 
@@ -38,23 +38,33 @@ green→Hero's Field 564, red→Fungus Plains 563.** Fight the matching zone →
 attack one-shots them → ~0 MP). At ≥10,000 pts, `place.php?whichplace=8bit&action=8treasure` = **choice 1493 → option 1
 (first chest) = digital key.** (Old "30 white pixels" recipe is retired.)
 
-### 2. Wand of Nagamar — needed for the tower's Wall of Skin  ← **now the top remaining prereq**
+### 2. Wand of Nagamar — needed for the tower's Wall of Skin  ← **THE sole blocker now**
 Have **ruby W ✓ / metallic A ✓ / heavy D ✓** — still need the **lowercase n**, then meat-paste all four (spells "WAND").
-**Source of the lowercase n = The Valley of Rof L'm Fao** (drops without a Lucky adventure). Post-2015 alternative: the
-**Bear Verb Orgy** noncombat in **The Misspelled Cemetary** can hand over the whole Wand. ⚠️ **Verify zone access first**
-next session — the Valley may be locked; `place.php?whichplace=cemetery` returned nothing today (cemetery access likely
-moved post-Nemesis — the regular Unquiet Garves was snarf 21 via `whichplace=plains`). Research the current access, then farm the n.
+- **lowercase n source:** The Valley of Rof L'm Fao (gated behind Black Angus / Fernswarthy's Basement — likely NOT
+  accessible to us). Post-2015 route: the **Bear Verb Orgy** noncombat (anagram of "Grave Robbery") in **The VERY
+  Unquiet Garves = snarf 58** (The Misspelled Cemetary, `place.php?whichplace=cemetery`; the regular Unquiet Garves = 21)
+  → pry open Nagamar's coffin → the assembled **Wand of Nagamar**.
+- **⚠️ BLOCKER (Day 83): the Bear Verb Orgy will NOT fire.** Adventured snarf 58 **51 times across the day → ZERO
+  noncombats of any kind** (both before and after reaching the Wall of Skin). This is classic **noncombat suppression** —
+  something is pushing combat frequency to ~100%. **NEXT SESSION: reduce combat rate before farming snarf 58** — strip any
+  +combat gear, and/or add a **-combat** source (e.g. Smooth Movements / a -combat potion / Louder Than Bomb), then the
+  Bear Verb Orgy should surface. (Our +combat source is unconfirmed — no +combat *effect* was active; suspect a gear piece.
+  Investigate with the in-game modifier maximizer.) Once it fires → wand → Wall of Skin.
 
-### 3. The 3 Contests (Registration Desk) — quest is LIVE
-Charpane shows: *"Go investigate the weird contest ... at the Naughty Sorceress' Tower."*
-`place.php?whichplace=nstower&action=ns_01_contestbooth` → **choice 1003**. Everyone: **Fastest Adventurer**
-(needs +init) + one random **stat** test + one random **elemental-damage** test. **One-shot evaluation —
-prep the init/stat/element modifiers BEFORE registering.**
+### 3. The 3 Contests (Registration Desk) — ✅ **DONE (Day 83)**
+Won Fastest / Smoothest (Moxie) / Spookiest → **World's Best Adventurer sash**. (Mechanic is NOT one-shot pass/fail:
+your bonus sets a rank #2–#11 = how many opponents you fight, 1–10 each. Low Moxie/spooky → rank ~11 → ~10 fights each.
+Total was ~25 opponent fights. ⚠️ keep MP topped — champions like the Tasmanian Dervish are tanky.)
 
-### 4. Hedge Maze → 5 Tower walls → Naughty Sorceress (3 forms) → break King Ralph's prism
-Wall of Skin needs the **Wand of Nagamar** (100% dmg-resist, must kill in <5 turns). Then Meat/Bones walls,
-your shadow, her familiars, then the NS. **Readiness concern:** Level 17 / Mys ~283 — the walls + NS are
-tough; may want better burst damage / gear before running the tower.
+### 4. Tower progress — ✅ contests, coronation, hedge maze, and the **6-key DOOR are all done (Day 83)**
+- ✅ Coronation (choices 1020→1021→1022). ✅ Hedge Maze (choice 1005 "Do what Frank says" → chained 1005–1013, no fights).
+- ✅ **The six-lock door is OPEN** — `place.php?whichplace=nstower_door`, actions ns_lock1..ns_lock6 (one per key) + ns_doorknob.
+  All 6 keys consumed; door swung open.
+- **Now at the Wall of Skin** = `place.php?whichplace=nstower&action=ns_05_monster1` (the 5 walls are ns_05_monster1..5).
+  Confirmed it **needs the Wand of Nagamar** (100% dmg-resist → all hits 1 dmg; it beat me up without the wand). **BLOCKED on
+  the wand (see §2).** After the walls: your shadow → NS familiars → **Naughty Sorceress (3 forms)** → break King Ralph's prism.
+- **Readiness concern:** Level 17 / Mys ~289 — the walls + NS are tough; want better burst/gear. Also **stock MP restoratives
+  heavily** (we ran tiny houses + sodas to ZERO mid-session; fell back to MMJ from the guild store, row 527).
 
 ### Vestigial loose end
 **"My Other Car Is Made of Meat"** (guild) still shows open despite the Bitchin' Meatcar (134) being built.
@@ -62,37 +72,37 @@ Almost certainly closeable — try USE-ing the car or visiting the guild car-guy
 
 ---
 
-## 📊 Character state (end of Day 82)
+## 📊 Character state (end of Day 83)
 
-- **Level 17 Pastamancer.** Mys ~286 buffed, Muscle ~138, Moxie ~190. HP 244 max, MP 472 max.
-- **Meat ~13,850.** (Farmed the Airship for ~+3,200 after the keys were done.)
-- **Meters:** full 14/15, drunk 12/14 (clean — exactly 2 Fog), **adv 29 banked** (drink-bonus, rolled over).
+- **Level 17 Pastamancer.** Mys ~289 buffed, Muscle ~138, Moxie ~195. HP 247 max, MP 475 max.
+- **Meat ~8,680.** (Spent ~5k on a 50-pack of MMJ mid-session after tiny houses/sodas hit zero, ~1k on Fog + jerky.)
+- **Meters:** full 14/15, drunk 12/14 (clean — exactly 2 Fog), **adv 33 banked** (drink-bonus, rolled over).
 - **Equipment:** hat reinforced beaded headband (2337) · weapon **Greek Pasta Spoon of Peril (2561)** ·
   offhand spiky turtle shield (3926) · pants bullet-proof corduroys (2032) · acc1 Baron monocle (1312, +item) ·
-  **acc2 continuum transfunctioner (458)** (for 8-bit; can swap back to a lucky rabbit's foot 1485 now the key is done) ·
-  acc3 ring of Detect Boring Doors (6303, for the Daily Dungeon).
-- **8-Bit Score: ~10,450** (digital key already claimed — further 8-bit points are now useless).
-- **Consumables:** ~131 stolen sushi (6293), ~30 tiny houses (592), ~5 Mountain Stream sodas (357 — restock),
-  ~46 photoprotoneutron torpedoes (630), ~65 scrolls of drastic healing (595), 42 bubblin' crude (5789),
-  99 dry noodles (304), 1 jerky (2620) spare, Daily-Dungeon tools (pole 6302, lockpicks 280, Boring-Doors ring 6303 equipped).
-  Jerky runs out fast — buy ~2 from the mall each morning to top the EAT step after 2 sushi (mall radio value = `itemid.price`).
+  acc2 continuum transfunctioner (458) · acc3 ring of Detect Boring Doors (6303).
+  ⚠️ Something here is likely **+combat** (suppressing the Bear Verb Orgy NC) — audit with the maximizer next session.
+- **Consumables:** ~127 stolen sushi (6293), **~40 MMJ (518, guild-store MP battery — the current MP source)**,
+  **tiny houses (592) & Mountain Stream sodas (357) both at ZERO — restock or lean on MMJ**, ~44 torpedoes (630),
+  ~63 scrolls of drastic healing (595), 42 bubblin' crude (5789), 99 dry noodles (304). Buy ~2 jerky each morning to top EAT.
+- Holds: World's Best Adventurer sash, ruby W + metallic A + heavy D (3/4 wand letters).
 
 ---
 
 ## 🔜 Next-session priorities (ordered)
 
-All 6 keys are DONE. Two prereqs remain before the tower gauntlet:
+Contests, coronation, hedge maze, and the 6-key door are all DONE. Standing at the Wall of Skin. **One blocker: the Wand.**
 
-1. **Wand of Nagamar — get the lowercase n, then paste the wand.** Research/verify access to **The Valley of Rof L'm Fao**
-   (the n-source) or the **Bear Verb Orgy** in **The Misspelled Cemetary**; farm the n; meat-paste W+A+n+D → Wand of Nagamar.
-   (No Daily Dungeon needed anymore — hero keys are all collected.)
-2. **Prep + run the 3 Contests** (Registration Desk, `nstower&action=ns_01_contestbooth` → choice 1003). One-shot check:
-   cast **Springy Fusilli (3015)** + init gear for Fastest Adventurer, and have flexible **stat / elemental** buffs ready
-   for the two random tests. Buff/gear FIRST, then register.
-3. **Then the tower:** hedge maze → Wall of Skin (needs the Wand) → Meat/Bones walls → your shadow → NS familiars →
-   **Naughty Sorceress (3 forms)** → break King Ralph's prism → ascend. ⚠️ Consider a burst-damage/gear check first —
-   the walls + NS are tough at Level 17. Meat cushion (~14k) is available for gear.
-4. Optional cleanup: close the vestigial "My Other Car Is Made of Meat" (USE the Meatcar / visit the guild car-guy).
+1. **GET THE WAND OF NAGAMAR (the whole run hinges on this).** The Bear Verb Orgy NC at **The VERY Unquiet Garves (snarf 58)**
+   is suppressed by our ~100% combat rate (51 fights, 0 NCs). **Fix combat rate FIRST:** open the in-game **maximizer** /
+   char sheet to find the +combat source (probably a gear piece), strip it, and/or add a **-combat** effect, THEN adventure
+   snarf 58 → Bear Verb Orgy → Wand of Nagamar. (Restock MP first — buy MMJ 518 from guild store row 527, and/or tiny
+   houses/sodas.) If snarf 58 truly won't yield it, research alternate n-sources or the Fernswarthy's/Valley route.
+2. **Beat the 5 walls** (`nstower&action=ns_05_monster1..5`): Wall of Skin (wand insta-clears it) → Wall of Meat →
+   Wall of Bones → your shadow (can't be damaged normally — use items/HP drain per wiki) → NS familiars. Enter each at
+   FULL HP + FULL MP; the walls hit hard. Consider better burst/gear (meat ~8.7k).
+3. **Naughty Sorceress (3 forms)** → break King Ralph's prism → quest done → **ascend** (Softcore first — see `mechanics/ascension.md`).
+4. **Restock MP restoratives at day-open** (tiny houses + sodas hit zero mid-Day-83 and caused a Beaten-Up cascade).
+5. Optional cleanup: close the vestigial "My Other Car Is Made of Meat" (USE the Meatcar / visit the guild car-guy).
 
 ---
 
@@ -100,6 +110,12 @@ All 6 keys are DONE. Two prereqs remain before the tower gauntlet:
 
 Newest first. Deep operational detail lives in `mechanics/*.md` and the lore diaries in `my-adventures/`.
 
+- **Day 83 (07-09):** **Blitzed the tower: contests + coronation + hedge maze + the 6-key door, all done.** Won all 3
+  contests (Fastest/Smoothest/Spookiest) → World's Best Adventurer sash (learned: rank #2–#11 = how many opponents you
+  fight, not pass/fail). Coronation cutscene, hedge maze (followed Frank), then opened the six-lock door with all 6 keys.
+  Reached the **Wall of Skin** — confirmed it needs the Wand. **Wand still blocked:** the Bear Verb Orgy at snarf 58 won't
+  fire (51 fights, 0 NCs = combat-rate suppression). Rough patch mid-session: tiny houses/sodas hit zero → MP-starved →
+  Tasmanian Dervish Beaten-Up; recovered via a 50-pack of MMJ. EAT/ADV/DRINK all done.
 - **Day 82 (07-08):** **ALL 6 TOWER KEYS DONE.** Daily Dungeon → fat loot token → **Sneaky Pete's key** (5/6). Then
   ground the **8-Bit Realm** using the color-rotation trick (fight whichever zone the Score counter's color doubles) →
   Score 3,350 → 10,450 → claimed the **digital key** from the Treasure House first chest (6/6). Farmed the Airship for
