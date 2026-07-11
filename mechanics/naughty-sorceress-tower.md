@@ -101,18 +101,33 @@ Two ways to obtain it:
   **choices 1005→1013 with NO fights** (~9 turns). (Opposing Frank = faster but topiary-golem combats.)
 - **The 6-lock Door** = its own place **`place.php?whichplace=nstower_door`** — actions **ns_lock1..ns_lock6** (fetch each;
   each consumes the matching hero/other key) then **ns_doorknob** to open. Free (no adv). Need all 6 keys present.
-- **The 5 walls** = `place.php?whichplace=nstower&action=ns_05_monster1 .. ns_05_monster5`:
-  - **monster1 = Wall of Skin:** 50 HP, **100% damage resistance (all hits → 1 dmg)**, ramps with your max HP, **can't be
-    stunned, must kill in <5 turns.** ⚠️ **Does NOT use the wand.** Win by stacking **multiple small damage sources** (each
-    does 1/round through the resistance, so you need ~10/round): best = a **beehive** (from **The Black Forest** → "Bees Hate
-    You"); or a **Glover familiar + "attack with your weapon"**; or multi-source damage familiars (**Imitation Crab** 4/rd,
-    Sludgepuppy, Mini-Crimbot); or passive-damage skills (Spiky Shell, Jalapeño Saucesphere, Psalm of Pointiness, Scarysauce,
-    Feel Nervous, Summon Love Stinkbug). Raising max HP does NOT help (its damage is %-based).
-  - then **Wall of Meat**, **Wall of Bones**, your **shadow/doppelgänger** (can't be hurt by normal damage — see wiki),
-    and the **Sorceress's familiars**. Enter each at FULL HP + FULL MP; they hit hard.
+- **The 5 walls/guardians** ✅all verified-live Day 84. ⚠️ The action's LEVEL number increments as you climb
+  (ns_05_monster1 → ns_06_monster2 → ns_07_monster3 → ns_09_monster5); read `place.php?whichplace=nstower` for the current action.
+  - **Wall of Skin** (`ns_05_monster1`): 50 HP, 100% dmg-resist, can't stun, kill in <5 turns. ⚠️ NOT the wand.
+    **✅ Use a beehive as a combat item = instant kill.** Beehive = item **7969**, from **The Black Forest (snarf 405)**:
+    choice **923 opt 1** (blackberry patch) → **924 opt 3** (buzzing sound) → **1018 opt 1** (keep going) → **1019 opt 1**
+    (beehive), ~3 turns. In the fight: `fight.php?action=useitem&whichitem=7969`. (Alternatives if no beehive: Glover
+    familiar + weapon attack; multi-source damage familiars; passive-damage skills. Raising max HP does NOT help — %-based.)
+  - **Wall of Meat** (`ns_06_monster2`): **700 HP**, hits ~15% max HP/round. Kill with Mortar→Cannelloni, but you must
+    **re-fight it ~5× until it drops 1,001 total meat** (base ~200/kill); the tower action stays put until then. Full HP+MP between kills.
+  - **Wall of Bones** (`ns_07_monster3`): only **GROUP/AoE damage** works — single-target spells (Cannelloni) make it FULLY
+    HEAL. **✅ electric boning knife (item 7970) = instant kill** (`fight.php?action=useitem&whichitem=7970`). Get it from the
+    **Castle Ground Floor (snarf 323)** → "Home on the Free Range" **choice 1026 opt 2** ("investigate the noisy drawer"); the
+    NC is boosted to 3 copies once tower level 3 is unlocked, so it drops in ~1 turn. (Stuffed Mortar Shell 3007 is also group
+    damage but only once/fight.)
+  - **Mirror → Shadow** (`ns_09_monster5`): first a mirror **choice 1015 opt 1 "Gaze into the mirror"** (do NOT break it —
+    breaking makes the NS immune to stuns). Then fight **a Shadow [your class]** — ⚠️ **immune to ALL attack damage; only
+    HEALING items hurt it** (each HP healed = 1 dmg; ~395 HP, capped at your max-HP deficit per use). Method: **attack to
+    provoke its hit → then heal** with **scented massage oil (item 2438, full heal + stun, ~2k meat)** for big chunks +
+    **filthy poultice (item 2369, ~170 meat, heals a lot)** for smaller ones. Scrolls of drastic healing do NOT work in combat.
 
 ## Step 5 — The Naughty Sorceress + King Ralph  (from wiki)
-Fight the **Naughty Sorceress (3 forms)**. Notes:
+Fight the **Naughty Sorceress (3 forms)** at `place.php?whichplace=nstower&action=ns_10_sorcfight` — ONE continuous combat
+(re-entering the action resumes it; a loss restarts it from form 1). Forms are "The Naughty Sorceress" → "(2)" → "(3)". Notes:
+- **Form 1** falls easily to Mortar→Cannelloni. **Form 2 is the wall** — she **blocks ~half your spells** and hits ~150+/round.
+  Win it with **Entangling Noodles (3004) to stun** (she IS stunnable if you *gazed* at the mirror, didn't break it) +
+  **Cannelloni (3005)** burst + **reliable healing** (filthy poultice 2369 at <55% HP). ⚠️ read HP from the fight page /
+  charpane, NOT api.php (stale-HP caching makes auto-heal miss — see HANDOFF). Enter FULL HP + FULL MP.
 - **Form 3 requires the Wand of Nagamar in inventory** (see Step 3). Without it you get defeated by form 3 — which is what
   **unlocks the Bear Verb Orgy** wand-search. So the intended order is: reach form 3 → lose → get the wand → return and win.
 - Letting her beat you up lowers her block rate (≈30% after 4 losses); high buffed **Mysticality** reduces her spell blocks;

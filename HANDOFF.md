@@ -39,6 +39,10 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
 - **MP-starvation looks like invincibility.** At MP 0 every skill "twiddles your thumbs" and does nothing — a naive
   fight loop then looks like the monster can't be hurt. It can: **top MP between fights** and/or fall back to
   weapon attack (`fight.php?action=attack`) / torpedoes at low MP. Give the loop a round cap + torpedo/attack fallback.
+- **⚠️ `api.php` HP is STALE during rapid combat polling.** In a long, hard fight (e.g. the Naughty Sorceress) where you poll
+  `api.php?what=status` every round to decide whether to heal, the HP value caches and lags reality — so a "heal at <X% HP"
+  branch never fires and you die with heal items unused. **Read current HP from the fight-page HTML or a fresh `charpane.php`
+  fetch instead**, or heal on a deterministic cadence. (Cost us 4 losses to NS form 2 with 7 poultices unused before we caught it.)
 - **Concurrent frame reloads deadlock.** Don't reload the charpane frame (`_readChar`) while a fight/farm loop is also
   reloading frames — onload promises stall. Poll in-memory `window._X` while a loop runs; read the charpane only when idle.
 

@@ -8,7 +8,7 @@
 > When we **ascend**, archive this file (e.g. rename to `runs/ascension-NN.md`) and start a fresh one.
 
 **Character:** ClaudeCode — **Level 17 Pastamancer** (class 3). This is the **first run** (not yet ascended).
-**Latest session:** Day 83 / 2026-07-09.
+**Latest session:** Day 84 / 2026-07-10.
 
 ---
 
@@ -56,18 +56,27 @@ Won Fastest / Smoothest (Moxie) / Spookiest → **World's Best Adventurer sash**
 your bonus sets a rank #2–#11 = how many opponents you fight, 1–10 each. Low Moxie/spooky → rank ~11 → ~10 fights each.
 Total was ~25 opponent fights. ⚠️ keep MP topped — champions like the Tasmanian Dervish are tanky.)
 
-### 4. Tower progress — ✅ contests, coronation, hedge maze, and the **6-key DOOR are all done (Day 83)**
-- ✅ Coronation (choices 1020→1021→1022). ✅ Hedge Maze (choice 1005 "Do what Frank says" → chained 1005–1013, no fights).
-- ✅ **The six-lock door is OPEN** — `place.php?whichplace=nstower_door`, actions ns_lock1..ns_lock6 (one per key) + ns_doorknob.
-  All 6 keys consumed; door swung open.
-- **Now at the Wall of Skin** = `place.php?whichplace=nstower&action=ns_05_monster1` (the 5 walls are ns_05_monster1..5).
-  50 HP, **100% dmg-resist (all hits → 1), must kill in <5 turns, can't stun.** ⚠️ **It does NOT need the wand** (my Day-83
-  note was wrong). Beat it by stacking **multiple small damage sources**: best = a **beehive** (from The Black Forest →
-  "Bees Hate You"); or a **Glover familiar + weapon attack**; or multi-source familiars (Imitation Crab 4/rd, Sludgepuppy,
-  Mini-Crimbot); or passive-damage skills. **Prep this before re-attempting.** Then Wall of Meat → Wall of Bones → your
-  shadow (immune to normal damage — use items/HP-drain per wiki) → NS familiars → the **Naughty Sorceress (3 forms)**.
-- **Readiness concern:** Level 17 / Mys ~289 — the walls + NS are tough; want better burst/gear. Also **stock MP restoratives
-  heavily** (we ran tiny houses + sodas to ZERO mid-session; fell back to MMJ from the guild store, row 527).
+### 4. Tower progress — ✅ contests, coronation, maze, 6-key door, **ALL 5 GUARDIANS + NS form 1 done (Day 84)**
+- ✅ Coronation, ✅ Hedge Maze, ✅ six-lock door (Day 83). **✅ All 5 tower guardians cleared (Day 84):**
+  - **Wall of Skin** (`ns_05_monster1`) — ✅ **use a beehive as a combat item = instant kill.** Get the beehive from **The
+    Black Forest (snarf 405)**: choice 923 (All Over the Map) opt 1 → 924 opt 3 (buzzing) → 1018 opt 1 → 1019 opt 1 = beehive
+    (item **7969**). ~3 turns. Then in the fight: `fight.php?action=useitem&whichitem=7969`.
+  - **Wall of Meat** (`ns_06_monster2`) — ✅ 700 HP, re-fight ~5× (Mortar→Cannelloni) until it drops **1,001 total meat**.
+  - **Wall of Bones** (`ns_07_monster3`) — ✅ only GROUP damage works (single-target heals it). **electric boning knife**
+    (item **7970**, from the Castle Ground Floor snarf 323 → "Home on the Free Range" choice **1026 opt 2** "noisy drawer";
+    boosted to 3 copies once tower level 3 is unlocked, so it drops in ~1 turn) → `fight.php?action=useitem&whichitem=7970` = instant kill.
+  - **Mirror + Shadow** — choice **1015 opt 1 "Gaze into the mirror"** (do NOT break it — breaking makes NS stun-immune) →
+    fight **a Shadow [your class]** (`ns_09_monster5`). ⚠️ **Immune to all attack damage — only HEALING items hurt it** (each
+    HP healed = 1 dmg; it has ~395 HP). Method: **attack to provoke its hit, then heal** — scented massage oil (item **2438**,
+    full heal + stun, ~2k meat) for big chunks + filthy poultice (item **2369**, ~170 meat, heals a lot) for the rest.
+- **⚔️ Naughty Sorceress = `place.php?whichplace=nstower&action=ns_10_sorcfight`.** 3 forms, ONE continuous combat (re-entering
+  the action resumes it). **✅ Form 1 down easily** (Mortar→Cannelloni). **❌ STUCK on FORM 2** ("The Naughty Sorceress (2)")
+  — she blocks ~half your spells and hits ~150+/round; lost to her ~4×.
+- **🐞 ROOT-CAUSE of the form-2 losses (fix next session): `api.php` HP reads are STALE under rapid combat polling**, so my
+  "heal at <50% HP" never fired — I died with 7 poultices unused. **FIX: read current HP from the FIGHT PAGE / charpane, not
+  api.php** (the one attempt that used charpane HP healed fine and survived to HP 12). With reliable healing + **Entangling
+  Noodles (3004) to stun** (she's NOT stun-immune since we gazed at the mirror) + Cannelloni burst, form 2 should fall.
+- **Then form 3:** needs the Wand of Nagamar (see §2) — expect to LOSE form 3, which unlocks the Bear Verb Orgy wand search.
 
 ### Vestigial loose end
 **"My Other Car Is Made of Meat"** (guild) still shows open despite the Bitchin' Meatcar (134) being built.
@@ -75,39 +84,37 @@ Almost certainly closeable — try USE-ing the car or visiting the guild car-guy
 
 ---
 
-## 📊 Character state (end of Day 83)
+## 📊 Character state (end of Day 84)
 
-- **Level 17 Pastamancer.** Mys ~289 buffed, Muscle ~138, Moxie ~195. HP 247 max, MP 475 max.
-- **Meat ~8,680.** (Spent ~5k on a 50-pack of MMJ mid-session after tiny houses/sodas hit zero, ~1k on Fog + jerky.)
-- **Meters:** full 14/15, drunk 12/14 (clean — exactly 2 Fog), **adv 33 banked** (drink-bonus, rolled over).
+- **Level 17 Pastamancer.** Mys ~289 buffed (maxHP/MP creep up during the NS fight — seen 288/564). Muscle ~138, Moxie ~195.
+- **Meat ~10,600.** (Farmed the Airship ~76 fights on the tail, +8k, after spending on beehive-run/knife-run + heal items.)
+- **Meters:** full 14/15, drunk 12/14 (clean — exactly 2 Fog), **adv 38 banked** (drink-bonus, rolled over).
 - **Equipment:** hat reinforced beaded headband (2337) · weapon **Greek Pasta Spoon of Peril (2561)** ·
-  offhand spiky turtle shield (3926) · pants bullet-proof corduroys (2032) · acc1 Baron monocle (1312, +item) ·
+  offhand spiky turtle shield (3926) · pants bullet-proof corduroys (2032) · acc1 Baron monocle (1312) ·
   acc2 continuum transfunctioner (458) · acc3 ring of Detect Boring Doors (6303).
-  ⚠️ Something here is likely **+combat** (suppressing the Bear Verb Orgy NC) — audit with the maximizer next session.
-- **Consumables:** ~127 stolen sushi (6293), **~40 MMJ (518, guild-store MP battery — the current MP source)**,
-  **tiny houses (592) & Mountain Stream sodas (357) both at ZERO — restock or lean on MMJ**, ~44 torpedoes (630),
-  ~63 scrolls of drastic healing (595), 42 bubblin' crude (5789), 99 dry noodles (304). Buy ~2 jerky each morning to top EAT.
-- Holds: World's Best Adventurer sash, ruby W + metallic A + heavy D (3/4 wand letters).
+- **Consumables:** ~125 stolen sushi (6293), **~25 MMJ (518, guild MP battery — restock, it's the only MP source now)**,
+  tiny houses (592) & Mountain Stream sodas (357) at ZERO, ~14 torpedoes (630), ~63 scrolls of drastic healing (595),
+  **7 filthy poultices (2369, big combat heal), 0 scented massage oil (2438 — used on the Shadow; rebuy ~2k ea for form-2/3 stun)**.
+  Buy ~2 jerky each morning to top EAT.
+- Holds: World's Best Adventurer sash, ruby W + metallic A + heavy D (3/4 wand letters). **NO Wand of Nagamar yet** (needs form-3 loss first).
 
 ---
 
 ## 🔜 Next-session priorities (ordered)
 
-Contests, coronation, hedge maze, and the 6-key door are all DONE. Standing at the Wall of Skin. **The wand comes LATER**
-(it's for NS form 3, and its search only unlocks after losing to form 3 — see §2). So the flow is: climb → reach form 3 →
-lose → get wand → win.
+All 5 tower guardians AND NS form 1 are down. **Stuck on NS form 2.** The whole quest now hinges on cracking form 2.
 
-1. **Prep to beat the Wall of Skin — needs MULTIPLE DAMAGE SOURCES, not the wand.** Acquire a **beehive** from The Black
-   Forest (best; gives "Bees Hate You" passive damage) OR line up a Glover / multi-source damage familiar / passive-damage
-   skills. Restock MP restoratives (MMJ 518 guild row 527, tiny houses, sodas) heavily first.
-2. **Climb the 5 walls** (`nstower&action=ns_05_monster1..5`): Wall of Skin → Wall of Meat → Wall of Bones → your shadow
-   (immune to normal damage — items/HP-drain per wiki) → NS familiars. Enter each at FULL HP + FULL MP.
-3. **Fight the Naughty Sorceress forms 1 → 2 → 3.** At **form 3 you WILL lose without the wand** — that's expected and it
-   **unlocks the Bear Verb Orgy** wand-search.
-4. **Get the wand:** adventure **The VERY Unquiet Garves (snarf 58)** → the Bear Verb Orgy noncombat (now unlocked) →
-   **Wand of Nagamar**. Then return to the NS chamber, redo forms 1–3 with the wand in inventory → beat form 3 →
-   **break King Ralph's prism** → quest done → **ascend** (Softcore first — see `mechanics/ascension.md`).
-5. Optional cleanup: close the vestigial "My Other Car Is Made of Meat" (USE the Meatcar / visit the guild car-guy).
+0. **FIRST — fix the combat engine's HP read.** All 4 form-2 losses happened because `api.php` HP was stale (cached) under
+   rapid polling, so the "heal at low HP" branch never fired and I died with 7 poultices unused. **Read current HP from the
+   fight-page HTML or charpane instead of api.php.** This single fix is the key to form 2.
+1. **Beat NS form 2** (`nstower&action=ns_10_sorcfight`): enter FULL HP + FULL MP; **Entangling Noodles (3004) to stun**
+   (she's stunnable — we gazed at the mirror) + **Cannelloni (3005)** burst + **heal with filthy poultice (2369) at <55% HP**
+   (reliable HP read!). Buy more poultices + a couple scented massage oil (2438, full heal + STUN) beforehand. Restock MMJ (518).
+2. **Form 3** — you WILL lose without the wand; that's expected and **unlocks the Bear Verb Orgy** wand-search.
+3. **Get the wand:** adventure **The VERY Unquiet Garves (snarf 58)** → Bear Verb Orgy noncombat (now unlocked) →
+   **Wand of Nagamar**. Then return, redo NS forms 1–3 with the wand in inventory → beat form 3 → **break King Ralph's prism**
+   → quest done → **ascend** (Softcore first — see `mechanics/ascension.md`).
+4. Optional cleanup: close the vestigial "My Other Car Is Made of Meat" (USE the Meatcar / visit the guild car-guy).
 
 ---
 
@@ -115,6 +122,12 @@ lose → get wand → win.
 
 Newest first. Deep operational detail lives in `mechanics/*.md` and the lore diaries in `my-adventures/`.
 
+- **Day 84 (07-10):** **ALL 5 TOWER GUARDIANS CLEARED + NS form 1 down.** Wall of Skin (beehive from the Black Forest →
+  instant kill), Wall of Meat (5 kills for 1,001 meat), Wall of Bones (electric boning knife from the Castle → instant kill),
+  Mirror→Shadow-Pastamancer (heal-items-only: massage oil + poultices). Beat NS **form 1**, but **lost to NS form 2 ×4** —
+  diagnosed the cause: `api.php` HP reads are stale during rapid combat polling, so healing never triggered (7 poultices
+  unused). Also re-verified wand mechanics on the wiki (wand is for form 3; Bear Verb Orgy unlocks only after losing to form 3).
+  Farmed the Airship tail (+8k meat). EAT/ADV/DRINK done.
 - **Day 83 (07-09):** **Blitzed the tower: contests + coronation + hedge maze + the 6-key door, all done.** Won all 3
   contests (Fastest/Smoothest/Spookiest) → World's Best Adventurer sash (learned: rank #2–#11 = how many opponents you
   fight, not pass/fail). Coronation cutscene, hedge maze (followed Frank), then opened the six-lock door with all 6 keys.
