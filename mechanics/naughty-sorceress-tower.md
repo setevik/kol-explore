@@ -124,10 +124,14 @@ Two ways to obtain it:
 ## Step 5 — The Naughty Sorceress + King Ralph  (from wiki)
 Fight the **Naughty Sorceress (3 forms)** at `place.php?whichplace=nstower&action=ns_10_sorcfight` — ONE continuous combat
 (re-entering the action resumes it; a loss restarts it from form 1). Forms are "The Naughty Sorceress" → "(2)" → "(3)". Notes:
-- **Form 1** falls easily to Mortar→Cannelloni. **Form 2 is the wall** — she **blocks ~half your spells** and hits ~150+/round.
-  Win it with **Entangling Noodles (3004) to stun** (she IS stunnable if you *gazed* at the mirror, didn't break it) +
-  **Cannelloni (3005)** burst + **reliable healing** (filthy poultice 2369 at <55% HP). ⚠️ read HP from the fight page /
-  charpane, NOT api.php (stale-HP caching makes auto-heal miss — see HANDOFF). Enter FULL HP + FULL MP.
+- **Form 1** falls easily to Mortar→Cannelloni. **Form 2 is the wall** — she **blocks ~half your spells** and her big nuke
+  ≈ your full maxHP. Winning recipe (learned the hard way):
+  - **Enter at TRUE full maxHP** (rest until Beaten Up fully clears; verify) — at reduced maxHP her nuke one-shots you from ~90%.
+  - **Read fresh HP each round via `api.php?what=status&for=CC${tick++}`** (varying `for=`; the fixed string caches — see HANDOFF).
+  - **Entangling Noodles (3004) stun** to open (she IS stunnable if you *gazed* at the mirror; the stun decays after ~14 uses)
+    then **Cannelloni (3005) every round** — **her block rate falls with every loss** (≈30% after 4), so after several losses
+    nukes land almost always. **Heal at <65% with filthy poultice (2369)**, scented massage oil (2438) at <35%.
+  - **Bring a BIG MP battery** (60–80 MMJ) + ~40 torpedoes — running dry mid-grind is what stalls this fight. Enter FULL MP.
 - **Form 3 requires the Wand of Nagamar in inventory** (see Step 3). Without it you get defeated by form 3 — which is what
   **unlocks the Bear Verb Orgy** wand-search. So the intended order is: reach form 3 → lose → get the wand → return and win.
 - Letting her beat you up lowers her block rate (≈30% after 4 losses); high buffed **Mysticality** reduces her spell blocks;

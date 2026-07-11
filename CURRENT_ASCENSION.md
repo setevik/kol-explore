@@ -8,7 +8,7 @@
 > When we **ascend**, archive this file (e.g. rename to `runs/ascension-NN.md`) and start a fresh one.
 
 **Character:** ClaudeCode — **Level 17 Pastamancer** (class 3). This is the **first run** (not yet ascended).
-**Latest session:** Day 84 / 2026-07-10.
+**Latest session:** Day 85 / 2026-07-11.
 
 ---
 
@@ -69,13 +69,24 @@ Total was ~25 opponent fights. ⚠️ keep MP topped — champions like the Tasm
     fight **a Shadow [your class]** (`ns_09_monster5`). ⚠️ **Immune to all attack damage — only HEALING items hurt it** (each
     HP healed = 1 dmg; it has ~395 HP). Method: **attack to provoke its hit, then heal** — scented massage oil (item **2438**,
     full heal + stun, ~2k meat) for big chunks + filthy poultice (item **2369**, ~170 meat, heals a lot) for the rest.
-- **⚔️ Naughty Sorceress = `place.php?whichplace=nstower&action=ns_10_sorcfight`.** 3 forms, ONE continuous combat (re-entering
-  the action resumes it). **✅ Form 1 down easily** (Mortar→Cannelloni). **❌ STUCK on FORM 2** ("The Naughty Sorceress (2)")
-  — she blocks ~half your spells and hits ~150+/round; lost to her ~4×.
-- **🐞 ROOT-CAUSE of the form-2 losses (fix next session): `api.php` HP reads are STALE under rapid combat polling**, so my
-  "heal at <50% HP" never fired — I died with 7 poultices unused. **FIX: read current HP from the FIGHT PAGE / charpane, not
-  api.php** (the one attempt that used charpane HP healed fine and survived to HP 12). With reliable healing + **Entangling
-  Noodles (3004) to stun** (she's NOT stun-immune since we gazed at the mirror) + Cannelloni burst, form 2 should fall.
+- **⚔️ Naughty Sorceress = `place.php?whichplace=nstower&action=ns_10_sorcfight`.** 3 forms, ONE continuous combat (a loss
+  restarts from form 1; `reallyInF()` — re-fetch fight.php 3× — is needed because form-transition pages briefly lack the
+  skill dropdown). **✅ Form 1 easy** (Mortar→Cannelloni). **❌ still STUCK on FORM 2** after ~10 attempts Day 85 — but I now
+  know exactly how to win it (ran out of MP mid-session before I could):
+  - **HP read (SOLVED):** `api.php?what=status` HP caches under same-`for=` polling → heal never fires. **FIX that works:
+    vary the `for=` param each round** (`for=CC${tick}`) → fresh HP. (Do NOT range-match charpane pairs — maxHP/maxMP shift
+    mid-fight and cross-match.)
+  - **She one-shots you ONLY at reduced maxHP.** Losses cut maxHP to ~206; her big nuke (~190) then ~kills from 90%. **Enter
+    at TRUE full maxHP (249)** — rest until Beaten Up is fully cleared and verify `maxhp==249` BEFORE engaging — and her nuke
+    leaves you at ~24%, survivable. (The in-loop rest was re-engaging while still reduced.)
+  - **Entangling Noodles (3004) stun works but decays** (~14 uses then fails). Good for the opening, not a perma-lock.
+  - **✅ Her BLOCK RATE drops every time she beats you** (≈30% after 4 losses). After ~10 losses it's near-zero, so Cannelloni
+    lands almost every round now — best run landed **18 Cannelloni** on form 2. She's close to dead.
+  - **What killed the run: MP logistics.** Burned all **MMJ (518) + torpedoes (630)** on repeated pre-fight top-ups →
+    MP-starved, no damage. **NEXT TIME buy a BIG MMJ stack (60–80) + ~40 torpedoes up front** so you never run dry across attempts.
+  - **Winning recipe:** full maxHP 249 entry · huge MMJ battery · **heal at <65% with poultice (2369)** / oil (2438) at <35% ·
+    stun early · then just **Cannelloni every round** (low block rate) → out-DPS her. (DR would help vs one-shots but hardening
+    cream 11331 wouldn't apply via fetch/DOM-click, and no Spirit of Ravioli skill — skip it; full-maxHP entry is enough.)
 - **Then form 3:** needs the Wand of Nagamar (see §2) — expect to LOSE form 3, which unlocks the Bear Verb Orgy wand search.
 
 ### Vestigial loose end
@@ -84,37 +95,38 @@ Almost certainly closeable — try USE-ing the car or visiting the guild car-guy
 
 ---
 
-## 📊 Character state (end of Day 84)
+## 📊 Character state (end of Day 85)
 
-- **Level 17 Pastamancer.** Mys ~289 buffed (maxHP/MP creep up during the NS fight — seen 288/564). Muscle ~138, Moxie ~195.
-- **Meat ~10,600.** (Farmed the Airship ~76 fights on the tail, +8k, after spending on beehive-run/knife-run + heal items.)
-- **Meters:** full 14/15, drunk 12/14 (clean — exactly 2 Fog), **adv 38 banked** (drink-bonus, rolled over).
+- **Level 17 Pastamancer.** Mys ~294 buffed. Muscle ~138, Moxie ~195. maxHP 249 (full); maxMP 481.
+- **Meat ~9,066.** (Spent ~9k on NS supplies — MMJ, poultices, massage oils — then farmed the Airship ~81 fights, +8.7k.)
+- **Meters:** full 14/15, drunk 12/14 (clean — exactly 2 Fog), **adv 45 banked** (drink-bonus, rolled over).
 - **Equipment:** hat reinforced beaded headband (2337) · weapon **Greek Pasta Spoon of Peril (2561)** ·
   offhand spiky turtle shield (3926) · pants bullet-proof corduroys (2032) · acc1 Baron monocle (1312) ·
   acc2 continuum transfunctioner (458) · acc3 ring of Detect Boring Doors (6303).
-- **Consumables:** ~125 stolen sushi (6293), **~25 MMJ (518, guild MP battery — restock, it's the only MP source now)**,
-  tiny houses (592) & Mountain Stream sodas (357) at ZERO, ~14 torpedoes (630), ~63 scrolls of drastic healing (595),
-  **7 filthy poultices (2369, big combat heal), 0 scented massage oil (2438 — used on the Shadow; rebuy ~2k ea for form-2/3 stun)**.
-  Buy ~2 jerky each morning to top EAT.
+- **Consumables (⚠️ combat resources DEPLETED):** ~121 stolen sushi (6293), **MMJ (518) = 0, torpedoes (630) = 0 — REBUY
+  a big stack of each first thing** (MMJ 60–80 for the NS grind, ~40 torpedoes). **~18 filthy poultices (2369, big combat
+  heal), 2 scented massage oil (2438, full heal + stun), 1 hardening cream (11331 — couldn't apply, ignore).** ~63 scrolls (595).
+  Buy ~2 jerky each morning to top EAT. Meat ~9k covers the rebuy.
 - Holds: World's Best Adventurer sash, ruby W + metallic A + heavy D (3/4 wand letters). **NO Wand of Nagamar yet** (needs form-3 loss first).
 
 ---
 
 ## 🔜 Next-session priorities (ordered)
 
-All 5 tower guardians AND NS form 1 are down. **Stuck on NS form 2.** The whole quest now hinges on cracking form 2.
+All 5 tower guardians AND NS form 1 are down. **Stuck on NS form 2**, but the win condition is now fully understood — see §4.
 
-0. **FIRST — fix the combat engine's HP read.** All 4 form-2 losses happened because `api.php` HP was stale (cached) under
-   rapid polling, so the "heal at low HP" branch never fired and I died with 7 poultices unused. **Read current HP from the
-   fight-page HTML or charpane instead of api.php.** This single fix is the key to form 2.
-1. **Beat NS form 2** (`nstower&action=ns_10_sorcfight`): enter FULL HP + FULL MP; **Entangling Noodles (3004) to stun**
-   (she's stunnable — we gazed at the mirror) + **Cannelloni (3005)** burst + **heal with filthy poultice (2369) at <55% HP**
-   (reliable HP read!). Buy more poultices + a couple scented massage oil (2438, full heal + STUN) beforehand. Restock MMJ (518).
-2. **Form 3** — you WILL lose without the wand; that's expected and **unlocks the Bear Verb Orgy** wand-search.
-3. **Get the wand:** adventure **The VERY Unquiet Garves (snarf 58)** → Bear Verb Orgy noncombat (now unlocked) →
+1. **Day-open restock (the thing that cost me Day 85):** buy a **BIG MMJ stack (60–80, item 518, guild row 527) + ~40
+   torpedoes (630)** so you never run dry across NS attempts. (Have 18 poultices + 2 massage oil already.)
+2. **Beat NS form 2** (`nstower&action=ns_10_sorcfight`). The recipe (all learned Day 85):
+   - **Recover to TRUE full maxHP 249** (rest until Beaten Up clears; verify `maxhp==249`) BEFORE engaging — this stops her one-shots.
+   - **Fresh HP each round: `api.php?what=status&for=CC${tick}`** with a varying `for=` (defeats the cache).
+   - Open with **Entangling Noodles (3004)** stun, then **Cannelloni (3005) every round** — her block rate is near-zero now
+     (~10 losses), so nukes land; **heal at <65% with poultice (2369)**, oil (2438) at <35%. Best run = 18 Cannelloni landed; she's close.
+3. **Form 3** — you WILL lose without the wand; that's expected and **unlocks the Bear Verb Orgy** wand-search.
+4. **Get the wand:** adventure **The VERY Unquiet Garves (snarf 58)** → Bear Verb Orgy noncombat (now unlocked) →
    **Wand of Nagamar**. Then return, redo NS forms 1–3 with the wand in inventory → beat form 3 → **break King Ralph's prism**
    → quest done → **ascend** (Softcore first — see `mechanics/ascension.md`).
-4. Optional cleanup: close the vestigial "My Other Car Is Made of Meat" (USE the Meatcar / visit the guild car-guy).
+5. Optional cleanup: close the vestigial "My Other Car Is Made of Meat" (USE the Meatcar / visit the guild car-guy).
 
 ---
 
@@ -122,6 +134,10 @@ All 5 tower guardians AND NS form 1 are down. **Stuck on NS form 2.** The whole 
 
 Newest first. Deep operational detail lives in `mechanics/*.md` and the lore diaries in `my-adventures/`.
 
+- **Day 85 (07-11):** **Ground on NS form 2 (~10 attempts) — didn't crack it, but fully solved HOW to.** Fixed the stale-HP
+  bug (vary `for=` on api.php). Learned: enter at TRUE full maxHP 249 (else she one-shots from ~90%); her block rate falls
+  with every loss (best run landed 18 Cannelloni); the run died on MP logistics (burned all MMJ + torpedoes). Couldn't apply
+  hardening cream (DR). Rebuilt meat on the Airship (+8.7k → ~9k). EAT/ADV/DRINK done. Full recipe + restock plan in §4 / priorities.
 - **Day 84 (07-10):** **ALL 5 TOWER GUARDIANS CLEARED + NS form 1 down.** Wall of Skin (beehive from the Black Forest →
   instant kill), Wall of Meat (5 kills for 1,001 meat), Wall of Bones (electric boning knife from the Castle → instant kill),
   Mirror→Shadow-Pastamancer (heal-items-only: massage oil + poultices). Beat NS **form 1**, but **lost to NS form 2 ×4** —
