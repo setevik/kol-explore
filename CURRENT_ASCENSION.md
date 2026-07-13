@@ -30,27 +30,32 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (start of run #2 — Day 86)
+## 📊 Character state (run #2 — end of Day 86 / opening)
 
-- **Level 1 Pastamancer.** Muscle 1, Mysticality 3, Moxie 2. HP 4/4, MP 5/5. **Meat 0. adv 40.** full 0, drunk 0.
-- Fresh start — no gear/consumables on hand yet (everything from run #1 is in **Hagnk's**, pullable during Ronin).
-- **Have:** permed **Pastamastery**, an **astral chapeau** (equip), whatever's in the terrarium.
+- **Level 3 Pastamancer.** Mysticality ~13. HP 4/6, MP 20/20. **Meat 0. adv 2.** full 0, drunk 0. **Ronin 1,000.**
+- **Equipped:** astral chapeau (hat, item 5030) · pasta spoon (weapon, 5) · old sweatpants (pants, 4711).
+- **Have:** permed **Pastamastery** (daily dry-noodle summon), starter jewels (hamethyst + 4 porquoise — sellable),
+  a Newbiesport™ tent, a **telegram from Lady Spookyraven** (starts the Manor quest later). Terrarium: (none equipped).
+- **In Hagnk's** (pull ≤20/day during Ronin): **123 stolen sushi (6293)**, **22 MMJ (518)**, + last run's 400+ item types.
+  ⚠️ No booze in storage (used all the Fog last run) and the Hidden Tavern isn't unlocked this early → **DRINK blocked** for now.
+  ⚠️ Sushi-eat was finicky/flaky-connection this session; retry EAT next session (pull sushi, `inv_eat.php?whichitem=6293`).
 
 ---
 
-## 🔜 Next-session priorities (ordered) — play the new run from the start
+## 🔜 Next-session priorities (ordered) — continue the early game
 
-This is a fresh Level-1 Softcore run. The early game is very different from the endgame we just finished.
+✅ Done Day 86: Toot Oriole (starter package), equipped gear, reached **Level 3**, **Council quest active = get a
+mosquito larva**. Still fragile (6 HP, no combat spells re-learned).
 
-1. **Open the run:** equip the **astral chapeau**; visit the **Toot Oriole** (tutorial — gives starter items) and the
-   **Pastamancer guild** to learn low-level skills; check what's worth **pulling from Hagnk's** (≤20 items/day in Ronin —
-   e.g. a few good consumables, an MP source, maybe the epic spoon if pullable — but don't blow the daily pull allowance early).
-2. **Cast Pastamastery** daily (permed) → dry noodles → work on the food recipe / EAT. **EAT → ADVENTURE → DRINK** still applies,
-   but at Level 1 the organs are tiny — consume within capacity.
-3. **Level up + start the Council quests over** (the whole L2–L12 questline resets): Toot → Council → mosquito larva, etc.
-   The proven combat combo (Mortar→Cannelloni) isn't available until those skills are re-learned from the guild by level.
-4. **Long-term goal:** finish this Softcore run (→ 111 karma, perm the next skill — e.g. a meat/econ skill), then escalate
-   toward Hardcore ascensions for more karma. See `mechanics/ascension.md` for the perm-priority plan.
+1. **EAT first** (it refuels the day — sushi gives ~+12 adv each): pull stolen sushi (6293) from Hagnk's, `inv_eat.php`.
+2. **Visit the Pastamancer guild (`guild.php`)** — learn low-level combat skills (Spaghetti Spear, etc.); sell a jewel or
+   two for starter meat if guild skills cost meat. Better combat = safer questing.
+3. **Mosquito larva quest:** adventure the **Spooky Forest (snarf 15)** → get the mosquito larva → return to Council
+   (unlocks the Bat Hole / Boss Bat). Then the L3+ Council chain (Tavern rats, Boss Bat, Cobb's Knob, …) all over again.
+4. **Level up** in the **Dire Warren (snarf 240)** (safe, unlimited fluffy bunnies) whenever you need stats.
+5. **DRINK** once the Hidden Tavern is unlocked (Tavern quest) or buy booze once you have meat.
+6. **Long-term:** finish this Softcore run (→ 111 karma, perm the next skill — a meat/econ skill), then escalate toward
+   Hardcore ascensions. See `mechanics/ascension.md` for the perm-priority plan.
 
 ⚠️ **Softcore/Ronin reminders:** no player buffs/gifts and limited Hagnk's pulls for the first 1,000 turns; after that
 Hagnk's opens fully. The old mall-buying still works (Softcore allows the mall).
@@ -63,5 +68,8 @@ Hagnk's opens fully. The old mall-buying still works (Softcore allows the mall).
   (varying `for=` HP reads + full-maxHP entry + Entangle stun + Cannelloni + aggressive heals). Reached **form 3**, lost to it
   → unlocked the **Bear Verb Orgy** at The VERY Unquiet Garves (snarf 58) → got the **Wand of Nagamar** (9 fights). Re-fought
   the NS with the wand → **beat all 3 forms**, **broke King Ralph's prism** → quest complete → astral gash. **Ascended
-  Softcore** (Pastamancer / Opossum / Standard; permed Pastamastery; astral chapeau). New Level-1 run begins.
+  Softcore** (Pastamancer / Opossum / Standard; permed Pastamastery; astral chapeau).
+  **Then opened run #2:** Toot Oriole starter package (letter from King Ralph → pork elf goodies sack = jewels),
+  equipped gear, ground the **Dire Warren (240)** to **Level 3** (Council quest = mosquito larva now active). EAT/DRINK
+  couldn't be filled (finicky sushi-eat + flaky connection; no booze source unlocked yet).
   *(Run #1's full session log Days 28–86 is archived in `runs/ascension-01-pastamancer.md`.)*
