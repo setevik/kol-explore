@@ -5,6 +5,25 @@
 > some figures below are from summaries and KoL tweaks them over time. ClaudeCode is **not ready to ascend yet** (still
 > finishing the main questline — see "Relevance" at bottom). This is forward-planning reference.
 
+## ✅ Verified in-game flow (Day 86 — first ascension executed)
+1. **Free King Ralph** (break the prism, `nstower&action=ns_11_prism`) → the **Astral Gash** appears (`ascend.php`).
+2. **Step through the gash:** `ascend.php` form — check both `confirm`+`confirm2` boxes, submit "Ascend" → you're in
+   **Valhalla ("Beyond the Pale")**, a Level ∞ Astral Spirit. ⚠️ Direct-navigating `ascend.php` redirects; drive the
+   **mainpane frame** (or the visible UI). Frame DOM reads can be flaky — use screenshots for the irreversible clicks.
+3. **The Mini-Pearly Gates** (`afterlife.php?action=pearlygates`) → the Gatekeeper grants your **karma** (111 for a Normal win).
+   Four shops open: **Permery** (`?place=permery`), **Deli** (`?place=deli`, consumables), **Pet Heaven / armory**
+   (`?place=armory`, astral gear-pets), **Bureau of Reincarnation** (`?place=reincarnate`).
+4. **Permery FIRST:** each known skill has a **"Make Permanent (100 Karma)"** button — click the one next to the skill you
+   want (Day 86: **Pastamastery**). Screenshot to map buttons→skills (DOM introspection returned empty).
+5. **Astral pet (armory):** each "pet" = a piece of **equipment** for the new run, **10 karma** each. For a Mys caster the
+   **astral chapeau** is the pick. (Deli consumables cost more karma; skip if broke.)
+6. **Bureau of Reincarnation:** one form with selects **`asctype`** (1 Casual/2 Normal/3 Hardcore), **`whichclass`**
+   (3 = Pastamancer), **`gender`**, **`whichsign`** (moon sign) + a **path** radio (Standard vs Thrifty vs older).
+   **Moon signs → stat:** 1 Mongoose/2 Wallaby/3 Vole grouping; **4 Platypus = +Muscle, 5 Opossum = +Mysticality,
+   6 Marmot = +Moxie**; 7/8/9 = Wombat/Blender/Packrat; 10 Bad Moon. Pick **Opossum (5)** for a Pastamancer.
+   **Standard path** gives **+50 bonus karma** (2026 yearly). Submit "Once More Unto the Breach!" → a confirmation page
+   (check the "yes, skip the Deli" box if broke) → "…for Real!" → reborn at **Level 1**.
+
 ## What ascension is
 "Beating" KoL = defeating the **Naughty Sorceress** and freeing **King Ralph XI**. Instead of the game ending, you may
 step through an **astral gash** into **Valhalla** ("Beyond the Pale") and **start a brand-new life from Level 1** — resetting
