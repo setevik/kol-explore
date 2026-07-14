@@ -30,30 +30,34 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 86 / opening)
+## 📊 Character state (run #2 — end of Day 87 / 2026-07-14)
 
-- **Level 3 Pastamancer.** Mysticality ~13. HP 4/6, MP 20/20. **Meat 0. adv 2.** full 0, drunk 0. **Ronin 1,000.**
-- **Equipped:** astral chapeau (hat, item 5030) · pasta spoon (weapon, 5) · old sweatpants (pants, 4711).
-- **Have:** permed **Pastamastery** (daily dry-noodle summon), starter jewels (hamethyst + 4 porquoise — sellable),
-  a Newbiesport™ tent, a **telegram from Lady Spookyraven** (starts the Manor quest later). Terrarium: (none equipped).
-- **In Hagnk's** (pull ≤20/day during Ronin): **123 stolen sushi (6293)**, **22 MMJ (518)**, + last run's 400+ item types.
-  ⚠️ No booze in storage (used all the Fog last run) and the Hidden Tavern isn't unlocked this early → **DRINK blocked** for now.
-  ⚠️ Sushi-eat was finicky/flaky-connection this session; retry EAT next session (pull sushi, `inv_eat.php?whichitem=6293`).
+- **Level 4 Pastamancer.** Mysticality ~18. HP ~8 max, MP 20. **Meat ~550. adv 16 banked** (drink-bonus). full 14, drunk 12. Ronin ~945.
+- **Equipped:** astral chapeau (hat, 5030) · pasta spoon (weapon, 5) · old sweatpants (pants, 4711) · **familiar = Marcellus
+  the Mosquito** (from the terrarium — drains HP to damage + heal; keeps a 6-HP caster alive).
+- **Known combat skills:** **Spaghetti Spear (3020, 0 MP, Mys-scaled — the workhorse)** + Manicotti Meditation (3000) +
+  permed Pastamastery. ⚠️ The **guild trainer is locked** ("not a full member of the League of Chef-Magi") — can't buy more
+  skills yet; more come free at level-up (or unlock full membership later).
+- **Consumables (this run):** lemon ×~2 + orange ×~2 (**item 332 = orange; 1 fullness, ~+6 adv each — great low-level EAT**),
+  6 bottles of **vodka (item 238; ~3 drunk + ~3 adv each — the DRINK source until the Hidden Tavern opens)**, dry noodles.
+  ⚠️ **stolen sushi (6293) is LEVEL-GATED — won't eat at low level.** Use oranges/lemons for EAT until higher level.
+- **In Hagnk's** (pull ≤20/day during Ronin): 123 stolen sushi, 22 MMJ (518), + last run's 400+ item types. Also holds a
+  **telegram from Lady Spookyraven** (starts the Manor quest later).
 
 ---
 
 ## 🔜 Next-session priorities (ordered) — continue the early game
 
-✅ Done Day 86: Toot Oriole (starter package), equipped gear, reached **Level 3**, **Council quest active = get a
-mosquito larva**. Still fragile (6 HP, no combat spells re-learned).
+✅ Done: Toot Oriole → Level 3 (Day 86); **mosquito larva quest COMPLETE** + Level 4 (Day 87). Council now points to the Tavern.
 
-1. **EAT first** (it refuels the day — sushi gives ~+12 adv each): pull stolen sushi (6293) from Hagnk's, `inv_eat.php`.
-2. **Visit the Pastamancer guild (`guild.php`)** — learn low-level combat skills (Spaghetti Spear, etc.); sell a jewel or
-   two for starter meat if guild skills cost meat. Better combat = safer questing.
-3. **Mosquito larva quest:** adventure the **Spooky Forest (snarf 15)** → get the mosquito larva → return to Council
-   (unlocks the Bat Hole / Boss Bat). Then the L3+ Council chain (Tavern rats, Boss Bat, Cobb's Knob, …) all over again.
-4. **Level up** in the **Dire Warren (snarf 240)** (safe, unlimited fluffy bunnies) whenever you need stats.
-5. **DRINK** once the Hidden Tavern is unlocked (Tavern quest) or buy booze once you have meat.
+1. **EAT first:** eat oranges/lemons (item 332 etc. — sushi is level-gated). Cast Pastamastery (daily).
+2. **Typical Tavern "Rat Problem"** (`tavern.php` — the tavern is OPEN in the Distant Woods): talk to **Ear'l Ender** the
+   bartender → clear the **Tavern Cellar** rats (defeat Baron von Ratsworth / find the faucet) → unlocks the **Hidden Tavern**
+   (much better booze for the DRINK step). Fight with **Spaghetti Spear (3020) + Marcellus**; rest at campground when HP is low.
+3. **Then the L4+ Council chain again:** Boss Bat (Bat Hole), Cobb's Knob, Friars, Cyrpt, … — the whole L2–L12 questline resets.
+   Re-use the run-#1 walkthroughs in `mechanics/*.md`.
+4. **Level up** in the **Spooky Forest (snarf 15)** (good XP, Marcellus sustains you) or the Dire Warren (240, safe bunnies).
+5. **DRINK** vodka (item 238) each day-end until the Hidden Tavern opens.
 6. **Long-term:** finish this Softcore run (→ 111 karma, perm the next skill — a meat/econ skill), then escalate toward
    Hardcore ascensions. See `mechanics/ascension.md` for the perm-priority plan.
 
@@ -64,6 +68,10 @@ Hagnk's opens fully. The old mall-buying still works (Softcore allows the mall).
 
 ## 🗓️ Session log (this run)
 
+- **Day 87 (2026-07-14):** EAT solved (oranges/lemons — sushi is level-gated), equipped **Marcellus the Mosquito**,
+  **completed the mosquito larva quest** (Spooky Forest → Arboreal Respite choice 502 opt 2 "Explore the stream" → 505 opt 1
+  → larva → Council, +~550 meat), leveled **3 → 4** in the Spooky Forest, DRANK 4 vodka (drunk 12). Council now points to the
+  Typical Tavern (Rat Problem). EAT/ADV/DRINK all done.
 - **Day 86 (2026-07-13) — 🏆 WON run #1 & ASCENDED.** Restocked (60 MMJ), then cracked **NS form 2** using the fixed engine
   (varying `for=` HP reads + full-maxHP entry + Entangle stun + Cannelloni + aggressive heals). Reached **form 3**, lost to it
   → unlocked the **Bear Verb Orgy** at The VERY Unquiet Garves (snarf 58) → got the **Wand of Nagamar** (9 fights). Re-fought
