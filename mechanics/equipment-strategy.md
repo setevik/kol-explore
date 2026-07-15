@@ -2,9 +2,9 @@
 
 ## Power ≠ Value
 
-The biggest lesson from Day 15: **raw Power is not always better**. A high-Power item without class-relevant enchantments can reduce your effective combat stats compared to a lower-Power item with specialized bonuses.
+Key lesson: **raw Power is not always better**. A high-Power item without class-relevant enchantments can reduce your effective combat stats compared to a lower-Power item with specialized bonuses.
 
-Concrete example tested on Day 15:
+Concrete example, tested in-game:
 | Pants | Power | Muscle (buffed) | Myst (buffed) | Moxie (buffed) | HP max |
 | --- | --- | --- | --- | --- | --- |
 | **Knob Goblin Uberpants** | 45 | 47 | 60 | 30 | 50 |
@@ -12,14 +12,12 @@ Concrete example tested on Day 15:
 
 Despite being ~60% higher Power, ninja hot pants lose on every stat because they lack the +Muscle/+Myst enchantment that Uberpants carry. **Always read enchantment text, not just Power.**
 
-## Current Pastamancer Loadout (End of Day 15)
+## Stat/Slot Priorities for a Mys Caster
 
-| Slot | Item | Why |
-| --- | --- | --- |
-| Hat | Crown of the Goblin King (70) | Highest raw power; flavorful post-quest reward |
-| Weapon | pasta spoon (1-2 dmg, 1h) | **Class item** — likely has +Spell Damage or MP-related enchantment; spell-casting Pastamancer doesn't care about weapon damage |
-| Pants | Knob Goblin Uberpants (45) | +Muscle and +Myst enchantments |
-| Accessory | ring of half-assed regeneration | **HP+MP regen every combat round** — keeps spellcasting sustainable |
+A spell-spamming Pastamancer wants **Mysticality**, **Spell Damage**, and **MP max/MP regen** far more than raw Power or weapon damage. Prioritize by slot:
+- **Hat/Pants/Shirt:** favor +Myst and +MP enchantments; high raw Power is only a tiebreaker (Power drives HP/MP but not offense).
+- **Weapon:** class item with spell/MP enchantments beats a high-damage weapon (see below) — physical damage is near-irrelevant.
+- **Accessories:** the biggest class-specific lever — regen and Myst/spell bonuses win for sustained casting (see below).
 
 ## Weapon Choice for Pastamancer
 
@@ -43,16 +41,12 @@ Current options I tested:
 
 ## Accessory Options
 
-Accessories are often the biggest class-specific lever. Known options tested:
+Accessories are often the biggest class-specific lever. Known options:
 - **ring of half-assed regeneration** — MP+HP regen per combat round. **Best for spell-spammers.**
 - Pine-Fresh air freshener — Stench protection (only for Guano Junction or similar stench zones)
-- Baron von Ratsworth's monocle — +Meat drops (TBD)
-- ghost of a necklace — from Lady Spookyraven quest, unknown effect
-- imp unity ring — unknown
-- vampire collar — might buff thrall/familiar (TBD)
-- batskin belt — bat-themed, unknown
+- Baron von Ratsworth's monocle — **+item drops**
 
-**Heuristic**: for sustained combat, regen accessory > situational accessory. Swap to Pine-Fresh only for Guano Junction and batskin belt only if it turns out to buff the familiar.
+**Heuristic**: for sustained combat, regen accessory > situational accessory. Swap to Pine-Fresh only for Guano Junction, and to the monocle when farming for item drops.
 
 ## Pants Choice
 
@@ -74,6 +68,6 @@ When trying new equipment, snapshot the charpane immediately before and after to
 
 ## Future Gear Targets
 
-- **Fancy gown** / **finest gown** — if droppable and usable, may have Myst enchantments (Lady Spookyraven gave me her gown already; consumed by the quest)
+- **Fancy gown** / **finest gown** — if droppable and usable, may have Myst enchantments (note: the Lady Spookyraven quest gown is consumed by that quest)
 - Look for items with "spell damage", "mysticality", or "MP regeneration" enchantments when browsing mall/shop listings
 - Higher-tier class weapon (Pastamancer guildmaster may sell something)

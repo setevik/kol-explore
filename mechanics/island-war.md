@@ -1,7 +1,7 @@
 # The Mysterious Island War ("Make War, Not... Oh, Wait")
 
 The Level 12 war quest. Pick a side (Hippy or Frat), wipe the opposing army (1001 enemies/side) on the
-battlefield + complete side quests, then beat the side's final boss to win. **Completed Day 67 (hippy side).**
+battlefield + complete side quests, then beat the side's final boss to win.
 
 ## Choosing a side & starting the war
 - Wear the **War Fatigues** of your side (NOT the infiltration "Ensemble" disguise — that only triggers sabotage
@@ -40,13 +40,13 @@ snarf 27 is dead (*"you shouldn't be here"*). Instead **click "The Orcish Frat H
 `bigisland.php` map** (~x503,y320) → **"Commence the Sense-Knocking"** link → boss fight.
 (Frat side's boss is **The Big Wisniewski**, reached analogously via the Hippy Camp building.)
 
-### ⭐⭐ Beating "The Man" — DPS RACE, do NOT turtle (5 losses then a win, Day 67)
+### ⭐⭐ Beating "The Man" — DPS RACE, do NOT turtle
 - **He RAMPS UP damage every round.** Sleaze paddle ~55–59 early, climbing to ~70–100+ by round ~25.
 - **Attrition/turtling LOSES** — the longer the fight, the harder he hits; you out-heal him early but eventually
-  can't, and you run out of MP. (Lost at r10 no-DR, r27, r45 — every time his ramp outran heal+companions.)
+  can't, and you run out of MP. His ramp will outrun heal+companions in a drawn-out fight.
 - **WIN = pure DPS race.** Enter at FULL HP + FULL MP. **Open with the biggest nuke** (Pastamancer: Stuffed Mortar
   Shell 3007), then **spam your highest single-target attack EVERY round** (Pastamancer: Cannelloni Cannon 3005,
-  scales with Mysticality), **heal ONLY at HP <35%.** Killed him in **~12 rounds, HP never below 175.**
+  scales with Mysticality), **heal ONLY at HP <35%.** A clean DPS race kills him in ~12 rounds.
 - **Generic Damage Reduction barely helps** — "Really Hard" (DR 50 from hardening cream, item 11331, mall ~100 meat)
   extended survival (10→45 rounds) but does NOT win and hardly dents his sleaze. His attack is **sleaze elemental**;
   generic flat DR is largely ineffective vs it (sleaze RESISTANCE would be the real mitigation, but the race makes
@@ -57,10 +57,9 @@ snarf 27 is dead (*"you shouldn't be here"*). Instead **click "The Orcish Frat H
   re-click frat house → retry.
 
 ### Reward
-Visiting `council.php` after the kill auto-completes the war → war-hero medal (varies by # of side quests done;
-Day 67 with several side quests = **Blue Diamond of Honesty**). The war quest leaves the log.
+Visiting `council.php` after the kill auto-completes the war → war-hero medal (the specific reward varies by
+number of side quests completed). The war quest leaves the log.
 
 ## General boss-fight takeaway (reusable)
-For any high-HP boss that **ramps damage** or hits harder over time: **race it.** Maximize damage/round
-(strongest nuke + opener), minimize heal rounds, enter at full HP/MP. Out-healing a ramping boss is a losing
-game — every heal round is a round it's not taking damage AND its next hit is bigger.
+"The Man" is the canonical **ramping boss** — for the general "race it, don't turtle" lesson that applies to any
+high-HP boss that hits harder over time, see the boss note in `HANDOFF.md`.

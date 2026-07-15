@@ -70,7 +70,7 @@ Maximum level: 256 (32-bit integer limitation on substat storage).
 - At or above limit: become "falling-down drunk"
 - While falling-down drunk: only encounter "Drunken Stupor" adventures (can't adventure normally)
 
-**CRITICAL CONSUMPTION ORDER** (learned the hard way on Day 4):
+**CRITICAL CONSUMPTION ORDER**:
 1. **EAT food first** (fill fullness, gain adventures)
 2. **ADVENTURE** with all available adventures
 3. **DRINK booze LAST** (end of day, to bank adventures for tomorrow via rollover)
@@ -109,4 +109,4 @@ Names reference McDonald's mascots (Ronald McDonald, Grimace, Hamburglar).
 - **96 days** per KoL year total
 - Month names appear to be food/cooking themed (observed: "Starch")
 
-Sources: [KoL Wiki - Advancement](https://kol.coldfront.net/thekolwiki/index.php/Advancement), [KoL Wiki - Stat Days](https://kol.coldfront.net/thekolwiki/index.php/Stat_Days), [KoL Wiki - Drunkenness](https://kol.coldfront.net/thekolwiki/index.php/Drunkenness), [Moons Over Loathing](https://jrsiebz.x10host.com/Moons_Over_Loathing.html)
+Sources: [KoL Wiki - Advancement](https://wiki.kingdomofloathing.com/Advancement), [KoL Wiki - Stat Days](https://wiki.kingdomofloathing.com/Stat_Days), [KoL Wiki - Drunkenness](https://wiki.kingdomofloathing.com/Drunkenness), [Moons Over Loathing](https://jrsiebz.x10host.com/Moons_Over_Loathing.html)

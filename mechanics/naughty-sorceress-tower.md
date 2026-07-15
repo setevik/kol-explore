@@ -2,14 +2,14 @@
 
 > The endgame gauntlet: defeat the Naughty Sorceress + free King Ralph XI → the astral gash opens → you can ascend.
 > **This quest repeats every ascension, so this walkthrough is highly reusable.** Sourced from the official wiki
-> (wiki.kingdomofloathing.com) + verified live where noted (Day 80). See also [[ascension]].
+> (wiki.kingdomofloathing.com) + verified in-game. See also `ascension.md`.
 
 ## Unlock
 Finish **all Council of Loathing quests** (L2–L12: larva, tavern, Boss Bat, Cobb's Knob, Friars, Cyrpt/Bonerdagon,
 Trapper, Highlands, Giant, Manor/MacGuffin, War). Then the **Council gives the final quest** (`council.php`) and the
 **Tower opens: `place.php?whichplace=nstower`**.
 
-## Step 1 — Contest Registration Desk  ✅verified-live Day 83
+## Step 1 — Contest Registration Desk
 `place.php?whichplace=nstower&action=ns_01_contestbooth` → **choice 1003**. You draw **three** contests:
 - **Everyone: "Fastest Adventurer"** (opt 1) — tests **+combat initiative** (2nd place = +400% init).
 - **one random stat test** — Smoothest (opt 2, Moxie) / Strongest (Muscle) / etc.; the stat that ISN'T your class's main
@@ -29,15 +29,15 @@ Trapper, Highlands, Giant, Manor/MacGuffin, War). Then the **Council gives the f
 | Key | Source | Notes |
 |---|---|---|
 | **Boris's / Jarlsberg's / Sneaky Pete's** | **Daily Dungeon** → fat loot token → **DA Vending Machine** | 1 token/day ⇒ 3 days |
-| **skeleton key** | **skeleton bone (163) + loose teeth (187)**, meat-pasted | ✅verified: `craft.php?mode=combine&action=craft&a=163&b=187` |
-| **Richard's star key** | **Hole in the Sky** (beanstalk) | ✅verified-live Day 81 — see below |
-| **digital key** | **8-Bit Realm** (Treasure House) | ✅**10,000 points**, NOT pixels — see below |
+| **skeleton key** | **skeleton bone (163) + loose teeth (187)**, meat-pasted | `craft.php?mode=combine&action=craft&a=163&b=187` |
+| **Richard's star key** | **Hole in the Sky** (beanstalk) | see below |
+| **digital key** | **8-Bit Realm** (Treasure House) | **10,000 points**, NOT pixels — see below |
 
 **Hero-key item IDs / DA Vending Machine rows** (`shop.php?whichshop=damachine`, 1 fat loot token each):
 Boris's key = **item 282, row 93** · Jarlsberg's = **item 283, row 94** · Sneaky Pete's = **item 284, row 95**.
 (Fat loot token = item 1470. Buy: `shop.php?whichshop=damachine&action=buyitem&whichrow=94&quantity=1&pwd=`.)
 
-### Richard's star key  ✅verified-live Day 81
+### Richard's star key
 - **Farm the Hole in the Sky = `adventure.php?snarfblat=83`** (atop the beanstalk via `place.php?whichplace=beanstalk`;
   81 = Airship, 83 = Hole in the Sky). Its constellation-monsters drop **star (654)** and **line (655)** at a good rate
   (~13 stars + 7 lines in ~15 fights). Monsters die in 2 rounds to Mortar→Cannelloni.
@@ -45,7 +45,7 @@ Boris's key = **item 282, row 93** · Jarlsberg's = **item 283, row 94** · Snea
   (`&action=buyitem&whichrow=141&quantity=1&pwd=`). Consumes exactly **8 stars + 7 lines** (the star chart 656 is
   the reusable "tool", not consumed). ⚠️ `inv_use` on the star chart says "not implemented" — you MUST use the shop URL.
 
-### digital key — 8-Bit Realm (⚠️ MECHANIC CHANGED — no longer 30 white pixels)  ✅verified-live Day 81
+### digital key — 8-Bit Realm (⚠️ MECHANIC CHANGED — no longer 30 white pixels)
 - Since the **Jan 2023 revamp**, the old "30 white pixels → digital key at the Crackpot Mystic's Shed" recipe is GONE.
   Now you **earn 10,000 "Score" points in the 8-Bit Realm** and claim the **digital key from the Treasure House**.
 - **Access:** get the **continuum transfunctioner (item 458)** from the **Crackpot Mystic**
@@ -56,20 +56,20 @@ Boris's key = **item 282, row 93** · Jarlsberg's = **item 283, row 94** · Snea
   marks which zone currently pays **DOUBLE** (+100/win vs +50). The color cycles **every 5 kills**: **black→Vanya's Castle
   565, blue→Megalo-City 566, green→Hero's Field 564, red→Fungus Plains 563.** (Bonus points from init/DA/item/meat need
   300–595% to matter — negligible for us, so it's just +100 in the matching zone, +50 off-color.)
-- **⭐ ROTATION TRICK (✅verified Day 82 — ~110 pts/fight, ~1.7× a fixed zone):** before each fight, read the Score color
+- **⭐ ROTATION TRICK (~110 pts/fight, ~1.7× a fixed zone):** before each fight, read the Score color
   and adventure the matching zone. Detecting the color: the color word (green/red/blue/black) sits right after "Score:" in
   the **fetched** `charpane.php` HTML (regex `/Score:[\s\S]{0,160}?(green|red|blue|black)/i`, default black); OR read the
   **computed** color off the live charpane frame (`getComputedStyle(span.nes).color` — green = rgb(0,128,0)). Staying in one
-  zone averages only ~63/fight; rotating ≈ **~110/fight** ⇒ 10k from a standing start ≈ **~90 fights (doable in ~1 big day)**.
+  zone averages only ~63/fight; rotating ≈ **~110/fight** ⇒ 10k from a standing start ≈ **~90 fights**.
 - **Combat is cheap:** these monsters are weak — **weapon-attack one-shots most** (round 1–2 attack, escalate to Cannelloni
   only if it survives) ⇒ near-zero MP over 50+ fights. Read the **Score number** from the charpane's second `span.nes`
   (`[...doc.querySelectorAll('span.nes')]` → the `/^[\d,]+$/` one) — a loose regex grabs "Level 14" etc. by mistake.
   **Points PERSIST across days.**
 - **Treasure House** = `place.php?whichplace=8bit&action=8treasure` = **choice 1493**: three chests
-  **opt 1 [10,000] · opt 2 [20,000] · opt 3 [30,000] Points · opt 4 Leave.** At ≥10k, **option 1 = the digital key**
-  (✅claimed Day 82). (Higher chests = better prizes but irrelevant to the tower.)
+  **opt 1 [10,000] · opt 2 [20,000] · opt 3 [30,000] Points · opt 4 Leave.** At ≥10k, **option 1 = the digital key**.
+  (Higher chests = better prizes but irrelevant to the tower.)
 
-### Daily Dungeon (hero keys)  ✅verified-live
+### Daily Dungeon (hero keys)
 - **Zone = `adventure.php?snarfblat=325`** (inside the Dungeoneers' Assoc., Big Mountains). NOT 322 (that's the Giant castle).
 - **1 full run/day** = 15 rooms → **1 fat loot token** from the final chest.
 - **Buy these tools once (reusable, ~100 meat each) to skip obstacles for FREE (no adv, no dmg):**
@@ -82,7 +82,7 @@ Boris's key = **item 282, row 93** · Jarlsberg's = **item 283, row 94** · Snea
 - ⚠️ The 3 hero keys are a "zap group" (zapping one → a different one you lack) but you need all 3 at once, so
   **acquire all 3 separately = 3 daily runs.** Do the Daily Dungeon EARLY each day so it's never wasted.
 
-## Step 3 — Wand of Nagamar  (needed for the **NS's 3rd form**, NOT the walls)  ✅wiki-verified Day 83
+## Step 3 — Wand of Nagamar  (needed for the **NS's 3rd form**, NOT the walls)
 ⚠️ **Common misconception (corrected):** the wand is **not** for the Wall of Skin — it's for the **Naughty Sorceress's
 third/final form** (must be **in inventory**, not equipped post-NS13; it turns her attacks into harmless anagram objects).
 Two ways to obtain it:
@@ -92,16 +92,16 @@ Two ways to obtain it:
 - **Bear Verb Orgy** (anagram of *Grave Robbery*) — a **noncombat** in **The VERY Unquiet Garves = `adventure.php?snarfblat=58`**
   (The Misspelled Cemetary; regular Unquiet Garves = 21) → pry open Nagamar's coffin → the assembled **Wand of Nagamar**.
   🔑 **This search only UNLOCKS after you have been *defeated by* the NS's 3rd form** — it is the game's safety net for
-  arriving at form 3 without the wand. (Day 83: 51 fights at snarf 58 gave 0 NCs precisely because form 3 hadn't been
-  reached yet — it was NOT combat suppression.) Once unlocked, Frank helps you search and the NC surfaces after a few fights.
+  arriving at form 3 without the wand. (Before form 3 is reached, the NC will not surface no matter how many fights you run at
+  snarf 58 — this is a gate, NOT combat suppression.) Once unlocked, Frank helps you search and the NC surfaces after a few fights.
 
-## Step 4 — Coronation → Hedge Maze → the 6-key Door → the 5 Tower Levels  ✅verified-live Day 83
+## Step 4 — Coronation → Hedge Maze → the 6-key Door → the 5 Tower Levels
 - **Coronation** (`ns_02_coronation`) — cutscene, **choice 1020 → 1021 → 1022**, all option 1. Free.
 - **Hedge Maze** (`ns_03_hedgemaze`) — **choice 1005 "Do what Frank says" (opt 1)**; following Frank chains cleanly through
   **choices 1005→1013 with NO fights** (~9 turns). (Opposing Frank = faster but topiary-golem combats.)
 - **The 6-lock Door** = its own place **`place.php?whichplace=nstower_door`** — actions **ns_lock1..ns_lock6** (fetch each;
   each consumes the matching hero/other key) then **ns_doorknob** to open. Free (no adv). Need all 6 keys present.
-- **The 5 walls/guardians** ✅all verified-live Day 84. ⚠️ The action's LEVEL number increments as you climb
+- **The 5 walls/guardians.** ⚠️ The action's LEVEL number increments as you climb
   (ns_05_monster1 → ns_06_monster2 → ns_07_monster3 → ns_09_monster5); read `place.php?whichplace=nstower` for the current action.
   - **Wall of Skin** (`ns_05_monster1`): 50 HP, 100% dmg-resist, can't stun, kill in <5 turns. ⚠️ NOT the wand.
     **✅ Use a beehive as a combat item = instant kill.** Beehive = item **7969**, from **The Black Forest (snarf 405)**:
@@ -125,19 +125,19 @@ Two ways to obtain it:
 Fight the **Naughty Sorceress (3 forms)** at `place.php?whichplace=nstower&action=ns_10_sorcfight` — ONE continuous combat
 (re-entering the action resumes it; a loss restarts it from form 1). Forms are "The Naughty Sorceress" → "(2)" → "(3)". Notes:
 - **Form 1** falls easily to Mortar→Cannelloni. **Form 2 is the wall** — she **blocks ~half your spells** and her big nuke
-  ≈ your full maxHP. Winning recipe (learned the hard way):
+  ≈ your full maxHP. Winning recipe:
   - **Enter at TRUE full maxHP** (rest until Beaten Up fully clears; verify) — at reduced maxHP her nuke one-shots you from ~90%.
   - **Read fresh HP each round via `api.php?what=status&for=CC${tick++}`** (varying `for=`; the fixed string caches — see HANDOFF).
   - **Entangling Noodles (3004) stun** to open (she IS stunnable if you *gazed* at the mirror; the stun decays after ~14 uses)
-    then **Cannelloni (3005) every round** — **her block rate falls with every loss** (≈30% after 4), so after several losses
+    then **Cannelloni (3005) every round** — **her block rate falls with every loss** (down to ~30% after several losses), so
     nukes land almost always. **Heal at <65% with filthy poultice (2369)**, scented massage oil (2438) at <35%.
   - **Bring a BIG MP battery** (60–80 MMJ) + ~40 torpedoes — running dry mid-grind is what stalls this fight. Enter FULL MP.
 - **Form 3 requires the Wand of Nagamar in inventory** (see Step 3). Without it you get defeated by form 3 — which is what
   **unlocks the Bear Verb Orgy** wand-search. So the intended order is: reach form 3 → lose → get the wand → return and win.
-- Letting her beat you up lowers her block rate (≈30% after 4 losses); high buffed **Mysticality** reduces her spell blocks;
+- Letting her beat you up lowers her block rate (down to ~30% after several losses); high buffed **Mysticality** reduces her spell blocks;
   **Ambidextrous Funkslinging** lets your familiar act unless she blocks each item separately.
 - Beat form 3 → **break King Ralph's prism** to free him → quest complete → the **astral gash** opens → **ascend**
-  (go Softcore first, not Casual — see [[ascension]]).
+  (go Softcore first, not Casual — see `ascension.md`).
 
 ## ⏳ Progress tracker
 **Current key/wand/contest progress for the active run lives in `CURRENT_ASCENSION.md`** — this file stays

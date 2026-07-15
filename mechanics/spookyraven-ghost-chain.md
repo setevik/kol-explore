@@ -6,7 +6,7 @@ This is a multi-step side quest that opens Spookyraven Manor's upper floors AND,
 
 Rewards at the end: massive stat gains (+100 in each substat + 1 point to each primary), Ballroom access, and the cellar unlock path.
 
-## Confirmed zone IDs (verified Day 35)
+## Confirmed zone IDs
 
 - 388 = Haunted Kitchen
 - 389 = Haunted Conservatory
@@ -28,9 +28,9 @@ Rewards at the end: massive stat gains (+100 in each substat + 1 point to each p
 You need the **Spookyraven library key** (from beating the Billiards Room pool-shark ghost). See `pool-skill.md`.
 
 ### Step 1: Find the Necklace
-Zone: **The Haunted Library** (snarfblat 390). **CONFIRMED via wiki Day 35: the necklace is a GUARANTEED drop from the 5th writing desk you defeat in the Library — NOT a random rate.** The Library has multiple monsters (writing desks, bookbats, banshee librarians); only writing desks count. With Library NCs (book readings) being very frequent, expect to burn 30+ advs just to encounter 5 actual writing desks.
+Zone: **The Haunted Library** (snarfblat 390). **The necklace is a GUARANTEED drop from the 5th writing desk you defeat in the Library — NOT a random rate.** The Library has multiple monsters (writing desks, bookbats, banshee librarians); only writing desks count. With Library NCs (book readings) being very frequent, expect to burn 30+ advs just to encounter 5 actual writing desks.
 
-⚠️ Counter trap (learned Day 35): a naive "monster name in mainpane text" detector will double-count after disconnects / page reloads / mid-fight reads. Build the counter to gate on per-fight monotonic round numbers that reset *only* on the explicit `Adventure Again` page navigation.
+⚠️ Counter trap: a naive "monster name in mainpane text" detector will double-count after disconnects / page reloads / mid-fight reads. Build the counter to gate on per-fight monotonic round numbers that reset *only* on the explicit `Adventure Again` page navigation.
 
 Also look out for:
 - **"Take a Look, it's in a Book!"** choice — read chapters for +stats or minor rewards. *Rise of the House of Spookyraven* tells the Lord's story; also *Better Haunted Homes and Conservatories Cookbook* (recipes) and *Ancient Forbidden Unspeakable Evil, a Love Story* (spells).
@@ -81,7 +81,7 @@ Gallery has 4 noteworthy encounters:
 3. Pitchfork Couple combat — a 2-enemy fight that's immune to Entangling Noodles. Use Ravioli Shurikens directly.
 4. **"Louvre It or Leave It"** — an M.C. Escher stairway lithograph you walk INTO, leading to a surrealist maze:
    - Stair choices cycle through Dalí (melting-clocks desert), Magritte, etc.
-   - Eventually you pick the right stair direction (I picked "southeast" after Dalí) and arrive in a **Degas ballerina studio**
+   - Eventually you pick the right stair direction and arrive in a **Degas ballerina studio**
    - Steal shoes from a girl whose feet match Lady Spookyraven's size: **Lady Spookyraven's dancing shoes** ✓
 
 Note: the Escher maze may require multiple tries; if you pick wrong you pop back out to the Gallery.
@@ -103,25 +103,19 @@ Go to **Haunted Ballroom** (snarfblat 395) → *"Having a Ball in the Ballroom"*
 
 Lady Spookyraven departs peacefully. The ghost chain is complete.
 
-### Step 6: Third Floor (pending)
-
-After the dance, Stairs Up on manor2 still gives: *"You hear a terrifying moaning and wailing from upstairs, and you lose your nerve by the fifth step."*
-
-Unclear what unlocks it — possibly a quest item from the Ballroom, or more Ballroom grinding, or a specific outfit. TBD.
-
 ### Step 7: Cellar Unlock — "We'll All Be Flat" (Holy MacGuffin gate)
 
 After the dance, continue adventuring in the **Haunted Ballroom (395)**. The **"We'll All Be Flat"** noncombat fires → **opens the Spookyraven Manor Cellar** (`place.php?whichplace=manor4`).
 
-**VERIFIED Day 36**: On a character that already finished the Lady chain in a prior playthrough, manor2 is already open and the Ballroom NC fires within a few turns — no need to re-do necklace/finery/dance. **Always probe `manor2` directly first** to see if the chain is already done before grinding the Library for the necklace.
+On a character that already finished the Lady chain in a prior playthrough, manor2 is already open and the Ballroom NC fires within a few turns — no need to re-do necklace/finery/dance. **Always probe `manor2` directly first** to see if the chain is already done before grinding the Library for the necklace.
 
-### Step 8: Cellar Boss — dissolve the Suspicious Masonry → Lord Spookyraven → **Eye of Ed** (FULLY VERIFIED Day 37)
+### Step 8: Cellar Boss — dissolve the Suspicious Masonry → Lord Spookyraven → **Eye of Ed**
 
-**Correction (Day 37):** the cellar boss drops the **Eye of Ed**, NOT the Staff of Fats. Old notes were wrong. Staff of Fats comes from the **Palindome** (Dr. Awkward boss) — separate questline.
+The cellar boss drops the **Eye of Ed**, NOT the Staff of Fats. Staff of Fats comes from the **Palindome** (Dr. Awkward boss) — separate questline.
 
 The cellar's **Suspicious Masonry** wall (`place.php?whichplace=manor4&action=manor4_chamberwall`) is dissolved with a **mortar-dissolving solution**, made from 6 room-specific ingredients. Each ingredient is a normal combat drop, ~1 per 6-10 fights:
 
-| Ingredient | Room | snarfblat (VERIFIED Day 37) |
+| Ingredient | Room | snarfblat |
 | --- | --- | --- |
 | loosening powder | Haunted Kitchen | 388 |
 | powdered castoreum | Haunted Conservatory | 389 |
@@ -138,10 +132,10 @@ Cellar (manor4) room snarfblats: **Boiler Room 399, Laundry Room 400, Wine Cella
 
 The wall collapse reveals **The Summoning Chamber** (`place.php?whichplace=manor4&action=manor4_chamberboss`) → boss fight with **Lord Spookyraven**.
 
-**Lord Spookyraven (Day 37 fight log):**
-- Entangling Noodles R1: stuns him (Pastamancer); Marcellus and Ned heal me ~50 HP off him.
-- Stuffed Mortar Shell R2: queued.
-- Cannelloni Cannon R3 (61 damage, "hailstones" — implies COLD elemental) triggers the queued Mortar → ~200 damage finisher. Done in 3 rounds, full HP throughout.
+**Lord Spookyraven (boss tactics):**
+- An easy fight — falls in ~3 rounds to a standard Pastamancer combo, full HP throughout.
+- Open with **Entangling Noodles** to stun him; your familiar/thrall sustain heals off him meanwhile.
+- Queue **Stuffed Mortar Shell**, then fire **Cannelloni Cannon** to trigger the queued Mortar for a ~200-damage finisher. (Cannelloni's "hailstones" flavor implies COLD elemental.)
 - **Drops: Eye of Ed (Staff of Ed component), Lord Spookyraven's ear trumpet, +stat XP, +Mus point.**
 
 **The Wine Cellar (401) "Chateau de Vinegar" path is a dead end** — that was the old wine-bomb mechanic; in the current quest it's irrelevant.

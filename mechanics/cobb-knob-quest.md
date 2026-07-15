@@ -33,7 +33,7 @@ Second attempt response without perfume:
 - **Knob Goblin elite polearm** (weapon, 6-12 damage 2h)
 - **Knob Goblin elite pants** (pants)
 
-Wearing the full uniform gives the **"Knob Goblin Elite Guard Uniform"** outfit bonus. This path also boosts Muscle/HP significantly — on Day 14 I jumped from HP max 39 (harem) to HP max 49 (guard), enough to survive accidental hits.
+Wearing the full uniform gives the **"Knob Goblin Elite Guard Uniform"** outfit bonus. This path also boosts Muscle/HP significantly relative to the harem outfit, enough to survive accidental hits.
 
 ### Getting a Knob cake
 

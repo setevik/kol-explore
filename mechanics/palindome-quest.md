@@ -1,11 +1,25 @@
-# The Palindome / Dr. Awkward → Staff of Fats (verified Day 47)
+# The Palindome / Dr. Awkward → Staff of Fats
 
 Part of the Holy MacGuffin → Staff of Ed chain. The Palindome yields the **Staff of Fats**
-(second Staff of Ed component, the first being the headpiece item 2323).
+(second Staff of Ed component, the first being the headpiece item 2323). This file also
+covers the **Shen Copperhead / Red Zeppelin** unlock chain that gates the Palindome.
 
-## Unlock chain (DONE as of Day 47)
+## Unlock chain
 
 1. **Shen Copperhead quest** (3 snake artifacts) → **Copperhead Charm (rampant)** (item 7186).
+   Shen poisons you and demands a snake artifact; which one is fixed by the ascension-day you
+   start his quest. He asks for **3 in a row** (same pool); after the 3rd you're cured and get
+   the charm. The six possible artifacts, and where each drops:
+
+   | Artifact | Snake | Zone |
+   |---|---|---|
+   | Stankara Stone | Batsnake | The Batrat and Ratbat Burrow |
+   | The First Pizza | Frozen Solid Snake | Lair of the Ninja Snowmen |
+   | Murphy's Rancid Black Flag | Burning Snake of Fire | Castle Top Floor |
+   | The Eye of the Stars | The Snake With Like Ten Heads | The Hole in the Sky |
+   | The Lacrosse Stick of Lacoronado | The Frattlesnake | Smut Orc Logging Camp |
+   | The Shield of Brook | Snakeleton | The VERY Unquiet Garves |
+
 2. **Clear ~80 Zeppelin protesters** (snarf **384**, off `place.php?whichplace=zeppelin`).
    Zone relabels "Massive Mob" → "Scattered Mob" and **"The Red Zeppelin (1)"** appears
    when done. NCs "Fire Up Above" / "Bench Warrant" (opt 1) multi-clear but seem
@@ -29,21 +43,21 @@ Part of the Holy MacGuffin → Staff of Ed chain. The Palindome yields the **Sta
 
 Palindrome-themed: monsters (Evil Olive, etc.), NCs ("Do Geese See God?", "Rod Nevada,
 Vendor"). Monsters are spell-vulnerable, slightly tanky (~5 rounds with Cannelloni), no
-BU issues with the stun combo.
+Beaten-Up issues with the stun combo.
 
-### The 4 photographs (DONE Day 47 — all held)
+### The 4 photographs
 Needed for the Dr. Awkward path:
 - **photograph of God** — choice **129 "Do Geese See God?"**, option 1, 500 Meat.
 - **photograph of a red nugget** — choice **873 "Rod Nevada, Vendor"**, option 1, 500 Meat.
 - **photograph of a dog** — drops from a Palindome monster (no NC).
 - **photograph of an ostrich egg** — drops from a Palindome monster (no NC).
 
-### Still TODO (next session)
-- **Mr. Alarm** (Palindome NPC) — did NOT appear in ~40 Palindome fights with all 4 photos
-  in hand. Hypotheses: gated behind having the **wet stunt nut stew** already, or a rarer
-  NC. He gives the **Mega Gem** in exchange for the stew.
-- **wet stunt nut stew** = cook **bird rib + lion oil + stunt nuts**. These drop in
-  **WHITEY'S GROVE** (NOT the Palindome). Verify Whitey's Grove accessibility.
+### Mega Gem → Dr. Awkward
+- **wet stunt nut stew** = cook **bird rib + lion oil + stunt nuts**. Bird rib + lion oil drop
+  in **WHITEY'S GROVE** (NOT the Palindome); stunt nuts drop in the Palindome.
+- **Mr. Alarm** (Palindome NPC) hands over the **Mega Gem** in exchange for the stew. ⚠️ He may
+  not appear until the stew is already cooked/in hand — cook it first rather than grinding the
+  Palindome waiting for his NC.
 - Final: place/use the 4 photographs + Mega Gem → **Dr. Awkward** boss → **Staff of Fats**.
   Enter at FULL HP (hard hitter like Ron; keep torpedoes ready).
 
@@ -53,16 +67,15 @@ headpiece of the Staff of Ed (2323) + Staff of Fats → STAFF OF ED
   → insert into pyramid socket (Desert Beach, db_pyramid1)
   → Upper / Middle / Lower Chambers → Ed the Undying → HOLY MACGUFFIN
 ```
+The other two Staff components: **Eye of Ed** (Spookyraven cellar — see
+`spookyraven-ghost-chain.md`) + **ancient amulet** (Hidden City — see
+`hidden-temple-unlock.md`) combine into the **headpiece (2323)**. The pyramid endgame after
+insertion is in `pyramid-lower-chamber-wheel.md`.
 
-## Combat / automation notes (Day 47)
-- **Entangle-first stun combo is the standard now**: R1 Entangling Noodles (3004, stuns) →
-  R2 Cannelloni (3005) → R3 Mortar (3007) → R4+ Cannelloni; Spaghetti (3020) at MP<8.
-  Min HP stayed ~90-100% over ~100 fights, 0 Beaten Ups. Far better than Mortar-first.
-- **`whichskill=4` is NOT Ravioli Shurikens** — that "4" in the combat dropdown is its
-  mana cost. There is no skill id 4; use Spaghetti (3020) as the 0-MP fallback.
-- **Rapid `fetch` loops can force a logout.** A ~150ms sleep between adventures fixed it.
-  Re-login (or any frame navigation) wipes all `window.*` helpers — reinstall after.
-- **Mall buying**: store buy-form `whichitem` is a composite `itemid.price` (e.g.
-  `592.214` for a tiny house). `mallstore.php?whichstore=S&buying=Yep.&whichitem=ID.PRICE&quantity=N&pwd=`.
-- **MMJ** (item 518) from `shop.php?whichshop=guildstore2&action=buyitem&whichrow=527` at
-  100 Meat each. Burns ~1/fight — buy in bulk (40+).
+## Combat / automation notes
+- **Entangle-first stun combo**: R1 Entangling Noodles (3004, stuns) → R2 Cannelloni (3005) →
+  R3 Mortar (3007) → R4+ Cannelloni; Spaghetti (3020) at MP<8. Holds HP ~90-100% with ~0
+  Beaten Ups — better than Mortar-first for a tanky-but-not-boss zone. (General combat
+  standard lives in HANDOFF.)
+- **`whichskill=4` is NOT Ravioli Shurikens** — the "4" in the combat dropdown is its mana
+  cost. There is no skill id 4; use Spaghetti (3020) as the 0-MP fallback.

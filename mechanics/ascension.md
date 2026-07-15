@@ -1,11 +1,10 @@
 # Ascension Mechanics (KoL endgame / replay system)
 
-> Researched Day 75 (2026-06-30) from the KoL wiki via WebSearch snippets (WebFetch 403s on
-> wiki.kingdomofloathing.com; coldfront mirror redirects). **Verify exact numbers in-game when actually ascending** —
-> some figures below are from summaries and KoL tweaks them over time. ClaudeCode is **not ready to ascend yet** (still
-> finishing the main questline — see "Relevance" at bottom). This is forward-planning reference.
+> Researched from the KoL wiki. The wiki IS fetchable via `curl` with a browser user-agent (only WebFetch is 403'd on
+> wiki.kingdomofloathing.com). **Verify exact numbers in-game when actually ascending** — some figures below are from
+> summaries and KoL tweaks them over time.
 
-## ✅ Verified in-game flow (Day 86 — first ascension executed)
+## ✅ Verified in-game flow (first ascension)
 1. **Free King Ralph** (break the prism, `nstower&action=ns_11_prism`) → the **Astral Gash** appears (`ascend.php`).
 2. **Step through the gash:** `ascend.php` form — check both `confirm`+`confirm2` boxes, submit "Ascend" → you're in
    **Valhalla ("Beyond the Pale")**, a Level ∞ Astral Spirit. ⚠️ Direct-navigating `ascend.php` redirects; drive the
@@ -14,7 +13,7 @@
    Four shops open: **Permery** (`?place=permery`), **Deli** (`?place=deli`, consumables), **Pet Heaven / armory**
    (`?place=armory`, astral gear-pets), **Bureau of Reincarnation** (`?place=reincarnate`).
 4. **Permery FIRST:** each known skill has a **"Make Permanent (100 Karma)"** button — click the one next to the skill you
-   want (Day 86: **Pastamastery**). Screenshot to map buttons→skills (DOM introspection returned empty).
+   want (e.g. **Pastamastery**). Screenshot to map buttons→skills (DOM introspection returned empty).
 5. **Astral pet (armory):** each "pet" = a piece of **equipment** for the new run, **10 karma** each. For a Mys caster the
    **astral chapeau** is the pick. (Deli consumables cost more karma; skip if broke.)
 6. **Bureau of Reincarnation:** one form with selects **`asctype`** (1 Casual/2 Normal/3 Hardcore), **`whichclass`**
@@ -102,21 +101,19 @@ On ascending, your inventory + closet are dumped into **Hagnk's Ancestral Mini-S
 Ranked by **fewest DAYS first**, then **fewest turns (adventures) spent** as the tiebreaker. So speed-ascension is about
 minimizing real days, then turn-efficiency within those days.
 
-## 🎯 STRATEGY: Hardcore + Hardcore-perm karma farming (per user directive, Day 75)
-**Goal (user-set):** prioritize **Hardcore ascensions** and **Hardcore perms** to farm karma. Valid — HC = 211 karma/run
+## 🎯 STRATEGY: Hardcore + Hardcore-perm karma farming
+**Goal:** prioritize **Hardcore ascensions** and **Hardcore perms** to farm karma. Valid — HC = 211 karma/run
 (≈2× Normal's 111) and karma banks, so over several runs you accumulate enough to perm many skills (incl. HC perms at 200).
 
 **Reality / sequencing (important):**
-1. **You can't go Hardcore mid-run.** Difficulty is chosen **at the next ascension, in Valhalla.** This character is already
-   mid-run, so the *only* way to reach that choice is to **FINISH the current run**: remaining Council quests → free King
-   Ralph via the **NS Tower** (six keys). **⇒ Twin Peak, Nemesis, and the tower are the on-ramp — they stay near-term
-   priorities and do NOT conflict with the hardcore goal.**
+1. **You can't go Hardcore mid-run.** Difficulty is chosen **at the next ascension, in Valhalla.** The only way to reach that
+   choice is to **FINISH the current run**: remaining Council quests → free King Ralph via the **NS Tower** (six keys).
 2. **Hardcore forbids the mall, Hagnk's pulls (except free pulls), clan stash, and all player buffs/gifts until you free the
-   King.** Our whole playstyle is mall/buffbot-dependent (we BUY jerky, sodas, Fog Murderers, gear; the Twin Peak plan needs
-   a buffbot). A cold jump to HC would be brutal and slow.
+   King.** A mall/buffbot-dependent playstyle (buying jerky, sodas, Fog Murderers, gear; buffbot-reliant Twin Peak plan) does
+   not survive a cold jump to HC — it would be brutal and slow.
 3. **Recommended ramp: do the FIRST ascension Softcore (Normal), not Hardcore.** It still banks 111 karma, is far survivable,
-   and lets us perm the **survival/economy skills** first. Then escalate to Hardcore once self-sufficient. HC perms can still
-   be bought from Softcore runs (it's just karma) — so we lose nothing by ramping.
+   and lets you perm the **survival/economy skills** first. Then escalate to Hardcore once self-sufficient. HC perms can still
+   be bought from Softcore runs (it's just karma) — so nothing is lost by ramping.
    - **Why Pastamancer makes this clean:** **Pastamastery** (summon dry noodles → self-made food) is exactly the kind of
      self-sufficiency a no-mall Hardcore run needs. Perm it early.
 
@@ -132,6 +129,5 @@ affordable yet rather than wasting it on a low-value perm.
 **Other notes for the eventual ascension:**
 - Go **Softcore first, never Casual** (Casual gives only 11 karma — no perm).
 - A fresh ascension also re-rolls the **Moon Sign** (could grant Gnomad Camp access — but cocktailcrafting is class-locked,
-  so low value). See [[kol-drinks-strategy]].
-- Future runs: finishing the final boss **at Level 13** grants a bonus Instant Karma (+11) — a reason to NOT over-level on
-  speed runs. (Our *current* run is already Level 16, so we miss that bonus this time.)
+  so low value). For booze, see HANDOFF.md "Consumables & item reference" (DRINK).
+- Finishing the final boss **at Level 13** grants a bonus Instant Karma (+11) — a reason to NOT over-level on speed runs.

@@ -39,7 +39,7 @@ When you land on **"Welcome To Our ool Table"** (a choice encounter, not combat)
 
 ## Verified Formula Walkthrough
 
-Day 14 run (2026-04-22):
+Worked example:
 - Practiced 5 times → base Pool Skill 10 (shown in charpane quest description)
 - Equipped pool cue: +3
 - Used hand chalk (Chalky Hand): +3

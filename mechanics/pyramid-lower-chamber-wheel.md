@@ -1,8 +1,7 @@
-# The Ancient Buried Pyramid — Lower Chamber Wheel (DECODED, Day 51)
+# The Ancient Buried Pyramid — Lower Chamber Wheel
 
-This corrects the Day 50 handoff, which wrongly claimed the wheel was "parked at the
-vending machine" and that you interact with the *centre* room between the two named
-rooms. **Both claims were wrong.** Here is the verified mechanic.
+The wheel is **not** "parked at the vending machine," and you do **not** interact with a
+*centre* room between the two named rooms. Here is the verified mechanic.
 
 ## How rotation works
 
@@ -36,11 +35,11 @@ The "Lower Chambers (N) (LEFT on left, RIGHT on right)" label (shown on
 
 | # | Label | Descend here (opt 5) does… |
 |---|-------|----------------------------|
-| #1 | **vending machine on left, rats on right** | NOTHING (empty-center). ✗ verified wasted 1 adv here |
+| #1 | **vending machine on left, rats on right** | NOTHING (empty-center) — descending here wastes an adv |
 | #2 | **nothing on the left, rubble on the right** | **RUBBLE** → with a bomb, light it → opens Ed's chamber |
 | #3 | **rats on left, basket on right** | (untested; likely rats fight or nothing) |
 | #4 | **rubble on left, vending machine on right** | **VENDING** → with the bronze token, get the **ANCIENT BOMB** |
-| #5 | **basket on left, nothing on right** | **BASKET** → gives the **ancient bronze token** (✗ verified nothing-useful when you already hold one) |
+| #5 | **basket on left, nothing on right** | **BASKET** → gives the **ancient bronze token** (nothing useful if you already hold one) |
 
 Forward single-step order: **#1 → #2 → #3 → #4 → #5 → (4 unknown/empty positions) → #1**.
 
@@ -51,28 +50,25 @@ Forward single-step order: **#1 → #2 → #3 → #4 → #5 → (4 unknown/empty
 - **RUBBLE (bomb → open Ed):** rotate until the label is exactly
   **"nothing on the left, rubble on the right"** (#2), then opt 5.
 - **Rotate-and-watch:** after each rotation, re-read the label; descend ONLY when it
-  matches the target. This is robust against any position-counting error (which cost a
-  ratchet + the bomb on Day 51 when I over-relied on math and overshot #4 → #5).
+  matches the target. This is robust against any position-counting error (over-relying on
+  math can overshoot #4 → #5, wasting a ratchet and the bomb).
 
 ## Grinding tomb ratchets (the wall)
 
 - Ratchets drop only from **tomb rats / tomb rat kings** in the **Middle Chamber
   (snarfblat 407)**. Confirmed ~4/5 encounters there *are* tomb rats; the rest are tomb
   servants / tomb asps.
-- ⚠️ **Tomb asps inflict "Really Quite Poisoned"** — caps max HP (~183→116) and crashes
-  Mys (181→55), which silently wrecks combat. Cure immediately: soft green echo eyedrop
-  antidote (**item 588**) → its page is a form posting to **`uneffect.php`** with
-  `using=true&whichitem=588&whicheffect=284` (284 = Really Quite Poisoned). The combat
-  loop should check effects each turn and cure on sight.
-- Drop rate is swingy. Day 51 saw a brutal ~1–2 ratchets per ~30 fights even with the
-  **Baron von Ratsworth's monocle (+10% item, item 1312)** equipped. Equip max +item gear
-  before grinding (the monocle was NOT equipped at session start — acc slots had the
-  now-useless Talisman/Mega Gem). Consider an item-drop familiar too.
+- ⚠️ **Tomb asps inflict "Really Quite Poisoned"** — caps max HP and crashes Mys, which
+  silently wrecks combat. Cure immediately with the soft green echo eyedrop antidote (see
+  HANDOFF's antidote line). The combat loop should check effects each turn and cure on sight.
+- Drop rate is swingy — expect stretches of ~1–2 ratchets per ~30 fights. Equip max +item
+  gear before grinding (e.g. **Baron von Ratsworth's monocle**, +10% item, item 1312).
+  Consider an item-drop familiar too.
 
 ## Full finale checklist (from a fresh day)
 
-1. Day-open: restock **MMJ + tiny houses** FIRST (Day 51 ran them to 0 mid-grind → had to
-   rest for MP at 1 adv each = death spiral). Equip the monocle (1312).
+1. Day-open: restock **MMJ + tiny houses** FIRST (running them to 0 mid-grind forces
+   resting for MP at 1 adv each = death spiral). Equip the monocle (1312).
 2. Grind 407 for ratchets (cure poison!). You need enough to land on #4 then #2.
 3. Rotate-and-watch to **#4** → opt 5 with token → **ANCIENT BOMB**.
 4. Rotate-and-watch to **#2** → opt 5 with bomb → **Ed's burial chamber opens**.

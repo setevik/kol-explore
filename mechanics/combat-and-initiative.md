@@ -1,5 +1,9 @@
 # Combat Mechanics and Initiative
 
+> **Canonical combat standard lives in HANDOFF.md**: the Pastamancer default is **Stuffed Mortar Shell → Cannelloni
+> Cannon**. The low-level skill notes below (Spaghetti Spear / Ravioli Shurikens) are **early-game** and superseded once
+> those skills are available.
+
 ## Initiative System
 
 When a combat begins, one side gets the "jump" -- meaning they act first.
@@ -27,7 +31,7 @@ From the KoL wiki: **"Safe moxie" = monster's maximum experience × 4**
 - **Cannelloni Cocoon**: full HP heal (Level 12 skill)
 - **Leash of Linguini**: +5 familiar weight (Level 11 skill)
 
-## Skill Damage Analysis
+## Skill Damage Analysis (early-game skills)
 
 Observed in combat:
 - **Spaghetti Spear** (1 MP): single hit, 3-4 damage at base Mys
@@ -43,7 +47,7 @@ Observed in combat:
 
 ## Multi-Round Combat
 
-- Most fights take 1-2 rounds at Level 4 with Ravioli Shurikens
+- Early-game, most fights take 1-2 rounds with Ravioli Shurikens
 - Tougher enemies (vampire bats, briefcase bats) take multiple rounds
 - Each round the monster gets an attack unless stunned
 - Marcellus triggers once per round of combat (typically after your action)
@@ -52,10 +56,7 @@ Observed in combat:
 
 ### Marcellus (Mosquito)
 - Drains blood from enemies, heals YOU
-- Heal amount scales with **familiar weight**
-- At 1 lb: ~5 HP heal
-- At 8 lb: ~15+ HP heal
-- At 9 lb: 20-26 HP heal observed
+- Heal amount **scales with familiar weight** (roughly ~5 HP at low weight up to ~20-26 HP at high weight)
 - Triggers automatically each combat round (after your action)
 
 ## Beaten Up Effect

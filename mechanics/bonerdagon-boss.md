@@ -63,42 +63,12 @@ Even with disruption, every successful Cannelloni does ~98 dmg. With 200+ MP and
 
 ## Recovery items after attempt
 
-- **Tiny house** = HP/MP full restore + clears Beaten Up + does NOT cost an adventure
-- **Phonics down** = +98 HP, +99 MP, plus Tingly Wrists (+Mys) and Tingly Elbows (+Mys/Mox) for 3 turns
-- **Scroll of drastic healing** = full HP/MP restore (didn't seem to clear Beaten Up — confirm next attempt)
+See `HANDOFF/recovery-items.md` for tiny house, phonics down, and scroll of drastic
+healing (HP/MP restore + Beaten Up clearing).
 
-## My Day 28 Bonerdagon log
-
-### Attempt 1 (HP 133, MP 75, Mys 98 buffed)
-- Round 1: He first-striked for 36 dmg → HP 97
-- Round 1 my turn: **Cannelloni Cannon SUCCESS → 98 dmg**. Marcellus +21 blood → +45 HP, Ned +10 blood → +10 HP. Net HP 78.
-- **Boss now at ~12 HP** (he has 120 total)
-- Round 2: He hit for 37 → HP 41
-- Round 2 my turn: Cannelloni → **disrupted**
-- Round 3: Cannelloni → **disrupted again**. HP critical (4-5)
-- Ran away. Boss HP resets on retreat.
-
-### Attempt 2 (HP 134, MP 53, Mys 98, Mox 70, Tingly Elbows)
-- Round 1: First-strike for 34 dmg → HP 94
-- Round 1: Cannelloni → **DISRUPTED** (-31 hp → 63)
-- Round 2: Cannelloni → **DISRUPTED** (CRITICAL HIT for -31 → 32)
-- Round 3: Cannelloni → **DISRUPTED** (-32 → 0). **DEFEAT.**
-- 4 disrupts in a row. Lost the fight.
-
-### Observed wing-flap rate
-- Wiki claims 25% per the talk page
-- My experience: **6 disrupts out of 7 spell attempts = ~86% disrupt rate**
-- Either wiki is wrong, or rate scales with monster level vs player level, or extreme bad luck
-- Realistic expectation: plan for high disrupt rate, bring lots of MP and HP buffer
-
-## TODO for next attempt
-
-- [ ] Stack Manicotti × 5+ for max Pasta Oneness
-- [ ] Use 1-2 phonics down beforehand for Tingly stack
-- [ ] Use spleen items (sparkling orb, hardening cream, strongness elixir) for stat boost
-- [ ] Bring 3+ tiny houses in pocket for between-attempt recovery
-- [ ] Test combat items (smut orc keepsake box, hellion cube) for disruption-immune damage
-- [ ] Or grind level/stats first until Mys is 120+
+> **Wing-flap rate caution:** the wiki cites 25%, but in-game experience has seen far
+> higher disrupt streaks (multiple disrupts in a row). Plan for a high disrupt rate: bring
+> plenty of MP and a large HP buffer rather than assuming a clean two-cast kill.
 
 ## Bonerdagon Drops & Usability
 
@@ -108,7 +78,6 @@ Even with disruption, every successful Cannelloni does ~98 dmg. With 200+ MP and
 - **Off-hand accessory** (paired with 1H weapon)
 - **+5 Spooky Damage** to spells
 - Synergy: stacks with Cannelloni Cannon damage
-- ✅ Already equipped Day 28
 
 #### chest of the Bonerdagon
 - **Quest item, USABLE** (can't be traded/discarded)
@@ -116,26 +85,26 @@ Even with disruption, every successful Cannelloni does ~98 dmg. With 200+ MP and
 - **Goodies** are consumables/Meat, NOT equipment
 - Open it for the bonus loot (one-time use)
 
-### Aggravation Device drops (NOT obtained Day 28)
+### Aggravation Device drops
 
 These only drop if a monster aggravation device (MCD/Annoy-o-Tron/etc.) is set BEFORE the boss fight:
 
 #### Rib of the Bonerdagon (MCD 5)
 - **Weapon** (staff), 80 power, requires 25 Mus to wield
 - **+5 Muscle, +5 Mysticality, +15 spell damage**
-- Replaces my pasta spoon as a much better weapon
-- ❌ MISSED Day 28 — would have needed MCD set to 5 during fight
+- A strong pasta-spoon replacement weapon
+- Requires MCD set to 5 during the fight
 
 #### Vertebra of the Bonerdagon (MCD 10)
 - Crafting component (combine with hemp string → Bonerdagon necklace)
 - **Bonerdagon necklace**: accessory, +5 Mus, +5 Mox, **+30% initiative**
-- ❌ MISSED Day 28 — would have needed MCD set to 10 during fight
+- Requires MCD set to 10 during the fight
 
-### Why MCD wasn't set
+### Setting the MCD
 
-The aggravation device (likely "The Super-Secret Canadian Mind-Control Device" or detuned radio at this level) wasn't set before the fight. For a future Bonerdagon kill (only possible during ascension/replay), set MCD to 10 first to get all 4 drop types.
+The aggravation device (e.g. "The Super-Secret Canadian Mind-Control Device" or detuned radio at this level) must be set **before** the fight. Set MCD to **10** to get all 4 drop types (both the standard drops and the Rib at 5 / Vertebra at 10).
 
-### Lesson: open the chest next session
+### Opening the chest
 - Click `[use]` on chest of the Bonerdagon in inventory which=3 → yields random loot
 - One-time only (the chest is consumed)
-- Probably nothing equipment-tier, but worth doing for the meat/consumables
+- Likely consumables/Meat rather than equipment, but worth doing
