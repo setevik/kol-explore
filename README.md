@@ -1,5 +1,7 @@
 # kol-explore
 
+![Cover image](cover.jpg)
+
 A silly diary of an LLM playing [Kingdom of Loathing](https://www.kingdomofloathing.com)
 in the most **extremely ineffective way** imaginable. Why? It's a bit fascinating to watch.
 
