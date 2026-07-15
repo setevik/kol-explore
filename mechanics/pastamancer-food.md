@@ -1,58 +1,61 @@
-# Pastamancer food — turning our 96 dry noodles into meals (official wiki consult, Day 50)
+# Pastamancer food — preferred food per level (class/skills-aware)
 
-Source: official KoL wiki (Dry noodle guide, Savory dry noodles, Pastamastery,
-Transcendental Noodlecraft, Pastamancer). WebFetch/browser-nav to the wiki are blocked, so
-this is distilled from official-wiki search summaries + in-game testing.
+> Sourced from the official wiki (Pastamancer, Pastamastery, Transcendental Noodlecraft, Savory dry noodles,
+> Spaghetti breakfast, The Most Important Meal) via WebSearch + in-game testing. The wiki 403s on WebFetch, so
+> exact item-level-requirements marked "(verify in-game)" should be confirmed on the item's description page.
+> Cross-ref the EAT hard rule in `HANDOFF.md`. Current-run food state is tracked in `CURRENT_ASCENSION.md`.
 
-## The problem
-We hoard **~96 dry noodles (item 304)** from daily Pastamastery but have been wrapping days
-at **full 0/15** — wasting ~30-45 rollover adventures/day. Dry noodles are a crafting
-ingredient, not directly edible.
+## Why food choice is class-specific for us
 
-## ⚠️ Cooking costs adventures
-**Each pasta dish costs 1 adventure to cook** (saucy noodles cost 2) UNLESS you own a
-**chef-in-the-box** (makes food crafting free). So food must be made at **day OPEN** when we
-have adventures — NOT at the end of day at advs 0. A **chef-in-the-box is worth acquiring**
-for sustained free daily food.
+A **Pastamancer** gets bonuses that make **pasta dishes** the best food, and make *every* food better:
+- **Pasta dishes → +3–7 MP per fullness** (Pastamancer only). Free MP battery baked into the meal.
+- **Saucemaven** (Pastamancer/Sauceror passive) → **+5 adventures from EVERY food AND booze.** Biggest single
+  food/booze multiplier we have — prioritize learning/perming it.
+- **Canticle of Carboloading** (Pastamancer skill) → **+3 adv to the *next* pasta dish** (cast right before eating it).
+- **Transcendental Noodlecraft** (Pastamancer skill, **lowest dish needs Level 10**) → craft **hi meins** = the premium
+  Pastamancer food (5 fullness, "awesome" quality, big MP, +5 turns of an elemental Breath).
+- **Milk of Magnesium** (universal, the "Got Milk" effect) → **+1 adv per fullness**; eat it *before* your food.
 
-## Dry-noodle cooking tiers (all via Cook station, `craft.php?mode=cook`)
+⚠️ **Food has LEVEL REQUIREMENTS** — you cannot eat a food above your level (this is why *stolen sushi 6293 won't eat
+at low level* — its req is above ~L4; verify, but treat it as unavailable until higher level). Always pick the best
+food whose level requirement you meet.
 
-### 1. Basic pastas — Pastamastery (we have it) — DO THIS FIRST
-- **dry noodles + 1 ingredient → pasta dish**, **4 fullness**, 1 adv to cook.
-- 4-fullness dishes use **early ingredients** (Bat Hole, Cobb's Knob); better basic pastas
-  use **level 7 / level 9 quest** ingredients.
-- ⚠️ **Exact ingredient pairs must be found in-game** (wiki recipe tables aren't fetchable).
-  In the Cook UI, pair dry noodles (304) with each early-zone ingredient we hold
-  (bat wing, batgut, bunny liver, ghuol ears, cat appendix, catgut, etc.) — a valid pair
-  shows a result. **Tested INVALID:** long pork (2532), lihc eye (170), jumbo olive (455),
-  enchanted bean (186).
+⚠️ **Cooking costs 1 adventure per dish** (2 for saucy noodles) **unless you own a chef-in-the-box** (free crafting).
+So cook at day-OPEN while you have adventures — and a **chef-in-the-box is worth acquiring** for a pasta run.
 
-### 2. Lo meins — Pastamastery
-- dry noodles + a **first-tier stir fry** (base ingredient cooked with a "secret blend of
-  herbs and spices").
+## 🍝 Preferred food per level — Softcore Pastamancer
 
-### 3. Saucy noodles — Pastamastery (2 advs to cook)
-- dry noodles + a **sauce** ingredient (sauce = ingredient + scrumdiddlyumptious solution).
+| Char level | Preferred EAT (best first) | Fullness ea. | How to get / notes |
+|---|---|---|---|
+| **1–4** | Cheap **"decent"+ bought food** with level-req ≤ your level (e.g. **fortune cookie** 2f, L1). Top the meter with **1-f fruit** (orange item 332, lemon). | 1–3 | No good craftable pasta yet (Noodlecraft is L10). Buy from the **mall** or **general store**. Eat **Milk of Magnesium** first if affordable. **spaghetti breakfast** (see boosters) is a free daily pasta if you have the skill. |
+| **5–9** | Best **3–5-fullness "good/awesome" bought food** you meet the level-req for — **prefer any *pasta dish*** (for the +MP). Cook **basic dry-noodle pasta** if you find a valid filling (see crafting below). | 3–5 | Milk of Magnesium first. Once **stolen sushi (6293)** unlocks by level (verify), it's a good 6-f option. |
+| **10–11** | **Craft & eat hi meins** (Transcendental Noodlecraft): dry noodles + **MSG** → *savory dry noodles*; savory dry noodles + a **sauce** → **hi mein**. | 5 ea. | Buy MSG + the sauce reagents from the **mall** (Softcore allows it). Get a **chef-in-the-box** so cooking is free. Save **Carboloading** for the biggest dish. |
+| **12+** | Same **hi meins**, now with **Saucemaven** adding **+5 adv to every dish** (and every drink). | 5 ea. | Learn **Saucemaven** at the guild ASAP — it retroactively makes ALL food/booze much better. |
 
-### 4. Savory dry noodles → hi meins / lasagnas / wontons — needs **Transcendental Noodlecraft**
-(skill ownership UNCONFIRMED — skillz.php renders skills as images, can't text-check; verify
-by attempting the craft)
-- **dry noodles + MSG → savory dry noodles.** MSG is sold at our guild store
-  (Gouda's Grimoire & Grocery, `shop.php?whichshop=guildstore2`, ~1000 meat — row id needs
-  re-confirming in-game; the store HTML mis-parses).
-- savory dry noodles + **elemental sour sauce → hi mein** (strong food).
-- seasoned meat → casserole → + savory dry noodles → **lasagna**.
-- Mysterious Island ingredients + savory dry noodles → **wontons**.
+**Rule of thumb every day:** Milk of Magnesium → (Carboloading if eating a pasta dish) → eat the highest-quality food
+that (a) you meet the level requirement for and (b) is a **pasta dish** when possible → fill fullness to 15.
 
-## Recommended plan (next day OPEN, while we have adventures)
-1. **Find a working basic-pasta recipe in-game**: Cook UI, dry noodles (304) + each early
-   ingredient until a dish appears. Cook ~4 → eat to fill 15 fullness (~40 advs of food for
-   ~4 cook-advs = big net gain).
-2. **Or** buy **MSG**, test dry noodles + MSG → savory dry noodles (confirms Transcendental
-   Noodlecraft); if it works, build toward hi meins.
-3. **Or simplest** — buy ready food from the **mall** (no cook-adv cost) and eat to 15.
-4. **Acquire a chef-in-the-box** so future cooking is free.
+## Universal adventure-boosters (stack them)
 
-## Cross-reference
-See the HARD RULE in HANDOFF.md ("Fill the FOOD & BOOZE meters every day"). Booze side is
-solved: Fog Murderer (Hidden Tavern row 175, item 238) = +3 drunk / +6 advs each.
+- **Milk of Magnesium** (item; "Got Milk") — **+1 adv/fullness**, eat before food. Cheap; buy from the mall.
+- **Canticle of Carboloading** (Pastamancer skill) — **+3 adv to the next pasta dish**. Cast, then eat a big pasta.
+- **The Most Important Meal** (Mr. Store skill) → **spaghetti breakfast** once/day: a free **pasta dish** whose adv
+  gain *scales with your level* (base 1; ~3–4 at L6). Nice free daily pasta if the account has the skill.
+- **Saucemaven** (see above) — +5 adv/food & booze.
+
+## Crafting details (Cook station, `craft.php?mode=cook`)
+
+- **Basic pasta / lo mein / saucy noodles — Pastamastery (we have it):** **dry noodles (304) + 1 filling → a pasta
+  dish (~4 fullness)**, 1 adv to cook. ⚠️ The valid fillings must be found in the Cook UI (wiki recipe tables aren't
+  fetchable). **Tested INVALID (Day 50):** long pork (2532), lihc eye (170), jumbo olive (455), enchanted bean (186).
+  Pair dry noodles with early-zone drops (bat wing, batgut, bunny parts, ghuol/cat bits, etc.) until a result appears.
+- **Savory dry noodles → hi meins / lasagnas / wontons — Transcendental Noodlecraft (L10 skill):**
+  dry noodles + **MSG** → savory dry noodles (MSG from the guild store `shop.php?whichshop=guildstore2`); savory dry
+  noodles + an **elemental sour sauce** → **hi mein**; + casserole → **lasagna**; + Island ingredients → **wontons**.
+
+## Booze note (for the DRINK step, not food)
+
+Best no-skill booze is the **Fog Murderer** (item **6682**, +6 drunk/+14 adv) from the **Hidden Tavern**
+(`shop.php?whichshop=hiddentavern` row 175) — unlocks after the Typical Tavern quest. Before that, drink whatever
+low-level booze you have (e.g. bottle of vodka, item 238). **Ode to Booze** (Accordion Thief buff) and **Saucemaven**
+(+5 adv) boost booze too.
