@@ -1,9 +1,9 @@
 # Pastamancer food — preferred food per level (class/skills-aware)
 
 > Sourced from the official wiki (Pastamancer, Pastamastery, Transcendental Noodlecraft, Savory dry noodles,
-> Spaghetti breakfast, The Most Important Meal) via WebSearch + in-game testing. The wiki 403s on WebFetch, so
-> exact item-level-requirements marked "(verify in-game)" should be confirmed on the item's description page.
-> Cross-ref the EAT hard rule in `HANDOFF.md`. Current-run food state is tracked in `CURRENT_ASCENSION.md`.
+> Spaghetti breakfast, The Most Important Meal, item pages). WebFetch 403s the wiki, but **`curl` with a browser
+> user-agent fetches it fine (HTTP 200)** — see HANDOFF; use it to read a food's `Level required:` / `Size:` / avg
+> Adventures directly. Cross-ref the EAT hard rule in `HANDOFF.md`. Current-run food state is in `CURRENT_ASCENSION.md`.
 
 ## Why food choice is class-specific for us
 
@@ -16,9 +16,9 @@ A **Pastamancer** gets bonuses that make **pasta dishes** the best food, and mak
   Pastamancer food (5 fullness, "awesome" quality, big MP, +5 turns of an elemental Breath).
 - **Milk of Magnesium** (universal, the "Got Milk" effect) → **+1 adv per fullness**; eat it *before* your food.
 
-⚠️ **Food has LEVEL REQUIREMENTS** — you cannot eat a food above your level (this is why *stolen sushi 6293 won't eat
-at low level* — its req is above ~L4; verify, but treat it as unavailable until higher level). Always pick the best
-food whose level requirement you meet.
+⚠️ **Food has LEVEL REQUIREMENTS** — you cannot eat a food above your level. ✅**Confirmed via wiki curl:
+stolen sushi (6293) = food (good), Size 6, Level required: 6, ~13 adv** — that is why it wouldn't eat at Level 4;
+it becomes a solid 6-fullness food at **Level 6+**. Always pick the best food whose level requirement you meet.
 
 ⚠️ **Cooking costs 1 adventure per dish** (2 for saucy noodles) **unless you own a chef-in-the-box** (free crafting).
 So cook at day-OPEN while you have adventures — and a **chef-in-the-box is worth acquiring** for a pasta run.
@@ -28,7 +28,7 @@ So cook at day-OPEN while you have adventures — and a **chef-in-the-box is wor
 | Char level | Preferred EAT (best first) | Fullness ea. | How to get / notes |
 |---|---|---|---|
 | **1–4** | Cheap **"decent"+ bought food** with level-req ≤ your level (e.g. **fortune cookie** 2f, L1). Top the meter with **1-f fruit** (orange item 332, lemon). | 1–3 | No good craftable pasta yet (Noodlecraft is L10). Buy from the **mall** or **general store**. Eat **Milk of Magnesium** first if affordable. **spaghetti breakfast** (see boosters) is a free daily pasta if you have the skill. |
-| **5–9** | Best **3–5-fullness "good/awesome" bought food** you meet the level-req for — **prefer any *pasta dish*** (for the +MP). Cook **basic dry-noodle pasta** if you find a valid filling (see crafting below). | 3–5 | Milk of Magnesium first. Once **stolen sushi (6293)** unlocks by level (verify), it's a good 6-f option. |
+| **5–9** | Best **3–5-fullness "good/awesome" bought food** you meet the level-req for — **prefer any *pasta dish*** (for the +MP). Cook **basic dry-noodle pasta** if you find a valid filling (see crafting below). | 3–6 | Milk of Magnesium first. **At Level 6+, stolen sushi (6293) unlocks** (6f, ~13 adv, "good") — we hold 123 in Hagnk's, so it becomes the easy EAT. |
 | **10–11** | **Craft & eat hi meins** (Transcendental Noodlecraft): dry noodles + **MSG** → *savory dry noodles*; savory dry noodles + a **sauce** → **hi mein**. | 5 ea. | Buy MSG + the sauce reagents from the **mall** (Softcore allows it). Get a **chef-in-the-box** so cooking is free. Save **Carboloading** for the biggest dish. |
 | **12+** | Same **hi meins**, now with **Saucemaven** adding **+5 adv to every dish** (and every drink). | 5 ea. | Learn **Saucemaven** at the guild ASAP — it retroactively makes ALL food/booze much better. |
 
