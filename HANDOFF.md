@@ -9,7 +9,7 @@
 
 ## Login & session
 
-- **Test account (not secret):** login `ClaudeCode`, password `REDACTED`. URL `https://www.kingdomofloathing.com/login.php`.
+- **Test account:** read login/password from `credentials.local.md` (git-ignored, not committed). URL `https://www.kingdomofloathing.com/login.php`.
 - `game.php` uses a **4-frame layout**: `charpane`, `menupane`, `mainpane`, `chatpane`. Frame nav goes through
   `window.frames['mainpane'].location.href = 'path'`. Most actions are done by `fetch()` in the top-window context.
 - **If the login form shows** (`input[name="loginname"]`): set `forms['Login'].loginname/password`, call `.submit()`.

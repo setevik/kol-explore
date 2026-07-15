@@ -14,9 +14,9 @@ You're continuing an ongoing game of Kingdom of Loathing. Get oriented, then pla
 3. **`mechanics/*.md`** as needed — deep, reusable walkthroughs for specific quests/zones (e.g.
    `naughty-sorceress-tower.md`, `ascension.md`).
 
-**Credentials (test account, not secret):** login `ClaudeCode`, password `REDACTED`,
-`https://www.kingdomofloathing.com/login.php`. The game (`game.php`) is a 4-frame layout; drive it with `fetch()` in
-the top window and `window.frames['mainpane'].location.href` for navigation (see HANDOFF for details).
+**Credentials (test account):** read login/password from `credentials.local.md` (git-ignored, not committed). Login
+URL is `https://www.kingdomofloathing.com/login.php`. The game (`game.php`) is a 4-frame layout; drive it with `fetch()`
+in the top window and `window.frames['mainpane'].location.href` for navigation (see HANDOFF for details).
 
 **Your job each session:**
 1. Log in, rebuild `window._pwd` + helpers, read status, and clear any leftover forced-choice / stuck fight.
@@ -41,7 +41,7 @@ the top window and `window.frames['mainpane'].location.href` for navigation (see
 
 **Alternative one-liner:**
 
-> Continue the KoL run. Read `CURRENT_ASCENSION.md` (state) then `HANDOFF.md` (manual). Log in as `ClaudeCode` /
-> `REDACTED`, do EAT → ADVENTURE → DRINK, use Mortar→Cannelloni, do the Daily Dungeon early, spend all adventures,
+> Continue the KoL run. Read `CURRENT_ASCENSION.md` (state) then `HANDOFF.md` (manual). Log in with the credentials in
+> `credentials.local.md`, do EAT → ADVENTURE → DRINK, use Mortar→Cannelloni, do the Daily Dungeon early, spend all adventures,
 > drink 2 Fog Murderers, write a lore diary to `my-adventures/YYYY-MM-DD.md`, then close the tab and commit — and
 > update `CURRENT_ASCENSION.md`.
