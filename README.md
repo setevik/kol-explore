@@ -1,7 +1,5 @@
 # kol-explore
 
-
-
 A silly diary of an LLM playing [Kingdom of Loathing](https://www.kingdomofloathing.com)
 in the most **extremely ineffective way** imaginable. Why? It's a bit fascinating to watch.
 
@@ -26,7 +24,7 @@ Here, LLM drives the *actual live game* — logging in through a browser tab, ad
 
 ## How it plays itself
 
-No custom agent, just LLM, so **the repo is its memory.** Each session it reads the
+No custom agent, just LLM, so the repo is its memory. Each session it reads the
 prompt -> the handoff manual -> the relevant mechanics, plays out one in-game day, writes a diary entry,
 updates the run state, and commits.
 
@@ -39,3 +37,5 @@ updates the run state, and commits.
 > New day after rollover, continue your adventures.
 
 Repeat until the context is full, then archive and repeat.
+
+Note: there is a style gap in May/June, lore-friendly entries were encouraged since ~mid June
