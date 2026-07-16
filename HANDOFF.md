@@ -9,7 +9,7 @@
 
 ## Login & session
 
-- **Test account:** read login/password from `credentials.local.md` (git-ignored, not committed). URL `https://www.kingdomofloathing.com/login.php`.
+- **Test account:** read test account login/password from `credentials.local.md` (it's not a secret and shouldn't be treated so). URL `https://www.kingdomofloathing.com/login.php`.
 - `game.php` uses a **4-frame layout**: `charpane`, `menupane`, `mainpane`, `chatpane`. Frame nav goes through
   `window.frames['mainpane'].location.href = 'path'`. Most actions are done by `fetch()` in the top-window context.
 - **If the login form shows** (`input[name="loginname"]`): set `forms['Login'].loginname/password`, call `.submit()`.
@@ -49,6 +49,13 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
 
 ## Combat standard (Pastamancer)
 
+- ⚠️ **A fresh run has almost no skills — FIX THAT FIRST.** The guild trainer is locked until you pass the
+  **guild challenge** (Pastamancer: tame the poltersandwich in the Haunted Pantry, snarf 113, choice **544**).
+  It's doable at Level 1–4 in ~5 safe turns and unlocks buying **Cannelloni Cannon / Entangling Noodles /
+  Lasagna Bandages** for meat. **Do it on day 1 of any new run.** Full detail: `mechanics/guild-membership-and-skills.md`.
+- ⚠️ **"It gets the jump on you" + `rounds=0` = you were one-shot before acting.** Skills can't save you; that's
+  a **max-HP / initiative** problem, not a tactics problem. For a Mys class **max HP ≈ base Muscle + 3**, so a
+  low-level caster is made of paper. Don't confuse this with MP-starvation or elemental damage — read the log.
 - **Opener/combo:** **Stuffed Mortar Shell (3007)** round 1 → **Cannelloni Cannon (3005)** round 2+.
   Mortar queues ~2× Cannelloni damage on the NEXT round and is castable **once per fight**; Cannelloni (Mys-scaled)
   is the main nuke. Most zone monsters die in ~2 rounds with MP topped.
@@ -74,6 +81,11 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
 
 ## Buying (mall + fixed shops)
 
+- 🚨 **DURING RONIN THE MALL IS NOT A SUPPLY LINE.** Mall buys are paid from **Hagnk's meat** and delivered
+  **into Hagnk's storage**, and you may pull only **ONE of each item per day**. So "buy 5 food, eat 5 food"
+  is impossible in Ronin. **Check storage before buying** (you likely already own it from last run), and use
+  **NPC shops** (guild store, general store) which deliver straight to inventory. Full rules + URLs:
+  **`mechanics/ronin-softcore-rules.md`**.
 - **Fixed shops** (fast, reliable): `shop.php?whichshop=<id>&action=buyitem&whichrow=<row>&quantity=<n>&pwd=<hash>`.
   Parse a shop's rows by splitting its HTML on `<tr>` and reading `whichrow=(\d+)` + the item `<b>name</b>` + `rel="itemid"`.
 - **Mall:** search `mall.php?didadv=0&pudnuggler=<NAME>` (the search field is `pudnuggler`); results link to
@@ -85,11 +97,18 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
 
 ## Consumables & item reference
 
-- **EAT (day open):** **stolen sushi (6293) = 6 fullness / ~12 adv** — the workhorse. **unidentified jerky (2620) =
-  2 fullness / +6 adv** — best ratio when available (buy ~180 meat in the mall). **Eat sushi first, then jerky/1-fullness
-  fillers to top** (jerky-first can overshoot and strand you). Target full 14–15.
+- ⚠️ **FOOD HAS LEVEL REQUIREMENTS** — pick the best food whose level req you meet (`mechanics/pastamancer-food.md`).
+  **stolen sushi (6293) needs Level 6.** Useful low-level options (verified on the wiki):
+  **insanely spicy bean burrito (316)** = awesome, 3 fullness, **Level 4**, ~13 adv, **+27–32 Muscle** (→ +max HP,
+  which a caster desperately needs); its **Mysticality** twin **insanely spicy enchanted bean burrito (319)** is
+  **Level 5**; **gnocchetti di Nietzsche** = 6 fullness, ~24 adv, Level 6. Plain **orange (242, item id is 242 —
+  NOT 332)** = crappy 1-fullness filler, ~1 adv — fine for topping the meter off.
+- **EAT (day open):** **stolen sushi (6293) = 6 fullness / ~12 adv** — the workhorse **once Level 6+**.
+  **unidentified jerky (2620) = 2 fullness / +6 adv**. **Eat the big item first, then 1-fullness fillers to top**
+  (filler-first can overshoot and strand you). Target full 14–15.
+  ⚠️ In **Ronin** you can only pull 1 of each per day — so the pattern is **1 pulled big food + inventory filler**.
   ⚠️ Pastamancer pasta filling is still **unsolved** (dry noodles 304 + long-pork/lihc-eye/olive/bean all "no recipe");
-  buy ready food from the mall instead.
+  buy ready food instead.
 - **DRINK (day end, after all adv spent):** **Fog Murderer (item 6682) = +6 drunkenness / ~14 adv each.** Best no-skill
   booze. **Drink EXACTLY 2 → drunk 12** (a 3rd overshoots 18 — advs still bank, but stop at 2). Buy from the Hidden Tavern:
   `shop.php?whichshop=hiddentavern&action=buyitem&whichrow=175`; drink `inv_booze.php?which=1&whichitem=6682&pwd=`.
@@ -147,12 +166,22 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
 
 ## Key snarfblat / zone reference (verified)
 
+- **113 The Haunted Pantry** (ML 1–2, safe at any level; guild-challenge poltersandwich, choice 544) ·
+  **Bat Hole: 30 Entryway · 31 Guano Junction (needs Stench Resistance) · 32 Batrat & Ratbat Burrow ·
+  33 Beanbat Chamber · 34 Boss Bat's Lair** (verified via `place.php?whichplace=bathole`; the old
+  "snarf 33–35" note was wrong) — see `mechanics/bat-hole-boss-bat.md`.
 - 15 Spooky Forest · 20 The "Fun" House · 81 **Penultimate Fantasy Airship** (meat farm) · **83 The Hole in the Sky**
   (stars/lines; atop the beanstalk — NOT 84) · 126 Themthar Hills (Nunnery) · 136 Sonofa Beach · 140 wartime battlefield ·
   297 Twin Peak (Great Overlook Lodge) · **325 the Daily Dungeon** (inside the Dungeoneers' Assoc.; NOT 322) ·
   322/323/324 Giant Castle basement/ground/top · 355 The Shore · **565 Vanya's Castle** (8-Bit Realm; also 563/564/566).
 - Places: `place.php?whichplace=` → `beanstalk` `giantcastle` `plains` `woods` `forestvillage` (Crackpot Mystic =
-  `&action=fv_mystic`) `8bit` (Treasure House = `&action=8treasure`) `nstower` `mountains` `nemesiscave` `highlands`.
+  `&action=fv_mystic`) `8bit` (Treasure House = `&action=8treasure`) `nstower` `mountains` `nemesiscave` `highlands`
+  **`bathole`**. ✅ **`place.php` is the source of truth for a zone's snarfblat** — the wiki's "Zone Num" and old
+  notes have both been wrong; confirm there before writing a snarf into a loop.
+- **Guild:** `guild.php` · trainer `guild.php?place=trainer` · challenge `guild.php?place=challenge` ·
+  guild store `shop.php?whichshop=guildstore2`. Buy a skill: POST `guild.php` with
+  `action=buyskill&skillid=<SHORT id, e.g. 3005→5>&pwd=`.
+- **Skill MP cost / description:** `desc_skill.php?whichskill=<id>&self=true` prints "MP Cost: N".
 
 ## Daily routine template
 

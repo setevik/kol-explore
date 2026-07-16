@@ -30,46 +30,78 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 88 / 2026-07-15)
+## 📊 Character state (run #2 — end of Day 89 / 2026-07-16)
 
-- **Level 4 Pastamancer** (a whisker from 5). Mysticality ~18. HP ~11 max, MP ~27. **Meat ~1,800. adv 13 banked** (drink-bonus).
-  full 3, drunk 12. Ronin ~900.
-- **Equipped:** astral chapeau (5030) · pasta spoon (5) · old sweatpants (4711) · **Baron von Ratsworth's monocle (1312, +item)** ·
-  **familiar = Marcellus the Mosquito** (drains HP to damage + heal — keeps a low-HP caster alive).
-- **Known combat skills:** **Spaghetti Spear (3020, 0 MP, Mys-scaled — the workhorse)** + Manicotti Meditation (3000) + permed
-  Pastamastery. ⚠️ Guild trainer still locked ("not a full member of the League of Chef-Magi") — more skills come free at level-up.
-- **Consumables:** ~3 bottles **vodka (item 238; ~3 drunk + ~3 adv each — the DRINK source until the Hidden Tavern)**, dry noodles.
-  ⚠️ **FOOD SHORTAGE:** oranges/lemons ran out (only reached full 3 today); **stolen sushi (6293) is LEVEL-GATED**; oranges
-  weren't mall-buyable under "orange". **Sort a real low-level food supply** (mall by another name, general store, or level up
-  so sushi unlocks) — filling fullness banks a lot of rollover advs.
-- **In Hagnk's** (pull ≤20/day during Ronin): 123 stolen sushi, 22 MMJ (518), + last run's 400+ item types. Also holds a
-  **telegram from Lady Spookyraven** (starts the Manor quest later).
+- **Level 5 Pastamancer.** Base Mys **23** (raw 565) · base Muscle **10** · Moxie ~6. **HP 13 max** (⚠️ the binding
+  constraint), MP ~46. **Meat ~1,505. adv 15 banked.** full 15, drunk 15 (both meters filled ✅). Ronin ~850.
+- **Equipped:** astral chapeau (5030) · pasta spoon (5) · old sweatpants (4711) · **Baron von Ratsworth's monocle
+  (1312, +item)** · **Pine-Fresh air freshener (556, acc2, +1 stench res)** · **familiar = Marcellus the Mosquito**.
+- ✅ **FULL MEMBER of the League of Chef-Magi** (Day 89 — tamed the poltersandwich). **Guild fully unlocked.**
+- **Known combat skills:** **Cannelloni Cannon (3005, 8 MP — main nuke)** · **Entangling Noodles (3004, stun)** ·
+  **Lasagna Bandages (3009, 6 MP heal — works out of combat via `runskillz.php`)** · Spaghetti Spear (3020, 0 MP —
+  the MP-free workhorse) · Manicotti Meditation (3000) · permed Pastamastery.
+- **Buyable next at Brie** (`guild.php?place=trainer`, price = 125/250/500/750 by skill level):
+  **Springy Fusilli (3015, +init) at Level 6** ← the fix for the Bat Hole · Ravioli Shurikens (3003, 125, 4 MP nuke) ·
+  Transcendent Al Dente (3026, 250) · Bind Vermincelli (L5).
+- **Consumables:** 3 MMJ (518), 9 dry noodles, ~4 oranges (242), whiskey/Willer/swill for booze. No tiny houses (592)
+  or healing scrolls (595) in inventory — **Lasagna Bandages is now the heal**; campground rest clears Beaten Up.
+- **In Hagnk's** (⚠️ **only 1 of each item per day** — see `mechanics/ronin-softcore-rules.md`): **121 stolen sushi**
+  (unlocks at Level 6), **3 insanely spicy bean burritos (316)**, **8 sonars (563)**, 3 air fresheners (556),
+  22 MMJ (518), + last run's 400+ item types. Also a **telegram from Lady Spookyraven** (Manor quest later).
+  **Hagnk's meat ≈ 1,149** (a *separate purse* — mall buys spend this, not inventory meat).
 
 ---
 
-## 🔜 Next-session priorities (ordered) — continue the early game
+## 🔜 Next-session priorities (ordered)
 
-✅ Done: Toot Oriole → L3 (Day 86); mosquito larva quest + L4 (Day 87); **Typical Tavern rat problem COMPLETE + Baron's
-monocle** (Day 88). Council now points to the **Boss Bat**.
+✅ Done: Toot Oriole → L3 (Day 86); mosquito larva + L4 (Day 87); **Typical Tavern rat problem + Baron's monocle**
+(Day 88); **guild membership + Cannelloni/Noodles/Bandages + Level 5 + first full food meter** (Day 89).
+Council still points to the **Boss Bat**.
 
-1. **EAT first** — **sort out food** (see char-state warning): the meter has been under-filled. Options: mall-buy a cheap
-   low-level food (try names other than "orange"), the general store, or wait for sushi to unlock at higher level. Cast Pastamastery.
-2. **Boss Bat quest** (Council's current ask): the **Bat Hole** (Bat's Nest zones ~snarf 33–35). Collect **sonars-in-a-biscuit**
-   to blast open the chambers, clear bats, then beat the **Boss Bat**. Fight with **Spaghetti Spear (3020) + Marcellus + monocle**.
-3. **Then the L5+ Council chain again:** Cobb's Knob, Friars, Cyrpt/Bonerdagon, … — the whole questline resets. Re-use the
-   run-#1 walkthroughs in `mechanics/*.md`.
-4. **Level up** in the **Spooky Forest (snarf 15)** (good XP, Marcellus sustains you) whenever you need stats.
-5. **DRINK** vodka (item 238) each day-end until the **Hidden Tavern** opens (it should be unlocked now the tavern quest is done —
-   check `shop.php?whichshop=hiddentavern` for Fog Murderers once you have meat).
-6. **Long-term:** finish this Softcore run (→ 111 karma, perm the next skill — a meat/econ skill), then escalate toward Hardcore.
+> 🧱 **THE ONE BLOCKER: max HP 13.** The Bat Hole one-shots us *before we act* ("gets the jump on you", `rounds=0`).
+> This is a **body** problem, not a skills problem. For a Mys class **max HP ≈ base Muscle + 3**. Everything below
+> is aimed at fixing that. Detail: `mechanics/bat-hole-boss-bat.md`.
 
-⚠️ **Softcore/Ronin reminders:** no player buffs/gifts and limited Hagnk's pulls for the first 1,000 turns; after that
-Hagnk's opens fully. The old mall-buying still works (Softcore allows the mall).
+1. **EAT first (the pattern that works):** pull **1 burrito (316)** from Hagnk's (3 fullness, **+27–32 Muscle → +max HP**,
+   Level 4) + top up with 1-fullness filler already in inventory → full 15. At **Level 5 the Mys twin (319)** is also
+   legal; **prefer the Muscle one (316) while HP is the blocker**. Cast Pastamastery. Buy filler from **NPC shops**
+   (guild store `shop.php?whichshop=guildstore2` — Gouda) since **the mall can't stock food in Ronin**.
+2. **Reach Level 6 → then buy `Springy Fusilli (3015, +init)` at Brie.** Winning initiative is the real Bat Hole key:
+   act first → **Entangling Noodles (stun)** → **Cannelloni** → never get hit. Level 6 = **raw mys 841** (we're at 565).
+   Level 6 *also* unlocks **stolen sushi (121 in storage!)** and gnocchetti — food stops being a problem forever.
+3. **Grind Level 6 in the Spooky Forest (snarf 15)** — proven safe at 13 HP with the loop below; ~5 raw mys/turn,
+   and it pays ~20 meat/turn.
+4. **Then the Boss Bat:** wall 1 is **already down** (Batrat & Ratbat Burrow, snarf 32, is open). Need **2 more walls**
+   — pull 1 sonar/day from storage (8 there) and/or farm sonars off bats. Then Boss Bat's Lair = **snarf 34**.
+5. **Then the L5+ Council chain:** Cobb's Knob, Friars, Cyrpt/Bonerdagon… — re-use the run-#1 walkthroughs in `mechanics/`.
+6. **Investigate Blaine at the guild — he lends out the guild Meatcar** (would skip the bitchin' meatcar build).
+7. **DRINK** vodka (238) → tequila (1004) → whiskey (328)/Willer (81)/swill (3831), ~3 drunk each, to 14.
+   ❌ The **Hidden Tavern is NOT unlocked** by the Typical Tavern quest (it's the L11 Hidden City) — no Fog Murderers this run yet.
+8. **Long-term:** finish this Softcore run (→ 111 karma, perm a meat/econ skill next), then escalate toward Hardcore.
+
+### The working farm loop (Spooky Forest, 13 HP)
+Heal to ≥60% with **Lasagna Bandages** before each turn → `adventure.php?snarfblat=15` → resolve any choice
+(502/503 → option 1) → fight: **Spaghetti Spear (0 MP) round 1; Cannelloni (3005) rounds 2+ while MP ≥ 8** →
+on "way too beaten up", `campground.php?action=rest` and continue. Survived ~60 turns with zero deaths.
+
+⚠️ **Softcore/Ronin reminders:** no player buffs/gifts; **mall buys land in Hagnk's and cost Hagnk's meat**;
+**only 1 of each item can be pulled per day** (20/day cap); **check storage before buying** (we wasted ~520 meat on
+duplicates we already owned). After 1,000 turns Hagnk's opens fully. See `mechanics/ronin-softcore-rules.md`.
 
 ---
 
 ## 🗓️ Session log (this run)
 
+- **Day 89 (2026-07-16):** 🎉 **GUILD CRACKED + first full food meter + Level 5.** Found the long-standing "not a full
+  member" blocker was a **one-shot quest, not a level gate**: Gorgonzola (`guild.php?place=challenge`) → tame the
+  **poltersandwich** in the **Haunted Pantry (snarf 113, choice 544, ~5 safe turns)** → **full membership**. Bought
+  **Cannelloni Cannon + Entangling Noodles + Lasagna Bandages** (1,500 meat) from Brie — combat is transformed.
+  **EAT solved:** 1 insanely spicy bean burrito (316) + 12 oranges = **full 15** (adv 53 → 78). Ground the Spooky
+  Forest → **Level 5** (raw mys 565), meat 322 → 1,505, all adventures spent, drunk 15. ⚠️ **Bat Hole failed twice**
+  (Guano Junction 31 + Batrat Burrow 32): bats **get the jump and one-shot us at 13 HP before round 1** — a max-HP /
+  initiative wall, not a skills wall. Wall 1 is down (snarf 32 open). Discovered the **Ronin mall/pull rules**
+  (buys → Hagnk's, 1 pull per item per day) and wasted ~520 meat on duplicates already in storage.
+  New docs: `mechanics/guild-membership-and-skills.md`, `mechanics/bat-hole-boss-bat.md`, `mechanics/ronin-softcore-rules.md`.
 - **Day 88 (2026-07-15):** **Typical Tavern rat problem COMPLETE.** Talked to bartender Ear'l Ender → explored the 5×5
   **Tavern Cellar** grid. ⚠️ Mechanic: the **1st special square = the rat faucet** (choice 512 — LEAVE it alone), the **2nd =
   Baron von Ratsworth** (defeat him → **Baron's monocle, item 1312, +item!**), THEN turn off the faucet (512 opt 1) and
