@@ -39,6 +39,15 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
 - **MP-starvation looks like invincibility.** At MP 0 every skill "twiddles your thumbs" and does nothing — a naive
   fight loop then looks like the monster can't be hurt. It can: **top MP between fights** and/or fall back to
   weapon attack (`fight.php?action=attack`) / torpedoes at low MP. Give the loop a round cap + torpedo/attack fallback.
+- 🚨 **STALE HP SILENTLY BREAKS HEAL-GATES — GUARD WITH `hp <= maxhp`.** The classic symptom is a read like
+  **`hp=23/15`** or `hp=37/12` (HP *above* max is impossible). A gate like `if (hp/maxhp < 0.6) heal()` then
+  computes 153% health, **skips healing, and you walk into the next fight nearly dead** — which looks exactly like
+  "the zone one-shots me" and produced a WRONG conclusion for two sessions. ✅ **Fix (works):**
+  `STsafe = async () => { for (let i=0;i<5;i++){ await sleep(250); const s = await ST(); if (+s.hp <= +s.maxhp && +s.mp <= +s.maxmp) return s; } return await ST(); }`
+  — re-read until the values are self-consistent. ✅ **Even better, avoid the gate:** at low level **one Lasagna
+  Bandages (~16 HP) exceeds max HP**, so just cast it once unconditionally before each fight. The **charpane is
+  ground truth** if you need to settle an argument (`Muscle:/Mysticality:/Moxie:` parse cleanly; the HP/MP pairs run
+  together, so don't range-match them).
 - **⚠️ `api.php` HP is STALE during rapid combat polling.** In a long fight (e.g. the Naughty Sorceress) where you poll
   `api.php?what=status` every round, the HP value caches per-`for=` string and lags reality — so a "heal at <X% HP" branch
   never fires. **✅ FIX (works): vary the `for=` param each round** — `api.php?what=status&for=CC${tick++}` returns fresh
@@ -53,9 +62,15 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
   **guild challenge** (Pastamancer: tame the poltersandwich in the Haunted Pantry, snarf 113, choice **544**).
   It's doable at Level 1–4 in ~5 safe turns and unlocks buying **Cannelloni Cannon / Entangling Noodles /
   Lasagna Bandages** for meat. **Do it on day 1 of any new run.** Full detail: `mechanics/guild-membership-and-skills.md`.
-- ⚠️ **"It gets the jump on you" + `rounds=0` = you were one-shot before acting.** Skills can't save you; that's
-  a **max-HP / initiative** problem, not a tactics problem. For a Mys class **max HP ≈ base Muscle + 3**, so a
-  low-level caster is made of paper. Don't confuse this with MP-starvation or elemental damage — read the log.
+- ⚠️ **"It gets the jump on you" + `rounds=0` = you were one-shot before acting.** For a Mys class
+  **max HP ≈ base Muscle + 3**, so a low-level caster is paper, and **Moxie is the initiative stat** (Moxie 8 at L5
+  ⇒ nearly everything acts first). Don't confuse this with MP-starvation or elemental damage — read the log.
+  ⚠️ **BUT before blaming the zone, verify you entered at FULL HP** — a stale-HP heal-gate (see api.php section)
+  fakes this exact symptom. At an honest full HP, a "lethal" ML 25–30 Knob monster died in 2 rounds untouched.
+- **The low-level caster combo that works:** **Entangling Noodles (3004, 3 MP — stun) round 1 → Cannelloni (3005,
+  8 MP) round 2+**, heal with **Lasagna Bandages (3009, 6 MP)** between fights, **magical mystery juice (518)** for MP.
+  ~11 MP/fight. If you win initiative you take **zero** damage; if you lose it you may simply die. That coin-flip
+  *is* the early game until **Springy Fusilli (3015, +init, guild Level 6)**.
 - **Opener/combo:** **Stuffed Mortar Shell (3007)** round 1 → **Cannelloni Cannon (3005)** round 2+.
   Mortar queues ~2× Cannelloni damage on the NEXT round and is castable **once per fight**; Cannelloni (Mys-scaled)
   is the main nuke. Most zone monsters die in ~2 rounds with MP topped.
@@ -97,6 +112,14 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
 
 ## Consumables & item reference
 
+- ✅ **milk of magnesium (item 1650, ~100 meat in the mall)** — **"the next food item you eat gives +5 Adventures",
+  once/day.** Use it immediately **before your BIGGEST food**. ⚠️ **It has NO visible effect** — the old **"Got Milk"
+  effect is RETIRED**, so don't check the charpane for it and conclude the item failed (verified: burrito 16 → 21 adv).
+  ⚠️ **Does not work with sushi** or Hobopolis food.
+- ✅ **NPC shops sell bulk filler straight to inventory** (immune to the Ronin storage/pull trap):
+  **General Store** (`shop.php?whichshop=generalstore`) — **fortune cookie row 645 (40 meat, 1 fullness)**,
+  pickled egg 646, lukewarm tea 644. **Guild store** (`shop.php?whichshop=guildstore2`) — **magical mystery juice
+  row 527 (100 meat, MP restore)**, MSG row 532.
 - ⚠️ **FOOD HAS LEVEL REQUIREMENTS** — pick the best food whose level req you meet (`mechanics/pastamancer-food.md`).
   **stolen sushi (6293) needs Level 6.** Useful low-level options (verified on the wiki):
   **insanely spicy bean burrito (316)** = awesome, 3 fullness, **Level 4**, ~13 adv, **+27–32 Muscle** (→ +max HP,
