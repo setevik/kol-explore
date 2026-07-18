@@ -110,6 +110,22 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
   `pwd, whichstore, buying=Yep., whichitem=<value>, quantity=N, searchitem=<itemid>, searchprice=<price>`.
   ⚠️ Never loop mall buys gated on `api.php?what=inventory` — it caches and you'll overbuy. (Verified: 2 jerky for 360 meat.)
 
+## Raising meat fast (when a skill/item is unaffordable)
+
+Before farming meat for hours, check these — they found 2,749 meat in minutes on run #2 Day 6:
+1. **Hagnk's holds a SEPARATE meat purse.** `storage.php?which=5` shows *"You have N meat in long-term storage"*.
+   Withdraw it: POST `storage.php` with `pwd, amt=<n>, action=takemeat`. In Ronin you may pull **20,000 meat/day**
+   (meat is NOT subject to the 1-per-item limit). ⚠️ Mall purchases silently spend *this* purse, so it drains without
+   you noticing.
+2. **Autosell junk** via `sellstuff.php?justitems=0` (it lists each item's autosell price). Sell with a POST to
+   **`sellstuff_ugly.php`**: `pwd, action=sell, mode=3, quantity=<n>, item<ID>=<ID>` (checkboxes are named
+   `item<ID>`). **mode=1** = sell all, **mode=2** = all but one, **mode=3** = the `quantity` field. ✅ Verified:
+   mode=3 quantity=2 sold exactly 2.
+3. **Starter-package gems are worth a fortune.** The pork elf goodies sack (Toot Oriole / Letter from King Ralph)
+   yields **porquoise (706) / hamethyst / baconstone — 500 meat autosell each**. Their only use is jewelrycrafting
+   (a skill we don't have), so **selling them early is usually correct**.
+4. **Boss drops:** e.g. **dense meat stack (258)** ≈ 850 meat autosell each (it is NOT usable — don't try).
+
 ## Consumables & item reference
 
 - ✅ **milk of magnesium (item 1650, ~100 meat in the mall)** — **"the next food item you eat gives +5 Adventures",

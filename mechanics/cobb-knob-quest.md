@@ -88,18 +88,28 @@ Drops: 2× dense meat stack, **Crown of the Goblin King** (or Glass Balls / Codp
 disguise AND the perfume effect active**, the entry text was right ("You sashay into… he looks up, distracted"),
 and he still **one-shot us before round 1**: his **Initiative 100** vs our **Moxie 8** means he acts first, and
 **Attack 53 vs 15 max HP** is instant death. `rounds=0`, no spell cast.
-**Minimum body before trying:** enough **max HP to survive one 53-damage hit** (≈ base Muscle 50+) *or* enough
-**initiative to act first** — **Springy Fusilli (3015, +init, guild Level 6)** is the cheap fix. The disguise gets
-you *in the room*; it does not make you *fast*.
+
+✅ **SOLVED (run #2, Day 6) — the fix is INITIATIVE, and it is decisive.** Same disguise, same perfume, but with
+**Springy Fusilli (3015, +init, guild Level 6, 10 MP, lasts 10 adventures)** cast beforehand and 19 max HP:
+**won in 3 rounds — Entangling Noodles (stun) → Cannelloni → Cannelloni — taking zero damage.**
+The disguise gets you *in the room*; **Springy Fusilli is what lets you act**. Nothing else changed.
+
+**Winning recipe:** full HP + ~33 MP → equip veil 306 + pants 305 → **cast Springy Fusilli (3015)** →
+**use perfume (307) LAST** (it lasts only 1 adventure) → `cobbsknob.php?action=throneroom` →
+**3004 stun, then 3005 every round.**
+⚠️ Cast Fusilli **before** entering — it can't be cast mid-choice/mid-fight.
 
 When prep AND body are right, you enter a **real combat** (no scripted defeat). The King has modest HP:
 - Pastamancer combo: **Entangling Noodles** (stun) → **Ravioli Shurikens** x2–3 kills him
 - Ned the Vampieroghi thrall's blood-drain keeps you topped up during the fight
 
-**Rewards:**
-- **Crown of the Goblin King** (hat, 70 power — major upgrade!)
-- **2 × dense meat stack** (1,000 Meat each)
-- Council quest complete
+**Rewards (verified run #2):**
+- **Crown of the Goblin King (item 313)** — hat, 70 power. ⚠️ **Requires 20 BASE MOXIE to equip** — a Mys caster
+  will likely be unable to wear it for a long time (we had 14). Don't count on it as an immediate upgrade.
+- **2 × dense meat stack (item 258)** — ⚠️ **NOT usable** ("This item is not implemented yet"); it's a
+  **meatsmithing component**. **Autosell them** — ~850 meat each (≈1,700 for the pair).
+- **Cobb's Knob lab key (item 339)** — opens the Knob laboratory.
+- Council quest complete → Council points to the **Deep Fat Friars** next.
 
 ## Warning: Scripted First-Hit Defeat Without Prep
 

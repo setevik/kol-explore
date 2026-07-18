@@ -30,64 +30,67 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 90 / 2026-07-17)
+## 📊 Character state (run #2 — end of Day 91 / 2026-07-18)
 
-- **Level 5 Pastamancer.** Base Mys **25** (raw 672) · base Muscle **12** · **Moxie 8**. **HP 15 max**, MP 48.
-  **Meat ~1,388. adv 15 banked.** full 15, drunk 14 (both meters filled ✅). Ronin ~720.
-- 🧱 **THE BLOCKER (now precisely understood): HP 15 + Moxie 8.** Moxie is the **initiative** stat — at 8, almost
-  everything acts first, and one hit (ML 25–30 zones hit for ~15; the Goblin King for 53) kills us. **Win initiative
-  → stun → take zero damage. Lose it → die.** Harem record: **4 won / 10 lost.** The fix is **Level 6 → Springy
-  Fusilli (+init)**, and/or more Muscle (max HP ≈ base Muscle + 3).
+- 🎉 **LEVEL 6 Pastamancer.** Base Mys **31** (raw 1,010) · base Muscle **17** · **Moxie 14**. **HP 20 max**, MP ~50.
+  **Meat ~1,074. adv 28 banked.** full 15, drunk 16 (both meters filled ✅). Ronin ~600.
+- ✅ **THE INITIATIVE BLOCKER IS SOLVED: we have Springy Fusilli (3015).** Cast it (10 MP, **lasts 10 adventures**)
+  and we act first → stun → zero damage. It turned a guaranteed loss vs the Goblin King into a 3-round win.
+  **Keep it up during any hard fight.** Remaining softness: **20 max HP** is still low — grow Muscle.
+- 🎯 **Next gear goal: 20 base MOXIE** (we have 14) to equip the **Crown of the Goblin King (313, 70-power hat)**
+  sitting unused in inventory. Moxie also = initiative, so this is doubly valuable. The **Limerick Dungeon (19)**
+  feeds Moxie safely.
 - **Equipped:** astral chapeau (5030) · pasta spoon (5) · old sweatpants (4711) · **Baron von Ratsworth's monocle
   (1312, +item)** · **Pine-Fresh air freshener (556, acc2, +1 stench res)** · **familiar = Marcellus the Mosquito**
   (⚠️ terrarium is **empty** — no other familiars carried over; no swap available).
-  ⚠️ The **Harem disguise (veil 306 / pants 305) is Power-10 junk armor** — wear only for the Treasury + throne room.
+  ⚠️ The **Harem disguise (veil 306 / pants 305) is Power-10 junk armor** — wear only for the Treasury payoff.
+  ⚠️ **acc3 slot is EMPTY** — worth filling with any +init/+moxie accessory we find.
 - ✅ **FULL MEMBER of the League of Chef-Magi** (Day 89 — tamed the poltersandwich). **Guild fully unlocked.**
-- **Known combat skills:** **Cannelloni Cannon (3005, 8 MP — main nuke)** · **Entangling Noodles (3004, stun)** ·
-  **Lasagna Bandages (3009, 6 MP heal — works out of combat via `runskillz.php`)** · Spaghetti Spear (3020, 0 MP —
-  the MP-free workhorse) · Manicotti Meditation (3000) · permed Pastamastery.
-- **Buyable next at Brie** (`guild.php?place=trainer`, price = 125/250/500/750 by skill level):
-  **Springy Fusilli (3015, +init) at Level 6** ← the fix for the Bat Hole · Ravioli Shurikens (3003, 125, 4 MP nuke) ·
-  Transcendent Al Dente (3026, 250) · Bind Vermincelli (L5).
-- **Consumables:** ~10 MMJ (518, guild store row 527 @100 meat), ~2 fortune cookies (61), 12 dry noodles,
-  **2 harem veils / 3 harem pants / 1 perfume (307)**, some Willer/swill. No tiny houses (592) or scrolls (595) —
-  **Lasagna Bandages is the heal**; **campground rest clears Beaten Up** (bandages do NOT).
-- **In Hagnk's** (⚠️ **only 1 of each item per day** — see `mechanics/ronin-softcore-rules.md`): **121 stolen sushi**
-  (unlocks at Level 6), **2 insanely spicy bean burritos (316)**, **8 sonars (563)**, 3 air fresheners (556),
-  22 MMJ (518), + last run's 400+ item types. Also a **telegram from Lady Spookyraven** (Manor quest later).
-  **Hagnk's meat ≈ 650** (a *separate purse* — mall buys spend this, not inventory meat).
+- **Known combat skills:** **Springy Fusilli (3015, 10 MP, +init, 10 advs) ⭐** · **Cannelloni Cannon (3005, 8 MP —
+  main nuke)** · **Entangling Noodles (3004, 3 MP stun)** · **Ravioli Shurikens (3003, 4 MP — MP-cheap nuke)** ·
+  **Lasagna Bandages (3009, 6 MP heal — out of combat via `runskillz.php`)** · Spaghetti Spear (3020, 0 MP fallback) ·
+  Manicotti Meditation (3000) · permed Pastamastery (3006, daily).
+- **Buyable next at Brie** (`guild.php?place=trainer`, cost rises steeply by skill level — L5 = 1,250, L6 = 1,750):
+  Bind Vermincelli (L5, 1,250) · Bringing Up the Rear (L6, 1,750) · **Spirit of Rigatoni (L7 — chefstaves)** ·
+  Transcendent Al Dente (250) · Utensil Twist (125).
+- **Consumables:** ~4 MMJ (518 — guild store row 527 @100 meat; **buy ~10/day, MP is the real limiter**),
+  4 fortune cookies (61), 15 dry noodles, **2 harem veils / 3 harem pants / 0 perfume** (⚠️ perfume used — farm
+  more in the Harem if the Treasury payoff is wanted), **2 porquoise (706) left @500 meat autosell = emergency cash**.
+  No tiny houses (592)/scrolls (595) — **Lasagna Bandages is the heal**; **campground rest clears Beaten Up**.
+- **In Hagnk's** (⚠️ **only 1 of each item per day**; meat is exempt — see `mechanics/ronin-softcore-rules.md`):
+  **121 stolen sushi (✅ NOW EDIBLE at L6 — 6 fullness, ~12 adv; pull 1/day)**, **1 insanely spicy bean burrito (316)**,
+  **8 sonars (563)**, 3 air fresheners (556), 22 MMJ (518), + last run's 400+ item types.
+  **Hagnk's meat ≈ 0** (drained it — it's a *separate purse* that mall buys spend).
 
 ---
 
 ## 🔜 Next-session priorities (ordered)
 
-✅ Done: L3 (86); larva + L4 (87); **Tavern + monocle** (88); **guild membership + Cannelloni/Noodles/Bandages +
-L5 + first full food meter** (89); **Cobb's Knob opened + Harem disguise + Treasury payoff** (90).
-Council wants **both** the **Boss Bat** and the **Goblin King**.
+✅ Done: L3 (86); larva + L4 (87); **Tavern + monocle** (88); **guild + Cannelloni/Noodles/Bandages + L5** (89);
+**Cobb's Knob opened + Harem disguise** (90); 🎉 **L6 + Springy Fusilli + GOBLIN KING SLAIN + Manor unlocked** (91).
+Council now wants the **Deep Fat Friars** (and still the **Boss Bat**).
 
-> 🧱 **THE ONE BLOCKER: HP 15 / Moxie 8.** Every failure this run is the same: something faster swings first and one
-> hit kills us. **Skills are DONE — the body isn't.** Everything below aims at **initiative** (Springy Fusilli) and
-> **max HP** (Muscle). ⚠️ Before ever concluding "zone X one-shots me", **confirm you entered at an honest full HP** —
-> a stale-HP heal-gate faked that for two sessions (see HANDOFF).
+> ✅ **The initiative blocker is SOLVED** (Springy Fusilli). The remaining softness is **20 max HP** and **MP supply** —
+> once the juice runs out, win rate collapses (30W/10L with MP → 5W/15L without). **Buy ~10 MMJ every day.**
+> ⚠️ Before concluding "zone X one-shots me", confirm you entered at an honest **full HP** (stale-HP gate, see HANDOFF).
 
-1. **EAT (the proven pattern):** **milk of magnesium (1650, ~100 meat, +5 adv on the NEXT food)** → then pull
-   **1 burrito (316)** from Hagnk's (3 fullness, **+27–32 Muscle → +max HP**) → top to **full 15** with
-   **fortune cookies (General Store row 645, 40 meat)**. Cast **Pastamastery**. (Day 90 = 88 adventures.)
-2. 🎯 **REACH LEVEL 6 — this is the whole game right now.** L6 = **raw mys 841** (we're at **672**, need ~170).
-   It unlocks, in one step: **Springy Fusilli (3015, +init)** at Brie (fixes the blocker), **stolen sushi**
-   (121 free in storage → food solved forever) and **gnocchetti** (6 fullness, ~24 adv).
-3. **Where to grind L6:** ⚠️ **Spooky Forest (15) has gone stale — only ~1.9 raw mys/turn** at L5. The Knob zones
-   (**257/258/259**, ML 25–30) give far more per win but we lose ~70%. Consider a **middle-ML zone** or just grind
-   the Knob and accept the rests. **Buy MMJ (guild row 527) first** — ~11 MP/fight.
-4. **Then the Goblin King** (`cobbsknob.php?action=throneroom`): we have the **disguise + 1 perfume** ready.
-   ⚠️ He is **Init 100 / Attack 53** — correct prep still lost at 15 HP. **Only retry with Springy Fusilli up.**
-   Reward: **Crown of the Goblin King** (70-power hat — a real armor upgrade) + 2 dense meat stacks + lab key.
-5. **Then the Boss Bat:** wall 1 is **already down** (Burrow, snarf 32, open). Need **2 more walls** — pull 1 sonar/day
-   (8 in storage) and/or farm sonars off bats. Lair = **snarf 34**. Same initiative caveat.
-6. **Investigate Blaine at the guild — he lends out the guild Meatcar** (would skip the bitchin' meatcar build).
-7. **DRINK** tequila (1004) → whiskey (328) → Willer (81)/swill (3831) → vodka (238). ~3 drunk each (Willer/swill 1) to **14**.
+1. **EAT (proven pattern, ~88 adv):** **milk of magnesium (1650, ~100 meat, +5 adv on the NEXT food)** →
+   **now pull a stolen sushi (6293) instead of the burrito** (6 fullness, ~12 adv — ⚠️ but milk does NOT work on sushi,
+   so eat the milk-boosted item first) → top to **full 15** with **fortune cookies (General Store row 645, 40 meat)**.
+   Cast **Pastamastery**. **Buy ~10 MMJ (guild store row 527)** before adventuring.
+2. **Grind the Haunted Kitchen (snarf 388)** — the proven L5–7 zone, ~4.3 raw mys/turn, 2-round kills, Recom Stat 20.
+   Use the **Limerick Dungeon (snarf 19, 0% combat)** when out of MP or to burn the last few adventures safely.
+   See **`mechanics/leveling-zones.md`**. ⚠️ **L7 needs raw mys 1,600** (we're at 1,010) — a multi-day push.
+3. 🎯 **Get 20 base Moxie** (at 14) to wear the **Crown of the Goblin King (313, 70 power)**. Limerick feeds Moxie.
+4. **Boss Bat:** wall 1 is down (Burrow, snarf 32, open). Need **2 more walls** — pull 1 sonar/day (8 in storage)
+   and/or farm sonars off bats. Lair = **snarf 34**. ⚠️ Go in with **Springy Fusilli up** and full MP.
+5. **Deep Fat Friars** (new Council quest, Distant Woods) — see `mechanics/friars-blessings.md` from run #1.
+6. **Cobb's Knob lab key (339)** — opens the Knob laboratory; unexplored this run.
+7. **Investigate Blaine at the guild — he lends out the guild Meatcar** (would skip the bitchin' meatcar build).
+8. **DRINK:** we're out of the good stuff. Check inventory booze **by name** (popskull 1774 ≈2, cider 2842 ≈3,
+   sherry 2840, Mad Train wine 564, swill 3831 ≈3) — a naive fixed list missed half of it and stalled at drunk 9.
    ❌ The **Hidden Tavern is NOT unlocked** by the Typical Tavern quest (it's the L11 Hidden City) — no Fog Murderers yet.
-8. **Long-term:** finish this Softcore run (→ 111 karma, perm a meat/econ skill next), then escalate toward Hardcore.
+9. **Long-term:** finish this Softcore run (→ 111 karma, perm a meat/econ skill next), then escalate toward Hardcore.
 
 ### The combat loop that works (low-level caster)
 **Clear Beaten Up first** (`campground.php?action=rest`) — it debuffs base stats and can silently drop you under a
@@ -106,6 +109,18 @@ duplicates we already owned). After 1,000 turns Hagnk's opens fully. See `mechan
 
 ## 🗓️ Session log (this run)
 
+- **Day 91 (2026-07-18):** 🎉 **LEVEL 6 + SPRINGY FUSILLI + KNOB GOBLIN KING SLAIN.** Fixed the leveling problem by
+  **measuring** instead of guessing: the Spooky Forest had collapsed to 1.9 raw mys/turn, so found the
+  **Haunted Kitchen (snarf 388, ~4.3/turn, 2-round kills)** — unlocked by reading the **Spookyraven telegram (7304),
+  which was already in inventory** — and the **Limerick Dungeon (snarf 19, 0% COMBAT, cannot die)**. Ground to
+  **Level 6** (raw mys 672 → 1,010). Funded the **1,750-meat Springy Fusilli** by discovering two things:
+  **Hagnk's holds a separate meat purse** (749 meat withdrawn via `action=takemeat`) and the starter-sack
+  **porquoise gems autosell for 500 each** (sold 2 of 4). Then **beat the Goblin King in 3 rounds, untouched** —
+  same disguise+perfume as yesterday's loss, the *only* change was Fusilli's initiative. Rewards: **Crown of the
+  Goblin King (⚠️ needs 20 base Moxie — can't wear it yet, we have 14)**, 2 dense meat stacks (**not usable —
+  autosell ~850 ea**), **Cobb's Knob lab key**. Council → **Deep Fat Friars**. EAT full 15 (88 adv), all adv spent,
+  drunk 16. ⚠️ Win rate collapsed 30W/10L → 5W/15L once MMJ ran out — **MP is now the limiter; buy ~10/day**.
+  New doc: `mechanics/leveling-zones.md`.
 - **Day 90 (2026-07-17):** **Cobb's Knob cracked open; Goblin King attempted and lost.** Council gave the L5 quest +
   **Cobb's Knob map**; got the **encryption key** in the **Outskirts (snarf 114, ML 1–2, ~11 turns)** → decrypted →
   Knob open (257/258/259/260). Bought the **Harem disguise** (veil 306 + pants 305 in the mall — **3 different items
