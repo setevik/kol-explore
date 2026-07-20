@@ -6,8 +6,13 @@ After completing the **Copse of the Deep Fat Friars** quest (place the 3 ritual 
 
 All three artifacts drop from the surrounding zones:
 - **Dark Neck of the Woods** (snarfblat 541): easiest, drops the `dodecagram`
-- **Dark Heart of the Woods** (snarfblat 540): needs ~45 Mysticality, drops `box of birthday candles`
-- **Dark Elbow of the Woods** (snarfblat 539): needs ~45 Mysticality, drops `eldritch butterknife`
+- **Dark Heart of the Woods** (snarfblat 540): drops `box of birthday candles`
+- **Dark Elbow of the Woods** (snarfblat 539): drops `eldritch butterknife`
+
+⚠️ The old note that 539/540 "need ~45 Mysticality" is a **recommended** stat, not a hard gate — **verified
+enterable at base Mysticality 33** (run #2), with no "recommended that you have…" refusal. Expect to get hit
+harder than in a Recom-20 zone, so go in with **Springy Fusilli up** and full HP/MP.
+Reach the zones via `friars.php` / the Distant Woods.
 
 Talk to the Friars (`friars.php` → "Talk to the Friars" icon). If you have all 3 items, you can place them at the central gate. Performing the ritual closes the gate, cleanses the copse, and unlocks **Pandamonium** (Azazel's personal effects quest starts there).
 

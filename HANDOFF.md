@@ -155,6 +155,10 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
   ⚠️ In **Ronin** you can only pull 1 of each per day — so the pattern is **1 pulled big food + inventory filler**.
   ⚠️ Pastamancer pasta filling is still **unsolved** (dry noodles 304 + long-pork/lihc-eye/olive/bean all "no recipe");
   buy ready food instead.
+- ⚠️ **DRINK CAP = 14. Never exceed it** — 15+ = falling-down drunk = no adventuring at all (see HARD RULE 1).
+  Use a **look-ahead** check (`drunk + size <= 14`), and know your bottle sizes before pouring:
+  ≈3 drunk — vodka 238 · tequila 1004 · whiskey 328 · rum 1005 · accidental cider 2842 · Typical Tavern swill 3831;
+  ≈2 — bottle of popskull 1774 · cooking sherry 2840; ≈1 — ice-cold Willer 81. Finish on the small ones.
 - **DRINK (day end, after all adv spent):** **Fog Murderer (item 6682) = +6 drunkenness / ~14 adv each.** Best no-skill
   booze. **Drink EXACTLY 2 → drunk 12** (a 3rd overshoots 18 — advs still bank, but stop at 2). Buy from the Hidden Tavern:
   `shop.php?whichshop=hiddentavern&action=buyitem&whichrow=175`; drink `inv_booze.php?which=1&whichitem=6682&pwd=`.
@@ -185,6 +189,19 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
 
 1. **Order is EAT → ADVENTURE → DRINK.** Both meters are mandatory — never wrap a day with an unused `full` (0/15)
    or `drunk` (0/14) meter (each point ≈ 2–3 rollover adventures).
+
+   🚨 **DRINK LAST IS NOT A STYLE CHOICE — IT IS THE SAFETY RAIL. (Cost us a whole day, Day 93.)**
+   **The adventuring limit is `drunk` 14.** At **15+ you are "falling-down drunk"**: every zone returns only
+   **Drunken Stupor** (`The Too-Much Booze Blues` — "you spend a couple of hours battling fierce pink elephants"),
+   which **consumes the adventure AND drains substats**. It **cannot be cured** — drunkenness only resets at rollover.
+   - **Drink at the END** and an overshoot is harmless: the surplus adventures simply bank to tomorrow.
+   - **Drink at the START** and the identical overshoot **locks you out of the entire day**. We drank first
+     (to "guarantee" the meter after missing it on Day 92), hit **drunk 16**, and stranded **190 adventures**.
+   - ✅ **Guard with LOOK-AHEAD, not `drunk < 14`.** A loop that checks `if (drunk >= 14) break` *before* drinking
+     will still jump 13 → 16 on a 3-drunk bottle. **Only drink if `drunk + size <= 14`** (bottle sizes: vodka/
+     tequila/whiskey/rum/cider/swill ≈ 3, sherry ≈ 2, Willer ≈ 1). Prefer small bottles to land exactly on 14.
+   - If you fear missing DRINK during a long farm loop, **cap the loop / drink at a checkpoint** — do NOT reorder
+     the day.
 2. **Don't end the day with ≥ 40 adventures unspent.** Banked advs roll over but waste daily potential — keep
    adventuring until near 0. Disconnects / MP starvation / a stalled quest are reasons to **adapt** (re-login, tiny-house
    MP, switch to a sustainable zone like the Airship snarf 81), NOT to stop. Only stop early if genuinely out of advs,

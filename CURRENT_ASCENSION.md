@@ -30,11 +30,16 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 92 / 2026-07-19)
+## 📊 Character state (run #2 — end of Day 93 / 2026-07-20)
 
-- **LEVEL 6 Pastamancer.** Base Mys **33** (raw 1,130) · base Muscle **20** · **Moxie 16**. **HP 26 max**, **MP 68**.
-  **Meat ~2,533. adv 133 banked** (rollover caught us mid-hunt). full 0, drunk 0.
-  ⚠️ **DRINK was MISSED on Day 92** — a farm loop ran through rollover. Do DRINK *before* long loops (see HANDOFF).
+- **LEVEL 6 Pastamancer.** Base Mys **34** (raw 1,171) · base Muscle **20** · **Moxie 17**. **HP 26 max**, **MP 69**.
+  **Meat ~736. adv 190 BANKED (unspent — see below).** full 15, drunk 16.
+  🚨 **Day 93 was LOST to a self-inflicted error: we drank FIRST and overshot to drunk 16 (cap is 14),
+  which made us falling-down drunk and unable to adventure at all.** The 190 adventures bank to Day 94,
+  so nothing is destroyed — but a full questing day was wasted. **Never reorder EAT → ADVENTURE → DRINK**
+  (full rule + look-ahead guard now in `HANDOFF.md` HARD RULE 1).
+- **Consumables ready for Day 94:** 14 magical mystery juice (518), ~11 fortune cookies (61), booze in storage
+  (rum 1005 ×3, vodka 238 ×2, tequila, whiskey — pull 1 of each per day).
 - ✅ **THE INITIATIVE BLOCKER IS SOLVED: we have Springy Fusilli (3015).** Cast it (10 MP, **lasts 10 adventures**)
   and we act first → stun → zero damage. It turned a guaranteed loss vs the Goblin King into a 3-round win.
   **Keep it up during any hard fight.** Remaining softness: **20 max HP** is still low — grow Muscle.
@@ -76,12 +81,18 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 > once the juice runs out, win rate collapses (30W/10L with MP → 5W/15L without). **Buy ~10 MMJ every day.**
 > ⚠️ Before concluding "zone X one-shots me", confirm you entered at an honest **full HP** (stale-HP gate, see HANDOFF).
 
+> 🚨 **START HERE ON DAY 94: we have ~190 banked adventures and drunk resets to 0 at rollover.** EAT, then
+> **ADVENTURE (do the Friars + Spookyraven)**, and **DRINK ONLY AT THE END, stopping at exactly 14** using a
+> look-ahead check. Do not repeat Day 93's mistake.
+
 1. **EAT (proven, gave a 106-adv day):** pull **1 stolen sushi (6293)** — ✅ **now edible at L6, 6 fullness ≈ 13 adv,
    121 in storage** — and eat **2 sushi + 1 burrito = full 15** (we had spares in inventory; otherwise sushi + cookies).
    Optionally **milk of magnesium (1650, +5 adv on the NEXT food — ⚠️ does NOT work on sushi**, so milk a non-sushi item).
    Cast **Pastamastery**. **Buy ~12 MMJ (guild store row 527, 100 ea)** — MP is the real limiter.
    ⚠️ **Mall buys need meat in HAGNK'S purse, which is now EMPTY** — a mall buy simply fails. NPC shops (guild/general
    store) use inventory meat and work fine. To restock Hagnk's cash there is no obvious in-Ronin route; prefer NPC shops.
+   ✅ **Friar zones 539/540/541 are NOT stat-gated for us** — verified enterable at base Mys 33 (the old
+   "needs ~45 Mysticality" note in `friars-blessings.md` did not block us).
 2. 🎯 **Deep Fat Friars — "Trial By Friar"** (Distant Woods) is the only Council quest left. Use
    `mechanics/friars-blessings.md` from run #1. Go in with **Springy Fusilli up**.
 3. **Lady Spookyraven's Necklace:** *search the **Haunted Billiards Room** for the key to the Haunted Library*
@@ -94,9 +105,11 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
    inventory. Limerick feeds Moxie safely.
 6. **Cobb's Knob lab key (339)** — opens the Knob laboratory; unexplored this run.
 7. **Investigate Blaine at the guild — he lends out the guild Meatcar** (would skip the bitchin' meatcar build).
-8. **DRINK — do this BEFORE any long farm loop** (a loop ran through rollover on Day 92 and the meter went unused).
-   We're out of the good stuff: check inventory booze **by name** (popskull 1774, cider 2842, sherry 2840,
-   Mad Train wine 564, swill 3831) — a naive fixed ID list missed half of it and stalled at drunk 9.
+8. 🚨 **DRINK LAST, and stop at EXACTLY 14.** ❌ Day 92's "drink before the long loop" fix was WRONG and caused
+   Day 93's lost day — drinking first turns an overshoot into a day-ending lockout. Instead: **cap farm loops** so
+   you reach the DRINK step with time to spare. **Use a look-ahead guard** (`drunk + size <= 14`), and finish on
+   small bottles (sherry 2840 ≈2, Willer 81 ≈1) rather than a 3-drunk bottle. Enumerate booze **by name** from the
+   inventory page — a fixed ID list missed half of it and stalled at drunk 9 on Day 91.
    ❌ The **Hidden Tavern is NOT unlocked** by the Typical Tavern quest (it's the L11 Hidden City) — no Fog Murderers yet.
 9. **Long-term:** finish this Softcore run (→ 111 karma, perm a meat/econ skill next), then escalate toward Hardcore.
 
@@ -117,6 +130,15 @@ duplicates we already owned). After 1,000 turns Hagnk's opens fully. See `mechan
 
 ## 🗓️ Session log (this run)
 
+- **Day 93 (2026-07-20): 🚨 LOST DAY — self-inflicted.** Started superbly: 133 banked advs, EAT to full 15 →
+  **194 adventures**, 14 MMJ, both meters filled. Then, over-correcting for Day 92's missed DRINK, we **drank FIRST**
+  instead of last and let the loop step 13 → **16 drunk (cap is 14)**. That made us **falling-down drunk**: every zone
+  returned only **Drunken Stupor** ("The Too-Much Booze Blues"), which **eats the adventure and drains substats**, and
+  it **cannot be cured before rollover**. Stopped after 4 wasted turns. **190 adventures bank to Day 94** so nothing is
+  destroyed, but the whole questing day (Friars, Spookyraven) was lost.
+  **Lessons (now HARD RULE 1 in HANDOFF):** the EAT → ADVENTURE → **DRINK-LAST** order exists *precisely* so a
+  drunkenness overshoot is harmless; and a `drunk < 14` check is not enough — **look ahead** (`drunk + size <= 14`).
+  ✅ One useful positive: the **Friar zones 539/540/541 are enterable at base Mys 33** (not gated as feared).
 - **Day 92 (2026-07-19):** 🎉 **BOSS BAT SLAIN** — the Bat Hole is closed. ✅ **Sushi unlocked at L6 turned EAT into a
   106-adventure day** (2 sushi + burrito = full 15; sushi ≈13 adv each, 121 more in storage at 1 pull/day).
   Opened wall 2 with a pulled sonar → **Beanbat Chamber (33)**, farmed the 3rd sonar there in 8 turns (**6W/2L —
