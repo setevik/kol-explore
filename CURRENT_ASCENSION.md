@@ -38,8 +38,14 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
   which made us falling-down drunk and unable to adventure at all.** The 190 adventures bank to Day 94,
   so nothing is destroyed — but a full questing day was wasted. **Never reorder EAT → ADVENTURE → DRINK**
   (full rule + look-ahead guard now in `HANDOFF.md` HARD RULE 1).
-- **Consumables ready for Day 94:** 14 magical mystery juice (518), ~11 fortune cookies (61), booze in storage
-  (rum 1005 ×3, vodka 238 ×2, tequila, whiskey — pull 1 of each per day).
+- **Consumables ready for Day 94:** 14 magical mystery juice (518), ~11 fortune cookies (61), **4 soda water (1003)**,
+  and **3 pre-mixed cocktails** (tequila sunrise 1012, whiskey and soda, wine spritzer — ~5–6 adv each).
+  Booze in storage to pull 1/day: vodka 238, tequila 1004, whiskey 328, boxed wine 1005.
+- ⭐ **NEW: Queue Du Coq cocktailcrafting kit INSTALLED** (1,000 meat, funded by selling 2 dense meat stacks).
+  **Mixing normal cocktails is FREE (0 adventures)** and turns a 3-adv bottle into a **5–6 adv** drink.
+  **Mix every bottle with soda water before drinking, every day.** Full strategy: `mechanics/drinking-strategy.md`.
+- 🎯 **Next big drinking upgrade: Liver of Steel (cap 14 → 19)** — drink a **steel margarita** from the Azazel quest
+  in **Pandamonium**, which unlocks right after the **Deep Fat Friars** ritual (our current Council quest).
 - ✅ **THE INITIATIVE BLOCKER IS SOLVED: we have Springy Fusilli (3015).** Cast it (10 MP, **lasts 10 adventures**)
   and we act first → stun → zero damage. It turned a guaranteed loss vs the Goblin King into a 3-round win.
   **Keep it up during any hard fight.** Remaining softness: **20 max HP** is still low — grow Muscle.
@@ -105,11 +111,14 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
    inventory. Limerick feeds Moxie safely.
 6. **Cobb's Knob lab key (339)** — opens the Knob laboratory; unexplored this run.
 7. **Investigate Blaine at the guild — he lends out the guild Meatcar** (would skip the bitchin' meatcar build).
-8. 🚨 **DRINK LAST, and stop at EXACTLY 14.** ❌ Day 92's "drink before the long loop" fix was WRONG and caused
-   Day 93's lost day — drinking first turns an overshoot into a day-ending lockout. Instead: **cap farm loops** so
-   you reach the DRINK step with time to spare. **Use a look-ahead guard** (`drunk + size <= 14`), and finish on
-   small bottles (sherry 2840 ≈2, Willer 81 ≈1) rather than a 3-drunk bottle. Enumerate booze **by name** from the
-   inventory page — a fixed ID list missed half of it and stalled at drunk 9 on Day 91.
+8. 🚨 **DRINK LAST — then deliberately overdrink ONCE.** ❌ Day 92's "drink before the long loop" fix was WRONG and
+   caused Day 93's lost day: drinking first turns an overshoot into a day-ending lockout. Instead **cap farm loops**
+   so you reach the DRINK step with time to spare. Then, at day end:
+   **(a) MIX every bottle with soda water first** (free, 3 adv → 5–6 adv);
+   **(b) drink to exactly 14** with a look-ahead guard (`drunk + potency <= 14`), finishing on small bottles;
+   **(c) drink ONE more — your highest-adventure bottle** — to spend the single allowed overdrink. Those adventures
+   bank overnight. Enumerate booze **by name** (a fixed ID list missed half of it and stalled at drunk 9 on Day 91).
+   Full detail: **`mechanics/drinking-strategy.md`**.
    ❌ The **Hidden Tavern is NOT unlocked** by the Typical Tavern quest (it's the L11 Hidden City) — no Fog Murderers yet.
 9. **Long-term:** finish this Softcore run (→ 111 karma, perm a meat/econ skill next), then escalate toward Hardcore.
 
@@ -138,7 +147,11 @@ duplicates we already owned). After 1,000 turns Hagnk's opens fully. See `mechan
   destroyed, but the whole questing day (Friars, Spookyraven) was lost.
   **Lessons (now HARD RULE 1 in HANDOFF):** the EAT → ADVENTURE → **DRINK-LAST** order exists *precisely* so a
   drunkenness overshoot is harmless; and a `drunk < 14` check is not enough — **look ahead** (`drunk + size <= 14`).
-  ✅ One useful positive: the **Friar zones 539/540/541 are enterable at base Mys 33** (not gated as feared).
+  ✅ Positives salvaged from the lost day: the **Friar zones 539/540/541 are enterable at base Mys 33** (not gated
+  as feared); and — since **mixing cocktails is still allowed while falling-down drunk** — we researched and
+  **solved the drinking problem properly**: bought + installed the **Queue Du Coq cocktailcrafting kit**, verified
+  **mixing costs 0 adventures**, and pre-mixed 3 cocktails for Day 94. New doc: `mechanics/drinking-strategy.md`
+  (mix everything = +2.5 adv/bottle; and **you get exactly ONE overdrink per day** — spend it on your best bottle).
 - **Day 92 (2026-07-19):** 🎉 **BOSS BAT SLAIN** — the Bat Hole is closed. ✅ **Sushi unlocked at L6 turned EAT into a
   106-adventure day** (2 sushi + burrito = full 15; sushi ≈13 adv each, 121 more in storage at 1 pull/day).
   Opened wall 2 with a pulled sonar → **Beanbat Chamber (33)**, farmed the 3rd sonar there in 8 turns (**6W/2L —

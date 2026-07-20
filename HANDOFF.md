@@ -155,10 +155,19 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
   ⚠️ In **Ronin** you can only pull 1 of each per day — so the pattern is **1 pulled big food + inventory filler**.
   ⚠️ Pastamancer pasta filling is still **unsolved** (dry noodles 304 + long-pork/lihc-eye/olive/bean all "no recipe");
   buy ready food instead.
-- ⚠️ **DRINK CAP = 14. Never exceed it** — 15+ = falling-down drunk = no adventuring at all (see HARD RULE 1).
-  Use a **look-ahead** check (`drunk + size <= 14`), and know your bottle sizes before pouring:
-  ≈3 drunk — vodka 238 · tequila 1004 · whiskey 328 · rum 1005 · accidental cider 2842 · Typical Tavern swill 3831;
-  ≈2 — bottle of popskull 1774 · cooking sherry 2840; ≈1 — ice-cold Willer 81. Finish on the small ones.
+- ⚠️ **DRINK CAP = 14 while you still need to adventure** — 15+ = falling-down drunk (see HARD RULE 1).
+  Use a **look-ahead** check (`drunk + potency <= 14`), and know your sizes: ≈3 — vodka 238 · tequila 1004 ·
+  whiskey 328 · boxed wine 1005 · accidental cider 2842 · swill 3831 · most basic cocktails;
+  ≈2 — popskull 1774 · cooking sherry 2840; ≈1 — ice-cold Willer 81. Finish on the small ones.
+- ⭐ **OPTIMAL DRINKING — see `mechanics/drinking-strategy.md`.** Two rules do most of the work:
+  **(a) MIX EVERYTHING.** Anyone can mix "normal" cocktails (no Disco Bandit skill) once a **Queue Du Coq
+  cocktailcrafting kit (General Store row 642, 1,000 meat, item 236)** is installed — and **mixing costs ZERO
+  adventures** (the *"Shake! (1 Adventure)"* label applies only to fancy drinks). A raw bottle = **3 adv**;
+  the same bottle + **soda water (row 650, 70 meat, item 1003)** = **5–6 adv**. ≈ **+12 adv/day, free**.
+  POST `craft.php`: `mode=cocktail&action=craft&a=<id>&b=<id>&qty=<n>&pwd=`.
+  **(b) SPEND YOUR ONE OVERDRINK.** You may cross the cap **exactly once** (once over, you *cannot drink again*),
+  and booze adventures **bank overnight** — so after reaching 14, **drink one more, choosing your highest-adventure
+  bottle**. Never do this before adventuring; it is a day-end move only.
 - **DRINK (day end, after all adv spent):** **Fog Murderer (item 6682) = +6 drunkenness / ~14 adv each.** Best no-skill
   booze. **Drink EXACTLY 2 → drunk 12** (a 3rd overshoots 18 — advs still bank, but stop at 2). Buy from the Hidden Tavern:
   `shop.php?whichshop=hiddentavern&action=buyitem&whichrow=175`; drink `inv_booze.php?which=1&whichitem=6682&pwd=`.
