@@ -30,10 +30,11 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 91 / 2026-07-18)
+## 📊 Character state (run #2 — end of Day 92 / 2026-07-19)
 
-- 🎉 **LEVEL 6 Pastamancer.** Base Mys **31** (raw 1,010) · base Muscle **17** · **Moxie 14**. **HP 20 max**, MP ~50.
-  **Meat ~1,074. adv 28 banked.** full 15, drunk 16 (both meters filled ✅). Ronin ~600.
+- **LEVEL 6 Pastamancer.** Base Mys **33** (raw 1,130) · base Muscle **20** · **Moxie 16**. **HP 26 max**, **MP 68**.
+  **Meat ~2,533. adv 133 banked** (rollover caught us mid-hunt). full 0, drunk 0.
+  ⚠️ **DRINK was MISSED on Day 92** — a farm loop ran through rollover. Do DRINK *before* long loops (see HANDOFF).
 - ✅ **THE INITIATIVE BLOCKER IS SOLVED: we have Springy Fusilli (3015).** Cast it (10 MP, **lasts 10 adventures**)
   and we act first → stun → zero damage. It turned a guaranteed loss vs the Goblin King into a 3-round win.
   **Keep it up during any hard fight.** Remaining softness: **20 max HP** is still low — grow Muscle.
@@ -41,10 +42,9 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
   sitting unused in inventory. Moxie also = initiative, so this is doubly valuable. The **Limerick Dungeon (19)**
   feeds Moxie safely.
 - **Equipped:** astral chapeau (5030) · pasta spoon (5) · old sweatpants (4711) · **Baron von Ratsworth's monocle
-  (1312, +item)** · **Pine-Fresh air freshener (556, acc2, +1 stench res)** · **familiar = Marcellus the Mosquito**
-  (⚠️ terrarium is **empty** — no other familiars carried over; no swap available).
+  (1312, +item)** · **Pine-Fresh air freshener (556, +1 stench res)** · **batskin belt (191, acc3 — gave +3 max HP)** ·
+  **familiar = Marcellus the Mosquito** (⚠️ terrarium **empty**; no swap available). All 3 accessory slots now full.
   ⚠️ The **Harem disguise (veil 306 / pants 305) is Power-10 junk armor** — wear only for the Treasury payoff.
-  ⚠️ **acc3 slot is EMPTY** — worth filling with any +init/+moxie accessory we find.
 - ✅ **FULL MEMBER of the League of Chef-Magi** (Day 89 — tamed the poltersandwich). **Guild fully unlocked.**
 - **Known combat skills:** **Springy Fusilli (3015, 10 MP, +init, 10 advs) ⭐** · **Cannelloni Cannon (3005, 8 MP —
   main nuke)** · **Entangling Noodles (3004, 3 MP stun)** · **Ravioli Shurikens (3003, 4 MP — MP-cheap nuke)** ·
@@ -67,28 +67,36 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 ## 🔜 Next-session priorities (ordered)
 
 ✅ Done: L3 (86); larva + L4 (87); **Tavern + monocle** (88); **guild + Cannelloni/Noodles/Bandages + L5** (89);
-**Cobb's Knob opened + Harem disguise** (90); 🎉 **L6 + Springy Fusilli + GOBLIN KING SLAIN + Manor unlocked** (91).
-Council now wants the **Deep Fat Friars** (and still the **Boss Bat**).
+**Cobb's Knob opened + Harem disguise** (90); 🎉 **L6 + Springy Fusilli + GOBLIN KING SLAIN + Manor unlocked** (91);
+🎉 **BOSS BAT SLAIN + sushi unlocked (106-adv day)** (92).
+**Council now wants ONLY the Deep Fat Friars ("Trial By Friar").** Also open: **Lady Spookyraven's Necklace** —
+*"Search the Haunted Billiards Room for the key to the Haunted Library."*
 
 > ✅ **The initiative blocker is SOLVED** (Springy Fusilli). The remaining softness is **20 max HP** and **MP supply** —
 > once the juice runs out, win rate collapses (30W/10L with MP → 5W/15L without). **Buy ~10 MMJ every day.**
 > ⚠️ Before concluding "zone X one-shots me", confirm you entered at an honest **full HP** (stale-HP gate, see HANDOFF).
 
-1. **EAT (proven pattern, ~88 adv):** **milk of magnesium (1650, ~100 meat, +5 adv on the NEXT food)** →
-   **now pull a stolen sushi (6293) instead of the burrito** (6 fullness, ~12 adv — ⚠️ but milk does NOT work on sushi,
-   so eat the milk-boosted item first) → top to **full 15** with **fortune cookies (General Store row 645, 40 meat)**.
-   Cast **Pastamastery**. **Buy ~10 MMJ (guild store row 527)** before adventuring.
-2. **Grind the Haunted Kitchen (snarf 388)** — the proven L5–7 zone, ~4.3 raw mys/turn, 2-round kills, Recom Stat 20.
-   Use the **Limerick Dungeon (snarf 19, 0% combat)** when out of MP or to burn the last few adventures safely.
-   See **`mechanics/leveling-zones.md`**. ⚠️ **L7 needs raw mys 1,600** (we're at 1,010) — a multi-day push.
-3. 🎯 **Get 20 base Moxie** (at 14) to wear the **Crown of the Goblin King (313, 70 power)**. Limerick feeds Moxie.
-4. **Boss Bat:** wall 1 is down (Burrow, snarf 32, open). Need **2 more walls** — pull 1 sonar/day (8 in storage)
-   and/or farm sonars off bats. Lair = **snarf 34**. ⚠️ Go in with **Springy Fusilli up** and full MP.
-5. **Deep Fat Friars** (new Council quest, Distant Woods) — see `mechanics/friars-blessings.md` from run #1.
+1. **EAT (proven, gave a 106-adv day):** pull **1 stolen sushi (6293)** — ✅ **now edible at L6, 6 fullness ≈ 13 adv,
+   121 in storage** — and eat **2 sushi + 1 burrito = full 15** (we had spares in inventory; otherwise sushi + cookies).
+   Optionally **milk of magnesium (1650, +5 adv on the NEXT food — ⚠️ does NOT work on sushi**, so milk a non-sushi item).
+   Cast **Pastamastery**. **Buy ~12 MMJ (guild store row 527, 100 ea)** — MP is the real limiter.
+   ⚠️ **Mall buys need meat in HAGNK'S purse, which is now EMPTY** — a mall buy simply fails. NPC shops (guild/general
+   store) use inventory meat and work fine. To restock Hagnk's cash there is no obvious in-Ronin route; prefer NPC shops.
+2. 🎯 **Deep Fat Friars — "Trial By Friar"** (Distant Woods) is the only Council quest left. Use
+   `mechanics/friars-blessings.md` from run #1. Go in with **Springy Fusilli up**.
+3. **Lady Spookyraven's Necklace:** *search the **Haunted Billiards Room** for the key to the Haunted Library*
+   (manor1 zone **389**). Run-#1 notes: `mechanics/spookyraven-ghost-chain.md`. ⚠️ The Billiards Room may need
+   **pool skill** — see `mechanics/pool-skill.md`.
+4. **Grind the Haunted Kitchen (snarf 388)** for levels — ~4.3 raw mys/turn, 2-round kills. Use the
+   **Limerick Dungeon (snarf 19, 0% combat)** when out of MP or to burn the last adventures safely.
+   ⚠️ **L7 needs raw mys 1,600** (we're at 1,130) — a multi-day push. See `mechanics/leveling-zones.md`.
+5. 🎯 **Get 20 base Moxie** (at **16**) to wear the **Crown of the Goblin King (313, 70 power)**, still unworn in
+   inventory. Limerick feeds Moxie safely.
 6. **Cobb's Knob lab key (339)** — opens the Knob laboratory; unexplored this run.
 7. **Investigate Blaine at the guild — he lends out the guild Meatcar** (would skip the bitchin' meatcar build).
-8. **DRINK:** we're out of the good stuff. Check inventory booze **by name** (popskull 1774 ≈2, cider 2842 ≈3,
-   sherry 2840, Mad Train wine 564, swill 3831 ≈3) — a naive fixed list missed half of it and stalled at drunk 9.
+8. **DRINK — do this BEFORE any long farm loop** (a loop ran through rollover on Day 92 and the meter went unused).
+   We're out of the good stuff: check inventory booze **by name** (popskull 1774, cider 2842, sherry 2840,
+   Mad Train wine 564, swill 3831) — a naive fixed ID list missed half of it and stalled at drunk 9.
    ❌ The **Hidden Tavern is NOT unlocked** by the Typical Tavern quest (it's the L11 Hidden City) — no Fog Murderers yet.
 9. **Long-term:** finish this Softcore run (→ 111 karma, perm a meat/econ skill next), then escalate toward Hardcore.
 
@@ -109,6 +117,17 @@ duplicates we already owned). After 1,000 turns Hagnk's opens fully. See `mechan
 
 ## 🗓️ Session log (this run)
 
+- **Day 92 (2026-07-19):** 🎉 **BOSS BAT SLAIN** — the Bat Hole is closed. ✅ **Sushi unlocked at L6 turned EAT into a
+  106-adventure day** (2 sushi + burrito = full 15; sushi ≈13 adv each, 121 more in storage at 1 pull/day).
+  Opened wall 2 with a pulled sonar → **Beanbat Chamber (33)**, farmed the 3rd sonar there in 8 turns (**6W/2L —
+  the zone that used to one-shot us**), opened the **Lair (34)**, and killed the **Boss Bat in 2 rounds untouched**
+  with Springy Fusilli up. Loot: **batskin belt (191)** → equipped in the empty acc3, **+3 max HP**.
+  Now **HP 26 / MP 68 / Muscle 20 / Moxie 16 / raw mys 1,130 / meat 2,533**.
+  ⚠️ **Two process failures worth remembering:** (1) matching the string `Boss Bat` **false-positived on the "beefy
+  bodyguard bat"** (whose text says the Boss chose him) — we claimed a kill the Council disproved; match
+  `fighting The Boss Bat` and verify via `council.php`. (2) A farm loop **ran through rollover**, so **DRINK was
+  missed** (drunk 0) and 133 adventures banked — do DRINK before long loops.
+  Council now wants only the **Deep Fat Friars**; **Lady Spookyraven's Necklace** (Billiards Room) also open.
 - **Day 91 (2026-07-18):** 🎉 **LEVEL 6 + SPRINGY FUSILLI + KNOB GOBLIN KING SLAIN.** Fixed the leveling problem by
   **measuring** instead of guessing: the Spooky Forest had collapsed to 1.9 raw mys/turn, so found the
   **Haunted Kitchen (snarf 388, ~4.3/turn, 2-round kills)** — unlocked by reading the **Spookyraven telegram (7304),

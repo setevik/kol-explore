@@ -53,6 +53,13 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
   never fires. **✅ FIX (works): vary the `for=` param each round** — `api.php?what=status&for=CC${tick++}` returns fresh
   data every call. (Do NOT instead range-match charpane `X / Y` pairs for HP — maxHP/maxMP shift mid-fight and the ranges
   cross-match, giving a wrong/stuck value. api.php with a varying `for=` gives correct hp/maxhp directly, no parsing.)
+- ⚠️ **Don't identify a monster by a substring that its minions also contain.** Matching `/Boss Bat/i` to detect the
+  Boss Bat **false-positived on the "beefy bodyguard bat"**, whose description says *"the Boss Bat chose him as a
+  bodyguard"* — we reported a kill that hadn't happened. **Match the full combat header** (`/fighting The Boss Bat/i`)
+  **and confirm quest completion via `council.php` / `questlog.php`**, not the fight text alone.
+- ⚠️ **A long farm loop can run through ROLLOVER.** If a loop is still going at rollover, adventures/full/drunk reset
+  mid-run and **the DRINK step is silently missed** (it happened: the day ended with drunk 0). For any loop that could
+  run near rollover, **do the DRINK step before starting it**, or cap the loop short.
 - **Concurrent frame reloads deadlock.** Don't reload the charpane frame (`_readChar`) while a fight/farm loop is also
   reloading frames — onload promises stall. Poll in-memory `window._X` while a loop runs; read the charpane only when idle.
 

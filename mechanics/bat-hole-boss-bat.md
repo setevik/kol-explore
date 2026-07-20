@@ -40,7 +40,25 @@ bats instead, or spend 3 days of pulls.
 **HP 40 · Attack 33 · Defense 29 · No-Hit 43 · Initiative 60 · phylum beast.**
 Drops: dense meat stack, batskin belt, **Boss Bat britches** or **Boss Bat bling**.
 
-## ⚠️ THE REAL WALL: you get one-shot before you act (verified the hard way)
+## ✅ SOLVED (run #2, Day 7) — Springy Fusilli makes the whole zone trivial
+
+With **Springy Fusilli (3015) up + full HP (~22) + MP for stun→nuke**, the Bat Hole flipped completely:
+- **Beanbat Chamber (33): 6 wins / 8 turns**, and a **sonar dropped on turn 8** (bats drop them — you do NOT
+  need to spend a Hagnk's pull per wall).
+- **Boss Bat: killed in 2 rounds, untouched** (Entangling Noodles → Cannelloni). Same for his
+  **beefy bodyguard bat** escort in the Lair.
+- Drop: **batskin belt (191)** — an accessory; equipping it gave **+3 max HP**. Also Boss Bat britches / bling.
+
+**Working recipe:** wall 1 & 2 via sonars (pull 1/day from storage), farm the **Beanbat Chamber (33)** for the
+third sonar, then adventure **snarf 34** with Fusilli up. Total cost was ~12 adventures.
+
+⚠️ **DETECTION BUG — don't match the string "Boss Bat".** The **beefy bodyguard bat**'s own description reads
+*"…that's why the Boss Bat chose him as a personal bodyguard"*, so `/Boss Bat/i` **false-positives on the
+bodyguard**. We "killed the Boss", went to the Council, and were told he was still alive.
+✅ Match **`/fighting The Boss Bat/i`** (with "The"), or confirm via `council.php` no longer saying
+*"You have not yet slain the Boss Bat"*.
+
+## ⚠️ THE ORIGINAL WALL: you get one-shot before you act (historical — now fixed)
 
 At **Level 4–5 with 12–13 max HP, the Bat Hole is unplayable** — and *not* because of stench or damage output.
 
