@@ -66,10 +66,16 @@ Fruit mixers also work: **orange + tequila → tequila sunrise** (5–6) · **or
 ## Upgrade path (in priority order)
 
 1. ✅ **Queue Du Coq kit** — done run #2 Day 93. +2.5 adv per bottle, forever.
-2. 🎯 **Liver of Steel — raises the cap 14 → 19 (+5).** From drinking a **steel margarita (item 2743)**, a quest
-   reward from **"Angry <player>, this is Azazel in Hell"** in **Pandamonium**, which unlocks after completing the
-   **Deep Fat Friars** ritual (our current Council quest). Worth ~+9 adv/day. ⚠️ Cannot be permed at ascension —
-   it must be re-acquired each run, so do the Friars → Pandamonium chain early every run.
+2. 🎯 **Liver of Steel — raises the cap 14 → 19 (+5).** From drinking a **steel margarita (item 2743)**, the reward
+   for the **Azazel quest** in **Pandamonium**. Worth ~+9 adv/day. ⚠️ Cannot be permed at ascension — re-acquire
+   each run.
+   ⚠️ **CORRECTION (verified run #2, Day 94): this is NOT "right after the Friars".** The Friars ritual only opens
+   the *gate*. The three talismans live behind hard stat gates — **Infernal Rackets Backstage (snarf 243) needs
+   mainstat 55**, **The Laugh Floor (242) needs 60**, Pandamonium Slums (248) needs 45 — so it's a **Level ~9–10**
+   project. Plan it for then; don't count on it at Level 6–7.
+   The three tasks (for later): logic puzzle in the **Hey Deze Arena** → Azazel's unicorn; **Belilafs Comedy Club**
+   → find Larry of the Field of Signs, equip observational glasses, talk to Mourn → Azazel's lollipop;
+   5 cans of imp air + 5 bus passes → **Moaning Panda Square** → Azazel's tutu.
 3. **Fog Murderer (item 6682)** — potency 6, **Level 6**, **14–16 adventures (avg 15)**, 500 meat at
    **The Hidden Tavern** (needs the L11 Hidden City). That's **2.5 adv/potency** vs 1.8 for basic cocktails, and it
    is the ideal **overdrink** item. This is the endgame booze (see `HANDOFF.md`).

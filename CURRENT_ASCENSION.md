@@ -30,14 +30,17 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 93 / 2026-07-20)
+## 📊 Character state (run #2 — end of Day 94 / 2026-07-21)
 
-- **LEVEL 6 Pastamancer.** Base Mys **34** (raw 1,171) · base Muscle **20** · **Moxie 17**. **HP 26 max**, **MP 69**.
-  **Meat ~736. adv 190 BANKED (unspent — see below).** full 15, drunk 16.
-  🚨 **Day 93 was LOST to a self-inflicted error: we drank FIRST and overshot to drunk 16 (cap is 14),
-  which made us falling-down drunk and unable to adventure at all.** The 190 adventures bank to Day 94,
-  so nothing is destroyed — but a full questing day was wasted. **Never reorder EAT → ADVENTURE → DRINK**
-  (full rule + look-ahead guard now in `HANDOFF.md` HARD RULE 1).
+- 🎉 **LEVEL 7 Pastamancer.** Base Mys **44** (raw 1,977) · base Muscle **26** · **Moxie 24**.
+  **HP 42 max** (with Crown), **MP 71**. **Meat ~3,192. adv 46 banked.** full 15, drunk 17.
+  ✅ Drunk 17 is **intentional** — the day's single allowed overdrink, taken at day end after all adventures
+  were spent (martini, +6 adv that bank overnight). This is the `drinking-strategy.md` play working as designed.
+- ⭐ **Crown of the Goblin King (313) EQUIPPED at last** — Moxie finally reached the required 20 (we're at 24).
+  **Max HP jumped 32 → 42.**
+- **Equipped:** **Crown of the Goblin King (313)** · **pool cue (1793, 2H, +3 pool skill / +3 Moxie)** ·
+  old sweatpants (4711) · Baron's monocle (1312) · Pine-Fresh air freshener (556) · batskin belt (191) ·
+  familiar Marcellus. (Astral chapeau 5030 now spare; swap the cue for the pasta spoon if a 1H is ever needed.)
 - **Consumables ready for Day 94:** 14 magical mystery juice (518), ~11 fortune cookies (61), **4 soda water (1003)**,
   and **3 pre-mixed cocktails** (tequila sunrise 1012, whiskey and soda, wine spritzer — ~5–6 adv each).
   Booze in storage to pull 1/day: vodka 238, tequila 1004, whiskey 328, boxed wine 1005.
@@ -77,11 +80,14 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ## 🔜 Next-session priorities (ordered)
 
-✅ Done: L3 (86); larva + L4 (87); **Tavern + monocle** (88); **guild + Cannelloni/Noodles/Bandages + L5** (89);
-**Cobb's Knob opened + Harem disguise** (90); 🎉 **L6 + Springy Fusilli + GOBLIN KING SLAIN + Manor unlocked** (91);
-🎉 **BOSS BAT SLAIN + sushi unlocked (106-adv day)** (92).
-**Council now wants ONLY the Deep Fat Friars ("Trial By Friar").** Also open: **Lady Spookyraven's Necklace** —
-*"Search the Haunted Billiards Room for the key to the Haunted Library."*
+✅ Done: L3 (86); larva + L4 (87); **Tavern + monocle** (88); **guild + skills + L5** (89); **Cobb's Knob + Harem
+disguise** (90); 🎉 **L6 + Springy Fusilli + GOBLIN KING** (91); 🎉 **BOSS BAT + sushi** (92); ✋ Day 93 lost to the
+drunkenness lockout; 🎉 **FRIARS DONE + L7 + pool ghost beaten + Spookyraven necklace AND finery delivered +
+Crown equipped** (94).
+
+> 🏛️ **THE COUNCIL HAS NO TASKS LEFT** ("Return later, when you are more experienced") — so **the next Council
+> quest is gated on LEVEL**. Progression is now: **level up → new Council quest**. L8 = raw mys **2,809**
+> (we're at 1,977); L9 = 4,096; L10 = 5,625.
 
 > ✅ **The initiative blocker is SOLVED** (Springy Fusilli). The remaining softness is **20 max HP** and **MP supply** —
 > once the juice runs out, win rate collapses (30W/10L with MP → 5W/15L without). **Buy ~10 MMJ every day.**
@@ -99,18 +105,17 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
    store) use inventory meat and work fine. To restock Hagnk's cash there is no obvious in-Ronin route; prefer NPC shops.
    ✅ **Friar zones 539/540/541 are NOT stat-gated for us** — verified enterable at base Mys 33 (the old
    "needs ~45 Mysticality" note in `friars-blessings.md` did not block us).
-2. 🎯 **Deep Fat Friars — "Trial By Friar"** (Distant Woods) is the only Council quest left. Use
-   `mechanics/friars-blessings.md` from run #1. Go in with **Springy Fusilli up**.
-3. **Lady Spookyraven's Necklace:** *search the **Haunted Billiards Room** for the key to the Haunted Library*
-   (manor1 zone **389**). Run-#1 notes: `mechanics/spookyraven-ghost-chain.md`. ⚠️ The Billiards Room may need
-   **pool skill** — see `mechanics/pool-skill.md`.
-4. **Grind the Haunted Kitchen (snarf 388)** for levels — ~4.3 raw mys/turn, 2-round kills. Use the
-   **Limerick Dungeon (snarf 19, 0% combat)** when out of MP or to burn the last adventures safely.
-   ⚠️ **L7 needs raw mys 1,600** (we're at 1,130) — a multi-day push. See `mechanics/leveling-zones.md`.
-5. 🎯 **Get 20 base Moxie** (at **16**) to wear the **Crown of the Goblin King (313, 70 power)**, still unworn in
-   inventory. Limerick feeds Moxie safely.
-6. **Cobb's Knob lab key (339)** — opens the Knob laboratory; unexplored this run.
-7. **Investigate Blaine at the guild — he lends out the guild Meatcar** (would skip the bitchin' meatcar build).
+2. 🎯 **LEVEL UP — that is the whole job now** (Council is level-gated; L8 = raw mys 2,809, we're at 1,977).
+   The **Spookyraven manor2 rooms (392 bathroom / 393 bedroom / 394 gallery)** proved excellent at L7 and are now
+   unlocked and open-ended. **Haunted Kitchen (388)** and **Library (390)** also fine. Use the
+   **Limerick Dungeon (19, 0% combat)** when out of MP. See `mechanics/leveling-zones.md`.
+3. **Continue the Spookyraven ghost chain** (`mechanics/spookyraven-ghost-chain.md`): necklace ✅ and dancing
+   finery ✅ both delivered. Next is the **Haunted Ballroom (395)** / "We'll All Be Flat", which unlocks the
+   **manor cellar** — a big stat payoff. Check `place.php?whichplace=manor2` (`manor2lock_ballroom`) and manor3.
+4. **Then Pandamonium/Azazel → Liver of Steel** once mainstat ≥ 55 (see item 8 and `friars-blessings.md`).
+5. **Cobb's Knob lab key (339)** — opens the Knob laboratory; unexplored this run.
+6. **Investigate Blaine at the guild — he lends out the guild Meatcar** (would skip the bitchin' meatcar build).
+7. **Buy L7 guild skill: Spirit of Rigatoni** (chefstaves) — meat is healthy (~3,200).
 8. 🚨 **DRINK LAST — then deliberately overdrink ONCE.** ❌ Day 92's "drink before the long loop" fix was WRONG and
    caused Day 93's lost day: drinking first turns an overshoot into a day-ending lockout. Instead **cap farm loops**
    so you reach the DRINK step with time to spare. Then, at day end:
@@ -139,6 +144,17 @@ duplicates we already owned). After 1,000 turns Hagnk's opens fully. See `mechan
 
 ## 🗓️ Session log (this run)
 
+- **Day 94 (2026-07-21): 🎉 BIGGEST DAY OF THE RUN — Friars done, L7, pool ghost beaten, Spookyraven chain
+  advanced twice, Crown finally worn.** Spent the 200 banked advs well. **Deep Fat Friars:** farmed dodecagram/
+  candles/butterknife (66 turns) → `friars.php?action=ritual` → copse cleansed → **Council now has NO tasks left**
+  (next quest is level-gated). **Pandamonium opened but is out of reach** — talisman zones need mainstat 55–60
+  vs our 38, so **Liver of Steel is an L9–10 goal, correcting yesterday's optimistic note**.
+  **Spookyraven:** beat the **pool ghost** — drank to *exactly 10* (+10 pool skill; ⚠️ past 10 costs **−2/point**),
+  equipped a **pool cue from Hagnk's** (+3), practised to base 8 → **18 = guaranteed win** → library key →
+  **necklace from the 5th writing desk** (21 turns) → delivered → 2nd floor → **powder puff/gown/shoes** farmed and
+  delivered. Hit **Level 7** (raw mys 1,977), and Moxie reaching **24** finally let me wear the **Crown of the
+  Goblin King: max HP 32 → 42**. Ended with the new drink play: **exactly 14, then ONE martini overdrink (+6 adv)**.
+  New/updated docs: `pool-skill.md` (verified recipe + drunkenness trap), `friars-blessings.md`, `drinking-strategy.md`.
 - **Day 93 (2026-07-20): 🚨 LOST DAY — self-inflicted.** Started superbly: 133 banked advs, EAT to full 15 →
   **194 adventures**, 14 MMJ, both meters filled. Then, over-correcting for Day 92's missed DRINK, we **drank FIRST**
   instead of last and let the loop step 13 → **16 drunk (cap is 14)**. That made us **falling-down drunk**: every zone

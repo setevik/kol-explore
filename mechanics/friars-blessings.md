@@ -14,6 +14,17 @@ enterable at base Mysticality 33** (run #2), with no "recommended that you have�
 harder than in a Recom-20 zone, so go in with **Springy Fusilli up** and full HP/MP.
 Reach the zones via `friars.php` / the Distant Woods.
 
+✅ **Verified run #2:** 66 turns total to farm all three (~20–24 each) at base Mys 33–38, with Springy Fusilli up
+(37W/17L). Item IDs: **dodecagram 479 · box of birthday candles 480 · eldritch butterknife 481.**
+**Perform the ritual with a single GET: `friars.php?action=ritual&pwd=<hash>`** (the `friars.php` page exposes
+`action=friars` and `action=ritual` links).
+
+⚠️ **Pandamonium is NOT immediately useful.** The ritual opens the gate (`pandamonium.php` → `action=beli`
+/ `action=infe` / `action=temp`, plus snarfblat 241), **but the talisman zones are high-level**:
+**Infernal Rackets Backstage (243) needs mainstat 55**, **The Laugh Floor (242) needs 60**, Pandamonium Slums
+(248) needs 45. At base Mys 38 we were refused. ⇒ **Liver of Steel (steel margarita) is a Level ~9–10 goal,
+not a Level 6–7 one.** See `drinking-strategy.md`.
+
 Talk to the Friars (`friars.php` → "Talk to the Friars" icon). If you have all 3 items, you can place them at the central gate. Performing the ritual closes the gate, cleanses the copse, and unlocks **Pandamonium** (Azazel's personal effects quest starts there).
 
 ## The Three Brothers (Daily Blessing — Pick ONE)
