@@ -3,6 +3,24 @@
 > Idempotent. Measured in-run; rates are **raw mainstat per adventure** for a Mysticality class.
 > Current-run level/stat state lives in `CURRENT_ASCENSION.md`.
 
+## 🚨 THE #1 RULE: pick zones by WIN RATE, not by ML (measured, Day 95)
+
+A monster you lose to is worth **zero** — and it costs you the turn *plus* a campground rest. So **net** stat/turn
+is dominated by win rate, not by the zone's ML. Measured back-to-back at Level 7, same character, same day:
+
+| Zone | ML | Record | raw mainstat/turn |
+|---|---|---|---|
+| Haunted Gallery (394) | high | **3W / 22L** | **1.2** |
+| Haunted Ballroom (395) | **65** | 14W / 24L | ~6.7 (but bleeding rests) |
+| **Haunted Kitchen (388)** | 20–22 | **45W / 3L** | **5.0** ⭐ |
+
+The Kitchen's monsters are worth far *less* each, and it still won by 4× because nearly every fight landed.
+**Do not "graduate" from a zone just because it feels beneath your level** — measure, then choose.
+
+⚠️ **Before blaming a zone, check your MP.** Both bad rows above were really **MMJ exhaustion**: at 0 MP you
+"twiddle your thumbs" and lose fights you would otherwise win in 2 rounds. **Buy 15–20 magical mystery juice
+(guild store row 527, 100 meat) EVERY day** — it is the cheapest stat/turn upgrade available.
+
 ## The rule: a zone you've outlevelled is a trap
 
 Substat gain scales with the monster's ML. A zone that carried you at Level 3 gives almost nothing at Level 5,

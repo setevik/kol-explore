@@ -30,14 +30,12 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 94 / 2026-07-21)
+## 📊 Character state (run #2 — end of Day 95 / 2026-07-22)
 
-- 🎉 **LEVEL 7 Pastamancer.** Base Mys **44** (raw 1,977) · base Muscle **26** · **Moxie 24**.
-  **HP 42 max** (with Crown), **MP 71**. **Meat ~3,192. adv 46 banked.** full 15, drunk 17.
-  ✅ Drunk 17 is **intentional** — the day's single allowed overdrink, taken at day end after all adventures
-  were spent (martini, +6 adv that bank overnight). This is the `drinking-strategy.md` play working as designed.
-- ⭐ **Crown of the Goblin King (313) EQUIPPED at last** — Moxie finally reached the required 20 (we're at 24).
-  **Max HP jumped 32 → 42.**
+- **LEVEL 7 Pastamancer.** Base Mys **50** (raw 2,527) · base Muscle **31** · **Moxie 29**.
+  **HP 47 max**, **MP 80**. **Meat ~874. adv 33 banked.** full 15, drunk 17 (intentional single overdrink).
+  🎯 **L8 = raw mys 2,809 — only ~280 away** (about 1 hour of Kitchen grinding).
+- ⭐ **Crown of the Goblin King (313) equipped** (needed 20 base Moxie).
 - **Equipped:** **Crown of the Goblin King (313)** · **pool cue (1793, 2H, +3 pool skill / +3 Moxie)** ·
   old sweatpants (4711) · Baron's monocle (1312) · Pine-Fresh air freshener (556) · batskin belt (191) ·
   familiar Marcellus. (Astral chapeau 5030 now spare; swap the cue for the pasta spoon if a 1H is ever needed.)
@@ -105,17 +103,22 @@ Crown equipped** (94).
    store) use inventory meat and work fine. To restock Hagnk's cash there is no obvious in-Ronin route; prefer NPC shops.
    ✅ **Friar zones 539/540/541 are NOT stat-gated for us** — verified enterable at base Mys 33 (the old
    "needs ~45 Mysticality" note in `friars-blessings.md` did not block us).
-2. 🎯 **LEVEL UP — that is the whole job now** (Council is level-gated; L8 = raw mys 2,809, we're at 1,977).
-   The **Spookyraven manor2 rooms (392 bathroom / 393 bedroom / 394 gallery)** proved excellent at L7 and are now
-   unlocked and open-ended. **Haunted Kitchen (388)** and **Library (390)** also fine. Use the
-   **Limerick Dungeon (19, 0% combat)** when out of MP. See `mechanics/leveling-zones.md`.
-3. **Continue the Spookyraven ghost chain** (`mechanics/spookyraven-ghost-chain.md`): necklace ✅ and dancing
-   finery ✅ both delivered. Next is the **Haunted Ballroom (395)** / "We'll All Be Flat", which unlocks the
-   **manor cellar** — a big stat payoff. Check `place.php?whichplace=manor2` (`manor2lock_ballroom`) and manor3.
+2. 🎯 **LEVEL UP — the whole job** (Council is level-gated; **L8 = raw mys 2,809, we're at 2,527**).
+   ⭐ **GRIND THE HAUNTED KITCHEN (snarf 388).** Measured Day 95 at L7: **45W/3L = 5.0 raw mys/turn**, vs the
+   Haunted **Gallery (394) 3W/22L = 1.2** and Ballroom (395, ML 65) 14W/24L. **Win rate beats zone ML** — don't
+   "graduate" from the Kitchen because it looks easy. See `mechanics/leveling-zones.md`.
+   🚨 **Buy 15–20 MMJ (guild store row 527) EVERY day.** Both bad zones above were really MP exhaustion.
+3. **Spookyraven ghost chain** (`mechanics/spookyraven-ghost-chain.md`): necklace ✅, dancing finery ✅, and the
+   **Ballroom (395) is now unlocked**. ⚠️ **BUT the cellar-opening encounter "We'll All Be Flat" (choice 921)
+   REQUIRES "your father's diary"**, which we don't have — 40 ballroom turns produced nothing. **Don't farm the
+   ballroom for the cellar yet**; the diary comes from the later Lord Spookyraven/manor3 chain (manor3 currently
+   says "You can't go there yet").
 4. **Then Pandamonium/Azazel → Liver of Steel** once mainstat ≥ 55 (see item 8 and `friars-blessings.md`).
 5. **Cobb's Knob lab key (339)** — opens the Knob laboratory; unexplored this run.
 6. **Investigate Blaine at the guild — he lends out the guild Meatcar** (would skip the bitchin' meatcar build).
-7. **Buy L7 guild skill: Spirit of Rigatoni** (chefstaves) — meat is healthy (~3,200).
+7. **L7 guild skills cost 2,500 each** — Spirit of Rigatoni (id 11, chefstaves) or Bind Angel Hair Wisp (id 31).
+   ⚠️ We had only 1,512 and skipped them; Rigatoni is only useful once you also own a **chefstaff**.
+   Meat is now ~874 — **farm meat before planning a skill buy** (MMJ restocking eats ~1,600/day).
 8. 🚨 **DRINK LAST — then deliberately overdrink ONCE.** ❌ Day 92's "drink before the long loop" fix was WRONG and
    caused Day 93's lost day: drinking first turns an overshoot into a day-ending lockout. Instead **cap farm loops**
    so you reach the DRINK step with time to spare. Then, at day end:
@@ -144,6 +147,15 @@ duplicates we already owned). After 1,000 turns Hagnk's opens fully. See `mechan
 
 ## 🗓️ Session log (this run)
 
+- **Day 95 (2026-07-22): Quiet grinding day + one genuinely useful lesson.** Unlocked and farmed the **Haunted
+  Ballroom (395)** for 40 turns hunting the cellar trigger — ❌ **"We'll All Be Flat" (choice 921) needs
+  "your father's diary"**, which we don't have, so the cellar stays shut (documented so we don't repeat it).
+  Then the day's real finding: tried the **Haunted Gallery (394)** and went **3W/22L (1.2 raw mys/turn)** —
+  the cause was **MMJ exhaustion**, not the zone. Restocked 16 MMJ and moved to the "beneath us" **Haunted
+  Kitchen (388)**: **45W/3L, 5.0 raw mys/turn — 4× better**. ⇒ **Pick zones by WIN RATE, not ML**, and buy MMJ
+  daily. Raw mys 1,977 → **2,527** (L8 at 2,809). EAT full 15 (86→112 adv), all adventures spent, and the drink
+  play again: mixed a spritzer (+6 adv), filled to **exactly 14**, then one overdrink. Skipped the 2,500-meat L7
+  guild skills (only had 1,512).
 - **Day 94 (2026-07-21): 🎉 BIGGEST DAY OF THE RUN — Friars done, L7, pool ghost beaten, Spookyraven chain
   advanced twice, Crown finally worn.** Spent the 200 banked advs well. **Deep Fat Friars:** farmed dodecagram/
   candles/butterknife (66 turns) → `friars.php?action=ritual` → copse cleansed → **Council now has NO tasks left**
