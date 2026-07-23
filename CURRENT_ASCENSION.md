@@ -30,12 +30,17 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 95 / 2026-07-22)
+## 📊 Character state (run #2 — end of Day 96 / 2026-07-23)
 
-- **LEVEL 7 Pastamancer.** Base Mys **50** (raw 2,527) · base Muscle **31** · **Moxie 29**.
-  **HP 47 max**, **MP 80**. **Meat ~874. adv 33 banked.** full 15, drunk 17 (intentional single overdrink).
-  🎯 **L8 = raw mys 2,809 — only ~280 away** (about 1 hour of Kitchen grinding).
-- ⭐ **Crown of the Goblin King (313) equipped** (needed 20 base Moxie).
+- 🎉 **LEVEL 8 Pastamancer.** Base Mys **55** (raw 3,037) · base Muscle **34** · **Moxie 32**.
+  **HP 50 max**, **MP 87**. **Meat ~207 (LOW). adv 27 banked.** full 15, drunk 17 (intentional overdrink).
+  🎯 **L9 = raw mys 4,096** (we're at 3,037 — ~1,059 to go, a couple days of Kitchen).
+- ⭐ **Necrotelicomnicon (item 2494) equipped as OFF-HAND** — **+10 Spell Damage**, tunes pasta to Spooky.
+  ⚠️ It's an off-hand, so it requires a **1-handed weapon**: we swapped the 2H **pool cue → 1H pasta spoon (5)**.
+  (Re-equip the cue only for pool games.) ⚠️ **Nearly sold it as junk for 2,000 meat — it's a class item, keep it.**
+- ⭐ **Crown of the Goblin King (313) equipped.**
+- **Equipment:** Crown (313) · pasta spoon (5, 1H) · **Necrotelicomnicon (2494, offhand)** · sweatpants (4711) ·
+  Baron's monocle (1312) · air freshener (556) · batskin belt (191) · familiar Marcellus.
 - **Equipped:** **Crown of the Goblin King (313)** · **pool cue (1793, 2H, +3 pool skill / +3 Moxie)** ·
   old sweatpants (4711) · Baron's monocle (1312) · Pine-Fresh air freshener (556) · batskin belt (191) ·
   familiar Marcellus. (Astral chapeau 5030 now spare; swap the cue for the pasta spoon if a 1H is ever needed.)
@@ -83,9 +88,10 @@ disguise** (90); 🎉 **L6 + Springy Fusilli + GOBLIN KING** (91); 🎉 **BOSS B
 drunkenness lockout; 🎉 **FRIARS DONE + L7 + pool ghost beaten + Spookyraven necklace AND finery delivered +
 Crown equipped** (94).
 
-> 🏛️ **THE COUNCIL HAS NO TASKS LEFT** ("Return later, when you are more experienced") — so **the next Council
-> quest is gated on LEVEL**. Progression is now: **level up → new Council quest**. L8 = raw mys **2,809**
-> (we're at 1,977); L9 = 4,096; L10 = 5,625.
+> 🏛️ **COUNCIL QUEST ACTIVE (given at L8): clear the CYRPT** (Bonerdagon chain) — it handed us the
+> **Evilometer (4964)**. But the Cyrpt is a **Level 9–10 grind** (ML 53–79; 199 evil to clear at ~1/fight;
+> we went 7W/23L at L8). **Don't force it — level up first.** Full plan: `mechanics/bonerdagon-boss.md`.
+> Level thresholds: L9 = raw mys **4,096** (we're at 3,037); L10 = 5,625.
 
 > ✅ **The initiative blocker is SOLVED** (Springy Fusilli). The remaining softness is **20 max HP** and **MP supply** —
 > once the juice runs out, win rate collapses (30W/10L with MP → 5W/15L without). **Buy ~10 MMJ every day.**
@@ -103,17 +109,25 @@ Crown equipped** (94).
    store) use inventory meat and work fine. To restock Hagnk's cash there is no obvious in-Ronin route; prefer NPC shops.
    ✅ **Friar zones 539/540/541 are NOT stat-gated for us** — verified enterable at base Mys 33 (the old
    "needs ~45 Mysticality" note in `friars-blessings.md` did not block us).
-2. 🎯 **LEVEL UP — the whole job** (Council is level-gated; **L8 = raw mys 2,809, we're at 2,527**).
-   ⭐ **GRIND THE HAUNTED KITCHEN (snarf 388).** Measured Day 95 at L7: **45W/3L = 5.0 raw mys/turn**, vs the
-   Haunted **Gallery (394) 3W/22L = 1.2** and Ballroom (395, ML 65) 14W/24L. **Win rate beats zone ML** — don't
-   "graduate" from the Kitchen because it looks easy. See `mechanics/leveling-zones.md`.
-   🚨 **Buy 15–20 MMJ (guild store row 527) EVERY day.** Both bad zones above were really MP exhaustion.
+1a. 💰 **MEAT IS LOW (~207) — farm/sell before buying a full MMJ stack.** The **Necrotelicomnicon**-style class
+    items aside, autosell genuine junk (check `sellstuff.php`). ⚠️ The daily MMJ stack (~1,600 meat) now
+    outpaces income — consider a dedicated meat-farm stretch (the Kitchen drops ~10 meat/win) or fewer, cheaper
+    MMJ buys. Note the **0-MP Spaghetti Spear (3020) still wins Kitchen fights (24W/1L verified)** — so MMJ is
+    only needed for hard zones, not for Kitchen leveling.
+2. 🎯 **LEVEL UP toward L9 (raw mys 4,096; we're at 3,037) in the HAUNTED KITCHEN (388).** Proven ~5 raw mys/turn,
+    45W/3L with MP and still 24W/1L on Spear alone. **Win rate beats zone ML** — don't "graduate" from the Kitchen.
+    See `mechanics/leveling-zones.md`. Then attempt the Cyrpt (item 4 below).
 3. **Spookyraven ghost chain** (`mechanics/spookyraven-ghost-chain.md`): necklace ✅, dancing finery ✅, and the
    **Ballroom (395) is now unlocked**. ⚠️ **BUT the cellar-opening encounter "We'll All Be Flat" (choice 921)
    REQUIRES "your father's diary"**, which we don't have — 40 ballroom turns produced nothing. **Don't farm the
    ballroom for the cellar yet**; the diary comes from the later Lord Spookyraven/manor3 chain (manor3 currently
    says "You can't go there yet").
-4. **Then Pandamonium/Azazel → Liver of Steel** once mainstat ≥ 55 (see item 8 and `friars-blessings.md`).
+4. 🎯 **CYRPT quest (Council, active):** grind each of **Alcove 261 / Cranny 262 / Niche 263 / Nook 264** to 0 evil
+   (read progress via Evilometer `inv_use whichitem=4964`; Nook is at **41**, others 50). ⚠️ **Only fight while
+   BOTH Brother Smothers's blessing (`friars.php?bro=3`) AND MP are up** — they run out together (~20 turns) and the
+   win rate craters without them. Then Bonerdagon at The Haert. Best done at **base Mys ~65+**. See `bonerdagon-boss.md`.
+5. **Then Pandamonium/Azazel → Liver of Steel** once mainstat ≥ 55 (base Mys is now 55 — the Infernal Rackets gate
+   is 55, Laugh Floor 60; **re-test these zones now**, they may be enterable). See `friars-blessings.md`.
 5. **Cobb's Knob lab key (339)** — opens the Knob laboratory; unexplored this run.
 6. **Investigate Blaine at the guild — he lends out the guild Meatcar** (would skip the bitchin' meatcar build).
 7. **L7 guild skills cost 2,500 each** — Spirit of Rigatoni (id 11, chefstaves) or Bind Angel Hair Wisp (id 31).
@@ -147,6 +161,15 @@ duplicates we already owned). After 1,000 turns Hagnk's opens fully. See `mechan
 
 ## 🗓️ Session log (this run)
 
+- **Day 96 (2026-07-23): 🎉 LEVEL 8 + Cyrpt quest opened; Necrotelicomnicon equipped.** Nearly sold the
+  **Necrotelicomnicon (2494)** as 2,000-meat junk — it's a **Pastamancer off-hand: +10 Spell Damage**; equipped it
+  (swapped 2H pool cue → 1H pasta spoon). Ground the **Haunted Kitchen** (49W/5L etc.) → **Level 8** (raw mys
+  2,527 → 3,037); Council gave the **Cyrpt quest + Evilometer (4964)**. Grabbed **Brother Smothers's Spooky
+  blessing** and tested the **Nook (264)**: first fight clean (4 rounds, untouched), but sustained it went
+  **7W/23L** once MMJ + blessing ran out — **the Cyrpt is a L9–10 grind (ML 53–79, 199 evil to clear)**; only
+  chipped Nook 50→41. Banked the rest safely in the Kitchen on **0-MP Spear (24W/1L)**. ⚠️ **Meat is now ~207** —
+  daily MMJ buying outpaces income. Drink play again: exactly 14 + one martini overdrink.
+  New/updated docs: `bonerdagon-boss.md` (Cyrpt sub-zones + level-gate reality), `friars-blessings.md`.
 - **Day 95 (2026-07-22): Quiet grinding day + one genuinely useful lesson.** Unlocked and farmed the **Haunted
   Ballroom (395)** for 40 turns hunting the cellar trigger — ❌ **"We'll All Be Flat" (choice 921) needs
   "your father's diary"**, which we don't have, so the cellar stays shut (documented so we don't repeat it).

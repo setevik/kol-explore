@@ -1,5 +1,23 @@
 # Bonerdagon (Defiled Cyrpt boss)
 
+## Clearing the Cyrpt (the 4 sub-zones) — verified run #2, Day 96
+
+- **Council gives this at Level 8** (aura of Spookiness) along with the **Evilometer (item 4964)**.
+- **`inv_use` the Evilometer** any time to read **Total evil + per-zone** (starts ~50 each, 199 total).
+- **Four Defiled sub-zones**, each must be ground to **0 evil** (each fight removes ~1):
+  **Alcove 261 · Cranny 262 · Niche 263 · Nook 264.** All **ML 53–79, Recom Stat 40.**
+- Then **The Haert of the Cyrpt** (`crypt.php?action=heart`) opens → the Bonerdagon fight (below).
+
+🚨 **THIS IS A LEVEL 9–10 GRIND, NOT A LEVEL 8 ONE.** At L8 (base Mys 55, HP 50) verified:
+- With **full MP + Springy Fusilli + Brother Smothers's Spooky blessing**, a spiny skeleton dies in ~4 rounds
+  untouched. **But that state is expensive and short-lived** — once MMJ runs out OR the 20-turn blessing
+  expires, win rate collapses (measured **7W/23L**). ⇒ ~1 evil/fight × 199 with a losing record = **many days**.
+- **Spiny skeletons deal ~30 Spooky per hit** and there are lots of them → **Brother Smothers's Blessing
+  (`friars.php?bro=3`, +3 all-elemental res incl. Spooky, 20 adv) is mandatory** — and it out-times your MP,
+  so re-bless and re-juice together. See `friars-blessings.md`.
+- **Recommendation:** don't try to clear the Cyrpt until **base Mys ~65+ and a bigger MP/meat budget**; keep
+  leveling in the Haunted Kitchen (388) meanwhile. Chip a sub-zone only while a blessing + MP are both up.
+
 ## Quick reference
 
 - **Location**: `crypt.php?action=heart` (or click The Haert of the Cyrpt area)
