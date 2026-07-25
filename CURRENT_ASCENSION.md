@@ -30,11 +30,14 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 96 / 2026-07-23)
+## 📊 Character state (run #2 — end of Day 97 / 2026-07-24)
 
-- 🎉 **LEVEL 8 Pastamancer.** Base Mys **55** (raw 3,037) · base Muscle **34** · **Moxie 32**.
-  **HP 50 max**, **MP 87**. **Meat ~207 (LOW). adv 27 banked.** full 15, drunk 17 (intentional overdrink).
-  🎯 **L9 = raw mys 4,096** (we're at 3,037 — ~1,059 to go, a couple days of Kitchen).
+- **LEVEL 8 Pastamancer.** Base Mys **60** (raw 3,655) · base Muscle **38** · **Moxie 36**.
+  **HP 54 max**, **MP 95**. **Meat ~1,360. adv 41 banked** (fresh-day meters: full 0, drunk 0 — DRINK was missed
+  at rollover again; not recoverable). 🎯 **L9 = raw mys 4,096** (we're at 3,655 — ~440 to go, ~1 backstage session).
+- 💰 **Economy fixed:** sold genuine junk (leftovers/baguettes/pills/etc.) for **+3,991 meat** — do this whenever
+  meat runs low, but **build an ID→name map from the inventory first** (the `sellstuff.php` row parse misaligns
+  IDs and names — nearly sold the wrong things).
 - ⭐ **Necrotelicomnicon (item 2494) equipped as OFF-HAND** — **+10 Spell Damage**, tunes pasta to Spooky.
   ⚠️ It's an off-hand, so it requires a **1-handed weapon**: we swapped the 2H **pool cue → 1H pasta spoon (5)**.
   (Re-equip the cue only for pool games.) ⚠️ **Nearly sold it as junk for 2,000 meat — it's a class item, keep it.**
@@ -126,8 +129,17 @@ Crown equipped** (94).
    (read progress via Evilometer `inv_use whichitem=4964`; Nook is at **41**, others 50). ⚠️ **Only fight while
    BOTH Brother Smothers's blessing (`friars.php?bro=3`) AND MP are up** — they run out together (~20 turns) and the
    win rate craters without them. Then Bonerdagon at The Haert. Best done at **base Mys ~65+**. See `bonerdagon-boss.md`.
-5. **Then Pandamonium/Azazel → Liver of Steel** once mainstat ≥ 55 (base Mys is now 55 — the Infernal Rackets gate
-   is 55, Laugh Floor 60; **re-test these zones now**, they may be enterable). See `friars-blessings.md`.
+5. 🎯 **AZAZEL QUEST → Liver of Steel — NOW IN REACH.** Both antechambers are **open** (base Mys 60):
+   - ✅ **Infernal Rackets Backstage (snarf 243)** — OPEN, and it's our **best leveling zone** (~10 raw mys/turn
+     with strict MP; **ML 58, so top MP to 40+ before each fight and bail under 20**). Drops **bus passes (4699)** —
+     **we already have 13** (need 5). ⭐ Grind here toward L9.
+   - ✅ **The Laugh Floor (snarf 242)** — now OPEN (needs base Mys 60). Drops **can of imp air (4698)** — **need 5**,
+     have 0. **This is the last quest piece to farm.**
+   - Remaining Azazel tasks: **Hey Deze Arena logic puzzle → Azazel's unicorn**; **Belilafs Comedy Club → find
+     Larry of the Field of Signs, equip observational glasses, talk to Mourn → Azazel's lollipop**; **5 imp air +
+     5 bus passes → Moaning Panda Square → Azazel's tutu**. Then turn in all 3 talismans → **steel margarita →
+     Liver of Steel (drink cap 14 → 19)**. See `friars-blessings.md` / `drinking-strategy.md`.
+   ⚠️ Springy Fusilli + full MP for both zones; they hit hard (ML 58–66).
 5. **Cobb's Knob lab key (339)** — opens the Knob laboratory; unexplored this run.
 6. **Investigate Blaine at the guild — he lends out the guild Meatcar** (would skip the bitchin' meatcar build).
 7. **L7 guild skills cost 2,500 each** — Spirit of Rigatoni (id 11, chefstaves) or Bind Angel Hair Wisp (id 31).
@@ -161,6 +173,15 @@ duplicates we already owned). After 1,000 turns Hagnk's opens fully. See `mechan
 
 ## 🗓️ Session log (this run)
 
+- **Day 97 (2026-07-24): Economy fixed + both Hell antechambers unlocked.** Started broke (~207 meat); **sold junk
+  for +3,991** (built an inventory ID→name map first — the sellstuff row parse misaligns IDs). Filled full 15,
+  bought a full MMJ stack. **Infernal Rackets Backstage (243) is now OPEN** at base Mys 55 — it's our best leveling
+  zone (~10 raw mys/turn with strict MP; ML 58 so top to 40+ MP/fight, bail under 20 — the "keep MP full" discipline
+  gave a **24W/0L** streak vs 21W/18L when juice ran dry). Farmed **13 bus passes (4699)** (need 5 for Azazel).
+  Ground base Mys **55 → 60**, which **opened The Laugh Floor (242)** (drops imp air 4698 — the last talisman piece).
+  ⚠️ **DRINK missed again** — was mid-farm at rollover (2nd time this week); banked adv carry but leave more daylight
+  to wrap. New session started at adv 41, full/drunk 0. Updated `bonerdagon-boss.md` earlier; Azazel plan in
+  `CURRENT_ASCENSION` priorities.
 - **Day 96 (2026-07-23): 🎉 LEVEL 8 + Cyrpt quest opened; Necrotelicomnicon equipped.** Nearly sold the
   **Necrotelicomnicon (2494)** as 2,000-meat junk — it's a **Pastamancer off-hand: +10 Spell Damage**; equipped it
   (swapped 2H pool cue → 1H pasta spoon). Ground the **Haunted Kitchen** (49W/5L etc.) → **Level 8** (raw mys

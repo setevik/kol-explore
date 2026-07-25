@@ -127,7 +127,11 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
 2. **Autosell junk** via `sellstuff.php?justitems=0` (it lists each item's autosell price). Sell with a POST to
    **`sellstuff_ugly.php`**: `pwd, action=sell, mode=3, quantity=<n>, item<ID>=<ID>` (checkboxes are named
    `item<ID>`). **mode=1** = sell all, **mode=2** = all but one, **mode=3** = the `quantity` field. ✅ Verified:
-   mode=3 quantity=2 sold exactly 2.
+   mode=3 quantity=2 sold exactly 2. Batch-sell many at once: repeat `item<ID>=<ID>` for each.
+   ⚠️ **The `sellstuff.php` ROW PARSE MISALIGNS ID↔NAME** — the checkbox `value` and the `<b>name</b>` in the same
+   `<tr>` don't reliably belong together (every item appeared twice with two different IDs on Day 97). **Build an
+   authoritative `{id: name}` map from the inventory pages first** (`inventory.php?which=1/2/3`, parse `table.item`
+   `rel="id=<N>"` + `<b>`), decide what to sell by NAME there, then sell those exact IDs. Nearly sold class items otherwise.
 3. **Starter-package gems are worth a fortune.** The pork elf goodies sack (Toot Oriole / Letter from King Ralph)
    yields **porquoise (706) / hamethyst / baconstone — 500 meat autosell each**. Their only use is jewelrycrafting
    (a skill we don't have), so **selling them early is usually correct**.
