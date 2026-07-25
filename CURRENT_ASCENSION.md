@@ -30,14 +30,16 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 97 / 2026-07-24)
+## 📊 Character state (run #2 — end of Day 98 / 2026-07-25)
 
-- **LEVEL 8 Pastamancer.** Base Mys **60** (raw 3,655) · base Muscle **38** · **Moxie 36**.
-  **HP 54 max**, **MP 95**. **Meat ~1,360. adv 41 banked** (fresh-day meters: full 0, drunk 0 — DRINK was missed
-  at rollover again; not recoverable). 🎯 **L9 = raw mys 4,096** (we're at 3,655 — ~440 to go, ~1 backstage session).
-- 💰 **Economy fixed:** sold genuine junk (leftovers/baguettes/pills/etc.) for **+3,991 meat** — do this whenever
-  meat runs low, but **build an ID→name map from the inventory first** (the `sellstuff.php` row parse misaligns
-  IDs and names — nearly sold the wrong things).
+- 🎉 **LEVEL 9 Pastamancer.** Base Mys **65** (raw 4,332) · base Muscle **41** · **Moxie 39**.
+  **HP 57 max**, **MP 102**. **Meat ~323. adv 27 banked.** full 15, drunk 16 (proper single overdrink at day end ✅).
+  🎯 **L10 = raw mys 5,625** (we're at 4,332 — ~1,293 to go, ~2 backstage sessions).
+- 💰 **Economy loop:** when meat is low, sell vendor trash via `sellstuff_ugly.php` (**build the ID→name map from
+  `inventory.php` first** — the sellstuff row parse misaligns IDs/names). Day 98's junk gave +2,615. **KEEP the 67
+  ten-leaf clovers (24)** (lucky adventures / high mall value), all booze, and quest/class gear.
+- ⭐ **Azazel talisman 1/3 done: Azazel's tutu** (turned in 5 imp air + 5 bus passes at Moaning Panda Square).
+  Have **19 bus passes** still (extra, harmless). **imp air now 0** (need 0 more — tutu is complete).
 - ⭐ **Necrotelicomnicon (item 2494) equipped as OFF-HAND** — **+10 Spell Damage**, tunes pasta to Spooky.
   ⚠️ It's an off-hand, so it requires a **1-handed weapon**: we swapped the 2H **pool cue → 1H pasta spoon (5)**.
   (Re-equip the cue only for pool games.) ⚠️ **Nearly sold it as junk for 2,000 meat — it's a class item, keep it.**
@@ -91,10 +93,10 @@ disguise** (90); 🎉 **L6 + Springy Fusilli + GOBLIN KING** (91); 🎉 **BOSS B
 drunkenness lockout; 🎉 **FRIARS DONE + L7 + pool ghost beaten + Spookyraven necklace AND finery delivered +
 Crown equipped** (94).
 
-> 🏛️ **COUNCIL QUEST ACTIVE (given at L8): clear the CYRPT** (Bonerdagon chain) — it handed us the
-> **Evilometer (4964)**. But the Cyrpt is a **Level 9–10 grind** (ML 53–79; 199 evil to clear at ~1/fight;
-> we went 7W/23L at L8). **Don't force it — level up first.** Full plan: `mechanics/bonerdagon-boss.md`.
-> Level thresholds: L9 = raw mys **4,096** (we're at 3,037); L10 = 5,625.
+> 🏛️ **TWO COUNCIL QUESTS OPEN:** (1) **clear the CYRPT** (Bonerdagon, Evilometer 4964; ML 53–79 — retry now that
+> we're L9 with the Spooky blessing + full MP); (2) **NEW at L9: the TRAPPER** (Mt. McLargeHuge — the L8 trapper
+> quest, ninja/eXtreme slope/goat cheese chain). Level thresholds: L10 = raw mys **5,625** (we're at 4,332).
+> Full Cyrpt plan: `mechanics/bonerdagon-boss.md`.
 
 > ✅ **The initiative blocker is SOLVED** (Springy Fusilli). The remaining softness is **20 max HP** and **MP supply** —
 > once the juice runs out, win rate collapses (30W/10L with MP → 5W/15L without). **Buy ~10 MMJ every day.**
@@ -129,17 +131,18 @@ Crown equipped** (94).
    (read progress via Evilometer `inv_use whichitem=4964`; Nook is at **41**, others 50). ⚠️ **Only fight while
    BOTH Brother Smothers's blessing (`friars.php?bro=3`) AND MP are up** — they run out together (~20 turns) and the
    win rate craters without them. Then Bonerdagon at The Haert. Best done at **base Mys ~65+**. See `bonerdagon-boss.md`.
-5. 🎯 **AZAZEL QUEST → Liver of Steel — NOW IN REACH.** Both antechambers are **open** (base Mys 60):
-   - ✅ **Infernal Rackets Backstage (snarf 243)** — OPEN, and it's our **best leveling zone** (~10 raw mys/turn
-     with strict MP; **ML 58, so top MP to 40+ before each fight and bail under 20**). Drops **bus passes (4699)** —
-     **we already have 13** (need 5). ⭐ Grind here toward L9.
-   - ✅ **The Laugh Floor (snarf 242)** — now OPEN (needs base Mys 60). Drops **can of imp air (4698)** — **need 5**,
-     have 0. **This is the last quest piece to farm.**
-   - Remaining Azazel tasks: **Hey Deze Arena logic puzzle → Azazel's unicorn**; **Belilafs Comedy Club → find
-     Larry of the Field of Signs, equip observational glasses, talk to Mourn → Azazel's lollipop**; **5 imp air +
-     5 bus passes → Moaning Panda Square → Azazel's tutu**. Then turn in all 3 talismans → **steel margarita →
-     Liver of Steel (drink cap 14 → 19)**. See `friars-blessings.md` / `drinking-strategy.md`.
-   ⚠️ Springy Fusilli + full MP for both zones; they hit hard (ML 58–66).
+5. 🎯 **AZAZEL QUEST → Liver of Steel — 2 talismans left.** ✅ **tutu done** (turned in at `pandamonium.php?action=moan`).
+   Still need:
+   - **Azazel's unicorn** — solve the **Sven Golly logic puzzle** in the Hey Deze Arena (`pandamonium.php?action=infe`
+     → "Talk to Sven Golly"). ⚠️ It's a **randomized 4×grid puzzle** (band members Bognort/Stinkface/Flargwurm/Jim;
+     each craves & hates one of white/soft/sweet/boozy; roles bassist/guitarist/drummer/singer). Clues come from
+     backstage NCs — but **none appeared in ~50 backstage combats on Day 98**, so the clue NCs are rare or need a
+     different trigger. **Research the exact clue/solve mechanism before grinding** (`Talk_to_Sven_Golly` wiki).
+   - **Azazel's lollipop** — **Belilafs Comedy Club (`pandamonium.php?action=beli`)**: adventure until **Larry of
+     the Field of Signs**, **equip observational glasses** (need to obtain them), **talk to Mourn**.
+   - Then turn in all 3 → **steel margarita → Liver of Steel (drink cap 14 → 19)**. `drinking-strategy.md`.
+   - **Best leveling zone remains Infernal Rackets Backstage (243)** — ~10 raw mys/turn, 31W/1L at L8–9 with strict
+     MP (top to 40+, bail under 20, Springy Fusilli up). Use it to push L10 while chipping the above.
 5. **Cobb's Knob lab key (339)** — opens the Knob laboratory; unexplored this run.
 6. **Investigate Blaine at the guild — he lends out the guild Meatcar** (would skip the bitchin' meatcar build).
 7. **L7 guild skills cost 2,500 each** — Spirit of Rigatoni (id 11, chefstaves) or Bind Angel Hair Wisp (id 31).
@@ -173,6 +176,13 @@ duplicates we already owned). After 1,000 turns Hagnk's opens fully. See `mechan
 
 ## 🗓️ Session log (this run)
 
+- **Day 98 (2026-07-25): 🎉 LEVEL 9 + Azazel's tutu (talisman 1/3) + clean wrap.** Sold vendor trash for +2,615
+  meat (kept clovers/booze/gear). Farmed the **Laugh Floor (242)** with strict MP discipline → **5 imp air**, then
+  turned in 5 imp air + 5 bus passes at **Moaning Panda Square (`pandamonium.php?action=moan`)** → **Azazel's tutu**.
+  Ground the **Backstage (243)** 31W/1L → **Level 9** (raw mys 3,655 → 4,332). Council opened a **2nd quest: the
+  Trapper** (Mt. McLargeHuge) alongside the Cyrpt. ✅ **Closed the day properly** (first clean wrap in a few days):
+  spent adv to 1, then drink play (mix → exactly 14 → one brandy overdrink), full 15 / drunk 16 / 27 banked.
+  ⚠️ Sven Golly puzzle clues did NOT appear in ~50 backstage combats — needs research before grinding the unicorn.
 - **Day 97 (2026-07-24): Economy fixed + both Hell antechambers unlocked.** Started broke (~207 meat); **sold junk
   for +3,991** (built an inventory ID→name map first — the sellstuff row parse misaligns IDs). Filled full 15,
   bought a full MMJ stack. **Infernal Rackets Backstage (243) is now OPEN** at base Mys 55 — it's our best leveling
