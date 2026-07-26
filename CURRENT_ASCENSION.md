@@ -57,8 +57,8 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 - ⭐ **NEW: Queue Du Coq cocktailcrafting kit INSTALLED** (1,000 meat, funded by selling 2 dense meat stacks).
   **Mixing normal cocktails is FREE (0 adventures)** and turns a 3-adv bottle into a **5–6 adv** drink.
   **Mix every bottle with soda water before drinking, every day.** Full strategy: `mechanics/drinking-strategy.md`.
-- 🎯 **Next big drinking upgrade: Liver of Steel (cap 14 → 19)** — drink a **steel margarita** from the Azazel quest
-  in **Pandamonium**, which unlocks right after the **Deep Fat Friars** ritual (our current Council quest).
+- ✅ **Liver of Steel EARNED (Day 99): drink cap is 19.** At day-end **read the cap from charpane `Tipsiness: X / Y`,
+  fill to Y (=19 this run), then ONE overdrink** — never stop at 14.
 - ✅ **THE INITIATIVE BLOCKER IS SOLVED: we have Springy Fusilli (3015).** Cast it (10 MP, **lasts 10 adventures**)
   and we act first → stun → zero damage. It turned a guaranteed loss vs the Goblin King into a 3-round win.
   **Keep it up during any hard fight.** Remaining softness: **20 max HP** is still low — grow Muscle.
@@ -143,9 +143,10 @@ Crown equipped** (94).
 8. 🚨 **DRINK LAST — then deliberately overdrink ONCE.** ❌ Day 92's "drink before the long loop" fix was WRONG and
    caused Day 93's lost day: drinking first turns an overshoot into a day-ending lockout. Instead **cap farm loops**
    so you reach the DRINK step with time to spare. Then, at day end:
-   **(a) MIX every bottle with soda water first** (free, 3 adv → 5–6 adv);
-   **(b) drink to exactly 14** with a look-ahead guard (`drunk + potency <= 14`), finishing on small bottles;
-   **(c) drink ONE more — your highest-adventure bottle** — to spend the single allowed overdrink. Those adventures
+   **(a) READ THE CAP** from charpane `Tipsiness: X / Y` (**Y = 19 this run, Liver of Steel**; would be 14 without it);
+   **(b) MIX every bottle with soda water first** (free, 3 adv → 5–6 adv);
+   **(c) drink to exactly Y=19** with a look-ahead guard (`drunk + potency <= 19`), finishing on small bottles;
+   **(d) drink ONE more — your highest-adventure bottle** — to spend the single allowed overdrink. Those adventures
    bank overnight. Enumerate booze **by name** (a fixed ID list missed half of it and stalled at drunk 9 on Day 91).
    Full detail: **`mechanics/drinking-strategy.md`**.
    ❌ The **Hidden Tavern is NOT unlocked** by the Typical Tavern quest (it's the L11 Hidden City) — no Fog Murderers yet.

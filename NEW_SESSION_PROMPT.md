@@ -42,6 +42,7 @@ in the top window and `window.frames['mainpane'].location.href` for navigation (
 **Alternative one-liner:**
 
 > Continue the KoL run. Read `CURRENT_ASCENSION.md` (state) then `HANDOFF.md` (manual). Log in with the credentials in
-> `credentials.local.md`, do EAT → ADVENTURE → DRINK, use Mortar→Cannelloni, do the Daily Dungeon early, spend all adventures,
-> drink 2 Fog Murderers, write a lore diary to `my-adventures/YYYY-MM-DD.md`, then close the tab and commit — and
-> update `CURRENT_ASCENSION.md`.
+> `credentials.local.md`, do EAT → ADVENTURE → DRINK, use the current combat combo, do the Daily Dungeon early, spend all
+> adventures, then at day-end **read your drink cap from the charpane (`Tipsiness: X / Y`; Y = 14, or 19 with Liver of
+> Steel), fill the booze meter to Y, then take one overdrink** (see `mechanics/drinking-strategy.md`). Write a lore diary
+> to `my-adventures/YYYY-MM-DD.md`, then close the tab and commit — and update `CURRENT_ASCENSION.md`.

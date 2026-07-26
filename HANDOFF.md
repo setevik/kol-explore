@@ -164,8 +164,9 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
   ⚠️ In **Ronin** you can only pull 1 of each per day — so the pattern is **1 pulled big food + inventory filler**.
   ⚠️ Pastamancer pasta filling is still **unsolved** (dry noodles 304 + long-pork/lihc-eye/olive/bean all "no recipe");
   buy ready food instead.
-- ⚠️ **DRINK CAP = 14 while you still need to adventure** — 15+ = falling-down drunk (see HARD RULE 1).
-  Use a **look-ahead** check (`drunk + potency <= 14`), and know your sizes: ≈3 — vodka 238 · tequila 1004 ·
+- ⚠️ **DRINK CAP is DYNAMIC — read it from the charpane** (`Tipsiness: X / Y`, Y = cap): **14 default, 19 with
+  Liver of Steel** (this-run-only skill; resets each ascension). 15+ (or 20+ with the skill) = falling-down drunk.
+  Use a **look-ahead** check (`drunk + potency <= cap`), and know your sizes: ≈3 — vodka 238 · tequila 1004 ·
   whiskey 328 · boxed wine 1005 · accidental cider 2842 · swill 3831 · most basic cocktails;
   ≈2 — popskull 1774 · cooking sherry 2840; ≈1 — ice-cold Willer 81. Finish on the small ones.
 - ⭐ **OPTIMAL DRINKING — see `mechanics/drinking-strategy.md`.** Two rules do most of the work:
@@ -209,15 +210,24 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
    or `drunk` (0/14) meter (each point ≈ 2–3 rollover adventures).
 
    🚨 **DRINK LAST IS NOT A STYLE CHOICE — IT IS THE SAFETY RAIL. (Cost us a whole day, Day 93.)**
-   **The adventuring limit is `drunk` 14.** At **15+ you are "falling-down drunk"**: every zone returns only
-   **Drunken Stupor** (`The Too-Much Booze Blues` — "you spend a couple of hours battling fierce pink elephants"),
-   which **consumes the adventure AND drains substats**. It **cannot be cured** — drunkenness only resets at rollover.
+   At **(cap+1)+ you are "falling-down drunk"**: every zone returns only **Drunken Stupor**
+   (`The Too-Much Booze Blues` — "you spend a couple of hours battling fierce pink elephants"), which **consumes
+   the adventure AND drains substats**, and **cannot be cured** — drunkenness only resets at rollover.
+   - 🎯 **READ THE CAP, DON'T HARD-CODE IT.** The adventuring cap is **14 by default** but **19 with Liver of Steel**
+     (see below) — and it **RESETS to 14 every ascension** (Liver of Steel can't be permed). So the number changes.
+     ✅ **Get the live cap from the charpane:** parse `Tipsiness:\s*(\d+)\s*\/\s*(\d+)` → **group 2 = your cap**
+     (e.g. `Tipsiness: 5 / 19`). Fill to *that* number, not a memorized one.
+     🍸 **Liver of Steel = +5 cap (14→19).** Earn it by finishing the **Azazel quest** (steel margarita) — see
+     `mechanics/friars-blessings.md`. Whenever it's active, **fill the booze meter to 19**; stopping at 14 silently
+     throws away ~+9 adventures/day. (Run #2 has it as of Day 99.)
    - **Drink at the END** and an overshoot is harmless: the surplus adventures simply bank to tomorrow.
    - **Drink at the START** and the identical overshoot **locks you out of the entire day**. We drank first
      (to "guarantee" the meter after missing it on Day 92), hit **drunk 16**, and stranded **190 adventures**.
-   - ✅ **Guard with LOOK-AHEAD, not `drunk < 14`.** A loop that checks `if (drunk >= 14) break` *before* drinking
-     will still jump 13 → 16 on a 3-drunk bottle. **Only drink if `drunk + size <= 14`** (bottle sizes: vodka/
-     tequila/whiskey/rum/cider/swill ≈ 3, sherry ≈ 2, Willer ≈ 1). Prefer small bottles to land exactly on 14.
+   - ✅ **Guard with LOOK-AHEAD, not `drunk < cap`.** A loop that checks `if (drunk >= cap) break` *before* drinking
+     will still overshoot on a 3-drunk bottle. **Only drink if `drunk + size <= cap`** (sizes: vodka/tequila/whiskey/
+     rum/cider/swill ≈ 3, sherry/popskull ≈ 2, Imp Ale/Willer ≈ 1). Prefer small bottles to land exactly on the cap.
+   - **Then take your ONE overdrink** (the single drink allowed to cross the cap — see `drinking-strategy.md`):
+     spend it on your highest-adventure bottle; those adventures still bank.
    - If you fear missing DRINK during a long farm loop, **cap the loop / drink at a checkpoint** — do NOT reorder
      the day.
 2. **Don't end the day with ≥ 40 adventures unspent.** Banked advs roll over but waste daily potential — keep

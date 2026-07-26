@@ -1,29 +1,38 @@
 # Optimal drinking strategy (adventures per day from booze)
 
-> Idempotent. Sourced from the official wiki + verified in-game (run #2, Day 93).
-> The **hard safety rule** (drink LAST, cap 14) lives in `HANDOFF.md` HARD RULE 1 — read that first.
+> Idempotent. Sourced from the official wiki + verified in-game (run #2, Days 93 & 99).
+> The **hard safety rule** (drink LAST) lives in `HANDOFF.md` HARD RULE 1 — read that first.
 > Current-run booze stock lives in `CURRENT_ASCENSION.md`.
+
+## 🎯 The cap is a VARIABLE — read it, never hard-code it
+
+Every "14" below means **"your current cap"**. It is **14 with a default liver, 19 with Liver of Steel**, and it
+**resets to 14 each ascension** (Liver of Steel can't be permed). ✅ **Read the live number** from the charpane:
+`Tipsiness: X / Y` → **Y = cap**. Fill to Y. Whenever Liver of Steel is active, that's 19 — **stopping at 14 wastes
+~+9 adventures/day.** (Liver of Steel comes from the Azazel quest → steel margarita; see `friars-blessings.md`.
+Run #2 has had it since Day 99.)
 
 ## The three rules that define the optimum
 
-1. **The adventuring cap is `drunk` 14** (default liver). At **15+** you are **falling-down drunk**: only
-   *Drunken Stupor* adventures, which **consume a turn and drain substats**. It only resets at rollover.
+1. **The adventuring cap is `drunk` = CAP** (read it; 14 default / 19 Liver of Steel). At **CAP+1** you are
+   **falling-down drunk**: only *Drunken Stupor* adventures, which **consume a turn and drain substats**.
+   Only resets at rollover.
 2. **You may exceed the cap exactly ONCE.** The wiki's falling-down-drunk list includes *"drink any more!"* —
-   so a drink that *crosses* 14 is allowed, but once you are over, **you cannot drink again that day**.
+   so the drink that *crosses* CAP is allowed, but once over, **you cannot drink again that day**.
 3. **Adventures from booze are granted immediately and bank overnight.** So the surplus from an overdrink is
    *not* wasted — it rolls into tomorrow.
 
-⇒ **The optimum is: fill to exactly 14, then spend your ONE overdrink on the single highest-adventure drink you own.**
+⇒ **The optimum is: fill to exactly CAP, then spend your ONE overdrink on the single highest-adventure drink you own.**
 And because of rule 1, **all of this must happen at the END of the day**, after adventures are spent.
 
 ## Daily recipe
 
 1. **Spend all adventures first.** (Drinking first turns an overshoot into a lost day — that cost us Day 93.)
-2. **Mix everything** (see below) — free, and roughly doubles adventures per bottle.
-3. **Drink up to exactly 14** using a **look-ahead** guard: only drink if `drunk + potency <= 14`.
-   With 3-potency drinks that's 4 drinks → drunk 12; top to 14 with a 2-potency (cooking sherry) or
-   two 1-potency (ice-cold Willer) if available.
-4. **Then drink ONE more — the biggest-adventure drink you have.** It pushes you over the cap; that is intended.
+2. **Read CAP** from the charpane `Tipsiness: X / Y`.
+3. **Mix everything** (see below) — free, and roughly doubles adventures per bottle.
+4. **Drink up to exactly CAP** using a **look-ahead** guard: only drink if `drunk + potency <= CAP`.
+   Land exactly on CAP by finishing with small bottles (2-potency cooking sherry / popskull, 1-potency Imp Ale/Willer).
+5. **Then drink ONE more — the biggest-adventure drink you have.** It pushes you over the cap; that is intended.
    Save your best bottle for this slot (a 15-adv Fog Murderer here is worth 3× a 5-adv cocktail).
 
 ## ⭐ Cocktailcrafting — the single biggest cheap upgrade (verified)
@@ -81,7 +90,8 @@ Fruit mixers also work: **orange + tequila → tequila sunrise** (5–6) · **or
    is the ideal **overdrink** item. This is the endgame booze (see `HANDOFF.md`).
 4. Long-term: **Ode to Booze** (Accordion Thief) adds adventures per drink — not available to a Pastamancer.
 
-## Worked example (current capability, cap 14)
+## Worked example — cap 19 (with Liver of Steel, verified Day 99)
 
-4 cocktails (12 drunk) ≈ **22 adv** → top-up to 14 if a small bottle is available → **+1 overdrink cocktail ≈ 5.5 adv**
-⇒ **≈ 28 adventures/day from booze**, versus ~12 from drinking raw bottles and stopping at 14. **More than double.**
+Fill 5→19: cider ×4 (+~5 adv each) + cooking sherry to land on 19 ≈ **22 adv**, then **one Monsieur Bubble
+overdrink ≈ +5 adv**. At cap 14 the same routine yields ~28; **the extra 5 cap ≈ +9 adv/day** — which is the whole
+point of not hard-coding 14. Mixing (below) roughly doubles per-bottle yield on top of this.
