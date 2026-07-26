@@ -25,6 +25,31 @@ Reach the zones via `friars.php` / the Distant Woods.
 (248) needs 45. At base Mys 38 we were refused. ⇒ **Liver of Steel (steel margarita) is a Level ~9–10 goal,
 not a Level 6–7 one.** See `drinking-strategy.md`.
 
+### ✅ Azazel quest → Liver of Steel (verified complete, run #2 Day 99)
+
+After the ritual, Pandamonium opens. Collect 3 talismans, turn them in at Azazel's Temple
+(`pandamonium.php?action=temp`) for a **steel margarita → drink it → Liver of Steel skill (drink cap 14 → 19)**.
+Zones via `pandamonium.php?action=` **temp**(Azazel) / **infe**(Hey Deze alley) / **beli**(Belilafs alley) /
+**moan**(Moaning Panda) / **sven**(Sven Golly) / **mourn**(Mourn). All three sub-quests:
+
+1. **Azazel's tutu** — farm **5 imp air (4698)** on **The Laugh Floor (242, needs base Mys 60)** + **5 bus passes
+   (4699)** on **Infernal Rackets Backstage (243, base Mys 55)**, then visit **`action=moan`** (auto-turn-in).
+2. **Azazel's unicorn** — the **Sven Golly logic puzzle** (`action=sven` → click **Help** = `preaction=help`).
+   ⚠️ **The answer NEVER changes.** ✅ **The 4 items are collected passively from Backstage (243) NCs** (teddy
+   bear 4670, cherry 4671, comfy pillow 4672, marshmallow 4673 — our auto-farm had already picked them up).
+   Give (POST `pandamonium.php` `action=sven&preaction=try&bandmember=<name>&togive=<id>`):
+   **Bognort → giant marshmallow (4673) · Stinkface → beer-scented teddy bear (4670) ·
+   Flargwurm → booze-soaked cherry (4671) · Jim → comfy pillow (4672).** → Azazel's unicorn.
+3. **Azazel's lollipop** — fight **The Laugh Floor (242)** until the monster **Larry of the Field of Signs**
+   appears (~20 turns); beat him → **observational glasses (4668, accessory)**. **Equip the glasses** (needs a
+   free accessory slot — unequip one), then **`action=mourn`** → POST `preaction=observe` ("observational humor")
+   → Mourn laughs → Azazel's lollipop.
+
+Then temple turn-in → steel margarita → **drink it early** (only 5 drunk, and the +5 cap is what matters; you can
+still adventure all day and fill to 19 at day's end).
+
+---
+
 Talk to the Friars (`friars.php` → "Talk to the Friars" icon). If you have all 3 items, you can place them at the central gate. Performing the ritual closes the gate, cleanses the copse, and unlocks **Pandamonium** (Azazel's personal effects quest starts there).
 
 ## The Three Brothers (Daily Blessing — Pick ONE)

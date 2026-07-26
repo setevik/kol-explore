@@ -29,6 +29,11 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
 **Gotchas (each of these has bitten us):**
 - **Single-instance guard.** A `javascript_tool` call that launches a long async loop returns `{}` (blocked) but the
   loop keeps running in the page. Launching another overlaps them (double-spends advs). Guard with `window._running`.
+- ⚠️ **When the connection is UNSTABLE (fetch drops every ~1 min), long async loops die after 1 iteration** with
+  "Failed to fetch" and lose their progress. ✅ **Fix that works: run SHORT SYNCHRONOUS bursts** — a `for` loop of
+  ~10–14 fights that writes results to `window._out` and returns; the tool call times out at 30s but the burst
+  completes and you read `window._out` after. This reliably banked ~13 turns/burst when 40-turn loops kept dying.
+  Pair with the meat-positive **Kitchen-on-0-MP-Spear** so no juice-buy round-trips are needed mid-burst.
 - **Abort flag.** Put `if (window._abort) break;` at the top of the loop so you can stop a mis-targeted run cleanly.
   (Last-resort kill: overwrite `window.fetch` to reject, wait, then restore — crude, avoid if the flag exists.)
 - **Async returns `{}`.** The tool often returns `{}` for an `async` IIFE before it resolves. **Write results to a
