@@ -7,10 +7,11 @@
 ## 🎯 The cap is a VARIABLE — read it, never hard-code it
 
 Every "14" below means **"your current cap"**. It is **14 with a default liver, 19 with Liver of Steel**, and it
-**resets to 14 each ascension** (Liver of Steel can't be permed). ✅ **Read the live number** from the charpane:
-`Tipsiness: X / Y` → **Y = cap**. Fill to Y. Whenever Liver of Steel is active, that's 19 — **stopping at 14 wastes
-~+9 adventures/day.** (Liver of Steel comes from the Azazel quest → steel margarita; see `friars-blessings.md`.
-Run #2 has had it since Day 99.)
+**resets to 14 each ascension** (Liver of Steel can't be permed). ✅ **Detect the cap** — the robust way (works at
+drunk 0): **`charsheet.php` contains "Liver of Steel" → cap 19, else 14** (verified Day 100; `api.php` has no cap
+field). The charpane `Tipsiness: X / Y` (Y = cap) also works but **only appears once drunk > 0**. Fill to the cap.
+Whenever Liver of Steel is active, that's 19 — **stopping at 14 wastes ~+9 adventures/day.** (Liver of Steel comes
+from the Azazel quest → steel margarita; see `friars-blessings.md`. Run #2 has had it since Day 99.)
 
 ## The three rules that define the optimum
 

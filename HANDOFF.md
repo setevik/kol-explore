@@ -215,8 +215,10 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
    the adventure AND drains substats**, and **cannot be cured** — drunkenness only resets at rollover.
    - 🎯 **READ THE CAP, DON'T HARD-CODE IT.** The adventuring cap is **14 by default** but **19 with Liver of Steel**
      (see below) — and it **RESETS to 14 every ascension** (Liver of Steel can't be permed). So the number changes.
-     ✅ **Get the live cap from the charpane:** parse `Tipsiness:\s*(\d+)\s*\/\s*(\d+)` → **group 2 = your cap**
-     (e.g. `Tipsiness: 5 / 19`). Fill to *that* number, not a memorized one.
+     ✅ **Robust check (works at any drunkenness): `charsheet.php` contains the text "Liver of Steel" → cap 19, else 14.**
+     (Verified Day 100. `api.php?what=status` has NO cap field — only `drunk`.) The charpane's `Tipsiness: X / Y`
+     line (Y = cap) also works **but only shows when drunk > 0**, so it can't be read at day-start; use charsheet, or
+     drink your first safe bottle then read `Tipsiness`.
      🍸 **Liver of Steel = +5 cap (14→19).** Earn it by finishing the **Azazel quest** (steel margarita) — see
      `mechanics/friars-blessings.md`. Whenever it's active, **fill the booze meter to 19**; stopping at 14 silently
      throws away ~+9 adventures/day. (Run #2 has it as of Day 99.)

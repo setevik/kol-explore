@@ -30,11 +30,11 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 99 / 2026-07-26)
+## 📊 Character state (run #2 — end of Day 100 / 2026-07-27)
 
-- 🎉 **LEVEL 9 Pastamancer.** Base Mys **69** (raw 4,864) · base Muscle **43** · **Moxie 42**.
-  **HP 59 max**, **MP 108**. **Meat ~735. adv 34 banked.** full 15, drunk 22 (filled to new cap 19 + one overdrink ✅).
-  🎯 **L10 = raw mys 5,625** (we're at 4,864 — ~761 to go).
+- 🎉 **LEVEL 9 Pastamancer.** Base Mys **74** (raw 5,504) · base Muscle **45** · **Moxie 44**.
+  **HP 61 max**, **MP 116**. **Meat ~548. adv 35 banked.** full 15, drunk 21 (filled to cap 19 + one overdrink ✅).
+  🎯 **L10 = raw mys 5,625 — only ~120 away (one morning of Kitchen grinding).**
 - ⭐⭐ **LIVER OF STEEL EARNED — drink cap is now 19 (was 14).** Completed the entire Azazel quest (all 3 talismans →
   steel margarita → drank it). **~+9 adventures/day from booze for the rest of this run.** Full walkthrough now in
   `mechanics/friars-blessings.md`. **Fill to 19 (not 14) at day-end, then one overdrink.**
@@ -169,6 +169,14 @@ duplicates we already owned). After 1,000 turns Hagnk's opens fully. See `mechan
 
 ## 🗓️ Session log (this run)
 
+- **Day 100 (2026-07-27): Sustainable grind toward L10; first full cap-19 night.** No new quest — pure leveling under
+  a tight meat economy. Confirmed the **cap-detection method: `charsheet.php` contains "Liver of Steel" → 19**
+  (api.php has no cap field; charpane `Tipsiness: X/Y` only shows at drunk>0). Settled the **sustainable leveling
+  pattern**: build meat in the **Kitchen (388) on 0-MP Spear** (meat-positive), spend it on a **Backstage (243)** XP
+  burst, fall back to Kitchen when broke — front-loads the ML58 turns. Base Mys **69 → 74** (raw 4,864 → 5,504),
+  **L10 ~120 away.** Drank to **exactly 19 + one Monsieur Bubble overdrink → drunk 21** (Liver of Steel working).
+  Fixed the cap-detection doc gap in HANDOFF + drinking-strategy. ⚠️ **Meat/juice economy is the run's bottleneck now**
+  — big junk stacks are gone; MMJ (~1,600/day) outpaces income, so juice-heavy zones can't run all day.
 - **Day 99 (2026-07-26): 🎉🎉 AZAZEL QUEST DONE → LIVER OF STEEL (drink cap 14→19).** Solved the **Sven Golly logic
   puzzle** (fixed answer; the 4 give-items were already in inventory from backstage auto-farming) → **unicorn**;
   hunted **Larry of the Field of Signs** on the Laugh Floor (242, ~23 turns) → **observational glasses** → equipped
