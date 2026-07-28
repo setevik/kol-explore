@@ -30,11 +30,12 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 100 / 2026-07-27)
+## 📊 Character state (run #2 — end of Day 101 / 2026-07-28)
 
-- 🎉 **LEVEL 9 Pastamancer.** Base Mys **74** (raw 5,504) · base Muscle **45** · **Moxie 44**.
-  **HP 61 max**, **MP 116**. **Meat ~548. adv 35 banked.** full 15, drunk 21 (filled to cap 19 + one overdrink ✅).
-  🎯 **L10 = raw mys 5,625 — only ~120 away (one morning of Kitchen grinding).**
+- **LEVEL 9 Pastamancer.** Base Mys **78** (raw 6,113) · base Muscle **48** · **Moxie 46**.
+  **HP 64 max**, **MP 122**. **Meat ~779. adv 37 banked.** full 15, drunk 21 (filled to cap 19 + one overdrink ✅).
+  ⚠️ **L10 is FAR: base 85 (raw ~7,225), not the 5,625 an old note claimed** (still L9 at base 78 — verified).
+  L9→L10 is ~2,600 raw ⇒ a **multi-day** push; see corrected table in `mechanics/leveling-zones.md`.
 - ⭐⭐ **LIVER OF STEEL EARNED — drink cap is now 19 (was 14).** Completed the entire Azazel quest (all 3 talismans →
   steel margarita → drank it). **~+9 adventures/day from booze for the rest of this run.** Full walkthrough now in
   `mechanics/friars-blessings.md`. **Fill to 19 (not 14) at day-end, then one overdrink.**
@@ -95,10 +96,13 @@ disguise** (90); 🎉 **L6 + Springy Fusilli + GOBLIN KING** (91); 🎉 **BOSS B
 drunkenness lockout; 🎉 **FRIARS DONE + L7 + pool ghost beaten + Spookyraven necklace AND finery delivered +
 Crown equipped** (94).
 
-> 🏛️ **TWO COUNCIL QUESTS OPEN:** (1) **clear the CYRPT** (Bonerdagon, Evilometer 4964; ML 53–79 — retry now that
-> we're L9 with the Spooky blessing + full MP); (2) **NEW at L9: the TRAPPER** (Mt. McLargeHuge — the L8 trapper
-> quest, ninja/eXtreme slope/goat cheese chain). Level thresholds: L10 = raw mys **5,625** (we're at 4,332).
-> Full Cyrpt plan: `mechanics/bonerdagon-boss.md`.
+> 🏛️ **TWO COUNCIL QUESTS OPEN, both gated on ECONOMY not level** — the zones are ML 53–79 and drain juice faster
+> than they pay (Day 101: a Goatlet burst went broke in 12 turns with 0 cheese). **Fix meat/MP supply first.**
+> (1) **TRAPPER** (John, `place.php?whichplace=mclargehuge&action=trappercabin`): bring **3 asbestos ore** (Itznot-
+> yerzitz Mine, snarf **270**, ML53 — needs Mining Gear outfit to dig, else combat-drop) + **3 goat cheese
+> (item 322)** from **The Goatlet (snarf 271, ML68)** dairy goats. ⭐ The **mine also drops GEMS → the likely meat
+> fix** (need Mining Gear: miner's helmet + 7-Foot Dwarven mattock + miner's pants). (2) **CYRPT** (Bonerdagon,
+> Evilometer 4964; 191 evil left, ML53–79) — a long grind; `mechanics/bonerdagon-boss.md`.
 
 > ✅ **The initiative blocker is SOLVED** (Springy Fusilli). The remaining softness is **20 max HP** and **MP supply** —
 > once the juice runs out, win rate collapses (30W/10L with MP → 5W/15L without). **Buy ~10 MMJ every day.**
@@ -169,6 +173,13 @@ duplicates we already owned). After 1,000 turns Hagnk's opens fully. See `mechan
 
 ## 🗓️ Session log (this run)
 
+- **Day 101 (2026-07-28): Trapper quest scouted; meat wall confirmed; two doc errors fixed.** Talked to **John the
+  Trapper** — needs 3 asbestos ore + 3 goat cheese. Tried a **Goatlet (271, ML68)** burst for cheese: **12 turns,
+  9W/3L, ZERO cheese, went broke** — ML68 drains juice far faster than it pays. Retreated and **rebuilt meat in the
+  Kitchen (388) on 0-MP Spear** (41W/3L, +421 meat → 779; base Mys 75 → 78). ⚠️ **Two corrections:** (a) **L10 is
+  base 85 / raw ~7,225, NOT 5,625** — still L9 at base 78; the old number was wrong (fixed `leveling-zones.md`).
+  (b) cap-detection = **charsheet.php "Liver of Steel" → 19** (used it; drank to 19 + overdrink). **Meat/juice is the
+  hard bottleneck** — the mine's gems (need Mining Gear) are the likely fix; both council zones must wait for it.
 - **Day 100 (2026-07-27): Sustainable grind toward L10; first full cap-19 night.** No new quest — pure leveling under
   a tight meat economy. Confirmed the **cap-detection method: `charsheet.php` contains "Liver of Steel" → 19**
   (api.php has no cap field; charpane `Tipsiness: X/Y` only shows at drunk>0). Settled the **sustainable leveling

@@ -57,6 +57,10 @@ and move on when it collapses. Measured on run #2:
 
 ## Level thresholds (Mysticality class)
 
-Base mainstat for level N = **(N-1)² + 4**; base stat = **floor(sqrt(raw))**.
-L5 = base 20 (raw 400) · **L6 = base 29 (raw 841)** · L7 = base 40 (raw 1600) · L8 = base 53 (raw 2809).
-⚠️ The gap widens fast — L6→L7 is ~760 raw, nearly 2× the L5→L6 gap. Plan multiple days.
+Base mainstat for level N = **(N-1)² + 4**; raw substats = base². (Matches every level hit so far.)
+L5 = base 20 (raw 400) · **L6 = base 29 (raw 841)** · L7 = base 40 (raw 1600) · L8 = base 53 (raw 2809) ·
+**L9 = base 68 (raw 4624)** · **L10 = base 85 (raw 7225)** · L11 = base 104 (raw 10816).
+⚠️ **The gaps are BRUTAL up here** — L9→L10 alone is ~2,600 raw (≈ a base 68→85 climb). At ~5 raw/turn in the
+Kitchen that's 500+ turns; even at ~14/turn in a high-ML zone it's ~180 turns. **Plan L10 as a multi-day push**,
+and don't trust a single "almost there" reading. (⚠️ An earlier note wrongly said "L10 = raw 5,625" — verified WRONG:
+still Level 9 at base 78 / raw 6,113 on Day 101.)
