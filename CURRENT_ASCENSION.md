@@ -30,12 +30,17 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 101 / 2026-07-28)
+## 📊 Character state (run #2 — end of Day 102 / 2026-07-29)
 
-- **LEVEL 9 Pastamancer.** Base Mys **78** (raw 6,113) · base Muscle **48** · **Moxie 46**.
-  **HP 64 max**, **MP 122**. **Meat ~779. adv 37 banked.** full 15, drunk 21 (filled to cap 19 + one overdrink ✅).
-  ⚠️ **L10 is FAR: base 85 (raw ~7,225), not the 5,625 an old note claimed** (still L9 at base 78 — verified).
-  L9→L10 is ~2,600 raw ⇒ a **multi-day** push; see corrected table in `mechanics/leveling-zones.md`.
+- **LEVEL 9 Pastamancer.** Base Mys **83** (raw 6,909) · base Muscle **~50** · **Moxie 49**.
+  **HP 68 max**, **MP 129**. **Meat ~3,603. adv 42 banked.** full 15, drunk 22 (filled to cap 19 + one overdrink ✅).
+  **L10 = base 85 (raw 7,225) — VERY close now** (~2 backstage sessions).
+- 🎉🎉 **RONIN IS OVER (roninleft=0, day 16).** The meat/MP bottleneck that dominated Days 88–101 is **SOLVED:**
+  - **Hagnk's fully open — UNLIMITED free pulls.** Stocked from storage: **tiny houses (592) = FREE MP** (~23 MP,
+    no meat — REPLACES buying MMJ; backstage went **43W/0L** on them), **105 sushi (6293)**, scrolls (595), etc.
+    Storage still holds **10 tiny houses + 105 sushi** + run-#1's 400-item estate. **Pull more tiny houses each day.**
+  - **Mall buys now go to inventory / spend inventory meat** normally (no Hagnk's-purse detour).
+  - ⇒ **Farm any high-ML zone freely now** (backstage 243 = ~10 raw mys/turn at ~100% win with tiny-house MP).
 - ⭐⭐ **LIVER OF STEEL EARNED — drink cap is now 19 (was 14).** Completed the entire Azazel quest (all 3 talismans →
   steel margarita → drank it). **~+9 adventures/day from booze for the rest of this run.** Full walkthrough now in
   `mechanics/friars-blessings.md`. **Fill to 19 (not 14) at day-end, then one overdrink.**
@@ -98,11 +103,13 @@ Crown equipped** (94).
 
 > 🏛️ **TWO COUNCIL QUESTS OPEN, both gated on ECONOMY not level** — the zones are ML 53–79 and drain juice faster
 > than they pay (Day 101: a Goatlet burst went broke in 12 turns with 0 cheese). **Fix meat/MP supply first.**
-> (1) **TRAPPER** (John, `place.php?whichplace=mclargehuge&action=trappercabin`): bring **3 asbestos ore** (Itznot-
-> yerzitz Mine, snarf **270**, ML53 — needs Mining Gear outfit to dig, else combat-drop) + **3 goat cheese
-> (item 322)** from **The Goatlet (snarf 271, ML68)** dairy goats. ⭐ The **mine also drops GEMS → the likely meat
-> fix** (need Mining Gear: miner's helmet + 7-Foot Dwarven mattock + miner's pants). (2) **CYRPT** (Bonerdagon,
-> Evilometer 4964; 191 evil left, ML53–79) — a long grind; `mechanics/bonerdagon-boss.md`.
+> (1) ✅ **TRAPPER — ore + cheese DELIVERED (Day 102).** Mined **3 asbestos ore** (equip Mining Gear outfit
+> `inv_equip.php?action=outfit&whichoutfit=8`, adventure snarf **270** → dig grid via `mining.php?mine=1&which=<sq>`,
+> ~1 adv/dig; got ore + 2 diamonds) + farmed **goat cheese (322)** from the Goatlet (271). Turned in → **Trapper is
+> fixing the ski lift.** ▶ **NEXT: he says get warmer clothes at the eXtreme Slope** (new zones 272/273 on
+> `place.php?whichplace=mclargehuge`) → then climb to `action=cloudypeak`. (Classic L8 chain — research the eXtreme
+> gear step.) (2) **CYRPT** (Bonerdagon, Evilometer 4964; 191 evil left, ML53–79) — now affordable with free
+> tiny-house MP; `mechanics/bonerdagon-boss.md`.
 
 > ✅ **The initiative blocker is SOLVED** (Springy Fusilli). The remaining softness is **20 max HP** and **MP supply** —
 > once the juice runs out, win rate collapses (30W/10L with MP → 5W/15L without). **Buy ~10 MMJ every day.**
@@ -173,6 +180,13 @@ duplicates we already owned). After 1,000 turns Hagnk's opens fully. See `mechan
 
 ## 🗓️ Session log (this run)
 
+- **Day 102 (2026-07-29): 🎉🎉 RONIN ENDED — economy solved; Trapper ore+cheese delivered; base Mys 78→83.**
+  Discovered **roninleft=0**: Hagnk's fully open (unlimited pulls), mall buys normal. Pulled **tiny houses (592) =
+  FREE MP** from storage → the meat/MP bottleneck is GONE (backstage went **43W/0L** on free tiny-house MP). Pulled
+  mining gear (owned from run #1), **mined 3 asbestos ore** (+2 diamonds → meat 779→3,603) and **farmed 5 goat
+  cheese** at the Goatlet, **turned both in to the Trapper** (lift being repaired; next = eXtreme Slope for cold gear).
+  Leveled hard: raw mys 6,113 → 6,909 (base 78 → 83, **L10 at base 85 is ~2 sessions off**). Full 15, drunk 22.
+  Major HANDOFF update on the post-Ronin transition.
 - **Day 101 (2026-07-28): Trapper quest scouted; meat wall confirmed; two doc errors fixed.** Talked to **John the
   Trapper** — needs 3 asbestos ore + 3 goat cheese. Tried a **Goatlet (271, ML68)** burst for cheese: **12 turns,
   9W/3L, ZERO cheese, went broke** — ML68 drains juice far faster than it pays. Retreated and **rebuilt meat in the

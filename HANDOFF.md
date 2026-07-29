@@ -108,7 +108,14 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
 
 ## Buying (mall + fixed shops)
 
-- 🚨 **DURING RONIN THE MALL IS NOT A SUPPLY LINE.** Mall buys are paid from **Hagnk's meat** and delivered
+- 🎉 **RONIN ENDS AT ~1,000 TURNS — CHECK `api.php?what=status` → `roninleft`. When it's 0, the economy transforms:**
+  Hagnk's is **fully open (UNLIMITED pulls, no 1/day/item cap, no meat cost to pull)**, and **mall buys go to
+  INVENTORY and spend INVENTORY meat** like normal (no more Hagnk's-purse detour). ✅ **First thing after Ronin ends:
+  raid your own storage** — a full prior-run inventory (400+ items) is now free to pull. Game-changers found there
+  (run #2, Day 102): **tiny houses (592) = FREE MP** (~23 MP each, no meat) — pull a stack and they REPLACE buying
+  MMJ, which **solves the meat/MP death-spiral** (verified: backstage went 43W/0L on free tiny-house MP);
+  **stolen sushi (6293)** food for weeks; **scroll of drastic healing (595)** full HP; **mining gear** (see below).
+- 🚨 **DURING RONIN (roninleft > 0) THE MALL IS NOT A SUPPLY LINE.** Mall buys are paid from **Hagnk's meat** and delivered
   **into Hagnk's storage**, and you may pull only **ONE of each item per day**. So "buy 5 food, eat 5 food"
   is impossible in Ronin. **Check storage before buying** (you likely already own it from last run), and use
   **NPC shops** (guild store, general store) which deliver straight to inventory. Full rules + URLs:
