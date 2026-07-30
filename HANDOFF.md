@@ -67,6 +67,15 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
   run near rollover, **do the DRINK step before starting it**, or cap the loop short.
 - **Concurrent frame reloads deadlock.** Don't reload the charpane frame (`_readChar`) while a fight/farm loop is also
   reloading frames — onload promises stall. Poll in-memory `window._X` while a loop runs; read the charpane only when idle.
+- 🚨 **THE FARM-LOOP DEATH SPIRAL (cost ~30 advs on Day 103): one loss cascades unless the loop checks BOTH
+  Beaten Up AND healing-supply counts every iteration.** Mechanism: a loss applies **Beaten Up (−50% all stats)**
+  → next fights are entered at half Mysticality/Muscle → more losses → more Beaten Up. Meanwhile a heal branch
+  like `if (hp<45) use(scroll 595)` becomes a **silent no-op when the item hits 0** (inv_use just returns a page),
+  so "heal to full" quietly stops happening and every fight starts at ~20 HP. ✅ Loop guards that fix it:
+  (a) each iteration, read the charpane and **campground-rest if Beaten Up** (rest costs 1 adv but stops the cascade);
+  (b) **verify item counts** (`api.php?what=inventory`) before trusting a heal/MP branch, and STOP the loop when the
+  supply is gone; (c) count a fight as LOSS only on `/You lose the fight|black out|slink away/` — bare `/You lose/`
+  false-positives on "You lose N hit points" (this old mistake got re-made; see also the Boss Bat note).
 
 ## Combat standard (Pastamancer)
 
@@ -201,8 +210,10 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
 
 ## Common URL patterns
 
-- Adventure a zone: `adventure.php?snarfblat=<id>` — Mys/other warnings bypass with `&ignorewarning=1` (or the
-  "brave or foolish" submit for some zones).
+- Adventure a zone: `adventure.php?snarfblat=<id>`. ⚠️ **Stat-gate warnings: the GET param `&ignorewarning=1`
+  does NOT work** (verified Day 103 — 12 fetches all bounced, no turns used). ✅ **The bypass is the "brave or
+  foolish" POST:** `adventure.php` with `action=ignorewarning&whichzone=<id>` — add `nozonewarnings=1` once to
+  disable all future zone warnings for the account (plain snarfblat GETs work after that).
 - Combat action: `fight.php?action=skill&whichskill=<id>&pwd=` · `action=attack` · `action=useitem&whichitem=<id>`.
 - Cast skill (out of combat): `runskillz.php?action=Skillz&whichskill=<id>&ajax=1&quantity=<n>&pwd=`.
 - Eat / drink / use: `inv_eat.php?whichitem=<id>&pwd=` · `inv_booze.php?which=1&whichitem=<id>&pwd=` · `inv_use.php?which=3&whichitem=<id>&pwd=`.
@@ -270,7 +281,13 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
   **Bat Hole: 30 Entryway · 31 Guano Junction (needs Stench Resistance) · 32 Batrat & Ratbat Burrow ·
   33 Beanbat Chamber · 34 Boss Bat's Lair** (verified via `place.php?whichplace=bathole`; the old
   "snarf 33–35" note was wrong) — see `mechanics/bat-hole-boss-bat.md`.
-- 15 Spooky Forest · 20 The "Fun" House · 81 **Penultimate Fantasy Airship** (meat farm) · **83 The Hole in the Sky**
+- 15 Spooky Forest · 20 The "Fun" House · 81 **Penultimate Fantasy Airship** — ⚠️ **ML 90–100, NOT an easy
+  meat farm below ~L11** (the "easy Airship" memory is late-run-#1 colored; Burly Sidekick/Protagonist ML 100
+  hit a L10 caster for ~40/round). Its **choice 182 "Random Lack of an Encounter"**: opt 1 = fight one of those
+  ML 90–100 crew (good drops: Mohawk wig, titanium assault umbrella, tiny houses) — **never auto-pick it in a
+  farm loop**; **opt 2 = free Penultimate Fantasy chest** (safe default); opt 3 = lose 40–50 HP, gain ~25×3
+  substats. L10 quest: 4 "Spirit" noncombats, then **"F-F-Fantastic!" (choice 681) → give El Cid the spirits →
+  S.O.C.K.** · **83 The Hole in the Sky**
   (stars/lines; atop the beanstalk — NOT 84) · 126 Themthar Hills (Nunnery) · 136 Sonofa Beach · 140 wartime battlefield ·
   297 Twin Peak (Great Overlook Lodge) · **325 the Daily Dungeon** (inside the Dungeoneers' Assoc.; NOT 322) ·
   322/323/324 Giant Castle basement/ground/top · 355 The Shore · **565 Vanya's Castle** (8-Bit Realm; also 563/564/566).

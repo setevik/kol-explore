@@ -62,13 +62,19 @@ installed in the campsite kitchen.
 
 ### Recipes (all "normal" — no skill needed)
 
-**Soda water (General Store row 650, 70 meat) is a universal mixer** — verified it combines with several bases:
-- soda water + **bottle of whiskey** → **whiskey and soda** (5–6)
-- soda water + **boxed wine** → **wine spritzer** (5–6)
-- soda water + **bottle of vodka** → **vodka and tonic** (5–10) ⭐
-- soda water + **bottle of gin** → **gin and tonic** (5–10) ⭐
-Fruit mixers also work: **orange + tequila → tequila sunrise** (5–6) · **orange + vodka → screwdriver** (5–6) ·
-**lemon + whiskey → whiskey sour** (5–6) · **cola + rum → rum and cola** (5–6).
+**Soda water (General Store row 650, 70 meat) is NOT universal** — ⚠️ **verified Day 103: vodka + soda water
+FAILS** ("Those two items don't combine to make a refreshing cocktail"). Confirmed-working normal recipes:
+- soda water + **bottle of whiskey** → **whiskey and soda** (5–6) ✅
+- soda water + **boxed wine** → **wine spritzer** (5–6) ✅
+- **olive + bottle of vodka** → **vodka martini** (good, 5–10) ⭐ ✅
+- **olive + bottle of gin** → **martini** (good, 5–10) ⭐ ✅
+- **orange + bottle of vodka** → **screwdriver** (5–6) ✅
+- orange + tequila → tequila sunrise (5–6) (verified run #2 pre-mix)
+(vodka/gin "and tonic" need **tonic water**, a different item — don't assume soda water substitutes.)
+⚠️ **qty>1 crafts succeed with DIFFERENT result text** (no "You acquire an item:" match) — verify by
+re-reading the craft page's ingredient `<select>` counts or the inventory, not the response text.
+The craft page (`craft.php?mode=cocktail`) `<option>` list is also the fastest way to see mixable stock + IDs
+(olive 245 · orange 242 · gin 237 · rum 787 · vodka 238 · whiskey 328 · soda water 1003).
 
 ⚠️ Item IDs are not intuitive — **1005 is boxed wine, not rum**; soda water is **1003**; the Queue Du Coq kit is
 **236**. Read the `a`/`b` `<select>` options on `craft.php?mode=cocktail` to get the real IDs of what you hold.
