@@ -30,11 +30,23 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 103 / 2026-07-30)
+## 📊 Character state (run #2 — end of Day 104 / 2026-07-31)
 
-- 🎉 **LEVEL 10 Pastamancer.** Base Mys **86+** · base Muscle **~52** · **Moxie ~50**.
-  **HP 68 max**, **MP ~134**. **Meat ~3,194. adv 47 banked.** full 15, drunk 22 (cap 19 + one overdrink ✅).
-  **L11 = base Mys 104** — the eXtreme Slope (273) gives ~18 substats/win at 15W/0L; best leveling zone now.
+- **LEVEL 10 Pastamancer.** Base Mys **96** (L11 at 104 — ~1 slope day away) · **HP 73 max**.
+  **Meat ~5,200. adv 52 banked.** full 15, drunk 22 (cap 19 + martini overdrink ✅).
+  **eXtreme Slope (273) is the leveling engine: 72W/1L today, ~18 substats/win, drops Mountain Stream
+  sodas (37 MP) that largely refuel the grind. Cannelloni-only (skip Mortar) is enough there.**
+- ⚰️ **CYRPT: NOOK CLEARED (0 evil) — boss giant skeelton killed Day 104.** 150 evil left:
+  **Alcove 50 · Cranny 50 · Niche 50.** Pattern that works: Smothers blessing (once/day, 20 advs) →
+  ~16 blessed fights ≈ 100% win → boss spawns at ≤13 evil. **MP burn is ~2 MMJ/fight — bring 15+ MMJ
+  per window.** Resume with the Niche or Cranny tomorrow.
+- 🏰 **CASTLE GROUND FLOOR (323) UNLOCKED (Day 104):** basement route = grab **massive dumbbell**
+  (choice 670 opt 1) → noncombat **"Out in the Open Source" (669) opt 1 = dumbwaiter** → Ground Floor.
+  ("Fast and the Furry-ous" 671 opt 1 chains into 669 free without an umbrella.) Basement giants
+  (ML ~100–105): 9W/1L with Entangle→Mortar→Cannelloni + Buffy shells. ⚠️ **Ground floor (ML ~112,
+  Possibility Giant) beat us 3 times (5W/3L) — wait for L11.** Quest step: "get on top of the kitchen
+  counter". Top Floor still locked. 📌 For the top-floor mirror step: **amulet of extreme plot
+  significance** drops from the Airship's **Quiet Healer** (ML ~90 — hard fights).
 - 🏔️ **TRAPPER QUEST COMPLETE (Day 103):** eXtreme gear was in Hagnk's (scarf 355/pants 356/mittens 399,
   outfit 7) → slope noncombat chain (turns 1/9/17) → peak (`action=cloudypeak2`) → 3 yetis → **GROAR KILLED**
   (attempt 2, with Buffy shells + Entangle/Mortar/Cannelloni; spooky-tuned Cannelloni exploits his weakness).
@@ -121,12 +133,12 @@ Crown equipped** (94).
 > once the juice runs out, win rate collapses (30W/10L with MP → 5W/15L without). **Buy ~10 MMJ every day.**
 > ⚠️ Before concluding "zone X one-shots me", confirm you entered at an honest **full HP** (stale-HP gate, see HANDOFF).
 
-> 🎯 **START HERE ON DAY 104:** EAT (2 sushi + milk + mall burrito 319 = full 15 — sushi in inventory ×5),
-> then: (1) **Smothers blessing → 20 Cyrpt turns** (Nook 28 → 0 opens its boss); (2) **level at the eXtreme
-> Slope (273)** — 18 substats/win, wear the eXtreme outfit only if re-farming there is needed (it's NOT needed
-> for fights; Crown gives more HP); (3) scout the **Castle basement (322)** with full prep only. Supplies to
-> restock at day-open: tiny houses (mall ~214), scrolls 595 (storage, 44 left), MMJ; pull sushi + a burrito.
-> **DRINK LAST to exactly 19 + one overdrink** (martini rack: olive+vodka/gin mixes — see drinking-strategy).
+> 🎯 **START HERE ON DAY 105:** EAT (2 sushi + milk + mall burrito 319 = full 15 — sushi ×3 in inventory,
+> 100 in storage; buy 15+ MMJ, pull 10 scrolls). Then: (1) **Smothers blessing → clear the NICHE (263) or
+> CRANNY (262)** to its boss like the Nook; (2) **eXtreme Slope (273) to Level 11** (base Mys 104 — ~8 points);
+> (3) at L11, return to the **Castle ground floor (323)** for the kitchen-counter noncombat.
+> **DRINK LAST to exactly 19 + one overdrink.** Check the chest-loot rack first (chests from Airship choice
+> 182 opt 2 yield ready cocktails); top up with olive+vodka martinis.
 
 1. **EAT (proven, gave a 106-adv day):** pull **1 stolen sushi (6293)** — ✅ **now edible at L6, 6 fullness ≈ 13 adv,
    121 in storage** — and eat **2 sushi + 1 burrito = full 15** (we had spares in inventory; otherwise sushi + cookies).
@@ -189,6 +201,12 @@ duplicates we already owned). After 1,000 turns Hagnk's opens fully. See `mechan
 
 ## 🗓️ Session log (this run)
 
+- **Day 104 (2026-07-31): ⚰️ NOOK CLEARED (giant skeelton dead) + 🏰 CASTLE GROUND FLOOR unlocked + base
+  Mys 88→96.** Blessed window: 16W/0L in the Nook → boss at ≤13 evil → **Nook 0** (Cyrpt 150 left, 3 zones).
+  Slope leveling: **72W/1L** on Cannelloni-only (sodas dropped there covered most MP). Castle: dumbbell →
+  dumbwaiter (choice 669) → **Ground Floor open**; basement giants 9W/1L with prep, but ground-floor ML ~112
+  went 5W/3L — parked until L11. Airship-chest cocktails (salty dogs/daiquiris/sunrise/monkey wrench) covered
+  the drink rack: exactly 19 + martini overdrink = drunk 22, full 15, **52 adv banked**, meat 5,200.
 - **Day 103 (2026-07-30): 🎉🎉 TRAPPER DONE (Groar slain) + LEVEL 10 + beanstalk/S.O.C.K. + Nook 41→28.**
   Pulled the full **eXtreme outfit from Hagnk's** (no farming needed), ran the slope chain (17 turns, 15W/0L),
   climbed `cloudypeak2`: 3 yetis, then **Groar killed on attempt 2** (attempt 1 = one-shot lesson; fix was Buffy's
