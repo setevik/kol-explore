@@ -30,12 +30,19 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 104 / 2026-07-31)
+## 📊 Character state (run #2 — end of Day 105 / 2026-08-01)
 
-- **LEVEL 10 Pastamancer.** Base Mys **96** (L11 at 104 — ~1 slope day away) · **HP 73 max**.
-  **Meat ~5,200. adv 52 banked.** full 15, drunk 22 (cap 19 + martini overdrink ✅).
-  **eXtreme Slope (273) is the leveling engine: 72W/1L today, ~18 substats/win, drops Mountain Stream
-  sodas (37 MP) that largely refuel the grind. Cannelloni-only (skip Mortar) is enough there.**
+- 🎉 **LEVEL 11 Pastamancer.** Base Mys **104** · **HP 78 max**. **Meat ~3,974. adv 52 banked.**
+  full 15, drunk 22 (cap 19 + martini overdrink ✅).
+  **eXtreme Slope (273) remains the leveling engine** (~18 substats/win, near-100% win, soda drops
+  refuel MP; Cannelloni-only suffices). L12 = base Mys 125.
+- 🗺️ **L11 MACGUFFIN QUEST IS LIVE:** father (archaeologist) missing; **his diary awaits pickup —
+  take a Shore vacation** (`place.php?whichplace=desertbeach`, ~500 meat + 3 adv) to get it.
+  The diary also unlocks the **Spookyraven cellar** (choice 921 blocker from Day 95) + the desert chain.
+- ⚰️ **Cyrpt: 127 evil.** Nook 0 ✅ · **Niche 27** (20W/0L blessed today) · Cranny 50 · Alcove 50.
+  🚨 **BLESSING IS MANDATORY — verified Day 105:** unblessed lihc took 51 HP off us in one WIN, then
+  killed us; blessed = untouched. One Smothers window (20 advs)/day; ~2 MMJ/fight (~15/window).
+  Next window: finish the Niche (27 → boss gargantulihc → 0).
 - ⚰️ **CYRPT: NOOK CLEARED (0 evil) — boss giant skeelton killed Day 104.** 150 evil left:
   **Alcove 50 · Cranny 50 · Niche 50.** Pattern that works: Smothers blessing (once/day, 20 advs) →
   ~16 blessed fights ≈ 100% win → boss spawns at ≤13 evil. **MP burn is ~2 MMJ/fight — bring 15+ MMJ
@@ -133,12 +140,12 @@ Crown equipped** (94).
 > once the juice runs out, win rate collapses (30W/10L with MP → 5W/15L without). **Buy ~10 MMJ every day.**
 > ⚠️ Before concluding "zone X one-shots me", confirm you entered at an honest **full HP** (stale-HP gate, see HANDOFF).
 
-> 🎯 **START HERE ON DAY 105:** EAT (2 sushi + milk + mall burrito 319 = full 15 — sushi ×3 in inventory,
-> 100 in storage; buy 15+ MMJ, pull 10 scrolls). Then: (1) **Smothers blessing → clear the NICHE (263) or
-> CRANNY (262)** to its boss like the Nook; (2) **eXtreme Slope (273) to Level 11** (base Mys 104 — ~8 points);
-> (3) at L11, return to the **Castle ground floor (323)** for the kitchen-counter noncombat.
-> **DRINK LAST to exactly 19 + one overdrink.** Check the chest-loot rack first (chests from Airship choice
-> 182 opt 2 yield ready cocktails); top up with olive+vodka martinis.
+> 🎯 **START HERE ON DAY 106:** EAT (2 sushi + milk + burrito; sushi ×1 in inventory, ~100 in storage —
+> pull more; buy 15+ MMJ, pull 10 scrolls 595). Then: (1) **Shore vacation → father's diary** (MacGuffin
+> quest opener — ~500 meat, 3 adv; read the diary!); (2) **Smothers blessing → finish the NICHE**
+> (27 → gargantulihc boss → 0); (3) **Castle ground floor (323) at L11** — find the kitchen-counter
+> noncombat (Possibility Giants were the killers at L10; re-test with L11 stats + Buffy shells);
+> (4) leftover turns → eXtreme Slope toward L12 (base 125). **DRINK LAST: 19 + overdrink** (martini rack).
 
 1. **EAT (proven, gave a 106-adv day):** pull **1 stolen sushi (6293)** — ✅ **now edible at L6, 6 fullness ≈ 13 adv,
    121 in storage** — and eat **2 sushi + 1 burrito = full 15** (we had spares in inventory; otherwise sushi + cookies).
@@ -201,6 +208,11 @@ duplicates we already owned). After 1,000 turns Hagnk's opens fully. See `mechan
 
 ## 🗓️ Session log (this run)
 
+- **Day 105 (2026-08-01): 🎉 LEVEL 11 + MacGuffin quest opened + Niche 50→27.** Blessed window in the
+  Niche: 20W/0L. Then a deliberate **unblessed test: mandatory-blessing confirmed** (one win cost 51 HP,
+  next fight killed us — documented in char state). Rest of day = the slope marathon: **96W/0L**, base
+  Mys 96 → **104 = L11** on the last fights of the day. Council: father missing, **diary via Shore
+  vacation** next. Wrapped clean: full 15, drunk 19+overdrink=22, 52 adv banked, meat 3,974.
 - **Day 104 (2026-07-31): ⚰️ NOOK CLEARED (giant skeelton dead) + 🏰 CASTLE GROUND FLOOR unlocked + base
   Mys 88→96.** Blessed window: 16W/0L in the Nook → boss at ≤13 evil → **Nook 0** (Cyrpt 150 left, 3 zones).
   Slope leveling: **72W/1L** on Cannelloni-only (sodas dropped there covered most MP). Castle: dumbbell →
