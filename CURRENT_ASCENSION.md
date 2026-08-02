@@ -30,19 +30,19 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 105 / 2026-08-01)
+## 📊 Character state (run #2 — end of Day 106 / 2026-08-02)
 
-- 🎉 **LEVEL 11 Pastamancer.** Base Mys **104** · **HP 78 max**. **Meat ~3,974. adv 52 banked.**
-  full 15, drunk 22 (cap 19 + martini overdrink ✅).
-  **eXtreme Slope (273) remains the leveling engine** (~18 substats/win, near-100% win, soda drops
-  refuel MP; Cannelloni-only suffices). L12 = base Mys 125.
-- 🗺️ **L11 MACGUFFIN QUEST IS LIVE:** father (archaeologist) missing; **his diary awaits pickup —
-  take a Shore vacation** (`place.php?whichplace=desertbeach`, ~500 meat + 3 adv) to get it.
-  The diary also unlocks the **Spookyraven cellar** (choice 921 blocker from Day 95) + the desert chain.
-- ⚰️ **Cyrpt: 127 evil.** Nook 0 ✅ · **Niche 27** (20W/0L blessed today) · Cranny 50 · Alcove 50.
-  🚨 **BLESSING IS MANDATORY — verified Day 105:** unblessed lihc took 51 HP off us in one WIN, then
-  killed us; blessed = untouched. One Smothers window (20 advs)/day; ~2 MMJ/fight (~15/window).
-  Next window: finish the Niche (27 → boss gargantulihc → 0).
+- **LEVEL 11 Pastamancer.** Base Mys **~108** · **HP ~81 max**. **Meat ~4,320. adv 55 banked.**
+  full 15, drunk 22 (cap 19 + martini overdrink ✅). L12 = base Mys 125.
+- 🚗 **Bitchin' Meatcar BUILT (Day 106)** — Desert Beach/Shore open. **MacGuffin chain mapped** (full
+  detail in `mechanics/macguffin-quest.md`): vacation alone ≠ diary; need **Black Market → forged ID
+  (5,000 meat) → vacation → diary**. **Market ≈ 20–25/50 progress** in the **Black Forest (405)**.
+  🚨 **Black Forest is ML 123–133** — full prep MANDATORY (shells+Fusilli+Entangle→Mortar→Cannelloni =
+  4W/1L; anything less = total massacre, see Day 106 log). Beehive ✅; sunken eyes (blackbird piece 1/4).
+- ⚰️ **Cyrpt: 98 evil.** Nook 0 ✅ · **Niche 0 ✅ (gargantulihc dead Day 106)** · **Cranny 48** · Alcove 50.
+  Blessing mandatory (Day 105 test); one Smothers window/day; ~2 MMJ/fight. Next: Cranny → boss huge ghuol.
+- 💰 **Economy pattern that works:** slope junk (t8r tots 359 / gr8ps 358) autosells ~5k per big batch;
+  slope is ~+80 meat/fight net. MMJ warchest ~13 banked.
 - ⚰️ **CYRPT: NOOK CLEARED (0 evil) — boss giant skeelton killed Day 104.** 150 evil left:
   **Alcove 50 · Cranny 50 · Niche 50.** Pattern that works: Smothers blessing (once/day, 20 advs) →
   ~16 blessed fights ≈ 100% win → boss spawns at ≤13 evil. **MP burn is ~2 MMJ/fight — bring 15+ MMJ
@@ -140,12 +140,13 @@ Crown equipped** (94).
 > once the juice runs out, win rate collapses (30W/10L with MP → 5W/15L without). **Buy ~10 MMJ every day.**
 > ⚠️ Before concluding "zone X one-shots me", confirm you entered at an honest **full HP** (stale-HP gate, see HANDOFF).
 
-> 🎯 **START HERE ON DAY 106:** EAT (2 sushi + milk + burrito; sushi ×1 in inventory, ~100 in storage —
-> pull more; buy 15+ MMJ, pull 10 scrolls 595). Then: (1) **Shore vacation → father's diary** (MacGuffin
-> quest opener — ~500 meat, 3 adv; read the diary!); (2) **Smothers blessing → finish the NICHE**
-> (27 → gargantulihc boss → 0); (3) **Castle ground floor (323) at L11** — find the kitchen-counter
-> noncombat (Possibility Giants were the killers at L10; re-test with L11 stats + Buffy shells);
-> (4) leftover turns → eXtreme Slope toward L12 (base 125). **DRINK LAST: 19 + overdrink** (martini rack).
+> 🎯 **START HERE ON DAY 107:** EAT (2 sushi + milk + burrito; pull sushi + 10 scrolls 595 — only ~24
+> scrolls left in storage, ration them). Then: (1) **Black Forest push to 50 progress** (~10 wins) with
+> FULL PREP (Buffy shells first, Fusilli, Entangle→Mortar→Cannelloni — see macguffin-quest.md; handle
+> choice 923→market option when it appears, else 923→1 then 924→1 bushfight) → **buy forged ID (5,000;
+> we have ~4,320 + sell slope junk) → Shore vacation → FATHER'S DIARY → read it**; (2) **Smothers
+> blessing → Cranny 48 → huge ghuol boss**; (3) leftovers → slope (L12 at base 125) or castle counter.
+> **DRINK LAST: 19 + overdrink** (7 vodka+olive martinis + Imp Ale pattern works, ~1,400 meat).
 
 1. **EAT (proven, gave a 106-adv day):** pull **1 stolen sushi (6293)** — ✅ **now edible at L6, 6 fullness ≈ 13 adv,
    121 in storage** — and eat **2 sushi + 1 burrito = full 15** (we had spares in inventory; otherwise sushi + cookies).
@@ -208,6 +209,13 @@ duplicates we already owned). After 1,000 turns Hagnk's opens fully. See `mechan
 
 ## 🗓️ Session log (this run)
 
+- **Day 106 (2026-08-02): 🚗 Meatcar built + ⚰️ NICHE CLEARED + Black Forest mapped (the hard way).**
+  Meatcar from storage engine + mall wheels → Shore vacation → quest revealed the real chain: **Black
+  Market → forged ID (5k) → vacation → diary** (`mechanics/macguffin-quest.md` NEW). Blessed window:
+  **gargantulihc dead → Niche 0** (Cyrpt 98 left), chipped Cranny to 48. **Black Forest (405, ML 123–133)
+  charged tuition twice:** 1W/10L unprepped, then 0W/14L when a loop variant dropped Entangle/Mortar —
+  vs **4W/1L with full prep**. Market progress ~20–25/50; beehive + sunken eyes collected. Economy:
+  junk sale +5,058; slope 37W/0L. Wrapped clean: full 15, drunk 19+overdrink=22, 55 adv, meat 4,320.
 - **Day 105 (2026-08-01): 🎉 LEVEL 11 + MacGuffin quest opened + Niche 50→27.** Blessed window in the
   Niche: 20W/0L. Then a deliberate **unblessed test: mandatory-blessing confirmed** (one win cost 51 HP,
   next fight killed us — documented in char state). Rest of day = the slope marathon: **96W/0L**, base

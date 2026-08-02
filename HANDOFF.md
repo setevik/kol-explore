@@ -97,6 +97,10 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
   is the main nuke. Most zone monsters die in ~2 rounds with MP topped.
 - **Bosses (ramp/tank):** enter at FULL HP (scroll 595) + FULL MP (tiny houses), **Mortar → Cannelloni every round**,
   heal only under ~35% HP. Turtling loses to ramping bosses (e.g. "The Man") — it's a DPS race. Torpedoes (630) in reserve.
+- 🚨 **In ML 100+ zones the FULL routine (Entangle stun → Mortar → Cannelloni) is load-bearing — never let a
+  loop variant "simplify" it.** Verified Day 106 in the Black Forest (ML 123–133): full routine ≈ 4W/1L;
+  the same loop with Cannelloni-only went **0W/14L** — the stun round + mortar's 2× queue are the whole margin.
+  When copying a fight loop into a new burst, diff the skill ladder first.
 - **Low MP / 0 MP fallback:** weapon attack with the Greek Pasta Spoon of Peril (2561) is a free finisher on weak zones.
 - **Skill IDs:** Mortar 3007 · Cannelloni 3005 · Entangling Noodles 3004 (stun) · Spaghetti Spear 3020 (0 MP) ·
   Ravioli Shurikens 3003 · Lasagna Bandages 3009 (heal, works out-of-combat via runskillz) · Springy Fusilli 3015 (+init) ·
