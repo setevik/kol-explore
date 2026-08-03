@@ -26,6 +26,24 @@ Council at L11 → "father missing; collect his diary." The real chain (quest lo
 5. **Shore vacation WITH the forged ID → "your father's diary."** Reading it unlocks the Spookyraven
    cellar (choice 921 gate), the desert chain, etc.
 
-## Status at end of Day 106
-Meatcar ✅ · one scrip vacation ✅ · market progress ≈ 20–25/50 · beehive ✅ · sunken eyes 1/4 bird parts ·
-forged ID NOT bought (5,000 needed) · diary NOT yet obtained.
+## ✅ Opening chain COMPLETED — Day 107 (verified sequence)
+
+1. Meatcar → Desert Beach.
+2. **Black Forest (405) until the quest log says "You've found the Black Market"** — took ~55 wins total
+   across 2 days at base Mys 104–115. ⚠️ **Don't wait for a "black market" button inside choice 923** —
+   the market appears as a **new link on `place.php?whichplace=woods`** (`shop.php?whichshop=blackmarket`)
+   and the **quest log flips first**. Check the quest log every ~10 fights instead of scanning 923's options.
+   ⚠️ **Blackberry-bush fights (choice 924 opt 1) give NO market progress** — they're a detour; only real
+   black monsters count. If 923 keeps firing, just take opt 1 → 924 opt 1 to clear it and move on.
+3. **Black Market row 281 = forged identification documents, 5,000 meat.**
+   💰 Funding trick: **dense meat stacks (258) autosell 1,000 each** — Hagnk's had 8 from the Groar kill.
+4. **Adventure The Shore (355) → choice 793 → ANY trip option**: the agent spots the documents
+   ("Ah, Mr. Abercrombie"), and instead of a vacation you get **your father's MacGuffin diary (2044)**.
+   (Still costs the 500 meat / 3 adv.)
+5. ▶ **NEXT: read/use the diary (2044)** and follow it — expected to open the desert / Bordertown chain
+   (`place.php?whichplace=desertbeach` → Bordertown) and to be the item the **Spookyraven cellar
+   (choice 921)** has been waiting for since Day 95.
+
+## Status at end of Day 107
+Meatcar ✅ · Black Market found ✅ · forged ID bought ✅ · **father's MacGuffin diary (2044) IN INVENTORY** ✅ ·
+beehive ✅ · blackberries ×7 (3 → blackberry galoshes at cobbler choice 928) · diary not yet acted on.
