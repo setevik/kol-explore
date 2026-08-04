@@ -30,20 +30,24 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 107 / 2026-08-03)
+## 📊 Character state (run #2 — end of Day 108 / 2026-08-04)
 
-- **LEVEL 11 Pastamancer.** Base Mys **115** · **HP ~84 max**. **Meat ~1,267. adv 45 banked.**
-  full 15, drunk 22 (cap 19 + martini overdrink ✅). L12 = base Mys 125 (~1 slope day).
-- 📖 **MACGUFFIN OPENING CHAIN DONE (Day 107): Black Market found → forged ID (5,000) → Shore trip →
-  FATHER'S MACGUFFIN DIARY (2044) IN INVENTORY.** ▶ **Next session starts by reading/using the diary**
-  and following where it points (desert/Bordertown; also the long-awaited Spookyraven-cellar key).
-  Full verified walkthrough + the traps: `mechanics/macguffin-quest.md`.
-- ⚰️ **Cyrpt: 80 evil.** Nook 0 ✅ · Niche 0 ✅ · **Cranny 30** · Alcove 50. Blessed windows are
-  ~100% win (18W/0L today); blessing mandatory. Cranny boss = **huge ghuol** (spawns near 0).
-- 💰 **Economy:** slope is the engine (~+80 meat/fight, self-funds MP via soda drops); **dense meat
-  stacks (258) in Hagnk's autosell 1,000 each — 3 left**; slope junk (t8r tots 359/gr8ps 358) adds ~400/batch.
-  ⚠️ **Storage scrolls of drastic healing (595) are EXHAUSTED** — `healUp` now falls back to Lasagna
-  Bandages ×4 (works, but costs MP); buy scrolls or budget more MMJ.
+- **LEVEL 11 Pastamancer.** Base Mys **120** · **HP ~92 max**. **Meat ~9,129 (richest of the run).
+  adv 49 banked.** full 15, drunk 22 (cap 19 + martini overdrink ✅). L12 = base Mys 125.
+- 📖 **DIARY READ → 4 QUESTS OPEN** (`diary.php`, NOT inv_use): Hidden Temple ✅done, **Just Deserts**
+  (Arid Extra-Dry Desert), **Of Mice and Shen** (Copperhead Club; password **swordfish**), **In a Manor
+  of Spooking** (⭐ the Spookyraven cellar is finally unblocked — this was the choice-921 gate from Day 95).
+- 🏙️ **HIDDEN TEMPLE + HIDDEN CITY CLEARED OPEN (Day 108, ~15 advs)** — Nostril, Pikachutlotal button,
+  the **BANANAS tile puzzle** (`tiles.php`, not a choice!), then all 4 shrines with the **antique machete
+  (6679)**. Now open: **Apartment 341 · Hospital 342 · Office 343 · Bowling Alley 344** (+ Park 345,
+  Ziggurat 350). ▶ These four buildings hold the **ancient amulet** (Staff of Ed headpiece).
+  Full step-by-step: `mechanics/macguffin-quest.md`.
+- ⚰️ **Cyrpt: 50 evil — only the ALCOVE left.** Nook ✅ Niche ✅ **Cranny ✅ (huge ghuol slain Day 108)**.
+  One blessed window/day, ~100% win (27W/0L today). Then **Bonerdagon** at the Haert.
+- 💰 **Economy solved for now:** Hagnk's **meat stacks (88) = 100 ea and the "really dense meat stack"
+  (2829) = ~5,000** sold for **+7,200** in one go. Slope still nets ~+80/fight and self-funds MP.
+  ⚠️ Storage scrolls (595) exhausted — `healUp` falls back to Lasagna Bandages (costs MP); consider
+  buying scrolls with the new war chest.
 - ⚰️ **CYRPT: NOOK CLEARED (0 evil) — boss giant skeelton killed Day 104.** 150 evil left:
   **Alcove 50 · Cranny 50 · Niche 50.** Pattern that works: Smothers blessing (once/day, 20 advs) →
   ~16 blessed fights ≈ 100% win → boss spawns at ≤13 evil. **MP burn is ~2 MMJ/fight — bring 15+ MMJ
@@ -141,12 +145,13 @@ Crown equipped** (94).
 > once the juice runs out, win rate collapses (30W/10L with MP → 5W/15L without). **Buy ~10 MMJ every day.**
 > ⚠️ Before concluding "zone X one-shots me", confirm you entered at an honest **full HP** (stale-HP gate, see HANDOFF).
 
-> 🎯 **START HERE ON DAY 108:** EAT (2 sushi + milk + burrito — pull sushi from storage). Meat is low
-> (~1,267): **sell 1–2 dense meat stacks (258, 1,000 ea, 3 left in Hagnk's)** to fund MMJ + drinks.
-> Then: (1) 📖 **USE/READ the MacGuffin diary (2044)** and follow the chain it opens (expect
-> desert/Bordertown; check `place.php?whichplace=desertbeach` → Bordertown and the Spookyraven cellar
-> choice 921); (2) **Smothers blessing → Cranny 30 → huge ghuol → 0** (then only Alcove 50 remains);
-> (3) leftovers → **eXtreme Slope for L12** (base Mys 125, ~10 away).
+> 🎯 **START HERE ON DAY 109:** EAT (2 sushi + milk + burrito — pull sushi; meat is healthy at ~9,129,
+> so buy a stack of MMJ **and** some scrolls of drastic healing early). Then:
+> (1) **Smothers blessing → ALCOVE (261) 50 → its boss → Cyrpt 0**, then **Bonerdagon at the Haert**
+> (`crypt.php?action=heart`, see `mechanics/bonerdagon-boss.md` — bring the 3 smut orc keepsake boxes as
+> wing-flap-proof combat items); (2) **Hidden City buildings (341/342/343/344)** hunting the **ancient
+> amulet**; (3) **Spookyraven cellar** — the diary finally satisfies choice 921 in the Ballroom (395);
+> (4) leftovers → slope for **L12** (base Mys 125, 5 away).
 > **DRINK LAST: 19 + overdrink** (7 vodka+olive martinis + Imp Ale = exactly 19; ~1,400 meat).
 
 1. **EAT (proven, gave a 106-adv day):** pull **1 stolen sushi (6293)** — ✅ **now edible at L6, 6 fullness ≈ 13 adv,
@@ -210,6 +215,16 @@ duplicates we already owned). After 1,000 turns Hagnk's opens fully. See `mechan
 
 ## 🗓️ Session log (this run)
 
+- **Day 108 (2026-08-04): 📖 Diary read → 🏛️ HIDDEN TEMPLE + 🏙️ HIDDEN CITY opened; ⚰️ Cranny cleared.**
+  Diary is read at **`diary.php`** (inv_use says "not implemented" — trap documented) and registers **4
+  quests**, including the **Spookyraven cellar** that's been blocked since Day 95. Unlocked the temple via
+  the Spooky Forest sapling chain, then spent 3 stone wool to take the temple in ~8 turns: Nostril →
+  Pikachutlotal button → hands-up trap → **the BANANAS tile puzzle at `tiles.php`** (not a choice
+  adventure; jump links are `tiles.php?action=jump&whichtile=N`) → Hidden City. Cleared all 4 shrines with
+  the **antique machete** from Hagnk's → Apartment/Hospital/Office/Bowling Alley open. Blessed window
+  killed the **huge ghuol → Cranny 0** (Cyrpt down to the Alcove alone, 50). Economy fixed by selling
+  Hagnk's meat stacks + the **really dense meat stack (+7,200)**; slope 58W/0L → base Mys **120**, meat
+  **9,129**. Wrapped clean: full 15, drunk 19+overdrink=22, 49 adv banked.
 - **Day 107 (2026-08-03): 📖 FATHER'S MACGUFFIN DIARY OBTAINED — the whole L11 opening chain cleared.**
   Forest with full prep went **44W/10L** → quest log flipped to *"You've found the Black Market"*
   (⚠️ the market shows up as a **new link on place.php?whichplace=woods**, NOT as an option inside choice

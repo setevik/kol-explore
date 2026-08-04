@@ -44,6 +44,44 @@ Council at L11 → "father missing; collect his diary." The real chain (quest lo
    (`place.php?whichplace=desertbeach` → Bordertown) and to be the item the **Spookyraven cellar
    (choice 921)** has been waiting for since Day 95.
 
+## Reading the diary (Day 108) — ⚠️ it is NOT an `inv_use` item
+
+**`inv_use.php` on the diary returns "This item is not implemented yet"** and there is no `[use]` link.
+✅ **Read it at `diary.php`** (`diary.php?textversion=1` returns all 8 pages as text in one fetch).
+Reading it **adds 4 quests to the log**: *Gotta Worship Them All* (Hidden Temple), *Just Deserts*
+(Arid Extra-Dry Desert), *Of Mice and Shen* (Copperhead Club / Red Zeppelin), **and *In a Manor of
+Spooking* — the Spookyraven cellar** (this is the "father's diary" that choice 921 wanted since Day 95).
+Diary facts worth keeping: MacGuffin is under a **buried pyramid**; you need the **Staff of Ed** in 3
+pieces (Hidden City amulet + Spookyraven + Palindome "Staff of Fats"); Copperhead password = **swordfish**.
+
+## Hidden Temple → Hidden City (verified Day 108, ~15 adventures total)
+
+1. **Unlock the temple** (`mechanics/hidden-temple-unlock.md` Path B, Spooky Forest 15): buy **spooky
+   sapling** (502→1 road, 503→3 hunter, 504→3 buy for 100 meat), **Spooky-Gro fertilizer** (502→3
+   thicket, 506→2 foliage), **tree-holed coin** (502→2 stream, 505→2 cave). With all three:
+   502→3 → **506→3 "follow the coin"** → 507→1 → **Spooky Temple map** → `inv_use` it → temple open (280).
+   ⚠️ **Detect these items BY NAME on `inventory.php`, not by guessed ids** (the id list in old notes was
+   wrong). ⚠️ **Choice 504 re-fires forever if left pending** — always resolve with "Take your leave".
+2. **stone wool (5643) = the accelerator.** Each gives *Stone-Faced* (5 advs) which **guarantees the
+   "Fitting In" choice (582)** — you pick where to explore. 3 handfuls did the whole temple:
+   - **582→1 (higher levels)** → 579 → **579→2 "climb down some vines" → the Nostril of the Serpent**
+   - **582→3 (downwards)** → 581 (Such Great Depths; opt 2 = once/day lake buff, opt 1 = glowing fungus)
+   - **582→2 (ground floor)** → **580 Hidden Heart** → **580→2 down the stairs** (the Nostril auto-installs)
+     → **584→4 "the cute little lightning-tailed guy"** (Pikachutlotal — only visible after reading the diary)
+     → back at 580 → **580→1 through the door** → **123→2 "Raise your hands up toward the heavens"**.
+3. **The tile puzzle** (*Beginning at the Beginning of Beginning*): a 7-row × 9-col letter grid; spell
+   **BANANAS** bottom-to-top. ⚠️ **It is NOT a choice adventure** — it lives at **`tiles.php`**, and the
+   tiles are links **`tiles.php?action=jump&whichtile=<0-8>`** (column index in the active, non-greyed row).
+   Parse the active row with `<td class='cell'><a ... whichtile=(\d+)'><img ... tile(\w).gif` and jump to
+   the column whose letter matches the next letter of "bananas". ⚠️ Don't detect failure by matching
+   "terrible"/"incorrect" — the *instructions* contain that wording; re-read the grid instead.
+4. **125→3 "Do nothing"** in *No Visible Means of Support* → **The Hidden City unlocks** (link on
+   `place.php?whichplace=woods`; city map = `place.php?whichplace=hiddencity`).
+5. **Hidden City shrines:** altars **347/346/349/348**, each = **3 dense-liana fights + 1 noncombat**
+   (take option 1, "Place your head in the impression"). ⭐ **An antique machete (6679) equipped makes
+   the liana trivial** — check Hagnk's, ours was there. Clearing all four opens **The Hidden Apartment
+   Building (341) · Hospital (342) · Office Building (343) · Bowling Alley (344)** (+ Park 345, Ziggurat 350).
+
 ## Status at end of Day 107
 Meatcar ✅ · Black Market found ✅ · forged ID bought ✅ · **father's MacGuffin diary (2044) IN INVENTORY** ✅ ·
 beehive ✅ · blackberries ×7 (3 → blackberry galoshes at cobbler choice 928) · diary not yet acted on.
