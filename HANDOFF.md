@@ -97,6 +97,13 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
   is the main nuke. Most zone monsters die in ~2 rounds with MP topped.
 - **Bosses (ramp/tank):** enter at FULL HP (scroll 595) + FULL MP (tiny houses), **Mortar → Cannelloni every round**,
   heal only under ~35% HP. Turtling loses to ramping bosses (e.g. "The Man") — it's a DPS race. Torpedoes (630) in reserve.
+- 🚨 **CHECK THE BOSS'S ELEMENT BEFORE YOU FIGHT — a damage-tuning off-hand can HALVE your damage.**
+  The **Necrotelicomnicon (2494)** re-tunes all pasta to **Spooky**; against the **Bonerdagon** (spooky-resistant)
+  that turned a 4-round untouched win into an 11-round loss. **Unequip element-tuning gear when the target
+  resists that element** (Day 109). Corollary: exploit weakness instead — spooky-tuned Cannelloni is what
+  killed cold-aligned Groar in 8 rounds.
+- 🚨 **Against a boss that out-damages your heal, NEVER heal — race it.** Lasagna Bandages (~17 HP) cannot
+  cover ~37 dmg/round; healing just loses slowly. Enter at full HP and cast damage every round.
 - 🚨 **In ML 100+ zones the FULL routine (Entangle stun → Mortar → Cannelloni) is load-bearing — never let a
   loop variant "simplify" it.** Verified Day 106 in the Black Forest (ML 123–133): full routine ≈ 4W/1L;
   the same loop with Cannelloni-only went **0W/14L** — the stun round + mortar's 2× queue are the whole margin.

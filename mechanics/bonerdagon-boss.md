@@ -1,5 +1,29 @@
 # Bonerdagon (Defiled Cyrpt boss)
 
+## ✅ KILLED — run #2, Day 109 (4 rounds, ZERO damage taken). What actually worked
+
+🚨 **THE #1 LESSON: TAKE OFF THE NECROTELICOMNICON (2494).** It tunes all pasta damage to **Spooky**,
+and the Bonerdagon — a bone dragon in the Cyrpt — **resists Spooky hard**. First attempt WITH it:
+11 rounds, his HP barely moved, we lost at base Mys 120 with both Buffy shells up. Second attempt,
+**identical prep but off-hand unequipped**: dead in 4 rounds, untouched. Check elemental alignment
+before every boss; a +spell-damage offhand that re-tunes your element can be a net negative.
+
+🚨 **LESSON 2: DO NOT TRY TO OUT-HEAL HIM.** He hits **~37/round, every round**. Lasagna Bandages heals
+~17 → net **−20/round**, so healing just loses slowly (verified: 92→52→31→10→0 while spamming heals).
+It is a **pure DPS race**: Entangling Noodles (stun) → Stuffed Mortar Shell → Cannelloni every round,
+never heal. Enter at full HP so you can absorb 2–3 hits.
+
+**Winning loadout (Day 109):** base Mys ~120 · **no off-hand** · Crown of the Goblin King · Springy
+Fusilli up · Buffy's **Ghostly Shell + Astral Shell** · full HP/MP off tiny houses (592) · 3 smut orc
+keepsake boxes (5788) held in reserve as wing-flap-proof damage (never needed them).
+**Entry:** `crypt.php?action=heart` → choice **527 option 1**.
+**Drops:** **skull of the Bonerdagon** (off-hand, +5 spooky spell damage — a fine Necrotelicomnicon
+replacement outside spooky zones) + **chest of the Bonerdagon** (`inv_use` → **3,000 meat**).
+Report to `council.php` to close the quest.
+
+---
+
+
 ## Clearing the Cyrpt (the 4 sub-zones) — verified run #2, Day 96
 
 - **Council gives this at Level 8** (aura of Spookiness) along with the **Evilometer (item 4964)**.

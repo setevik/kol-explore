@@ -30,24 +30,26 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 108 / 2026-08-04)
+## 📊 Character state (run #2 — end of Day 109 / 2026-08-05)
 
-- **LEVEL 11 Pastamancer.** Base Mys **120** · **HP ~92 max**. **Meat ~9,129 (richest of the run).
-  adv 49 banked.** full 15, drunk 22 (cap 19 + martini overdrink ✅). L12 = base Mys 125.
-- 📖 **DIARY READ → 4 QUESTS OPEN** (`diary.php`, NOT inv_use): Hidden Temple ✅done, **Just Deserts**
-  (Arid Extra-Dry Desert), **Of Mice and Shen** (Copperhead Club; password **swordfish**), **In a Manor
-  of Spooking** (⭐ the Spookyraven cellar is finally unblocked — this was the choice-921 gate from Day 95).
-- 🏙️ **HIDDEN TEMPLE + HIDDEN CITY CLEARED OPEN (Day 108, ~15 advs)** — Nostril, Pikachutlotal button,
-  the **BANANAS tile puzzle** (`tiles.php`, not a choice!), then all 4 shrines with the **antique machete
-  (6679)**. Now open: **Apartment 341 · Hospital 342 · Office 343 · Bowling Alley 344** (+ Park 345,
-  Ziggurat 350). ▶ These four buildings hold the **ancient amulet** (Staff of Ed headpiece).
-  Full step-by-step: `mechanics/macguffin-quest.md`.
-- ⚰️ **Cyrpt: 50 evil — only the ALCOVE left.** Nook ✅ Niche ✅ **Cranny ✅ (huge ghuol slain Day 108)**.
-  One blessed window/day, ~100% win (27W/0L today). Then **Bonerdagon** at the Haert.
-- 💰 **Economy solved for now:** Hagnk's **meat stacks (88) = 100 ea and the "really dense meat stack"
-  (2829) = ~5,000** sold for **+7,200** in one go. Slope still nets ~+80/fight and self-funds MP.
-  ⚠️ Storage scrolls (595) exhausted — `healUp` falls back to Lasagna Bandages (costs MP); consider
-  buying scrolls with the new war chest.
+- 🎉 **LEVEL 12 Pastamancer.** Base Mys **128** · **HP ~92 max**. **Meat ~5,383. adv 54 banked.**
+  full 15, drunk 22 (cap 19 + martini overdrink ✅). L13 = base Mys ~144.
+- 🐉 **BONERDAGON SLAIN → CYRPT QUEST COMPLETE (Day 109).** Alcove cleared, then the Haert
+  (`crypt.php?action=heart` → choice 527 opt 1). ⚠️ **The win required UNEQUIPPING the Necrotelicomnicon**
+  (its Spooky tuning is resisted by him) **and never healing** (he does ~37/round vs a 17 heal).
+  4 rounds, zero damage. Loot: **skull of the Bonerdagon equipped as off-hand** + 3,000 meat chest.
+  Full post-mortem: `mechanics/bonerdagon-boss.md`.
+- 🎹 **SPOOKYRAVEN CELLAR OPEN** — the diary made choice **921** playable in the Ballroom (395).
+  New zones: **Laboratory 396 · Nursery 397 · Storage Room 398**. Lady Spookyraven
+  (`place.php?whichplace=manor3&action=manor3_ladys`) wants her **3 children** found.
+  ▶ **Choice 885 "Chasin' Babies"** needs TOYS — we're collecting parts (**ghost key, droopy doll eye,
+  haunted paddle-ball, spooky music box mechanism**). **Research the toy recipes next session.**
+- 🏙️ **Hidden City still open and unexplored**: Apartment 341 · Hospital 342 · Office 343 · Bowling
+  Alley 344 (+ Park 345, Ziggurat 350) — these hold the **ancient amulet** (Staff of Ed headpiece).
+- 🗺️ **MacGuffin quests still open:** Just Deserts (desert), Of Mice and Shen (Copperhead; password
+  **swordfish**), the Manor cellar, plus the Palindome "Staff of Fats" and the L10 castle kitchen counter.
+- 💰 **Economy:** slope nets ~+80/fight and self-funds MP; **tiny houses (592, ~214 in the mall) are now
+  the HP/MP battery + Beaten-Up cure** (storage scrolls are gone — buying tiny houses beats scrolls).
 - ⚰️ **CYRPT: NOOK CLEARED (0 evil) — boss giant skeelton killed Day 104.** 150 evil left:
   **Alcove 50 · Cranny 50 · Niche 50.** Pattern that works: Smothers blessing (once/day, 20 advs) →
   ~16 blessed fights ≈ 100% win → boss spawns at ≤13 evil. **MP burn is ~2 MMJ/fight — bring 15+ MMJ
@@ -145,14 +147,16 @@ Crown equipped** (94).
 > once the juice runs out, win rate collapses (30W/10L with MP → 5W/15L without). **Buy ~10 MMJ every day.**
 > ⚠️ Before concluding "zone X one-shots me", confirm you entered at an honest **full HP** (stale-HP gate, see HANDOFF).
 
-> 🎯 **START HERE ON DAY 109:** EAT (2 sushi + milk + burrito — pull sushi; meat is healthy at ~9,129,
-> so buy a stack of MMJ **and** some scrolls of drastic healing early). Then:
-> (1) **Smothers blessing → ALCOVE (261) 50 → its boss → Cyrpt 0**, then **Bonerdagon at the Haert**
-> (`crypt.php?action=heart`, see `mechanics/bonerdagon-boss.md` — bring the 3 smut orc keepsake boxes as
-> wing-flap-proof combat items); (2) **Hidden City buildings (341/342/343/344)** hunting the **ancient
-> amulet**; (3) **Spookyraven cellar** — the diary finally satisfies choice 921 in the Ballroom (395);
-> (4) leftovers → slope for **L12** (base Mys 125, 5 away).
-> **DRINK LAST: 19 + overdrink** (7 vodka+olive martinis + Imp Ale = exactly 19; ~1,400 meat).
+> 🎯 **START HERE ON DAY 110:** EAT (2 sushi + milk + burrito), buy ~25 MMJ + ~15 tiny houses (592).
+> No Cyrpt to do any more — the blessing is free for other uses. Then:
+> (1) 🔍 **Research the Spookyraven cellar toy recipes** (choice **885 "Chasin' Babies"** wants a poppet /
+> rocking horse / jack-in-the-box; we hold ghost key, droopy doll eye, haunted paddle-ball, spooky music
+> box mechanism) → find the 3 children → Lady Spookyraven → the manor's **Staff of Ed** piece;
+> (2) **Hidden City buildings (341/342/343/344)** for the **ancient amulet** — each has a protector spirit,
+> research what each wants before grinding; (3) leftovers → slope (L13 at base Mys ~144, a long way — the
+> quest chain is worth more than levels now).
+> **DRINK LAST: 19 + overdrink.** ⚠️ Imp Ale ran out — buy an **ice-cold Willer (81)** as the 1-potency
+> topper: 6 martinis (18) + Willer (19) + 1 martini overdrink = 22.
 
 1. **EAT (proven, gave a 106-adv day):** pull **1 stolen sushi (6293)** — ✅ **now edible at L6, 6 fullness ≈ 13 adv,
    121 in storage** — and eat **2 sushi + 1 burrito = full 15** (we had spares in inventory; otherwise sushi + cookies).
@@ -215,6 +219,15 @@ duplicates we already owned). After 1,000 turns Hagnk's opens fully. See `mechan
 
 ## 🗓️ Session log (this run)
 
+- **Day 109 (2026-08-05): 🐉 BONERDAGON SLAIN (Cyrpt quest DONE) + 🎹 Spookyraven cellar opened + 🎉 L12.**
+  Alcove cleared (27W/0L blessed) → Evilometer hit the **999** sentinel → the Haert. **Lost attempt 1**
+  (11 rounds) then **won attempt 2 in 4 rounds untouched** after two fixes now in HANDOFF: **unequip the
+  Necrotelicomnicon** (its Spooky tuning is resisted by a bone dragon) and **never heal a boss that
+  out-damages your heal**. Loot: skull (equipped) + 3,000-meat chest; Council closed the quest.
+  Then the **ballroom organ (choice 921)** finally worked with the diary → **cellar open** (Lab 396 /
+  Nursery 397 / Storage 398); Lady Spookyraven wants her 3 children — collected toy parts, recipes still
+  to research (choice **885**). Slope 73W/0L → **Level 12**, base Mys **128**. Wrapped clean: full 15,
+  drunk 19+overdrink=22 (⚠️ Imp Ale gone; used an ice-cold Willer as the 1-potency topper), 54 adv banked.
 - **Day 108 (2026-08-04): 📖 Diary read → 🏛️ HIDDEN TEMPLE + 🏙️ HIDDEN CITY opened; ⚰️ Cranny cleared.**
   Diary is read at **`diary.php`** (inv_use says "not implemented" — trap documented) and registers **4
   quests**, including the **Spookyraven cellar** that's been blocked since Day 95. Unlocked the temple via
