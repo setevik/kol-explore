@@ -30,26 +30,24 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 109 / 2026-08-05)
+## 📊 Character state (run #2 — end of Day 110 / 2026-08-06)
 
-- 🎉 **LEVEL 12 Pastamancer.** Base Mys **128** · **HP ~92 max**. **Meat ~5,383. adv 54 banked.**
+- **LEVEL 12 Pastamancer.** Base Mys **134** · **HP ~99 max**. **Meat ~2,226. adv 49 banked.**
   full 15, drunk 22 (cap 19 + martini overdrink ✅). L13 = base Mys ~144.
-- 🐉 **BONERDAGON SLAIN → CYRPT QUEST COMPLETE (Day 109).** Alcove cleared, then the Haert
-  (`crypt.php?action=heart` → choice 527 opt 1). ⚠️ **The win required UNEQUIPPING the Necrotelicomnicon**
-  (its Spooky tuning is resisted by him) **and never healing** (he does ~37/round vs a 17 heal).
-  4 rounds, zero damage. Loot: **skull of the Bonerdagon equipped as off-hand** + 3,000 meat chest.
-  Full post-mortem: `mechanics/bonerdagon-boss.md`.
-- 🎹 **SPOOKYRAVEN CELLAR OPEN** — the diary made choice **921** playable in the Ballroom (395).
-  New zones: **Laboratory 396 · Nursery 397 · Storage Room 398**. Lady Spookyraven
-  (`place.php?whichplace=manor3&action=manor3_ladys`) wants her **3 children** found.
-  ▶ **Choice 885 "Chasin' Babies"** needs TOYS — we're collecting parts (**ghost key, droopy doll eye,
-  haunted paddle-ball, spooky music box mechanism**). **Research the toy recipes next session.**
-- 🏙️ **Hidden City still open and unexplored**: Apartment 341 · Hospital 342 · Office 343 · Bowling
-  Alley 344 (+ Park 345, Ziggurat 350) — these hold the **ancient amulet** (Staff of Ed headpiece).
-- 🗺️ **MacGuffin quests still open:** Just Deserts (desert), Of Mice and Shen (Copperhead; password
-  **swordfish**), the Manor cellar, plus the Palindome "Staff of Fats" and the L10 castle kitchen counter.
-- 💰 **Economy:** slope nets ~+80/fight and self-funds MP; **tiny houses (592, ~214 in the mall) are now
-  the HP/MP battery + Beaten-Up cure** (storage scrolls are gone — buying tiny houses beats scrolls).
+- 👁️ **SPOOKYRAVEN MANOR IS FINISHED (Day 110) — the EYE OF ED is ours** (Staff of Ed component).
+  Caught Lady Spookyraven's triplets (the *Chasin' Babies* herding puzzle), got the ghost formula,
+  then mixed the **mortar-dissolving solution** (6 manor-zone drops — we already had all six from
+  routine farming), blew the cellar wall, and killed **Lord Spookyraven in 5 rounds**.
+  🚨 **His opener hits for ~your full HP unless you carry +3 all-elemental resistance — Brother
+  Smothers's Blessing is exactly that.** Full walkthrough + the ghost-herding matrix and its trap:
+  `mechanics/spookyraven-ghost-chain.md`.
+- 🗺️ **MacGuffin: 1 of 3 Staff pieces done.** Still open: **Gotta Worship Them All** (Hidden City —
+  now shows sub-quests *Curses!* = Thrice-Cursed Penthouse in the Apartment 341, and *Doctor!* =
+  operating theater in the Hospital 342 → the **ancient amulet**); **Just Deserts** (Arid Extra-Dry
+  Desert); **Of Mice and Shen** (Copperhead Club, password **swordfish**); plus the **Palindome**
+  "Staff of Fats" shaft and the L10 **castle kitchen counter**.
+- 💰 **Economy:** slope nets ~+80/fight and self-funds MP; **tiny houses (592, ~214 in the mall) are the
+  HP/MP battery + Beaten-Up cure**. Hagnk's meat-stack reserve is spent — slope farming is the income now.
 - ⚰️ **CYRPT: NOOK CLEARED (0 evil) — boss giant skeelton killed Day 104.** 150 evil left:
   **Alcove 50 · Cranny 50 · Niche 50.** Pattern that works: Smothers blessing (once/day, 20 advs) →
   ~16 blessed fights ≈ 100% win → boss spawns at ≤13 evil. **MP burn is ~2 MMJ/fight — bring 15+ MMJ
@@ -147,16 +145,15 @@ Crown equipped** (94).
 > once the juice runs out, win rate collapses (30W/10L with MP → 5W/15L without). **Buy ~10 MMJ every day.**
 > ⚠️ Before concluding "zone X one-shots me", confirm you entered at an honest **full HP** (stale-HP gate, see HANDOFF).
 
-> 🎯 **START HERE ON DAY 110:** EAT (2 sushi + milk + burrito), buy ~25 MMJ + ~15 tiny houses (592).
-> No Cyrpt to do any more — the blessing is free for other uses. Then:
-> (1) 🔍 **Research the Spookyraven cellar toy recipes** (choice **885 "Chasin' Babies"** wants a poppet /
-> rocking horse / jack-in-the-box; we hold ghost key, droopy doll eye, haunted paddle-ball, spooky music
-> box mechanism) → find the 3 children → Lady Spookyraven → the manor's **Staff of Ed** piece;
-> (2) **Hidden City buildings (341/342/343/344)** for the **ancient amulet** — each has a protector spirit,
-> research what each wants before grinding; (3) leftovers → slope (L13 at base Mys ~144, a long way — the
-> quest chain is worth more than levels now).
-> **DRINK LAST: 19 + overdrink.** ⚠️ Imp Ale ran out — buy an **ice-cold Willer (81)** as the 1-potency
-> topper: 6 martinis (18) + Willer (19) + 1 martini overdrink = 22.
+> 🎯 **START HERE ON DAY 111:** EAT (2 sushi + milk + burrito), buy ~25 MMJ + ~12 tiny houses (592).
+> Meat is lowish (~2,226) — a slope stretch funds the day. Then pick up the MacGuffin chain:
+> (1) **Hidden City buildings** — research *Curses!* (Apartment 341, Thrice-Cursed Penthouse) and
+> *Doctor!* (Hospital 342, operating theater) BEFORE grinding; goal is the **ancient amulet**;
+> (2) **Of Mice and Shen** — Copperhead Club (password **swordfish**) looks like a short chain;
+> (3) **Just Deserts** — the Arid Extra-Dry Desert / buried pyramid.
+> ⚠️ **Save the Smothers blessing** for any boss whose opener is elemental (it made Lord Spookyraven
+> survivable). **DRINK LAST: 19 + overdrink** — 6 vodka+olive martinis (18) + **ice-cold Willer (81)**
+> to land on 19 + 1 martini overdrink = 22 (~1,500 meat).
 
 1. **EAT (proven, gave a 106-adv day):** pull **1 stolen sushi (6293)** — ✅ **now edible at L6, 6 fullness ≈ 13 adv,
    121 in storage** — and eat **2 sushi + 1 burrito = full 15** (we had spares in inventory; otherwise sushi + cookies).
@@ -219,6 +216,15 @@ duplicates we already owned). After 1,000 turns Hagnk's opens fully. See `mechan
 
 ## 🗓️ Session log (this run)
 
+- **Day 110 (2026-08-06): 👁️ SPOOKYRAVEN MANOR COMPLETE — Lord Spookyraven slain, EYE OF ED obtained.**
+  Solved the **Chasin' Babies** herding puzzle by deducing the full toy/ghost matrix and spotting its
+  trap (every toy is loved by one ghost and hated by another, so **the last ghost must be pushed in by
+  fleeing, not pulled**) → jar of baby ghosts → Lady Spookyraven → ghost formula. Then the cellar:
+  masonry → **recipe: mortar-dissolving solution**; all six manor-zone ingredients were already in
+  inventory from routine farming; ⚠️ they don't craft — **re-click the masonry** and the game mixes them.
+  Wall down → **Lord Spookyraven in 5 rounds** (his opener took 62 of 99 HP — survivable only because
+  the **Smothers blessing's +3 all-resistance** was up) → **Eye of Ed**. Slope 59W/0L → base Mys **134**.
+  Wrapped clean: full 15, drunk 19+overdrink=22, 49 adv banked.
 - **Day 109 (2026-08-05): 🐉 BONERDAGON SLAIN (Cyrpt quest DONE) + 🎹 Spookyraven cellar opened + 🎉 L12.**
   Alcove cleared (27W/0L blessed) → Evilometer hit the **999** sentinel → the Haert. **Lost attempt 1**
   (11 rounds) then **won attempt 2 in 4 rounds untouched** after two fixes now in HANDOFF: **unequip the

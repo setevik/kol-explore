@@ -166,3 +166,63 @@ Very notable Gallery-specific buff:
 - Can only be obtained in the Gallery; wears off between adventures elsewhere
 
 Use it to power-grind the Escher maze without running out of MP.
+
+---
+
+# ✅ THE CELLAR CHAIN — COMPLETED run #2, Day 110 (full walkthrough)
+
+Unlocked by **reading the MacGuffin diary** (`diary.php`) → the Ballroom (395) organ choice **921
+"We'll All Be Flat"** becomes playable → opens **manor3** (3rd floor) *and* **manor4** (the true cellar).
+
+## Part 1 — Lady Spookyraven's triplets ("Chasin' Babies")
+
+Three ghost babies roam **Laboratory 396 (choice 884) · Nursery 397 (885) · Storage Room 398 (886)**.
+The choice fires **every 5 adventures** in a room. **"Do nothing" costs NO adventure** — use it to scout
+a room's occupants for free.
+
+**Movement rules (verified):**
+- Ghosts **in the room you're in** that **HATE** the toy **flee** along: **Lab → Nursery → Storage → Lab**.
+- Ghosts in the **source** room that **LIKE** the toy **enter** yours. Source (pull) is the reverse:
+  **Storage → Lab**, **Lab → Nursery**, **Nursery → Storage**.
+- A ghost that LIKES the toy and is already present just stays ("enthralled").
+
+**Preference matrix (this run — verify by observation, it may be randomized):**
+
+| Toy (choice option) | Loves it | Hates it | Neutral |
+|---|---|---|---|
+| poppet (opt 1) | weeping | giggling | chubby |
+| rocking horse (opt 2) | chubby | weeping | giggling |
+| jack-in-the-box (opt 3) | giggling | chubby | weeping |
+| do nothing (**opt 6**) | — | — | free, no adventure |
+
+🚨 **THE TRAP:** each toy is loved by exactly one ghost and hated by another, so **pulling the third
+ghost in always evicts one already present**. ✅ **Solution: the last ghost must be PUSHED in by
+fleeing, not pulled.** Stand in the room *behind* the target (the one that flees into it) and play the
+toy that ghost hates.
+
+**The winning line from Lab={chubby}, Nursery={weeping}, Storage={giggling}:**
+1. **Storage + poppet** → giggling (hates it) flees to the **Lab**; weeping (Nursery, loves it) enters Storage.
+   ⇒ Lab={chubby, giggling}, Storage={weeping}.
+2. **Storage + rocking horse** → weeping (hates it) flees to the **Lab**. ⇒ Lab = all three.
+3. Adventure in the **Laboratory** → the choice becomes *"all three ghost babies in a large jar"* →
+   **option 4 "Close the jar!"** → **jar of baby ghosts**.
+4. Turn in at **Lady Spookyraven** (`place.php?whichplace=manor3&action=manor3_ladys`) → **ghost formula**
+   (`inv_use` → ~240–330 of each substat) and she departs.
+
+## Part 2 — the wall and Lord Spookyraven
+
+- **manor4** = Boiler Room 399 · Laundry Room 400 · Wine Cellar 401 · **Suspicious Masonry**.
+- Click **`place.php?whichplace=manor4&action=manor4_chamberwall`** → **recipe: mortar-dissolving solution**
+  (read it with `inv_use`). Six ingredients, one per manor zone — all are ordinary drops, so weeks of
+  routine manor farming may already have them:
+  **loosening powder (Kitchen 388) · powdered castoreum (Conservatory 389) · drain dissolver (Bathroom 392) ·
+  triple-distilled turpentine (Gallery 394) · detartrated anhydrous sublicalc (Laboratory 396) ·
+  triatomaceous dust (Storage Room 398)** (ids 7485–7490).
+  ⚠️ **Do NOT try to craft them together** (`craft.php` fails) — **just click the masonry again** once you
+  hold all six; the game mixes and applies the solution for you and the wall collapses.
+- Then **`place.php?whichplace=manor4&action=manor4_chamberboss`** → **Lord Spookyraven**.
+  🚨 **His opening attack hits for ~your current HP** unless you have **+3 to ALL elemental resistances** —
+  **Brother Smothers's Blessing (`friars.php?bro=3`) is exactly that** and turns it into an ordinary hit
+  (took 62 of our 99 HP with the blessing up; it would have been lethal without).
+  Otherwise a normal fight: Entangle → Mortar → Cannelloni, **5 rounds** at base Mys ~131.
+- **Drops: the Eye of Ed** (Staff of Ed component) + Lord Spookyraven's ear trumpet. Quest complete.
