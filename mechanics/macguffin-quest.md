@@ -85,3 +85,27 @@ pieces (Hidden City amulet + Spookyraven + Palindome "Staff of Fats"); Copperhea
 ## Status at end of Day 107
 Meatcar ✅ · Black Market found ✅ · forged ID bought ✅ · **father's MacGuffin diary (2044) IN INVENTORY** ✅ ·
 beehive ✅ · blackberries ×7 (3 → blackberry galoshes at cobbler choice 928) · diary not yet acted on.
+
+## The Hidden City buildings (Staff of Ed headpiece) — started Day 111
+
+Each of the four buildings ends in an **ancient protector spirit** that drops one **moss-covered stone
+sphere**; the four spheres are what the quest needs.
+
+🚨 **THE SPIRITS ARE PHYSICALLY IMMUNE — they take ELEMENTAL damage normally.**
+✅ **Equip the Necrotelicomnicon (2494)** for these fights: its Spooky re-tuning turns Cannelloni into
+elemental damage. (Exact mirror of the Bonerdagon lesson, where that same book had to come OFF.)
+Killed the Apartment spirit in ~3 casts at base Mys 134. Needs a 1-handed weapon (pasta spoon 5).
+
+- **Hidden Apartment Building (341) — "Curses!" ✅ DONE Day 111.** The **Action Elevator** noncombat fires
+  on the **9th encounter in the zone, then every 8th**. Options: *Go to the mezzanine* = advance the curse
+  (none → Once → Twice → **Thrice-Cursed**, 10 adventures each); with **Thrice-Cursed** a *Go to the
+  Thrice-Cursed Penthouse* option appears → the spirit fight. ⚠️ Each curse lasts only 10 adventures and
+  the next elevator is 8 encounters away — don't spend turns elsewhere mid-chain or you restart.
+  ⚠️ Cursed effects **persist across days** (we arrived already Thrice-Cursed and skipped the whole chain).
+- Remaining quest-log entries: **Doctor!** (operating room, Hidden Hospital 342) · **Serious Business**
+  (McClusky file — 5 pages off **pygmy witch accountants**, Hidden Office Building 343) ·
+  **Oh, Spare Me** (Hidden Bowling Alley 344).
+
+🚨 **LEVEL GATE (measured Day 111): the pygmies are ML 142–150 with ~150 HP.** At base Mys 134 we went
+**1W/5L** against them — the buildings are not grindable yet. They hit for ~45 and we have ~100 max HP.
+**Come back at base Mys 150+ / L13+**, or bring serious elemental resistance + deleveling.
