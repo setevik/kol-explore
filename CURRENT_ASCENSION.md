@@ -30,10 +30,19 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 111 / 2026-08-07)
+## 📊 Character state (run #2 — end of Day 112 / 2026-08-08)
 
-- **LEVEL 12 Pastamancer.** Base Mys **140** · **HP ~101 max**. **Meat ~3,639. adv 46 banked.**
-  full 15, drunk 22 (cap 19 + martini overdrink ✅). **L13 = base Mys 144 — 4 points away.**
+- **LEVEL 12 Pastamancer.** Base Mys **145** · **HP ~107 max**. **Meat ~1,052. adv 49 banked.**
+  full 15, drunk 22 (cap 19 + martini overdrink ✅).
+- ⚔️⚔️ **NEW SKILLS — THE BIGGEST POWER JUMP OF THE RUN (Day 112).** The guild trainer had been
+  stocking level-appropriate spells for weeks and we never checked. Bought **Utensil Twist (125)**,
+  **Transcendent Al Dente (250)** and **⭐ Weapon of the Pastalord (5,000; cast id 3008, 32 MP)**.
+  Effect: the **ML ~140 desert went 11W/0L** immediately, having been unfightable the day before.
+  ▶ **Save for: Cannelloni Cocoon (id 12, 7,500 = free full heal) and Spirit of Rigatoni (id 11, 2,500).**
+  **New combat standard for hard zones: Weapon of the Pastalord (3008) when MP ≥ 32, else Cannelloni.**
+- 🏜️ **JUST DESERTS STARTED: the Arid Extra-Dry Desert (364) is now farmable — 12% explored.**
+  Progress only counts while **Ultrahydrated** (10 turns at a time from **An Oasis, snarf 122**);
+  **Gnasir's Place** has appeared on Desert Beach (the NPC who speeds exploration — research him next).
 - 🔮 **HIDDEN CITY: 1 of 4 stone spheres** — the **Apartment Building ("Curses!") is DONE** (Day 111).
   🚨 **Protector spirits are PHYSICALLY IMMUNE but take elemental damage** ⇒ **equip the
   Necrotelicomnicon (2494)** for them (the exact opposite of the Bonerdagon, where it had to come off).
@@ -144,15 +153,15 @@ Crown equipped** (94).
 > once the juice runs out, win rate collapses (30W/10L with MP → 5W/15L without). **Buy ~10 MMJ every day.**
 > ⚠️ Before concluding "zone X one-shots me", confirm you entered at an honest **full HP** (stale-HP gate, see HANDOFF).
 
-> 🎯 **START HERE ON DAY 112:** EAT (2 sushi + milk + burrito — 10 sushi in inventory), buy ~20 MMJ +
-> ~12 tiny houses. Then, in order:
-> (1) **Slope (273) to Level 13** — only 4 base-Mys points; ~15 fights. This is the gate for everything else.
-> (2) **Of Mice and Shen (Copperhead Club)** and/or **Just Deserts (desert)** — neither is known to be
-> pygmy-infested, so they're the best quest value at our current size. Research the Copperhead chain first.
-> (3) **Hidden City** only once base Mys ≈150: Hospital 342 → Office 343 (5 McClusky pages off witch
-> accountants) → Bowling Alley 344. ⚠️ **Necrotelicomnicon ON for every protector spirit.**
-> **DRINK LAST: 19 + overdrink** — 6 vodka+olive martinis (18) + **ice-cold Willer (81)** to land on 19
-> + 1 martini overdrink = 22 (~1,500 meat).
+> 🎯 **START HERE ON DAY 113:** EAT, then **buy MP supplies generously** (~25 MMJ + ~12 tiny houses):
+> Weapon of the Pastalord costs 32 MP/cast, so the daily MP bill roughly doubled — budget ~3,000 meat.
+> Then: (1) **research Gnasir** (Desert Beach NPC) — he reportedly speeds desert exploration a lot;
+> (2) **desert cycles**: Oasis (122) for Ultrahydrated → 10 desert (364) turns → repeat, using
+> **Pastalord 3008** as the nuke; (3) re-test the **Hidden City / Copperhead** with the new nuke — the
+> pygmy gate may already be broken; (4) buy **Cannelloni Cocoon (7,500)** when affordable — free full
+> heals would end the tiny-house/scroll economy entirely.
+> **DRINK LAST: 19 + overdrink** — 6 vodka+olive martinis (18) + **ice-cold Willer (81)** + 1 martini
+> overdrink = 22 (~1,500 meat; keep that much in reserve).
 
 1. **EAT (proven, gave a 106-adv day):** pull **1 stolen sushi (6293)** — ✅ **now edible at L6, 6 fullness ≈ 13 adv,
    121 in storage** — and eat **2 sushi + 1 burrito = full 15** (we had spares in inventory; otherwise sushi + cookies).
@@ -215,6 +224,14 @@ duplicates we already owned). After 1,000 turns Hagnk's opens fully. See `mechan
 
 ## 🗓️ Session log (this run)
 
+- **Day 112 (2026-08-08): ⚔️ THE GUILD-TRAINER BLIND SPOT — bought Weapon of the Pastalord; desert opened.**
+  Discovered the trainer has been stocking level-appropriate skills for weeks. Bought the cheap passives
+  (**Utensil Twist**, **Transcendent Al Dente**) immediately, farmed the slope 71W/0L for the **5,000-meat
+  Weapon of the Pastalord (3008, 32 MP)**, and the **ML ~140 Arid Extra-Dry Desert instantly went 11W/0L**
+  — a zone that was hopeless the day before, with **no level-up involved**. Desert now **12% explored**;
+  the **Oasis (122)** and **Gnasir's Place** are unlocked. ⚠️ Lost 8 fights to a loop bug whose MP ladder
+  ignored the 17 Mountain Stream sodas in the bag (fixed; both lessons in HANDOFF). Base Mys 140 → **145**.
+  Wrapped clean: full 15, drunk 19+overdrink=22, 49 adv banked.
 - **Day 111 (2026-08-07): 🔮 First Hidden City sphere (Apartment done) + a measured level gate.**
   Arrived still **Thrice-Cursed from the previous visit** (curses persist across days), so the elevator
   offered the penthouse immediately → **ancient protector spirit killed → moss-covered stone sphere**.

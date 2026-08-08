@@ -67,6 +67,10 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
   run near rollover, **do the DRINK step before starting it**, or cap the loop short.
 - **Concurrent frame reloads deadlock.** Don't reload the charpane frame (`_readChar`) while a fight/farm loop is also
   reloading frames — onload promises stall. Poll in-memory `window._X` while a loop runs; read the charpane only when idle.
+- ⚠️ **Every farm loop's MP branch must check ALL restoratives you actually carry.** Day 112: a desert
+  loop checked only MMJ (518) and tiny houses (592), starved at 20 MP, and went **1W/8L** while
+  **17 Mountain Stream sodas (357, 37 MP each)** sat unused in the bag. Keep one shared restore helper
+  (`357 → 518 → 592`) rather than re-typing the ladder per loop.
 - 🚨 **THE FARM-LOOP DEATH SPIRAL (cost ~30 advs on Day 103): one loss cascades unless the loop checks BOTH
   Beaten Up AND healing-supply counts every iteration.** Mechanism: a loss applies **Beaten Up (−50% all stats)**
   → next fights are entered at half Mysticality/Muscle → more losses → more Beaten Up. Meanwhile a heal branch
@@ -78,6 +82,17 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
   false-positives on "You lose N hit points" (this old mistake got re-made; see also the Boss Bat note).
 
 ## Combat standard (Pastamancer)
+
+- 🚨🚨 **RE-VISIT THE GUILD TRAINER EVERY FEW LEVELS — THIS WAS A WEEKS-LONG BLIND SPOT (Day 112).**
+  `guild.php?place=trainer` lists skills **by level with prices**, and we fought at Levels 10–12 using the
+  same three spells bought at Level 5. Buying **Weapon of the Pastalord (skillid 8, 5,000 meat, skill
+  id 3008, 32 MP)** plus the cheap passives **Utensil Twist (id 25, 125 meat)** and **Transcendent Al
+  Dente (id 26, 250 meat)** flipped the ML ~140 desert from unfightable to **11W/0L in one afternoon** —
+  no level-up required. Buy with a POST to `guild.php`: `action=buyskill&skillid=<SHORT id>&pwd=`.
+  ▶ **Next purchases worth saving for: Cannelloni Cocoon (id 12, 7,500 — free full heal, replaces
+  scrolls/tiny houses) and Spirit of Rigatoni (id 11, 2,500 — chefstaff weapons).**
+  **Parse the trainer by table row**: each `<tr>` holds the skill name, `skillid value=(\d+)`, and
+  `Train \(([\d,]+) Meat\)` — the flat-page regexes return nothing.
 
 - ⚠️ **A fresh run has almost no skills — FIX THAT FIRST.** The guild trainer is locked until you pass the
   **guild challenge** (Pastamancer: tame the poltersandwich in the Haunted Pantry, snarf 113, choice **544**).
