@@ -109,3 +109,26 @@ Killed the Apartment spirit in ~3 casts at base Mys 134. Needs a 1-handed weapon
 🚨 **LEVEL GATE (measured Day 111): the pygmies are ML 142–150 with ~150 HP.** At base Mys 134 we went
 **1W/5L** against them — the buildings are not grindable yet. They hit for ~45 and we have ~100 max HP.
 **Come back at base Mys 150+ / L13+**, or bring serious elemental resistance + deleveling.
+
+## Just Deserts — the desert / buried pyramid (started Day 112, 44% Day 113)
+
+- **The Arid, Extra-Dry Desert = snarf 364** (Desert Beach). ML 134–142, rec stat 120.
+  The place page shows **`alt='(N% explored)'`** — parse that, not the visible text (the zone label is
+  rendered as zonefont images, so a plain-text regex returns nothing).
+- **Exploration only advances while *Ultrahydrated*.** First un-hydrated turn there unlocks **An Oasis
+  (snarf 122)**; adventuring at the Oasis grants **Ultrahydrated (10 turns)**. Loop = Oasis → 10 desert
+  turns → Oasis. The Oasis noncombat ***All Across the Sands*** gives the **stone rose** (one-time).
+- ⭐⭐ **GNASIR IS THE REAL ACCELERATOR** (`place.php?whichplace=desertbeach&action=db_gnasir`, choice
+  **805**). He appears after ~10% exploration. Each errand item = one **desert sightseeing pamphlet
+  (6854)**, and **`inv_use` on a pamphlet is worth ~15% exploration** (12% → 42% off two of them).
+  His three errands:
+  1. **stone rose (2326)** — Oasis noncombat *All Across the Sands*.
+  2. **can of black paint** — **Black Market, 1,000 meat** (same shop as the forged ID).
+  3. **killing jar (6847)** — **banshee librarian, Haunted Library (390)**. ⚠️ **Very low drop rate:
+     28 library fights / 6+ banshees with Fat Leon's up produced none.**
+  He also wants **15 worm-riding manual pages** (scattered desert drops) → sandworm riding.
+  ⚠️ **Turn-ins bounce navigation until the 805 choice is closed** — finish with *"No, that's all."*
+- 💧 **Budget MP hard here:** Weapon of the Pastalord is **32 MP/cast**, so a desert day burns ~2× the
+  old juice bill. Buy ~25 MMJ **and** keep tiny houses/sodas, or you will stall mid-crossing (happened
+  three times on Day 113). The eXtreme Slope remains the recovery zone — it drops **Mountain Stream
+  sodas (37 MP)** and pays ~80 meat/fight.

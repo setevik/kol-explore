@@ -30,10 +30,18 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 112 / 2026-08-08)
+## 📊 Character state (run #2 — end of Day 113 / 2026-08-09)
 
-- **LEVEL 12 Pastamancer.** Base Mys **145** · **HP ~107 max**. **Meat ~1,052. adv 49 banked.**
-  full 15, drunk 22 (cap 19 + martini overdrink ✅).
+- **LEVEL 12 Pastamancer.** Base Mys **149** · **HP ~108 max**. **Meat ~98 (spent on the drink rack).
+  adv 47 banked.** full 15, drunk 22 (cap 19 + martini overdrink ✅).
+- 🏜️ **DESERT: 44% EXPLORED** (was 12%). ⭐ **Gnasir's pamphlets are the accelerator — each is ~15%
+  exploration for one errand.** Delivered the **stone rose** and the **can of black paint**;
+  ❗**still owed: a killing jar** (banshee librarian, Haunted Library 390 — **0 drops in 28 fights even
+  with Fat Leon's**, so budget a real hunt) **and 15 worm-riding manual pages**.
+  Full mechanics (Ultrahydrated loop, `alt='(N% explored)'` parse, choice 805): `mechanics/macguffin-quest.md`.
+- 💧 **MP IS NOW THE DAILY BOTTLENECK.** Weapon of the Pastalord = **32 MP/cast**, roughly doubling the
+  juice bill; we stalled out of MP **three times** today. **Buy ~25 MMJ + keep sodas/tiny houses (~3,000
+  meat) before questing**, and treat the eXtreme Slope as the recovery zone (drops 37-MP sodas, ~80 meat/win).
 - ⚔️⚔️ **NEW SKILLS — THE BIGGEST POWER JUMP OF THE RUN (Day 112).** The guild trainer had been
   stocking level-appropriate spells for weeks and we never checked. Bought **Utensil Twist (125)**,
   **Transcendent Al Dente (250)** and **⭐ Weapon of the Pastalord (5,000; cast id 3008, 32 MP)**.
@@ -153,15 +161,15 @@ Crown equipped** (94).
 > once the juice runs out, win rate collapses (30W/10L with MP → 5W/15L without). **Buy ~10 MMJ every day.**
 > ⚠️ Before concluding "zone X one-shots me", confirm you entered at an honest **full HP** (stale-HP gate, see HANDOFF).
 
-> 🎯 **START HERE ON DAY 113:** EAT, then **buy MP supplies generously** (~25 MMJ + ~12 tiny houses):
-> Weapon of the Pastalord costs 32 MP/cast, so the daily MP bill roughly doubled — budget ~3,000 meat.
-> Then: (1) **research Gnasir** (Desert Beach NPC) — he reportedly speeds desert exploration a lot;
-> (2) **desert cycles**: Oasis (122) for Ultrahydrated → 10 desert (364) turns → repeat, using
-> **Pastalord 3008** as the nuke; (3) re-test the **Hidden City / Copperhead** with the new nuke — the
-> pygmy gate may already be broken; (4) buy **Cannelloni Cocoon (7,500)** when affordable — free full
-> heals would end the tiny-house/scroll economy entirely.
-> **DRINK LAST: 19 + overdrink** — 6 vodka+olive martinis (18) + **ice-cold Willer (81)** + 1 martini
-> overdrink = 22 (~1,500 meat; keep that much in reserve).
+> 🎯 **START HERE ON DAY 114:** ⚠️ **Meat is ~98 — open with a slope stretch (~15 fights ≈ +1,200 meat,
+> self-funds MP via soda drops) BEFORE anything else**, then EAT and buy ~25 MMJ.
+> Then: (1) **hunt the killing jar** in the Haunted Library (390) with Fat Leon's up → 3rd pamphlet
+> (+~15% desert); (2) **desert cycles** (Oasis 122 → 10 turns in 364) toward 100% → the buried pyramid;
+> (3) re-test the **Hidden City** (Hospital 342 / Office 343 / Bowling Alley 344) — base Mys is now 149
+> vs the pygmies' ML 142–150, and **Weapon of the Pastalord** wasn't available last time we measured;
+> ⚠️ **Necrotelicomnicon ON for protector spirits.**
+> (4) Long-term buy: **Cannelloni Cocoon (guild id 12, 7,500)** = free full heals, would retire the
+> tiny-house economy. **DRINK LAST: 19 + overdrink** (6 martinis + ice-cold Willer + 1 overdrink; ~1,500 meat).
 
 1. **EAT (proven, gave a 106-adv day):** pull **1 stolen sushi (6293)** — ✅ **now edible at L6, 6 fullness ≈ 13 adv,
    121 in storage** — and eat **2 sushi + 1 burrito = full 15** (we had spares in inventory; otherwise sushi + cookies).
@@ -224,6 +232,13 @@ duplicates we already owned). After 1,000 turns Hagnk's opens fully. See `mechan
 
 ## 🗓️ Session log (this run)
 
+- **Day 113 (2026-08-09): 🏜️ Desert 12% → 44% via Gnasir's pamphlets.** Found the desert accelerator:
+  **Gnasir** (choice 805) trades a **sightseeing pamphlet ≈ +15% exploration** per errand. Delivered the
+  **stone rose** (Oasis noncombat) and a **can of black paint** (Black Market, 1,000 meat) → two pamphlets
+  → 12% → **44%**. ❌ The third errand stalled: **28 library fights and 6+ banshee librarians produced no
+  killing jar**, even under Fat Leon's. ⚠️ **MP is the new bottleneck** — Pastalord's 32 MP/cast drained us
+  three separate times; the slope (soda drops + ~80 meat/win) was the recovery each time. Base Mys 145 →
+  **149**. Wrapped clean: full 15, drunk 19+overdrink=22, 47 adv banked (⚠️ meat down to 98 — farm first tomorrow).
 - **Day 112 (2026-08-08): ⚔️ THE GUILD-TRAINER BLIND SPOT — bought Weapon of the Pastalord; desert opened.**
   Discovered the trainer has been stocking level-appropriate skills for weeks. Bought the cheap passives
   (**Utensil Twist**, **Transcendent Al Dente**) immediately, farmed the slope 71W/0L for the **5,000-meat
