@@ -30,10 +30,19 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 113 / 2026-08-09)
+## 📊 Character state (run #2 — end of Day 114 / 2026-08-10)
 
-- **LEVEL 12 Pastamancer.** Base Mys **149** · **HP ~108 max**. **Meat ~98 (spent on the drink rack).
-  adv 47 banked.** full 15, drunk 22 (cap 19 + martini overdrink ✅).
+- 🎉 **LEVEL 13 Pastamancer.** Base Mys **154** · **HP ~110 max**. **Meat ~1,588. adv 48 banked.**
+  full 15, drunk 22 (cap 19 + martini overdrink ✅).
+- 🏜️ **DESERT 64% EXPLORED** (12% → 44% → 64% in three days). ✅ **All three Gnasir errands are DONE**
+  (stone rose, black paint, **killing jar** — the jar finally dropped on the ~9th banshee librarian).
+  Remaining desert work: grind to 100% via Ultrahydrated cycles, plus **15 worm-riding manual pages**
+  (random desert drops; none seen yet) → sandworm riding.
+- 🚨 **THE MP ECONOMY IS THE CURRENT WALL** (the way meat was on Day 100 and initiative on Day 90).
+  **Weapon of the Pastalord = 32 MP** but **MMJ restores only ~10–12**, so quest zones stall every few
+  fights (3 stalls today). Cannelloni (8 MP) still wins in the desert but needs 2–3 casts, costing the
+  same. ⭐ **Fix to buy: Cannelloni Cocoon (guild id 12, 7,500 meat)** — and farm the **slope for free
+  Mountain Stream sodas (37 MP each)**, which is also ~80 meat/win.
 - 🏜️ **DESERT: 44% EXPLORED** (was 12%). ⭐ **Gnasir's pamphlets are the accelerator — each is ~15%
   exploration for one errand.** Delivered the **stone rose** and the **can of black paint**;
   ❗**still owed: a killing jar** (banshee librarian, Haunted Library 390 — **0 drops in 28 fights even
@@ -161,15 +170,16 @@ Crown equipped** (94).
 > once the juice runs out, win rate collapses (30W/10L with MP → 5W/15L without). **Buy ~10 MMJ every day.**
 > ⚠️ Before concluding "zone X one-shots me", confirm you entered at an honest **full HP** (stale-HP gate, see HANDOFF).
 
-> 🎯 **START HERE ON DAY 114:** ⚠️ **Meat is ~98 — open with a slope stretch (~15 fights ≈ +1,200 meat,
-> self-funds MP via soda drops) BEFORE anything else**, then EAT and buy ~25 MMJ.
-> Then: (1) **hunt the killing jar** in the Haunted Library (390) with Fat Leon's up → 3rd pamphlet
-> (+~15% desert); (2) **desert cycles** (Oasis 122 → 10 turns in 364) toward 100% → the buried pyramid;
-> (3) re-test the **Hidden City** (Hospital 342 / Office 343 / Bowling Alley 344) — base Mys is now 149
-> vs the pygmies' ML 142–150, and **Weapon of the Pastalord** wasn't available last time we measured;
-> ⚠️ **Necrotelicomnicon ON for protector spirits.**
-> (4) Long-term buy: **Cannelloni Cocoon (guild id 12, 7,500)** = free full heals, would retire the
-> tiny-house economy. **DRINK LAST: 19 + overdrink** (6 martinis + ice-cold Willer + 1 overdrink; ~1,500 meat).
+> 🎯 **START HERE ON DAY 115 — fix the MP economy first, then quest:**
+> (1) **Slope stretch (~35 fights)** → ~+2,800 meat **and a stack of free Mountain Stream sodas (37 MP)**;
+> (2) **buy Cannelloni Cocoon (guild.php POST `action=buyskill&skillid=12`, 7,500 meat)** — full heal for
+> 20 MP retires scrolls/tiny houses; then buy ~25 MMJ as usual;
+> (3) **desert to 100%**: Oasis (122) → 10 turns in 364, Cannelloni as the workhorse, Pastalord only with
+> MP to spare; watch for **worm-riding manual pages** (15 needed);
+> (4) if turns remain, re-test the **Hidden City** (Hospital 342 / Office 343 / Bowling Alley 344) — we're
+> now base Mys 154 vs pygmy ML 142–150. ⚠️ **Necrotelicomnicon ON for protector spirits.**
+> **DRINK LAST: 19 + overdrink** (6 vodka+olive martinis + ice-cold Willer + 1 overdrink; ~1,500 meat —
+> keep that in reserve, we hit 98 meat two mornings running).
 
 1. **EAT (proven, gave a 106-adv day):** pull **1 stolen sushi (6293)** — ✅ **now edible at L6, 6 fullness ≈ 13 adv,
    121 in storage** — and eat **2 sushi + 1 burrito = full 15** (we had spares in inventory; otherwise sushi + cookies).
@@ -232,6 +242,14 @@ duplicates we already owned). After 1,000 turns Hagnk's opens fully. See `mechan
 
 ## 🗓️ Session log (this run)
 
+- **Day 114 (2026-08-10): 🫙 Killing jar found → all Gnasir errands done; desert 44% → 64%; 🎉 LEVEL 13.**
+  Opened broke (98 meat), so ate the last sushi and let a 48-win slope stretch fund the day — the banked
+  adventures tipped us to **L13** en route. The **killing jar dropped on the ~9th banshee librarian**
+  (2 days of hunting, Fat Leon's up) → 3rd pamphlet → **59%**, then desert cycles → **64%**.
+  🚨 **New wall identified: the MP economy.** Pastalord costs 32 MP vs MMJ's ~10–12 restore, so we
+  stalled out of MP three times; Cannelloni (8 MP) wins too but needs 2–3 casts. Answer is the slope
+  (free 37-MP sodas + ~80 meat/win) short-term and **Cannelloni Cocoon (7,500)** long-term.
+  Base Mys 149 → **154**. Wrapped clean: full 15, drunk 19+overdrink=22, 48 adv banked, meat 1,588.
 - **Day 113 (2026-08-09): 🏜️ Desert 12% → 44% via Gnasir's pamphlets.** Found the desert accelerator:
   **Gnasir** (choice 805) trades a **sightseeing pamphlet ≈ +15% exploration** per errand. Delivered the
   **stone rose** (Oasis noncombat) and a **can of black paint** (Black Market, 1,000 meat) → two pamphlets
