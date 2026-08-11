@@ -30,10 +30,18 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 114 / 2026-08-10)
+## 📊 Character state (run #2 — end of Day 115 / 2026-08-11)
 
-- 🎉 **LEVEL 13 Pastamancer.** Base Mys **154** · **HP ~110 max**. **Meat ~1,588. adv 48 banked.**
-  full 15, drunk 22 (cap 19 + martini overdrink ✅).
+- **LEVEL 13 Pastamancer.** Base Mys **159** · **HP ~116 max**. **Meat ~5,422. adv 46 banked.**
+  full 15, drunk 22 (cap 19 + martini overdrink ✅). **5 Mountain Stream sodas** in reserve.
+- 🛠️ **Supply day (108W/0L on the slope).** Goal was **Cannelloni Cocoon (7,500)** — reached only 5,957,
+  so **it is the FIRST buy tomorrow** (we bank 5,422 + a morning slope stretch). Cocoon = full heal for
+  20 MP and retires scrolls/tiny houses. `healUp` already prefers skill **3012** when `window._cocoon`.
+- 🏜️ **Desert 68%.** ⚠️ **The Oasis appears to cap per day** — a second visit consumed no adventure and
+  granted no Ultrahydrated, so plan on roughly **one 5–10-turn hydrated window per day** and spend the
+  rest elsewhere. Still no worm-riding manual pages (0/15).
+- 📉 **Pygmy gate re-measured at base Mys 158: Hidden Hospital = 4W/3L** (was 1W/5L at 134). Real
+  progress but still a coin-flip; **wait for ~8W/1L before committing to the three remaining buildings.**
 - 🏜️ **DESERT 64% EXPLORED** (12% → 44% → 64% in three days). ✅ **All three Gnasir errands are DONE**
   (stone rose, black paint, **killing jar** — the jar finally dropped on the ~9th banshee librarian).
   Remaining desert work: grind to 100% via Ultrahydrated cycles, plus **15 worm-riding manual pages**
@@ -170,16 +178,16 @@ Crown equipped** (94).
 > once the juice runs out, win rate collapses (30W/10L with MP → 5W/15L without). **Buy ~10 MMJ every day.**
 > ⚠️ Before concluding "zone X one-shots me", confirm you entered at an honest **full HP** (stale-HP gate, see HANDOFF).
 
-> 🎯 **START HERE ON DAY 115 — fix the MP economy first, then quest:**
-> (1) **Slope stretch (~35 fights)** → ~+2,800 meat **and a stack of free Mountain Stream sodas (37 MP)**;
-> (2) **buy Cannelloni Cocoon (guild.php POST `action=buyskill&skillid=12`, 7,500 meat)** — full heal for
-> 20 MP retires scrolls/tiny houses; then buy ~25 MMJ as usual;
-> (3) **desert to 100%**: Oasis (122) → 10 turns in 364, Cannelloni as the workhorse, Pastalord only with
-> MP to spare; watch for **worm-riding manual pages** (15 needed);
-> (4) if turns remain, re-test the **Hidden City** (Hospital 342 / Office 343 / Bowling Alley 344) — we're
-> now base Mys 154 vs pygmy ML 142–150. ⚠️ **Necrotelicomnicon ON for protector spirits.**
-> **DRINK LAST: 19 + overdrink** (6 vodka+olive martinis + ice-cold Willer + 1 overdrink; ~1,500 meat —
-> keep that in reserve, we hit 98 meat two mornings running).
+> 🎯 **START HERE ON DAY 116:**
+> (1) EAT (pull sushi; milk + burrito), then **a short slope stretch (~25 fights) to clear 7,500 meat and
+> BUY CANNELLONI COCOON** (`guild.php` POST `action=buyskill&skillid=12`) — then set `window._cocoon=true`
+> so `healUp` uses skill **3012** (20 MP full heal) instead of items;
+> (2) **one desert hydration window** (Oasis 122 → ~10 turns in 364) — that's all the Oasis gives per day;
+> (3) spend the bulk of the day **levelling on the slope toward the pygmy threshold** (target ~8W/1L in the
+> Hidden Hospital; we're 4W/3L at base Mys 158) — or push the **Copperhead Club (383, ML 140–155)** as an
+> alternative quest with the new nuke;
+> (4) ⚠️ **Necrotelicomnicon ON for protector spirits** when the Hidden City finally opens up.
+> **DRINK LAST: 19 + overdrink** (6 vodka+olive martinis + ice-cold Willer + 1 overdrink; ~1,500 meat).
 
 1. **EAT (proven, gave a 106-adv day):** pull **1 stolen sushi (6293)** — ✅ **now edible at L6, 6 fullness ≈ 13 adv,
    121 in storage** — and eat **2 sushi + 1 burrito = full 15** (we had spares in inventory; otherwise sushi + cookies).
@@ -242,6 +250,13 @@ duplicates we already owned). After 1,000 turns Hagnk's opens fully. See `mechan
 
 ## 🗓️ Session log (this run)
 
+- **Day 115 (2026-08-11): 🛠️ Supply day — 108W/0L on the slope; desert 64% → 68%; pygmy gate re-measured.**
+  Deliberately spent the day fixing the MP economy rather than questing: **108 slope wins, no losses**,
+  banking **16 Mountain Stream sodas (~600 MP)** and taking meat 1,588 → 5,957 — **500 short of Cannelloni
+  Cocoon**, so that's tomorrow's first buy. Base Mys 154 → **159**. Two useful measurements: the **Oasis
+  caps per day** (a 2nd visit granted nothing and cost no adventure — expect one hydrated window daily),
+  and the **Hidden Hospital is now 4W/3L at base Mys 158** (was 1W/5L at 134) — better, but hold until
+  ~8W/1L. Wrapped clean: full 15, drunk 19+overdrink=22, 46 adv banked, **5,422 meat carried**.
 - **Day 114 (2026-08-10): 🫙 Killing jar found → all Gnasir errands done; desert 44% → 64%; 🎉 LEVEL 13.**
   Opened broke (98 meat), so ate the last sushi and let a 48-win slope stretch fund the day — the banked
   adventures tipped us to **L13** en route. The **killing jar dropped on the ~9th banshee librarian**
