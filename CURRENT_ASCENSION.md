@@ -30,18 +30,19 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 115 / 2026-08-11)
+## 📊 Character state (run #2 — end of Day 116 / 2026-08-12)
 
-- **LEVEL 13 Pastamancer.** Base Mys **159** · **HP ~116 max**. **Meat ~5,422. adv 46 banked.**
-  full 15, drunk 22 (cap 19 + martini overdrink ✅). **5 Mountain Stream sodas** in reserve.
-- 🛠️ **Supply day (108W/0L on the slope).** Goal was **Cannelloni Cocoon (7,500)** — reached only 5,957,
-  so **it is the FIRST buy tomorrow** (we bank 5,422 + a morning slope stretch). Cocoon = full heal for
-  20 MP and retires scrolls/tiny houses. `healUp` already prefers skill **3012** when `window._cocoon`.
-- 🏜️ **Desert 68%.** ⚠️ **The Oasis appears to cap per day** — a second visit consumed no adventure and
-  granted no Ultrahydrated, so plan on roughly **one 5–10-turn hydrated window per day** and spend the
-  rest elsewhere. Still no worm-riding manual pages (0/15).
-- 📉 **Pygmy gate re-measured at base Mys 158: Hidden Hospital = 4W/3L** (was 1W/5L at 134). Real
-  progress but still a coin-flip; **wait for ~8W/1L before committing to the three remaining buildings.**
+- **LEVEL 13 Pastamancer.** Base Mys **164** · **HP ~116 max**. **Meat ~1,729. adv 48 banked.**
+  full 15, drunk 22 (cap 19 + martini overdrink ✅). ~7 Mountain Stream sodas in reserve.
+- 🛡️ **CANNELLONI COCOON BOUGHT (Day 116)** — **skill 3012, 20 MP = FULL HEAL.** This retires bought
+  healing (scrolls / tiny houses) permanently. **Every loop's `healUp` should now cast 3012** (top MP to
+  ~22 first) instead of consuming items; set `window._cocoon = true` after login.
+- 🏜️ **Desert 71%.** ⚠️ Confirmed again: **the Oasis gives ONE short hydrated window per day** (4–5 usable
+  turns lately) — take it, then spend the rest of the day elsewhere. Worm-riding pages still 0/15.
+- 📈 **Pygmy gate trend: 1W/5L @ base Mys 134 → 4W/3L @ 158 → now at 164.** Keep levelling on the slope
+  until the Hidden Hospital reads ~8W/1L before committing to the three remaining buildings + spirits.
+- 💰 **Economy note:** slope ≈ +45–60 meat/win at present and reliably drops 37-MP sodas; a ~50-win day
+  funds both the daily supplies and the ~1,500-meat drink rack.
 - 🏜️ **DESERT 64% EXPLORED** (12% → 44% → 64% in three days). ✅ **All three Gnasir errands are DONE**
   (stone rose, black paint, **killing jar** — the jar finally dropped on the ~9th banshee librarian).
   Remaining desert work: grind to 100% via Ultrahydrated cycles, plus **15 worm-riding manual pages**
@@ -178,15 +179,14 @@ Crown equipped** (94).
 > once the juice runs out, win rate collapses (30W/10L with MP → 5W/15L without). **Buy ~10 MMJ every day.**
 > ⚠️ Before concluding "zone X one-shots me", confirm you entered at an honest **full HP** (stale-HP gate, see HANDOFF).
 
-> 🎯 **START HERE ON DAY 116:**
-> (1) EAT (pull sushi; milk + burrito), then **a short slope stretch (~25 fights) to clear 7,500 meat and
-> BUY CANNELLONI COCOON** (`guild.php` POST `action=buyskill&skillid=12`) — then set `window._cocoon=true`
-> so `healUp` uses skill **3012** (20 MP full heal) instead of items;
-> (2) **one desert hydration window** (Oasis 122 → ~10 turns in 364) — that's all the Oasis gives per day;
-> (3) spend the bulk of the day **levelling on the slope toward the pygmy threshold** (target ~8W/1L in the
-> Hidden Hospital; we're 4W/3L at base Mys 158) — or push the **Copperhead Club (383, ML 140–155)** as an
-> alternative quest with the new nuke;
-> (4) ⚠️ **Necrotelicomnicon ON for protector spirits** when the Hidden City finally opens up.
+> 🎯 **START HERE ON DAY 117:** login → **set `window._cocoon = true`** (we own skill 3012) so healing is
+> free. EAT (pull sushi; milk + burrito). Then:
+> (1) **take the day's desert window** early (Oasis 122 → 364 until dry) — desert is at 71%;
+> (2) **re-test the Hidden Hospital (342)** for ~10 fights at base Mys 164 and record W/L. **If ≥8W/1L,
+> commit**: clear Hospital → Office 343 (5 McClusky pages off witch accountants) → Bowling Alley 344,
+> ⚠️ **Necrotelicomnicon ON for each protector spirit** (physically immune, elementally vulnerable);
+> (3) otherwise fall back to the slope for meat + levels and retest tomorrow;
+> (4) optional alternative quest: **Copperhead Club (383, ML 140–155)**, password **swordfish**.
 > **DRINK LAST: 19 + overdrink** (6 vodka+olive martinis + ice-cold Willer + 1 overdrink; ~1,500 meat).
 
 1. **EAT (proven, gave a 106-adv day):** pull **1 stolen sushi (6293)** — ✅ **now edible at L6, 6 fullness ≈ 13 adv,
@@ -250,6 +250,12 @@ duplicates we already owned). After 1,000 turns Hagnk's opens fully. See `mechan
 
 ## 🗓️ Session log (this run)
 
+- **Day 116 (2026-08-12): 🛡️ CANNELLONI COCOON BOUGHT — bought healing is retired.** Farmed the slope to
+  7,500 (56 wins, no losses) and bought **skill 3012: 20 MP for a full heal**, ending 116 days of paying
+  retail for scrolls and tiny houses. Took the day's single desert window (**68% → 71%**; hydration ran
+  out after 4 turns, confirming the daily cap), then spent the rest levelling: **another 55 slope wins,
+  zero losses**, base Mys 159 → **164** (30 points in three days). Wrapped clean: full 15,
+  drunk 19+overdrink=22, 48 adv banked, 1,729 meat.
 - **Day 115 (2026-08-11): 🛠️ Supply day — 108W/0L on the slope; desert 64% → 68%; pygmy gate re-measured.**
   Deliberately spent the day fixing the MP economy rather than questing: **108 slope wins, no losses**,
   banking **16 Mountain Stream sodas (~600 MP)** and taking meat 1,588 → 5,957 — **500 short of Cannelloni
