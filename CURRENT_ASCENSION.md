@@ -30,135 +30,21 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 116 / 2026-08-12)
+## 📊 Character state (run #2 — end of Day 117 / 2026-08-13)
 
-- **LEVEL 13 Pastamancer.** Base Mys **164** · **HP ~116 max**. **Meat ~1,729. adv 48 banked.**
-  full 15, drunk 22 (cap 19 + martini overdrink ✅). ~7 Mountain Stream sodas in reserve.
-- 🛡️ **CANNELLONI COCOON BOUGHT (Day 116)** — **skill 3012, 20 MP = FULL HEAL.** This retires bought
-  healing (scrolls / tiny houses) permanently. **Every loop's `healUp` should now cast 3012** (top MP to
-  ~22 first) instead of consuming items; set `window._cocoon = true` after login.
-- 🏜️ **Desert 71%.** ⚠️ Confirmed again: **the Oasis gives ONE short hydrated window per day** (4–5 usable
-  turns lately) — take it, then spend the rest of the day elsewhere. Worm-riding pages still 0/15.
-- 📈 **Pygmy gate trend: 1W/5L @ base Mys 134 → 4W/3L @ 158 → now at 164.** Keep levelling on the slope
-  until the Hidden Hospital reads ~8W/1L before committing to the three remaining buildings + spirits.
-- 💰 **Economy note:** slope ≈ +45–60 meat/win at present and reliably drops 37-MP sodas; a ~50-win day
-  funds both the daily supplies and the ~1,500-meat drink rack.
-- 🏜️ **DESERT 64% EXPLORED** (12% → 44% → 64% in three days). ✅ **All three Gnasir errands are DONE**
-  (stone rose, black paint, **killing jar** — the jar finally dropped on the ~9th banshee librarian).
-  Remaining desert work: grind to 100% via Ultrahydrated cycles, plus **15 worm-riding manual pages**
-  (random desert drops; none seen yet) → sandworm riding.
-- 🚨 **THE MP ECONOMY IS THE CURRENT WALL** (the way meat was on Day 100 and initiative on Day 90).
-  **Weapon of the Pastalord = 32 MP** but **MMJ restores only ~10–12**, so quest zones stall every few
-  fights (3 stalls today). Cannelloni (8 MP) still wins in the desert but needs 2–3 casts, costing the
-  same. ⭐ **Fix to buy: Cannelloni Cocoon (guild id 12, 7,500 meat)** — and farm the **slope for free
-  Mountain Stream sodas (37 MP each)**, which is also ~80 meat/win.
-- 🏜️ **DESERT: 44% EXPLORED** (was 12%). ⭐ **Gnasir's pamphlets are the accelerator — each is ~15%
-  exploration for one errand.** Delivered the **stone rose** and the **can of black paint**;
-  ❗**still owed: a killing jar** (banshee librarian, Haunted Library 390 — **0 drops in 28 fights even
-  with Fat Leon's**, so budget a real hunt) **and 15 worm-riding manual pages**.
-  Full mechanics (Ultrahydrated loop, `alt='(N% explored)'` parse, choice 805): `mechanics/macguffin-quest.md`.
-- 💧 **MP IS NOW THE DAILY BOTTLENECK.** Weapon of the Pastalord = **32 MP/cast**, roughly doubling the
-  juice bill; we stalled out of MP **three times** today. **Buy ~25 MMJ + keep sodas/tiny houses (~3,000
-  meat) before questing**, and treat the eXtreme Slope as the recovery zone (drops 37-MP sodas, ~80 meat/win).
-- ⚔️⚔️ **NEW SKILLS — THE BIGGEST POWER JUMP OF THE RUN (Day 112).** The guild trainer had been
-  stocking level-appropriate spells for weeks and we never checked. Bought **Utensil Twist (125)**,
-  **Transcendent Al Dente (250)** and **⭐ Weapon of the Pastalord (5,000; cast id 3008, 32 MP)**.
-  Effect: the **ML ~140 desert went 11W/0L** immediately, having been unfightable the day before.
-  ▶ **Save for: Cannelloni Cocoon (id 12, 7,500 = free full heal) and Spirit of Rigatoni (id 11, 2,500).**
-  **New combat standard for hard zones: Weapon of the Pastalord (3008) when MP ≥ 32, else Cannelloni.**
-- 🏜️ **JUST DESERTS STARTED: the Arid Extra-Dry Desert (364) is now farmable — 12% explored.**
-  Progress only counts while **Ultrahydrated** (10 turns at a time from **An Oasis, snarf 122**);
-  **Gnasir's Place** has appeared on Desert Beach (the NPC who speeds exploration — research him next).
-- 🔮 **HIDDEN CITY: 1 of 4 stone spheres** — the **Apartment Building ("Curses!") is DONE** (Day 111).
-  🚨 **Protector spirits are PHYSICALLY IMMUNE but take elemental damage** ⇒ **equip the
-  Necrotelicomnicon (2494)** for them (the exact opposite of the Bonerdagon, where it had to come off).
-  Remaining: **Doctor!** (Hospital 342) · **Serious Business** (McClusky file, Office 343) ·
-  **Oh, Spare Me** (Bowling Alley 344). Details: `mechanics/macguffin-quest.md`.
-- 🚨 **HIDDEN CITY LEVEL GATE (measured): pygmies are ML 142–150 / ~150 HP and we went 1W/5L at base
-  Mys 134.** They hit ~45 vs our ~101 max HP. **Do not grind the buildings below base Mys ~150.**
-  The eXtreme Slope (273) is still 100% safe (**104W/0L today**) and meat-positive — level there first.
-- 👁️ Spookyraven Manor complete (Eye of Ed, Day 110). MacGuffin still needs: Hidden City ×3 spheres,
-  **Just Deserts** (desert/pyramid), **Of Mice and Shen** (Copperhead, password **swordfish**),
-  the **Palindome** "Staff of Fats", plus the L10 **castle kitchen counter**.
-- 💰 **Economy:** slope ≈ +80 meat/fight and self-funds MP via soda drops; **tiny houses (592, ~214) are
-  the HP/MP battery + Beaten-Up cure**. Buy ~20 MMJ + ~12 tiny houses each morning (~3,000 meat).
-- ⚰️ **CYRPT: NOOK CLEARED (0 evil) — boss giant skeelton killed Day 104.** 150 evil left:
-  **Alcove 50 · Cranny 50 · Niche 50.** Pattern that works: Smothers blessing (once/day, 20 advs) →
-  ~16 blessed fights ≈ 100% win → boss spawns at ≤13 evil. **MP burn is ~2 MMJ/fight — bring 15+ MMJ
-  per window.** Resume with the Niche or Cranny tomorrow.
-- 🏰 **CASTLE GROUND FLOOR (323) UNLOCKED (Day 104):** basement route = grab **massive dumbbell**
-  (choice 670 opt 1) → noncombat **"Out in the Open Source" (669) opt 1 = dumbwaiter** → Ground Floor.
-  ("Fast and the Furry-ous" 671 opt 1 chains into 669 free without an umbrella.) Basement giants
-  (ML ~100–105): 9W/1L with Entangle→Mortar→Cannelloni + Buffy shells. ⚠️ **Ground floor (ML ~112,
-  Possibility Giant) beat us 3 times (5W/3L) — wait for L11.** Quest step: "get on top of the kitchen
-  counter". Top Floor still locked. 📌 For the top-floor mirror step: **amulet of extreme plot
-  significance** drops from the Airship's **Quiet Healer** (ML ~90 — hard fights).
-- 🏔️ **TRAPPER QUEST COMPLETE (Day 103):** eXtreme gear was in Hagnk's (scarf 355/pants 356/mittens 399,
-  outfit 7) → slope noncombat chain (turns 1/9/17) → peak (`action=cloudypeak2`) → 3 yetis → **GROAR KILLED**
-  (attempt 2, with Buffy shells + Entangle/Mortar/Cannelloni; spooky-tuned Cannelloni exploits his weakness).
-  Reward: **fuzzy earmuffs** + 5 dense meat stacks (sold 5,000). Full walkthrough: `mechanics/trapper-mclargehuge-quest.md`.
-- 🌱 **L10 QUEST UNDERWAY:** beanstalk planted (bean 186 from storage — 2 more there), Airship's 4 Spirits
-  delivered to El Cid (choice 681) → **S.O.C.K. acquired → Giant Castle (322/323/324) now reachable.**
-  ⚠️ **The Airship deck is ML 90–100** (see HANDOFF) — castle basement likely similar; treat as hard fights, full prep.
-- ⚰️ **Cyrpt: 178 evil left** (Alcove 50 · Cranny 50 · Niche 50 · **Nook 28**). The Smothers blessing
-  (once/day, 20 advs) is the daily window; blessed Nook fights ~near-100% win, unblessed = spiral.
-  Nook choice 155: opt 2 gave 230 meat (outcomes random). No evil eyes dropped yet (0/13 kills, even with Fat Leon's).
-- 🎉🎉 **RONIN IS OVER (roninleft=0, day 16).** The meat/MP bottleneck that dominated Days 88–101 is **SOLVED:**
-  - **Hagnk's fully open — UNLIMITED free pulls.** Stocked from storage: **tiny houses (592) = FREE MP** (~23 MP,
-    no meat — REPLACES buying MMJ; backstage went **43W/0L** on them), **105 sushi (6293)**, scrolls (595), etc.
-    Storage still holds **10 tiny houses + 105 sushi** + run-#1's 400-item estate. **Pull more tiny houses each day.**
-  - **Mall buys now go to inventory / spend inventory meat** normally (no Hagnk's-purse detour).
-  - ⇒ **Farm any high-ML zone freely now** (backstage 243 = ~10 raw mys/turn at ~100% win with tiny-house MP).
-- ⭐⭐ **LIVER OF STEEL EARNED — drink cap is now 19 (was 14).** Completed the entire Azazel quest (all 3 talismans →
-  steel margarita → drank it). **~+9 adventures/day from booze for the rest of this run.** Full walkthrough now in
-  `mechanics/friars-blessings.md`. **Fill to 19 (not 14) at day-end, then one overdrink.**
-- 💰 **Economy loop:** sell vendor trash via `sellstuff_ugly.php` (**build ID→name map from `inventory.php` first**).
-  ⚠️ Most big junk stacks are now gone — the sustainable engine is the **Haunted Kitchen (388) on 0-MP Spaghetti
-  Spear** (meat-POSITIVE, no juice: ~+40 meat/win, ~5 mys/turn, near-100% win). Use it to fund MMJ for harder zones.
-  **KEEP the 67 ten-leaf clovers (24).**
-- ⭐ **Necrotelicomnicon (item 2494) equipped as OFF-HAND** — **+10 Spell Damage**, tunes pasta to Spooky.
-  ⚠️ It's an off-hand, so it requires a **1-handed weapon**: we swapped the 2H **pool cue → 1H pasta spoon (5)**.
-  (Re-equip the cue only for pool games.) ⚠️ **Nearly sold it as junk for 2,000 meat — it's a class item, keep it.**
-- ⭐ **Crown of the Goblin King (313) equipped.**
-- **Equipment:** Crown (313) · pasta spoon (5, 1H) · **Necrotelicomnicon (2494, offhand)** · sweatpants (4711) ·
-  Baron's monocle (1312) · air freshener (556) · batskin belt (191) · familiar Marcellus.
-- **Equipped:** **Crown of the Goblin King (313)** · **pool cue (1793, 2H, +3 pool skill / +3 Moxie)** ·
-  old sweatpants (4711) · Baron's monocle (1312) · Pine-Fresh air freshener (556) · batskin belt (191) ·
-  familiar Marcellus. (Astral chapeau 5030 now spare; swap the cue for the pasta spoon if a 1H is ever needed.)
-- **Consumables ready for Day 94:** 14 magical mystery juice (518), ~11 fortune cookies (61), **4 soda water (1003)**,
-  and **3 pre-mixed cocktails** (tequila sunrise 1012, whiskey and soda, wine spritzer — ~5–6 adv each).
-  Booze in storage to pull 1/day: vodka 238, tequila 1004, whiskey 328, boxed wine 1005.
-- ⭐ **NEW: Queue Du Coq cocktailcrafting kit INSTALLED** (1,000 meat, funded by selling 2 dense meat stacks).
-  **Mixing normal cocktails is FREE (0 adventures)** and turns a 3-adv bottle into a **5–6 adv** drink.
-  **Mix every bottle with soda water before drinking, every day.** Full strategy: `mechanics/drinking-strategy.md`.
-- ✅ **Liver of Steel EARNED (Day 99): drink cap is 19.** At day-end **read the cap from charpane `Tipsiness: X / Y`,
-  fill to Y (=19 this run), then ONE overdrink** — never stop at 14.
-- ✅ **THE INITIATIVE BLOCKER IS SOLVED: we have Springy Fusilli (3015).** Cast it (10 MP, **lasts 10 adventures**)
-  and we act first → stun → zero damage. It turned a guaranteed loss vs the Goblin King into a 3-round win.
-  **Keep it up during any hard fight.** Remaining softness: **20 max HP** is still low — grow Muscle.
-- 🎯 **Next gear goal: 20 base MOXIE** (we have 14) to equip the **Crown of the Goblin King (313, 70-power hat)**
-  sitting unused in inventory. Moxie also = initiative, so this is doubly valuable. The **Limerick Dungeon (19)**
-  feeds Moxie safely.
-- **Equipped:** astral chapeau (5030) · pasta spoon (5) · old sweatpants (4711) · **Baron von Ratsworth's monocle
-  (1312, +item)** · **Pine-Fresh air freshener (556, +1 stench res)** · **batskin belt (191, acc3 — gave +3 max HP)** ·
-  **familiar = Marcellus the Mosquito** (⚠️ terrarium **empty**; no swap available). All 3 accessory slots now full.
-  ⚠️ The **Harem disguise (veil 306 / pants 305) is Power-10 junk armor** — wear only for the Treasury payoff.
-- ✅ **FULL MEMBER of the League of Chef-Magi** (Day 89 — tamed the poltersandwich). **Guild fully unlocked.**
-- **Known combat skills:** **Springy Fusilli (3015, 10 MP, +init, 10 advs) ⭐** · **Cannelloni Cannon (3005, 8 MP —
-  main nuke)** · **Entangling Noodles (3004, 3 MP stun)** · **Ravioli Shurikens (3003, 4 MP — MP-cheap nuke)** ·
-  **Lasagna Bandages (3009, 6 MP heal — out of combat via `runskillz.php`)** · Spaghetti Spear (3020, 0 MP fallback) ·
-  Manicotti Meditation (3000) · permed Pastamastery (3006, daily).
-- **Buyable next at Brie** (`guild.php?place=trainer`, cost rises steeply by skill level — L5 = 1,250, L6 = 1,750):
-  Bind Vermincelli (L5, 1,250) · Bringing Up the Rear (L6, 1,750) · **Spirit of Rigatoni (L7 — chefstaves)** ·
-  Transcendent Al Dente (250) · Utensil Twist (125).
-- **Consumables:** ~4 MMJ (518 — guild store row 527 @100 meat; **buy ~10/day, MP is the real limiter**),
-  4 fortune cookies (61), 15 dry noodles, **2 harem veils / 3 harem pants / 0 perfume** (⚠️ perfume used — farm
-  more in the Harem if the Treasury payoff is wanted), **2 porquoise (706) left @500 meat autosell = emergency cash**.
-  No tiny houses (592)/scrolls (595) — **Lasagna Bandages is the heal**; **campground rest clears Beaten Up**.
-- **In Hagnk's** (⚠️ **only 1 of each item per day**; meat is exempt — see `mechanics/ronin-softcore-rules.md`):
-  **121 stolen sushi (✅ NOW EDIBLE at L6 — 6 fullness, ~12 adv; pull 1/day)**, **1 insanely spicy bean burrito (316)**,
-  **8 sonars (563)**, 3 air fresheners (556), 22 MMJ (518), + last run's 400+ item types.
-  **Hagnk's meat ≈ 0** (drained it — it's a *separate purse* that mall buys spend).
+- **LEVEL 13 Pastamancer.** Base Mys **169** · **HP ~120 max** · MP 246 max. **Meat ~2,358. adv 48
+  banked.** full 15, drunk 22 (cap 19 + martini overdrink ✅).
+- ⚔️ **NEW SKILLS: Bind Vampieroghi (cast id 3027) + Bringing Up the Rear (passive).** The passive
+  boosts all pasta spell damage **while a thrall is active**, so **summon the Vampieroghi FIRST each
+  day, while MP is full** (the summon is expensive — we bought both skills then had no MP left to use
+  them, wasting the retest).
+- 🛡️ Cannelloni Cocoon (3012, 20 MP full heal) in use — bought healing is retired.
+- 📈 **Pygmy gate trend: 1W/5L @134 → 4W/3L @158 → 6W/3L @164 (Day 117).** Still short of the ~8W/1L
+  commit threshold. 🚨 **The real limiter is MP, not survival:** ~80 MP per pygmy (32–64 nuke + 20
+  cocoon) against a 246 pool and ~12 MP per juice ⇒ ~4 fights per bar. Either raise damage further or
+  find a bigger MP source before committing to the three remaining buildings.
+- 🏜️ **Desert 74%** (+3/day — the Oasis gives one ~4-turn hydrated window daily). Worm pages 0/15.
+- 💰 Slope stays the engine: **103W/0L today**, ~+50 meat/win, drops 37-MP sodas.
 
 ---
 
@@ -179,14 +65,13 @@ Crown equipped** (94).
 > once the juice runs out, win rate collapses (30W/10L with MP → 5W/15L without). **Buy ~10 MMJ every day.**
 > ⚠️ Before concluding "zone X one-shots me", confirm you entered at an honest **full HP** (stale-HP gate, see HANDOFF).
 
-> 🎯 **START HERE ON DAY 117:** login → **set `window._cocoon = true`** (we own skill 3012) so healing is
-> free. EAT (pull sushi; milk + burrito). Then:
-> (1) **take the day's desert window** early (Oasis 122 → 364 until dry) — desert is at 71%;
-> (2) **re-test the Hidden Hospital (342)** for ~10 fights at base Mys 164 and record W/L. **If ≥8W/1L,
-> commit**: clear Hospital → Office 343 (5 McClusky pages off witch accountants) → Bowling Alley 344,
-> ⚠️ **Necrotelicomnicon ON for each protector spirit** (physically immune, elementally vulnerable);
-> (3) otherwise fall back to the slope for meat + levels and retest tomorrow;
-> (4) optional alternative quest: **Copperhead Club (383, ML 140–155)**, password **swordfish**.
+> 🎯 **START HERE ON DAY 118:** login → `window._cocoon = true`. EAT (pull sushi; milk + burrito).
+> (1) ⭐ **FIRST ACTION: top MP and cast Bind Vampieroghi (3027)** — the thrall powers *Bringing Up the
+> Rear*, and the summon is too expensive to fit in later;
+> (2) **take the desert window** (Oasis 122 → 364 until dry) — 74%, ~3%/day;
+> (3) **retest the Hidden Hospital (342)** with the thrall up; **commit only at ~8W/1L**, and expect MP
+> to be the limit (~80 MP/pygmy) — buy 25+ MMJ and hoard slope sodas beforehand;
+> (4) otherwise slope for meat/levels. ⚠️ **Necrotelicomnicon ON for protector spirits.**
 > **DRINK LAST: 19 + overdrink** (6 vodka+olive martinis + ice-cold Willer + 1 overdrink; ~1,500 meat).
 
 1. **EAT (proven, gave a 106-adv day):** pull **1 stolen sushi (6293)** — ✅ **now edible at L6, 6 fullness ≈ 13 adv,
@@ -249,6 +134,14 @@ duplicates we already owned). After 1,000 turns Hagnk's opens fully. See `mechan
 ---
 
 ## 🗓️ Session log (this run)
+
+- **Day 117 (2026-08-13): Damage package bought (thrall + passive); desert 74%; hospital 6W/3L.**
+  Took the desert's daily window (71% → **74%**), then measured the Hidden Hospital at base Mys 164
+  with cocoon healing: **6W/3L** (trend 1W/5L → 4W/3L → 6W/3L). Diagnosed the true limiter as **MP, not
+  survivability** — ~80 MP per pygmy vs a 246 pool. Bought **Bind Vampieroghi (3027)** and **Bringing Up
+  the Rear** (pasta damage passive that needs an active thrall); ⚠️ summoned the thrall only after
+  spending everything, so the retest died on an empty bar — **summon first thing tomorrow**.
+  Slope: **103W/0L**, base Mys 164 → **169**. Wrapped clean: full 15, drunk 19+overdrink=22, 48 adv banked.
 
 - **Day 116 (2026-08-12): 🛡️ CANNELLONI COCOON BOUGHT — bought healing is retired.** Farmed the slope to
   7,500 (56 wins, no losses) and bought **skill 3012: 20 MP for a full heal**, ending 116 days of paying
