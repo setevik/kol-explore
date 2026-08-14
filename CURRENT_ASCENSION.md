@@ -30,21 +30,24 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 117 / 2026-08-13)
+## 📊 Character state (run #2 — end of Day 118 / 2026-08-14)
 
-- **LEVEL 13 Pastamancer.** Base Mys **169** · **HP ~120 max** · MP 246 max. **Meat ~2,358. adv 48
-  banked.** full 15, drunk 22 (cap 19 + martini overdrink ✅).
-- ⚔️ **NEW SKILLS: Bind Vampieroghi (cast id 3027) + Bringing Up the Rear (passive).** The passive
-  boosts all pasta spell damage **while a thrall is active**, so **summon the Vampieroghi FIRST each
-  day, while MP is full** (the summon is expensive — we bought both skills then had no MP left to use
-  them, wasting the retest).
-- 🛡️ Cannelloni Cocoon (3012, 20 MP full heal) in use — bought healing is retired.
-- 📈 **Pygmy gate trend: 1W/5L @134 → 4W/3L @158 → 6W/3L @164 (Day 117).** Still short of the ~8W/1L
-  commit threshold. 🚨 **The real limiter is MP, not survival:** ~80 MP per pygmy (32–64 nuke + 20
-  cocoon) against a 246 pool and ~12 MP per juice ⇒ ~4 fights per bar. Either raise damage further or
-  find a bigger MP source before committing to the three remaining buildings.
-- 🏜️ **Desert 74%** (+3/day — the Oasis gives one ~4-turn hydrated window daily). Worm pages 0/15.
-- 💰 Slope stays the engine: **103W/0L today**, ~+50 meat/win, drops 37-MP sodas.
+- **LEVEL 13 Pastamancer.** Base Mys **174** · HP ~120 max · MP ~254. **Meat ~3,493. adv 50 banked.**
+  full 15, drunk 22 (cap 19 + martini overdrink ✅).
+- ⭐⭐ **THE PYGMY GATE IS BROKEN — by the thrall package, not by levels.** With **Bind Vampieroghi
+  (3027) summoned first thing** + the **Bringing Up the Rear** passive, the Hidden Hospital went
+  **11W/1L** (was 6W/3L yesterday at the same stats) and the Office **13W/1L on cheap Cannelloni**.
+  **Summon the thrall while MP is full, before anything else, every day.**
+- 🏙️ **Hidden City: 2 of 4 buildings cleared.** Apartment ✅ · **Hospital ✅ (Day 118)** ·
+  **Office = file assembled, spirit still alive** · Bowling Alley untouched.
+  **McClusky file:** 5 pages off pygmy witch accountants (choice **786 → "Pick a fight with a cubicle
+  drone"** spawns one on demand; **"Raid the supply cabinet"** gives the **boring binder clip** once).
+  ⚠️ Pages don't craft — **`inv_use` the binder clip (6694)** to bind them.
+- 🚨 **TWO COMBAT LESSONS (cost 3 losses):** (a) **Weapon of the Pastalord is PHYSICAL** and does nothing
+  to the physically-immune protector spirits — **use Cannelloni (3005) + Necrotelicomnicon ONLY** on them;
+  (b) **our loops logged those losses as WINS** (the spirit's defeat text doesn't match our loss regex) —
+  **always confirm a boss kill via HP/Beaten Up or the quest log.**
+- 🏜️ Desert **74%** (not advanced today). Worm-riding pages 0/15.
 
 ---
 
@@ -65,14 +68,15 @@ Crown equipped** (94).
 > once the juice runs out, win rate collapses (30W/10L with MP → 5W/15L without). **Buy ~10 MMJ every day.**
 > ⚠️ Before concluding "zone X one-shots me", confirm you entered at an honest **full HP** (stale-HP gate, see HANDOFF).
 
-> 🎯 **START HERE ON DAY 118:** login → `window._cocoon = true`. EAT (pull sushi; milk + burrito).
-> (1) ⭐ **FIRST ACTION: top MP and cast Bind Vampieroghi (3027)** — the thrall powers *Bringing Up the
-> Rear*, and the summon is too expensive to fit in later;
-> (2) **take the desert window** (Oasis 122 → 364 until dry) — 74%, ~3%/day;
-> (3) **retest the Hidden Hospital (342)** with the thrall up; **commit only at ~8W/1L**, and expect MP
-> to be the limit (~80 MP/pygmy) — buy 25+ MMJ and hoard slope sodas beforehand;
-> (4) otherwise slope for meat/levels. ⚠️ **Necrotelicomnicon ON for protector spirits.**
-> **DRINK LAST: 19 + overdrink** (6 vodka+olive martinis + ice-cold Willer + 1 overdrink; ~1,500 meat).
+> 🎯 **START HERE ON DAY 119:** login → `window._cocoon = true`; **FIRST ACTION: top MP and cast Bind
+> Vampieroghi (3027)**, then EAT. Then:
+> (1) **Finish the Office spirit** — `adventure.php?snarfblat=343` until choice **786 → "Knock on the
+> boss's office door"**, fighting with **Necrotelicomnicon equipped and CANNELLONI (3005) ONLY**
+> (Pastalord is physical and useless there). **Verify the kill via the quest log, not the fight text.**
+> (2) **Bowling Alley (344)** — "Oh, Spare Me"; research what it needs before grinding.
+> (3) Take the **desert window** (Oasis 122 → 364) — 74%.
+> (4) Leftovers → slope for meat/levels (it funds ~1,500-meat drink rack + MMJ).
+> **DRINK LAST: 19 + overdrink** (6 vodka+olive martinis + ice-cold Willer + 1 overdrink).
 
 1. **EAT (proven, gave a 106-adv day):** pull **1 stolen sushi (6293)** — ✅ **now edible at L6, 6 fullness ≈ 13 adv,
    121 in storage** — and eat **2 sushi + 1 burrito = full 15** (we had spares in inventory; otherwise sushi + cookies).
@@ -134,6 +138,16 @@ duplicates we already owned). After 1,000 turns Hagnk's opens fully. See `mechan
 ---
 
 ## 🗓️ Session log (this run)
+
+- **Day 118 (2026-08-14): ⭐ Pygmy gate BROKEN (11W/1L) — Hospital cleared, McClusky file assembled.**
+  Summoned the thrall **first**, and the Hidden Hospital immediately went **11W/1L** (6W/3L the day
+  before at identical stats) → **"Doctor!" complete**. Office: farmed the 5 **McClusky pages** off witch
+  accountants (choice 786 "pick a fight" spawns them; "raid the supply cabinet" yields the **boring
+  binder clip**), and found the pages **don't craft — `inv_use` the clip** to bind them. ⚠️ Then lost
+  **3 fights to the Office protector spirit while logging them as wins**: **Weapon of the Pastalord is
+  physical** and the spirits are physically immune — Cannelloni-only next time — and our loops can't
+  read that monster's defeat text. Also proved **cheap Cannelloni + thrall (13W/1L) beats the 32-MP
+  nuke** on MP efficiency. Slope 34W/0L; base Mys 169 → **174**. Clean wrap: full 15, drunk 22, 50 adv banked.
 
 - **Day 117 (2026-08-13): Damage package bought (thrall + passive); desert 74%; hospital 6W/3L.**
   Took the desert's daily window (71% → **74%**), then measured the Hidden Hospital at base Mys 164

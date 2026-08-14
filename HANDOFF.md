@@ -112,6 +112,18 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
   is the main nuke. Most zone monsters die in ~2 rounds with MP topped.
 - **Bosses (ramp/tank):** enter at FULL HP (scroll 595) + FULL MP (tiny houses), **Mortar → Cannelloni every round**,
   heal only under ~35% HP. Turtling loses to ramping bosses (e.g. "The Man") — it's a DPS race. Torpedoes (630) in reserve.
+- 🚨 **NEVER CONFIRM A BOSS KILL FROM THE WIN-STRING ALONE — CHECK HP / Beaten Up / the quest log.**
+  Day 118: two straight losses to an ancient protector spirit were logged as **WINS** because its defeat
+  text doesn't match `/You lose the fight|black out|slink away/`. The tell was HP 0 + Beaten Up afterwards.
+  ✅ After any boss attempt, read `api.php` HP and the charpane, or re-read `questlog.php`, before believing it.
+- ⚔️ **Weapon of the Pastalord (3008) is PHYSICAL** — it does nothing to physically-immune monsters
+  (ancient protector spirits). Against those, use **Cannelloni (3005) with an element-tuning off-hand**.
+  Corollary: the big nuke is not universally better; match the damage type to the target.
+- 🍝 **Pasta thralls are a damage multiplier, not a gimmick.** **Bind Vampieroghi (3027)** + the
+  **Bringing Up the Rear** passive took the ML-150 Hidden Hospital from 6W/3L to **11W/1L** at unchanged
+  stats. **Summon the thrall first thing each day while MP is full**, and re-summon when the charpane
+  stops listing it. With a thrall up, cheap **Cannelloni beats the expensive nuke on MP efficiency**
+  (13W/1L in the Office at 8 MP/cast vs 32).
 - 🚨 **CHECK THE BOSS'S ELEMENT BEFORE YOU FIGHT — a damage-tuning off-hand can HALVE your damage.**
   The **Necrotelicomnicon (2494)** re-tunes all pasta to **Spooky**; against the **Bonerdagon** (spooky-resistant)
   that turned a 4-round untouched win into an 11-round loss. **Unequip element-tuning gear when the target

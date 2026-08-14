@@ -132,3 +132,31 @@ Killed the Apartment spirit in ~3 casts at base Mys 134. Needs a 1-handed weapon
   old juice bill. Buy ~25 MMJ **and** keep tiny houses/sodas, or you will stall mid-crossing (happened
   three times on Day 113). The eXtreme Slope remains the recovery zone — it drops **Mountain Stream
   sodas (37 MP)** and pays ~80 meat/fight.
+
+
+## Hidden City — Day 118 findings (2 of 4 buildings down)
+
+⭐⭐ **THE PYGMY GATE IS BROKEN BY THE THRALL PACKAGE, NOT BY LEVELS.**
+**Bind Vampieroghi (cast 3027) + the Bringing Up the Rear passive** took the Hidden Hospital from
+**6W/3L to 11W/1L overnight** at the same base Mys. ⚠️ **Summon the thrall FIRST THING each day, while
+MP is full** — the summon is expensive, and the passive does nothing without an active thrall.
+Re-summon whenever the charpane stops showing "Vampieroghi".
+
+💧 **Use plain Cannelloni (8 MP), not Weapon of the Pastalord (32 MP), as the workhorse here.** With the
+thrall up, cheap Cannelloni went **13W/1L** in the Office — 4× more turns per MP bar than the big nuke.
+
+- **Hidden Hospital (342) — "Doctor!" ✅ DONE Day 118.**
+- **Hidden Office Building (343) — "Serious Business":** the boss door needs the **McClusky file**.
+  - **5 pages** drop from **pygmy witch accountants** (also in the Apartment). Choice **786 "Working
+    Holiday"** fires every ~5 encounters: **"Pick a fight with a cubicle drone" spawns a witch
+    accountant on demand** — that's the page farm. **"Raid the supply cabinet" gives the *boring binder
+    clip* the first time.**
+  - 🚨 **The pages do NOT craft together** (`craft.php` says "don't combine"). ✅ **`inv_use` the boring
+    binder clip (6694)** → *"You clip together the disparate pages"* → **McClusky file (complete)**.
+  - Then 786 → **"Knock on the boss's office door"** → the protector spirit.
+- 🚨🚨 **THE SPIRITS ARE PHYSICALLY IMMUNE — AND *WEAPON OF THE PASTALORD* IS PHYSICAL.** Day 118 we
+  attacked the Office spirit with Pastalord (with the Necrotelicomnicon equipped) and **lost twice**.
+  ✅ **Against any ancient protector spirit: Necrotelicomnicon equipped + CANNELLONI (3005) ONLY.**
+- ⚠️ **Loop bug worth remembering: our fight loops reported those two losses as WINS.** The spirit's
+  defeat text doesn't match `/You lose the fight|black out|slink away/`. **Verify boss outcomes by
+  checking HP/Beaten Up or the quest log afterwards**, never by the win-string alone.
