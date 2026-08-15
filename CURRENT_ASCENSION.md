@@ -30,26 +30,23 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 118 / 2026-08-14)
+## 📊 Character state (run #2 — end of Day 119 / 2026-08-15)
 
-- **LEVEL 13 Pastamancer.** Base Mys **174** · HP ~120 max · MP ~254. **Meat ~3,493. adv 50 banked.**
-  full 15, drunk 22 (cap 19 + martini overdrink ✅).
-- ⭐⭐ **THE PYGMY GATE IS BROKEN — by the thrall package, not by levels.** With **Bind Vampieroghi
-  (3027) summoned first thing** + the **Bringing Up the Rear** passive, the Hidden Hospital went
-  **11W/1L** (was 6W/3L yesterday at the same stats) and the Office **13W/1L on cheap Cannelloni**.
-  **Summon the thrall while MP is full, before anything else, every day.**
-- 🏙️ **Hidden City: 2 of 4 buildings cleared.** Apartment ✅ · **Hospital ✅ (Day 118)** ·
-  **Office = file assembled, spirit still alive** · Bowling Alley untouched.
-  **McClusky file:** 5 pages off pygmy witch accountants (choice **786 → "Pick a fight with a cubicle
-  drone"** spawns one on demand; **"Raid the supply cabinet"** gives the **boring binder clip** once).
-  ⚠️ Pages don't craft — **`inv_use` the binder clip (6694)** to bind them.
-- 🚨 **TWO COMBAT LESSONS (cost 3 losses):** (a) **Weapon of the Pastalord is PHYSICAL** and does nothing
-  to the physically-immune protector spirits — **use Cannelloni (3005) + Necrotelicomnicon ONLY** on them;
-  (b) **our loops logged those losses as WINS** (the spirit's defeat text doesn't match our loss regex) —
-  **always confirm a boss kill via HP/Beaten Up or the quest log.**
-- 🏜️ Desert **74%** (not advanced today). Worm-riding pages 0/15.
-
----
+- **LEVEL 14 Pastamancer.** Base Mys **179** · HP **158** max · MP **269**. **Meat ~8,903. adv 72 banked.**
+  full 15, drunk 24 (cap 19 + corpse-on-the-beach overdrink ✅).
+- 🎉🎉 **RONIN IS OVER (`roninleft` = 0).** Mall buys land in **inventory** and spend **inventory meat**;
+  Hagnk's is unlimited. The whole Ronin-era supply doctrine in older notes no longer applies.
+- 💰 **THE JUNK DRAWER WAS WORTH 41,195 MEAT — sold in minutes, zero adventures.** Months of eXtreme Slope
+  drops had piled up (gr8ps ×166, t8r tots ×140, sk8boards ×54, and ~50 SPARE copies of each eXtreme outfit
+  piece). **Autosell the slope junk every few days** (keep 1 of each outfit piece). See HANDOFF "Raising meat fast".
+- ⚔️ **THE DAMAGE/SURVIVABILITY PACKAGE IS BOUGHT (6 skills, ~28k meat).** Thrall Unit Tactics (**halves
+  pasta-spell MP**), Stuffed Mortar Shell (**131–162 dmg**), Spirit of Ravioli (**+25% max HP, 126→158**),
+  Flavour of Magic (**element tuning + 10 spell dmg**), Subtle and Quick to Anger (+10% spell dmg),
+  Shield of the Pastalord (30% physical DR).
+- ✅ **Day's combat record ≈ 110W / 0 honest losses** — Office, Bowling Alley, Ziggurat, desert, Unquiet
+  Garves, Copperhead Club, 8-Bit Realm. The ML-150 pygmy zones are now routine.
+- 🏆 **THE HIDDEN CITY IS COMPLETE** — all 4 buildings, all 4 triangles, Protector Spectre killed.
+- 🏜️ **Desert 100% explored**; worm-riding manual (15/15) delivered to Gnasir.
 
 ## 🔜 Next-session priorities (ordered)
 
@@ -68,15 +65,19 @@ Crown equipped** (94).
 > once the juice runs out, win rate collapses (30W/10L with MP → 5W/15L without). **Buy ~10 MMJ every day.**
 > ⚠️ Before concluding "zone X one-shots me", confirm you entered at an honest **full HP** (stale-HP gate, see HANDOFF).
 
-> 🎯 **START HERE ON DAY 119:** login → `window._cocoon = true`; **FIRST ACTION: top MP and cast Bind
-> Vampieroghi (3027)**, then EAT. Then:
-> (1) **Finish the Office spirit** — `adventure.php?snarfblat=343` until choice **786 → "Knock on the
-> boss's office door"**, fighting with **Necrotelicomnicon equipped and CANNELLONI (3005) ONLY**
-> (Pastalord is physical and useless there). **Verify the kill via the quest log, not the fight text.**
-> (2) **Bowling Alley (344)** — "Oh, Spare Me"; research what it needs before grinding.
-> (3) Take the **desert window** (Oasis 122 → 364) — 74%.
-> (4) Leftovers → slope for meat/levels (it funds ~1,500-meat drink rack + MMJ).
-> **DRINK LAST: 19 + overdrink** (6 vodka+olive martinis + ice-cold Willer + 1 overdrink).
+> 🎯 **START HERE ON DAY 120:** login → **top MP and cast Bind Vampieroghi (3027) FIRST**, then
+> **Spirit of Peppermint (7177)** to lock pasta to cold, then EAT (stolen sushi ×2 + milk of magnesium
+> + a 3-fullness food = full 15). Then:
+> (1) **Shen task 2 — "Recover The Eye of the Stars from The Hole in the Sky."** The Hole in the Sky (83)
+> is **gated**: *"you can't get to it without some means of traveling… TO SPACE."* You need a
+> **steam-powered model rocketship**, built from **star chart + stars + lines** — which drop in the
+> **8-Bit Realm** (563/564/565/566), now unlocked by the **continuum transfunctioner (458, equipped in acc3;
+> it MUST stay equipped to enter)**. So: farm 8-Bit for stars/lines → build the rocketship → Hole in the Sky.
+> (2) Then back to **Shen (Copperhead Club, 383)**, then **Ron Copperhead on the Red Zeppelin**.
+> (3) **Orc Chasm** (L9 Highland Lord) and **Castle kitchen counter** (L10) are both still open on the council board.
+> (4) Leftovers → 8-Bit / slope for meat + stats.
+> **DRINK LAST: fill to 19, then ONE overdrink** (Ye Olde Meade = 5 drunk / ~15 adv is the best filler found;
+> corpse on the beach ≈ 6 drunk / ~21 adv is a great overdrink).
 
 1. **EAT (proven, gave a 106-adv day):** pull **1 stolen sushi (6293)** — ✅ **now edible at L6, 6 fullness ≈ 13 adv,
    121 in storage** — and eat **2 sushi + 1 burrito = full 15** (we had spares in inventory; otherwise sushi + cookies).
@@ -138,6 +139,24 @@ duplicates we already owned). After 1,000 turns Hagnk's opens fully. See `mechan
 ---
 
 ## 🗓️ Session log (this run)
+
+- **Day 119 (2026-08-15): 🏆🏆 RONIN ENDED, 41k MEAT FROM JUNK, 6 SKILLS BOUGHT — HIDDEN CITY COMPLETE + DESERT 100%.**
+  The single biggest day of the run. Opened to find **Ronin over**, autosold months of slope junk for
+  **+41,195 meat in zero adventures**, and bought the wizard we should have been: **Thrall Unit Tactics**
+  (halves pasta MP), **Stuffed Mortar Shell**, **Spirit of Ravioli** (+25% max HP), **Flavour of Magic**
+  (element tuning), **Subtle and Quick to Anger**, **Shield of the Pastalord**.
+  ⚔️ Killed the **Office protector** that beat us 3× yesterday — the fix was (a) Cannelloni/Mortar not the
+  physical Pastalord, and (b) **tuning pasta to cold with Spirit of Peppermint, because an UNTUNED Mortar
+  rolls a random element and can come up PHYSICAL** (= zero vs a physically-immune ghost).
+  🔺 Discovered we'd been **carrying the Apartment (Day 111) and Hospital (Day 118) spheres unplaced the
+  whole time** — killing a protector is only half the step; the sphere must go back to its matching shrine.
+  3 altars, **2 adventures**, 4 triangles → Ziggurat → **Protector Spectre dead in 3 rounds → HIDDEN CITY DONE.**
+  🏜️ **Desert 74% → 100% in 30 turns** after disproving our own "one hydration window per day" rule —
+  **the Oasis re-hydrates as often as you ask** (5 times today). Worm manual 15/15 → Gnasir.
+  🕴️ Met **Shen Copperhead** (poisoned us), recovered the **Shield of Brook** from the Unquiet Garves (21),
+  traded it for the antidote; next task = **Eye of the Stars**. Got the **continuum transfunctioner** →
+  **8-Bit Realm unlocked**. Bought the **cocktailcrafting kit**. ~**110W/0L** on the day.
+  Base Mys 174 → **179**, L13 → **L14**, max HP 126 → **158**. Wrapped clean: full 15, drunk 24, **72 adv banked**, 8,903 meat.
 
 - **Day 118 (2026-08-14): ⭐ Pygmy gate BROKEN (11W/1L) — Hospital cleared, McClusky file assembled.**
   Summoned the thrall **first**, and the Hidden Hospital immediately went **11W/1L** (6W/3L the day

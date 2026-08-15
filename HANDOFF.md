@@ -135,6 +135,25 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
   loop variant "simplify" it.** Verified Day 106 in the Black Forest (ML 123–133): full routine ≈ 4W/1L;
   the same loop with Cannelloni-only went **0W/14L** — the stun round + mortar's 2× queue are the whole margin.
   When copying a fight loop into a new burst, diff the skill ladder first.
+- 🚨 **CANNELLONI COCOON (3012) IS *NONCOMBAT* — IT DOES NOTHING IN A FIGHT.** A "heal at <35% HP"
+  branch that casts it mid-combat **burns the round and the MP for no heal**, which is exactly how you
+  lose a boss race. Heal to full **between** fights (`runskillz.php`), never inside one. (Verified Day 119
+  from the wiki *before* it cost us the Office boss.)
+- ⚔️ **AN UNTUNED STUFFED MORTAR SHELL (3007) CAN ROLL *PHYSICAL*.** Its damage is
+  `(32–64)+(0.5×Mys)` of a **random element — or physical** if untuned. Against a physically-immune
+  target (ancient protector spirits) that is a wasted round on a coin flip. ✅ **Fix: lock the element
+  first.** **Flavour of Magic (3017, guild L14, 12,500)** grants five tuning casts —
+  **7176 Cayenne=hot · 7177 Peppermint=cold · 7178 Garlic=stench · 7179 Wormwood=sleaze ·
+  7180 Bacon Grease=spooky · 7181 Nothing** — and adds **+10 spell damage**. Cast one at day-start.
+  (Equipment tuning like the Necrotelicomnicon does the same job but locks you to spooky.)
+- 💰 **THRALL UNIT TACTICS (3034, guild L10, 5,000) HALVES THE MP COST OF DAMAGING PASTA SPELLS**
+  while a thrall is up (Cannelloni 8→4; does NOT reduce Entangling Noodles or Lasagna Bandages).
+  If MP is your limiter — it usually is — this is the highest-value skill on the trainer, ahead of
+  any raw damage buy. Pair with **Spirit of Ravioli (3014, L9, 4,000) = +25% max HP**, which is the
+  cheapest answer to "the boss two-shots me".
+- 🥊 **Entangling Noodles is a MULTI-round stun for a Pastamancer** ("prevents the enemy from attacking
+  for X turns"), not a one-round tickle. Opening with it buys the whole Mortar wind-up for 3 MP — it is
+  the reason the burst lands before the boss swings.
 - **Low MP / 0 MP fallback:** weapon attack with the Greek Pasta Spoon of Peril (2561) is a free finisher on weak zones.
 - **Skill IDs:** Mortar 3007 · Cannelloni 3005 · Entangling Noodles 3004 (stun) · Spaghetti Spear 3020 (0 MP) ·
   Ravioli Shurikens 3003 · Lasagna Bandages 3009 (heal, works out-of-combat via runskillz) · Springy Fusilli 3015 (+init) ·
@@ -194,6 +213,14 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
 3. **Starter-package gems are worth a fortune.** The pork elf goodies sack (Toot Oriole / Letter from King Ralph)
    yields **porquoise (706) / hamethyst / baconstone — 500 meat autosell each**. Their only use is jewelrycrafting
    (a skill we don't have), so **selling them early is usually correct**.
+4. 🚨 **AUDIT YOUR OWN JUNK DRAWER BEFORE YOU FARM ANYTHING — it beat a full day of farming (Day 119).**
+   A long-running farm zone quietly buries you in drops. Months on the eXtreme Slope had left **166 gr8ps,
+   140 t8r tots, 54 sk8boards and ~50 SPARE copies of each eXtreme outfit piece** — **41,195 meat, sold in
+   minutes for ZERO adventures.** ✅ Method: build the authoritative `{id:name}` map from `inventory.php`,
+   join it against the autosell prices on `sellstuff.php?justitems=0`, rank by `price × qty`, then sell with
+   `sellstuff_ugly.php` (**mode=1** all · **mode=2** all-but-one, ideal for outfit pieces you must keep one of ·
+   **mode=3** + `quantity`). **Verify with a 2-item test sale first** (2 gr8ps → 118 meat = 59 ea) to prove the
+   ID↔price join before dumping a stack. Re-check every few days.
 4. **Boss drops:** e.g. **dense meat stack (258)** ≈ 850 meat autosell each (it is NOT usable — don't try).
 
 ## Consumables & item reference
@@ -236,6 +263,10 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
   booze. **Drink EXACTLY 2 → drunk 12** (a 3rd overshoots 18 — advs still bank, but stop at 2). Buy from the Hidden Tavern:
   `shop.php?whichshop=hiddentavern&action=buyitem&whichrow=175`; drink `inv_booze.php?which=1&whichitem=6682&pwd=`.
   (There is NO booze upgrade beyond this — Advanced Cocktailcrafting is Disco-Bandit-only; Pastamancer can't learn it.)
+- ✅ **MP restore, corrected (Day 119): magical mystery juice (518) restores ~25 MP for 100 meat
+  (≈4 meat/MP) and is still stocked at the guild store, `shop.php?whichshop=guildstore2` row 527.**
+  That is ~3× better value than Mountain Stream soda (~440 meat / 37 MP) and it buys straight to
+  inventory. Older notes calling MMJ "~10–12 MP" or "gone" are wrong. Buy 25–35 at day-start.
 - **MP restore:** **tiny house (592)** = free ~23 MP, no meat/adv cost, `inv_use.php?which=3&whichitem=592&pwd=` —
   the default battery, also clears **Beaten Up**. **Mountain Stream soda (357)** = ~37 MP, tradeable (~440 meat),
   `inv_use.php?which=3&whichitem=357&pwd=` — buy a stack for quest days. (magical mystery juice / Doc Galaktik are gone/gnome-only.)

@@ -115,6 +115,12 @@ Killed the Apartment spirit in ~3 casts at base Mys 134. Needs a 1-handed weapon
 - **The Arid, Extra-Dry Desert = snarf 364** (Desert Beach). ML 134–142, rec stat 120.
   The place page shows **`alt='(N% explored)'`** — parse that, not the visible text (the zone label is
   rendered as zonefont images, so a plain-text regex returns nothing).
+- 🚨 **THE OASIS RE-HYDRATES AS OFTEN AS YOU ASK — there is NO daily cap.** (Day 119: five separate
+  hydrations in one session took the desert **74% → 100% in ~30 turns**.) Days 115–116 recorded a
+  "one hydrated window per day" cap from two ambiguous observations and then *obeyed it for four days*,
+  turning an afternoon's work into a week's. When exploration stalls, **just go back to the Oasis and
+  drink again.** ✅ Working loop: read the charpane each turn — if `Ultrahydrated` is absent adventure at
+  **122**, else adventure at **364** — and repeat until the quest log stops showing a `% explored` figure.
 - **Exploration only advances while *Ultrahydrated*.** First un-hydrated turn there unlocks **An Oasis
   (snarf 122)**; adventuring at the Oasis grants **Ultrahydrated (10 turns)**. Loop = Oasis → 10 desert
   turns → Oasis. The Oasis noncombat ***All Across the Sands*** gives the **stone rose** (one-time).
