@@ -71,6 +71,21 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
   loop checked only MMJ (518) and tiny houses (592), starved at 20 MP, and went **1W/8L** while
   **17 Mountain Stream sodas (357, 37 MP each)** sat unused in the bag. Keep one shared restore helper
   (`357 → 518 → 592`) rather than re-typing the ladder per loop.
+- 🚨 **NEVER RUN A "IS THIS UNLOCKED / DONE YET?" TEST ON A PAGE THAT MIGHT BE A FIGHT.** Day 120:
+  `!/not yet clickable/.test(place.php)` reported the Red Zeppelin **open** while we were actually standing
+  in a leftover combat — a fight page simply doesn't contain the gating phrase, so *every* "absence of bad
+  text" check silently passes. This is the same family as the win-string and Boss-Bat bugs. ✅ **Rule:
+  `if (inFight(html)) return UNKNOWN;` before interpreting any page, and prefer testing for the
+  PRESENCE of the thing you want** (the zone's `snarfblat=` link, the quest-log line) over the absence of a warning.
+- 🚨 **AFTER *ANY* ABORT, DRAIN THE OPEN FIGHT FIRST — BEFORE topMP/heal/shop.** Aborting mid-combat leaves
+  `fight.php` active, and a stuck fight makes `inv_use` / `inv_booze` / `shop` / `place.php` all return the
+  fight page and **silently do nothing** — so the "restore MP" step no-ops and the next read shows
+  *"You twiddle your thumbs"* (which looks like MP-starvation but is really a stuck fight). Hit this 3× in
+  one session. ✅ Helper that works:
+  `stopSafe = async () => { window._abort=true; await sleep(3000);
+     for (let i=0;i<3;i++){ let p=await G('fight.php'); if(!inFight(p)) break; await runFight(p,{}); }
+     window._abort=false; window._running=false; }`
+  — and inside that finisher fall back to **Spaghetti Spear (3020, 0 MP)** whenever MP < 10, or it can't finish.
 - 🚨 **THE FARM-LOOP DEATH SPIRAL (cost ~30 advs on Day 103): one loss cascades unless the loop checks BOTH
   Beaten Up AND healing-supply counts every iteration.** Mechanism: a loss applies **Beaten Up (−50% all stats)**
   → next fights are entered at half Mysticality/Muscle → more losses → more Beaten Up. Meanwhile a heal branch
@@ -267,6 +282,12 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
   (≈4 meat/MP) and is still stocked at the guild store, `shop.php?whichshop=guildstore2` row 527.**
   That is ~3× better value than Mountain Stream soda (~440 meat / 37 MP) and it buys straight to
   inventory. Older notes calling MMJ "~10–12 MP" or "gone" are wrong. Buy 25–35 at day-start.
+- ⭐ **PROVEN DAY-END BOOZE RACK (Day 120, lands EXACTLY on a 19 cap and banks ~74 adv):**
+  **Ye Olde Meade (6276) = 5 drunkenness / ~15 adventures**, ~639 meat in the mall — the best filler found
+  so far (3 adv per drunkenness). **3 × Meade (15) + 2 × bottle of popskull (1774, 2 each) = exactly 19.**
+  Then spend the single overdrink on **corpse on the beach (3025) = 6 drunkenness / ~21 adventures**.
+  ⚠️ Mall stores often hold only **1** of a bottle at the listed price — **iterate the cheapest few stores**
+  rather than asking one store for qty 3 and assuming it worked (verify with `api.php?what=inventory`).
 - **MP restore:** **tiny house (592)** = free ~23 MP, no meat/adv cost, `inv_use.php?which=3&whichitem=592&pwd=` —
   the default battery, also clears **Beaten Up**. **Mountain Stream soda (357)** = ~37 MP, tradeable (~440 meat),
   `inv_use.php?which=3&whichitem=357&pwd=` — buy a stack for quest days. (magical mystery juice / Doc Galaktik are gone/gnome-only.)

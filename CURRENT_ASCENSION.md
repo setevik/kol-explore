@@ -30,23 +30,20 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 119 / 2026-08-15)
+## 📊 Character state (run #2 — end of Day 120 / 2026-08-16)
 
-- **LEVEL 14 Pastamancer.** Base Mys **179** · HP **158** max · MP **269**. **Meat ~8,903. adv 72 banked.**
-  full 15, drunk 24 (cap 19 + corpse-on-the-beach overdrink ✅).
-- 🎉🎉 **RONIN IS OVER (`roninleft` = 0).** Mall buys land in **inventory** and spend **inventory meat**;
-  Hagnk's is unlimited. The whole Ronin-era supply doctrine in older notes no longer applies.
-- 💰 **THE JUNK DRAWER WAS WORTH 41,195 MEAT — sold in minutes, zero adventures.** Months of eXtreme Slope
-  drops had piled up (gr8ps ×166, t8r tots ×140, sk8boards ×54, and ~50 SPARE copies of each eXtreme outfit
-  piece). **Autosell the slope junk every few days** (keep 1 of each outfit piece). See HANDOFF "Raising meat fast".
-- ⚔️ **THE DAMAGE/SURVIVABILITY PACKAGE IS BOUGHT (6 skills, ~28k meat).** Thrall Unit Tactics (**halves
-  pasta-spell MP**), Stuffed Mortar Shell (**131–162 dmg**), Spirit of Ravioli (**+25% max HP, 126→158**),
-  Flavour of Magic (**element tuning + 10 spell dmg**), Subtle and Quick to Anger (+10% spell dmg),
-  Shield of the Pastalord (30% physical DR).
-- ✅ **Day's combat record ≈ 110W / 0 honest losses** — Office, Bowling Alley, Ziggurat, desert, Unquiet
-  Garves, Copperhead Club, 8-Bit Realm. The ML-150 pygmy zones are now routine.
-- 🏆 **THE HIDDEN CITY IS COMPLETE** — all 4 buildings, all 4 triangles, Protector Spectre killed.
-- 🏜️ **Desert 100% explored**; worm-riding manual (15/15) delivered to Gnasir.
+- **LEVEL 14 Pastamancer.** Base Mys **193** · HP **232** max · MP **290**. **Meat ~9,852. adv 74 banked.**
+  full 15, drunk 25 (cap 19 + corpse-on-the-beach overdrink ✅).
+- 📈 **The Day-119 skill package is compounding:** max HP **158 → 232** in one day (Spirit of Ravioli's +25%
+  scales as Muscle grows), base Mys 179 → 193. ~**120W / 0 honest losses** across seven different zones.
+- 🕴️ **"OF MICE AND SHEN" IS COMPLETE — Copperhead Charm #1 in hand.** All three artifacts fetched:
+  Shield of Brook (Unquiet Garves 21) · **Eye of the Stars** (The Astronomer, Hole in the Sky 83) ·
+  **The First Pizza** (the Frozen Solid Snake, Lair of the Ninja Snowmen 272).
+- 🚀 **Castle Top Floor + Hole in the Sky both unlocked** (see the priorities block for the exact chain).
+- 🎈 **Zeppelin protester mob dispersed → THE RED ZEPPELIN (385) IS BOARDABLE.** Ron Copperhead not yet found;
+  ~8 turns spent aboard so far.
+- ⚠️ Still open on the council board: **Orc Chasm** · **Castle kitchen counter** (hint now reads
+  *"Maybe you can get to it from above?"*) · **pyramid** (needs the Staff of Ed).
 
 ## 🔜 Next-session priorities (ordered)
 
@@ -65,19 +62,20 @@ Crown equipped** (94).
 > once the juice runs out, win rate collapses (30W/10L with MP → 5W/15L without). **Buy ~10 MMJ every day.**
 > ⚠️ Before concluding "zone X one-shots me", confirm you entered at an honest **full HP** (stale-HP gate, see HANDOFF).
 
-> 🎯 **START HERE ON DAY 120:** login → **top MP and cast Bind Vampieroghi (3027) FIRST**, then
-> **Spirit of Peppermint (7177)** to lock pasta to cold, then EAT (stolen sushi ×2 + milk of magnesium
-> + a 3-fullness food = full 15). Then:
-> (1) **Shen task 2 — "Recover The Eye of the Stars from The Hole in the Sky."** The Hole in the Sky (83)
-> is **gated**: *"you can't get to it without some means of traveling… TO SPACE."* You need a
-> **steam-powered model rocketship**, built from **star chart + stars + lines** — which drop in the
-> **8-Bit Realm** (563/564/565/566), now unlocked by the **continuum transfunctioner (458, equipped in acc3;
-> it MUST stay equipped to enter)**. So: farm 8-Bit for stars/lines → build the rocketship → Hole in the Sky.
-> (2) Then back to **Shen (Copperhead Club, 383)**, then **Ron Copperhead on the Red Zeppelin**.
-> (3) **Orc Chasm** (L9 Highland Lord) and **Castle kitchen counter** (L10) are both still open on the council board.
-> (4) Leftovers → 8-Bit / slope for meat + stats.
-> **DRINK LAST: fill to 19, then ONE overdrink** (Ye Olde Meade = 5 drunk / ~15 adv is the best filler found;
-> corpse on the beach ≈ 6 drunk / ~21 adv is a great overdrink).
+> 🎯 **START HERE ON DAY 121:** login → **top MP → Bind Vampieroghi (3027) → a Flavour-of-Magic tuning
+> cast (7176 hot / 7177 cold)** → EAT (2 stolen sushi + milk of magnesium + a 3-fullness food = full 15).
+> Then:
+> (1) **Finish Merry-Go-Ron — board The Red Zeppelin (385) and find Ron Copperhead.** The protester gate
+> (384) is already cleared. Ron yields **Copperhead Charm #2** → the **Palindome**.
+> (2) **Castle kitchen counter** (council): the hint is *"maybe you can get to it from above?"* — we now
+> hold the **Top Floor (324)**, so the route down to the counter should be findable there. **Research this
+> before grinding** — Day 120 poked at the Basement (322) and only found the gym NC (670).
+> (3) **Orc Chasm** (L9 Highland Lord) — smut orc bridge parts.
+> (4) Leftovers → **Hole in the Sky (83)** for **stars / lines / star chart** (Richard's star key = 8 stars,
+> 7 lines, 1 chart), or the slope for meat.
+> **DRINK LAST: fill to 19, then ONE overdrink.** ⭐ Proven rack: **Ye Olde Meade (6276, ~639 meat in mall)
+> = 5 drunk / ~15 adv** ×3 + **2 popskull** lands *exactly* on 19; overdrink **corpse on the beach (3025)
+> = 6 drunk / ~21 adv**. That is ~74 adventures banked.
 
 1. **EAT (proven, gave a 106-adv day):** pull **1 stolen sushi (6293)** — ✅ **now edible at L6, 6 fullness ≈ 13 adv,
    121 in storage** — and eat **2 sushi + 1 burrito = full 15** (we had spares in inventory; otherwise sushi + cookies).
@@ -139,6 +137,21 @@ duplicates we already owned). After 1,000 turns Hagnk's opens fully. See `mechan
 ---
 
 ## 🗓️ Session log (this run)
+
+- **Day 120 (2026-08-16): 🕴️ SHEN'S THREE ERRANDS DONE (Copperhead Charm #1) + the Red Zeppelin unblocked.**
+  Opened the **Castle Top Floor** by simply adventuring one turn on the **Ground Floor (323)** →
+  *"Top of the Castle, Ma"*. Up there, **"Copper Feel" (choice 677) option 2 → steam-powered model
+  rocketship**, which is the "means of travelling TO SPACE" that gates **The Hole in the Sky (83)**.
+  ⚠️ Correction to Day 119's note: **stars/lines/star charts come from the Hole in the Sky itself, NOT the
+  8-Bit Realm** — and **The Astronomer drops the Eye of the Stars on sight** (ours dropped on the first fight).
+  Ran Shen's chain to the end: Eye of the Stars → poisoned again → **The First Pizza** off *the Frozen Solid
+  Snake* in the **Lair of the Ninja Snowmen (272)** → **"Of Mice and Shen" COMPLETE**.
+  🎈 Then ~90 turns dispersing the **Zeppelin protesters (384)**: the three NCs (**856/857/858, option 1**)
+  clear ~3 each and there is **no counter — the ZONE NAME is the gauge** (*Massive Mob → Bunch → Scattered*).
+  **The Red Zeppelin (385) is now boardable**; 8 turns aboard, Ron not yet found.
+  ⚠️ Two self-inflicted lessons: a "is the zone open?" regex **false-positived on a combat page**, and
+  aborting a loop kept leaving a **stuck fight** that silently no-ops every later fetch (both now in HANDOFF).
+  Base Mys 179 → **193**, max HP 158 → **232**. Wrapped clean: full 15, drunk 25, **74 adv banked**, 9,852 meat.
 
 - **Day 119 (2026-08-15): 🏆🏆 RONIN ENDED, 41k MEAT FROM JUNK, 6 SKILLS BOUGHT — HIDDEN CITY COMPLETE + DESERT 100%.**
   The single biggest day of the run. Opened to find **Ronin over**, autosold months of slope junk for

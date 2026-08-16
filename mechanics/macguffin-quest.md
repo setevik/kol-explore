@@ -166,3 +166,48 @@ thrall up, cheap Cannelloni went **13W/1L** in the Office — 4× more turns per
 - ⚠️ **Loop bug worth remembering: our fight loops reported those two losses as WINS.** The spirit's
   defeat text doesn't match `/You lose the fight|black out|slink away/`. **Verify boss outcomes by
   checking HP/Beaten Up or the quest log afterwards**, never by the win-string alone.
+
+
+---
+
+## The Copperhead / Palindome branch (verified Days 119–120)
+
+**Shen Copperhead** — *Copperhead Club, snarfblat **383*** (`place.php?whichplace=town_wrong`).
+First visit is choice **1074 → opt 1 "Approach Shen's table"**, then **851 → 1 "Agreed."**. He poisons you
+(*Ancient Annoying Serpent Poison*) and sends you for **three artifacts in sequence**; each hand-in cures the
+poison and re-poisons you for the next. Hand-ins are choices **852 / 853 / 854 (option 1)**, and the club
+fills with **ninja waiters** you must fight through to reach his table each time.
+
+| # | Artifact | Where | Notes |
+|---|---|---|---|
+| 1 | **The Shield of Brook** | **The Unquiet Garves (21)** — `place.php?whichplace=cemetery` | dropped by *the Snakeleton*; ~20 turns |
+| 2 | **The Eye of the Stars** | **The Hole in the Sky (83)** | dropped by **The Astronomer** — ours fell on the *first* fight |
+| 3 | **The First Pizza** | **Lair of the Ninja Snowmen (272)** — `place.php?whichplace=mclargehuge` | dropped by *the Frozen Solid Snake*; ~9 turns |
+
+Completing all three ends **"Of Mice and Shen"** and yields **Copperhead Charm #1**. The second charm is held
+by his brother **Ron**, on the **Red Zeppelin** — both charms are what open the **Palindome**.
+
+### 🚀 Getting to The Hole in the Sky (83) — the gate that blocked artifact #2
+
+`snarfblat=83` bounces with *"you can't get to it without some means of travelling… TO SPACE"* until you own a
+**steam-powered model rocketship**. The chain, and it is short:
+
+1. **Castle in the Clouds, Ground Floor (323)** — adventure **one** turn → the NC **"Top of the Castle, Ma"**
+   → **Top Floor (324) unlocked**. (Don't grind 324 first: while locked it bounces with *"too short to reach a
+   doorknob forty feet over your head"* and **consumes no adventures**.)
+2. **Top Floor (324)** — the NC **"Copper Feel" (choice 677) → option 2 "Investigate the Whirligigs and
+   Gimcrackery"** → **steam-powered model rocketship**. Took ~10 turns to fire.
+3. The Hole in the Sky is then open. ⚠️ **Stars, lines and the star chart all come from the Hole in the Sky
+   itself** (Astronomer drops the chart) — **not** from the 8-Bit Realm, despite what the item sources imply.
+
+### 🎈 The Zeppelin protester gate (384) — Merry-Go-Ron
+
+`place.php?whichplace=zeppelin` shows the mob zone **384** and *"The Red Zeppelin (not yet clickable)"*.
+First visit fires **"Too Much Humanity"** (one-time, **costs no adventure**). Then it is a pure grind:
+fight everything, and take **option 1** on the three noncombats **856 / 857 / 858** (each disperses ~3
+protesters; e.g. *"pour Molotov cocktails down their pants"*).
+
+🚨 **There is NO on-screen counter — the ZONE NAME is the progress bar.** Read the link title on
+`place.php?whichplace=zeppelin`:
+**A Massive Mob of…** → **A Bunch of…** → **A Scattered Mob of…** → the **Red Zeppelin (385)** link goes live.
+Ours took roughly **90 turns** with no +sleaze/+hot gear; budget accordingly, and check the *name*, not a guess.
