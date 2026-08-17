@@ -96,6 +96,13 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
   supply is gone; (c) count a fight as LOSS only on `/You lose the fight|black out|slink away/` — bare `/You lose/`
   false-positives on "You lose N hit points" (this old mistake got re-made; see also the Boss Bat note).
 
+- 🚧 **WHEN A QUEST GATE IS A *NONCOMBAT*, THE BOTTLENECK IS ENCOUNTER RATE — NOT YOUR DAMAGE.**
+  Day 121 spent **~120 turns in the Palindome at 150W/0L** waiting for one choice adventure that never
+  came (2 noncombats all day). Winning harder does nothing for this. ✅ **Recognise the shape early:** if
+  the quest log says "search/find X here" and the step is an NC, **stop after ~20 dry turns**, and go get a
+  **−combat / forced-noncombat source** before spending another adventure. Also verify your own gear isn't
+  adding +combat. Budget meat for it — turns are the scarcer currency.
+
 ## Combat standard (Pastamancer)
 
 - 🚨🚨 **RE-VISIT THE GUILD TRAINER EVERY FEW LEVELS — THIS WAS A WEEKS-LONG BLIND SPOT (Day 112).**

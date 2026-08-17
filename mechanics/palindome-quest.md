@@ -45,19 +45,44 @@ Palindrome-themed: monsters (Evil Olive, etc.), NCs ("Do Geese See God?", "Rod N
 Vendor"). Monsters are spell-vulnerable, slightly tanky (~5 rounds with Cannelloni), no
 Beaten-Up issues with the stun combo.
 
-### The 4 photographs
-Needed for the Dr. Awkward path:
-- **photograph of God** — choice **129 "Do Geese See God?"**, option 1, 500 Meat.
-- **photograph of a red nugget** — choice **873 "Rod Nevada, Vendor"**, option 1, 500 Meat.
-- **photograph of a dog** — drops from a Palindome monster (no NC).
-- **photograph of an ostrich egg** — drops from a Palindome monster (no NC).
+### The 4 photographs (all four collected in ~30 turns, Day 121)
+- **photograph of God (2259)** — choice **129 "Do Geese See God?"**, option 1, 500 Meat.
+- **photograph of a red nugget (7264)** — choice **873 "Rod Nevada, Vendor"**, option 1, 500 Meat.
+- **photograph of a dog (7263)** — drops from **Bob Racecar / Racecar Bob**, but ⚠️ **only after ~10 native
+  palindrome dudes have been killed**. Don't panic-farm for it early; it arrives on its own once the
+  body count is up.
+- **photograph of an ostrich egg (7265)** — from the noncombat **"Last Egg Gets Al"** (NOT a monster drop,
+  contrary to the older note here).
 
-### Mega Gem → Dr. Awkward
-- **wet stunt nut stew** = cook **bird rib + lion oil + stunt nuts**. Bird rib + lion oil drop
-  in **WHITEY'S GROVE** (NOT the Palindome); stunt nuts drop in the Palindome.
-- **Mr. Alarm** (Palindome NPC) hands over the **Mega Gem** in exchange for the stew. ⚠️ He may
-  not appear until the stew is already cooked/in hand — cook it first rather than grinding the
-  Palindome waiting for his NC.
+### 🚧 Choice 872 "Drawn Onward" — the real bottleneck
+This is the door to Dr. Awkward's office and **the only way forward**. It is a *noncombat*, and the
+Palindome is combat-heavy: **Day 121 spent ~120 turns inside and saw exactly 2 noncombats**, neither of
+them 872. Winning fights is not the problem (150W/0L that day at base Mys ~200).
+✅ **Bring a −combat / forced-noncombat source before you grind for it.** Treat "get the noncombat rate up"
+as a prerequisite step, not an optimisation.
+
+**Correct photo order (verified on the wiki):**
+| Frame | Photo |
+|---|---|
+| #1 top | **photograph of God** (2259) |
+| #2 | **photograph of a red nugget** (7264) |
+| #3 | **photograph of a dog** (7263) |
+| #4 bottom | **photograph of an ostrich egg** (7265) |
+
+🚨 **Solving it makes you LOSE ALL HP and take Beaten Up (4 adventures) — this is SCRIPTED, not a defeat.**
+Dr. Awkward's "ineptitude field" means you cannot fight him yet; he clubs you down and drops
+**"2 Love Me, Vol. 2"**. Do not read that HP-0 + Beaten Up as a lost boss fight.
+
+### Mr. Alarm → Whitey's Grove → Mega Gem  (ORDER CORRECTED, Day 121)
+🚨 **The old note in this file was backwards.** The real chain is:
+1. **Drawn Onward (872)** → place photos → Dr. Awkward clubs you → he drops **"2 Love Me, Vol. 2"**.
+2. **Read the book** → **Mr. Alarm's Office** opens on the *left side of the dome*.
+3. **Talking to Mr. Alarm is what UNLOCKS WHITEY'S GROVE (zone 100).** Before that, `snarfblat=100`
+   just answers *"You shouldn't be here."* (verified — so don't go shopping for stew ingredients first).
+4. **wet stunt nut stew** = **bird rib + lion oil** (both from **Whitey's Grove**) + **stunt nuts**
+   (drop in the Palindome — we had 2 spare by accident).
+5. Give the stew to Mr. Alarm → **Mega Gem**.
+
 - Final: place/use the 4 photographs + Mega Gem → **Dr. Awkward** boss → **Staff of Fats**.
   Enter at FULL HP (hard hitter like Ron; keep torpedoes ready).
 

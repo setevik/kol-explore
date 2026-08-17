@@ -30,20 +30,23 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 120 / 2026-08-16)
+## 📊 Character state (run #2 — end of Day 121 / 2026-08-17)
 
-- **LEVEL 14 Pastamancer.** Base Mys **193** · HP **232** max · MP **290**. **Meat ~9,852. adv 74 banked.**
+- **LEVEL 15 Pastamancer.** Base Mys **205** · HP **243** max · MP **308**. **Meat ~12,360. adv 74 banked.**
   full 15, drunk 25 (cap 19 + corpse-on-the-beach overdrink ✅).
-- 📈 **The Day-119 skill package is compounding:** max HP **158 → 232** in one day (Spirit of Ravioli's +25%
-  scales as Muscle grows), base Mys 179 → 193. ~**120W / 0 honest losses** across seven different zones.
-- 🕴️ **"OF MICE AND SHEN" IS COMPLETE — Copperhead Charm #1 in hand.** All three artifacts fetched:
-  Shield of Brook (Unquiet Garves 21) · **Eye of the Stars** (The Astronomer, Hole in the Sky 83) ·
-  **The First Pizza** (the Frozen Solid Snake, Lair of the Ninja Snowmen 272).
-- 🚀 **Castle Top Floor + Hole in the Sky both unlocked** (see the priorities block for the exact chain).
-- 🎈 **Zeppelin protester mob dispersed → THE RED ZEPPELIN (385) IS BOARDABLE.** Ron Copperhead not yet found;
-  ~8 turns spent aboard so far.
-- ⚠️ Still open on the council board: **Orc Chasm** · **Castle kitchen counter** (hint now reads
-  *"Maybe you can get to it from above?"*) · **pyramid** (needs the Staff of Ed).
+- 🐍 **MERRY-GO-RON COMPLETE.** Ron "The Weasel" Copperhead fell as a normal combat ~13 turns into the
+  **Red Zeppelin (385)** → **Copperhead Charm (plain, 7178)**. Meat-pasted with the **(rampant) charm (7186)**
+  → **Talisman o' Namsilat (486)**, now equipped in acc3.
+- 🏛️ **THE PALINDOME IS OPEN (snarfblat 386)** — it appears in **The Nearby Plains** only while the
+  talisman is worn. Quest reads **"Never Odd Or Even — Search for the Staff of Fats."**
+- 📷 **ALL FOUR PHOTOGRAPHS COLLECTED:** God (2259) · red nugget (7264) · dog (7263) · ostrich egg (7265).
+  Plus **2 stunt nuts**. Everything needed for the Drawn Onward puzzle is in the bag.
+- 🚧 **THE DAY'S ONE BLOCKER: choice 872 "Drawn Onward" never fired in ~120 Palindome turns** (only 2
+  noncombats all day, both in the first 30 turns). Not a strength problem — **~150W/0L on the day**, gear
+  checked and clean of +combat. Pure noncombat-rate starvation. **Fix it with a −combat effect before
+  grinding again** (see next-session priorities).
+- ⚠️ Still open on the council board: **Orc Chasm** · **Castle kitchen counter** ("from above") ·
+  **pyramid** (needs the Staff of Ed).
 
 ## 🔜 Next-session priorities (ordered)
 
@@ -62,20 +65,26 @@ Crown equipped** (94).
 > once the juice runs out, win rate collapses (30W/10L with MP → 5W/15L without). **Buy ~10 MMJ every day.**
 > ⚠️ Before concluding "zone X one-shots me", confirm you entered at an honest **full HP** (stale-HP gate, see HANDOFF).
 
-> 🎯 **START HERE ON DAY 121:** login → **top MP → Bind Vampieroghi (3027) → a Flavour-of-Magic tuning
-> cast (7176 hot / 7177 cold)** → EAT (2 stolen sushi + milk of magnesium + a 3-fullness food = full 15).
+> 🎯 **START HERE ON DAY 122:** login → **top MP → Bind Vampieroghi (3027) → Spirit of Peppermint (7177)**
+> → EAT (2 stolen sushi + milk of magnesium + a 3-fullness food = full 15). Confirm the
+> **Talisman o' Namsilat (486) is still equipped** — the Palindome vanishes from the Plains without it.
 > Then:
-> (1) **Finish Merry-Go-Ron — board The Red Zeppelin (385) and find Ron Copperhead.** The protester gate
-> (384) is already cleared. Ron yields **Copperhead Charm #2** → the **Palindome**.
-> (2) **Castle kitchen counter** (council): the hint is *"maybe you can get to it from above?"* — we now
-> hold the **Top Floor (324)**, so the route down to the counter should be findable there. **Research this
-> before grinding** — Day 120 poked at the Basement (322) and only found the gym NC (670).
-> (3) **Orc Chasm** (L9 Highland Lord) — smut orc bridge parts.
-> (4) Leftovers → **Hole in the Sky (83)** for **stars / lines / star chart** (Richard's star key = 8 stars,
-> 7 lines, 1 chart), or the slope for meat.
-> **DRINK LAST: fill to 19, then ONE overdrink.** ⭐ Proven rack: **Ye Olde Meade (6276, ~639 meat in mall)
-> = 5 drunk / ~15 adv** ×3 + **2 popskull** lands *exactly* on 19; overdrink **corpse on the beach (3025)
-> = 6 drunk / ~21 adv**. That is ~74 adventures banked.
+> (1) 🚧 **SOLVE THE NONCOMBAT PROBLEM FIRST — do NOT just re-grind the Palindome.** Day 121 burned ~120
+> turns there for 2 noncombats. **Get a −combat / forced-noncombat source before entering**, then hunt
+> **choice 872 "Drawn Onward"**. Ideas to price out: a forced-noncombat item from the mall, or a
+> −combat accessory. Budget ~12,000 meat for it; it is worth far more than the turns it saves.
+> (2) **Drawn Onward solution is known — place the photos in this order:**
+> **1 God (2259) · 2 red nugget (7264) · 3 dog (7263) · 4 ostrich egg (7265)**.
+> ⚠️ **Losing all HP and getting Beaten Up (4 advs) immediately afterwards is SCRIPTED, not a defeat** —
+> Dr. Awkward's "ineptitude field" clubs you and drops the book **"2 Love Me, Vol. 2"**.
+> (3) **Read that book → Mr. Alarm's office opens** (left side of the dome). He wants **wet stunt nut stew**
+> and **talking to him is what UNLOCKS Whitey's Grove (zone 100)** — our old note had this backwards.
+> Then: **bird rib + lion oil (Whitey's Grove) + stunt nuts (have 2) → cook the stew → Mr. Alarm → Mega Gem
+> → Dr. Awkward for real → STAFF OF FATS.**
+> (4) Leftovers → Orc Chasm, or the Hole in the Sky (83) for stars/lines.
+> **DRINK LAST: fill to 19, then ONE overdrink.** ⭐ Proven rack: **3 × Ye Olde Meade (6276, ~639 meat)
+> = 5 drunk / ~15 adv each** + **2 × popskull (1774)** lands *exactly* on 19; overdrink
+> **corpse on the beach (3025) = 6 drunk / ~20 adv** → ~74 adventures banked.
 
 1. **EAT (proven, gave a 106-adv day):** pull **1 stolen sushi (6293)** — ✅ **now edible at L6, 6 fullness ≈ 13 adv,
    121 in storage** — and eat **2 sushi + 1 burrito = full 15** (we had spares in inventory; otherwise sushi + cookies).
@@ -137,6 +146,22 @@ duplicates we already owned). After 1,000 turns Hagnk's opens fully. See `mechan
 ---
 
 ## 🗓️ Session log (this run)
+
+- **Day 121 (2026-08-17): 🐍 Ron beaten → Talisman forged → THE PALINDOME IS OPEN + all 4 photos; 🎉 LEVEL 15.**
+  **Ron "The Weasel" Copperhead** appeared as an ordinary combat ~13 turns into the **Red Zeppelin (385)**
+  and dropped **Copperhead Charm #2**; `craft.php mode=combine a=7178 b=7186` fused the pair into the
+  **Talisman o' Namsilat (486)**. Equipped it and **The Palindome (386)** appeared in the Nearby Plains.
+  Inside: **all four photographs in ~30 turns** (27W/0L) plus 2 stunt nuts.
+  📚 Two corrections to `palindome-quest.md`, both found the hard way: the **photograph of a dog only drops
+  from Bob Racecar / Racecar Bob after ~10 palindrome dudes are killed**, the **ostrich egg comes from an NC
+  ("Last Egg Gets Al")** not a monster, and — the big one — **Mr. Alarm is what UNLOCKS Whitey's Grove**,
+  and his office only opens **after you fight Dr. Awkward once and read the book he drops**. The old note
+  had that chain reversed, which would have sent us to a locked zone.
+  🚧 **Then the day stalled on pure RNG: "Drawn Onward" (choice 872) did not fire once in ~120 Palindome
+  turns** — only 2 noncombats all day. Verified it wasn't strength (**~150W/0L**) or gear (+combat clean).
+  **Next session must buy a −combat / forced-noncombat source before re-entering.**
+  🎉 **LEVEL 15**; base Mys 193 → **205**, max HP 232 → **243**. Wrapped clean: full 15, drunk 25,
+  **74 adv banked**, 12,360 meat.
 
 - **Day 120 (2026-08-16): 🕴️ SHEN'S THREE ERRANDS DONE (Copperhead Charm #1) + the Red Zeppelin unblocked.**
   Opened the **Castle Top Floor** by simply adventuring one turn on the **Ground Floor (323)** →
