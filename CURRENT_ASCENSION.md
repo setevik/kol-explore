@@ -30,118 +30,24 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 121 / 2026-08-17)
+## 📊 Character state (run #2 — end of Day 122 / 2026-08-15)
 
-- **LEVEL 15 Pastamancer.** Base Mys **205** · HP **243** max · MP **308**. **Meat ~12,360. adv 74 banked.**
-  full 15, drunk 25 (cap 19 + corpse-on-the-beach overdrink ✅).
-- 🐍 **MERRY-GO-RON COMPLETE.** Ron "The Weasel" Copperhead fell as a normal combat ~13 turns into the
-  **Red Zeppelin (385)** → **Copperhead Charm (plain, 7178)**. Meat-pasted with the **(rampant) charm (7186)**
-  → **Talisman o' Namsilat (486)**, now equipped in acc3.
-- 🏛️ **THE PALINDOME IS OPEN (snarfblat 386)** — it appears in **The Nearby Plains** only while the
-  talisman is worn. Quest reads **"Never Odd Or Even — Search for the Staff of Fats."**
-- 📷 **ALL FOUR PHOTOGRAPHS COLLECTED:** God (2259) · red nugget (7264) · dog (7263) · ostrich egg (7265).
-  Plus **2 stunt nuts**. Everything needed for the Drawn Onward puzzle is in the bag.
-- 🚧 **THE DAY'S ONE BLOCKER: choice 872 "Drawn Onward" never fired in ~120 Palindome turns** (only 2
-  noncombats all day, both in the first 30 turns). Not a strength problem — **~150W/0L on the day**, gear
-  checked and clean of +combat. Pure noncombat-rate starvation. **Fix it with a −combat effect before
-  grinding again** (see next-session priorities).
-- ⚠️ Still open on the council board: **Orc Chasm** · **Castle kitchen counter** ("from above") ·
-  **pyramid** (needs the Staff of Ed).
-
-## 🔜 Next-session priorities (ordered)
-
-✅ Done: L3 (86); larva + L4 (87); **Tavern + monocle** (88); **guild + skills + L5** (89); **Cobb's Knob + Harem
-disguise** (90); 🎉 **L6 + Springy Fusilli + GOBLIN KING** (91); 🎉 **BOSS BAT + sushi** (92); ✋ Day 93 lost to the
-drunkenness lockout; 🎉 **FRIARS DONE + L7 + pool ghost beaten + Spookyraven necklace AND finery delivered +
-Crown equipped** (94).
-
-> 🏛️ **COUNCIL BOARD (Day 103): Trapper ✅ DONE. Three open:** (1) **CYRPT** — 178 evil left (Nook 28 first);
-> one blessed 20-adv window per day (`friars.php?bro=3`), don't fight there unblessed. (2) **L9 Highland Lord /
-> Orc Chasm** — "find a way across" = smut orc bridge parts (smut orc keepsake boxes ×3 pulled — they're also
-> the anti-Bonerdagon combat item). (3) **L10 Garbage/Castle** — S.O.C.K. in hand; castle basement (322) is the
-> next step but expect ML ~100: enter only with full prep (shells from Buffy, Fusilli, potions) or after leveling.
-
-> ✅ **The initiative blocker is SOLVED** (Springy Fusilli). The remaining softness is **20 max HP** and **MP supply** —
-> once the juice runs out, win rate collapses (30W/10L with MP → 5W/15L without). **Buy ~10 MMJ every day.**
-> ⚠️ Before concluding "zone X one-shots me", confirm you entered at an honest **full HP** (stale-HP gate, see HANDOFF).
-
-> 🎯 **START HERE ON DAY 122:** login → **top MP → Bind Vampieroghi (3027) → Spirit of Peppermint (7177)**
-> → EAT (2 stolen sushi + milk of magnesium + a 3-fullness food = full 15). Confirm the
-> **Talisman o' Namsilat (486) is still equipped** — the Palindome vanishes from the Plains without it.
-> Then:
-> (1) 🚧 **SOLVE THE NONCOMBAT PROBLEM FIRST — do NOT just re-grind the Palindome.** Day 121 burned ~120
-> turns there for 2 noncombats. **Get a −combat / forced-noncombat source before entering**, then hunt
-> **choice 872 "Drawn Onward"**. Ideas to price out: a forced-noncombat item from the mall, or a
-> −combat accessory. Budget ~12,000 meat for it; it is worth far more than the turns it saves.
-> (2) **Drawn Onward solution is known — place the photos in this order:**
-> **1 God (2259) · 2 red nugget (7264) · 3 dog (7263) · 4 ostrich egg (7265)**.
-> ⚠️ **Losing all HP and getting Beaten Up (4 advs) immediately afterwards is SCRIPTED, not a defeat** —
-> Dr. Awkward's "ineptitude field" clubs you and drops the book **"2 Love Me, Vol. 2"**.
-> (3) **Read that book → Mr. Alarm's office opens** (left side of the dome). He wants **wet stunt nut stew**
-> and **talking to him is what UNLOCKS Whitey's Grove (zone 100)** — our old note had this backwards.
-> Then: **bird rib + lion oil (Whitey's Grove) + stunt nuts (have 2) → cook the stew → Mr. Alarm → Mega Gem
-> → Dr. Awkward for real → STAFF OF FATS.**
-> (4) Leftovers → Orc Chasm, or the Hole in the Sky (83) for stars/lines.
-> **DRINK LAST: fill to 19, then ONE overdrink.** ⭐ Proven rack: **3 × Ye Olde Meade (6276, ~639 meat)
-> = 5 drunk / ~15 adv each** + **2 × popskull (1774)** lands *exactly* on 19; overdrink
-> **corpse on the beach (3025) = 6 drunk / ~20 adv** → ~74 adventures banked.
-
-1. **EAT (proven, gave a 106-adv day):** pull **1 stolen sushi (6293)** — ✅ **now edible at L6, 6 fullness ≈ 13 adv,
-   121 in storage** — and eat **2 sushi + 1 burrito = full 15** (we had spares in inventory; otherwise sushi + cookies).
-   Optionally **milk of magnesium (1650, +5 adv on the NEXT food — ⚠️ does NOT work on sushi**, so milk a non-sushi item).
-   Cast **Pastamastery**. **Buy ~12 MMJ (guild store row 527, 100 ea)** — MP is the real limiter.
-   ⚠️ **Mall buys need meat in HAGNK'S purse, which is now EMPTY** — a mall buy simply fails. NPC shops (guild/general
-   store) use inventory meat and work fine. To restock Hagnk's cash there is no obvious in-Ronin route; prefer NPC shops.
-   ✅ **Friar zones 539/540/541 are NOT stat-gated for us** — verified enterable at base Mys 33 (the old
-   "needs ~45 Mysticality" note in `friars-blessings.md` did not block us).
-1a. 💰 **MEAT IS LOW (~207) — farm/sell before buying a full MMJ stack.** The **Necrotelicomnicon**-style class
-    items aside, autosell genuine junk (check `sellstuff.php`). ⚠️ The daily MMJ stack (~1,600 meat) now
-    outpaces income — consider a dedicated meat-farm stretch (the Kitchen drops ~10 meat/win) or fewer, cheaper
-    MMJ buys. Note the **0-MP Spaghetti Spear (3020) still wins Kitchen fights (24W/1L verified)** — so MMJ is
-    only needed for hard zones, not for Kitchen leveling.
-2. 🎯 **LEVEL UP toward L9 (raw mys 4,096; we're at 3,037) in the HAUNTED KITCHEN (388).** Proven ~5 raw mys/turn,
-    45W/3L with MP and still 24W/1L on Spear alone. **Win rate beats zone ML** — don't "graduate" from the Kitchen.
-    See `mechanics/leveling-zones.md`. Then attempt the Cyrpt (item 4 below).
-3. **Spookyraven ghost chain** (`mechanics/spookyraven-ghost-chain.md`): necklace ✅, dancing finery ✅, and the
-   **Ballroom (395) is now unlocked**. ⚠️ **BUT the cellar-opening encounter "We'll All Be Flat" (choice 921)
-   REQUIRES "your father's diary"**, which we don't have — 40 ballroom turns produced nothing. **Don't farm the
-   ballroom for the cellar yet**; the diary comes from the later Lord Spookyraven/manor3 chain (manor3 currently
-   says "You can't go there yet").
-4. 🎯 **CYRPT quest (Council, active):** grind each of **Alcove 261 / Cranny 262 / Niche 263 / Nook 264** to 0 evil
-   (read progress via Evilometer `inv_use whichitem=4964`; Nook is at **41**, others 50). ⚠️ **Only fight while
-   BOTH Brother Smothers's blessing (`friars.php?bro=3`) AND MP are up** — they run out together (~20 turns) and the
-   win rate craters without them. Then Bonerdagon at The Haert. Best done at **base Mys ~65+**. See `bonerdagon-boss.md`.
-5. ✅✅ **AZAZEL QUEST COMPLETE — Liver of Steel earned (Day 99).** Nothing left here. (Walkthrough archived in
-   `mechanics/friars-blessings.md` for future ascensions.)
-5. **Cobb's Knob lab key (339)** — opens the Knob laboratory; unexplored this run.
-6. **Investigate Blaine at the guild — he lends out the guild Meatcar** (would skip the bitchin' meatcar build).
-7. **L7 guild skills cost 2,500 each** — Spirit of Rigatoni (id 11, chefstaves) or Bind Angel Hair Wisp (id 31).
-   ⚠️ We had only 1,512 and skipped them; Rigatoni is only useful once you also own a **chefstaff**.
-   Meat is now ~874 — **farm meat before planning a skill buy** (MMJ restocking eats ~1,600/day).
-8. 🚨 **DRINK LAST — then deliberately overdrink ONCE.** ❌ Day 92's "drink before the long loop" fix was WRONG and
-   caused Day 93's lost day: drinking first turns an overshoot into a day-ending lockout. Instead **cap farm loops**
-   so you reach the DRINK step with time to spare. Then, at day end:
-   **(a) READ THE CAP** from charpane `Tipsiness: X / Y` (**Y = 19 this run, Liver of Steel**; would be 14 without it);
-   **(b) MIX every bottle with soda water first** (free, 3 adv → 5–6 adv);
-   **(c) drink to exactly Y=19** with a look-ahead guard (`drunk + potency <= 19`), finishing on small bottles;
-   **(d) drink ONE more — your highest-adventure bottle** — to spend the single allowed overdrink. Those adventures
-   bank overnight. Enumerate booze **by name** (a fixed ID list missed half of it and stalled at drunk 9 on Day 91).
-   Full detail: **`mechanics/drinking-strategy.md`**.
-   ❌ The **Hidden Tavern is NOT unlocked** by the Typical Tavern quest (it's the L11 Hidden City) — no Fog Murderers yet.
-9. **Long-term:** finish this Softcore run (→ 111 karma, perm a meat/econ skill next), then escalate toward Hardcore.
-
-### The combat loop that works (low-level caster)
-**Clear Beaten Up first** (`campground.php?action=rest`) — it debuffs base stats and can silently drop you under a
-zone's stat gate. Then per turn: MMJ (518) if MP < 14 → **cast Lasagna Bandages (3009) to full** (use the `STsafe`
-`hp<=maxhp` guard, or just cast once unconditionally) → adventure → fight **Entangling Noodles (3004) round 1 →
-Cannelloni (3005) round 2+**, falling back to **Spaghetti Spear (3020, 0 MP)** under 8 MP. Detect end-of-fight by
-page text (`You win the fight` / `You lose`), **not** by an api HP read.
-⚠️ **On abort, ALWAYS finish the open fight** — a stuck fight makes *every* later fetch (mall, shops, eat/drink)
-silently return the fight page.
-
-⚠️ **Softcore/Ronin reminders:** no player buffs/gifts; **mall buys land in Hagnk's and cost Hagnk's meat**;
-**only 1 of each item can be pulled per day** (20/day cap); **check storage before buying** (we wasted ~520 meat on
-duplicates we already owned). After 1,000 turns Hagnk's opens fully. See `mechanics/ronin-softcore-rules.md`.
+- **THE HOLY MACGUFFIN IS DELIVERED - the entire L11 quest line is COMPLETE.**
+- **LEVEL 15 Pastamancer.** Base Mys **209** - HP ~248 max. **Meat ~7,539. adv 45 banked.**
+  full 15, drunk 22 (cap 19 + overdrink).
+- **Day 122 chain:** read **"I Love Me, Vol. I" (7262)** -> Dr. Awkward's office -> photos (God / red
+  nugget / dog / ostrich egg) -> **"2 Love Me, Vol. 2"** -> Mr. Alarm -> Whitey's Grove (**lion oil** +
+  **bird rib**) + stunt nuts -> **wet stunt nut stew** (cook rib+oil, then +nuts) -> **Mega Gem** ->
+  **Dr. Awkward dead in 2 rounds** -> **Staff of Fats** -> amulet+Eye = headpiece -> headpiece+Fats =
+  **STAFF OF ED** -> pyramid socket -> **Ancient Buried Pyramid** -> Upper (406) / Middle (407) ->
+  wheel -> **ED THE UNDYING (6 resurrections)** -> **HOLY MACGUFFIN** -> Council.
+- **The pyramid wheel is a 5-position ring** (not 9): #1 vending/rats, #2 nothing/rubble, #3 rats/basket,
+  #4 rubble/vending, #5 basket/nothing. **Ratchet turns are FREE** (choice 929 opt 2); only descending
+  (opt 5) costs an adventure. **Tomb ratchets are mall-buyable (~419 ea)** - buying 17 beat farming them.
+- **Council board now: the ISLAND WAR** ("Make War, Not... Oh, Wait"), plus still-open **Orc Chasm** (L9)
+  and **castle kitchen counter** (L10, "maybe from above").
+- Combat standard: **summon the thrall (Bind Vampieroghi 3027) first each day**, Cannelloni as the
+  workhorse, **Cannelloni Cocoon (3012)** healing, **Necrotelicomnicon** for physically-immune targets.
 
 ---
 
