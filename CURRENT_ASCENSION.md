@@ -51,7 +51,34 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
+## 🔜 Next-session priorities
+
+> **START HERE ON DAY 123:** login -> **summon Bind Vampieroghi (3027) first**, EAT, buy ~20 MMJ.
+> The MacGuffin line is DONE. Three Council quests remain:
+> (1) **ISLAND WAR** ("Make War, Not... Oh, Wait") - the big one. **Read `mechanics/island-war.md`
+> before committing to a side** (run #1 won on the hippy side; the boss "The Man" is a DPS race).
+> (2) **Orc Chasm** (L9) - smut orc bridge parts; **3 smut orc keepsake boxes already in inventory**.
+> (3) **Castle kitchen counter** (L10) - try the **Top Floor (324)**, "maybe you can get to it from above".
+> **DRINK LAST: 19 + overdrink.** Mall vodka stock is thin - **gin + olive -> martini** works just as
+> well (5 gin made 5 martinis today); ice-cold Willer (81) is still the 1-potency topper.
+
+---
+
 ## 🗓️ Session log (this run)
+
+- **Day 122 (2026-08-15): 🏆 THE HOLY MACGUFFIN - the L11 quest line is COMPLETE.**
+  Broke the two-day Palindome deadlock by discovering **choice 872 is NOT a random noncombat**:
+  Dr. Awkward's Office is a **place link** that unlocks by reading **"I Love Me, Vol. I"** - a book that
+  had been sitting unread in the bag while ~190 turns were burned hunting a phantom encounter (even with
+  Sonata of Sneakiness + hair spray). Lesson recorded in HANDOFF and `palindome-quest.md`.
+  Then the chain ran clean: photos -> Dr. Awkward clubs you (scripted) -> **"2 Love Me, Vol. 2"** ->
+  Mr. Alarm -> **Whitey's Grove** (lion oil, bird rib) -> **wet stunt nut stew** -> **Mega Gem** ->
+  **Dr. Awkward dead in 2 rounds** -> **Staff of Fats** -> **STAFF OF ED** assembled -> pyramid socket ->
+  **the Ancient Buried Pyramid rose**. Cleared Upper/Middle, worked the **5-position wheel**
+  (basket -> bronze token, vending -> ancient bomb, rubble -> boom; **bought 17 tomb ratchets** rather
+  than farm them at ~1 per 13 fights), then **ED THE UNDYING through six resurrections** ->
+  **HOLY MACGUFFIN** -> Council. The Council immediately opened the **Island War**.
+  Level 15, base Mys **209**. Wrapped clean: full 15, drunk 19+overdrink=22, **45 adv banked**.
 
 - **Day 121 (2026-08-17): 🐍 Ron beaten → Talisman forged → THE PALINDOME IS OPEN + all 4 photos; 🎉 LEVEL 15.**
   **Ron "The Weasel" Copperhead** appeared as an ordinary combat ~13 turns into the **Red Zeppelin (385)**
