@@ -54,10 +54,15 @@ Beaten-Up issues with the stun combo.
 - **photograph of an ostrich egg (7265)** — from the noncombat **"Last Egg Gets Al"** (NOT a monster drop,
   contrary to the older note here).
 
-### 🚧 Choice 872 "Drawn Onward" — the real bottleneck
-This is the door to Dr. Awkward's office and **the only way forward**. It is a *noncombat*, and the
-Palindome is combat-heavy: **Day 121 spent ~120 turns inside and saw exactly 2 noncombats**, neither of
-them 872. Winning fights is not the problem (150W/0L that day at base Mys ~200).
+### ✅ Choice 872 "Drawn Onward" — IT IS NOT A RANDOM NONCOMBAT (solved Day 122)
+🚨🚨 **STOP GRINDING FOR IT.** Days 121–122 burned ~190 turns hunting 872 as a random noncombat
+(56 straight fights with Sonata of Sneakiness + hair spray, still zero). **872 is not a wandering
+encounter — Dr. Awkward's Office is a LOCATION**, and it only appears after you **read
+`"I Love Me, Vol. I"` (item 7262)**, a Palindome drop that can sit unread in your bag for days.
+✅ **The actual route:** `inv_use` the book → **`place.php?whichplace=palindome&action=pal_droffice`**
+→ choice 872 fires immediately, no adventure spent hunting.
+**LESSON: when a "noncombat" won't appear, check whether it's really a place//action link gated by an
+unread book or unused item, before spending another turn.**
 ✅ **Bring a −combat / forced-noncombat source before you grind for it.** Treat "get the noncombat rate up"
 as a prerequisite step, not an optimisation.
 

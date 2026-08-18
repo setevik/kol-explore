@@ -134,6 +134,11 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
   is the main nuke. Most zone monsters die in ~2 rounds with MP topped.
 - **Bosses (ramp/tank):** enter at FULL HP (scroll 595) + FULL MP (tiny houses), **Mortar → Cannelloni every round**,
   heal only under ~35% HP. Turtling loses to ramping bosses (e.g. "The Man") — it's a DPS race. Torpedoes (630) in reserve.
+- 🚨 **IF A "NONCOMBAT" NEVER APPEARS, IT MAY NOT BE A NONCOMBAT.** Day 121–122 cost ~190 turns hunting
+  Palindome choice 872 as a random encounter, even with −combat buffs. It is reached by a
+  **`place.php?...&action=` link that unlocks when you READ AN ITEM** (`"I Love Me, Vol. I"`, which had
+  been sitting unread in the bag). ✅ **Before grinding for any gated encounter: read the wiki's zone page
+  for whether it's a location, and `inv_use` unread quest books/items you're carrying.**
 - 🚨 **NEVER CONFIRM A BOSS KILL FROM THE WIN-STRING ALONE — CHECK HP / Beaten Up / the quest log.**
   Day 118: two straight losses to an ancient protector spirit were logged as **WINS** because its defeat
   text doesn't match `/You lose the fight|black out|slink away/`. The tell was HP 0 + Beaten Up afterwards.
