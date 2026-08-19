@@ -30,41 +30,52 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 122 / 2026-08-15)
+## 📊 Character state (run #2 — end of Day 123 / 2026-08-16)
 
-- **THE HOLY MACGUFFIN IS DELIVERED - the entire L11 quest line is COMPLETE.**
-- **LEVEL 15 Pastamancer.** Base Mys **209** - HP ~248 max. **Meat ~7,539. adv 45 banked.**
+- **LEVEL 15 Pastamancer.** Base Mys **216** - HP ~248 max. **Meat ~2,289. adv 50 banked.**
   full 15, drunk 22 (cap 19 + overdrink).
-- **Day 122 chain:** read **"I Love Me, Vol. I" (7262)** -> Dr. Awkward's office -> photos (God / red
-  nugget / dog / ostrich egg) -> **"2 Love Me, Vol. 2"** -> Mr. Alarm -> Whitey's Grove (**lion oil** +
-  **bird rib**) + stunt nuts -> **wet stunt nut stew** (cook rib+oil, then +nuts) -> **Mega Gem** ->
-  **Dr. Awkward dead in 2 rounds** -> **Staff of Fats** -> amulet+Eye = headpiece -> headpiece+Fats =
-  **STAFF OF ED** -> pyramid socket -> **Ancient Buried Pyramid** -> Upper (406) / Middle (407) ->
-  wheel -> **ED THE UNDYING (6 resurrections)** -> **HOLY MACGUFFIN** -> Council.
-- **The pyramid wheel is a 5-position ring** (not 9): #1 vending/rats, #2 nothing/rubble, #3 rats/basket,
-  #4 rubble/vending, #5 basket/nothing. **Ratchet turns are FREE** (choice 929 opt 2); only descending
-  (opt 5) costs an adventure. **Tomb ratchets are mall-buyable (~419 ea)** - buying 17 beat farming them.
-- **Council board now: the ISLAND WAR** ("Make War, Not... Oh, Wait"), plus still-open **Orc Chasm** (L9)
-  and **castle kitchen counter** (L10, "maybe from above").
-- Combat standard: **summon the thrall (Bind Vampieroghi 3027) first each day**, Cannelloni as the
-  workhorse, **Cannelloni Cocoon (3012)** healing, **Necrotelicomnicon** for physically-immune targets.
+- **THE ISLAND WAR IS STARTED** (hippy side). `bigisland.php` is live; **Battlefield = snarf 140,
+  now at Image #4 of 32** after 37W/0L. The MacGuffin line is done; Orc Chasm + castle counter still open.
+- **Getting there (all done today):** 3 Shore trips -> 3 scrip -> **dinghy plans** (shore shop row 176)
+  + **dingy planks** (mall 140) -> **dingy dinghy** -> `island.php`. Then **Frat Boy Ensemble** free from
+  Frat House (27) noncombats -> wore it -> farmed **Hippy Camp (26)** for the **War Hippy Fatigues**
+  (headband 2337 / corduroys 2032 / **sunglasses 2033 = ACCESSORY, needs a free slot**) -> wore those into
+  the Frat House -> choice 146 **"Screw this, head to the roof"** -> war.
+- **CORRECTION to our own war notes: the Lighthouse and Sonofa Beach (136) are GATED behind battlefield
+  progress** - at Image #0 both refuse entry. Side quests are not a shortcut past the battlefield;
+  push the front first, then re-check `bigisland.php?place=lighthouse`.
+- Equipment note: currently wearing War Hippy Fatigues (hat/pants/acc) + frat-paddle (241) as weapon;
+  swap the paddle back to the pasta spoon (5) if spell damage matters more than the disguise.
 
 ---
 
 ## 🔜 Next-session priorities
 
-> **START HERE ON DAY 123:** login -> **summon Bind Vampieroghi (3027) first**, EAT, buy ~20 MMJ.
-> The MacGuffin line is DONE. Three Council quests remain:
-> (1) **ISLAND WAR** ("Make War, Not... Oh, Wait") - the big one. **Read `mechanics/island-war.md`
-> before committing to a side** (run #1 won on the hippy side; the boss "The Man" is a DPS race).
-> (2) **Orc Chasm** (L9) - smut orc bridge parts; **3 smut orc keepsake boxes already in inventory**.
-> (3) **Castle kitchen counter** (L10) - try the **Top Floor (324)**, "maybe you can get to it from above".
-> **DRINK LAST: 19 + overdrink.** Mall vodka stock is thin - **gin + olive -> martini** works just as
-> well (5 gin made 5 martinis today); ice-cold Willer (81) is still the 1-potency topper.
+> **START HERE ON DAY 124:** login -> **summon Bind Vampieroghi (3027) first**, EAT, buy ~20 MMJ.
+> The war is the whole job now:
+> (1) **Grind the Battlefield (snarf 140)** - it is ~1 Image per 9-10 wins at 0 side quests. Watch the
+> **"Image #N"** on `bigisland.php` and **re-test `bigisland.php?place=lighthouse` every ~10 wins**;
+> the moment it opens, switch to **Sonofa Beach (136)** for **5 barrels of gunpowder** -> Lighthouse
+> quest -> **that DOUBLES comrade kills per fight** and everything after is far faster.
+> (2) Other side quests (Junkyard / Orchard / Farm / Nunnery) also each double - take whichever unlocks.
+> (3) Final boss is **"The Man"** at the Orcish Frat House building - **pure DPS race, do not turtle**
+> (see `mechanics/island-war.md`). Boss attempts cost 0 adventures, so retries are cheap.
+> **DRINK LAST: 19 + overdrink** - **gin + olive -> martini** is the reliable rack (vodka stock is thin);
+> ice-cold Willer (81) as the 1-potency topper.
 
 ---
 
 ## 🗓️ Session log (this run)
+
+- **Day 123 (2026-08-16): ⚔️ THE ISLAND WAR IS STARTED - battlefield at Image #4.**
+  Built the boat from scratch (3 Shore trips -> scrip -> **dinghy plans** + **dingy planks** -> **dingy
+  dinghy**), then ran the full infiltration: **Frat Boy Ensemble** free from Frat House noncombats ->
+  wore it into the **Hippy Camp** so the hippies turned hostile -> 29 wins for the **War Hippy Fatigues**
+  -> wore *those* into the Frat House -> **"Screw this, head to the roof"** -> war.
+  ⚠️ **Corrected our own war notes:** the **Lighthouse and Sonofa Beach are gated behind battlefield
+  progress** - at Image #0 both simply refuse entry, so "side quests first" cannot be step one.
+  Ground the battlefield **37W/0L** (#0 -> **#4** of 32). Base Mys 209 -> **216**.
+  Wrapped clean: full 15, drunk 19+overdrink=22, **50 adv banked**.
 
 - **Day 122 (2026-08-15): 🏆 THE HOLY MACGUFFIN - the L11 quest line is COMPLETE.**
   Broke the two-day Palindome deadlock by discovering **choice 872 is NOT a random noncombat**:

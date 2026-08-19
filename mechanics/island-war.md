@@ -17,6 +17,13 @@ battlefield + complete side quests, then beat the side's final boss to win.
   `0 done = 1/fight · 1 = 2 · 2 = 4 · 3 = 8 · 4 = 16 · 5 = 32 · 6 = 64.`
 - Raw battlefield grinding at 1–2 kills/fight is hopeless (1001 enemies). **WIN PATH: do the side quests FIRST**
   to crank the multiplier, then mop up the battlefield fast (which also unlocks gated quests/zones deeper in).
+🚨 **CORRECTION (Day 123): several side quests are GATED BEHIND BATTLEFIELD PROGRESS.** At
+**Image #0** both **The Lighthouse** and **Sonofa Beach (136)** refuse entry -
+*"You can't fight your way through the frat boys to get to the lighthouse"* / *"Can't get here."*
+So the "do side quests first" advice is only half true: **you must push the battlefield far enough to
+open the flanks before the Lighthouse/Sonofa gunpowder farm is even reachable.** Budget battlefield
+turns first, then re-check `bigisland.php?place=lighthouse`.
+
 - **Prioritize the FASTEST side quests** — any quest gives the same doubling:
   - **Lighthouse** — farm **Sonofa Beach (snarf 136)** lobsterfrogmen for **barrel of gunpowder (2403)**, collect 5,
     give to the keeper (click The Lighthouse building) → big army cut. Lobsterfrogmen hit hard — fight at full MP.
@@ -63,3 +70,22 @@ number of side quests completed). The war quest leaves the log.
 ## General boss-fight takeaway (reusable)
 "The Man" is the canonical **ramping boss** — for the general "race it, don't turtle" lesson that applies to any
 high-HP boss that hits harder over time, see the boss note in `HANDOFF.md`.
+
+
+## Getting to the island & starting the war from scratch (verified Day 123)
+
+1. **You need a boat.** `island.php` requires a **dingy dinghy**: **dinghy plans** cost **3 Shore Inc.
+   Ship Trip Scrip** (`shop.php?whichshop=shore`, row **176**) - one scrip per Shore vacation
+   (snarf **355**, choice 793, ~500 meat + 3 adv each) - plus **dingy planks** (mall, item 140, ~340
+   meat). `inv_use` the plans with planks in inventory -> **dingy dinghy** -> `island.php` opens.
+2. **Camp outfits come from the camps themselves, mostly via NONCOMBATS.**
+   - **Orcish Frat House (27)** handed over the whole **Frat Boy Ensemble** (Orcish baseball cap 239,
+     Orcish frat-paddle 241, Orcish cargo shorts 240) in ~14 turns of noncombats, no disguise needed.
+   - Then **wear the frat outfit and farm the Hippy Camp (26)** - it turns hostile and the war hippies
+     drop the **War Hippy Fatigues**: reinforced beaded headband (2337), bullet-proof corduroys (2032),
+     round purple sunglasses (2033). Took ~29 wins; Fat Leon's helped the last piece.
+   - ⚠️ **The sunglasses are an ACCESSORY** - free a slot first (we had Mega Gem / talisman / etc.).
+3. **Wear the full War Hippy Fatigues -> adventure the Orcish Frat House (27)** -> choice **146**
+   -> **"Screw this, head to the roof"** -> **the war starts** and `bigisland.php` goes live.
+4. Battlefield = **snarf 140**; progress is the **"Image #N"** in the zone link (0 -> 32).
+   At 0 side quests it moves ~1 image per 9-10 wins (37 wins took us #0 -> #4).
