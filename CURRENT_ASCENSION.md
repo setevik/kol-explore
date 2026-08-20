@@ -30,42 +30,49 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 123 / 2026-08-16)
+## 📊 Character state (run #2 — end of Day 124 / 2026-08-17)
 
-- **LEVEL 15 Pastamancer.** Base Mys **216** - HP ~248 max. **Meat ~2,289. adv 50 banked.**
+- **LEVEL 15 Pastamancer.** Base Mys **223** - HP ~289 max. **Meat ~671. adv 49 banked.**
   full 15, drunk 22 (cap 19 + overdrink).
-- **THE ISLAND WAR IS STARTED** (hippy side). `bigisland.php` is live; **Battlefield = snarf 140,
-  now at Image #4 of 32** after 37W/0L. The MacGuffin line is done; Orc Chasm + castle counter still open.
-- **Getting there (all done today):** 3 Shore trips -> 3 scrip -> **dinghy plans** (shore shop row 176)
-  + **dingy planks** (mall 140) -> **dingy dinghy** -> `island.php`. Then **Frat Boy Ensemble** free from
-  Frat House (27) noncombats -> wore it -> farmed **Hippy Camp (26)** for the **War Hippy Fatigues**
-  (headband 2337 / corduroys 2032 / **sunglasses 2033 = ACCESSORY, needs a free slot**) -> wore those into
-  the Frat House -> choice 146 **"Screw this, head to the roof"** -> war.
-- **CORRECTION to our own war notes: the Lighthouse and Sonofa Beach (136) are GATED behind battlefield
-  progress** - at Image #0 both refuse entry. Side quests are not a shortcut past the battlefield;
-  push the front first, then re-check `bigisland.php?place=lighthouse`.
-- Equipment note: currently wearing War Hippy Fatigues (hat/pants/acc) + frat-paddle (241) as weapon;
-  swap the paddle back to the pasta spoon (5) if spell damage matters more than the disguise.
+- **ISLAND WAR: battlefield at Image #13 of 32** (hippy side), **~84W/0L today across two zones.**
+- **LIGHTHOUSE SIDE QUEST DONE** - comrade kills are now **doubled**. Measured effect: before it,
+  37 wins moved 4 images; after it, **54 wins moved 9** (#7 -> #13).
+  Route: battlefield to ~**Image #7** opens the lighthouse road -> **Sonofa Beach (136)**, where
+  **lobsterfrogmen drop barrels of gunpowder ~1 per kill** (5 needed; the zone has many empty NCs) ->
+  **`bigisland.php?place=lighthouse&action=pyro`** hands them over.
+- **Each further side quest doubles again (4x, 8x, 16x...)** - Junkyard / Orchard / Farm / Nunnery.
+  **Check which are unlocked now at Image #13** and take the cheapest next.
+- Final boss **"The Man"** at the Orcish Frat House building - **pure DPS race, never turtle**
+  (`mechanics/island-war.md`). Boss attempts cost 0 adventures, so retries are cheap.
+- Gear: War Hippy Fatigues (hat 2337 / pants 2032 / **sunglasses 2033 = accessory**) + pasta spoon (5)
+  + Necrotelicomnicon; thrall + Cannelloni + Cocoon is the standard loop.
 
 ---
 
 ## 🔜 Next-session priorities
 
-> **START HERE ON DAY 124:** login -> **summon Bind Vampieroghi (3027) first**, EAT, buy ~20 MMJ.
-> The war is the whole job now:
-> (1) **Grind the Battlefield (snarf 140)** - it is ~1 Image per 9-10 wins at 0 side quests. Watch the
-> **"Image #N"** on `bigisland.php` and **re-test `bigisland.php?place=lighthouse` every ~10 wins**;
-> the moment it opens, switch to **Sonofa Beach (136)** for **5 barrels of gunpowder** -> Lighthouse
-> quest -> **that DOUBLES comrade kills per fight** and everything after is far faster.
-> (2) Other side quests (Junkyard / Orchard / Farm / Nunnery) also each double - take whichever unlocks.
-> (3) Final boss is **"The Man"** at the Orcish Frat House building - **pure DPS race, do not turtle**
-> (see `mechanics/island-war.md`). Boss attempts cost 0 adventures, so retries are cheap.
-> **DRINK LAST: 19 + overdrink** - **gin + olive -> martini** is the reliable rack (vodka stock is thin);
-> ice-cold Willer (81) as the 1-potency topper.
+> **START HERE ON DAY 125:** login -> **summon Bind Vampieroghi (3027) first**, EAT, buy ~20 MMJ.
+> ⚠️ **Meat is low (~671)** - the war is meat-negative, so bank a little first if supplies run short.
+> (1) **Check the other side quests now that the front is at #13** - Junkyard / Orchard / Farm / Nunnery.
+> **Every completed side quest DOUBLES comrade kills** (currently 2x from the Lighthouse), so one more
+> is worth far more than the turns it costs.
+> (2) Otherwise **grind the Battlefield (140)** toward Image #32.
+> (3) At #32: **"The Man"** at the Orcish Frat House building - full HP/MP, lead with the biggest nuke,
+> **spam damage every round, heal only under ~35%**. Retries cost 0 adventures.
+> **DRINK LAST: 19 + overdrink** - **gin + olive -> martini** rack + ice-cold Willer (81) as the topper.
 
 ---
 
 ## 🗓️ Session log (this run)
+
+- **Day 124 (2026-08-17): 🎆 LIGHTHOUSE TAKEN - comrade kills doubled; battlefield #4 -> #13.**
+  Ground the battlefield to **Image #7**, which is where **the lighthouse road opens** (confirming
+  yesterday's correction that it is gated, not a shortcut). Switched to **Sonofa Beach (136)**:
+  **lobsterfrogmen drop a barrel of gunpowder roughly per kill**, 5 collected in 5 wins, handed over at
+  **`place=lighthouse&action=pyro`** -> *"Big boom! Big big boom!"* -> **side quest complete, kills x2**.
+  The multiplier is measurable: **37 wins moved 4 images before, 54 wins moved 9 after** (#7 -> **#13**).
+  **~84W/0L on the day, zero losses.** Base Mys 216 -> **223**.
+  Wrapped clean: full 15, drunk 19+overdrink=22, **49 adv banked** (meat down to 671 - war is meat-negative).
 
 - **Day 123 (2026-08-16): ⚔️ THE ISLAND WAR IS STARTED - battlefield at Image #4.**
   Built the boat from scratch (3 Shore trips -> scrip -> **dinghy plans** + **dingy planks** -> **dingy

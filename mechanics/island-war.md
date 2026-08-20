@@ -89,3 +89,16 @@ high-HP boss that hits harder over time, see the boss note in `HANDOFF.md`.
    -> **"Screw this, head to the roof"** -> **the war starts** and `bigisland.php` goes live.
 4. Battlefield = **snarf 140**; progress is the **"Image #N"** in the zone link (0 -> 32).
    At 0 side quests it moves ~1 image per 9-10 wins (37 wins took us #0 -> #4).
+
+
+## Verified war numbers (Day 124)
+
+- **The Lighthouse road opens at about Image #7.** Grind the battlefield until
+  `bigisland.php?place=lighthouse` stops saying *"You can't fight your way through the frat boys"* -
+  re-test it every ~10 wins rather than assuming a fixed threshold.
+- **Sonofa Beach (136)** then works: **lobsterfrogmen drop a barrel of gunpowder at roughly 1 per kill**
+  (5 needed). The zone is noncombat-heavy, so budget ~3 turns per barrel.
+- **Hand the barrels in at `bigisland.php?place=lighthouse&action=pyro`** (the plain `place=lighthouse`
+  page has no button - the `action=pyro` link is the turn-in).
+- **Measured value of the x2 multiplier:** 37 battlefield wins moved the front **4 images** at 0 side
+  quests; **54 wins moved 9 images** with the Lighthouse done. Each further side quest doubles again.
