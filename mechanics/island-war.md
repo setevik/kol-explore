@@ -102,3 +102,27 @@ high-HP boss that hits harder over time, see the boss note in `HANDOFF.md`.
   page has no button - the `action=pyro` link is the turn-in).
 - **Measured value of the x2 multiplier:** 37 battlefield wins moved the front **4 images** at 0 side
   quests; **54 wins moved 9 images** with the Lighthouse done. Each further side quest doubles again.
+
+
+## The Farm side quest (verified Day 125) - the cheapest second doubling
+
+- Opens once the front is ~**Image #13** (Farm / Nunnery / Orchard were all reachable then; the
+  **Junkyard was still gated**).
+- **Accept it at `bigisland.php?place=farm&action=farmer`** ("Ach! Me farm, it's overrun! Dooks all
+  over it!").
+- **The farm page then lists its own duck zones - snarfs 142, 144, 147.** Clear each (~10 wins);
+  **a cleared zone disappears from the farm page**, which is the progress gauge.
+  🚨 **snarf 137 is NOT part of this quest** - adventuring there returns unrelated noncombats and wastes
+  turns (cost us 7).
+- **Talk to the farmer again** when all three are gone -> he plants soybeans -> **side quest complete**.
+- No RNG, no items to collect - purely combat, which makes it the best second pick after the Lighthouse.
+
+## Observed pace with multipliers (hippy side, base Mys ~225)
+| Multiplier | Wins | Images gained |
+|---|---|---|
+| 1x (no side quests) | 37 | 4 |
+| 2x (Lighthouse) | 54 | 9 |
+| 4x (Lighthouse + Farm) | 71 | 8 (deeper images, #13 -> #21) |
+
+⚠️ **The war is MP-hungry as well as meat-negative** - we hit 0 MP twice on Day 125 mid-advance.
+Buy ~25 MMJ before starting and expect to restock mid-day.

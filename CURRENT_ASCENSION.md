@@ -30,40 +30,50 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 124 / 2026-08-17)
+## 📊 Character state (run #2 — end of Day 125 / 2026-08-18)
 
-- **LEVEL 15 Pastamancer.** Base Mys **223** - HP ~289 max. **Meat ~671. adv 49 banked.**
+- **LEVEL 15 Pastamancer.** Base Mys **229**. **Meat ~4,154. adv 53 banked.**
   full 15, drunk 22 (cap 19 + overdrink).
-- **ISLAND WAR: battlefield at Image #13 of 32** (hippy side), **~84W/0L today across two zones.**
-- **LIGHTHOUSE SIDE QUEST DONE** - comrade kills are now **doubled**. Measured effect: before it,
-  37 wins moved 4 images; after it, **54 wins moved 9** (#7 -> #13).
-  Route: battlefield to ~**Image #7** opens the lighthouse road -> **Sonofa Beach (136)**, where
-  **lobsterfrogmen drop barrels of gunpowder ~1 per kill** (5 needed; the zone has many empty NCs) ->
-  **`bigisland.php?place=lighthouse&action=pyro`** hands them over.
-- **Each further side quest doubles again (4x, 8x, 16x...)** - Junkyard / Orchard / Farm / Nunnery.
-  **Check which are unlocked now at Image #13** and take the cheapest next.
+- **ISLAND WAR: battlefield at Image #21 of 32** (hippy side). **~99W/0L today, zero losses.**
+- **TWO side quests done -> comrade kills are 4x.**
+  - **Lighthouse** (Day 124): 5 barrels of gunpowder from Sonofa Beach.
+  - **FARM (Day 125)**: `bigisland.php?place=farm&action=farmer` to accept ("Dooks!"), then clear the
+    **three duck zones the farm page lists - snarfs 142, 144, 147** (~10 wins each; a zone vanishes from
+    the farm page when cleared). Talk to the farmer again -> soybeans -> **doubling**.
+    ⚠️ **Do not adventure in snarf 137** - it is not part of the quest (wasted 7 turns).
+- **Still available for a 3rd doubling: Orchard** (RNG-heavy gland) and **Nunnery** (100k meat recovery,
+  meat-negative for us). **Junkyard is still gated** behind more battlefield progress - re-probe it.
 - Final boss **"The Man"** at the Orcish Frat House building - **pure DPS race, never turtle**
-  (`mechanics/island-war.md`). Boss attempts cost 0 adventures, so retries are cheap.
-- Gear: War Hippy Fatigues (hat 2337 / pants 2032 / **sunglasses 2033 = accessory**) + pasta spoon (5)
-  + Necrotelicomnicon; thrall + Cannelloni + Cocoon is the standard loop.
+  (`mechanics/island-war.md`). Boss attempts cost 0 adventures.
+- ⚠️ **The war burns MP hard** - we hit 0 MP twice today mid-advance. Buy ~25 MMJ up front.
 
 ---
 
 ## 🔜 Next-session priorities
 
-> **START HERE ON DAY 125:** login -> **summon Bind Vampieroghi (3027) first**, EAT, buy ~20 MMJ.
-> ⚠️ **Meat is low (~671)** - the war is meat-negative, so bank a little first if supplies run short.
-> (1) **Check the other side quests now that the front is at #13** - Junkyard / Orchard / Farm / Nunnery.
-> **Every completed side quest DOUBLES comrade kills** (currently 2x from the Lighthouse), so one more
-> is worth far more than the turns it costs.
-> (2) Otherwise **grind the Battlefield (140)** toward Image #32.
-> (3) At #32: **"The Man"** at the Orcish Frat House building - full HP/MP, lead with the biggest nuke,
-> **spam damage every round, heal only under ~35%**. Retries cost 0 adventures.
-> **DRINK LAST: 19 + overdrink** - **gin + olive -> martini** rack + ice-cold Willer (81) as the topper.
+> **START HERE ON DAY 126:** login -> **summon Bind Vampieroghi (3027) first**, EAT, **buy ~25 MMJ**
+> (the war drains MP fast; we stalled twice yesterday).
+> (1) **Push the Battlefield (140) from Image #21 to #32.** At 4x comrade kills this is ~9 wins per image.
+> (2) **Re-probe `bigisland.php?place=junkyard`** as the front advances - if it opens, that is a cheap
+> 3rd doubling (8x). Orchard/Nunnery remain but are RNG-heavy / meat-negative respectively.
+> (3) **At Image #32 the way to the frat house is clear** -> click the **Orcish Frat House building** on
+> the `bigisland.php` map -> **"Commence the Sense-Knocking"** -> **The Man**.
+> **Fight him as a DPS race:** full HP/MP, biggest nuke first, damage every round, heal only under ~35%.
+> He ramps damage each round, so a long fight is a lost fight. **Retries cost 0 adventures.**
+> **DRINK LAST: 19 + overdrink** - gin + olive -> martini rack + ice-cold Willer (81) topper.
 
 ---
 
 ## 🗓️ Session log (this run)
+
+- **Day 125 (2026-08-18): 🦆 FARM SIDE QUEST DONE (kills now 4x); battlefield #13 -> #21.**
+  With the front at #13, the Farm/Nunnery/Orchard had opened (Junkyard still gated). Took the **Farm**
+  as the cheapest, no-RNG option: accept from the farmer ("Dooks all over it!"), then clear the **three
+  duck zones the farm page lists (142/144/147)** - ~10 wins each, and a cleared zone disappears from the
+  page. ⚠️ Wasted 7 turns first in **snarf 137, which is not part of the quest**. Farmer plants soybeans
+  -> **second doubling, comrade kills now 4x**. Then battlefield **#13 -> #21 of 32**.
+  **~99W/0L on the day.** Base Mys 223 -> **229**. ⚠️ Ran out of MP twice mid-advance - the war is
+  MP-hungry as well as meat-negative. Wrapped clean: full 15, drunk 19+overdrink=22, **53 adv banked**.
 
 - **Day 124 (2026-08-17): 🎆 LIGHTHOUSE TAKEN - comrade kills doubled; battlefield #4 -> #13.**
   Ground the battlefield to **Image #7**, which is where **the lighthouse road opens** (confirming
