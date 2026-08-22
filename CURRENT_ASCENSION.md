@@ -30,41 +30,50 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 125 / 2026-08-18)
+## 📊 Character state (run #2 — end of Day 126 / 2026-08-19)
 
-- **LEVEL 15 Pastamancer.** Base Mys **229**. **Meat ~4,154. adv 53 banked.**
+- 🎉 **LEVEL 16 Pastamancer.** Base Mys **236**. **Meat ~1,582. adv 49 banked.**
   full 15, drunk 22 (cap 19 + overdrink).
-- **ISLAND WAR: battlefield at Image #21 of 32** (hippy side). **~99W/0L today, zero losses.**
-- **TWO side quests done -> comrade kills are 4x.**
-  - **Lighthouse** (Day 124): 5 barrels of gunpowder from Sonofa Beach.
-  - **FARM (Day 125)**: `bigisland.php?place=farm&action=farmer` to accept ("Dooks!"), then clear the
-    **three duck zones the farm page lists - snarfs 142, 144, 147** (~10 wins each; a zone vanishes from
-    the farm page when cleared). Talk to the farmer again -> soybeans -> **doubling**.
-    ⚠️ **Do not adventure in snarf 137** - it is not part of the quest (wasted 7 turns).
-- **Still available for a 3rd doubling: Orchard** (RNG-heavy gland) and **Nunnery** (100k meat recovery,
-  meat-negative for us). **Junkyard is still gated** behind more battlefield progress - re-probe it.
-- Final boss **"The Man"** at the Orcish Frat House building - **pure DPS race, never turtle**
-  (`mechanics/island-war.md`). Boss attempts cost 0 adventures.
-- ⚠️ **The war burns MP hard** - we hit 0 MP twice today mid-advance. Buy ~25 MMJ up front.
+- **ISLAND WAR: battlefield at Image #29 of 32** - **three images from the frat house.**
+  **105W/0L today**, ~9 wins per image at the current 4x multiplier.
+- **Two side quests done (4x kills): Lighthouse + Farm.**
+- **JUNKYARD IS OPEN but we skipped it** - `bigisland.php?action=junkman` gives the **molybdenum magnet
+  (2497)** free from Yossarian, then you must **use the magnet as a combat item** on the tool-carrying
+  gremlins in snarfs **182/183/184/185** (one tool each). ⚠️ **12 gremlin fights in 182 produced no tool** -
+  the drop is rare enough that the 8x payoff did not beat just grinding the front. Revisit only if the
+  battlefield stalls.
+- ▶ **NEXT SESSION SHOULD WIN THE WAR:** ~3 images (~27 wins) to clear, then **The Man**.
+- **The Man - the fight plan (from `mechanics/island-war.md`):** enter at **FULL HP + FULL MP**,
+  **lead with the biggest nuke, then damage EVERY round, heal only under ~35%**. He **ramps damage each
+  round**, so a long fight is a lost fight - never turtle. **Boss attempts cost 0 adventures**, so retry
+  freely: lose -> `campground.php?action=rest` -> refill -> re-click the frat house.
 
 ---
 
 ## 🔜 Next-session priorities
 
-> **START HERE ON DAY 126:** login -> **summon Bind Vampieroghi (3027) first**, EAT, **buy ~25 MMJ**
-> (the war drains MP fast; we stalled twice yesterday).
-> (1) **Push the Battlefield (140) from Image #21 to #32.** At 4x comrade kills this is ~9 wins per image.
-> (2) **Re-probe `bigisland.php?place=junkyard`** as the front advances - if it opens, that is a cheap
-> 3rd doubling (8x). Orchard/Nunnery remain but are RNG-heavy / meat-negative respectively.
-> (3) **At Image #32 the way to the frat house is clear** -> click the **Orcish Frat House building** on
-> the `bigisland.php` map -> **"Commence the Sense-Knocking"** -> **The Man**.
-> **Fight him as a DPS race:** full HP/MP, biggest nuke first, damage every round, heal only under ~35%.
-> He ramps damage each round, so a long fight is a lost fight. **Retries cost 0 adventures.**
+> **START HERE ON DAY 127 - THIS SHOULD BE THE DAY THE WAR ENDS:**
+> login -> **summon Bind Vampieroghi (3027)**, EAT, **buy ~25 MMJ**.
+> (1) **Battlefield (140) from Image #29 to #32** - roughly 27 wins at 4x.
+> (2) When the map says the way is clear, **click the Orcish Frat House building on `bigisland.php`**
+> -> **"Commence the Sense-Knocking"** -> **The Man**.
+> **DPS RACE:** full HP/MP first, biggest nuke opener, damage every round, heal only under ~35%.
+> Retries are free (0 adventures) - rest, refill, re-enter.
+> (3) After the kill, **visit `council.php`** to close the war quest and collect the reward.
+> (4) Then the remaining council board: **Orc Chasm** (L9) and the **castle kitchen counter** (L10).
 > **DRINK LAST: 19 + overdrink** - gin + olive -> martini rack + ice-cold Willer (81) topper.
 
 ---
 
 ## 🗓️ Session log (this run)
+
+- **Day 126 (2026-08-19): ⚔️ Battlefield #21 -> #29 of 32; 🎉 LEVEL 16. 105W/0L.**
+  The **Junkyard opened** (3rd doubling available): Yossarian hands over the **molybdenum magnet** free at
+  `bigisland.php?action=junkman`, but the tools must be **magneted off rare gremlins** in 182/183/184/185 -
+  **12 fights in 182 gave nothing but gremlin juice**. Made the deliberate call to **skip the 8x and just
+  push the front**: 11 images at 4x ≈ 100 turns, versus 50 turns *plus* an open-ended junkyard hunt.
+  Ground the battlefield all day: **#21 -> #29**, **105 wins, zero losses**, base Mys 229 -> **236**.
+  Wrapped clean: full 15, drunk 19+overdrink=22, **49 adv banked**. **Three images from The Man.**
 
 - **Day 125 (2026-08-18): 🦆 FARM SIDE QUEST DONE (kills now 4x); battlefield #13 -> #21.**
   With the front at #13, the Farm/Nunnery/Orchard had opened (Junkyard still gated). Took the **Farm**

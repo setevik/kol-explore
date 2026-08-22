@@ -126,3 +126,15 @@ high-HP boss that hits harder over time, see the boss note in `HANDOFF.md`.
 
 ⚠️ **The war is MP-hungry as well as meat-negative** - we hit 0 MP twice on Day 125 mid-advance.
 Buy ~25 MMJ before starting and expect to restock mid-day.
+
+
+## The Junkyard side quest - know the cost before you commit (Day 126)
+
+- Opens later than Farm/Nunnery/Orchard (still gated at Image #13; **open by #21**).
+- **`bigisland.php?action=junkman`** = Yossarian, who hands over the **molybdenum magnet (2497)** for free.
+- The four tools are then taken from **tool-carrying gremlins** in snarfs **182 / 183 / 184 / 185** by
+  **using the magnet as a combat item** (`fight.php?action=useitem&whichitem=2497`) on the right gremlin.
+- 🚨 **The tool gremlins are rare: 12 fights in one zone produced none.** Do the arithmetic before
+  committing - at 4x the front moves ~9 wins per image, so the remaining images have a known cost, while
+  the Junkyard's is open-ended. On Day 126 we **skipped the 8x** and pushed the battlefield instead,
+  which was the right call with ~11 images left.
