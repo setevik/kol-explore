@@ -352,6 +352,23 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
      spend it on your highest-adventure bottle; those adventures still bank.
    - If you fear missing DRINK during a long farm loop, **cap the loop / drink at a checkpoint** — do NOT reorder
      the day.
+   - 🚨 **AFTER THE OVERDRINK, THE DAY IS OVER — STOP ADVENTURING. (Cost 60 adventures, Day 127.)**
+     This is the failure mode that survives "drink last": we correctly spent all advs, correctly filled to exactly
+     19, correctly took ONE overdrink (→ drunk 25) — and then, because the overdrink handed us **+60 adventures on
+     the spot**, HARD RULE 2 ("don't end the day with ≥40 unspent") pulled us straight back out to a quest zone.
+     At drunk 25 every one of those 60 turns was a **Drunken Stupor**: turn consumed, zero monsters, zero meat,
+     zero drops.
+     - ⚖️ **Rule precedence: this beats HARD RULE 2.** Adventures granted by the *overdrink* are **not** "unspent
+       adventures" — they are **tomorrow's opening balance** and are *supposed* to sit at 40–60 overnight. Seeing a
+       big adv count right after the final bottle is the EXPECTED state, not a problem to fix.
+     - ✅ **The safe ordering if you want to spend booze adventures today:** spend advs → **fill to exactly cap
+       (do NOT overdrink)** → spend those advs → **overdrink as the very last action of the session**, then wrap.
+     - 🔍 **How to detect you're already falling-down drunk** (do this before any post-drink adventuring):
+       `charpane.php` starts serving the drunk-blur CSS (`.blur1`/`.blur2`/`.blur3`/`.blur4` text-shadow classes).
+       Cheaper still: just compare `drunk` to the cap before adventuring.
+     - 🔍 **How to notice you already wasted turns:** a burst that reports N "wins" but an **empty monster map, empty
+       item map, and flat meat** is not a lucky streak — it's Drunken Stupor. See the fight-loop lesson below:
+       never trust a win counter that isn't corroborated by drops/meat/substat.
 2. **Don't end the day with ≥ 40 adventures unspent.** Banked advs roll over but waste daily potential — keep
    adventuring until near 0. Disconnects / MP starvation / a stalled quest are reasons to **adapt** (re-login, tiny-house
    MP, switch to a sustainable zone like the Airship snarf 81), NOT to stop. Only stop early if genuinely out of advs,

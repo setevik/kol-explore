@@ -26,6 +26,37 @@ from the Azazel quest → steel margarita; see `friars-blessings.md`. Run #2 has
 ⇒ **The optimum is: fill to exactly CAP, then spend your ONE overdrink on the single highest-adventure drink you own.**
 And because of rule 1, **all of this must happen at the END of the day**, after adventures are spent.
 
+## 🔌 Endpoints (get these wrong and you silently drink nothing)
+
+- 🐛 **DRINKING IS `inv_booze.php`, NOT `inv_use.php`.** (Cost a full confused cycle on Day 127.)
+  `inv_use.php?which=1&whichitem=<booze>&pwd=<hash>&ajax=1` returns a **normal-looking 200 with the usual
+  `updateInv([])` / charpane-refresh boilerplate** — no error, no "you can't do that" — but **nothing is
+  consumed, no adventures are gained, and drunkenness stays 0.** An empty `updateInv([])` is the tell.
+  ✅ Correct: **`inv_booze.php?which=1&whichitem=<id>&pwd=<hash>&ajax=1`**
+  → *"Results: You drink the tiki drink."* and `updateInv({"6682":-1})`.
+- ✅ **Always verify a drink actually landed** by diffing `api.php` `adventures` before/after AND reading the
+  charpane's `Drunkenness: X / Y`. (Note the charpane label is **`Drunkenness:`**, not `Tipsiness:`, in the
+  current UI — match both.) A "drink" that yields +0 adventures did not happen.
+
+## 🛒 Buying booze from the mall — the per-store daily limit
+
+⚠️ **Good booze is usually sold `(Limit 1 / day)` per store.** A single `quantity=5` POST to one store
+**silently buys nothing** (no error, meat unchanged). ✅ **Buy 1 from each of N different stores instead:**
+scrape every `mallstore.php?whichstore=(\d+)&searchitem=<id>&searchprice=(\d+)` match from the search page,
+dedupe by store, and issue one purchase per store. Day 127: 5 stores → 5 Fog Murderers for 1,830 meat
+(250/350/410/410/410) — prices climb, so walk the list cheapest-first and stop when you have enough.
+
+### Measured yields (run #2, Day 127, base Mys ~245, no booze-drop bonuses)
+
+| Drink | id | Potency | Adventures |
+|---|---|---|---|
+| **Fog Murderer** | 6682 | 6 | **16, 15, 14, 14** (~15 avg) |
+| Imp Ale | 470 | 1 | 1 |
+
+⇒ Fog Murderer is ~**2.5 adv per point of liver** at ~250–420 meat: still the best no-skill bottle. A
+19-cap liver filled as **3 × Fog Murderer (18) + 1 × Imp Ale (19)** plus **1 Fog Murderer overdrink** yielded
+**60 adventures for 1,930 meat**.
+
 ## Daily recipe
 
 1. **Spend all adventures first.** (Drinking first turns an overshoot into a lost day — that cost us Day 93.)

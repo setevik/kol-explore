@@ -30,42 +30,68 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 126 / 2026-08-19)
+## 📊 Character state (run #2 — end of Day 127 / 2026-08-20)
 
-- 🎉 **LEVEL 16 Pastamancer.** Base Mys **236**. **Meat ~1,582. adv 49 banked.**
-  full 15, drunk 22 (cap 19 + overdrink).
-- **ISLAND WAR: battlefield at Image #29 of 32** - **three images from the frat house.**
-  **105W/0L today**, ~9 wins per image at the current 4x multiplier.
-- **Two side quests done (4x kills): Lighthouse + Farm.**
-- **JUNKYARD IS OPEN but we skipped it** - `bigisland.php?action=junkman` gives the **molybdenum magnet
-  (2497)** free from Yossarian, then you must **use the magnet as a combat item** on the tool-carrying
-  gremlins in snarfs **182/183/184/185** (one tool each). ⚠️ **12 gremlin fights in 182 produced no tool** -
-  the drop is rare enough that the 8x payoff did not beat just grinding the front. Revisit only if the
-  battlefield stalls.
-- ▶ **NEXT SESSION SHOULD WIN THE WAR:** ~3 images (~27 wins) to clear, then **The Man**.
-- **The Man - the fight plan (from `mechanics/island-war.md`):** enter at **FULL HP + FULL MP**,
-  **lead with the biggest nuke, then damage EVERY round, heal only under ~35%**. He **ramps damage each
-  round**, so a long fight is a lost fight - never turtle. **Boss attempts cost 0 adventures**, so retry
-  freely: lose -> `campground.php?action=rest` -> refill -> re-click the frat house.
+- 🎉 **LEVEL 16 Pastamancer.** Base Mys **245**. HP 308, MP 408. **Meat ~4,800. adv 0.**
+  full 15, drunk 25 (cap 19 + overdrink).
+- 🏆 **THE ISLAND WAR IS WON.** Killed **The Man** in **5 rounds** (Weapon of the Pastalord every round,
+  no heals) and closed it at `council.php` → **Blue Diamond of Honesty**. The war quest is off the log.
+- 🌉 **ORC CHASM BRIDGED.** 40 fights in the Smut Orc Logging Camp (0 losses) + **4 smut orc keepsake boxes**
+  (5 lumber + 5 fasteners each) → 41 lumber / 40 fasteners → bridge built. **The Highlands are open.**
+- 🔥 **OIL PEAK LIT** — 50 oil slicks, 0 losses, pressure 310.66 µB/Hg → negligible. Map now reads
+  *"Oil Peak with Flame"*. **50 bubblin' crude banked** (this is quest currency — do NOT sell it).
+- **Council board now:** *There Can Be Only One Topping* (2 of 3 signal fires still unlit) and
+  *The Rain on the Plains is Mainly Garbage* (castle kitchen counter, "get to it from above").
+- **Consumables on hand:** 1 Fog Murderer, 1 Imp Ale, 50 bubblin' crude.
+
+### 🚨 Day 127 self-inflicted loss — read before repeating
+
+**60 adventures were burned on Drunken Stupor.** After correctly filling the liver to 19 and taking the one
+allowed overdrink (→ drunk 25), I went straight back out to Twin Peak with the 60 adventures the booze had
+just granted. **Past the cap every turn is a Drunken Stupor**: turn consumed, no monster, no meat, no drop.
+Those 60 were supposed to *bank overnight*.
+**Rule going forward (now in `HANDOFF.md` HARD RULE 1): the overdrink is the LAST action of the session.**
+If you want to spend booze adventures the same day, fill to exactly the cap, spend, and overdrink only at the
+very end. A burst reporting "N wins" with an **empty monster map, empty item map and flat meat** is this bug.
 
 ---
 
 ## 🔜 Next-session priorities
 
-> **START HERE ON DAY 127 - THIS SHOULD BE THE DAY THE WAR ENDS:**
-> login -> **summon Bind Vampieroghi (3027)**, EAT, **buy ~25 MMJ**.
-> (1) **Battlefield (140) from Image #29 to #32** - roughly 27 wins at 4x.
-> (2) When the map says the way is clear, **click the Orcish Frat House building on `bigisland.php`**
-> -> **"Commence the Sense-Knocking"** -> **The Man**.
-> **DPS RACE:** full HP/MP first, biggest nuke opener, damage every round, heal only under ~35%.
-> Retries are free (0 adventures) - rest, refill, re-enter.
-> (3) After the kill, **visit `council.php`** to close the war quest and collect the reward.
-> (4) Then the remaining council board: **Orc Chasm** (L9) and the **castle kitchen counter** (L10).
-> **DRINK LAST: 19 + overdrink** - gin + olive -> martini rack + ice-cold Willer (81) topper.
+> **START HERE ON DAY 128 — two signal fires left.**
+> Login → **summon Bind Vampieroghi (3027)**, EAT to 15, top up MP (Mountain Stream soda 357).
+> (1) ⭐ **TWIN PEAK (snarfblat 297)** is the reliable one: **50 adventures in-zone triggers `Cabin Fever`**,
+>     which lets you burn the lodge down and light the beacon with **no gear requirements**. Budget ~50 turns.
+>     If you can cheaply hit the real gates, they're better (they also drop a **gold wedding ring**):
+>     Room 237 = **+4 stench res**; pantry = **+50% item** (familiars/thralls/booze do NOT count, so Buffy's
+>     Fat Leon's +20% alone is not enough); music = **jar of oil from 12 bubblin' crude** (we have 50);
+>     then **+40% initiative** for "Wait — who's that?".
+> (2) ⚠️ **A-BOO PEAK (296) IS A WALL RIGHT NOW — do not spend turns there blind.** All five ghosts are
+>     **100% physically resistant AND spooky-aligned**, so *both* untuned pasta (physical) and
+>     Necrotelicomnicon-tuned pasta (spooky) do **zero**. They are **weak to hot and stench**. Get a hot/stench
+>     source first — the **oil lamp** built from bubblin' crude reportedly counts +15 damage in this zone.
+>     Ghosts have only 40 HP, so a small elemental source is enough. 49 ghosts at −2% each, or use
+>     **A-Boo clues** → *The Horror…* for up to −30% in one turn.
+> (3) All three fires lit → back to **The Highland Lord's Tower** for the **Misty Robe** + access to
+>     **The Valley of Rof L'm Fao**.
+> (4) Still open afterwards: the **castle kitchen counter** (L10, reach it from the Top Floor, snarf 324).
+> **DRINK LAST — and then STOP.** Fill to 19 (Fog Murderer ×3 + Imp Ale ×1), take ONE overdrink, wrap the day.
+> Fog Murderer is **limit 1/day per mall store** — buy one from each of ~5 stores (~250–420 meat each).
 
 ---
 
 ## 🗓️ Session log (this run)
+
+- **Day 127 (2026-08-20): 🏆 WAR WON (The Man, 5 rounds) · 🌉 Orc Chasm bridged · 🔥 Oil Peak lit.**
+  Ground the battlefield **#29 → #32**, then took **The Man** in five casts of Weapon of the Pastalord at
+  full HP/MP with both of Buffy's shells and the Vampieroghi thrall — never healed, never turtled. Council
+  paid out the **Blue Diamond of Honesty**. Then cleared the level-9 board: **40 fights** in the Smut Orc
+  Logging Camp plus **4 keepsake boxes** finished the bridge (⚠️ *messy butt joint* is a **fastener**, not
+  lumber — that miscount cost an hour), and **50 oil slicks, 0 losses** lit **Oil Peak** and banked
+  **50 bubblin' crude**. Sold the boss's *really dense meat stack* for **5,000 meat** (note: the working
+  endpoint is `sellstuff_ugly.php`, not `sellstuff.php`) and bought 5 Fog Murderers, one per store.
+  **Then threw away 60 adventures** by adventuring at drunk 25 — see the warning block above.
+  **171 real fights today, 0 losses.**
 
 - **Day 126 (2026-08-19): ⚔️ Battlefield #21 -> #29 of 32; 🎉 LEVEL 16. 105W/0L.**
   The **Junkyard opened** (3rd doubling available): Yossarian hands over the **molybdenum magnet** free at

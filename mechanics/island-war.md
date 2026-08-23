@@ -63,9 +63,32 @@ snarf 27 is dead (*"you shouldn't be here"*). Instead **click "The Orcish Frat H
   lose → `campground.php?action=rest` (clears Beaten Up) → scroll(595) full HP + tiny houses(592) full MP →
   re-click frat house → retry.
 
+### ✅ VERIFIED KILL — Day 127, run #2: **5 rounds, no damage taken after round 4**
+The doctrine above is confirmed, and can be tightened:
+- **Entry state:** 303/305 HP, 393/402 MP, Buffy's **Ghostly Shell + Astral Shell**, **Vampieroghi thrall up**.
+- **Every round: `Weapon of the Pastalord` (3008, 32 MP).** Five casts, no opener swap, no heals, no items.
+  HP track 303 → 246 → 244 → 212 → 177, then he died. He never got into his lethal ramp band.
+- ⚠️ **This refines the "open with Stuffed Mortar Shell 3007, then Cannelloni 3005" advice above:** once your
+  MP pool is deep enough to afford 32 MP *every* round, **the Pastalord is simply the better spell every round**
+  and the fight ends before ramp matters. Cannelloni (3005, 8 MP) is the fallback for a shallow MP pool.
+  (Pastalord is **physical** — fine here; it is useless vs the physically-immune spirits, see `HANDOFF.md`.)
+- **Prep that made it a 5-round fight:** `campground.php?action=rest` → `topMP` ladder to ~full → `healUp` →
+  confirm thrall in the charpane. All of that is free; only the rest costs an adventure.
+- **Entry point sanity check:** `bigisland.php?place=camp&whichcamp=2` flips from the refusal text to narrative
+  prose once the way is clear, and the page then exposes **`bigisland.php?action=bossfight&pwd=<hash>`** — you
+  can GET that directly instead of hunting the map pixel.
+- **Drop:** *really dense meat stack* (**autosells for 5,000 meat** — see the sell endpoint note below), plus a
+  stat point. That single item funded the whole evening's shopping.
+
 ### Reward
 Visiting `council.php` after the kill auto-completes the war → war-hero medal (the specific reward varies by
 number of side quests completed). The war quest leaves the log.
+✅ Day 127 (2 side quests done, 4x kills): reward was the **Blue Diamond of Honesty**.
+
+💰 **Autoselling the boss drop — use the right endpoint.** `sellstuff.php` is only the *display* page; posting
+to it silently does nothing (meat unchanged, no error). The real target is **`sellstuff_ugly.php`** with
+`pwd`, `action=sell`, `mode=3`, `quantity=N`, and a field named **`item<id>=<id>`** (e.g. `item2829=2829`).
+Success text: *"You sell your … to a crushed dwarf with a pair of pliers for 5,000 Meat."*
 
 ## General boss-fight takeaway (reusable)
 "The Man" is the canonical **ramping boss** — for the general "race it, don't turtle" lesson that applies to any
