@@ -30,57 +30,58 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 127 / 2026-08-20)
+## 📊 Character state (run #2 — end of Day 128 / 2026-08-21)
 
-- 🎉 **LEVEL 16 Pastamancer.** Base Mys **245**. HP 308, MP 408. **Meat ~4,800. adv 0.**
-  full 15, drunk 25 (cap 19 + overdrink).
-- 🏆 **THE ISLAND WAR IS WON.** Killed **The Man** in **5 rounds** (Weapon of the Pastalord every round,
-  no heals) and closed it at `council.php` → **Blue Diamond of Honesty**. The war quest is off the log.
-- 🌉 **ORC CHASM BRIDGED.** 40 fights in the Smut Orc Logging Camp (0 losses) + **4 smut orc keepsake boxes**
-  (5 lumber + 5 fasteners each) → 41 lumber / 40 fasteners → bridge built. **The Highlands are open.**
-- 🔥 **OIL PEAK LIT** — 50 oil slicks, 0 losses, pressure 310.66 µB/Hg → negligible. Map now reads
-  *"Oil Peak with Flame"*. **50 bubblin' crude banked** (this is quest currency — do NOT sell it).
-- **Council board now:** *There Can Be Only One Topping* (2 of 3 signal fires still unlit) and
-  *The Rain on the Plains is Mainly Garbage* (castle kitchen counter, "get to it from above").
-- **Consumables on hand:** 1 Fog Murderer, 1 Imp Ale, 50 bubblin' crude.
-
-### 🚨 Day 127 self-inflicted loss — read before repeating
-
-**60 adventures were burned on Drunken Stupor.** After correctly filling the liver to 19 and taking the one
-allowed overdrink (→ drunk 25), I went straight back out to Twin Peak with the 60 adventures the booze had
-just granted. **Past the cap every turn is a Drunken Stupor**: turn consumed, no monster, no meat, no drop.
-Those 60 were supposed to *bank overnight*.
-**Rule going forward (now in `HANDOFF.md` HARD RULE 1): the overdrink is the LAST action of the session.**
-If you want to spend booze adventures the same day, fill to exactly the cap, spend, and overdrink only at the
-very end. A burst reporting "N wins" with an **empty monster map, empty item map and flat meat** is this bug.
+- 🎉 **LEVEL 16 Pastamancer.** Base Mys **247**. HP 310, MP 371. **Meat ~5,646.**
+  **adv 61 banked** (filled to 19 + one overdrink, then STOPPED — see Day 127's lesson). full 15, drunk 25.
+- 🔥🔥 **TWO OF THREE SIGNAL FIRES LIT** — *"Oil Peak with Flame"* and *"Twin Peak with Flame"*.
+- 👻 **A-BOO PEAK IS AT 14% HAUNTED** (from 98%). **~7 ghosts from the third beacon** — this is a
+  ~15-minute job tomorrow morning.
+- 🛢️ **The oil kit is built and equipped:** **oil lamp** (off-hand, +5 hot/+5 sleaze — this is what makes
+  A-boo winnable), **oil slacks** (pants, +20% init). **19 bubblin' crude spare.**
+  ⚠️ The lamp displaced the **Necrotelicomnicon** and the slacks displaced **bullet-proof corduroys**
+  (−~40 max MP). Re-equip the Necrotelicomnicon when leaving A-boo.
+- **Twin Peak was finished via the `Cabin Fever` fallback** (burned the lodge down at ~turn 51). The
+  jar-of-oil/music step was solved first; Room 237 (+4 stench res) and the pantry (+50% item) were attempted
+  and **failed** — those two gates remain unmet, so the **gold wedding ring was forfeited**. Fine trade.
+- **Consumables:** 16 magical mystery juice (518, ~28 MP each), 6 stolen sushi, 0 Fog Murderers, 0 A-Boo clues.
+- **Today: ~82 fights, 0 losses.**
 
 ---
 
 ## 🔜 Next-session priorities
 
-> **START HERE ON DAY 128 — two signal fires left.**
-> Login → **summon Bind Vampieroghi (3027)**, EAT to 15, top up MP (Mountain Stream soda 357).
-> (1) ⭐ **TWIN PEAK (snarfblat 297)** is the reliable one: **50 adventures in-zone triggers `Cabin Fever`**,
->     which lets you burn the lodge down and light the beacon with **no gear requirements**. Budget ~50 turns.
->     If you can cheaply hit the real gates, they're better (they also drop a **gold wedding ring**):
->     Room 237 = **+4 stench res**; pantry = **+50% item** (familiars/thralls/booze do NOT count, so Buffy's
->     Fat Leon's +20% alone is not enough); music = **jar of oil from 12 bubblin' crude** (we have 50);
->     then **+40% initiative** for "Wait — who's that?".
-> (2) ⚠️ **A-BOO PEAK (296) IS A WALL RIGHT NOW — do not spend turns there blind.** All five ghosts are
->     **100% physically resistant AND spooky-aligned**, so *both* untuned pasta (physical) and
->     Necrotelicomnicon-tuned pasta (spooky) do **zero**. They are **weak to hot and stench**. Get a hot/stench
->     source first — the **oil lamp** built from bubblin' crude reportedly counts +15 damage in this zone.
->     Ghosts have only 40 HP, so a small elemental source is enough. 49 ghosts at −2% each, or use
->     **A-Boo clues** → *The Horror…* for up to −30% in one turn.
-> (3) All three fires lit → back to **The Highland Lord's Tower** for the **Misty Robe** + access to
->     **The Valley of Rof L'm Fao**.
-> (4) Still open afterwards: the **castle kitchen counter** (L10, reach it from the Top Floor, snarf 324).
-> **DRINK LAST — and then STOP.** Fill to 19 (Fog Murderer ×3 + Imp Ale ×1), take ONE overdrink, wrap the day.
-> Fog Murderer is **limit 1/day per mall store** — buy one from each of ~5 stores (~250–420 meat each).
+> **START HERE ON DAY 129 — finish the peaks, collect the Misty Robe.**
+> Login → **Pastamastery (3006)**, EAT to 15 (sushi ×2 + jerky + a 1-fullness fruit; buy **Milk of Magnesium
+> (item 1650, ~100 meat)** and drink it FIRST for +1 adv/fullness), top MP off the juice.
+> (1) ⭐ **A-BOO PEAK (296) — only 14% left, ~7 ghosts.** **Equip the oil lamp** and just use
+>     `fight.php?action=attack` (NOT pasta — the weapon swing carries the lamp's hot damage; ghosts are
+>     100% physically resistant *and* spooky-immune). 2 rounds per ghost, 0 MP, no damage taken.
+>     **Spend any A-Boo clues first** — *The Horror…* is −15% for ~2 adventures vs −2% for a ghost.
+> (2) 🏆 **Third fire lit → `place.php?whichplace=highlands&action=highlands_dude`** for the
+>     **Misty Robe** + access to **The Valley of Rof L'm Fao**.
+> (3) Then the last old council item: **the castle kitchen counter** (L10, *The Rain on the Plains is Mainly
+>     Garbage*) — "get to it from above", i.e. via the Giant's castle **Top Floor (snarf 324)**.
+> (4) With ~61 banked adventures plus the day's own, there should be room to push into Rof L'm Fao.
+> **DRINK LAST — fill to 19, take ONE overdrink, then STOP. Do not adventure afterwards.**
+> Fog Murderer (6682) is **limit 1/day per mall store**: buy one each from ~4 stores (~250–450 meat),
+> drink 3 + 1 Imp Ale (470) to land on 19, then overdrink the 4th. That yielded **+61 adv** tonight.
 
 ---
 
 ## 🗓️ Session log (this run)
+
+- **Day 128 (2026-08-21): 🔥 Twin Peak lit · 👻 A-boo 98% → 14% · the oil kit changes everything.**
+  Started with only 40 adventures (the 60 I drowned on Day 127 never came back). Discovered that
+  **bubblin' crude's recipe depends on how many you use at once** — and that `inv_use.php` can't do it at all;
+  **`multiuse.php`** can. Built the **oil lamp (9)**, **jar of oil (12)** and **oil slacks (10)**.
+  Used the jar to solve Twin Peak's music/painting step, failed the stench and item-drop gates as expected,
+  and took the **`Cabin Fever`** fallback at ~turn 51 — *"Burn this mother-goddamning hotel to the ground."*
+  Then the day's real find: **the oil lamp cracks A-boo Peak.** It shares the off-hand slot with the
+  Necrotelicomnicon, so equipping it removes the spooky tuning *and* adds hot damage in one move — and plain
+  **weapon attacks** then kill the physically-immune ghosts in **2 rounds for 0 MP**. 20 ghosts plus two
+  **`The Horror…`** runs (−15% each, ~4× a ghost per adventure) took the peak from **98% to 14%**.
+  Drank to exactly 19, took one overdrink for **+61 banked adventures — and stopped.** ~82 fights, 0 losses.
 
 - **Day 127 (2026-08-20): 🏆 WAR WON (The Man, 5 rounds) · 🌉 Orc Chasm bridged · 🔥 Oil Peak lit.**
   Ground the battlefield **#29 → #32**, then took **The Man** in five casts of Weapon of the Pastalord at

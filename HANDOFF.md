@@ -324,6 +324,31 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
 - Equip: `inv_equip.php?which=2&action=equip&whichitem=<id>&pwd=` (unequip a slot first if all accessory slots are full:
   `...&action=unequip&type=acc2&pwd=`).
 
+## Item endpoints — pick the right verb or the call silently no-ops
+
+Each consumption type has its OWN endpoint. Using the wrong one usually returns a **normal 200 with the standard
+`updateInv(...)`/charpane boilerplate and no error at all**, so the script "succeeds" while nothing happens.
+Always confirm with a before/after diff (inventory count, `adventures`, `full`/`drunk`), never with HTTP status.
+
+| Action | Endpoint |
+|---|---|
+| Use an item | `inv_use.php?which=3&whichitem=<id>&pwd=<hash>&ajax=1` |
+| **Eat** | `inv_eat.php?which=1&whichitem=<id>&pwd=<hash>&ajax=1` |
+| **Drink** | **`inv_booze.php`**?which=1&whichitem=<id>&pwd=<hash>&ajax=1 — ⚠️ `inv_use.php` does NOT drink |
+| **Use N of one item at once** | **`multiuse.php?whichitem=<id>&action=useitem&quantity=<N>&pwd=<hash>`** |
+| Equip | `inv_equip.php?which=2&action=equip&whichitem=<id>&pwd=<hash>&ajax=1` |
+| **Autosell** | **`sellstuff_ugly.php`** POST: `action=sell`, `mode=3`, `quantity=N`, **`item<id>=<id>`** — ⚠️ posting to `sellstuff.php` does nothing |
+
+🐛 **`multiuse.php` is the one people forget.** Some recipes are defined by **how many you use at once**
+(bubblin' crude: 9 → oil lamp, 12 → jar of oil, …). `inv_use.php` **ignores `quantity`/`numitems` and uses the
+whole stack**, so with 50 crude you get *"That much oil doesn't congeal into anything good"* forever, with
+nothing consumed. If an item's wiki page has a **"When Used — Using N:"** list, reach for `multiuse.php`.
+
+⚠️ **Off-hand collisions.** Equipping a new off-hand silently unequips whatever was there. That is sometimes the
+*point* (the oil lamp displacing the Necrotelicomnicon is how A-boo Peak becomes winnable) and sometimes a
+regression (it also cost ~40 max MP when oil slacks replaced bullet-proof corduroys). **Read the
+`Item unequipped: …` line in the response** and decide deliberately.
+
 ## HARD RULES (do every session)
 
 1. **Order is EAT → ADVENTURE → DRINK.** Both meters are mandatory — never wrap a day with an unused `full` (0/15)

@@ -75,6 +75,25 @@ Three peaks, any order. **A lit peak is visible on the map as an alt-text change
   massively shortens this. With **zero +ML** it is a clean, predictable 49–50 turns — which is exactly what makes
   it the right peak for a day where you want a guaranteed completion.
 
+### ⭐ bubblin' crude — the recipe depends on HOW MANY you use at once
+
+🐛 **`inv_use.php` cannot make these — it always uses your whole stack and reports
+*"That much oil doesn't congeal into anything good."*** with **nothing consumed** (a silent no-op, not an error).
+✅ **The working endpoint is `multiuse.php`:**
+`multiuse.php?whichitem=5789&action=useitem&quantity=<N>&pwd=<hash>` — verified Day 128.
+
+| Use exactly | Get | Why you care |
+|---|---|---|
+| 3 | oily boid | → *woim* familiar (initiative) |
+| 8 | oil cap | best meat-per-crude if you just want to autosell |
+| **9** | **oil lamp** (off-hand, +5 hot / +5 sleaze) | ⭐ **this is what cracks A-boo Peak** |
+| **10** | **oil slacks** (pants, +20% initiative) | half of Twin Peak's +40% init gate |
+| 11 | oil pan | — |
+| **12** | **jar of oil** | ⭐ Twin Peak's "Bring-your-own-J" step |
+
+💰 **50 crude (one full Oil Peak clear) comfortably funds lamp + jar + slacks (31) with 19 to spare.**
+Make all three the morning after Oil Peak — they unlock work on *both* remaining peaks.
+
 ### ⚠️ A-boo Peak — a hard wall for a Pastamancer; check before you spend turns
 
 All five ghosts are **Damage Resistance 100%** (physically immune) **AND spooky-aligned** (immune to their own
@@ -92,6 +111,47 @@ Mechanics: 98% hauntedness, **−2% per ghost killed ⇒ 49 ghosts**. Ghosts dro
 makes the next adventure *The Horror…*, worth **−2% to −30%** depending on how long you survive (scales with
 max HP, cold resistance and spooky resistance). Clues are the only way to beat 49 turns here.
 
+#### ✅ SOLVED, Day 128 — the oil lamp opens the zone; **plain weapon attacks work**
+
+The wall comes down the moment you carry **elemental damage that isn't spooky**. Verified loadout:
+- **Equip the oil lamp** (9 crude). ⚠️ It goes in the **off-hand — the same slot as the Necrotelicomnicon** — so
+  equipping it *automatically unequips the spooky tuner*, which is exactly what you want here. One swap fixes
+  both halves of the immunity.
+- **Splash a `vial of The Glistening`** (15 adv, 15–20 passive damage vs these ghosts). It **drops from Twin Peak's
+  Big Wheelin' Twins**, so a Twin Peak day stocks A-boo for free.
+- 🎯 **Then just `fight.php?action=attack`.** Do NOT cast pasta — the point is that the *weapon* swing carries the
+  lamp's hot/sleaze, and hot is a double-weakness here. **Measured: 17 then 15 damage — 2 rounds per ghost, zero
+  damage taken, 0 MP spent.** 20 ghosts, 0 losses.
+- Ghosts have only 40 HP and **0 initiative**, so you always strike first. This is one of the safest zones in the
+  game once the lamp is on — and it costs no MP at all, which makes it ideal for the tail of a day.
+
+#### ⭐ *The Horror…* is worth ~4× a ghost — always spend clues
+
+Using an **A-Boo clue** (`inv_use.php?which=3&whichitem=5964&pwd=<hash>`) makes your **next** A-boo adventure
+*The Horror…* (choice **611**). It is not a fight — it's a repeating choice where each round you either press
+the single "keep talking" option or **Flee the scene**. Each round drains a chunk of HP *and shrinks max HP*;
+you end at 0 HP and **Beaten Up**.
+
+- ✅ **Measured twice, Day 128: 4 rounds deep each time, −15% hauntedness each.**
+- **True cost is 2 adventures** (1 for the encounter + 1 for the `campground.php?action=rest` to clear Beaten Up)
+  ⇒ **~7.5% per adventure, versus 2% for killing a ghost.** Always burn clues before grinding.
+- Don't bother fleeing early to "save HP" — the reduction scales with how deep you get, and the Beaten Up is
+  coming either way. Press on until it ends.
+- 🐛 **Get the clue's item id right (5964).** Scraping the id by searching the inventory HTML for the item *name*
+  returned `null` (quest items render differently), and the follow-up `adventure.php` call then walked into an
+  ordinary ghost fight — **wasting the turn and leaving a fight open mid-script**. Use the literal id.
+
+#### Measured burn-down (Day 128, from 98%)
+
+| Spend | Effect |
+|---|---|
+| 20 ghosts killed | −40% |
+| 2 × *The Horror…* (4 adv incl. rests) | −30% |
+| **Total ~26 adventures** | **98% → 14%** |
+
+⇒ With a stock of clues, the whole peak is comfortably **one ~30-turn day**, not the 49 the raw arithmetic
+suggests.
+
 ### Twin Peak — four gated noncombats, or a 50-turn fallback
 
 `Lost in the Great Overlook Lodge` is the noncombat; it offers the steps as menu options. The first three are
@@ -107,6 +167,33 @@ gated on stats/buffs and can be done in any order; the fourth only appears once 
 `Cabin Fever` noncombat appears and lets you burn the lodge down and light the beacon.** That makes Twin Peak a
 guaranteed ~50-turn completion for an under-geared character — but see the warning below about *how* those 50
 turns get spent.
+
+#### ✅ Verified Day 128 — choice numbers and the exact flow
+
+| Choice | Encounter | Options |
+|---|---|---|
+| **604** | *Welcome to the Great Overlook Lodge* | one-time intro, **costs no adventure**; click through (2 screens) |
+| **606** | *Lost in the Great Overlook Lodge* — the hub | `Investigate Room 237` / `Search the pantry` / `Follow the faint sound of music` / `Leave the hotel` |
+| **607** | Room 237 | `Carefully inspect the body` (the gated attempt) / `Return to the lobby` |
+| **608** | *Go Check It Out!* (pantry) | `Search the shelves` (the gated attempt) / `Return to the lobby` |
+| **609** | *There's Always Music In the Air* | `Examine the painting` (the gated attempt) / `Return to the lobby` |
+| **616** | *He Is the Arm, and He Sounds Like This* | `Mingle` — **this is the SUCCESS continuation of the music step** |
+| **618** | **Cabin Fever** | `A path is formed…` / **`Burn this mother-goddamning hotel to the ground.`** |
+
+🐛 **Each hub option leads to a SUB-choice, and the real attempt is the sub-choice's first option.** A script
+that treats `Return to the lobby` as "leave" will pick it at 607/608/609 and **silently never attempt the gate**.
+Match the *specific* labels (`inspect the body`, `search the shelves`, `examine the painting`) before any generic
+leave/return rule.
+
+✅ **Confirming a step succeeded: the option disappears from the 606 hub menu.** After the jar-of-oil step the
+hub read `Investigate Room 237 | Search the pantry | Leave the hotel` — no music line. That's the cheapest check.
+
+⚠️ **The music step's success text reads like a failure.** Choice 616 ends *"You attempt to mingle, but the
+guests take no notice of you"* — that is the **scripted continuation**, not a rejection. The jar of oil was
+consumed and the step completed. Verify via the hub menu, not the prose.
+
+✅ **Cabin Fever timing:** it fired on roughly the **51st** in-zone adventure for us (the free 604 intro does not
+count). Budget ~50 turns and expect no signal at all until it appears.
 
 Monsters here are ML 81–95 with 90–105 HP (recommended mainstat 90) and **no elemental alignment** — harder than
 the logging camp but ordinary.
