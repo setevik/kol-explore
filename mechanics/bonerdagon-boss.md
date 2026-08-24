@@ -1,10 +1,10 @@
 # Bonerdagon (Defiled Cyrpt boss)
 
-## ✅ KILLED — run #2, Day 109 (4 rounds, ZERO damage taken). What actually worked
+## ✅ KILLED in 4 rounds, ZERO damage taken (verified in-game) — what actually worked
 
 🚨 **THE #1 LESSON: TAKE OFF THE NECROTELICOMNICON (2494).** It tunes all pasta damage to **Spooky**,
 and the Bonerdagon — a bone dragon in the Cyrpt — **resists Spooky hard**. First attempt WITH it:
-11 rounds, his HP barely moved, we lost at base Mys 120 with both Buffy shells up. Second attempt,
+11 rounds, his HP barely moved, the attempt LOST at base Mys 120 with both Buffy shells up. Second attempt,
 **identical prep but off-hand unequipped**: dead in 4 rounds, untouched. Check elemental alignment
 before every boss; a +spell-damage offhand that re-tunes your element can be a net negative.
 
@@ -13,7 +13,7 @@ before every boss; a +spell-damage offhand that re-tunes your element can be a n
 It is a **pure DPS race**: Entangling Noodles (stun) → Stuffed Mortar Shell → Cannelloni every round,
 never heal. Enter at full HP so you can absorb 2–3 hits.
 
-**Winning loadout (Day 109):** base Mys ~120 · **no off-hand** · Crown of the Goblin King · Springy
+**Winning loadout:** base Mys ~120 · **no off-hand** · Crown of the Goblin King · Springy
 Fusilli up · Buffy's **Ghostly Shell + Astral Shell** · full HP/MP off tiny houses (592) · 3 smut orc
 keepsake boxes (5788) held in reserve as wing-flap-proof damage (never needed them).
 **Entry:** `crypt.php?action=heart` → choice **527 option 1**.
@@ -24,7 +24,7 @@ Report to `council.php` to close the quest.
 ---
 
 
-## Clearing the Cyrpt (the 4 sub-zones) — verified run #2, Day 96
+## Clearing the Cyrpt (the 4 sub-zones) — verified in-game
 
 - **Council gives this at Level 8** (aura of Spookiness) along with the **Evilometer (item 4964)**.
 - **`inv_use` the Evilometer** any time to read **Total evil + per-zone** (starts ~50 each, 199 total).

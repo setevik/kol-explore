@@ -1,6 +1,6 @@
 # Level 9: Orc Chasm bridge → The Highlands (three signal fires)
 
-> Run-agnostic. Council quest **"There Can Be Only One Topping"**. Verified in-game Day 127 (run #2):
+> Run-agnostic. Council quest **"There Can Be Only One Topping"**. Verified in-game:
 > bridge built and **Oil Peak completed in one day**. Wiki-sourced details marked ⚑ where not yet verified.
 
 ## Part 1 — Bridging The Orc Chasm
@@ -33,12 +33,12 @@ roughly 60 turns.
 A **smut orc pervert** appears on the **21st adventure in the zone and every 20 thereafter**. He drops a
 **smut orc keepsake box**, and **each box contains 5 lumber + 5 fasteners** — worth 10 turns of grinding.
 
-✅ **Measured Day 127: 40 fights → 21 lumber, 20 fasteners, +1 keepsake box.** Combined with **3 boxes already
-carried over from earlier Cyrpt/war days**, 4 boxes × (5+5) took the tally to **41 lumber / 40 fasteners** and
-the bridge finished immediately.
+✅ **Measured: 40 fights → 21 lumber, 20 fasteners, +1 keepsake box.** Adding **3 boxes carried in from
+earlier content**, 4 boxes × (5+5) took the tally to **41 lumber / 40 fasteners** and the bridge finished
+immediately — i.e. the boxes were worth more than half the grind.
 
-- 💡 **Check your inventory for keepsake boxes BEFORE grinding.** They accumulate passively from earlier content
-  and we'd been hoarding 3 as emergency combat items. Open them with
+- 💡 **Check your inventory for keepsake boxes BEFORE grinding.** They accumulate passively from earlier
+  content, and they are easy to overlook because they double as emergency combat items. Open them with
   `inv_use.php?which=3&whichitem=<boxid>&pwd=<hash>&ajax=1` (one per call; loop until the count hits 0).
 - After the bridge is built, lumber and fasteners **stop dropping**, and leftovers are thrown away automatically
   (*"you throw away the rest of the smut orcs' terrible building materials"*). Don't stockpile past 30/30.
@@ -48,7 +48,7 @@ yields bonus fasteners; adventuring **Lucky!** triggers *S&M 4-EVER* for 3 lumbe
 non-pervert orcs with **cold** damage 15 points' worth opens the *Blech House* noncombat for more parts.
 
 **Combat note:** smut orcs are ML 69, 69 HP, **no elemental alignment** — a plain Cannelloni grind handles them.
-Day 127: **40 fights, 0 losses** at base Mys ~236.
+Measured: **40 fights, 0 losses** at base Mys ~236.
 
 ## Part 2 — The Highlands
 
@@ -68,9 +68,9 @@ Three peaks, any order. **A lit peak is visible on the map as an alt-text change
 ### ⭐ Oil Peak — do this one first as a caster (verified, one day, 50 turns)
 
 - Monsters: **oil slick** at +0–19 ML, **no elemental alignment, no damage resistance.** Ordinary DPS works.
-- Each oil slick removes **6.34 µB/Hg**; 310.66 total ⇒ **49 slicks**. ✅ Day 127: **50 fights, 0 losses**, peak lit.
-- Every kill drops **bubblin' crude** — we banked **50**, which is the currency for the cross-peak synergy items
-  below. Don't sell it.
+- Each oil slick removes **6.34 µB/Hg**; 310.66 total ⇒ **49 slicks**. ✅ Measured: **50 fights, 0 losses**, peak lit.
+- Every kill drops **bubblin' crude** — a full clear banks about **50**, which is the currency for the
+  cross-peak synergy items below. Don't sell it.
 - Higher +ML upgrades the monster (tycoon ≥20 ML = 3 slicks, baron ≥50 = 5, cartel ≥100 = 10), so ML gear
   massively shortens this. With **zero +ML** it is a clean, predictable 49–50 turns — which is exactly what makes
   it the right peak for a day where you want a guaranteed completion.
@@ -80,7 +80,7 @@ Three peaks, any order. **A lit peak is visible on the map as an alt-text change
 🐛 **`inv_use.php` cannot make these — it always uses your whole stack and reports
 *"That much oil doesn't congeal into anything good."*** with **nothing consumed** (a silent no-op, not an error).
 ✅ **The working endpoint is `multiuse.php`:**
-`multiuse.php?whichitem=5789&action=useitem&quantity=<N>&pwd=<hash>` — verified Day 128.
+`multiuse.php?whichitem=5789&action=useitem&quantity=<N>&pwd=<hash>` — verified in-game.
 
 | Use exactly | Get | Why you care |
 |---|---|---|
@@ -111,7 +111,7 @@ Mechanics: 98% hauntedness, **−2% per ghost killed ⇒ 49 ghosts**. Ghosts dro
 makes the next adventure *The Horror…*, worth **−2% to −30%** depending on how long you survive (scales with
 max HP, cold resistance and spooky resistance). Clues are the only way to beat 49 turns here.
 
-#### ✅ SOLVED, Day 128 — the oil lamp opens the zone; **plain weapon attacks work**
+#### ✅ SOLVED — the oil lamp opens the zone; **plain weapon attacks work**
 
 The wall comes down the moment you carry **elemental damage that isn't spooky**. Verified loadout:
 - **Equip the oil lamp** (9 crude). ⚠️ It goes in the **off-hand — the same slot as the Necrotelicomnicon** — so
@@ -132,7 +132,7 @@ Using an **A-Boo clue** (`inv_use.php?which=3&whichitem=5964&pwd=<hash>`) makes 
 the single "keep talking" option or **Flee the scene**. Each round drains a chunk of HP *and shrinks max HP*;
 you end at 0 HP and **Beaten Up**.
 
-- ✅ **Measured twice, Day 128: 4 rounds deep each time, −15% hauntedness each.**
+- ✅ **Measured twice: 4 rounds deep each time, −15% hauntedness each.**
 - **True cost is 2 adventures** (1 for the encounter + 1 for the `campground.php?action=rest` to clear Beaten Up)
   ⇒ **~7.5% per adventure, versus 2% for killing a ghost.** Always burn clues before grinding.
 - Don't bother fleeing early to "save HP" — the reduction scales with how deep you get, and the Beaten Up is
@@ -141,7 +141,7 @@ you end at 0 HP and **Beaten Up**.
   returned `null` (quest items render differently), and the follow-up `adventure.php` call then walked into an
   ordinary ghost fight — **wasting the turn and leaving a fight open mid-script**. Use the literal id.
 
-#### Measured burn-down (Day 128, from 98%)
+#### Measured burn-down (from a fresh 98%)
 
 | Spend | Effect |
 |---|---|
@@ -168,7 +168,7 @@ gated on stats/buffs and can be done in any order; the fourth only appears once 
 guaranteed ~50-turn completion for an under-geared character — but see the warning below about *how* those 50
 turns get spent.
 
-#### ✅ Verified Day 128 — choice numbers and the exact flow
+#### ✅ Verified in-game — choice numbers and the exact flow
 
 | Choice | Encounter | Options |
 |---|---|---|

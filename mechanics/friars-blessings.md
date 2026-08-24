@@ -10,11 +10,11 @@ All three artifacts drop from the surrounding zones:
 - **Dark Elbow of the Woods** (snarfblat 539): drops `eldritch butterknife`
 
 ⚠️ The old note that 539/540 "need ~45 Mysticality" is a **recommended** stat, not a hard gate — **verified
-enterable at base Mysticality 33** (run #2), with no "recommended that you have…" refusal. Expect to get hit
+enterable at base Mysticality 33** (verified in-game), with no "recommended that you have…" refusal. Expect to get hit
 harder than in a Recom-20 zone, so go in with **Springy Fusilli up** and full HP/MP.
 Reach the zones via `friars.php` / the Distant Woods.
 
-✅ **Verified run #2:** 66 turns total to farm all three (~20–24 each) at base Mys 33–38, with Springy Fusilli up
+✅ **Verified in-game:** 66 turns total to farm all three (~20–24 each) at base Mys 33–38, with Springy Fusilli up
 (37W/17L). Item IDs: **dodecagram 479 · box of birthday candles 480 · eldritch butterknife 481.**
 **Perform the ritual with a single GET: `friars.php?action=ritual&pwd=<hash>`** (the `friars.php` page exposes
 `action=friars` and `action=ritual` links).
@@ -25,7 +25,7 @@ Reach the zones via `friars.php` / the Distant Woods.
 (248) needs 45. At base Mys 38 we were refused. ⇒ **Liver of Steel (steel margarita) is a Level ~9–10 goal,
 not a Level 6–7 one.** See `drinking-strategy.md`.
 
-### ✅ Azazel quest → Liver of Steel (verified complete, run #2 Day 99)
+### ✅ Azazel quest → Liver of Steel (verified in-game)
 
 After the ritual, Pandamonium opens. Collect 3 talismans, turn them in at Azazel's Temple
 (`pandamonium.php?action=temp`) for a **steel margarita → drink it → Liver of Steel skill (drink cap 14 → 19)**.

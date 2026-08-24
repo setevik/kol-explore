@@ -40,7 +40,7 @@ bats instead, or spend 3 days of pulls.
 **HP 40 · Attack 33 · Defense 29 · No-Hit 43 · Initiative 60 · phylum beast.**
 Drops: dense meat stack, batskin belt, **Boss Bat britches** or **Boss Bat bling**.
 
-## ✅ SOLVED (run #2, Day 7) — Springy Fusilli makes the whole zone trivial
+## ✅ SOLVED (verified in-game) — Springy Fusilli makes the whole zone trivial
 
 With **Springy Fusilli (3015) up + full HP (~22) + MP for stun→nuke**, the Bat Hole flipped completely:
 - **Beanbat Chamber (33): 6 wins / 8 turns**, and a **sonar dropped on turn 8** (bats drop them — you do NOT

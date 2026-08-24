@@ -1,6 +1,6 @@
 # Optimal drinking strategy (adventures per day from booze)
 
-> Idempotent. Sourced from the official wiki + verified in-game (run #2, Days 93 & 99).
+> Idempotent. Sourced from the official wiki + verified in-game.
 > The **hard safety rule** (drink LAST) lives in `HANDOFF.md` HARD RULE 1 — read that first.
 > Current-run booze stock lives in `CURRENT_ASCENSION.md`.
 
@@ -8,10 +8,10 @@
 
 Every "14" below means **"your current cap"**. It is **14 with a default liver, 19 with Liver of Steel**, and it
 **resets to 14 each ascension** (Liver of Steel can't be permed). ✅ **Detect the cap** — the robust way (works at
-drunk 0): **`charsheet.php` contains "Liver of Steel" → cap 19, else 14** (verified Day 100; `api.php` has no cap
+drunk 0): **`charsheet.php` contains "Liver of Steel" → cap 19, else 14** (Verified in-game; `api.php` has no cap
 field). The charpane `Tipsiness: X / Y` (Y = cap) also works but **only appears once drunk > 0**. Fill to the cap.
 Whenever Liver of Steel is active, that's 19 — **stopping at 14 wastes ~+9 adventures/day.** (Liver of Steel comes
-from the Azazel quest → steel margarita; see `friars-blessings.md`. Run #2 has had it since Day 99.)
+from the Azazel quest → steel margarita; see `friars-blessings.md`.)
 
 ## The three rules that define the optimum
 
@@ -28,7 +28,7 @@ And because of rule 1, **all of this must happen at the END of the day**, after 
 
 ## 🔌 Endpoints (get these wrong and you silently drink nothing)
 
-- 🐛 **DRINKING IS `inv_booze.php`, NOT `inv_use.php`.** (Cost a full confused cycle on Day 127.)
+- 🐛 **DRINKING IS `inv_booze.php`, NOT `inv_use.php`.** (This cost a full confused cycle.)
   `inv_use.php?which=1&whichitem=<booze>&pwd=<hash>&ajax=1` returns a **normal-looking 200 with the usual
   `updateInv([])` / charpane-refresh boilerplate** — no error, no "you can't do that" — but **nothing is
   consumed, no adventures are gained, and drunkenness stays 0.** An empty `updateInv([])` is the tell.
@@ -43,10 +43,10 @@ And because of rule 1, **all of this must happen at the END of the day**, after 
 ⚠️ **Good booze is usually sold `(Limit 1 / day)` per store.** A single `quantity=5` POST to one store
 **silently buys nothing** (no error, meat unchanged). ✅ **Buy 1 from each of N different stores instead:**
 scrape every `mallstore.php?whichstore=(\d+)&searchitem=<id>&searchprice=(\d+)` match from the search page,
-dedupe by store, and issue one purchase per store. Day 127: 5 stores → 5 Fog Murderers for 1,830 meat
+dedupe by store, and issue one purchase per store. 5 stores → 5 Fog Murderers for 1,830 meat
 (250/350/410/410/410) — prices climb, so walk the list cheapest-first and stop when you have enough.
 
-### Measured yields (run #2, Day 127, base Mys ~245, no booze-drop bonuses)
+### Measured yields (in-game, base Mys ~245, no booze-drop bonuses)
 
 | Drink | id | Potency | Adventures |
 |---|---|---|---|
@@ -59,7 +59,7 @@ dedupe by store, and issue one purchase per store. Day 127: 5 stores → 5 Fog M
 
 ## Daily recipe
 
-1. **Spend all adventures first.** (Drinking first turns an overshoot into a lost day — that cost us Day 93.)
+1. **Spend all adventures first.** (Drinking first turns an overshoot into a lost day.)
 2. **Read CAP** from the charpane `Tipsiness: X / Y`.
 3. **Mix everything** (see below) — free, and roughly doubles adventures per bottle.
 4. **Drink up to exactly CAP** using a **look-ahead** guard: only drink if `drunk + potency <= CAP`.
@@ -93,14 +93,14 @@ installed in the campsite kitchen.
 
 ### Recipes (all "normal" — no skill needed)
 
-**Soda water (General Store row 650, 70 meat) is NOT universal** — ⚠️ **verified Day 103: vodka + soda water
+**Soda water (General Store row 650, 70 meat) is NOT universal** — ⚠️ **Verified in-game: vodka + soda water
 FAILS** ("Those two items don't combine to make a refreshing cocktail"). Confirmed-working normal recipes:
 - soda water + **bottle of whiskey** → **whiskey and soda** (5–6) ✅
 - soda water + **boxed wine** → **wine spritzer** (5–6) ✅
 - **olive + bottle of vodka** → **vodka martini** (good, 5–10) ⭐ ✅
 - **olive + bottle of gin** → **martini** (good, 5–10) ⭐ ✅
 - **orange + bottle of vodka** → **screwdriver** (5–6) ✅
-- orange + tequila → tequila sunrise (5–6) (verified run #2 pre-mix)
+- orange + tequila → tequila sunrise (5–6) (verified in-game, pre-mix)
 (vodka/gin "and tonic" need **tonic water**, a different item — don't assume soda water substitutes.)
 ⚠️ **qty>1 crafts succeed with DIFFERENT result text** (no "You acquire an item:" match) — verify by
 re-reading the craft page's ingredient `<select>` counts or the inventory, not the response text.
@@ -112,11 +112,11 @@ The craft page (`craft.php?mode=cocktail`) `<option>` list is also the fastest w
 
 ## Upgrade path (in priority order)
 
-1. ✅ **Queue Du Coq kit** — done run #2 Day 93. +2.5 adv per bottle, forever.
+1. ⭐ **Queue Du Coq kit** — buy it as early in the run as you can afford it. +2.5 adv per bottle, forever.
 2. 🎯 **Liver of Steel — raises the cap 14 → 19 (+5).** From drinking a **steel margarita (item 2743)**, the reward
    for the **Azazel quest** in **Pandamonium**. Worth ~+9 adv/day. ⚠️ Cannot be permed at ascension — re-acquire
    each run.
-   ⚠️ **CORRECTION (verified run #2, Day 94): this is NOT "right after the Friars".** The Friars ritual only opens
+   ⚠️ **CORRECTION (verified in-game): this is NOT "right after the Friars".** The Friars ritual only opens
    the *gate*. The three talismans live behind hard stat gates — **Infernal Rackets Backstage (snarf 243) needs
    mainstat 55**, **The Laugh Floor (242) needs 60**, Pandamonium Slums (248) needs 45 — so it's a **Level ~9–10**
    project. Plan it for then; don't count on it at Level 6–7.
@@ -128,7 +128,7 @@ The craft page (`craft.php?mode=cocktail`) `<option>` list is also the fastest w
    is the ideal **overdrink** item. This is the endgame booze (see `HANDOFF.md`).
 4. Long-term: **Ode to Booze** (Accordion Thief) adds adventures per drink — not available to a Pastamancer.
 
-## Worked example — cap 19 (with Liver of Steel, verified Day 99)
+## Worked example — cap 19 (with Liver of Steel, verified in-game)
 
 Fill 5→19: cider ×4 (+~5 adv each) + cooking sherry to land on 19 ≈ **22 adv**, then **one Monsieur Bubble
 overdrink ≈ +5 adv**. At cap 14 the same routine yields ~28; **the extra 5 cap ≈ +9 adv/day** — which is the whole

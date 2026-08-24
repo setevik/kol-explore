@@ -24,7 +24,7 @@ Rewards at the end: massive stat gains (+100 in each substat + 1 point to each p
 
 ## Chain Walkthrough
 
-> ⚠️ **The Ballroom step needs "your father's diary" (verified run #2, Day 95).** After delivering the dancing
+> ⚠️ **The Ballroom step needs "your father's diary" (verified in-game).** After delivering the dancing
 > finery, the **Haunted Ballroom (395)** unlocks — but the cellar-opening encounter **"We'll All Be Flat" is
 > choice 921 and requires the diary** ("prop up your father's diary so you can see the sheet music"). 40 turns in
 > the ballroom without it produced nothing. The diary comes from the later Lord Spookyraven/manor3 chain, so
@@ -169,7 +169,7 @@ Use it to power-grind the Escher maze without running out of MP.
 
 ---
 
-# ✅ THE CELLAR CHAIN — COMPLETED run #2, Day 110 (full walkthrough)
+# ✅ THE CELLAR CHAIN — COMPLETED (verified in-game) (full walkthrough)
 
 Unlocked by **reading the MacGuffin diary** (`diary.php`) → the Ballroom (395) organ choice **921
 "We'll All Be Flat"** becomes playable → opens **manor3** (3rd floor) *and* **manor4** (the true cellar).

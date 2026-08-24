@@ -45,7 +45,7 @@ Palindrome-themed: monsters (Evil Olive, etc.), NCs ("Do Geese See God?", "Rod N
 Vendor"). Monsters are spell-vulnerable, slightly tanky (~5 rounds with Cannelloni), no
 Beaten-Up issues with the stun combo.
 
-### The 4 photographs (all four collected in ~30 turns, Day 121)
+### The 4 photographs (all four collected in ~30 turns)
 - **photograph of God (2259)** — choice **129 "Do Geese See God?"**, option 1, 500 Meat.
 - **photograph of a red nugget (7264)** — choice **873 "Rod Nevada, Vendor"**, option 1, 500 Meat.
 - **photograph of a dog (7263)** — drops from **Bob Racecar / Racecar Bob**, but ⚠️ **only after ~10 native
@@ -54,7 +54,7 @@ Beaten-Up issues with the stun combo.
 - **photograph of an ostrich egg (7265)** — from the noncombat **"Last Egg Gets Al"** (NOT a monster drop,
   contrary to the older note here).
 
-### ✅ Choice 872 "Drawn Onward" — IT IS NOT A RANDOM NONCOMBAT (solved Day 122)
+### ✅ Choice 872 "Drawn Onward" — IT IS NOT A RANDOM NONCOMBAT (solved)
 🚨🚨 **STOP GRINDING FOR IT.** Days 121–122 burned ~190 turns hunting 872 as a random noncombat
 (56 straight fights with Sonata of Sneakiness + hair spray, still zero). **872 is not a wandering
 encounter — Dr. Awkward's Office is a LOCATION**, and it only appears after you **read
@@ -78,7 +78,7 @@ as a prerequisite step, not an optimisation.
 Dr. Awkward's "ineptitude field" means you cannot fight him yet; he clubs you down and drops
 **"2 Love Me, Vol. 2"**. Do not read that HP-0 + Beaten Up as a lost boss fight.
 
-### Mr. Alarm → Whitey's Grove → Mega Gem  (ORDER CORRECTED, Day 121)
+### Mr. Alarm → Whitey's Grove → Mega Gem  (ORDER CORRECTED)
 🚨 **The old note in this file was backwards.** The real chain is:
 1. **Drawn Onward (872)** → place photos → Dr. Awkward clubs you → he drops **"2 Love Me, Vol. 2"**.
 2. **Read the book** → **Mr. Alarm's Office** opens on the *left side of the dome*.

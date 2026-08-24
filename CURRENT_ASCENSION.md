@@ -45,6 +45,11 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
   jar-of-oil/music step was solved first; Room 237 (+4 stench res) and the pantry (+50% item) were attempted
   and **failed** — those two gates remain unmet, so the **gold wedding ring was forfeited**. Fine trade.
 - **Consumables:** 16 magical mystery juice (518, ~28 MP each), 6 stolen sushi, 0 Fog Murderers, 0 A-Boo clues.
+- 🔓 **Standing run assets** (these are *this run's* facts — the mechanics docs deliberately don't assert them):
+  **Liver of Steel** is active ⇒ **booze cap 19** (not 14); the **Queue Du Coq cocktailcrafting kit** is installed
+  in the campsite kitchen ⇒ free mixing; **Saucemaven** (+5 adv per food *and* booze) and **Pastamastery** are learned;
+  the **Vampieroghi thrall** persists across days. Buffbot **Buffy (#1889009)** answers kmail for Ghostly Shell,
+  Astral Shell, Fat Leon's Phat Loot Lyric and Sonata of Sneakiness.
 - **Today: ~82 fights, 0 losses.**
 
 ---

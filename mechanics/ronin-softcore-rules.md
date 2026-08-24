@@ -1,6 +1,6 @@
 # Ronin / Softcore: Hagnk's, the mall, and pulls (the rules that break your plans)
 
-> Idempotent. Verified in-game on run #2, Day 4. These invalidate several "obvious" assumptions — read before
+> Idempotent. Verified in-game on in-game. These invalidate several "obvious" assumptions — read before
 > planning any shopping or consumable strategy in the first 1,000 turns of a Softcore run.
 
 ## The three rules
@@ -32,7 +32,7 @@
 - ✅ Items **already in inventory** (and all combat drops) are unrestricted — farm what you need.
 - ✅ Fill the food meter with **1 good food (pulled) + a stack of 1-fullness filler already in inventory**
   (e.g. 1 burrito = 3 fullness + 12 oranges = full 15).
-- ⚠️ **CHECK HAGNK'S BEFORE BUYING.** Storage carries the whole previous run (400+ item types). On Day 4 we
+- ⚠️ **CHECK HAGNK'S BEFORE BUYING.** Storage carries the whole previous run (400+ item types). In one early session we
   bought 3 sonars and an air freshener for ~520 meat while **already owning 5 sonars and 3 fresheners** in
   storage. Read `api.php?what=storage&for=<x>` (→ `{itemId: qty}`) first.
 

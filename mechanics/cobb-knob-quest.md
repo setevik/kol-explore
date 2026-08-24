@@ -1,6 +1,6 @@
 # Cobb's Knob Quest — Reaching the Goblin King
 
-## 0. Opening the Knob (verified run #2, Day 5)
+## 0. Opening the Knob (verified in-game)
 
 1. **Council** (`council.php`) gives the quest at **Level 5** + the **Cobb's Knob map (item 2442)**.
 2. Adventure **The Outskirts of Cobb's Knob (snarfblat 114, ML 1–2, safe at any level)** until the one-time
@@ -84,12 +84,12 @@ Keep the cake in inventory (don't eat it!) and approach the throne room while we
 **Stats (wiki):** **HP 50 · Attack 53 · Defense 47 · No-Hit 63 · Initiative 100 · phylum goblin.**
 Drops: 2× dense meat stack, **Crown of the Goblin King** (or Glass Balls / Codpiece), + **Cobb's Knob lab key**.
 
-🧱 **⚠️ CORRECT PREP IS NOT ENOUGH IF YOU'RE SQUISHY (verified run #2, Day 5 — we lost).** With the **full Harem
+🧱 **⚠️ CORRECT PREP IS NOT ENOUGH IF YOU'RE SQUISHY (verified in-game — this attempt LOST).** With the **full Harem
 disguise AND the perfume effect active**, the entry text was right ("You sashay into… he looks up, distracted"),
 and he still **one-shot us before round 1**: his **Initiative 100** vs our **Moxie 8** means he acts first, and
 **Attack 53 vs 15 max HP** is instant death. `rounds=0`, no spell cast.
 
-✅ **SOLVED (run #2, Day 6) — the fix is INITIATIVE, and it is decisive.** Same disguise, same perfume, but with
+✅ **SOLVED (verified in-game) — the fix is INITIATIVE, and it is decisive.** Same disguise, same perfume, but with
 **Springy Fusilli (3015, +init, guild Level 6, 10 MP, lasts 10 adventures)** cast beforehand and 19 max HP:
 **won in 3 rounds — Entangling Noodles (stun) → Cannelloni → Cannelloni — taking zero damage.**
 The disguise gets you *in the room*; **Springy Fusilli is what lets you act**. Nothing else changed.
@@ -103,7 +103,7 @@ When prep AND body are right, you enter a **real combat** (no scripted defeat). 
 - Pastamancer combo: **Entangling Noodles** (stun) → **Ravioli Shurikens** x2–3 kills him
 - Ned the Vampieroghi thrall's blood-drain keeps you topped up during the fight
 
-**Rewards (verified run #2):**
+**Rewards (verified in-game):**
 - **Crown of the Goblin King (item 313)** — hat, 70 power. ⚠️ **Requires 20 BASE MOXIE to equip** — a Mys caster
   will likely be unable to wear it for a long time (we had 14). Don't count on it as an immediate upgrade.
 - **2 × dense meat stack (item 258)** — ⚠️ **NOT usable** ("This item is not implemented yet"); it's a

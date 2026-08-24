@@ -3,7 +3,7 @@
 > Idempotent. Measured in-run; rates are **raw mainstat per adventure** for a Mysticality class.
 > Current-run level/stat state lives in `CURRENT_ASCENSION.md`.
 
-## 🚨 THE #1 RULE: pick zones by WIN RATE, not by ML (measured, Day 95)
+## 🚨 THE #1 RULE: pick zones by WIN RATE, not by ML (measured)
 
 A monster you lose to is worth **zero** — and it costs you the turn *plus* a campground rest. So **net** stat/turn
 is dominated by win rate, not by the zone's ML. Measured back-to-back at Level 7, same character, same day:
@@ -25,7 +25,7 @@ The Kitchen's monsters are worth far *less* each, and it still won by 4× becaus
 
 Substat gain scales with the monster's ML. A zone that carried you at Level 3 gives almost nothing at Level 5,
 and it is easy to keep grinding it out of habit. **Measure your rate** (`rawmysticality` before/after N turns)
-and move on when it collapses. Measured on run #2:
+and move on when it collapses. Measured in-game:
 
 | Zone | Snarf | ML | Measured raw-mainstat/turn | Notes |
 |---|---|---|---|---|
@@ -63,4 +63,4 @@ L5 = base 20 (raw 400) · **L6 = base 29 (raw 841)** · L7 = base 40 (raw 1600) 
 ⚠️ **The gaps are BRUTAL up here** — L9→L10 alone is ~2,600 raw (≈ a base 68→85 climb). At ~5 raw/turn in the
 Kitchen that's 500+ turns; even at ~14/turn in a high-ML zone it's ~180 turns. **Plan L10 as a multi-day push**,
 and don't trust a single "almost there" reading. (⚠️ An earlier note wrongly said "L10 = raw 5,625" — verified WRONG:
-still Level 9 at base 78 / raw 6,113 on Day 101.)
+still Level 9 at base 78 / raw 6,113.)

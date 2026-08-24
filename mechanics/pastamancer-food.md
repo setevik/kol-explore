@@ -10,7 +10,7 @@
 A **Pastamancer** gets bonuses that make **pasta dishes** the best food, and make *every* food better:
 - **Pasta dishes → +3–7 MP per fullness** (Pastamancer only). Free MP battery baked into the meal.
 - **Saucemaven** (Pastamancer/Sauceror passive) → **+5 adventures from EVERY food AND booze.** Biggest single
-  food/booze multiplier we have — prioritize learning/perming it.
+  food/booze multiplier available to the class — prioritize learning/perming it.
 - **Canticle of Carboloading** (Pastamancer skill) → **+3 adv to the *next* pasta dish** (cast right before eating it).
 - **Transcendental Noodlecraft** (Pastamancer skill, **lowest dish needs Level 10**) → craft **hi meins** = the premium
   Pastamancer food (5 fullness, "awesome" quality, big MP, +5 turns of an elemental Breath).
@@ -45,7 +45,7 @@ that (a) you meet the level requirement for and (b) is a **pasta dish** when pos
 
 ## Crafting details (Cook station, `craft.php?mode=cook`)
 
-- **Basic pasta / lo mein / saucy noodles — Pastamastery (we have it):** **dry noodles (304) + 1 filling → a pasta
+- **Basic pasta / lo mein / saucy noodles — requires Pastamastery:** **dry noodles (304) + 1 filling → a pasta
   dish (~4 fullness)**, 1 adv to cook. ⚠️ The valid fillings must be found in the Cook UI (wiki recipe tables aren't
   fetchable). **Tested INVALID:** long pork (2532), lihc eye (170), jumbo olive (455), enchanted bean (186).
   Pair dry noodles with early-zone drops (bat wing, batgut, bunny parts, ghuol/cat bits, etc.) until a result appears.

@@ -1,4 +1,4 @@
-# Level 11 — Quest for the Holy MacGuffin (opening chain) — run #2, Day 106+
+# Level 11 — Quest for the Holy MacGuffin (opening chain) — in-game+
 
 Council at L11 → "father missing; collect his diary." The real chain (quest log is the guide):
 
@@ -26,7 +26,7 @@ Council at L11 → "father missing; collect his diary." The real chain (quest lo
 5. **Shore vacation WITH the forged ID → "your father's diary."** Reading it unlocks the Spookyraven
    cellar (choice 921 gate), the desert chain, etc.
 
-## ✅ Opening chain COMPLETED — Day 107 (verified sequence)
+## ✅ Opening chain — the verified sequence
 
 1. Meatcar → Desert Beach.
 2. **Black Forest (405) until the quest log says "You've found the Black Market"** — took ~55 wins total
@@ -42,19 +42,19 @@ Council at L11 → "father missing; collect his diary." The real chain (quest lo
    (Still costs the 500 meat / 3 adv.)
 5. ▶ **NEXT: read/use the diary (2044)** and follow it — expected to open the desert / Bordertown chain
    (`place.php?whichplace=desertbeach` → Bordertown) and to be the item the **Spookyraven cellar
-   (choice 921)** has been waiting for since Day 95.
+   (choice 921)** has been waiting for.
 
-## Reading the diary (Day 108) — ⚠️ it is NOT an `inv_use` item
+## Reading the diary — ⚠️ it is NOT an `inv_use` item
 
 **`inv_use.php` on the diary returns "This item is not implemented yet"** and there is no `[use]` link.
 ✅ **Read it at `diary.php`** (`diary.php?textversion=1` returns all 8 pages as text in one fetch).
 Reading it **adds 4 quests to the log**: *Gotta Worship Them All* (Hidden Temple), *Just Deserts*
 (Arid Extra-Dry Desert), *Of Mice and Shen* (Copperhead Club / Red Zeppelin), **and *In a Manor of
-Spooking* — the Spookyraven cellar** (this is the "father's diary" that choice 921 wanted since Day 95).
+Spooking* — the Spookyraven cellar** (this is the "father's diary" that choice 921 wants).
 Diary facts worth keeping: MacGuffin is under a **buried pyramid**; you need the **Staff of Ed** in 3
 pieces (Hidden City amulet + Spookyraven + Palindome "Staff of Fats"); Copperhead password = **swordfish**.
 
-## Hidden Temple → Hidden City (verified Day 108, ~15 adventures total)
+## Hidden Temple → Hidden City (verified in-game, ~15 adventures total)
 
 1. **Unlock the temple** (`mechanics/hidden-temple-unlock.md` Path B, Spooky Forest 15): buy **spooky
    sapling** (502→1 road, 503→3 hunter, 504→3 buy for 100 meat), **Spooky-Gro fertilizer** (502→3
@@ -82,11 +82,7 @@ pieces (Hidden City amulet + Spookyraven + Palindome "Staff of Fats"); Copperhea
    the liana trivial** — check Hagnk's, ours was there. Clearing all four opens **The Hidden Apartment
    Building (341) · Hospital (342) · Office Building (343) · Bowling Alley (344)** (+ Park 345, Ziggurat 350).
 
-## Status at end of Day 107
-Meatcar ✅ · Black Market found ✅ · forged ID bought ✅ · **father's MacGuffin diary (2044) IN INVENTORY** ✅ ·
-beehive ✅ · blackberries ×7 (3 → blackberry galoshes at cobbler choice 928) · diary not yet acted on.
-
-## The Hidden City buildings (Staff of Ed headpiece) — started Day 111
+## The Hidden City buildings (Staff of Ed headpiece)
 
 Each of the four buildings ends in an **ancient protector spirit** that drops one **moss-covered stone
 sphere**; the four spheres are what the quest needs.
@@ -96,27 +92,27 @@ sphere**; the four spheres are what the quest needs.
 elemental damage. (Exact mirror of the Bonerdagon lesson, where that same book had to come OFF.)
 Killed the Apartment spirit in ~3 casts at base Mys 134. Needs a 1-handed weapon (pasta spoon 5).
 
-- **Hidden Apartment Building (341) — "Curses!" ✅ DONE Day 111.** The **Action Elevator** noncombat fires
+- **Hidden Apartment Building (341) — "Curses!".** The **Action Elevator** noncombat fires
   on the **9th encounter in the zone, then every 8th**. Options: *Go to the mezzanine* = advance the curse
   (none → Once → Twice → **Thrice-Cursed**, 10 adventures each); with **Thrice-Cursed** a *Go to the
   Thrice-Cursed Penthouse* option appears → the spirit fight. ⚠️ Each curse lasts only 10 adventures and
   the next elevator is 8 encounters away — don't spend turns elsewhere mid-chain or you restart.
-  ⚠️ Cursed effects **persist across days** (we arrived already Thrice-Cursed and skipped the whole chain).
+  ⚠️ Cursed effects **persist across days** — you can arrive already Thrice-Cursed and skip the whole chain.
 - Remaining quest-log entries: **Doctor!** (operating room, Hidden Hospital 342) · **Serious Business**
   (McClusky file — 5 pages off **pygmy witch accountants**, Hidden Office Building 343) ·
   **Oh, Spare Me** (Hidden Bowling Alley 344).
 
-🚨 **LEVEL GATE (measured Day 111): the pygmies are ML 142–150 with ~150 HP.** At base Mys 134 we went
-**1W/5L** against them — the buildings are not grindable yet. They hit for ~45 and we have ~100 max HP.
+🚨 **LEVEL GATE (measured in-game): the pygmies are ML 142–150 with ~150 HP.** At base Mys 134 we went
+**1W/5L** against them — the buildings are not grindable at that level. They hit for ~45.
 **Come back at base Mys 150+ / L13+**, or bring serious elemental resistance + deleveling.
 
-## Just Deserts — the desert / buried pyramid (started Day 112, 44% Day 113)
+## Just Deserts — the desert / buried pyramid
 
 - **The Arid, Extra-Dry Desert = snarf 364** (Desert Beach). ML 134–142, rec stat 120.
   The place page shows **`alt='(N% explored)'`** — parse that, not the visible text (the zone label is
   rendered as zonefont images, so a plain-text regex returns nothing).
-- 🚨 **THE OASIS RE-HYDRATES AS OFTEN AS YOU ASK — there is NO daily cap.** (Day 119: five separate
-  hydrations in one session took the desert **74% → 100% in ~30 turns**.) Days 115–116 recorded a
+- 🚨 **THE OASIS RE-HYDRATES AS OFTEN AS YOU ASK — there is NO daily cap.** (five separate
+  hydrations in one session took the desert **74% → 100% in ~30 turns**.) An earlier session recorded a
   "one hydrated window per day" cap from two ambiguous observations and then *obeyed it for four days*,
   turning an afternoon's work into a week's. When exploration stalls, **just go back to the Oasis and
   drink again.** ✅ Working loop: read the charpane each turn — if `Ultrahydrated` is absent adventure at
@@ -136,11 +132,11 @@ Killed the Apartment spirit in ~3 casts at base Mys 134. Needs a 1-handed weapon
   ⚠️ **Turn-ins bounce navigation until the 805 choice is closed** — finish with *"No, that's all."*
 - 💧 **Budget MP hard here:** Weapon of the Pastalord is **32 MP/cast**, so a desert day burns ~2× the
   old juice bill. Buy ~25 MMJ **and** keep tiny houses/sodas, or you will stall mid-crossing (happened
-  three times on Day 113). The eXtreme Slope remains the recovery zone — it drops **Mountain Stream
+  three times). The eXtreme Slope remains the recovery zone — it drops **Mountain Stream
   sodas (37 MP)** and pays ~80 meat/fight.
 
 
-## Hidden City — Day 118 findings (2 of 4 buildings down)
+## Hidden City — further findings
 
 ⭐⭐ **THE PYGMY GATE IS BROKEN BY THE THRALL PACKAGE, NOT BY LEVELS.**
 **Bind Vampieroghi (cast 3027) + the Bringing Up the Rear passive** took the Hidden Hospital from
@@ -151,7 +147,7 @@ Re-summon whenever the charpane stops showing "Vampieroghi".
 💧 **Use plain Cannelloni (8 MP), not Weapon of the Pastalord (32 MP), as the workhorse here.** With the
 thrall up, cheap Cannelloni went **13W/1L** in the Office — 4× more turns per MP bar than the big nuke.
 
-- **Hidden Hospital (342) — "Doctor!" ✅ DONE Day 118.**
+- **Hidden Hospital (342) — "Doctor!".**
 - **Hidden Office Building (343) — "Serious Business":** the boss door needs the **McClusky file**.
   - **5 pages** drop from **pygmy witch accountants** (also in the Apartment). Choice **786 "Working
     Holiday"** fires every ~5 encounters: **"Pick a fight with a cubicle drone" spawns a witch
@@ -160,7 +156,7 @@ thrall up, cheap Cannelloni went **13W/1L** in the Office — 4× more turns per
   - 🚨 **The pages do NOT craft together** (`craft.php` says "don't combine"). ✅ **`inv_use` the boring
     binder clip (6694)** → *"You clip together the disparate pages"* → **McClusky file (complete)**.
   - Then 786 → **"Knock on the boss's office door"** → the protector spirit.
-- 🚨🚨 **THE SPIRITS ARE PHYSICALLY IMMUNE — AND *WEAPON OF THE PASTALORD* IS PHYSICAL.** Day 118 we
+- 🚨🚨 **THE SPIRITS ARE PHYSICALLY IMMUNE — AND *WEAPON OF THE PASTALORD* IS PHYSICAL.** We
   attacked the Office spirit with Pastalord (with the Necrotelicomnicon equipped) and **lost twice**.
   ✅ **Against any ancient protector spirit: Necrotelicomnicon equipped + CANNELLONI (3005) ONLY.**
 - ⚠️ **Loop bug worth remembering: our fight loops reported those two losses as WINS.** The spirit's

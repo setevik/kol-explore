@@ -7,7 +7,7 @@ To defeat the ghostly pool-shark in **The Haunted Billiards Room** (snarfblat 39
 - 16 skill: ~60% win chance
 - 18 skill: 100% win chance
 
-## ✅ Verified working recipe (run #2, Day 94) — beat the ghost with zero luck
+## ✅ Verified working recipe (verified in-game) — beat the ghost with zero luck
 
 1. **Find the encounter:** adventure **snarfblat 391** (Haunted Billiards Room) until **choice 875
    "Welcome To Our ool Table"** fires (~10 turns each time). Options: **1 = Hustle the ghost**,
@@ -15,11 +15,11 @@ To defeat the ghostly pool-shark in **The Haunted Billiards Room** (snarfblat 39
 2. **Read your CURRENT skill** from the quest log: `questlog.php?which=3` →
    *"You have achieved a skill level of N at shooting pool"*. ⚠️ This number includes the **cue** and
    **practice** but **NOT drunkenness**. (It only displays before you beat the ghost.)
-3. **Equip a pool cue (item 1793, +3)** — check **Hagnk's first**, we already owned 2 from run #1.
+3. **Equip a pool cue (item 1793, +3)** — check **Hagnk's first** — a previous ascension's estate often already holds one.
    Mall price is ~130 meat, but ⚠️ Ronin mall buys need meat in *Hagnk's* purse.
 4. **Drink to EXACTLY 10** for **+10** (see the drunkenness trap below).
 5. **Practice until displayed skill ≥ 8**, i.e. `8 + 10 drunk = 18` → **guaranteed win** (ghost rolls 14–18).
-   Practice gave only **+1 each** in our run (range is 1–4), so budget ~4 practices × ~11 turns each.
+   Practice can give as little as **+1 each** (the range is 1–4), so budget ~4 practices × ~11 turns each.
 6. **Hustle.** Reward: **Spookyraven library key (7302)** → the Haunted Library (390).
 
 ## 🚨 The drunkenness trap (verified on the wiki)

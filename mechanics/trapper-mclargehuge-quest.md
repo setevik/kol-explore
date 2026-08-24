@@ -1,8 +1,8 @@
-# The Trapper / Mt. McLargeHuge Quest (Level 8 Council quest) — verified run #2, Days 101–103
+# The Trapper / Mt. McLargeHuge Quest (Level 8 Council quest) — verified in-game
 
 Council → talk to **John the Trapper** (`place.php?whichplace=mclargehuge&action=trappercabin`).
 
-## Phase 1 — ore + cheese (done Day 102)
+## Phase 1 — ore + cheese
 
 - Needs **3 asbestos ore** (or linoleum/chrome — he names one) + **3 goat cheese (322)**.
 - Ore: equip **Mining Gear outfit** (`inv_equip.php?action=outfit&whichoutfit=8`), adventure **Itznotyerzitz
@@ -10,10 +10,10 @@ Council → talk to **John the Trapper** (`place.php?whichplace=mclargehuge&acti
 - Cheese: **the Goatlet (271, ML ~68)** — drops from dairy goats.
 - Turn both in at the cabin → he starts fixing the ski lift and says get warm clothes.
 
-## Phase 2 — eXtreme Cold-Weather Gear (Day 103)
+## Phase 2 — eXtreme Cold-Weather Gear
 
 - Outfit = **eXtreme scarf (355, HAT) + snowboarder pants (356, PANTS) + eXtreme mittens (399, ACCESSORY)**.
-  ✅ **Check Hagnk's first** — run #1's estate had all three. Equip in one shot:
+  ✅ **Check Hagnk's first** — a previous ascension's estate may already hold all three. Equip in one shot:
   `inv_equip.php?action=outfit&whichoutfit=7` (7 = eXtreme Cold-Weather Gear).
 - Without the pieces: farm them at **the eXtreme Slope (273, ML 73–75, rec stat 70)** — drops:
   scarf ← cross-country hippy, pants ← Orcish snowboarder, mittens ← sk8 gnome; several choice
@@ -23,7 +23,7 @@ Council → talk to **John the Trapper** (`place.php?whichplace=mclargehuge&acti
   turns 1, 9, 17 — i.e. every 8th turn; the rest were fights, 15W/0L at base Mys 83 with Mortar→Cannelloni).
 - The slope is also a **fine leveling zone** at L9–10 (≈18 substats/win, near-100% win with MP up).
 
-## Phase 3 — the Mist-Shrouded Peak & Groar (Day 103)
+## Phase 3 — the Mist-Shrouded Peak & Groar
 
 - ⚠️ The peak link is `place.php?whichplace=mclargehuge&action=cloudypeak2` **(cloudypeak2, not cloudypeak —
   the pre-gear action name silently no-ops after the gear chain)**. Outfit must still be worn to climb.

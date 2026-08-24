@@ -17,7 +17,7 @@ battlefield + complete side quests, then beat the side's final boss to win.
   `0 done = 1/fight · 1 = 2 · 2 = 4 · 3 = 8 · 4 = 16 · 5 = 32 · 6 = 64.`
 - Raw battlefield grinding at 1–2 kills/fight is hopeless (1001 enemies). **WIN PATH: do the side quests FIRST**
   to crank the multiplier, then mop up the battlefield fast (which also unlocks gated quests/zones deeper in).
-🚨 **CORRECTION (Day 123): several side quests are GATED BEHIND BATTLEFIELD PROGRESS.** At
+🚨 **CORRECTION: several side quests are GATED BEHIND BATTLEFIELD PROGRESS.** At
 **Image #0** both **The Lighthouse** and **Sonofa Beach (136)** refuse entry -
 *"You can't fight your way through the frat boys to get to the lighthouse"* / *"Can't get here."*
 So the "do side quests first" advice is only half true: **you must push the battlefield far enough to
@@ -63,7 +63,7 @@ snarf 27 is dead (*"you shouldn't be here"*). Instead **click "The Orcish Frat H
   lose → `campground.php?action=rest` (clears Beaten Up) → scroll(595) full HP + tiny houses(592) full MP →
   re-click frat house → retry.
 
-### ✅ VERIFIED KILL — Day 127, run #2: **5 rounds, no damage taken after round 4**
+### ✅ VERIFIED KILL — **5 rounds, no damage taken after round 4**
 The doctrine above is confirmed, and can be tightened:
 - **Entry state:** 303/305 HP, 393/402 MP, Buffy's **Ghostly Shell + Astral Shell**, **Vampieroghi thrall up**.
 - **Every round: `Weapon of the Pastalord` (3008, 32 MP).** Five casts, no opener swap, no heals, no items.
@@ -83,7 +83,7 @@ The doctrine above is confirmed, and can be tightened:
 ### Reward
 Visiting `council.php` after the kill auto-completes the war → war-hero medal (the specific reward varies by
 number of side quests completed). The war quest leaves the log.
-✅ Day 127 (2 side quests done, 4x kills): reward was the **Blue Diamond of Honesty**.
+✅ Measured with 2 side quests done (4x kills): the reward was the **Blue Diamond of Honesty**.
 
 💰 **Autoselling the boss drop — use the right endpoint.** `sellstuff.php` is only the *display* page; posting
 to it silently does nothing (meat unchanged, no error). The real target is **`sellstuff_ugly.php`** with
@@ -95,7 +95,7 @@ Success text: *"You sell your … to a crushed dwarf with a pair of pliers for 5
 high-HP boss that hits harder over time, see the boss note in `HANDOFF.md`.
 
 
-## Getting to the island & starting the war from scratch (verified Day 123)
+## Getting to the island & starting the war from scratch (verified in-game)
 
 1. **You need a boat.** `island.php` requires a **dingy dinghy**: **dinghy plans** cost **3 Shore Inc.
    Ship Trip Scrip** (`shop.php?whichshop=shore`, row **176**) - one scrip per Shore vacation
@@ -114,7 +114,7 @@ high-HP boss that hits harder over time, see the boss note in `HANDOFF.md`.
    At 0 side quests it moves ~1 image per 9-10 wins (37 wins took us #0 -> #4).
 
 
-## Verified war numbers (Day 124)
+## Verified war numbers
 
 - **The Lighthouse road opens at about Image #7.** Grind the battlefield until
   `bigisland.php?place=lighthouse` stops saying *"You can't fight your way through the frat boys"* -
@@ -127,7 +127,7 @@ high-HP boss that hits harder over time, see the boss note in `HANDOFF.md`.
   quests; **54 wins moved 9 images** with the Lighthouse done. Each further side quest doubles again.
 
 
-## The Farm side quest (verified Day 125) - the cheapest second doubling
+## The Farm side quest (verified in-game) - the cheapest second doubling
 
 - Opens once the front is ~**Image #13** (Farm / Nunnery / Orchard were all reachable then; the
   **Junkyard was still gated**).
@@ -147,11 +147,11 @@ high-HP boss that hits harder over time, see the boss note in `HANDOFF.md`.
 | 2x (Lighthouse) | 54 | 9 |
 | 4x (Lighthouse + Farm) | 71 | 8 (deeper images, #13 -> #21) |
 
-⚠️ **The war is MP-hungry as well as meat-negative** - we hit 0 MP twice on Day 125 mid-advance.
+⚠️ **The war is MP-hungry as well as meat-negative** - it is easy to hit 0 MP mid-advance.
 Buy ~25 MMJ before starting and expect to restock mid-day.
 
 
-## The Junkyard side quest - know the cost before you commit (Day 126)
+## The Junkyard side quest - know the cost before you commit
 
 - Opens later than Farm/Nunnery/Orchard (still gated at Image #13; **open by #21**).
 - **`bigisland.php?action=junkman`** = Yossarian, who hands over the **molybdenum magnet (2497)** for free.
@@ -159,5 +159,5 @@ Buy ~25 MMJ before starting and expect to restock mid-day.
   **using the magnet as a combat item** (`fight.php?action=useitem&whichitem=2497`) on the right gremlin.
 - 🚨 **The tool gremlins are rare: 12 fights in one zone produced none.** Do the arithmetic before
   committing - at 4x the front moves ~9 wins per image, so the remaining images have a known cost, while
-  the Junkyard's is open-ended. On Day 126 we **skipped the 8x** and pushed the battlefield instead,
-  which was the right call with ~11 images left.
+  the Junkyard's is open-ended. With ~11 images left it was correct to **skip the 8x** and push the
+  battlefield instead.

@@ -26,8 +26,8 @@ in the top window and `window.frames['mainpane'].location.href` for navigation (
 5. Write a **lore-friendly, in-character diary** to `my-adventures/YYYY-MM-DD.md` (use the real date).
 6. When wrapped (EAT + advs spent + DRINK + diary): **close the KoL browser tab FIRST**, then **commit & push LAST**.
 7. **Update `CURRENT_ASCENSION.md`** with the new state (progress, next priorities, a session-log line). Log any newly
-   discovered reusable mechanics into `mechanics/` and reusable operational lessons into `HANDOFF.md` — but keep those
-   two run-agnostic; all run-state goes in `CURRENT_ASCENSION.md`.
+   discovered reusable mechanics into `mechanics/` and reusable operational lessons into `HANDOFF.md` — see the
+   **doc-hygiene rule** below before writing a single word into either.
 
 **The HARD RULES (full text in `HANDOFF.md`) — the load-bearing ones:**
 - **Never end the day with ≥ 40 adventures unspent.** Adapt around disconnects/MP-starvation/stalls; don't stop early.
@@ -35,7 +35,48 @@ in the top window and `window.frames['mainpane'].location.href` for navigation (
 - **Prep necessary items EARLY** — daily-limited activities and everything a gated/one-shot step needs, assembled and
   verified BEFORE triggering the step.
 - **Diaries are stories; operational data (item IDs, snarfblats, choices, URLs) goes in `HANDOFF.md` / `CURRENT_ASCENSION.md`.**
+- **After the ONE overdrink, the day is over — STOP.** The adventures a day-end overdrink grants are *tomorrow's
+  opening balance*; they are meant to sit at 40–60 overnight. Past the cap every turn is a **Drunken Stupor** (turn
+  consumed, nothing gained). This **outranks** the "never end with ≥40 unspent" rule. To spend booze adventures the
+  same day: fill to exactly the cap, spend, and overdrink only as the very last action.
 - **Research on the official wiki only** (`wiki.kingdomofloathing.com`) via WebSearch or in-game text.
+
+---
+
+## 📐 Doc-hygiene rule (read before writing to `mechanics/` or `HANDOFF.md`)
+
+The repo has exactly **one** file for run state and **three** kinds of file that must never contain any:
+
+| File | Contains | Lifetime |
+|---|---|---|
+| `CURRENT_ASCENSION.md` | character state, quest progress, inventory counts, next-session plan, session log | **this run only** |
+| `HANDOFF.md` | how to *operate* — engine, endpoints, HARD RULES, gotchas | forever |
+| `mechanics/*.md` | how the *game* works — walkthroughs, item IDs, choice numbers, measured rates | forever |
+| `my-adventures/*.md` | in-character diary, one per day | archive |
+
+🎯 **The test, applied to every sentence you add to `HANDOFF.md` or `mechanics/`:**
+> *"Would this still be true and useful for a fresh character, in a different ascension, a year from now?"*
+> If no → it belongs in `CURRENT_ASCENSION.md`.
+
+❌ **Never write into `HANDOFF.md` / `mechanics/`:**
+- **Day numbers or run numbers** — `Day 127`, `run #2`, `since Day 95`, `started Day 111`.
+- **Progress markers** — `✅ DONE`, `Status at end of…`, `2 of 4 buildings down`, `we skipped the 8x`.
+- **Possession / inventory claims** — `we have 50 crude`, `we already owned 2 from run #1`, `Run #2 has had it
+  since Day 99`, `a Permit I don't currently have`.
+- **First-person run narrative** — `we lost`, `we arrived already Thrice-Cursed`, `we'd been hoarding 3`.
+- **"Next session" plans** of any kind.
+
+✅ **Do write:**
+- `✅ Verified in-game` — the fact that a claim was *tested* rather than taken from the wiki is load-bearing; keep it.
+  Just drop the run/day coordinates.
+- **The conditions a measurement was taken under**, because reproducibility depends on them:
+  `Measured: 40 fights, 0 losses at base Mys ~236`, `at 4x kills`, `with no +ML`.
+- **Failure modes as general warnings**: `the attempt LOST at base Mys 120` beats `we lost on Day 109`.
+- Conditional phrasing for anything situational: *"a previous ascension's estate may already hold all three"*,
+  not *"run #1's estate had all three"*.
+
+💡 When a lesson has both halves — a durable mechanic **and** what it cost you this run — **split it**: the mechanic
+goes to `mechanics/`/`HANDOFF.md` in timeless form, the cost and the date go to `CURRENT_ASCENSION.md` and the diary.
 
 ---
 
@@ -44,5 +85,7 @@ in the top window and `window.frames['mainpane'].location.href` for navigation (
 > Continue the KoL run. Read `CURRENT_ASCENSION.md` (state) then `HANDOFF.md` (manual). Log in with the credentials in
 > `credentials.local.md`, do EAT → ADVENTURE → DRINK, use the current combat combo, do the Daily Dungeon early, spend all
 > adventures, then at day-end **read your drink cap from the charpane (`Tipsiness: X / Y`; Y = 14, or 19 with Liver of
-> Steel), fill the booze meter to Y, then take one overdrink** (see `mechanics/drinking-strategy.md`). Write a lore diary
-> to `my-adventures/YYYY-MM-DD.md`, then close the tab and commit — and update `CURRENT_ASCENSION.md`.
+> Steel), fill the booze meter to Y, then take one overdrink and STOP adventuring** (see
+> `mechanics/drinking-strategy.md`). Write a lore diary to `my-adventures/YYYY-MM-DD.md`, then close the tab and commit —
+> and update `CURRENT_ASCENSION.md`. Keep `HANDOFF.md` and `mechanics/` **run-agnostic**: no day numbers, no run numbers,
+> no progress or inventory claims — all of that goes in `CURRENT_ASCENSION.md`.

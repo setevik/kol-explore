@@ -3,7 +3,13 @@
 > **This file is run-agnostic** — reusable how-to-operate knowledge that stays true across ascensions.
 > **Current-run state lives in `CURRENT_ASCENSION.md`** (character state, quest progress, next priorities,
 > session log). Deep game mechanics live in **`mechanics/*.md`**. Lore diaries live in **`my-adventures/`**.
-> Don't put dated day-logs, current key counts, or "next session" plans here — those go in `CURRENT_ASCENSION.md`.
+>
+> 📐 **This file must read as true for ANY character in ANY ascension.** Before adding a line, ask:
+> *"would this still be true and useful for a fresh character, in a different ascension, a year from now?"*
+> If no, it goes in `CURRENT_ASCENSION.md`. Concretely — **no day numbers, no run numbers, no `✅ DONE`/status
+> markers, no inventory or possession claims, no "next session" plans.** Keep `✅ Verified in-game` (tested vs
+> wiki-sourced is load-bearing) and keep the *conditions* of a measurement (`at base Mys ~236`, `with no +ML`).
+> Full rule and examples: `NEW_SESSION_PROMPT.md` § Doc-hygiene.
 
 ---
 
@@ -67,11 +73,11 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
   run near rollover, **do the DRINK step before starting it**, or cap the loop short.
 - **Concurrent frame reloads deadlock.** Don't reload the charpane frame (`_readChar`) while a fight/farm loop is also
   reloading frames — onload promises stall. Poll in-memory `window._X` while a loop runs; read the charpane only when idle.
-- ⚠️ **Every farm loop's MP branch must check ALL restoratives you actually carry.** Day 112: a desert
+- ⚠️ **Every farm loop's MP branch must check ALL restoratives you actually carry.** a desert
   loop checked only MMJ (518) and tiny houses (592), starved at 20 MP, and went **1W/8L** while
   **17 Mountain Stream sodas (357, 37 MP each)** sat unused in the bag. Keep one shared restore helper
   (`357 → 518 → 592`) rather than re-typing the ladder per loop.
-- 🚨 **NEVER RUN A "IS THIS UNLOCKED / DONE YET?" TEST ON A PAGE THAT MIGHT BE A FIGHT.** Day 120:
+- 🚨 **NEVER RUN A "IS THIS UNLOCKED / DONE YET?" TEST ON A PAGE THAT MIGHT BE A FIGHT.**
   `!/not yet clickable/.test(place.php)` reported the Red Zeppelin **open** while we were actually standing
   in a leftover combat — a fight page simply doesn't contain the gating phrase, so *every* "absence of bad
   text" check silently passes. This is the same family as the win-string and Boss-Bat bugs. ✅ **Rule:
@@ -86,7 +92,7 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
      for (let i=0;i<3;i++){ let p=await G('fight.php'); if(!inFight(p)) break; await runFight(p,{}); }
      window._abort=false; window._running=false; }`
   — and inside that finisher fall back to **Spaghetti Spear (3020, 0 MP)** whenever MP < 10, or it can't finish.
-- 🚨 **THE FARM-LOOP DEATH SPIRAL (cost ~30 advs on Day 103): one loss cascades unless the loop checks BOTH
+- 🚨 **THE FARM-LOOP DEATH SPIRAL (cost ~30 adventures): one loss cascades unless the loop checks BOTH
   Beaten Up AND healing-supply counts every iteration.** Mechanism: a loss applies **Beaten Up (−50% all stats)**
   → next fights are entered at half Mysticality/Muscle → more losses → more Beaten Up. Meanwhile a heal branch
   like `if (hp<45) use(scroll 595)` becomes a **silent no-op when the item hits 0** (inv_use just returns a page),
@@ -97,7 +103,7 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
   false-positives on "You lose N hit points" (this old mistake got re-made; see also the Boss Bat note).
 
 - 🚧 **WHEN A QUEST GATE IS A *NONCOMBAT*, THE BOTTLENECK IS ENCOUNTER RATE — NOT YOUR DAMAGE.**
-  Day 121 spent **~120 turns in the Palindome at 150W/0L** waiting for one choice adventure that never
+  One session spent **~120 turns in the Palindome at 150W/0L** waiting for one choice adventure that never
   came (2 noncombats all day). Winning harder does nothing for this. ✅ **Recognise the shape early:** if
   the quest log says "search/find X here" and the step is an NC, **stop after ~20 dry turns**, and go get a
   **−combat / forced-noncombat source** before spending another adventure. Also verify your own gear isn't
@@ -105,7 +111,7 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
 
 ## Combat standard (Pastamancer)
 
-- 🚨🚨 **RE-VISIT THE GUILD TRAINER EVERY FEW LEVELS — THIS WAS A WEEKS-LONG BLIND SPOT (Day 112).**
+- 🚨🚨 **RE-VISIT THE GUILD TRAINER EVERY FEW LEVELS — THIS WAS A WEEKS-LONG BLIND SPOT .**
   `guild.php?place=trainer` lists skills **by level with prices**, and we fought at Levels 10–12 using the
   same three spells bought at Level 5. Buying **Weapon of the Pastalord (skillid 8, 5,000 meat, skill
   id 3008, 32 MP)** plus the cheap passives **Utensil Twist (id 25, 125 meat)** and **Transcendent Al
@@ -134,13 +140,13 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
   is the main nuke. Most zone monsters die in ~2 rounds with MP topped.
 - **Bosses (ramp/tank):** enter at FULL HP (scroll 595) + FULL MP (tiny houses), **Mortar → Cannelloni every round**,
   heal only under ~35% HP. Turtling loses to ramping bosses (e.g. "The Man") — it's a DPS race. Torpedoes (630) in reserve.
-- 🚨 **IF A "NONCOMBAT" NEVER APPEARS, IT MAY NOT BE A NONCOMBAT.** Day 121–122 cost ~190 turns hunting
+- 🚨 **IF A "NONCOMBAT" NEVER APPEARS, IT MAY NOT BE A NONCOMBAT.** One stretch cost ~190 turns hunting
   Palindome choice 872 as a random encounter, even with −combat buffs. It is reached by a
   **`place.php?...&action=` link that unlocks when you READ AN ITEM** (`"I Love Me, Vol. I"`, which had
   been sitting unread in the bag). ✅ **Before grinding for any gated encounter: read the wiki's zone page
   for whether it's a location, and `inv_use` unread quest books/items you're carrying.**
 - 🚨 **NEVER CONFIRM A BOSS KILL FROM THE WIN-STRING ALONE — CHECK HP / Beaten Up / the quest log.**
-  Day 118: two straight losses to an ancient protector spirit were logged as **WINS** because its defeat
+  two straight losses to an ancient protector spirit were logged as **WINS** because its defeat
   text doesn't match `/You lose the fight|black out|slink away/`. The tell was HP 0 + Beaten Up afterwards.
   ✅ After any boss attempt, read `api.php` HP and the charpane, or re-read `questlog.php`, before believing it.
 - ⚔️ **Weapon of the Pastalord (3008) is PHYSICAL** — it does nothing to physically-immune monsters
@@ -154,17 +160,17 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
 - 🚨 **CHECK THE BOSS'S ELEMENT BEFORE YOU FIGHT — a damage-tuning off-hand can HALVE your damage.**
   The **Necrotelicomnicon (2494)** re-tunes all pasta to **Spooky**; against the **Bonerdagon** (spooky-resistant)
   that turned a 4-round untouched win into an 11-round loss. **Unequip element-tuning gear when the target
-  resists that element** (Day 109). Corollary: exploit weakness instead — spooky-tuned Cannelloni is what
+  resists that element** . Corollary: exploit weakness instead — spooky-tuned Cannelloni is what
   killed cold-aligned Groar in 8 rounds.
 - 🚨 **Against a boss that out-damages your heal, NEVER heal — race it.** Lasagna Bandages (~17 HP) cannot
   cover ~37 dmg/round; healing just loses slowly. Enter at full HP and cast damage every round.
 - 🚨 **In ML 100+ zones the FULL routine (Entangle stun → Mortar → Cannelloni) is load-bearing — never let a
-  loop variant "simplify" it.** Verified Day 106 in the Black Forest (ML 123–133): full routine ≈ 4W/1L;
+  loop variant "simplify" it.** Verified in-game in the Black Forest (ML 123–133): full routine ≈ 4W/1L;
   the same loop with Cannelloni-only went **0W/14L** — the stun round + mortar's 2× queue are the whole margin.
   When copying a fight loop into a new burst, diff the skill ladder first.
 - 🚨 **CANNELLONI COCOON (3012) IS *NONCOMBAT* — IT DOES NOTHING IN A FIGHT.** A "heal at <35% HP"
   branch that casts it mid-combat **burns the round and the MP for no heal**, which is exactly how you
-  lose a boss race. Heal to full **between** fights (`runskillz.php`), never inside one. (Verified Day 119
+  lose a boss race. Heal to full **between** fights (`runskillz.php`), never inside one. (Verified in-game
   from the wiki *before* it cost us the Office boss.)
 - ⚔️ **AN UNTUNED STUFFED MORTAR SHELL (3007) CAN ROLL *PHYSICAL*.** Its damage is
   `(32–64)+(0.5×Mys)` of a **random element — or physical** if untuned. Against a physically-immune
@@ -205,7 +211,7 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
   Hagnk's is **fully open (UNLIMITED pulls, no 1/day/item cap, no meat cost to pull)**, and **mall buys go to
   INVENTORY and spend INVENTORY meat** like normal (no more Hagnk's-purse detour). ✅ **First thing after Ronin ends:
   raid your own storage** — a full prior-run inventory (400+ items) is now free to pull. Game-changers found there
-  (run #2, Day 102): **tiny houses (592) = FREE MP** (~23 MP each, no meat) — pull a stack and they REPLACE buying
+  (verified in-game): **tiny houses (592) = FREE MP** (~23 MP each, no meat) — pull a stack and they REPLACE buying
   MMJ, which **solves the meat/MP death-spiral** (verified: backstage went 43W/0L on free tiny-house MP);
   **stolen sushi (6293)** food for weeks; **scroll of drastic healing (595)** full HP; **mining gear** (see below).
 - 🚨 **DURING RONIN (roninleft > 0) THE MALL IS NOT A SUPPLY LINE.** Mall buys are paid from **Hagnk's meat** and delivered
@@ -224,7 +230,7 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
 
 ## Raising meat fast (when a skill/item is unaffordable)
 
-Before farming meat for hours, check these — they found 2,749 meat in minutes on run #2 Day 6:
+Before farming meat for hours, check these — they found 2,749 meat in minutes in-game:
 1. **Hagnk's holds a SEPARATE meat purse.** `storage.php?which=5` shows *"You have N meat in long-term storage"*.
    Withdraw it: POST `storage.php` with `pwd, amt=<n>, action=takemeat`. In Ronin you may pull **20,000 meat/day**
    (meat is NOT subject to the 1-per-item limit). ⚠️ Mall purchases silently spend *this* purse, so it drains without
@@ -234,13 +240,13 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
    `item<ID>`). **mode=1** = sell all, **mode=2** = all but one, **mode=3** = the `quantity` field. ✅ Verified:
    mode=3 quantity=2 sold exactly 2. Batch-sell many at once: repeat `item<ID>=<ID>` for each.
    ⚠️ **The `sellstuff.php` ROW PARSE MISALIGNS ID↔NAME** — the checkbox `value` and the `<b>name</b>` in the same
-   `<tr>` don't reliably belong together (every item appeared twice with two different IDs on Day 97). **Build an
+   `<tr>` don't reliably belong together (every item appeared twice with two different IDs). **Build an
    authoritative `{id: name}` map from the inventory pages first** (`inventory.php?which=1/2/3`, parse `table.item`
    `rel="id=<N>"` + `<b>`), decide what to sell by NAME there, then sell those exact IDs. Nearly sold class items otherwise.
 3. **Starter-package gems are worth a fortune.** The pork elf goodies sack (Toot Oriole / Letter from King Ralph)
    yields **porquoise (706) / hamethyst / baconstone — 500 meat autosell each**. Their only use is jewelrycrafting
    (a skill we don't have), so **selling them early is usually correct**.
-4. 🚨 **AUDIT YOUR OWN JUNK DRAWER BEFORE YOU FARM ANYTHING — it beat a full day of farming (Day 119).**
+4. 🚨 **AUDIT YOUR OWN JUNK DRAWER BEFORE YOU FARM ANYTHING — it beat a full day of farming .**
    A long-running farm zone quietly buries you in drops. Months on the eXtreme Slope had left **166 gr8ps,
    140 t8r tots, 54 sk8boards and ~50 SPARE copies of each eXtreme outfit piece** — **41,195 meat, sold in
    minutes for ZERO adventures.** ✅ Method: build the authoritative `{id:name}` map from `inventory.php`,
@@ -290,11 +296,11 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
   booze. **Drink EXACTLY 2 → drunk 12** (a 3rd overshoots 18 — advs still bank, but stop at 2). Buy from the Hidden Tavern:
   `shop.php?whichshop=hiddentavern&action=buyitem&whichrow=175`; drink `inv_booze.php?which=1&whichitem=6682&pwd=`.
   (There is NO booze upgrade beyond this — Advanced Cocktailcrafting is Disco-Bandit-only; Pastamancer can't learn it.)
-- ✅ **MP restore, corrected (Day 119): magical mystery juice (518) restores ~25 MP for 100 meat
+- ✅ **MP restore, corrected: magical mystery juice (518) restores ~25 MP for 100 meat
   (≈4 meat/MP) and is still stocked at the guild store, `shop.php?whichshop=guildstore2` row 527.**
   That is ~3× better value than Mountain Stream soda (~440 meat / 37 MP) and it buys straight to
   inventory. Older notes calling MMJ "~10–12 MP" or "gone" are wrong. Buy 25–35 at day-start.
-- ⭐ **PROVEN DAY-END BOOZE RACK (Day 120, lands EXACTLY on a 19 cap and banks ~74 adv):**
+- ⭐ **PROVEN DAY-END BOOZE RACK (lands EXACTLY on a 19 cap and banks ~74 adv):**
   **Ye Olde Meade (6276) = 5 drunkenness / ~15 adventures**, ~639 meat in the mall — the best filler found
   so far (3 adv per drunkenness). **3 × Meade (15) + 2 × bottle of popskull (1774, 2 each) = exactly 19.**
   Then spend the single overdrink on **corpse on the beach (3025) = 6 drunkenness / ~21 adventures**.
@@ -313,14 +319,14 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
 ## Common URL patterns
 
 - Adventure a zone: `adventure.php?snarfblat=<id>`. ⚠️ **Stat-gate warnings: the GET param `&ignorewarning=1`
-  does NOT work** (verified Day 103 — 12 fetches all bounced, no turns used). ✅ **The bypass is the "brave or
+  does NOT work** (Verified in-game — 12 fetches all bounced, no turns used). ✅ **The bypass is the "brave or
   foolish" POST:** `adventure.php` with `action=ignorewarning&whichzone=<id>` — add `nozonewarnings=1` once to
   disable all future zone warnings for the account (plain snarfblat GETs work after that).
 - Combat action: `fight.php?action=skill&whichskill=<id>&pwd=` · `action=attack` · `action=useitem&whichitem=<id>`.
 - Cast skill (out of combat): `runskillz.php?action=Skillz&whichskill=<id>&ajax=1&quantity=<n>&pwd=`.
 - Eat / drink / use: `inv_eat.php?whichitem=<id>&pwd=` · `inv_booze.php?which=1&whichitem=<id>&pwd=` · `inv_use.php?which=3&whichitem=<id>&pwd=`.
-- Choice: `choice.php?whichchoice=<id>&option=<n>&pwd=`. ⚠️ Resolve any leftover forced-choice before doing anything
-  else next session (they silently bounce every navigation).
+- Choice: `choice.php?whichchoice=<id>&option=<n>&pwd=`. ⚠️ Resolve any leftover forced-choice at session start,
+  before doing anything else (they silently bounce every navigation).
 - Equip: `inv_equip.php?which=2&action=equip&whichitem=<id>&pwd=` (unequip a slot first if all accessory slots are full:
   `...&action=unequip&type=acc2&pwd=`).
 
@@ -354,22 +360,22 @@ regression (it also cost ~40 max MP when oil slacks replaced bullet-proof cordur
 1. **Order is EAT → ADVENTURE → DRINK.** Both meters are mandatory — never wrap a day with an unused `full` (0/15)
    or `drunk` (0/14) meter (each point ≈ 2–3 rollover adventures).
 
-   🚨 **DRINK LAST IS NOT A STYLE CHOICE — IT IS THE SAFETY RAIL. (Cost us a whole day, Day 93.)**
+   🚨 **DRINK LAST IS NOT A STYLE CHOICE — IT IS THE SAFETY RAIL. (This has cost a whole day.)**
    At **(cap+1)+ you are "falling-down drunk"**: every zone returns only **Drunken Stupor**
    (`The Too-Much Booze Blues` — "you spend a couple of hours battling fierce pink elephants"), which **consumes
    the adventure AND drains substats**, and **cannot be cured** — drunkenness only resets at rollover.
    - 🎯 **READ THE CAP, DON'T HARD-CODE IT.** The adventuring cap is **14 by default** but **19 with Liver of Steel**
      (see below) — and it **RESETS to 14 every ascension** (Liver of Steel can't be permed). So the number changes.
      ✅ **Robust check (works at any drunkenness): `charsheet.php` contains the text "Liver of Steel" → cap 19, else 14.**
-     (Verified Day 100. `api.php?what=status` has NO cap field — only `drunk`.) The charpane's `Tipsiness: X / Y`
+     (Verified in-game. `api.php?what=status` has NO cap field — only `drunk`.) The charpane's `Tipsiness: X / Y`
      line (Y = cap) also works **but only shows when drunk > 0**, so it can't be read at day-start; use charsheet, or
      drink your first safe bottle then read `Tipsiness`.
      🍸 **Liver of Steel = +5 cap (14→19).** Earn it by finishing the **Azazel quest** (steel margarita) — see
      `mechanics/friars-blessings.md`. Whenever it's active, **fill the booze meter to 19**; stopping at 14 silently
-     throws away ~+9 adventures/day. (Run #2 has it as of Day 99.)
+     throws away ~+9 adventures/day.
    - **Drink at the END** and an overshoot is harmless: the surplus adventures simply bank to tomorrow.
    - **Drink at the START** and the identical overshoot **locks you out of the entire day**. We drank first
-     (to "guarantee" the meter after missing it on Day 92), hit **drunk 16**, and stranded **190 adventures**.
+     (to "guarantee" the meter after missing it), hit **drunk 16**, and stranded **190 adventures**.
    - ✅ **Guard with LOOK-AHEAD, not `drunk < cap`.** A loop that checks `if (drunk >= cap) break` *before* drinking
      will still overshoot on a 3-drunk bottle. **Only drink if `drunk + size <= cap`** (sizes: vodka/tequila/whiskey/
      rum/cider/swill ≈ 3, sherry/popskull ≈ 2, Imp Ale/Willer ≈ 1). Prefer small bottles to land exactly on the cap.
@@ -377,7 +383,7 @@ regression (it also cost ~40 max MP when oil slacks replaced bullet-proof cordur
      spend it on your highest-adventure bottle; those adventures still bank.
    - If you fear missing DRINK during a long farm loop, **cap the loop / drink at a checkpoint** — do NOT reorder
      the day.
-   - 🚨 **AFTER THE OVERDRINK, THE DAY IS OVER — STOP ADVENTURING. (Cost 60 adventures, Day 127.)**
+   - 🚨 **AFTER THE OVERDRINK, THE DAY IS OVER — STOP ADVENTURING. (Cost 60 adventures.)**
      This is the failure mode that survives "drink last": we correctly spent all advs, correctly filled to exactly
      19, correctly took ONE overdrink (→ drunk 25) — and then, because the overdrink handed us **+60 adventures on
      the spot**, HARD RULE 2 ("don't end the day with ≥40 unspent") pulled us straight back out to a quest zone.

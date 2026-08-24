@@ -64,8 +64,7 @@ Once Sapling + Fertilizer + Map are held, `inv_use.php?which=3&whichitem=74&pwd=
 ### Backup: buy spooky sapling for 100 meat from the Hermit
 
 The wiki claims the Hermit (Mountains) sells Spooky Saplings for 100 meat — but the
-Hermit requires a **Hermit Permit** I don't currently have. So this isn't a true
-shortcut. Skip.
+Hermit requires a **Hermit Permit**, so this is only a shortcut if you already hold one.
 
 ## Inside the Hidden Temple (snarfblat 280)
 
@@ -165,11 +164,10 @@ Other zones: **Hidden Park = 345**, **A Massive Ziggurat = 350**.
 - Drops an **element-matched sphere** (Bowling/fire → **scorched stone sphere**).
 
 🚨 **KILLING THE PROTECTOR IS ONLY HALF THE STEP — THE SPHERE MUST BE WALKED BACK TO ITS SHRINE.**
-(Day 119: we had been carrying the **moss-covered sphere since Day 111** and the **dripping sphere since
-Day 118**, unplaced, while believing those buildings were "cleared". The quest log advances on the *building*,
-so nothing complains.) After every protector kill, immediately take its sphere to the matching altar.
+(This is easy to miss for many days at a time: spheres sit unplaced in inventory while you believe those
+buildings were "cleared", because the quest log advances on the *building* and nothing complains.) After every protector kill, immediately take its sphere to the matching altar.
 
-⚠️ **EACH SHRINE HAS ITS OWN CHOICE NUMBER — not just 785.** Verified Day 119:
+⚠️ **EACH SHRINE HAS ITS OWN CHOICE NUMBER — not just 785.** Verified in-game:
 **781** (earth/346) · **783** (water/347) · **785** (air-lightning/348) · **787** (fire/349).
 A loop that only knows 785 will sit on the other altars picking nonexistent options forever (it burns no
 adventures, but it makes no progress). ✅ **Robust handler:** treat all four as altar choices, read the
