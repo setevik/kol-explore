@@ -207,6 +207,16 @@ Stupor*. See `HANDOFF.md` HARD RULE 1. General form of the check:
 > **A win counter is only trustworthy when corroborated by drops, meat, or substat gain.** Zero of all three
 > across dozens of "wins" means the turns never reached the zone.
 
+## Cross-quest value of the oil kit
+
+The three oil items outlive this quest — budget crude for them even after the peaks are lit:
+- **oil lamp** — the only cheap **hot/sleaze** damage source a caster is likely to own. Beyond A-boo, it is the
+  right thing to equip when registering for the **Hottest Adventurer** contest in the Naughty Sorceress' tower
+  (see `naughty-sorceress-tower.md`).
+- **oil slacks** — **+20% initiative**, i.e. half of Twin Peak's +40% gate *and* the gear to wear when
+  registering for the tower's **Fastest Adventurer** contest.
+- **jar of oil** — Twin Peak only.
+
 ## Rewards
 
 Lighting all three fires ⇒ return to **The Highland Lord's Tower**. Reward is a class-appropriate **Misty

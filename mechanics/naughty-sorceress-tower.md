@@ -19,9 +19,44 @@ Trapper, Highlands, Giant, Manor/MacGuffin, War). Then the **Council gives the f
 - **NOT one-shot pass/fail.** Your bonus sets a **rank #2–#11**, which just = **how many opponents you fight** (1 at rank 2,
   up to 10 at rank 11). So you can win each even unbuffed — it just costs more turns. Buffing (Springy Fusilli 3015 for init,
   etc.) only *lowers the opponent count*. Register all three (opts 1/2/3 each return to the desk).
+### ⭐ Register each contest with DIFFERENT gear — the evaluation is per-click
+
+The desk says *"You only get one shot at the evaluation"*, which reads like one global snapshot. It isn't:
+**each contest is evaluated at the moment you submit its option**, so you can re-equip between them and be
+measured three different ways. ✅ Verified in-game:
+1. **Fastest** — cast an initiative buff (Pastamancer: **Springy Fusilli 3015**) and equip initiative gear
+   (**oil slacks**, +20% init, from 10 bubblin' crude — see `orc-chasm-and-highlands.md`) → submit opt 1.
+2. **Hottest / element contest** — equip the matching elemental-damage item (**oil lamp**, +5 hot / +5 sleaze,
+   9 bubblin' crude) → submit the element option.
+3. **Smoothest / stat contest** — drink or eat the matching stat booster first → submit that option.
+
+Each swap is free and costs no adventure; each one lowers that contest's opponent count.
+
 - **Then fight the crowds:** the tower shows **ns_01_crowd1 / crowd2 / crowd3** — `place.php?whichplace=nstower&action=ns_01_crowdN`
   starts each opponent fight; keep clicking a crowd until it stops giving a fight (that contest won). ⚠️ opponents (esp. the
   rank-1 champions like the **Tasmanian Dervish**) are **tanky — keep MP topped (Mortar→Cannelloni)**; MP-starving loses.
+### 🚨 The rank-1 champions are a RESOURCE check, not a difficulty check
+
+Each crowd ends in a named champion (**The Tasmanian Dervish** for Fastest, **Seannery the Conman**,
+**The Lavalier**, …). They are **scaling monsters with no elemental weakness** — the wiki lists Attack/HP as 0
+because they scale to you — and they hit **very hard** (~190 per round against a ~310 max-HP character, i.e.
+they two-shot you).
+
+⚠️ **Losing to one is almost always your own resource state, not the fight.** A run of losses followed by a
+2-round win came from fixing three things, none of them tactical:
+1. **Enter at FULL HP and FULL MP.** The crowd loop had been fighting the warm-up opponents and sliding into
+   the champion on fumes. Refill *before every crowd fight*, not just at the start.
+2. **Check nothing is suppressing your max HP.** A quest hat (e.g. a **Mohawk wig** kept on after the Giant
+   Trash step) silently cost ~40 max HP going into a championship bout. **After any one-noncombat quest item,
+   re-equip your real gear immediately.**
+3. **Keep a real MP stock.** Running the restorative ladder to empty is what caused the fumes in the first
+   place; buy a stack before starting the contests.
+
+With that fixed: **Weapon of the Pastalord (3008) for 222 damage, thrall draining alongside — 2 rounds, no
+damage taken**, and the remaining two crowds went **10W/0L each including their champions**.
+✅ **Cocoon threshold for these fights: heal at ~70% HP, not 35%** — at ~190 damage per round, 35% is already
+dead.
+
 - When all 3 crowds are gone, the desk offers **choice 1003 opt 4 "Claim your prize"** → **World's Best Adventurer sash** →
   advances to `ns_02_coronation`.
 
@@ -56,6 +91,9 @@ Boris's key = **item 282, row 93** · Jarlsberg's = **item 283, row 94** · Snea
   marks which zone currently pays **DOUBLE** (+100/win vs +50). The color cycles **every 5 kills**: **black→Vanya's Castle
   565, blue→Megalo-City 566, green→Hero's Field 564, red→Fungus Plains 563.** (Bonus points from init/DA/item/meat need
   300–595% to matter — negligible for us, so it's just +100 in the matching zone, +50 off-color.)
+- ✅ **Measured rotation rate: ~137 pts/fight** over a 27-fight sample (1,100 → 4,800), i.e. **~10k from
+  scratch ≈ 75 fights**, better than the ~110/fight estimate below. Weapon-attack rounds 1–2, escalate to
+  Cannelloni only if the monster survives — MP cost is near zero.
 - **⭐ ROTATION TRICK (~110 pts/fight, ~1.7× a fixed zone):** before each fight, read the Score color
   and adventure the matching zone. Detecting the color: the color word (green/red/blue/black) sits right after "Score:" in
   the **fetched** `charpane.php` HTML (regex `/Score:[\s\S]{0,160}?(green|red|blue|black)/i`, default black); OR read the

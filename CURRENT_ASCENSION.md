@@ -30,51 +30,72 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 128 / 2026-08-21)
+## 📊 Character state (run #2 — end of Day 129 / 2026-08-22)
 
-- 🎉 **LEVEL 16 Pastamancer.** Base Mys **247**. HP 310, MP 371. **Meat ~5,646.**
-  **adv 61 banked** (filled to 19 + one overdrink, then STOPPED — see Day 127's lesson). full 15, drunk 25.
-- 🔥🔥 **TWO OF THREE SIGNAL FIRES LIT** — *"Oil Peak with Flame"* and *"Twin Peak with Flame"*.
-- 👻 **A-BOO PEAK IS AT 14% HAUNTED** (from 98%). **~7 ghosts from the third beacon** — this is a
-  ~15-minute job tomorrow morning.
-- 🛢️ **The oil kit is built and equipped:** **oil lamp** (off-hand, +5 hot/+5 sleaze — this is what makes
-  A-boo winnable), **oil slacks** (pants, +20% init). **19 bubblin' crude spare.**
-  ⚠️ The lamp displaced the **Necrotelicomnicon** and the slacks displaced **bullet-proof corduroys**
-  (−~40 max MP). Re-equip the Necrotelicomnicon when leaving A-boo.
-- **Twin Peak was finished via the `Cabin Fever` fallback** (burned the lodge down at ~turn 51). The
-  jar-of-oil/music step was solved first; Room 237 (+4 stench res) and the pantry (+50% item) were attempted
-  and **failed** — those two gates remain unmet, so the **gold wedding ring was forfeited**. Fine trade.
-- **Consumables:** 16 magical mystery juice (518, ~28 MP each), 6 stolen sushi, 0 Fog Murderers, 0 A-Boo clues.
-- 🔓 **Standing run assets** (these are *this run's* facts — the mechanics docs deliberately don't assert them):
-  **Liver of Steel** is active ⇒ **booze cap 19** (not 14); the **Queue Du Coq cocktailcrafting kit** is installed
-  in the campsite kitchen ⇒ free mixing; **Saucemaven** (+5 adv per food *and* booze) and **Pastamastery** are learned;
-  the **Vampieroghi thrall** persists across days. Buffbot **Buffy (#1889009)** answers kmail for Ghostly Shell,
-  Astral Shell, Fat Leon's Phat Loot Lyric and Sonata of Sneakiness.
-- **Today: ~82 fights, 0 losses.**
+- 🎉 **LEVEL 16 Pastamancer.** Base Mys **255**. HP 312, MP 423. **Meat ~5,992.**
+  **adv 63 banked** (filled to 19 + one overdrink, then STOPPED). full 15, drunk 25.
+- 🏆🏆 **EVERY COUNCIL QUEST IS DONE.** Lit the third fire (**A-boo Peak**, 7 ghosts), collected the
+  **Misty Robe**, then solved the Giant Trash quest. The Council has handed over the final quest:
+  **"The Ultimate Final Epic Conflict of the Ages"** — the Naughty Sorceress' Tower.
+- ✅ **TOWER STEP 1 COMPLETE.** All three contests won (**30W/0L** in the crowds, champions included) →
+  **World's Best Adventurer sash**. The tower link is now **`ns_02_coronation`**.
+- 🔑 **THREE OF SIX TOWER KEYS HELD:** **skeleton key** (×2 — one crafted, one dropped in the dungeon),
+  **Boris's key**, **Richard's star key**.
+  **Still needed:** *Jarlsberg's key* + *Sneaky Pete's key* (Daily Dungeon, **1 fat loot token per day ⇒ 2 more
+  days minimum — this is the hard critical path**) and the *digital key*.
+- 🎮 **8-Bit Realm score: 4,800 / 10,000** for the digital key. ~**38 more fights** at the measured
+  ~137 pts/fight. **Points persist across days.** The continuum transfunctioner is equipped (accessory).
+- 🗺️ **Also open (optional):** *A Quest, LOL* — Baron Rof L'm Fao's valley in the Big Mountains.
+- ⚠️ **SUPPLIES ARE DRY: 0 Mountain Stream soda, 0 magical mystery juice.** Running the MP ladder to empty is
+  what caused three losses to the Tasmanian Dervish today. **Buy a stack at day-open.**
+- **Gear note:** the **Mohawk wig** (Giant-castle shortcut) is OFF and the reinforced beaded headband is back
+  on — leaving the wig equipped cost ~40 max HP. The **oil lamp** and **oil slacks** are in inventory for
+  contest/elemental use; **Necrotelicomnicon** is the normal off-hand.
+- 🔓 **Standing run assets:** **Liver of Steel** ⇒ **booze cap 19**; **Queue Du Coq cocktailcrafting kit**
+  installed; **Saucemaven** and **Pastamastery** learned; the **Vampieroghi thrall** persists across days;
+  Daily-Dungeon tools owned (**eleven-foot pole 6302, ring of Detect Boring Doors 6303, pick-o-matic
+  lockpicks 280**) ⇒ a full 15-room run costs only ~7 adventures. Buffbot **Buffy (#1889009)** answers kmail
+  for Ghostly Shell, Astral Shell, Fat Leon's Phat Loot Lyric, Sonata of Sneakiness.
+- **Today: ~120 fights, 5 losses** (all five to the Tasmanian Dervish on empty MP — see above).
 
 ---
 
 ## 🔜 Next-session priorities
 
-> **START HERE ON DAY 129 — finish the peaks, collect the Misty Robe.**
-> Login → **Pastamastery (3006)**, EAT to 15 (sushi ×2 + jerky + a 1-fullness fruit; buy **Milk of Magnesium
-> (item 1650, ~100 meat)** and drink it FIRST for +1 adv/fullness), top MP off the juice.
-> (1) ⭐ **A-BOO PEAK (296) — only 14% left, ~7 ghosts.** **Equip the oil lamp** and just use
->     `fight.php?action=attack` (NOT pasta — the weapon swing carries the lamp's hot damage; ghosts are
->     100% physically resistant *and* spooky-immune). 2 rounds per ghost, 0 MP, no damage taken.
->     **Spend any A-Boo clues first** — *The Horror…* is −15% for ~2 adventures vs −2% for a ghost.
-> (2) 🏆 **Third fire lit → `place.php?whichplace=highlands&action=highlands_dude`** for the
->     **Misty Robe** + access to **The Valley of Rof L'm Fao**.
-> (3) Then the last old council item: **the castle kitchen counter** (L10, *The Rain on the Plains is Mainly
->     Garbage*) — "get to it from above", i.e. via the Giant's castle **Top Floor (snarf 324)**.
-> (4) With ~61 banked adventures plus the day's own, there should be room to push into Rof L'm Fao.
-> **DRINK LAST — fill to 19, take ONE overdrink, then STOP. Do not adventure afterwards.**
-> Fog Murderer (6682) is **limit 1/day per mall store**: buy one each from ~4 stores (~250–450 meat),
-> drink 3 + 1 Imp Ale (470) to land on 19, then overdrink the 4th. That yielded **+61 adv** tonight.
+> **START HERE ON DAY 130 — the tower door needs 3 more keys, and 2 of them are day-gated.**
+> Login → **Pastamastery (3006)**, EAT to 15 (Milk of Magnesium **item 1650** first, then sushi ×2 + jerky +
+> a 1-fullness fruit), and ⚠️ **BUY MP RESTORATIVES BEFORE ANYTHING ELSE** (Mountain Stream soda 357 /
+> magical mystery juice 518, ~10–25 of them, buying 1-per-store across ~10 stores).
+> (1) 🔑 **DAILY DUNGEON FIRST — it is the critical path.** `adventure.php?snarfblat=325`, ~7 adventures with
+>     the tools. Then `shop.php?whichshop=damachine&action=buyitem&whichrow=94&quantity=1&pwd=` for
+>     **Jarlsberg's key** (row 95 = Sneaky Pete's, the day after). **One token per day — never skip this.**
+> (2) 🎮 **8-Bit Realm to 10,000** (~38 fights). Equip the **continuum transfunctioner**, then before each
+>     fight read the Score colour off `charpane.php` and adventure the matching zone:
+>     **black→565 · blue→566 · green→564 · red→563**. Weapon-attack rounds 1–2. At ≥10k open the
+>     **Treasure House** (`place.php?whichplace=8bit&action=8treasure` → **choice 1493 option 1**) for the
+>     **digital key**.
+> (3) With Jarlsberg's + digital in hand that's 5 of 6; **Sneaky Pete's needs one more Daily Dungeon day.**
+>     Then **`ns_02_coronation`** and onward — read `mechanics/naughty-sorceress-tower.md` before the door.
+> (4) Spare turns → *A Quest, LOL* (Baron Rof L'm Fao) or levelling.
+> **DRINK LAST — fill to 19, ONE overdrink, then STOP.** Fog Murderer (6682) is limit 1/day per store: buy one
+> each from ~4 stores, drink 3 + 1 Imp Ale (470) to land on 19, overdrink the 4th. That banked **+62 adv**.
 
 ---
 
 ## 🗓️ Session log (this run)
+
+- **Day 129 (2026-08-22): 🏆 ALL COUNCIL QUESTS DONE · the final quest begins · 3 of 6 tower keys.**
+  Seven ghosts finished **A-boo Peak** (oil lamp, weapon attacks) ⇒ third fire lit ⇒ **Misty Robe** from the
+  Highland Lord. Then the Giant Trash quest: ⚠️ **wasted ~24 turns** grinding the castle Ground Floor for an
+  unlock noncombat that had already fired — the map alt-text's missing `(1)` is **not** a lock (now in
+  `HANDOFF.md`). A **310-meat Mohawk wig** then skipped the Top Floor's 35-turn grind in one noncombat.
+  The Council responded with **"The Ultimate Final Epic Conflict of the Ages."**
+  Tower step 1: registered all three contests **swapping gear between each registration** (oil slacks for
+  Fastest, oil lamp for Hottest, moxie weed for Smoothest), then **30W/0L** through the crowds ⇒
+  **World's Best Adventurer sash**. ⚠️ Lost to **The Tasmanian Dervish 3×** purely on empty MP and a
+  forgotten quest hat; fixed both and won in **2 rounds**. Keys: crafted the **skeleton key**, ran the
+  **Daily Dungeon** (7 adv with tools) for **Boris's key**, and forged **Richard's star key** from 16 turns
+  in the Hole in the Sky. Pushed the **8-Bit score 1,100 → 4,800** at a measured **~137 pts/fight**.
 
 - **Day 128 (2026-08-21): 🔥 Twin Peak lit · 👻 A-boo 98% → 14% · the oil kit changes everything.**
   Started with only 40 adventures (the 60 I drowned on Day 127 never came back). Discovered that

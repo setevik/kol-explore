@@ -355,6 +355,34 @@ nothing consumed. If an item's wiki page has a **"When Used — Using N:"** list
 regression (it also cost ~40 max MP when oil slacks replaced bullet-proof corduroys). **Read the
 `Item unequipped: …` line in the response** and decide deliberately.
 
+## 🚨 Don't infer "locked" from a map's alt-text — try the zone
+
+`place.php` map images carry alt-text like `The Smut Orc Logging Camp (1)` / `Oil Peak with Flame (1)`. The
+trailing **`(N)` is NOT an unlock flag**, and its *absence* does not mean the zone is closed. A castle top
+floor rendered as plain `Castle in the Clouds (Top Floor)` — no `(1)` — while being fully adventureable, and
+believing the punctuation cost **~24 turns** grinding the floor below for an unlock noncombat that had already
+fired days earlier.
+
+✅ **Alt-text IS reliable for *completion* state** when the label itself changes (`Twin Peak` →
+`Twin Peak with Flame`) — that's a different string, not a suffix.
+✅ **To test whether a zone is open, adventure into it** — but do it inside a wrapper that **handles a fight**,
+because an open zone answers with a monster and abandoning it leaves a stuck fight (see the
+"never run an unlocked-yet test on a page that might be a fight" rule above). Budget the one turn; it is far
+cheaper than grinding a phantom gate.
+
+⚠️ **Corollary for "N turns until X" wiki notes:** counters like *"occurs on the 11th adventure in this zone"*
+count **cumulative turns for the character**, not turns this session. If you have ever adventured there before,
+the noncombat may already be spent — check whether the thing it unlocks is open before farming for it.
+
+## ⚠️ Quest gear is a loan — swap back the moment the step is done
+
+Items bought or equipped for a single gated step (a **Mohawk wig** for one Giant-castle noncombat, a tuning
+book for one boss) are usually **worse than your real gear in every other respect**. Leaving one on is
+invisible: no warning, no message, just a quietly lower max HP/MP or the wrong damage element. One such wig
+carried ~40 max HP out of a championship fight and turned a 2-round win into three losses.
+✅ **After any one-shot step, re-equip and then read `charsheet.php`'s Equipment block to confirm** — and
+before any boss/champion, verify max HP/MP match what you expect.
+
 ## HARD RULES (do every session)
 
 1. **Order is EAT → ADVENTURE → DRINK.** Both meters are mandatory — never wrap a day with an unused `full` (0/15)
