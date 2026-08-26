@@ -137,8 +137,25 @@ Two ways to obtain it:
 - **Coronation** (`ns_02_coronation`) — cutscene, **choice 1020 → 1021 → 1022**, all option 1. Free.
 - **Hedge Maze** (`ns_03_hedgemaze`) — **choice 1005 "Do what Frank says" (opt 1)**; following Frank chains cleanly through
   **choices 1005→1013 with NO fights** (~9 turns). (Opposing Frank = faster but topiary-golem combats.)
+  ✅ **Re-verified: exactly 9 turns, 0 fights.** Each turn re-fetches the same `ns_03_hedgemaze` action and answers one
+  choice; the labels vary (*"Keep left like Frank says"*, *"Hug the left wall"*, *"Go left"*, …) so **match on
+  `/frank|left/i`, not on one fixed string**. It ends at choice **1013 "Escape the maze!"**, after which the action
+  disappears from `place.php?whichplace=nstower` and the **door place** becomes the next step.
 - **The 6-lock Door** = its own place **`place.php?whichplace=nstower_door`** — actions **ns_lock1..ns_lock6** (fetch each;
-  each consumes the matching hero/other key) then **ns_doorknob** to open. Free (no adv). Need all 6 keys present.
+  each consumes the matching hero/other key) then **ns_doorknob** to open. Free (no adv).
+  ✅ **You do NOT need all six keys at once — locks open INCREMENTALLY and permanently.** Fetch each `ns_lockN` as
+  soon as you own its key; the lock vanishes for good and the remaining ones wait. Since the hero keys are
+  day-gated, open the four non-hero locks the day you get them and let the last one sit. **Reading the door's
+  `alt=` list is the cheapest progress check** — an opened lock disappears from it, so a door showing only
+  `Doorknob` + `Sneaky Pete's Lock` is 5/6 done.
+  **Lock → key mapping** (verified): lock1 = Boris's · lock2 = Jarlsberg's · lock3 = Sneaky Pete's ·
+  lock4 = Richard's star key · lock5 = digital key · lock6 = skeleton key.
+
+### 🥧 Hero-key shortcut: the key lime pies (skips a Daily-Dungeon day, for meat)
+Frank's hint names the alternative: each hero key also comes from eating the matching **key lime pie**
+(**Sneaky Pete's key lime pie = item 515**; the plain **key lime = item 512**). ⚠️ **Costs ~6,000 meat in the mall
+and one fullness slot**, so it is only worth it when you are rich, have stomach room, and want to collapse the
+**3-day** hero-key wait. If you are going to run the Daily Dungeon that day anyway, the token is free — skip the pie.
 - **The 5 walls/guardians.** ⚠️ The action's LEVEL number increments as you climb
   (ns_05_monster1 → ns_06_monster2 → ns_07_monster3 → ns_09_monster5); read `place.php?whichplace=nstower` for the current action.
   - **Wall of Skin** (`ns_05_monster1`): 50 HP, 100% dmg-resist, can't stun, kill in <5 turns. ⚠️ NOT the wand.

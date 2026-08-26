@@ -30,59 +30,72 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 129 / 2026-08-22)
+## 📊 Character state (run #2 — end of Day 130 / 2026-08-23)
 
-- 🎉 **LEVEL 16 Pastamancer.** Base Mys **255**. HP 312, MP 423. **Meat ~5,992.**
-  **adv 63 banked** (filled to 19 + one overdrink, then STOPPED). full 15, drunk 25.
-- 🏆🏆 **EVERY COUNCIL QUEST IS DONE.** Lit the third fire (**A-boo Peak**, 7 ghosts), collected the
-  **Misty Robe**, then solved the Giant Trash quest. The Council has handed over the final quest:
-  **"The Ultimate Final Epic Conflict of the Ages"** — the Naughty Sorceress' Tower.
-- ✅ **TOWER STEP 1 COMPLETE.** All three contests won (**30W/0L** in the crowds, champions included) →
-  **World's Best Adventurer sash**. The tower link is now **`ns_02_coronation`**.
-- 🔑 **THREE OF SIX TOWER KEYS HELD:** **skeleton key** (×2 — one crafted, one dropped in the dungeon),
-  **Boris's key**, **Richard's star key**.
-  **Still needed:** *Jarlsberg's key* + *Sneaky Pete's key* (Daily Dungeon, **1 fat loot token per day ⇒ 2 more
-  days minimum — this is the hard critical path**) and the *digital key*.
-- 🎮 **8-Bit Realm score: 4,800 / 10,000** for the digital key. ~**38 more fights** at the measured
-  ~137 pts/fight. **Points persist across days.** The continuum transfunctioner is equipped (accessory).
-- 🗺️ **Also open (optional):** *A Quest, LOL* — Baron Rof L'm Fao's valley in the Big Mountains.
-- ⚠️ **SUPPLIES ARE DRY: 0 Mountain Stream soda, 0 magical mystery juice.** Running the MP ladder to empty is
-  what caused three losses to the Tasmanian Dervish today. **Buy a stack at day-open.**
-- **Gear note:** the **Mohawk wig** (Giant-castle shortcut) is OFF and the reinforced beaded headband is back
-  on — leaving the wig equipped cost ~40 max HP. The **oil lamp** and **oil slacks** are in inventory for
-  contest/elemental use; **Necrotelicomnicon** is the normal off-hand.
-- 🔓 **Standing run assets:** **Liver of Steel** ⇒ **booze cap 19**; **Queue Du Coq cocktailcrafting kit**
-  installed; **Saucemaven** and **Pastamastery** learned; the **Vampieroghi thrall** persists across days;
-  Daily-Dungeon tools owned (**eleven-foot pole 6302, ring of Detect Boring Doors 6303, pick-o-matic
-  lockpicks 280**) ⇒ a full 15-room run costs only ~7 adventures. Buffbot **Buffy (#1889009)** answers kmail
-  for Ghostly Shell, Astral Shell, Fat Leon's Phat Loot Lyric, Sonata of Sneakiness.
-- **Today: ~120 fights, 5 losses** (all five to the Tasmanian Dervish on empty MP — see above).
+- 🎉 **LEVEL 16 Pastamancer.** Base Mys **260**. HP 317, MP 430. **Meat ~2,534.**
+  **adv 64 banked** (filled to 19 + one overdrink, then STOPPED). full 15, drunk 25.
+- 🚪 **FIVE OF SIX TOWER LOCKS ARE OPEN.** Coronation done, **hedge maze escaped** (9 turns, 0 fights,
+  following Frank). The door at `place.php?whichplace=nstower_door` now shows only
+  **`Doorknob` + `Sneaky Pete's Lock`**.
+- 🔑 **The last key is Sneaky Pete's** — needs **one Daily Dungeon fat loot token** (row 95).
+  Alternative if ever rich: a **Sneaky Pete's key lime pie (item 515)**, ~6,000 meat + 1 fullness.
+- 🧰 **ENDGAME KIT IS ASSEMBLED** (this is the important part):
+  - **beehive** ×1 → instant-kills the **Wall of Skin**
+  - **electric boning knife** ×1 → instant-kills the **Wall of Bones** (nothing else works — single-target
+    spells make it fully heal)
+  - **scented massage oil** ×1 + **filthy poultice** ×8 → the **Shadow** (only healing hurts it) and NS form 2
+  - **31 Mountain Stream soda** (MP battery)
+- 🪄 **Wand of Nagamar: 2 of 4 letters** — hold **ruby W** and **heavy D**; missing *metallic A* and
+  *lowercase n*. The intended path is still: reach NS **form 3 → lose → Bear Verb Orgy** unlocks at
+  `adventure.php?snarfblat=58`.
+- 🗺️ **Also open (optional):** *A Quest, LOL* — Baron Rof L'm Fao's valley.
+- 🔓 **Standing run assets:** **Liver of Steel** ⇒ booze cap 19; **Queue Du Coq cocktailcrafting kit**;
+  **Saucemaven** + **Pastamastery**; **Vampieroghi thrall** persists; Daily-Dungeon tools owned
+  (**pole 6302, ring 6303, lockpicks 280**) ⇒ full run ≈ 7 adventures; **continuum transfunctioner** owned
+  (8-Bit access). Buffbot **Buffy (#1889009)** for Ghostly/Astral Shell, Fat Leon's, Sonata.
+- **Today: 86 fights, 0 losses.**
 
 ---
 
 ## 🔜 Next-session priorities
 
-> **START HERE ON DAY 130 — the tower door needs 3 more keys, and 2 of them are day-gated.**
-> Login → **Pastamastery (3006)**, EAT to 15 (Milk of Magnesium **item 1650** first, then sushi ×2 + jerky +
-> a 1-fullness fruit), and ⚠️ **BUY MP RESTORATIVES BEFORE ANYTHING ELSE** (Mountain Stream soda 357 /
-> magical mystery juice 518, ~10–25 of them, buying 1-per-store across ~10 stores).
-> (1) 🔑 **DAILY DUNGEON FIRST — it is the critical path.** `adventure.php?snarfblat=325`, ~7 adventures with
->     the tools. Then `shop.php?whichshop=damachine&action=buyitem&whichrow=94&quantity=1&pwd=` for
->     **Jarlsberg's key** (row 95 = Sneaky Pete's, the day after). **One token per day — never skip this.**
-> (2) 🎮 **8-Bit Realm to 10,000** (~38 fights). Equip the **continuum transfunctioner**, then before each
->     fight read the Score colour off `charpane.php` and adventure the matching zone:
->     **black→565 · blue→566 · green→564 · red→563**. Weapon-attack rounds 1–2. At ≥10k open the
->     **Treasure House** (`place.php?whichplace=8bit&action=8treasure` → **choice 1493 option 1**) for the
->     **digital key**.
-> (3) With Jarlsberg's + digital in hand that's 5 of 6; **Sneaky Pete's needs one more Daily Dungeon day.**
->     Then **`ns_02_coronation`** and onward — read `mechanics/naughty-sorceress-tower.md` before the door.
-> (4) Spare turns → *A Quest, LOL* (Baron Rof L'm Fao) or levelling.
-> **DRINK LAST — fill to 19, ONE overdrink, then STOP.** Fog Murderer (6682) is limit 1/day per store: buy one
-> each from ~4 stores, drink 3 + 1 Imp Ale (470) to land on 19, overdrink the 4th. That banked **+62 adv**.
+> **START HERE ON DAY 131 — open the door and start climbing.**
+> Login → **Pastamastery (3006)**, EAT to 15 (Milk of Magnesium **1650** first, then sushi ×2 + jerky +
+> a 1-fullness fruit). ⚠️ **CHECK THE SODA PRICE before restocking** — it spiked to ~248/ea and drained the
+> whole balance last time.
+> (1) 🔑 **DAILY DUNGEON FIRST** (`adventure.php?snarfblat=325`, ~7 adv) →
+>     `shop.php?whichshop=damachine&action=buyitem&whichrow=95&quantity=1&pwd=` = **Sneaky Pete's key** →
+>     `place.php?whichplace=nstower_door&action=ns_lock3` → then **`ns_doorknob`**. All free after the dungeon.
+> (2) 🧱 **Climb the walls** (read `mechanics/naughty-sorceress-tower.md` first — each has a hard gimmick):
+>     **Wall of Skin** `ns_05_monster1` → `fight.php?action=useitem&whichitem=7969` (beehive) = instant kill.
+>     **Wall of Meat** `ns_06_monster2` → 700 HP, must be re-killed ~5× until it has dropped **1,001 total
+>     meat**; full HP+MP between kills.
+>     **Wall of Bones** `ns_07_monster3` → `fight.php?action=useitem&whichitem=7970` (boning knife) = instant
+>     kill. **Never cast a single-target spell at it — it fully heals.**
+>     **Mirror** `ns_09_monster5` → choice 1015 **opt 1 "Gaze into the mirror"** (do NOT break it — breaking
+>     makes the NS immune to stuns), then the **Shadow**: immune to all damage, **only healing items hurt it**
+>     (~395 HP). Attack to provoke its hit, then heal — massage oil (2438) for big chunks, poultices (2369)
+>     for small.
+> (3) Then the **Naughty Sorceress** (`ns_10_sorcfight`). Expect to reach **form 3 and lose** (no wand yet) —
+>     that is the intended trigger for the Bear Verb Orgy wand search. Before form 2, buy a **big MP battery**
+>     and more poultices; enter at TRUE full max HP.
+> **DRINK LAST — fill to 19, ONE overdrink, then STOP.** Fog Murderer (6682), limit 1/day per store.
 
 ---
 
 ## 🗓️ Session log (this run)
+
+- **Day 130 (2026-08-23): 🚪 Five of six tower locks open; the endgame kit is assembled.**
+  Ran the **Daily Dungeon** (7 adv) for **Jarlsberg's key**, then took the **8-Bit Realm 4,800 → 10,000**
+  at a measured **~171 pts/fight** with the colour rotation and claimed the **digital key** from the first
+  Treasure House chest. Walked the tower as far as it goes without the last key: **coronation** (free) and
+  the **hedge maze in 9 turns with zero fights** by following Frank, then turned five keys in five locks —
+  ⚠️ **the locks open incrementally**, so there is no need to hold all six at once (now documented).
+  Spent the afternoon farming the **Giant castle Ground Floor at ~110 meat/turn** (86 fights, 0 losses) to
+  buy a **scented massage oil** and **8 filthy poultices**; the **beehive** and **electric boning knife**
+  that solve two of the four walls were already in the bag from earlier days.
+  💸 **Mistake: bulk-bought 20 sodas at a spiked ~248 each and went from 6,000 meat to 17** without checking
+  the price — the whole afternoon's farming was paying that back. Now a HANDOFF rule.
 
 - **Day 129 (2026-08-22): 🏆 ALL COUNCIL QUESTS DONE · the final quest begins · 3 of 6 tower keys.**
   Seven ghosts finished **A-boo Peak** (oil lamp, weapon attacks) ⇒ third fire lit ⇒ **Misty Robe** from the

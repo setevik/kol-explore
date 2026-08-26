@@ -383,6 +383,29 @@ carried ~40 max HP out of a championship fight and turned a 2-round win into thr
 ✅ **After any one-shot step, re-equip and then read `charsheet.php`'s Equipment block to confirm** — and
 before any boss/champion, verify max HP/MP match what you expect.
 
+## 💸 Check the unit price before bulk-buying a commodity
+
+Mall prices on common restoratives swing hard. A routine "buy 20 Mountain Stream sodas" ran at **~248 meat each
+instead of the usual ~50** and took a 6,000-meat balance down to **17** in one call, with no warning — `buyMany`
+happily spends whatever the cheapest listing costs.
+✅ **Scrape the first few `searchprice=` values and eyeball them before committing to a quantity**, and size the
+order against your balance:
+
+```js
+const rows=[...s.matchAll(/searchitem=357&searchprice=(\d+)/g)].map(m=>+m[1]).slice(0,3);  // sanity-check first
+```
+
+⚠️ Do this especially **before** a day whose plan needs meat for something else (endgame potions, a boss's
+consumables, the evening's booze). Restoratives are the easiest thing to over-buy because they always feel
+necessary.
+
+## ⭐ Endgame meat farm: the Giant castle Ground Floor
+
+At L16 with a working nuke, **`adventure.php?snarfblat=323`** yields a measured **~105–120 meat per turn**
+(80–180 per fight, 4 giant types, ~150 HP each, no elemental alignment) at **0 losses over 86 fights**. It also
+re-drops the **electric boning knife** (choice 1026 → "Investigate the noisy drawer") that the Wall of Bones
+needs. That makes it the default "I need several thousand meat before a boss" zone once the castle is open.
+
 ## HARD RULES (do every session)
 
 1. **Order is EAT → ADVENTURE → DRINK.** Both meters are mandatory — never wrap a day with an unused `full` (0/15)
