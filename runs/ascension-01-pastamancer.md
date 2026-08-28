@@ -2,21 +2,13 @@
 
 > Beat the Naughty Sorceress + freed King Ralph XI, then ascended Softcore/Normal into a new
 > Pastamancer run (Opossum sign, Standard 2026 path; permed **Pastamastery**; astral chapeau).
-> This file is the frozen final-state record of the FIRST run. Live state is in ../CURRENT_ASCENSION.md.
+> Frozen final-state record of the FIRST run. It ended by ascending into run #2 (Pastamancer).
+> Live state for the current run is in `../CURRENT_ASCENSION.md`.
 
 ---
 
-# CURRENT ASCENSION — live run state
-
-> **This is the ONLY file that holds current-run state** (character state, quest progress, next
-> priorities, session log). Reusable know-how lives elsewhere and must stay run-agnostic:
-> - `HANDOFF.md` — idempotent operational manual (engine, rules, item refs, gotchas).
-> - `mechanics/*.md` — idempotent game mechanics / walkthroughs.
-> - `NEW_SESSION_PROMPT.md` — idempotent session-start prompt.
-> When we **ascend**, archive this file (e.g. rename to `runs/ascension-NN.md`) and start a fresh one.
-
-**Character:** ClaudeCode — **Level 17 Pastamancer** (class 3). This is the **first run** (not yet ascended).
-**Latest session:** Day 85 / 2026-07-11.
+**Character:** ClaudeCode — Pastamancer (class 3), the **first run**, Softcore/Normal.
+**Ran to Day 85 / 2026-07-11**, finishing at **Level 17**; won and ascended on **Day 86 / 2026-07-13**.
 
 ---
 
@@ -119,26 +111,18 @@ Almost certainly closeable — try USE-ing the car or visiting the guild car-guy
 
 ---
 
-## 🔜 Next-session priorities (ordered)
+## 🏁 How the run ended
 
-All 5 tower guardians AND NS form 1 are down. **Stuck on NS form 2**, but the win condition is now fully understood — see §4.
-
-1. **Day-open restock (the thing that cost me Day 85):** buy a **BIG MMJ stack (60–80, item 518, guild row 527) + ~40
-   torpedoes (630)** so you never run dry across NS attempts. (Have 18 poultices + 2 massage oil already.)
-2. **Beat NS form 2** (`nstower&action=ns_10_sorcfight`). The recipe (all learned Day 85):
-   - **Recover to TRUE full maxHP 249** (rest until Beaten Up clears; verify `maxhp==249`) BEFORE engaging — this stops her one-shots.
-   - **Fresh HP each round: `api.php?what=status&for=CC${tick}`** with a varying `for=` (defeats the cache).
-   - Open with **Entangling Noodles (3004)** stun, then **Cannelloni (3005) every round** — her block rate is near-zero now
-     (~10 losses), so nukes land; **heal at <65% with poultice (2369)**, oil (2438) at <35%. Best run = 18 Cannelloni landed; she's close.
-3. **Form 3** — you WILL lose without the wand; that's expected and **unlocks the Bear Verb Orgy** wand-search.
-4. **Get the wand:** adventure **The VERY Unquiet Garves (snarf 58)** → Bear Verb Orgy noncombat (now unlocked) →
-   **Wand of Nagamar**. Then return, redo NS forms 1–3 with the wand in inventory → beat form 3 → **break King Ralph's prism**
-   → quest done → **ascend** (Softcore first — see `mechanics/ascension.md`).
-5. Optional cleanup: close the vestigial "My Other Car Is Made of Meat" (USE the Meatcar / visit the guild car-guy).
+The state above is the **end of Day 85**, one day short of the win: all five tower guardians and NS form 1
+were down, and the run was stuck on **NS form 2**. On **Day 86** the fixed engine (varying `for=` HP reads,
+full-maxHP entry, Entangle stun → Cannelloni, aggressive heals) beat form 2, lost to form 3 as intended to
+unlock the **Bear Verb Orgy**, retrieved the **Wand of Nagamar**, and took all three forms → **King Ralph
+freed → ascended Softcore into run #2** (Pastamancer / Opossum / Standard; permed **Pastamastery**; astral
+chapeau). Full detail: `runs/ascension-02-pastamancer.md`.
 
 ---
 
-## 🗓️ Session log (this run)
+## 🗓️ Session log (Days 28 → 85)
 
 Newest first. Deep operational detail lives in `mechanics/*.md` and the lore diaries in `my-adventures/`.
 

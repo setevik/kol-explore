@@ -4,39 +4,25 @@
 > **Softcore/Normal** into a **Seal Clubber** run (Platypus sign, **Unrestricted** path).
 > Spent **211 karma**: permed **Cannelloni Cocoon** (100) + **astral bludgeon** (10); **~102 karma banked**.
 > Ran Day 86 → Day 131 (46 days), finishing at **Level 17**, base Mys 267, ~8,954 meat.
-> This file is the frozen final-state record of the SECOND run. Live state is in ../CURRENT_ASCENSION.md.
+> Frozen final-state record of the SECOND run. It ended by ascending into run #3 (Seal Clubber).
+> Live state for the current run is in `../CURRENT_ASCENSION.md`.
 
 ---
 
-# CURRENT ASCENSION — live run state
+## How this run began — the ascension that created it (2026-07-13)
 
-> **This is the ONLY file that holds current-run state** (character state, quest progress, next
-> priorities, session log). Reusable know-how lives elsewhere and must stay run-agnostic:
-> - `HANDOFF.md` — idempotent operational manual (engine, rules, item refs, gotchas).
-> - `mechanics/*.md` — idempotent game mechanics / walkthroughs.
-> - `NEW_SESSION_PROMPT.md` — idempotent session-start prompt.
-> Prior completed runs are archived in `runs/` (e.g. `runs/ascension-01-pastamancer.md`).
+Run #1 was won and archived (`runs/ascension-01-pastamancer.md`); stepping through its astral gash created
+**this** run. The choices made in Valhalla that defined run #2:
 
-**Character:** ClaudeCode — **Ascension #2 (the SECOND run)**, a **Level 1 Pastamancer**, Softcore/Normal.
-**Started:** Day 86 / 2026-07-13 (immediately after winning + ascending run #1).
+- **Lifestyle: Normal (Softcore)** — Ronin for the first 1,000 turns (≤20 items OR 20,000 meat/day from
+  Hagnk's), earning karma on completion.
+- **Class: Pastamancer** (kept, for synergy with the permed Pastamastery).
+- **Moon Sign: The Opossum** (+Mysticality; unlocks Little Canadia).
+- **Path: Standard** (the 2026 yearly path; +50 bonus karma, but restricted to recent content).
+- **Permed: Pastamastery** — the only permed skill this run started with.
+- **Astral pet: astral chapeau.**
 
----
-
-## 🎉 We ASCENDED (2026-07-13)
-
-Run #1 is WON and archived (`runs/ascension-01-pastamancer.md`): beat the Naughty Sorceress (all 3 forms,
-via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral gash and reincarnated.
-
-**This new run's ascension choices (Softcore, per the plan in `mechanics/ascension.md`):**
-- **Lifestyle: Normal (Softcore)** — in **Ronin for the first 1,000 turns** (may pull ≤20 items OR 20,000 meat/day
-  from **Hagnk's** during Ronin; last run's whole inventory is sitting in Hagnk's). Earns **111 karma** on completion.
-- **Class: Pastamancer** (kept — synergy with permed Pastamastery).
-- **Moon Sign: The Opossum** (+10% Mysticality gains; unlocks Little Canadia). Good for a Mys caster.
-- **Path: Standard** (2026 yearly path; **+50 bonus karma**, reward angelbone chopsticks; note: pre-2024
-  limited-time content disallowed — irrelevant to our basic playstyle).
-- **Permed: Pastamastery** (now available every non-Hardcore run forever — daily dry-noodle food summon).
-- **Astral pet:** bought the **astral chapeau** (caster hat; equip it early).
-- Karma left over: ~1 (banks). Familiars stay in the terrarium; permed skills + account unlocks carry over.
+**Character:** ClaudeCode — Pastamancer, Softcore/Normal. **Ran Day 86 → Day 131 (46 days), Level 1 → 17.**
 
 ---
 
@@ -67,16 +53,20 @@ this**; they read their numbers from here.
   14** and must re-earn it via the Azazel quest (`mechanics/friars-blessings.md`).
   Detect at any drunkenness: `charsheet.php` contains "Liver of Steel" ⇒ 19, else 14.
 - **Fullness cap = 15.**
-- **✅ PERMED SKILLS (verified from `charsheet.php`, the `(P)` marker) — these survive ascension:**
-  - **Pastamastery (3006)** — the daily dry-noodles summon.
-  - **Subtle and Quick to Anger (3036)**.
-  ⇒ **A fresh run starts with these two and nothing else.** Everything below must be re-bought at the guild.
-- **Skills known this run but NOT permed (20)** — all re-bought each ascension:
+- **✅ PERMED SKILL (verified from `charsheet.php`, the `(P)` marker):**
+  **Pastamastery (3006)** — the daily dry-noodles summon. **This was the only one.**
+  ⚠️ *A note here originally also listed "Subtle and Quick to Anger (3036)". That was a **parser artifact** —
+  the skill-list regex let the LAST entry's capture swallow the legend text "(P) = Permanent skill". See
+  `mechanics/ascension.md` § "Counting (P) markers".*
+  ⇒ **A fresh run started from here begins with Pastamastery and nothing else.** Everything below was
+  re-bought at the guild.
+- **Skills known this run but NOT permed (21)** — all re-bought each ascension:
   Liver of Steel · Chronic Indigestion · Manicotti Meditation · Ravioli Shurikens · Entangling Noodles (3004) ·
   Cannelloni Cannon (3005) · Stuffed Mortar Shell (3007) · Weapon of the Pastalord (3008) ·
   Lasagna Bandages (3009) · **Cannelloni Cocoon (3012)** · Spirit of Ravioli · Springy Fusilli (3015) ·
   Flavour of Magic · Spaghetti Spear (3020) · Utensil Twist · Transcendent Al Dente ·
-  **Bind Vampieroghi (3027)** · Bringing Up the Rear · Shield of the Pastalord · Thrall Unit Tactics.
+  **Bind Vampieroghi (3027)** · Bringing Up the Rear · Shield of the Pastalord · Thrall Unit Tactics ·
+  Subtle and Quick to Anger (3036).
   ⚠️ **Liver of Steel appears in this list — it is NOT permed**, confirming the cap-19 caveat above.
 - **Karma: 1.** ⚠️ Perming costs **100 karma** per skill (200 for Hardcore-permanent), so **nothing new can be
   permed at the next ascension** unless karma is earned first. Plan the ascension accordingly — the two skills
@@ -95,26 +85,7 @@ time. Rule now in `HANDOFF.md`: **ask the quest log about quest items, never one
 
 ---
 
-## 🔜 Next-session priorities
-
-> ⚖️ **DECISION REQUIRED FIRST: ascend, or keep playing this character?**
-> The astral gash is open, so ascending is available at any time. **I did not ascend unilaterally** —
-> it wipes a Level 17 character back to Level 1 and is irreversible. The user should choose.
-> - **If ascending:** read `mechanics/ascension.md` first. Go **Softcore** (not Casual) so Hagnk's storage
->   carries this run's gear forward. Bank meat/items beforehand — they survive in storage. Then archive this
->   run to `runs/ascension-02-pastamancer.md` (mirroring `runs/ascension-01-pastamancer.md`), reset
->   `CURRENT_ASCENSION.md` to a fresh-run skeleton, and start the day-1 opening from `ascension.md`.
-> - **If NOT ascending:** the only content left is *A Quest, LOL* (**Baron Rof L'm Fao's valley**, Big
->   Mountains — fight through to the fortress gates). Beyond that it is free-play: level grinding, the
->   Sorceress's post-win drops, or filling out Hagnk's for a future run.
->
-> Either way the daily rhythm is unchanged: **Pastamastery + thrall, EAT to 15 (Milk of Magnesium 1650
-> first), check the soda price before restocking, spend adventures, DRINK to exactly 19 + ONE overdrink,
-> then STOP.**
-
----
-
-## 🗓️ Session log (this run)
+## 🗓️ Session log (Day 86 → Day 131)
 
 - **Day 131 (2026-08-24): 🏆🏆 THE RUN IS WON — Naughty Sorceress dead, King Ralph freed, astral gash open.**
   Daily Dungeon → **Sneaky Pete's key** → sixth lock → **doorknob**. Then the tower in one sitting:

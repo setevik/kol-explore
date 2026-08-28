@@ -48,8 +48,11 @@ Disco Bandit · Accordion Thief.
 - **Booze cap = 14** (default liver; Liver of Steel was lost on ascension and must be re-earned via the
   Azazel quest to reach 19). Verified in the charpane this run.
 - **Fullness cap = 15.**
-- **Permed skills that carried in: Pastamastery, Cannelloni Cocoon.** (*Subtle and Quick to Anger* was
-  permed but does not exist on this class — see `mechanics/ascension.md`.)
+- **Permed skills that carried in (both usable cross-class): Pastamastery, Cannelloni Cocoon.**
+  ✅ **Nothing was lost in the class change.** (An earlier note claimed *Subtle and Quick to Anger* had been
+  permed and failed to carry — that was a **parser artifact**: the skill-list regex let the last entry
+  swallow the `(P) = Permanent skill` legend, so whatever sat last always read as permed. Only Pastamastery
+  was ever permed; see `mechanics/ascension.md` § "Counting (P) markers".)
 - **Karma banked: ~102.**
 
 ### 🎒 Hagnk's / Ronin budget

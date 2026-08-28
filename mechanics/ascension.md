@@ -118,29 +118,61 @@ Two cheap fetches answer "what will a day-1 character actually start with?" — 
 when deciding what to perm. **The answers are run state and belong in `CURRENT_ASCENSION.md`, not here.**
 
 - **Permed skills → `charsheet.php`.** Permanent skills are marked **`(P)`** in the skills list, with the legend
-  *"(P) = Permanent skill"* at the bottom. ⚠️ **Don't flatten the HTML to text to read this** — stripping tags puts
-  the `(P)` on its own line and it appears to belong to whichever skill happens to precede it. ✅ **Pair each
-  skill anchor with the text that follows it, before the next anchor:**
+  *"(P) = Permanent skill"* at the bottom. 🚨 **Two traps, and BOTH produce false positives:**
+  1. **Don't flatten the HTML to text** — stripping tags puts each `(P)` on its own line, where it appears to
+     belong to whichever skill precedes it.
+  2. **Cut the segment BEFORE the legend.** Pairing anchors with trailing text is right, but the *last* skill's
+     capture falls through to `$` and swallows the legend's own `(P)`, so **whatever sits last always reads as
+     permed.** (This invented a skill I had never permed and a whole bogus conclusion with it.)
+  ✅ **Correct form:**
   ```js
+  const start = cs.indexOf('Skills:'), legend = cs.indexOf('= Permanent skill');
+  const seg = cs.slice(start, legend);   // <-- ends BEFORE the legend; this is the fix
   const re = /skill\.php\?whichskill=(\d+)[^>]*>([^<]+)<\/a>([\s\S]{0,120}?)(?=<a[^>]*skill\.php|$)/g;
   // permed  ⇔  /\(P\)/.test(match[3])
   ```
+  ✅ **Then cross-check:** `(seg.match(/\(P\)/g)||[]).length` should equal the number you parsed. Disagreement
+  means the parse is wrong — trust the raw marker count.
 - **Karma balance → `questlog.php?which=3`** ("other accomplishments"): *"Your current Karmic balance is N."*
   At **<100 you cannot perm anything**, so check this *before* building an ascension plan around a new perm.
 - 🎯 **A skill appearing in the list is NOT the same as it being permed.** In particular **Liver of Steel shows in
   the skills list every run you earn it and is never `(P)`** — it cannot be permed, which is why the booze cap
   returns to 14 on ascension (see `drinking-strategy.md`).
 
-## ⚠️ Permed skills mostly carry across a class change — but not all of them
+## ✅ Permed skills DO carry across a class change
 
-Verified by ascending from Pastamancer into **Seal Clubber**:
-- ✅ **Cannelloni Cocoon** (permed that ascension) and ✅ **Pastamastery** both appear on the new
-  character's `charsheet.php`, marked `(P)` — **so a permed class skill is usable by a different class.**
-  That makes cross-class-useful skills (heals, initiative, utility) the best perm targets.
-- ❌ **"Subtle and Quick to Anger", also permed, did NOT appear** — absent from both `charsheet.php` and
-  `skillz.php`. Cause not established.
-⇒ 🎯 **Verify your permed skills on the new character immediately after reincarnating**, and don't plan a
-run around a perm until you've confirmed it actually shows up.
+Verified by ascending from Pastamancer into **Seal Clubber**: both permed skills — **Pastamastery** and
+**Cannelloni Cocoon** — appear on the new character's `charsheet.php` marked `(P)` and are usable.
+⇒ **Cross-class-useful skills (heals, initiative, utility) are the best perm targets**, because a permed
+class skill keeps working no matter what you reincarnate as.
+
+⚠️ **But a permed skill can still be unusable for a long time.** Cannelloni Cocoon costs **20 MP**, and a
+Muscle class has **max MP 4 at Level 3** — it carried over perfectly and simply cannot be cast yet. Weigh a
+perm against the *resource* the next class will actually have, not just its usefulness.
+
+### 🐛 Counting `(P)` markers: the last-skill false positive
+
+A regex that pairs each skill anchor with the text following it **must not let the last skill's capture run
+into the legend.** `charsheet.php` ends the list with:
+
+```html
+…>Cannelloni Cocoon</a> (P)<br></td></tr><tr><td height=1></td></tr><tr><td>(P) = Permanent skill
+```
+
+The legend's own `(P)` sits ~60 characters after the final anchor. With a lookahead of
+`(?=<a[^>]*skill\.php|$)` the last entry's group falls through to `$`, swallows the legend, and **every
+character reports its last skill as permed** — which produced a phantom "permed" skill and a bogus
+"not all perms carry across classes" conclusion.
+
+✅ **Fix: slice the segment to END BEFORE the legend**, then match inside it:
+```js
+const start = cs.indexOf('Skills:'), legend = cs.indexOf('= Permanent skill');
+const seg = cs.slice(start, legend);          // <- strictly before the legend
+const re = /skill\.php\?whichskill=(\d+)[^>]*>([^<]+)<\/a>([\s\S]{0,120}?)(?=<a[^>]*skill\.php|$)/g;
+```
+✅ **Cheap cross-check:** count `(P)` occurrences in that segment — it should equal the number of permed
+skills (the legend contributes one more if your slice includes it). If your parsed count and the raw marker
+count disagree, trust the raw count.
 
 ## Perming skills (Jermery's Permery)
 - ~390 skills can be permed total. **Softcore perm** = available in Normal/Casual runs; **Hardcore perm** = also available
