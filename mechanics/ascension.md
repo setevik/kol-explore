@@ -75,6 +75,25 @@ On ascending, your inventory + closet are dumped into **Hagnk's Ancestral Mini-S
   pack; one Hardcore run (211) ≈ one HC perm + pet + pack. **Roughly ONE perm's worth of karma per ascension** — but since
   karma banks, you can also skip perming for a run and save toward a bigger purchase.
 
+## 🔎 Reading what you ALREADY have (do this before planning a karma spend)
+
+Two cheap fetches answer "what will a day-1 character actually start with?" — the only question that matters
+when deciding what to perm. **The answers are run state and belong in `CURRENT_ASCENSION.md`, not here.**
+
+- **Permed skills → `charsheet.php`.** Permanent skills are marked **`(P)`** in the skills list, with the legend
+  *"(P) = Permanent skill"* at the bottom. ⚠️ **Don't flatten the HTML to text to read this** — stripping tags puts
+  the `(P)` on its own line and it appears to belong to whichever skill happens to precede it. ✅ **Pair each
+  skill anchor with the text that follows it, before the next anchor:**
+  ```js
+  const re = /skill\.php\?whichskill=(\d+)[^>]*>([^<]+)<\/a>([\s\S]{0,120}?)(?=<a[^>]*skill\.php|$)/g;
+  // permed  ⇔  /\(P\)/.test(match[3])
+  ```
+- **Karma balance → `questlog.php?which=3`** ("other accomplishments"): *"Your current Karmic balance is N."*
+  At **<100 you cannot perm anything**, so check this *before* building an ascension plan around a new perm.
+- 🎯 **A skill appearing in the list is NOT the same as it being permed.** In particular **Liver of Steel shows in
+  the skills list every run you earn it and is never `(P)`** — it cannot be permed, which is why the booze cap
+  returns to 14 on ascension (see `drinking-strategy.md`).
+
 ## Perming skills (Jermery's Permery)
 - ~390 skills can be permed total. **Softcore perm** = available in Normal/Casual runs; **Hardcore perm** = also available
   in Hardcore (costs the extra 100). A few skills come **auto-Hardcore-Permanent** when learned (no karma needed).

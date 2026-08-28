@@ -57,13 +57,20 @@ this**; they read their numbers from here.
   14** and must re-earn it via the Azazel quest (`mechanics/friars-blessings.md`).
   Detect at any drunkenness: `charsheet.php` contains "Liver of Steel" ⇒ 19, else 14.
 - **Fullness cap = 15.**
-- **Guild skills learned this run** (all **re-bought each ascension unless permed** — a fresh character has
-  none of them): Pastamastery (3006) · Saucemaven · Transcendental Noodlecraft · Entangling Noodles (3004) ·
+- **✅ PERMED SKILLS (verified from `charsheet.php`, the `(P)` marker) — these survive ascension:**
+  - **Pastamastery (3006)** — the daily dry-noodles summon.
+  - **Subtle and Quick to Anger (3036)**.
+  ⇒ **A fresh run starts with these two and nothing else.** Everything below must be re-bought at the guild.
+- **Skills known this run but NOT permed (20)** — all re-bought each ascension:
+  Liver of Steel · Chronic Indigestion · Manicotti Meditation · Ravioli Shurikens · Entangling Noodles (3004) ·
   Cannelloni Cannon (3005) · Stuffed Mortar Shell (3007) · Weapon of the Pastalord (3008) ·
-  Lasagna Bandages (3009) · **Cannelloni Cocoon (3012)** · Springy Fusilli (3015) · Spaghetti Spear (3020) ·
-  **Bind Vampieroghi (3027)**.
-- **Permed skills carried in: none recorded.** ⚠️ At the next ascension, spend karma deliberately and
-  **record what was permed here** — it is the only thing that changes what a day-1 character can do.
+  Lasagna Bandages (3009) · **Cannelloni Cocoon (3012)** · Spirit of Ravioli · Springy Fusilli (3015) ·
+  Flavour of Magic · Spaghetti Spear (3020) · Utensil Twist · Transcendent Al Dente ·
+  **Bind Vampieroghi (3027)** · Bringing Up the Rear · Shield of the Pastalord · Thrall Unit Tactics.
+  ⚠️ **Liver of Steel appears in this list — it is NOT permed**, confirming the cap-19 caveat above.
+- **Karma: 1.** ⚠️ Perming costs **100 karma** per skill (200 for Hardcore-permanent), so **nothing new can be
+  permed at the next ascension** unless karma is earned first. Plan the ascension accordingly — the two skills
+  above are what a day-1 character will actually have.
 - **Other standing assets:** Queue Du Coq cocktailcrafting kit installed · Daily-Dungeon tools owned
   (eleven-foot pole 6302, ring of Detect Boring Doors 6303, pick-o-matic lockpicks 280) · continuum
   transfunctioner (8-Bit access) · buffbot **Buffy (#1889009)** answers kmail for Ghostly Shell, Astral Shell,
