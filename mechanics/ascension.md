@@ -4,6 +4,43 @@
 > wiki.kingdomofloathing.com). **Verify exact numbers in-game when actually ascending** — some figures below are from
 > summaries and KoL tweaks them over time.
 
+## ✅ Verified endpoints (re-verified on a later ascension — drive it all by POST)
+
+No screenshots needed; every step is a plain form POST. **Read each form's own hidden `action` value rather
+than guessing it** — the Bureau's is `ascend`, *not* `reincarnate`, and a wrong action silently returns you to
+"Beyond the Pale" with nothing committed (harmless, but confusing).
+
+| Step | Request |
+|---|---|
+| Step through the gash | POST `ascend.php` — `action=ascend`, `pwd`, `confirm=on`, `confirm2=on` |
+| Collect karma | GET `afterlife.php?action=pearlygates` (once; re-visiting says *"Taking more than your share of Karma is bad Karma"*) |
+| Perm a skill | POST `afterlife.php` — `action=scperm` (100 karma) or `action=hcperm` (200), `whichskill=<id>` |
+| Buy an astral pet | POST `afterlife.php` — `action=buyarmory`, `whichitem=<id>` (10 karma) |
+| Reincarnate (preview) | POST `afterlife.php` — `action=ascend` + `asctype`/`whichclass`/`gender`/`whichsign`/`whichpath` → returns a **read-back confirmation page** |
+| Reincarnate (commit) | repeat the same POST **plus `confirmascend=1`** (and `lamepathok=1`) |
+
+**Field values:** `asctype` 1 Casual / **2 Normal** / 3 Hardcore · `whichclass` **1 Seal Clubber · 2 Turtle
+Tamer · 3 Pastamancer · 4 Sauceror · 5 Disco Bandit · 6 Accordion Thief** · `whichsign` 1–10 (**4 Platypus
+= +Muscle, 5 Opossum = +Mysticality, 6 Marmot = +Moxie**; 7/8/9 Wombat/Blender/Packrat open the Gnomish
+Gnomad Camp) · `whichpath` **22 = Standard (the default!)**, **0 = Unrestricted**, plus ~53 challenge paths.
+
+⚠️ **`whichpath` defaults to Standard (22), which restricts you to recent content.** If your notes rely on
+older items/zones, explicitly send **`whichpath=0` (Unrestricted)** — otherwise much of `mechanics/` silently
+stops applying. Pair each radio with the label that follows it; don't trust list order alone.
+
+✅ **Always read the confirmation page before committing.** It reads your choices back in plain English
+("*You are about to step into a Normal incarnation, and be born under the The Platypus Moon Sign as a Seal
+Clubber… You have marked the following skills permanent: …*"), which is the cheapest possible check on an
+irreversible action.
+
+🐛 **Karma balance is NOT in the page text** — `/(\d+)\s*Karma/` matches the **button labels**
+("Make Permanent (100 Karma)", "Purchase (10 Karma)"), not your balance. ✅ **Read it from the Astral Spirit's
+`charpane.php`, where it occupies the slot meat normally uses** (a bare number under the stats).
+
+💰 **Karma earned can exceed the documented base.** A Normal win paid **211**, not the 111 the table below
+implies — enough for **two softcore perms, or one perm + an astral pet with ~100 left over.**
+**Karma banks across ascensions**, so an unspent remainder is never wasted.
+
 ## ✅ Verified in-game flow (first ascension)
 1. **Free King Ralph** (break the prism, `nstower&action=ns_11_prism`) → the **Astral Gash** appears (`ascend.php`).
 2. **Step through the gash:** `ascend.php` form — check both `confirm`+`confirm2` boxes, submit "Ascend" → you're in
@@ -93,6 +130,17 @@ when deciding what to perm. **The answers are run state and belong in `CURRENT_A
 - 🎯 **A skill appearing in the list is NOT the same as it being permed.** In particular **Liver of Steel shows in
   the skills list every run you earn it and is never `(P)`** — it cannot be permed, which is why the booze cap
   returns to 14 on ascension (see `drinking-strategy.md`).
+
+## ⚠️ Permed skills mostly carry across a class change — but not all of them
+
+Verified by ascending from Pastamancer into **Seal Clubber**:
+- ✅ **Cannelloni Cocoon** (permed that ascension) and ✅ **Pastamastery** both appear on the new
+  character's `charsheet.php`, marked `(P)` — **so a permed class skill is usable by a different class.**
+  That makes cross-class-useful skills (heals, initiative, utility) the best perm targets.
+- ❌ **"Subtle and Quick to Anger", also permed, did NOT appear** — absent from both `charsheet.php` and
+  `skillz.php`. Cause not established.
+⇒ 🎯 **Verify your permed skills on the new character immediately after reincarnating**, and don't plan a
+run around a perm until you've confirmed it actually shows up.
 
 ## Perming skills (Jermery's Permery)
 - ~390 skills can be permed total. **Softcore perm** = available in Normal/Casual runs; **Hardcore perm** = also available
