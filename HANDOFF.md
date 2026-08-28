@@ -78,7 +78,7 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
   **17 Mountain Stream sodas (357, 37 MP each)** sat unused in the bag. Keep one shared restore helper
   (`357 → 518 → 592`) rather than re-typing the ladder per loop.
 - 🚨 **NEVER RUN A "IS THIS UNLOCKED / DONE YET?" TEST ON A PAGE THAT MIGHT BE A FIGHT.**
-  `!/not yet clickable/.test(place.php)` reported the Red Zeppelin **open** while we were actually standing
+  `!/not yet clickable/.test(place.php)` reported the Red Zeppelin **open** while the character was actually standing
   in a leftover combat — a fight page simply doesn't contain the gating phrase, so *every* "absence of bad
   text" check silently passes. This is the same family as the win-string and Boss-Bat bugs. ✅ **Rule:
   `if (inFight(html)) return UNKNOWN;` before interpreting any page, and prefer testing for the
@@ -292,23 +292,34 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
   **(b) SPEND YOUR ONE OVERDRINK.** You may cross the cap **exactly once** (once over, you *cannot drink again*),
   and booze adventures **bank overnight** — so after reaching 14, **drink one more, choosing your highest-adventure
   bottle**. Never do this before adventuring; it is a day-end move only.
-- **DRINK (day end, after all adv spent):** **Fog Murderer (item 6682) = +6 drunkenness / ~14 adv each.** Best no-skill
-  booze. **Drink EXACTLY 2 → drunk 12** (a 3rd overshoots 18 — advs still bank, but stop at 2). Buy from the Hidden Tavern:
-  `shop.php?whichshop=hiddentavern&action=buyitem&whichrow=175`; drink `inv_booze.php?which=1&whichitem=6682&pwd=`.
+- **DRINK (day end, after all adv spent):** **Fog Murderer (item 6682) = 6 drunkenness / 14–16 adv each** — the best
+  no-skill bottle. ⚠️ **Do NOT "drink exactly 2".** That was a 14-cap-era note and is wrong once Liver of Steel is
+  active: **read your cap and fill to it, then take ONE overdrink** (HARD RULE 1 / `drinking-strategy.md`).
+  At a 19 cap the standard rack is **3 × Fog Murderer (→18) + 1 × Imp Ale (470, →19) + 1 Fog Murderer overdrink**,
+  which banks **~62 adventures**.
+  **Buying:** the mall lists it at ~250–450 meat but usually **`(Limit 1 / day)` per store**, so buy **one from each
+  of ~4–5 cheapest stores**. If the **Hidden Tavern** is unlocked this run it sells them without that limit:
+  `shop.php?whichshop=hiddentavern&action=buyitem&whichrow=175`. Drink with
+  `inv_booze.php?which=1&whichitem=6682&pwd=` (**not** `inv_use.php` — see `drinking-strategy.md`).
   (There is NO booze upgrade beyond this — Advanced Cocktailcrafting is Disco-Bandit-only; Pastamancer can't learn it.)
-- ✅ **MP restore, corrected: magical mystery juice (518) restores ~25 MP for 100 meat
-  (≈4 meat/MP) and is still stocked at the guild store, `shop.php?whichshop=guildstore2` row 527.**
-  That is ~3× better value than Mountain Stream soda (~440 meat / 37 MP) and it buys straight to
-  inventory. Older notes calling MMJ "~10–12 MP" or "gone" are wrong. Buy 25–35 at day-start.
-- ⭐ **PROVEN DAY-END BOOZE RACK (lands EXACTLY on a 19 cap and banks ~74 adv):**
+- ✅ **MP restore — the two that matter.** ⚠️ Older notes in this file disagreed about these; this is the
+  reconciled version. **Both exist; neither is "gone".**
+  | Item | MP | Where | Note |
+  |---|---|---|---|
+  | **magical mystery juice (518)** | ~25–28 | **guild store** `shop.php?whichshop=guildstore2` **row 527**, ~100 meat | Cheapest by far *when the guild sells it*. **Frequently absent from the MALL entirely** — a mall search can return zero listings while the guild still stocks it. Buy the day's supply here first. |
+  | **Mountain Stream soda (357)** | ~37 | mall, tradeable | The fallback. **Price is volatile — observed anywhere from ~50 to ~294 each.** Always price-check before bulk-buying (see the commodity rule below). |
+  | **tiny house (592)** | ~23 | drops / mall | Free when it drops, and **also clears Beaten Up**. |
+- ⭐ **ALTERNATIVE 19-cap rack (higher yield, but only if these are in stock — banks ~74 adv):**
+  ⚠️ Availability is the catch: recent sessions could not source Meade/corpse-on-the-beach and used the Fog
+  Murderer rack above instead. Price-check both and take whichever is actually buyable.
   **Ye Olde Meade (6276) = 5 drunkenness / ~15 adventures**, ~639 meat in the mall — the best filler found
   so far (3 adv per drunkenness). **3 × Meade (15) + 2 × bottle of popskull (1774, 2 each) = exactly 19.**
   Then spend the single overdrink on **corpse on the beach (3025) = 6 drunkenness / ~21 adventures**.
   ⚠️ Mall stores often hold only **1** of a bottle at the listed price — **iterate the cheapest few stores**
   rather than asking one store for qty 3 and assuming it worked (verify with `api.php?what=inventory`).
-- **MP restore:** **tiny house (592)** = free ~23 MP, no meat/adv cost, `inv_use.php?which=3&whichitem=592&pwd=` —
-  the default battery, also clears **Beaten Up**. **Mountain Stream soda (357)** = ~37 MP, tradeable (~440 meat),
-  `inv_use.php?which=3&whichitem=357&pwd=` — buy a stack for quest days. (magical mystery juice / Doc Galaktik are gone/gnome-only.)
+- **MP restore URLs:** all three use `inv_use.php?which=3&whichitem=<id>&pwd=` (592 tiny house · 357 soda ·
+  518 magical mystery juice). Run them through one shared `topMP` ladder that checks **all** of them — see the
+  restorative-ladder rule above.
 - **HP:** **scroll of drastic healing (595)** = full HP (does NOT clear Beaten Up); **Lasagna Bandages (3009)** heals
   ~16 HP/cast out of combat. Campground rest (`campground.php?action=rest`) clears Beaten Up (~+10 MP/adv — poor MP source).
 - **Combat item:** **photoprotoneutron torpedo (630)** — MP-free reliable damage; boss insurance & stuck-fight finisher.
@@ -534,5 +545,6 @@ which then leaves a live fight open while the script wanders off.
 4. **Daily Dungeon** run (hero-key token) + any once/day casts, EARLY.
 5. Spend the day's adventures on the current priorities (see `CURRENT_ASCENSION.md`); keep MP topped (tiny houses),
    heal to full between fights, refarm meat at the Airship (81) when the war chest runs low.
-6. When advs ≈ 0: verify not mid-fight → **DRINK 2 Fog Murderers** → drunk 12.
+6. When advs ≈ 0: verify not mid-fight → **read the cap, fill the liver to exactly it, then ONE overdrink —
+   and STOP adventuring** (HARD RULE 1). At a 19 cap: 3 × Fog Murderer + 1 × Imp Ale, then a 4th Fog Murderer.
 7. Write the lore diary → close the KoL tab → commit & push.

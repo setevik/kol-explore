@@ -107,7 +107,7 @@ high-HP boss that hits harder over time, see the boss note in `HANDOFF.md`.
    - Then **wear the frat outfit and farm the Hippy Camp (26)** - it turns hostile and the war hippies
      drop the **War Hippy Fatigues**: reinforced beaded headband (2337), bullet-proof corduroys (2032),
      round purple sunglasses (2033). Took ~29 wins; Fat Leon's helped the last piece.
-   - ⚠️ **The sunglasses are an ACCESSORY** - free a slot first (we had Mega Gem / talisman / etc.).
+   - ⚠️ **The sunglasses are an ACCESSORY** - free an accessory slot first.
 3. **Wear the full War Hippy Fatigues -> adventure the Orcish Frat House (27)** -> choice **146**
    -> **"Screw this, head to the roof"** -> **the war starts** and `bigisland.php` goes live.
 4. Battlefield = **snarf 140**; progress is the **"Image #N"** in the zone link (0 -> 32).

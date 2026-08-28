@@ -29,7 +29,7 @@ Rewards at the end: massive stat gains (+100 in each substat + 1 point to each p
 > choice 921 and requires the diary** ("prop up your father's diary so you can see the sheet music"). 40 turns in
 > the ballroom without it produced nothing. The diary comes from the later Lord Spookyraven/manor3 chain, so
 > **don't burn turns farming the ballroom for the cellar until you have it.**
-> Also note the **Ballroom is ML 65** (Recom Stat 40) — punishing at Level 7; we went 14W/24L.
+> Also note the **Ballroom is ML 65** (Recom Stat 40) — punishing at Level 7 — a run at that level went 14W/24L.
 
 ### Prereq: Defeat the Billiards Ghost
 You need the **Spookyraven library key** (from beating the Billiards Room pool-shark ghost). See `pool-skill.md`.

@@ -123,13 +123,22 @@ The craft page (`craft.php?mode=cocktail`) `<option>` list is also the fastest w
    The three tasks (for later): logic puzzle in the **Hey Deze Arena** → Azazel's unicorn; **Belilafs Comedy Club**
    → find Larry of the Field of Signs, equip observational glasses, talk to Mourn → Azazel's lollipop;
    5 cans of imp air + 5 bus passes → **Moaning Panda Square** → Azazel's tutu.
-3. **Fog Murderer (item 6682)** — potency 6, **Level 6**, **14–16 adventures (avg 15)**, 500 meat at
-   **The Hidden Tavern** (needs the L11 Hidden City). That's **2.5 adv/potency** vs 1.8 for basic cocktails, and it
-   is the ideal **overdrink** item. This is the endgame booze (see `HANDOFF.md`).
+3. **Fog Murderer (item 6682)** — potency 6, **Level 6**, **14–16 adventures (avg 15)** = **2.5 adv/potency**
+   vs 1.8 for basic cocktails. Both the best filler and the ideal **overdrink**. **Two sources:**
+   **The Hidden Tavern** (~500 meat, needs the L11 Hidden City) sells it without a daily cap; the **mall** lists it
+   at ~250–450 but almost always **`(Limit 1 / day)` per store**, so buy one each from the ~4–5 cheapest stores.
 4. Long-term: **Ode to Booze** (Accordion Thief) adds adventures per drink — not available to a Pastamancer.
 
-## Worked example — cap 19 (with Liver of Steel, verified in-game)
+## ⭐ Worked example — cap 19 (with Liver of Steel), the rack to actually use
 
-Fill 5→19: cider ×4 (+~5 adv each) + cooking sherry to land on 19 ≈ **22 adv**, then **one Monsieur Bubble
-overdrink ≈ +5 adv**. At cap 14 the same routine yields ~28; **the extra 5 cap ≈ +9 adv/day** — which is the whole
-point of not hard-coding 14. Mixing (below) roughly doubles per-bottle yield on top of this.
+**3 × Fog Murderer (→ drunk 18) + 1 × Imp Ale (470, →19) + 1 × Fog Murderer as the overdrink.**
+✅ Repeatedly measured at **~62 adventures for ~1,400–1,900 meat.** This is the default; everything below is
+fallback for when Fog Murderers aren't buyable.
+
+<details><summary>Older low-tier example (cheap bottles only — ~27 adv)</summary>
+
+Fill 5→19 with cider ×4 (+~5 adv each) + cooking sherry to land on 19 ≈ **22 adv**, then **one Monsieur Bubble
+overdrink ≈ +5 adv**. At cap 14 the same routine yields ~28 — **the extra 5 cap ≈ +9 adv/day**, which is the
+point of never hard-coding 14. Mixing (below) roughly doubles per-bottle yield.
+⚠️ Note this rack banks **less than half** what the Fog Murderer rack does; use it only early in a run.
+</details>

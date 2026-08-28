@@ -85,7 +85,7 @@ Dr. Awkward's "ineptitude field" means you cannot fight him yet; he clubs you do
 3. **Talking to Mr. Alarm is what UNLOCKS WHITEY'S GROVE (zone 100).** Before that, `snarfblat=100`
    just answers *"You shouldn't be here."* (verified — so don't go shopping for stew ingredients first).
 4. **wet stunt nut stew** = **bird rib + lion oil** (both from **Whitey's Grove**) + **stunt nuts**
-   (drop in the Palindome — we had 2 spare by accident).
+   (drops in the Palindome — spares accumulate on their own).
 5. Give the stew to Mr. Alarm → **Mega Gem**.
 
 - Final: place/use the 4 photographs + Mega Gem → **Dr. Awkward** boss → **Staff of Fats**.

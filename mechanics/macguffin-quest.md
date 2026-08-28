@@ -9,7 +9,7 @@ Council at L11 → "father missing; collect his diary." The real chain (quest lo
 2. **Vacation ≠ diary.** A Shore trip (adventure.php?snarfblat=**355** → choice **793**, 500 meat, 3 adv)
    just gives scrip + updates the quest log: **"find the Black Market, to get some forged ID."**
 3. **The Black Market is in the Black Forest (snarf 405, Distant Woods).**
-   🚨 **ML 123–133 (rec stat 110) — every fight is Groar-tier.** Unprepped we went **1W/10L**; with
+   🚨 **ML 123–133 (rec stat 110) — every fight is Groar-tier.** Unprepped, the record was **1W/10L**; with
    **Buffy shells + Springy Fusilli + Entangle→Mortar→Cannelloni** it's ~**4W/1L**. ⚠️ A later loop that
    dropped Entangle/Mortar (Cannelloni-only) went **0W/14L** — never strip the stun/mortar here.
    - **Progress:** each black-monster win = 2–3 progress. **Market unlocks at 50.** Milestones: 10 =
@@ -102,7 +102,7 @@ Killed the Apartment spirit in ~3 casts at base Mys 134. Needs a 1-handed weapon
   (McClusky file — 5 pages off **pygmy witch accountants**, Hidden Office Building 343) ·
   **Oh, Spare Me** (Hidden Bowling Alley 344).
 
-🚨 **LEVEL GATE (measured in-game): the pygmies are ML 142–150 with ~150 HP.** At base Mys 134 we went
+🚨 **LEVEL GATE (measured in-game): the pygmies are ML 142–150 with ~150 HP.** At base Mys 134 the record was
 **1W/5L** against them — the buildings are not grindable at that level. They hit for ~45.
 **Come back at base Mys 150+ / L13+**, or bring serious elemental resistance + deleveling.
 

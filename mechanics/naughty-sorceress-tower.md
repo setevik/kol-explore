@@ -91,14 +91,16 @@ Boris's key = **item 282, row 93** · Jarlsberg's = **item 283, row 94** · Snea
   marks which zone currently pays **DOUBLE** (+100/win vs +50). The color cycles **every 5 kills**: **black→Vanya's Castle
   565, blue→Megalo-City 566, green→Hero's Field 564, red→Fungus Plains 563.** (Bonus points from init/DA/item/meat need
   300–595% to matter — negligible for us, so it's just +100 in the matching zone, +50 off-color.)
-- ✅ **Measured rotation rate: ~137 pts/fight** over a 27-fight sample (1,100 → 4,800), i.e. **~10k from
-  scratch ≈ 75 fights**, better than the ~110/fight estimate below. Weapon-attack rounds 1–2, escalate to
-  Cannelloni only if the monster survives — MP cost is near zero.
-- **⭐ ROTATION TRICK (~110 pts/fight, ~1.7× a fixed zone):** before each fight, read the Score color
+- ✅ **Measured rotation rate: ~140–170 pts/fight** (samples: 2,400 over 14 fights, then 2,800 over 18).
+  ⇒ **10,000 from a standing start ≈ 60–75 fights.** (An older ~110/fight estimate is on the low side; the
+  ~63/fight figure below is for staying in ONE zone, which is the thing to avoid.) Weapon-attack rounds 1–2 and
+  escalate to Cannelloni only if the monster survives — **MP cost is near zero**, which makes this the right zone
+  to grind at the tail of a day when the MP battery is spent.
+- **⭐ ROTATION TRICK (the whole trick — ~1.7× a fixed zone):** before each fight, read the Score color
   and adventure the matching zone. Detecting the color: the color word (green/red/blue/black) sits right after "Score:" in
   the **fetched** `charpane.php` HTML (regex `/Score:[\s\S]{0,160}?(green|red|blue|black)/i`, default black); OR read the
   **computed** color off the live charpane frame (`getComputedStyle(span.nes).color` — green = rgb(0,128,0)). Staying in one
-  zone averages only ~63/fight; rotating ≈ **~110/fight** ⇒ 10k from a standing start ≈ **~90 fights**.
+  zone averages only ~63/fight — rotating is what buys the ~140–170/fight measured above.
 - **Combat is cheap:** these monsters are weak — **weapon-attack one-shots most** (round 1–2 attack, escalate to Cannelloni
   only if it survives) ⇒ near-zero MP over 50+ fights. Read the **Score number** from the charpane's second `span.nes`
   (`[...doc.querySelectorAll('span.nes')]` → the `/^[\d,]+$/` one) — a loose regex grabs "Level 14" etc. by mistake.
@@ -163,22 +165,25 @@ Frank's hint names the alternative: each hero key also comes from eating the mat
 (**Sneaky Pete's key lime pie = item 515**; the plain **key lime = item 512**). ⚠️ **Costs ~6,000 meat in the mall
 and one fullness slot**, so it is only worth it when you are rich, have stomach room, and want to collapse the
 **3-day** hero-key wait. If you are going to run the Daily Dungeon that day anyway, the token is free — skip the pie.
-- **The 5 walls/guardians.** ⚠️ The action's LEVEL number increments as you climb
-  (ns_05_monster1 → ns_06_monster2 → ns_07_monster3 → ns_09_monster5); read `place.php?whichplace=nstower` for the current action.
+- **The 5 tower levels.** ⚠️ The action's LEVEL number increments as you climb. ✅ **Verified full chain:**
+  `ns_05_monster1` (skin) → `ns_06_monster2` (meat) → `ns_07_monster3` (bones) → **`ns_08_monster4` (mirror)** →
+  `ns_09_monster5` (shadow) → `ns_10_sorcfight` (the NS) → `ns_11_prism` (free the King).
+  Don't hard-code these — **read `place.php?whichplace=nstower` for the action that's currently live**; only one is.
   - **Wall of Skin** (`ns_05_monster1`): 50 HP, 100% dmg-resist, can't stun, kill in <5 turns. ⚠️ NOT the wand.
     **✅ Use a beehive as a combat item = instant kill.** Beehive = item **7969**, from **The Black Forest (snarf 405)**:
     choice **923 opt 1** (blackberry patch) → **924 opt 3** (buzzing sound) → **1018 opt 1** (keep going) → **1019 opt 1**
     (beehive), ~3 turns. In the fight: `fight.php?action=useitem&whichitem=7969`. (Alternatives if no beehive: Glover
     familiar + weapon attack; multi-source damage familiars; passive-damage skills. Raising max HP does NOT help — %-based.)
   - **Wall of Meat** (`ns_06_monster2`): **700 HP**, hits ~15% max HP/round. Kill with Mortar→Cannelloni, but you must
-    **re-fight it ~5× until it drops 1,001 total meat** (base ~200/kill); the tower action stays put until then. Full HP+MP between kills.
+    **re-fight it until it has dropped 1,001 total meat** — ✅ measured **6 kills / 1,185 meat** (~197 each, 3–4 rounds
+    per kill) with no +meat bonus; budget 5–6 fights. The tower action stays put until the total is reached. Full HP+MP
+    between kills. (A high **+Meat%** bonus reduces the number of kills.)
   - **Wall of Bones** (`ns_07_monster3`): only **GROUP/AoE damage** works — single-target spells (Cannelloni) make it FULLY
     HEAL. **✅ electric boning knife (item 7970) = instant kill** (`fight.php?action=useitem&whichitem=7970`). Get it from the
     **Castle Ground Floor (snarf 323)** → "Home on the Free Range" **choice 1026 opt 2** ("investigate the noisy drawer"); the
     NC is boosted to 3 copies once tower level 3 is unlocked, so it drops in ~1 turn. (Stuffed Mortar Shell 3007 is also group
     damage but only once/fight.)
-  - **Mirror** (its own level, `ns_08_monster4` when the walls are 1–3): **choice 1015 opt 1 "Gaze into the
-    mirror"** — costs 1 adventure, grants **Confidence! (∞)**. ⚠️ **Do NOT "Break it"** (free, but gives the
+  - **Mirror** (`ns_08_monster4`) — not a fight: **choice 1015 opt 1 "Gaze into the mirror"** — costs 1 adventure, grants **Confidence! (∞)**. ⚠️ **Do NOT "Break it"** (free, but gives the
     Sorceress **stun+stagger immunity and higher HP**).
   - **Shadow** (`ns_09_monster5`) — *a Shadow [your class]*, **~395 HP**.
     🚨 **ALL SKILLS ARE BLOCKED, not just attacks** — *"You find yourself unable to use any of your skills
@@ -194,7 +199,7 @@ and one fullness slot**, so it is only worth it when you are rich, have stomach 
     ⇒ **Kit: 2 × scented massage oil (2438, ~2,000 meat each) + a few filthy poultice (2369, ~170).**
     ⚠️ Its hit scales — an opening round of ~294 damage was observed. Never enter below full HP.
 
-## Step 5 — The Naughty Sorceress + King Ralph  (from wiki)
+## Step 5 — The Naughty Sorceress + King Ralph  ✅ (verified in-game)
 Fight the **Naughty Sorceress (3 forms)** at `place.php?whichplace=nstower&action=ns_10_sorcfight` — ONE continuous combat
 (re-entering the action resumes it; a loss restarts it from form 1). Forms are "The Naughty Sorceress" → "(2)" → "(3)". Notes:
 - **Form 1** falls easily to Mortar→Cannelloni. **Form 2 is the wall** — she **blocks ~half your spells** and her big nuke

@@ -105,7 +105,8 @@ When prep AND body are right, you enter a **real combat** (no scripted defeat). 
 
 **Rewards (verified in-game):**
 - **Crown of the Goblin King (item 313)** — hat, 70 power. ⚠️ **Requires 20 BASE MOXIE to equip** — a Mys caster
-  will likely be unable to wear it for a long time (we had 14). Don't count on it as an immediate upgrade.
+  will likely be unable to wear it for a long time (a character clearing the Knob is typically around Moxie 14).
+  Don't count on it as an immediate upgrade.
 - **2 × dense meat stack (item 258)** — ⚠️ **NOT usable** ("This item is not implemented yet"); it's a
   **meatsmithing component**. **Autosell them** — ~850 meat each (≈1,700 for the pair).
 - **Cobb's Knob lab key (item 339)** — opens the Knob laboratory.

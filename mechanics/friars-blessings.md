@@ -22,7 +22,7 @@ Reach the zones via `friars.php` / the Distant Woods.
 ⚠️ **Pandamonium is NOT immediately useful.** The ritual opens the gate (`pandamonium.php` → `action=beli`
 / `action=infe` / `action=temp`, plus snarfblat 241), **but the talisman zones are high-level**:
 **Infernal Rackets Backstage (243) needs mainstat 55**, **The Laugh Floor (242) needs 60**, Pandamonium Slums
-(248) needs 45. At base Mys 38 we were refused. ⇒ **Liver of Steel (steel margarita) is a Level ~9–10 goal,
+(248) needs 45. At base Mys 38 entry is refused. ⇒ **Liver of Steel (steel margarita) is a Level ~9–10 goal,
 not a Level 6–7 one.** See `drinking-strategy.md`.
 
 ### ✅ Azazel quest → Liver of Steel (verified in-game)

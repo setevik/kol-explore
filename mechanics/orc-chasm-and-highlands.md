@@ -1,7 +1,7 @@
 # Level 9: Orc Chasm bridge → The Highlands (three signal fires)
 
-> Run-agnostic. Council quest **"There Can Be Only One Topping"**. Verified in-game:
-> bridge built and **Oil Peak completed in one day**. Wiki-sourced details marked ⚑ where not yet verified.
+> Run-agnostic. Council quest **"There Can Be Only One Topping"** — bridge the chasm, then light three signal
+> fires. All three peaks and the bridge are ✅ verified in-game; anything still wiki-only is marked ⚑.
 
 ## Part 1 — Bridging The Orc Chasm
 
@@ -43,7 +43,7 @@ immediately — i.e. the boxes were worth more than half the grind.
 - After the bridge is built, lumber and fasteners **stop dropping**, and leftovers are thrown away automatically
   (*"you throw away the rest of the smut orcs' terrible building materials"*). Don't stockpile past 30/30.
 
-**Other accelerators** (⚑ not used by us): a **logging hatchet** equipped yields bonus lumber; a **loadstone**
+**Other accelerators** (⚑ wiki-only, not yet tested): a **logging hatchet** equipped yields bonus lumber; a **loadstone**
 yields bonus fasteners; adventuring **Lucky!** triggers *S&M 4-EVER* for 3 lumber + 3 fasteners; overkilling
 non-pervert orcs with **cold** damage 15 points' worth opens the *Blech House* noncombat for more parts.
 
@@ -97,19 +97,20 @@ Make all three the morning after Oil Peak — they unlock work on *both* remaini
 ### ⚠️ A-boo Peak — a hard wall for a Pastamancer; check before you spend turns
 
 All five ghosts are **Damage Resistance 100%** (physically immune) **AND spooky-aligned** (immune to their own
-element), **weak to hot and stench**. That closes *both* of our damage types at once:
+element), **weak to hot and stench**. That closes **both** of a Pastamancer's damage types at once:
 - untuned pasta spells → physical → **blocked by the 100% resistance**;
 - **Necrotelicomnicon** equipped → spooky → **blocked by the alignment**.
 
 This is the exact inverse of the protector-spirit/Bonerdagon pair of lessons: those two could each be solved by
 toggling the Necrotelicomnicon, and **this zone cannot.** You need a genuine **hot or stench** damage source
-first. ⚑ Cheapest known route: **oil lamp** (off-hand, from bubblin' crude) grants +5 hot / +5 sleaze which
-"counts for +15 in A-Boo due to elemental weakness" — i.e. **do Oil Peak first, then come back**. Ghosts have
-only 40 HP, so modest per-round elemental damage is enough.
+first. ✅ **The route, now verified: the oil lamp** (off-hand, 9 bubblin' crude) — **do Oil Peak first, then come
+back.** Ghosts have only 40 HP, so modest per-round elemental damage is enough. Full loadout and measured damage
+in the SOLVED section below.
 
 Mechanics: 98% hauntedness, **−2% per ghost killed ⇒ 49 ghosts**. Ghosts drop **A-Boo clues**; using a clue
 makes the next adventure *The Horror…*, worth **−2% to −30%** depending on how long you survive (scales with
-max HP, cold resistance and spooky resistance). Clues are the only way to beat 49 turns here.
+max HP, cold resistance and spooky resistance). Clues are the fastest way to beat 49 turns here — see the
+measured cost/benefit below.
 
 #### ✅ SOLVED — the oil lamp opens the zone; **plain weapon attacks work**
 
