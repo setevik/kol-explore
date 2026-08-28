@@ -21,7 +21,10 @@ in the top window and `window.frames['mainpane'].location.href` for navigation (
 **Your job each session:**
 1. Log in, rebuild `window._pwd` + helpers, read status, and clear any leftover forced-choice / stuck fight.
 2. Follow **EAT → ADVENTURE → DRINK** strictly, and always do BOTH the EAT and the DRINK (fill both meters).
-3. Use the proven combat combo: **Stuffed Mortar Shell (round 1) → Cannelloni Cannon (round 2+)**.
+3. Use the combat standard for your class **that this run has actually unlocked** — check
+   `CURRENT_ASCENSION.md` for the skills you own before assuming any. (For a fully-trained Pastamancer that's
+   **Stuffed Mortar Shell round 1 → Cannelloni Cannon round 2+**; early in a run you may only have
+   Entangling Noodles → Cannelloni, or less. Guild skills are re-bought every ascension unless permed.)
 4. Do daily-limited things EARLY (Daily Dungeon, once/day casts). Progress the current priorities from `CURRENT_ASCENSION.md`.
 5. Write a **lore-friendly, in-character diary** to `my-adventures/YYYY-MM-DD.md` (use the real date).
 6. When wrapped (EAT + advs spent + DRINK + diary): **close the KoL browser tab FIRST**, then **commit & push LAST**.
@@ -49,7 +52,7 @@ The repo has exactly **one** file for run state and **three** kinds of file that
 
 | File | Contains | Lifetime |
 |---|---|---|
-| `CURRENT_ASCENSION.md` | character state, quest progress, inventory counts, next-session plan, session log | **this run only** |
+| `CURRENT_ASCENSION.md` | character state, quest progress, inventory counts, **caps/limits, which skills are learned or permed**, next-session plan, session log | **this run only** |
 | `HANDOFF.md` | how to *operate* — engine, endpoints, HARD RULES, gotchas | forever |
 | `mechanics/*.md` | how the *game* works — walkthroughs, item IDs, choice numbers, measured rates | forever |
 | `my-adventures/*.md` | in-character diary, one per day | archive |
@@ -63,6 +66,12 @@ The repo has exactly **one** file for run state and **three** kinds of file that
 - **Progress markers** — `✅ DONE`, `Status at end of…`, `2 of 4 buildings down`, `we skipped the 8x`.
 - **Possession / inventory claims** — `we have 50 crude`, `we already owned 2 from run #1`, `Run #2 has had it
   since Day 99`, `a Permit I don't currently have`.
+- 🚨 **Caps, limits and unlocked/permed skills treated as permanent.** These reset or differ per ascension:
+  the **booze cap** (14 default, 19 only while **Liver of Steel** is active — it cannot be permed), the
+  **fullness cap**, and **every guild skill** (re-bought each run unless karma was spent to perm it).
+  ❌ *"fill the liver to 19"*, *"open with Stuffed Mortar Shell"*, *"you have Saucemaven"*.
+  ✅ *"read the cap from `charsheet.php`, then fill to it"*, *"once you own Stuffed Mortar Shell…"*.
+  **Write the mechanic parametrically and let `CURRENT_ASCENSION.md` supply this run's numbers.**
 - **First-person run narrative** — `we lost`, `we arrived already Thrice-Cursed`, `we'd been hoarding 3`.
 - **"Next session" plans** of any kind.
 

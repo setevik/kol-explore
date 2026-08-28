@@ -135,6 +135,12 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
   8 MP) round 2+**, heal with **Lasagna Bandages (3009, 6 MP)** between fights, **magical mystery juice (518)** for MP.
   ~11 MP/fight. If you win initiative you take **zero** damage; if you lose it you may simply die. That coin-flip
   *is* the early game until **Springy Fusilli (3015, +init, guild Level 6)**.
+> ⚠️ **Every skill named in this section is a GUILD PURCHASE that must be re-bought after each ascension**
+> (unless you spent karma to perm it), and each has its own **level gate** — a fresh character has none of them.
+> Treat the combos below as *"once you own these"*, not as a given. **Which skills the current run actually has,
+> and which are permed, belongs in `CURRENT_ASCENSION.md`**; how to buy them is in
+> `mechanics/guild-membership-and-skills.md`.
+
 - **Opener/combo:** **Stuffed Mortar Shell (3007)** round 1 → **Cannelloni Cannon (3005)** round 2+.
   Mortar queues ~2× Cannelloni damage on the NEXT round and is castable **once per fight**; Cannelloni (Mys-scaled)
   is the main nuke. Most zone monsters die in ~2 rounds with MP topped.
@@ -293,10 +299,13 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
   and booze adventures **bank overnight** — so after reaching 14, **drink one more, choosing your highest-adventure
   bottle**. Never do this before adventuring; it is a day-end move only.
 - **DRINK (day end, after all adv spent):** **Fog Murderer (item 6682) = 6 drunkenness / 14–16 adv each** — the best
-  no-skill bottle. ⚠️ **Do NOT "drink exactly 2".** That was a 14-cap-era note and is wrong once Liver of Steel is
-  active: **read your cap and fill to it, then take ONE overdrink** (HARD RULE 1 / `drinking-strategy.md`).
-  At a 19 cap the standard rack is **3 × Fog Murderer (→18) + 1 × Imp Ale (470, →19) + 1 Fog Murderer overdrink**,
-  which banks **~62 adventures**.
+  no-skill bottle. ⚠️ **Do NOT hard-code a bottle count** (an old note here said "drink exactly 2 → drunk 12";
+  that only ever fitted a 14 cap and it contradicts HARD RULE 1). **Read your cap, fill to exactly it, then take
+  ONE overdrink** — the count of bottles falls out of the cap:
+  **cap 14 → 2 × Fog Murderer + 2 × Imp Ale (470), then 1 overdrink (~45 adv).**
+  **cap 19 → 3 × Fog Murderer + 1 × Imp Ale, then 1 overdrink (~60 adv).**
+  ⚠️ **19 requires Liver of Steel, which is NOT permable and resets to 14 at every ascension** — assume 14 until
+  `charsheet.php` proves otherwise. Whether this run has it lives in `CURRENT_ASCENSION.md`.
   **Buying:** the mall lists it at ~250–450 meat but usually **`(Limit 1 / day)` per store**, so buy **one from each
   of ~4–5 cheapest stores**. If the **Hidden Tavern** is unlocked this run it sells them without that limit:
   `shop.php?whichshop=hiddentavern&action=buyitem&whichrow=175`. Drink with
@@ -309,7 +318,8 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
   | **magical mystery juice (518)** | ~25–28 | **guild store** `shop.php?whichshop=guildstore2` **row 527**, ~100 meat | Cheapest by far *when the guild sells it*. **Frequently absent from the MALL entirely** — a mall search can return zero listings while the guild still stocks it. Buy the day's supply here first. |
   | **Mountain Stream soda (357)** | ~37 | mall, tradeable | The fallback. **Price is volatile — observed anywhere from ~50 to ~294 each.** Always price-check before bulk-buying (see the commodity rule below). |
   | **tiny house (592)** | ~23 | drops / mall | Free when it drops, and **also clears Beaten Up**. |
-- ⭐ **ALTERNATIVE 19-cap rack (higher yield, but only if these are in stock — banks ~74 adv):**
+- ⭐ **ALTERNATIVE rack, worked at a 19 cap (higher yield, but only if these are in stock — banks ~74 adv;
+  rescale the bottle counts to your own cap):**
   ⚠️ Availability is the catch: recent sessions could not source Meade/corpse-on-the-beach and used the Fog
   Murderer rack above instead. Price-check both and take whichever is actually buyable.
   **Ye Olde Meade (6276) = 5 drunkenness / ~15 adventures**, ~639 meat in the mall — the best filler found
@@ -545,6 +555,7 @@ which then leaves a live fight open while the script wanders off.
 4. **Daily Dungeon** run (hero-key token) + any once/day casts, EARLY.
 5. Spend the day's adventures on the current priorities (see `CURRENT_ASCENSION.md`); keep MP topped (tiny houses),
    heal to full between fights, refarm meat at the Airship (81) when the war chest runs low.
-6. When advs ≈ 0: verify not mid-fight → **read the cap, fill the liver to exactly it, then ONE overdrink —
-   and STOP adventuring** (HARD RULE 1). At a 19 cap: 3 × Fog Murderer + 1 × Imp Ale, then a 4th Fog Murderer.
+6. When advs ≈ 0: verify not mid-fight → **detect the cap** (`charsheet.php` → "Liver of Steel" ⇒ 19, else **14**)
+   → **fill to exactly it with a look-ahead guard, then ONE overdrink — and STOP adventuring** (HARD RULE 1).
+   Bottle counts follow the cap; see `mechanics/drinking-strategy.md`.
 7. Write the lore diary → close the KoL tab → commit & push.

@@ -48,6 +48,27 @@ at all** — only the optional *A Quest, LOL* (Baron Rof L'm Fao).
 - **Today: ~180 fights.** Losses: one to the Shadow (skills blocked — see below) and one scripted loss to
   NS form 3 (required to unlock the wand search).
 
+### 🔓 CAPS & SKILLS THIS RUN — the authority for both
+
+The cross-run docs (`HANDOFF.md`, `mechanics/*`) are written **parametrically and deliberately assume none of
+this**; they read their numbers from here.
+
+- **Booze cap = 19**, because **Liver of Steel** is active. ⚠️ **Not permable — a new ascension starts back at
+  14** and must re-earn it via the Azazel quest (`mechanics/friars-blessings.md`).
+  Detect at any drunkenness: `charsheet.php` contains "Liver of Steel" ⇒ 19, else 14.
+- **Fullness cap = 15.**
+- **Guild skills learned this run** (all **re-bought each ascension unless permed** — a fresh character has
+  none of them): Pastamastery (3006) · Saucemaven · Transcendental Noodlecraft · Entangling Noodles (3004) ·
+  Cannelloni Cannon (3005) · Stuffed Mortar Shell (3007) · Weapon of the Pastalord (3008) ·
+  Lasagna Bandages (3009) · **Cannelloni Cocoon (3012)** · Springy Fusilli (3015) · Spaghetti Spear (3020) ·
+  **Bind Vampieroghi (3027)**.
+- **Permed skills carried in: none recorded.** ⚠️ At the next ascension, spend karma deliberately and
+  **record what was permed here** — it is the only thing that changes what a day-1 character can do.
+- **Other standing assets:** Queue Du Coq cocktailcrafting kit installed · Daily-Dungeon tools owned
+  (eleven-foot pole 6302, ring of Detect Boring Doors 6303, pick-o-matic lockpicks 280) · continuum
+  transfunctioner (8-Bit access) · buffbot **Buffy (#1889009)** answers kmail for Ghostly Shell, Astral Shell,
+  Fat Leon's Phat Loot Lyric, Sonata of Sneakiness.
+
 ### 🚨 Day 131's expensive mistake — read before the next endgame
 
 **~44 adventures were burned farming the Misspelled Cemetary for a Wand of Nagamar I was already carrying.**

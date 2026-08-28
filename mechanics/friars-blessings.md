@@ -46,7 +46,8 @@ Zones via `pandamonium.php?action=` **temp**(Azazel) / **infe**(Hey Deze alley) 
    → Mourn laughs → Azazel's lollipop.
 
 Then temple turn-in → steel margarita → **drink it early** (only 5 drunk, and the +5 cap is what matters; you can
-still adventure all day and fill to 19 at day's end).
+still adventure all day and fill to the **new** 19 cap at day's end). ⚠️ This lasts **only for the current
+ascension** — Liver of Steel cannot be permed, so every new run is back at 14 until this quest is redone.
 
 ---
 

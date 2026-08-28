@@ -53,9 +53,10 @@ dedupe by store, and issue one purchase per store. 5 stores → 5 Fog Murderers 
 | **Fog Murderer** | 6682 | 6 | **16, 15, 14, 14** (~15 avg) |
 | Imp Ale | 470 | 1 | 1 |
 
-⇒ Fog Murderer is ~**2.5 adv per point of liver** at ~250–420 meat: still the best no-skill bottle. A
-19-cap liver filled as **3 × Fog Murderer (18) + 1 × Imp Ale (19)** plus **1 Fog Murderer overdrink** yielded
-**60 adventures for 1,930 meat**.
+⇒ Fog Murderer is ~**2.5 adv per point of liver** at ~250–420 meat: still the best no-skill bottle.
+Yield scales with **your** cap — measured at a 19 cap (3 × Fog Murderer + 1 × Imp Ale + 1 overdrink):
+**~60 adventures for ~1,930 meat**. At a default 14 cap the same shape (2 × Fog Murderer + fillers + 1
+overdrink) lands nearer ~45.
 
 ## Daily recipe
 
@@ -129,16 +130,29 @@ The craft page (`craft.php?mode=cocktail`) `<option>` list is also the fastest w
    at ~250–450 but almost always **`(Limit 1 / day)` per store**, so buy one each from the ~4–5 cheapest stores.
 4. Long-term: **Ode to Booze** (Accordion Thief) adds adventures per drink — not available to a Pastamancer.
 
-## ⭐ Worked example — cap 19 (with Liver of Steel), the rack to actually use
+## ⭐ Worked examples — the SHAPE is fixed, the numbers follow your cap
 
-**3 × Fog Murderer (→ drunk 18) + 1 × Imp Ale (470, →19) + 1 × Fog Murderer as the overdrink.**
-✅ Repeatedly measured at **~62 adventures for ~1,400–1,900 meat.** This is the default; everything below is
-fallback for when Fog Murderers aren't buyable.
+🚨 **Do not copy a rack; derive it.** The algorithm is cap-agnostic:
+> **big bottles while `drunk + potency <= CAP` → small bottles to land EXACTLY on CAP → ONE overdrink
+> (your highest-adventure bottle).**
 
-<details><summary>Older low-tier example (cheap bottles only — ~27 adv)</summary>
+Worked both ways with **Fog Murderer (potency 6, 14–16 adv)** as the big bottle and **Imp Ale (470, potency 1)**
+/ popskull (1774, potency 2) as the fillers:
 
-Fill 5→19 with cider ×4 (+~5 adv each) + cooking sherry to land on 19 ≈ **22 adv**, then **one Monsieur Bubble
-overdrink ≈ +5 adv**. At cap 14 the same routine yields ~28 — **the extra 5 cap ≈ +9 adv/day**, which is the
-point of never hard-coding 14. Mixing (below) roughly doubles per-bottle yield.
-⚠️ Note this rack banks **less than half** what the Fog Murderer rack does; use it only early in a run.
+| Your cap | Fill | Lands on | Overdrink | Measured total |
+|---|---|---|---|---|
+| **14** (default liver — every fresh ascension) | 2 × Fog Murderer (→12) + 2 × Imp Ale (→14) | 14 | 1 × Fog Murderer | **~45 adv** |
+| **19** (only while **Liver of Steel** is active) | 3 × Fog Murderer (→18) + 1 × Imp Ale (→19) | 19 | 1 × Fog Murderer | **~60 adv** ✅ measured |
+
+⚠️ **The 19 row is not the default.** Liver of Steel **cannot be permed and resets to 14 every ascension**, so a
+new run starts on the 14 row and moves to the 19 row only after finishing the Azazel quest. **Read the cap first
+(`charsheet.php` → "Liver of Steel"), then pick the row.** Whether this run has it belongs in
+`CURRENT_ASCENSION.md`, not here.
+
+<details><summary>Fallback rack when Fog Murderers aren't buyable (~27 adv at a 19 cap)</summary>
+
+cider ×4 (+~5 adv each) + cooking sherry to land exactly on the cap, then **one Monsieur Bubble overdrink
+≈ +5 adv**. At cap 14 the same routine yields ~28 — the gap between the two caps is **≈ +9 adv/day**, which is
+the point of never hard-coding either number. Mixing (below) roughly doubles per-bottle yield.
+⚠️ Banks **less than half** what the Fog Murderer rack does; use only early in a run or when the mall is dry.
 </details>
