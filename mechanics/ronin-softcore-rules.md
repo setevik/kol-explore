@@ -41,6 +41,15 @@
 - **Read storage:** `api.php?what=storage&for=<name>` → `{itemId: qty}` (same shape as `what=inventory`).
 - **Pull an item:** `storage.php?action=pull&whichitem1=<id>&howmany1=<n>&pwd=<hash>`
   (`howmany1` > 1 is pointless during Ronin — see rule 2).
+- ⭐ **Withdraw MEAT: it is NOT on the main storage page.** Go to **`storage.php?which=5`** (the "[Hagnk]" tab)
+  and POST `storage.php` with **`action=takemeat`, `amt=<N>`, `pwd`**. Scraping `storage.php` for a meat form
+  finds nothing — the only actions there are `useitem` and `pull`.
+  ⚠️ **Meat spends the SAME daily allowance as items, at 1,000 meat per "item" slot.** Withdrawing 8,000 meat
+  leaves you 12 item pulls, not 20. Decide the split deliberately at day-open.
+- 🎯 **The day-1 split that worked:** pull most of the previous run's meat (it funds guild skills, which are
+  the biggest early power spike and are bought from **NPC shops that bypass the pull limit entirely**), and
+  spend the remaining slots on **distinct** consumables — remember rule 2 means a 14-potency booze rack needs
+  **five different bottles**, not five of one.
 - The storage page reports remaining pulls: *"You may take 17 more items or 17,000 more Meat out of storage today."*
   `storage.php` itself is JS-rendered — parse the **pull links** (`action=pull&whichitem1=…`), not `<form>`s.
 

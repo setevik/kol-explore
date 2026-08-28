@@ -29,62 +29,67 @@ Disco Bandit · Accordion Thief.
 
 ---
 
-## 📊 Character state (start of run #3 / 2026-08-28)
+## 📊 Character state (end of run #3 Day 1 / 2026-08-29)
 
-- **LEVEL 1 Seal Clubber** (class 1). Base Mus 3 / Mys 1 / Mox 2. **HP 9, MP 1. Meat 0. adv 40.**
-  full 0, drunk 0. Ronin: **1,000 turns left.** Moon sign **The Platypus** (+Muscle). Path: **Unrestricted**.
-- **Familiar: none yet.**
+- **LEVEL 3 Seal Clubber.** Base Mus **14** / Mys 4 / Mox 4. **HP 26, MP 4.** **Meat 4,042. adv 19 banked.**
+  full 15, drunk 17 (cap **14** + overdrink). **Ronin: 945 turns left.**
+- ✅ **Guild joined** — The Brotherhood of the Smackdown (sausage challenge, ~7 turns in snarf 114).
+- **Skills owned:** Seal Clubbing Frenzy · Clobber (starters) · Lunge Smack · Fortitude of the Muskox ·
+  Hibernate · Audacity of the Otter · Cold Shoulder · Blubber Up (bought, 750 + 1,000 meat)
+  · **Pastamastery (P)** · **Cannelloni Cocoon (P)**.
+  ⚠️ **Cocoon costs 20 MP and max MP is 4** — unusable for many levels yet. HP recovery is
+  **Medicinal Herb's medicinal herbs (item 1274, 100 meat, guildstore3 row 536)** for now; ~8 left.
+- **Equipment:** astral bludgeon (**2-handed** — blocks the off-hand, so the enchanted brass knuckles
+  sit unused).
+- **Day 1: 43 fights, 0 losses, 0 heals needed.**
 
 ### 🔓 CAPS & SKILLS THIS RUN — the authority for both
 
-The cross-run docs are written **parametrically and deliberately assume none of this**; they read from here.
+- **Booze cap = 14** (default liver; Liver of Steel was lost on ascension and must be re-earned via the
+  Azazel quest to reach 19). Verified in the charpane this run.
+- **Fullness cap = 15.**
+- **Permed skills that carried in: Pastamastery, Cannelloni Cocoon.** (*Subtle and Quick to Anger* was
+  permed but does not exist on this class — see `mechanics/ascension.md`.)
+- **Karma banked: ~102.**
 
-- **Booze cap = 14** (default liver). ⚠️ **Liver of Steel is NOT permable and was lost on ascension** — it must
-  be re-earned via the Azazel quest (`mechanics/friars-blessings.md`), a Level ~9–10 project, to reach 19.
-  Detect at any drunkenness: `charsheet.php` contains "Liver of Steel" ⇒ 19, else 14.
-- **Fullness cap = 15** (assume 15 until measured).
-- **✅ PERMED SKILLS THAT CARRIED IN:**
-  - **Cannelloni Cocoon** — full heal for 20 MP. ⭐ Permed this ascension; the single biggest quality-of-life
-    win available and it **works on a Seal Clubber**. (Currently unusable: max MP is 1.)
-  - **Pastamastery** — the daily dry-noodles summon; the login page still offers "Summon Dry Noodles".
-- ⚠️ **"Subtle and Quick to Anger" was permed but did NOT carry into this class** — it is absent from
-  `charsheet.php` and `skillz.php`. **Not every permed skill survives a class change.** Cause not yet
-  determined; re-check when a Mysticality class comes up in the sweep.
-- **Class starting skills:** Seal Clubbing Frenzy, Clobber.
-- **Karma banked: ~102.** Enough for **one more softcore perm (100)** at the next ascension, on top of
-  whatever that run earns.
+### 🎒 Hagnk's / Ronin budget
 
-### 🎒 Assets
-
-- **astral bludgeon** equipped-able (the 10-karma astral pet; a Muscle weapon, chosen for this class).
-- **Hagnk's Ancestral Mini-Storage holds all of run #2's inventory** (~110+ item types incl. the endgame kit:
-  14 filthy poultices, ruby W, heavy D, Daily-Dungeon tools, continuum transfunctioner).
-  ⚠️ **Ronin: max 20 items OR 20,000 meat pulled per day** (each item costs 1,000 of the meat allowance),
-  for the first 1,000 turns. **Pull deliberately** — see `mechanics/ronin-softcore-rules.md`.
-- Buffbot **Buffy (#1889009)** still answers kmail (Ghostly Shell, Astral Shell, Fat Leon's, Sonata).
+- **Storage holds run #2's whole estate (538 item types) + ~954 meat** (8,000 was withdrawn on day 1).
+- ⚠️ **20 pulls/day, and only ONE of each distinct item per day.** Meat costs 1 slot per 1,000.
+- Day-1 spend: 8,000 meat (8 slots) + 6 booze pulls.
 
 ---
 
 ## 🔜 Next-session priorities
 
-> **START HERE — day 1 of a brand-new Level 1 character. 40 adventures.**
-> ⚠️ **A Level 1 character is paper** (`max HP ≈ base Muscle + 3`) — re-read `HANDOFF.md`'s low-level notes.
-> (1) **Guild membership FIRST** — `mechanics/guild-membership-and-skills.md`. The Seal Clubber guild is a
->     *different* guild from the Chef-Magi one; find it and pass its challenge, then buy the early skills.
->     **This is the biggest early power spike and it is cheap.**
-> (2) **Check Hagnk's and pull deliberately** (20/day cap). Highest-value early pulls are probably a weapon
->     upgrade and MP/HP restoratives — but a Seal Clubber's needs differ from a caster's, so decide after
->     seeing the class's skills.
-> (3) **Council quest chain** restarts from scratch (larva → tavern → Boss Bat → Knob → …). All the quest
->     walkthroughs in `mechanics/` still apply — only the *combat* advice needs re-deriving.
-> (4) **Start `mechanics/seal-clubber-class.md`** as you learn the class: skills, stat scaling, the combat
->     standard that replaces Mortar→Cannelloni, and food/booze preferences.
-> **Daily rhythm is unchanged:** EAT → ADVENTURE → DRINK; do daily-limited things early;
-> **read the cap (now 14), fill to exactly it, ONE overdrink, then STOP.**
+> **19 adventures banked + the new day's allowance.**
+> (1) **Re-visit Torg every level** — `guild.php?place=trainer`, POST `action=buyskill&skillid=<short id>`.
+>     L4 unlocks **Wrath of the Wolverine / Thrust-Smack** (~500–1,000 meat). This was a documented blind
+>     spot last run; don't repeat it.
+> (2) **Open quests:** *My Other Car Is Made of Meat* (guild meatcar — parts at **Degrassi Knoll**, talk to
+>     Olaf at `guild.php?place=paco`) and *When Rocks Attack* (buy Pungent Unguent for the injured Knob
+>     Goblin). The Council chain restarts from the top — `mechanics/` quest walkthroughs still apply.
+> (3) **Level up in snarf 114** (Outskirts of Cobb's Knob) — 43W/0L there at L2–3 on plain weapon attacks.
+>     Move on when the win rate or the stat gain collapses (`mechanics/leveling-zones.md`).
+> (4) **Keep filling `mechanics/seal-clubber-class.md`** as the class reveals itself — especially **how Fury
+>     actually works in combat**, which is still unmeasured.
+> **DRINK LAST — cap is 14 this run.** Storage's 1-per-day rule means the rack must be **five different
+> bottles** (gin 237 + vodka 238 + rum 787 + boxed wine 1005 = 12, + popskull 1774 = 14), then ONE
+> overdrink, then STOP.
 
 ---
 
 ## 🗓️ Session log (this run)
+
+- **Run #3 Day 1 (2026-08-29): Joined the Brotherhood of the Smackdown; Level 1 → 3, 43W/0L.**
+  Won guild membership with the **sausage-measuring challenge** (Outskirts of Cobb's Knob, snarf **114**,
+  choice **543**), withdrew 8,000 meat from Hagnk's (`storage.php?which=5`, `action=takemeat`), and bought
+  all six available guild skills for 1,750 meat. 🚨 **Key class finding: Seal Clubbers run on FURY, not MP** —
+  max MP 4 at Level 3, so the permed Cannelloni Cocoon (20 MP) is unusable for now and the whole caster
+  MP-economy playbook doesn't apply. Plain weapon attacks went **43W/0L with zero heals** — far sturdier than
+  a caster at this level. Filled 15 fullness on 1-adv general-store fillers, then hit the **14** cap with a
+  five-bottle rack (storage allows only one of each per day). New doc:
+  **`mechanics/seal-clubber-class.md`**.
 
 - **2026-08-28 — Ascended into run #3.** Stepped through the astral gash, took **211 karma** at the Pearly
   Gates, **permed Cannelloni Cocoon**, bought an **astral bludgeon**, and reincarnated **Softcore/Normal**

@@ -452,6 +452,27 @@ which then leaves a live fight open while the script wanders off.
 ✅ **Most reliable test: `/<form name=attack/`.** Combine it with the old checks rather than replacing them:
 `inFight = t => /<form name=attack/.test(t) || /name=["']?whichskill/.test(t) || /Attack with your weapon/i.test(t)`
 
+## 🧭 Class-specific vs class-agnostic — read before reusing combat advice
+
+Much of this file was written for a **Mysticality caster** and does not transfer. When starting a run as a
+new class, treat the following as **suspect until re-derived**, and put the replacements in that class's own
+`mechanics/<class>-class.md`:
+
+- **The combat standard** ("Mortar → Cannelloni", spell-damage tuning, the Necrotelicomnicon element rules).
+- **The MP economy** — the `topMP` restorative ladder, "keep MP topped", MP-per-fight budgeting.
+  ⚠️ **Muscle classes run on FURY and cap out around MP 4 at Level 3**; a low max MP is the design, not a
+  problem to solve. Check `api.php?what=status` for the class resource field (`fury`, `soulsauce`,
+  `pastathrall`, …) to see what actually powers the class.
+- **Healing assumptions** — a permed heal skill may be unusable for many levels if it costs more MP than the
+  class will have.
+
+✅ **Genuinely class-agnostic** (safe to reuse as-is): the fetch engine and all endpoints, the quest
+walkthroughs in `mechanics/*-quest.md`, Ronin/pull rules, the drinking algorithm, doc hygiene, and every
+"verify the outcome, don't trust the win-string" style lesson.
+
+⭐ **Guild stores are keyed to the stat group, not the class:** `guildstore1` Moxie · `guildstore2`
+Mysticality · `guildstore3` Muscle. Wrong shop ⇒ *"Uh Oh! Only … may shop here."*
+
 ## HARD RULES (do every session)
 
 1. **Order is EAT → ADVENTURE → DRINK.** Both meters are mandatory — never wrap a day with an unused `full` (0/15)
