@@ -131,7 +131,14 @@ Two ways to obtain it:
   (The Misspelled Cemetary; regular Unquiet Garves = 21) → pry open Nagamar's coffin → the assembled **Wand of Nagamar**.
   🔑 **This search only UNLOCKS after you have been *defeated by* the NS's 3rd form** — it is the game's safety net for
   arriving at form 3 without the wand. (Before form 3 is reached, the NC will not surface no matter how many fights you run at
-  snarf 58 — this is a gate, NOT combat suppression.) Once unlocked, Frank helps you search and the NC surfaces after a few fights.
+  snarf 58 — this is a gate, NOT combat suppression.) Once unlocked it fires on roughly the **11th adventure in the
+zone**; that zone is **100% combat**, so it arrives as a *superlikely* override, never as a noncombat roll.
+
+  🚨 **VERIFY POSSESSION FROM THE QUEST LOG, NOT AN INVENTORY SCRAPE.** The wand lands in the **equipment tab
+  (`inventory.php?which=2`)**, not the misc tab — a text scan of `which=3` for "Nagamar" reads false while you are
+  already carrying it. **~44 adventures were burned grinding for a wand already held.** The authoritative signal is
+  `questlog.php?which=1`, which flips to *"You found the wand of Nagamar. Take it back to the Tower and finish off
+  the Sorceress!"* ✅ **Re-read the quest log before farming for any quest objective** — one fetch, unambiguous.
 
 ## Step 4 — Coronation → Hedge Maze → the 6-key Door → the 5 Tower Levels
 - **Coronation** (`ns_02_coronation`) — cutscene, **choice 1020 → 1021 → 1022**, all option 1. Free.
@@ -170,11 +177,22 @@ and one fullness slot**, so it is only worth it when you are rich, have stomach 
     **Castle Ground Floor (snarf 323)** → "Home on the Free Range" **choice 1026 opt 2** ("investigate the noisy drawer"); the
     NC is boosted to 3 copies once tower level 3 is unlocked, so it drops in ~1 turn. (Stuffed Mortar Shell 3007 is also group
     damage but only once/fight.)
-  - **Mirror → Shadow** (`ns_09_monster5`): first a mirror **choice 1015 opt 1 "Gaze into the mirror"** (do NOT break it —
-    breaking makes the NS immune to stuns). Then fight **a Shadow [your class]** — ⚠️ **immune to ALL attack damage; only
-    HEALING items hurt it** (each HP healed = 1 dmg; ~395 HP, capped at your max-HP deficit per use). Method: **attack to
-    provoke its hit → then heal** with **scented massage oil (item 2438, full heal + stun, ~2k meat)** for big chunks +
-    **filthy poultice (item 2369, ~170 meat, heals a lot)** for smaller ones. Scrolls of drastic healing do NOT work in combat.
+  - **Mirror** (its own level, `ns_08_monster4` when the walls are 1–3): **choice 1015 opt 1 "Gaze into the
+    mirror"** — costs 1 adventure, grants **Confidence! (∞)**. ⚠️ **Do NOT "Break it"** (free, but gives the
+    Sorceress **stun+stagger immunity and higher HP**).
+  - **Shadow** (`ns_09_monster5`) — *a Shadow [your class]*, **~395 HP**.
+    🚨 **ALL SKILLS ARE BLOCKED, not just attacks** — *"You find yourself unable to use any of your skills
+    against your shadow."* A healing **skill** (Pastamancer: Cannelloni Cocoon 3012) therefore does **nothing**
+    and wastes the round. **Healing ITEMS only.**
+    🎯 **The mechanic: damage dealt = HP actually restored**, capped by your current deficit. Two consequences:
+    - **Max HP is the weapon.** Raise it before entering (buffbot **Ghostly Shell + Astral Shell** measured
+      +44 max HP ⇒ +44 damage per full heal). More max HP = fewer items needed.
+    - **You must be hurt before you can hurt it.** Healing at full HP heals 0 and deals 0. **Let it hit you,
+      then heal.** A round spent provoking (`fight.php?action=attack` — it always dodges) is not wasted.
+    ✅ **Verified kill, 5 rounds, from ~362 max HP:**
+    `oil (heals/deals 159) → provoke → oil (159) → provoke → poultice (94)` = **412 damage**.
+    ⇒ **Kit: 2 × scented massage oil (2438, ~2,000 meat each) + a few filthy poultice (2369, ~170).**
+    ⚠️ Its hit scales — an opening round of ~294 damage was observed. Never enter below full HP.
 
 ## Step 5 — The Naughty Sorceress + King Ralph  (from wiki)
 Fight the **Naughty Sorceress (3 forms)** at `place.php?whichplace=nstower&action=ns_10_sorcfight` — ONE continuous combat
@@ -189,6 +207,29 @@ Fight the **Naughty Sorceress (3 forms)** at `place.php?whichplace=nstower&actio
   - **Bring a BIG MP battery** (60–80 MMJ) + ~40 torpedoes — running dry mid-grind is what stalls this fight. Enter FULL MP.
 - **Form 3 requires the Wand of Nagamar in inventory** (see Step 3). Without it you get defeated by form 3 — which is what
   **unlocks the Bear Verb Orgy** wand-search. So the intended order is: reach form 3 → lose → get the wand → return and win.
+  ✅ **With the wand held (NOT equipped), form 3 resolves by itself** — no item to use, no special action; the tower
+  simply advances to **`ns_11_prism`**.
+
+### ✅ Verified full clear — and a scaling caveat on the warnings above
+
+At **base Mysticality ~260 with a Vampieroghi thrall**, the whole fight was far milder than the notes above
+(written at ~120 Mys) imply: **form 1 = 4 rounds, form 2 = 6 rounds, zero healing items used, HP never below
+~275/318.** Opening with **Entangling Noodles (3004)** then **Cannelloni (3005)** every round was enough; the
+"blocks half your spells / bring 60–80 MMJ" warnings describe an under-levelled character. **Total MP for
+forms 1+2 ≈ 45.** Budget by your own stats, not by the worst case.
+
+⚠️ **The fight is resumed by RE-ENTERING `ns_10_sorcfight` after each form** — each form ends with *"Uh oh."*
+and the tower action list goes momentarily empty. That is not a loss; fetch the action again.
+
+⚠️ **`inFight()` false-negatives in the tower.** The form-3 page and the post-form cutscenes contain neither
+`whichskill` nor "Attack with your weapon", so a helper testing only for those reports "no fight" on a page that
+*is* one. ✅ **Test for the combat form instead: `/<form name=attack/`.**
+
+### 🏁 Step 6 — free the King
+`place.php?whichplace=nstower&action=ns_11_prism` → *"Hi-keeba!"* → the prism shatters, **King Ralph XI** is
+freed and **the astral gash opens**. No adventure cost, no choice to answer. ✅ **You may free the King while
+drunk** — but ⚠️ **you cannot fight your way up the tower while drunk** (the map shows "Too Drunk!"), so the
+entire climb must happen BEFORE the day's DRINK step.
 - Letting her beat you up lowers her block rate (down to ~30% after several losses); high buffed **Mysticality** reduces her spell blocks;
   **Ambidextrous Funkslinging** lets your familiar act unless she blocks each item separately.
 - Beat form 3 → **break King Ralph's prism** to free him → quest complete → the **astral gash** opens → **ascend**

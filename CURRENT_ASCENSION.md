@@ -30,60 +30,65 @@ via the Wand of Nagamar) + freed King Ralph XI, then stepped through the astral 
 
 ---
 
-## 📊 Character state (run #2 — end of Day 130 / 2026-08-23)
+## 🏆🏆 RUN #2 IS WON (Day 131 / 2026-08-24)
 
-- 🎉 **LEVEL 16 Pastamancer.** Base Mys **260**. HP 317, MP 430. **Meat ~2,534.**
-  **adv 64 banked** (filled to 19 + one overdrink, then STOPPED). full 15, drunk 25.
-- 🚪 **FIVE OF SIX TOWER LOCKS ARE OPEN.** Coronation done, **hedge maze escaped** (9 turns, 0 fights,
-  following Frank). The door at `place.php?whichplace=nstower_door` now shows only
-  **`Doorknob` + `Sneaky Pete's Lock`**.
-- 🔑 **The last key is Sneaky Pete's** — needs **one Daily Dungeon fat loot token** (row 95).
-  Alternative if ever rich: a **Sneaky Pete's key lime pie (item 515)**, ~6,000 meat + 1 fullness.
-- 🧰 **ENDGAME KIT IS ASSEMBLED** (this is the important part):
-  - **beehive** ×1 → instant-kills the **Wall of Skin**
-  - **electric boning knife** ×1 → instant-kills the **Wall of Bones** (nothing else works — single-target
-    spells make it fully heal)
-  - **scented massage oil** ×1 + **filthy poultice** ×8 → the **Shadow** (only healing hurts it) and NS form 2
-  - **31 Mountain Stream soda** (MP battery)
-- 🪄 **Wand of Nagamar: 2 of 4 letters** — hold **ruby W** and **heavy D**; missing *metallic A* and
-  *lowercase n*. The intended path is still: reach NS **form 3 → lose → Bear Verb Orgy** unlocks at
-  `adventure.php?snarfblat=58`.
-- 🗺️ **Also open (optional):** *A Quest, LOL* — Baron Rof L'm Fao's valley.
-- 🔓 **Standing run assets:** **Liver of Steel** ⇒ booze cap 19; **Queue Du Coq cocktailcrafting kit**;
-  **Saucemaven** + **Pastamastery**; **Vampieroghi thrall** persists; Daily-Dungeon tools owned
-  (**pole 6302, ring 6303, lockpicks 280**) ⇒ full run ≈ 7 adventures; **continuum transfunctioner** owned
-  (8-Bit access). Buffbot **Buffy (#1889009)** for Ghostly/Astral Shell, Fat Leon's, Sonata.
-- **Today: 86 fights, 0 losses.**
+**The Naughty Sorceress is dead and King Ralph XI is free. The astral gash is open.**
+Every Council quest, every tower level, all three of her forms. `questlog.php` now lists **no Council quests
+at all** — only the optional *A Quest, LOL* (Baron Rof L'm Fao).
+
+## 📊 Character state (end of Day 131 / 2026-08-24)
+
+- 🎉 **LEVEL 17 Pastamancer.** Base Mys **267**. HP 323, MP 441. **Meat ~8,954.** Turns played 12,296.
+  **adv 67 banked** (filled to 19 + one overdrink, then STOPPED). full 15, drunk 25.
+- ✅ **Tower cleared:** wall of skin (beehive, 1 round) · wall of meat (6 kills, 1,185 meat) ·
+  wall of bones (electric boning knife, 1 round) · mirror (**gazed**, not broken → Confidence! ∞) ·
+  **Shadow Pastamancer** (2 massage oils + 1 poultice = 412 healing dealt as damage, 5 rounds) ·
+  **NS forms 1/2/3** → **prism smashed, King freed.**
+- **Left over:** 14 filthy poultices, 3 stolen sushi, 0 soda, ruby W + heavy D (spare wand letters).
+- **Today: ~180 fights.** Losses: one to the Shadow (skills blocked — see below) and one scripted loss to
+  NS form 3 (required to unlock the wand search).
+
+### 🚨 Day 131's expensive mistake — read before the next endgame
+
+**~44 adventures were burned farming the Misspelled Cemetary for a Wand of Nagamar I was already carrying.**
+The wand lands in the **equipment tab**, and I was text-scraping the **misc tab** for "Nagamar", so my check
+read false. The quest log had said *"You found the wand of Nagamar. Take it back to the Tower"* the entire
+time. Rule now in `HANDOFF.md`: **ask the quest log about quest items, never one inventory tab.**
 
 ---
 
 ## 🔜 Next-session priorities
 
-> **START HERE ON DAY 131 — open the door and start climbing.**
-> Login → **Pastamastery (3006)**, EAT to 15 (Milk of Magnesium **1650** first, then sushi ×2 + jerky +
-> a 1-fullness fruit). ⚠️ **CHECK THE SODA PRICE before restocking** — it spiked to ~248/ea and drained the
-> whole balance last time.
-> (1) 🔑 **DAILY DUNGEON FIRST** (`adventure.php?snarfblat=325`, ~7 adv) →
->     `shop.php?whichshop=damachine&action=buyitem&whichrow=95&quantity=1&pwd=` = **Sneaky Pete's key** →
->     `place.php?whichplace=nstower_door&action=ns_lock3` → then **`ns_doorknob`**. All free after the dungeon.
-> (2) 🧱 **Climb the walls** (read `mechanics/naughty-sorceress-tower.md` first — each has a hard gimmick):
->     **Wall of Skin** `ns_05_monster1` → `fight.php?action=useitem&whichitem=7969` (beehive) = instant kill.
->     **Wall of Meat** `ns_06_monster2` → 700 HP, must be re-killed ~5× until it has dropped **1,001 total
->     meat**; full HP+MP between kills.
->     **Wall of Bones** `ns_07_monster3` → `fight.php?action=useitem&whichitem=7970` (boning knife) = instant
->     kill. **Never cast a single-target spell at it — it fully heals.**
->     **Mirror** `ns_09_monster5` → choice 1015 **opt 1 "Gaze into the mirror"** (do NOT break it — breaking
->     makes the NS immune to stuns), then the **Shadow**: immune to all damage, **only healing items hurt it**
->     (~395 HP). Attack to provoke its hit, then heal — massage oil (2438) for big chunks, poultices (2369)
->     for small.
-> (3) Then the **Naughty Sorceress** (`ns_10_sorcfight`). Expect to reach **form 3 and lose** (no wand yet) —
->     that is the intended trigger for the Bear Verb Orgy wand search. Before form 2, buy a **big MP battery**
->     and more poultices; enter at TRUE full max HP.
-> **DRINK LAST — fill to 19, ONE overdrink, then STOP.** Fog Murderer (6682), limit 1/day per store.
+> ⚖️ **DECISION REQUIRED FIRST: ascend, or keep playing this character?**
+> The astral gash is open, so ascending is available at any time. **I did not ascend unilaterally** —
+> it wipes a Level 17 character back to Level 1 and is irreversible. The user should choose.
+> - **If ascending:** read `mechanics/ascension.md` first. Go **Softcore** (not Casual) so Hagnk's storage
+>   carries this run's gear forward. Bank meat/items beforehand — they survive in storage. Then archive this
+>   run to `runs/ascension-02-pastamancer.md` (mirroring `runs/ascension-01-pastamancer.md`), reset
+>   `CURRENT_ASCENSION.md` to a fresh-run skeleton, and start the day-1 opening from `ascension.md`.
+> - **If NOT ascending:** the only content left is *A Quest, LOL* (**Baron Rof L'm Fao's valley**, Big
+>   Mountains — fight through to the fortress gates). Beyond that it is free-play: level grinding, the
+>   Sorceress's post-win drops, or filling out Hagnk's for a future run.
+>
+> Either way the daily rhythm is unchanged: **Pastamastery + thrall, EAT to 15 (Milk of Magnesium 1650
+> first), check the soda price before restocking, spend adventures, DRINK to exactly 19 + ONE overdrink,
+> then STOP.**
 
 ---
 
 ## 🗓️ Session log (this run)
+
+- **Day 131 (2026-08-24): 🏆🏆 THE RUN IS WON — Naughty Sorceress dead, King Ralph freed, astral gash open.**
+  Daily Dungeon → **Sneaky Pete's key** → sixth lock → **doorknob**. Then the tower in one sitting:
+  **beehive** one-shot the wall of skin, **6 kills** drained the wall of meat of 1,185 meat, the **electric
+  boning knife** one-shot the wall of bones, and I **gazed** at the mirror rather than breaking it.
+  ⚠️ **Lost to the Shadow first try** by casting a healing *skill* — **the Shadow blocks ALL skills, items
+  only**; won the rematch in 5 rounds by treating max HP as the weapon (shells for +44 max HP, provoke, then
+  heal: 412 healing = 412 damage). NS **form 1 in 4 rounds, form 2 in 6** with zero healing items — far
+  milder than the notes written at 120 Mys. Lost to **form 3** on purpose to unlock the wand search, then
+  🚨 **wasted ~44 adventures hunting a wand I already had** (wrong inventory tab; the quest log had said so
+  all along). Returned, killed all three forms, **"Hi-keeba!"** on the prism. Finished the day farming the
+  giants to **~10k meat**. **~180 fights.**
 
 - **Day 130 (2026-08-23): 🚪 Five of six tower locks open; the endgame kit is assembled.**
   Ran the **Daily Dungeon** (7 adv) for **Jarlsberg's key**, then took the **8-Bit Realm 4,800 → 10,000**

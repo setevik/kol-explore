@@ -406,6 +406,31 @@ At L16 with a working nuke, **`adventure.php?snarfblat=323`** yields a measured 
 re-drops the **electric boning knife** (choice 1026 → "Investigate the noisy drawer") that the Wall of Bones
 needs. That makes it the default "I need several thousand meat before a boss" zone once the castle is open.
 
+## 🚨 Ask the QUEST LOG whether you already have the quest item
+
+Before grinding for any quest objective, fetch **`questlog.php?which=1`**. It states possession in plain English
+(*"You found the wand of Nagamar. Take it back to the Tower…"*) and is authoritative.
+
+🐛 **Do not decide possession by text-scraping one inventory tab.** Items land in different tabs —
+`which=1` consumables · `which=2` **equipment** · `which=3` misc/quest — and a weapon-shaped quest item scanned
+for in `which=3` reads as absent while you are carrying it. **~44 adventures were burned farming for an item
+already held**, while the quest log had been saying so the whole time.
+
+✅ **Rules of thumb:**
+- **Quest state → quest log.** **Counts of a known item → `api.php?what=inventory` keyed by numeric id.**
+  Only fall back to scraping `inventory.php` HTML when you don't yet know the id, and then **search every tab**.
+- **After any quest step completes, re-read the quest log before deciding what to do next** — the objective may
+  already have moved on.
+- The same applies to "is this zone/step done?": prefer the quest log or a place page's own text over inference.
+
+## 🥊 `inFight()` can false-negative — test for the combat FORM
+
+Some fight pages (notably late-tower boss forms and post-fight cutscenes) contain neither `whichskill` nor
+"Attack with your weapon", so a helper testing only those reports "no fight" on a page that **is** a fight —
+which then leaves a live fight open while the script wanders off.
+✅ **Most reliable test: `/<form name=attack/`.** Combine it with the old checks rather than replacing them:
+`inFight = t => /<form name=attack/.test(t) || /name=["']?whichskill/.test(t) || /Attack with your weapon/i.test(t)`
+
 ## HARD RULES (do every session)
 
 1. **Order is EAT → ADVENTURE → DRINK.** Both meters are mandatory — never wrap a day with an unused `full` (0/15)
