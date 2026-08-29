@@ -29,60 +29,68 @@ Disco Bandit · Accordion Thief.
 
 ---
 
-## 📊 Character state (end of run #3 Day 1 / 2026-08-29)
+## 📊 Character state (end of run #3 Day 2 / 2026-08-29)
 
-- **LEVEL 3 Seal Clubber.** Base Mus **14** / Mys 4 / Mox 4. **HP 26, MP 4.** **Meat 4,042. adv 19 banked.**
-  full 15, drunk 17 (cap **14** + overdrink). **Ronin: 945 turns left.**
-- ✅ **Guild joined** — The Brotherhood of the Smackdown (sausage challenge, ~7 turns in snarf 114).
-- **Skills owned:** Seal Clubbing Frenzy · Clobber (starters) · Lunge Smack · Fortitude of the Muskox ·
-  Hibernate · Audacity of the Otter · Cold Shoulder · Blubber Up (bought, 750 + 1,000 meat)
-  · **Pastamastery (P)** · **Cannelloni Cocoon (P)**.
-  ⚠️ **Cocoon costs 20 MP and max MP is 4** — unusable for many levels yet. HP recovery is
-  **Medicinal Herb's medicinal herbs (item 1274, 100 meat, guildstore3 row 536)** for now; ~8 left.
-- **Equipment:** astral bludgeon (**2-handed** — blocks the off-hand, so the enchanted brass knuckles
-  sit unused).
-- **Day 1: 43 fights, 0 losses, 0 heals needed.**
+- **LEVEL 4 Seal Clubber.** Base Mus **22** / Mys 7 / Mox 7. **HP 38, MP 7.** **Meat 2,162. adv 18 banked.**
+  full 15, drunk 17 (cap **14** + overdrink), **spleen 8/15**. **Ronin: 871 turns left.**
+- **Quests done:** guild membership · *When Rocks Attack* · *My Other Car Is Made of Meat* (**meatcar built in
+  0 adventures** from Hagnk's parts) · mosquito larva · *Ooh, I Think I Smell a Rat* (Tavern cellar).
+- **Only Council quest left: the Boss Bat** (Bat Hole, Nearby Plains).
+- **Skills:** Seal Clubbing Frenzy · Clobber · Lunge Smack · Fortitude of the Muskox · Hibernate ·
+  Audacity of the Otter · Cold Shoulder · Blubber Up · **Wrath of the Wolverine · Thrust-Smack** (L4, 750 ea)
+  · **Pastamastery (P)** · **Cannelloni Cocoon (P)** *(still unusable — 20 MP vs a 7 MP pool)*.
+- **Equipment:** astral bludgeon (2-handed) · ring of half-assed regeneration.
+  ⚠️ **Baron von Ratsworth's monocle is unwearable** — needs 10 base Mysticality, this class has 7.
+- **Unlocked:** Desert Beach (Bordertown, The Shore, South of the Border), Degrassi Knoll (`knoll_hostile`).
+- **Day 2: ~70 fights, 6 losses** (4 of them to Baron von Ratsworth, 2 to a bad heal threshold).
 
-### 🔓 CAPS & SKILLS THIS RUN — the authority for both
+### 🔓 CAPS & SKILLS THIS RUN — the authority for all three meters
 
-- **Booze cap = 14** (default liver; Liver of Steel was lost on ascension and must be re-earned via the
-  Azazel quest to reach 19). Verified in the charpane this run.
-- **Fullness cap = 15.**
-- **Permed skills that carried in (both usable cross-class): Pastamastery, Cannelloni Cocoon.**
-  ✅ **Nothing was lost in the class change.** (An earlier note claimed *Subtle and Quick to Anger* had been
-  permed and failed to carry — that was a **parser artifact**: the skill-list regex let the last entry
-  swallow the `(P) = Permanent skill` legend, so whatever sat last always read as permed. Only Pastamastery
-  was ever permed; see `mechanics/ascension.md` § "Counting (P) markers".)
+- **Booze cap 14** (default liver — Liver of Steel was lost on ascension and must be re-earned via the Azazel
+  quest). **Fullness cap 15.** **Spleen cap 15** — a third meter; see below.
+- **Permed and confirmed working cross-class: Pastamastery, Cannelloni Cocoon.**
 - **Karma banked: ~102.**
 
-### 🎒 Hagnk's / Ronin budget
+### 🫀 Healing on this class — spleen, not skills
 
-- **Storage holds run #2's whole estate (538 item types) + ~954 meat** (8,000 was withdrawn on day 1).
-- ⚠️ **20 pulls/day, and only ONE of each distinct item per day.** Meat costs 1 slot per 1,000.
-- Day-1 spend: 8,000 meat (8 slots) + 6 booze pulls.
+**Medicinal Herb's medicinal herbs (item 1274)**, guildstore3 row 536, 100 meat, heals **~22 HP for 1 spleen**.
+🐛 **Use `inv_spleen.php`, NOT `inv_use.php`** — the latter says *"not implemented yet"*, which cost two lost
+fights before I noticed. Keep ~10 in stock and **heal at 60–70% HP, not 35%** (no in-combat heal on this class).
 
 ---
 
 ## 🔜 Next-session priorities
 
-> **19 adventures banked + the new day's allowance.**
-> (1) **Re-visit Torg every level** — `guild.php?place=trainer`, POST `action=buyskill&skillid=<short id>`.
->     L4 unlocks **Wrath of the Wolverine / Thrust-Smack** (~500–1,000 meat). This was a documented blind
->     spot last run; don't repeat it.
-> (2) **Open quests:** *My Other Car Is Made of Meat* (guild meatcar — parts at **Degrassi Knoll**, talk to
->     Olaf at `guild.php?place=paco`) and *When Rocks Attack* (buy Pungent Unguent for the injured Knob
->     Goblin). The Council chain restarts from the top — `mechanics/` quest walkthroughs still apply.
-> (3) **Level up in snarf 114** (Outskirts of Cobb's Knob) — 43W/0L there at L2–3 on plain weapon attacks.
->     Move on when the win rate or the stat gain collapses (`mechanics/leveling-zones.md`).
-> (4) **Keep filling `mechanics/seal-clubber-class.md`** as the class reveals itself — especially **how Fury
->     actually works in combat**, which is still unmeasured.
-> **DRINK LAST — cap is 14 this run.** Storage's 1-per-day rule means the rack must be **five different
-> bottles** (gin 237 + vodka 238 + rum 787 + boxed wine 1005 = 12, + popskull 1774 = 14), then ONE
-> overdrink, then STOP.
+> **18 adventures banked + the new day's allowance.**
+> (1) 🦇 **The Boss Bat** is the only Council quest left. `mechanics/bat-hole-boss-bat.md` applies, but its
+>     "Springy Fusilli makes it trivial" advice is **caster-specific** — re-derive for Muscle. The Bat Hole
+>     needs **sonar-in-a-biscuit** to open walls; check Hagnk's before buying (storage had 5+ last run).
+> (2) **Torg every level** — `guild.php?place=trainer`, POST `action=buyskill&skillid=<short id>`.
+>     L5 unlocks **Buoyancy of the Beluga / Super-Advanced Meatsmithing**.
+> (3) **Restock herbs** (guildstore3 row 536) before any hard fight, and remember spleen caps at 15/day.
+> (4) **Keep filling `mechanics/seal-clubber-class.md`** — still unmeasured: **how Fury actually accumulates
+>     and what spends it** (the status API shows `fury` climbing; it was 3 at day's end).
+> (5) A **familiar** would help a lot and I have an empty Familiar-Gro Terrarium — a second mosquito larva
+>     from the Spooky Forest (~16 turns) is the cheapest source.
+> **DRINK LAST — cap 14.** Booze that DROPS into inventory (the tavern cellar gives gin/vodka/rum/whiskey/wine)
+> is **not** pull-limited, so the rack is easier than day 1: 4 × 3-potency + 1 × 2 = 14, then ONE overdrink.
 
 ---
 
 ## 🗓️ Session log (this run)
+
+- **Run #3 Day 2 (2026-08-29): four quests closed; only the Boss Bat left. Level 3 → 4.**
+  Cleared *When Rocks Attack* (30-meat unguent, 1 turn), then **built the bitchin' meatcar in ZERO adventures**
+  by pulling an already-assembled **meat engine** + tires from Hagnk's and buying **sweet rims from the General
+  Store for 300 meat** (the Hermit route needs a permit — `meatcar-build.md` corrected). Larva from the Spooky
+  Forest → Council. Then the Tavern cellar, which taught two things the hard way:
+  🫀 **spleen is a THIRD consumption meter** — *Medicinal Herb's medicinal herbs* heal ~22 HP but only via
+  **`inv_spleen.php`**; `inv_use.php` calls them "not implemented", and I fought at 1 HP and lost twice before
+  spotting it. 🐛 **The rat-faucet square never leaves the explorable list and "leave it alone" costs no
+  adventure**, so a naive `spots[0]` loop span 15 times for 2 turns of progress. Killed **Baron von Ratsworth**
+  (4 losses first), turned the faucet off, closed the quest. Also learned the class pool is called
+  **"Muscularity Points"** (Clobber 0 / Lunge Smack 1 / Thrust-Smack 3) — a 7-point pool is ample, not starved.
+  New doc: **`mechanics/tavern-rat-quest.md`**.
 
 - **Run #3 Day 1 (2026-08-29): Joined the Brotherhood of the Smackdown; Level 1 → 3, 43W/0L.**
   Won guild membership with the **sausage-measuring challenge** (Outskirts of Cobb's Knob, snarf **114**,

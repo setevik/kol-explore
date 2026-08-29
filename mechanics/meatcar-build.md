@@ -3,6 +3,17 @@
 The "My Other Car Is Made of Meat" quest deliverable. Pure in-inventory meatpasting — **no Untinker needed**
 (that was the old wrong blocker).
 
+## ⚠️ Out of meat paste? Make it — and mind the `<select>`
+
+`craft.php?mode=combine` offers **Make: meat paste (10 Meat) / meat stack (100) / dense meat stack (1000)**.
+POST `craft.php` with **`action=makepaste`, `qty=<n>`, and `whichitem=25`** (25 = meat paste, 88 = meat stack,
+258 = dense meat stack).
+🐛 **`whichitem` lives in a `<select>`, not an `<input>`** — a form parser that only reads `<input name=…>`
+misses it entirely, and the POST then silently no-ops (no error, no meat spent). **Scrape `<select>` options
+too when mapping any KoL form.**
+⚠️ In Ronin this matters: storage holds plenty of meat paste but you may pull only **one per day**, so a
+multi-step craft chain has to manufacture the rest.
+
 ## ⚠️ The key fix: crafting needs `action=craft`
 Meatpaste/combine via fetch URL:
 ```
@@ -14,7 +25,10 @@ consumes **1 meat paste (item 25)** automatically + the two inputs.
 ## Part item IDs (verified)
 - meat paste = **25**  · meat stack = **88** (NOT dense meat stack 258 — wrong item, recipe needs regular)
 - spring = **118** · sprocket = **119** · cog = **120** · empty meat tank = **124**
-- sweet rims = **135** (from the Hermit: trade 1 Worthless item) · tires = **136**
+- **sweet rims = 135 — just BUY them: General Store row 653, 300 meat.** ⭐ Simpler than the Hermit route,
+  which needs a **hermit permit** (General Store row 652, 100 meat) *and* a worthless item; without the permit
+  `hermit.php` only shows *"Hermit Permit required, pursuant to Seaside Town Ordinance #3769"*.
+- tires = **136**
 
 ## Assembly chain (each step = one `action=craft` combine; result IDs verified by inventory diff)
 1. meat stack (88) + empty meat tank (124) → **Full Meat Tank (125)**

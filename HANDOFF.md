@@ -473,6 +473,21 @@ walkthroughs in `mechanics/*-quest.md`, Ronin/pull rules, the drinking algorithm
 ⭐ **Guild stores are keyed to the stat group, not the class:** `guildstore1` Moxie · `guildstore2`
 Mysticality · `guildstore3` Muscle. Wrong shop ⇒ *"Uh Oh! Only … may shop here."*
 
+## 🫀 There is a THIRD consumption meter: SPLEEN
+
+Alongside `full` (food) and `drunk` (booze), `api.php?what=status` reports **`spleen`**. Spleen items are
+consumed through their **own endpoint** and count against their own daily cap (**15** by default).
+
+- **Use a spleen item: `inv_spleen.php?which=3&whichitem=<id>&pwd=<hash>&ajax=1`.**
+  🐛 **`inv_use.php` on a spleen item returns *"This item is not implemented yet. Try again later."*** — which
+  reads like a broken item rather than the wrong verb. If an item refuses to `inv_use` with that message,
+  **check the inventory row for an `inv_spleen.php` link** before concluding it's unusable.
+- ✅ **Spleen items are a real HP/MP battery, especially for classes with no heal skill.**
+  **Medicinal Herb's medicinal herbs (item 1274)** — the Muscle guild store's 100-meat staple — heals **~22 HP
+  for 1 spleen**, i.e. roughly a full heal at low level, ~15 times a day.
+- ⚠️ **It is a capped daily resource like the other two.** Don't burn spleen on trivial top-ups if a hard fight
+  is coming, and note that some stat/effect items also cost spleen.
+
 ## HARD RULES (do every session)
 
 1. **Order is EAT → ADVENTURE → DRINK.** Both meters are mandatory — never wrap a day with an unused `full` (0/15)

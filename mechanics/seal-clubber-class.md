@@ -3,16 +3,22 @@
 > Run-agnostic. Companion to `pastamancer-class.md`. Covers the guild, the skill tree, the class resource,
 > and the early combat standard. Current-run skill/meat state lives in `CURRENT_ASCENSION.md`.
 
-## 🥊 The class resource is FURY, not MP
+## 🥊 The class resource: "Muscularity Points" (+ Fury) — NOT a caster's MP pool
 
 🚨 **This is the single biggest difference from a caster and it is easy to misdiagnose.** A fresh Seal Clubber
-has **max MP 1** (Mysticality 1), and it stays tiny — at Level 3 with base Mus 14 it was still only **MP 4**.
-Do **not** read that as "MP-starved"; the class simply doesn't run on MP.
+has **max MP 1** (Mysticality 1) and it stays tiny — **MP 7 at Level 4**. Do **not** read that as "MP-starved".
+
+✅ **Refinement (read the combat page, not the charpane):** the fight screen labels the pool
+**"Muscularity Points"**, and Seal Clubber skills are priced to match — measured:
+**Clobber 0 MP · Lunge Smack 1 · Thrust-Smack 3.** So the class *does* spend MP; the costs are simply an order
+of magnitude smaller than a caster's, which is why a 7-point pool is fine. `api.php?what=status` also exposes a
+**`fury`** field that fills during combat and feeds the higher-tier skills.
 
 - `api.php?what=status` exposes a **`fury`** field (Pastamancers have `pastathrall` in the same slot-ish role).
   Fury is built in combat and spent on the class's big attacks.
 - ⇒ **Do not port the caster MP-economy playbook here.** The whole `topMP` ladder, "keep MP topped", and
   "Mortar → Cannelloni" combat standard in `HANDOFF.md` are Mysticality-class advice and **do not apply**.
+  The Muscle equivalent of "keep MP topped" is **keep HP topped** — see the spleen note below.
 - ⇒ **A permed `Cannelloni Cocoon` (20 MP) is unusable for the first several levels** on this class even
   though it carries over. Plan HP recovery around **items** early on.
 
@@ -99,6 +105,36 @@ sturdier at this stage than a caster (whose max HP ≈ base Muscle + 3 and who l
 
 ⚠️ **The astral bludgeon is TWO-HANDED** — it blocks off-hand items, so the Smacketeria's *enchanted brass
 knuckles* cannot be worn alongside it. Pick one.
+
+⚠️ **Mysticality-gated gear is dead weight on this class.** *Baron von Ratsworth's monocle* (the Tavern-cellar
+reward, +item drop) needs **10 base Mysticality**; a Seal Clubber at Level 4 has **7** and gains Mys very slowly.
+Check an item's stat requirement before planning around it.
+
+## Early quest notes (Muscle-class specifics)
+
+- **Degrassi Knoll arrives as `place.php?whichplace=knoll_hostile`** — bugbear-occupied, with four zones
+  (Restroom 351 · Bakery 352 · Gym 353 · Garage 354) instead of friendly shops. Which version you get is
+  **moon-sign dependent**, so a run under a different sign may see the peaceful Knoll.
+- ✅ **The meatcar can be built in ZERO adventures out of Hagnk's**, if a previous run left parts there — pull
+  a **meat engine (126)** and **tires (136)**, buy **sweet rims (135)** from the General Store for 300 meat,
+  and craft twice. See `meatcar-build.md`.
+- ⚠️ **Baron von Ratsworth is a real fight at Level 4** — 5 encounters, 4 of them losses, before he dropped the
+  monocle. Enter him at full HP with spleen herbs in reserve.
+
+## 🩹 Healing without a heal skill — spleen is the answer
+
+A low-level Muscle class has **no heal skill and no MP to cast one**, so HP is restored with **items**, and the
+staple is a **spleen** item:
+**Medicinal Herb's medicinal herbs (item 1274)**, guildstore3 row 536, **100 meat**, heals **~22 HP for 1 spleen**
+(≈ a full heal at Level 4). 🐛 **It is used with `inv_spleen.php`, NOT `inv_use.php`** — the latter answers
+*"This item is not implemented yet"*, which looks like a broken item. See `HANDOFF.md` § spleen.
+
+⚠️ **Set the heal threshold HIGH (~60–70% of max HP), not the caster's 35%.** With no in-combat heal, a lost
+fight costs the turn *and* leaves you Beaten Up. A cellar run at a 45% threshold went 12W/**2L**; the same zone
+at 60–70% with working herbs went 15W/**0L**.
+⚠️ **Never build a heal loop that falls back to `campground.php?action=rest`** — resting costs an adventure and
+only returns ~10 HP, so an unbounded "heal until healthy" loop quietly eats the day. Bound the attempts and use
+items only.
 
 ## Food & booze at low level (class-independent but bites hardest here)
 
