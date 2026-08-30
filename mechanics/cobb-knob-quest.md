@@ -118,6 +118,12 @@ If you try the throne room with **only the Harem outfit (no perfume)** or **only
 
 ## Treasury Disguise Exploits (bonus finding)
 
+🔁 **The Treasury salary is ONCE PER DAY, and afterwards it becomes a FREE repeating encounter.** Once paid,
+every further visit returns *"little lady, you've already been paid once today"* — which **costs no adventure**,
+so a farm loop pointed at snarf 260 in the harem disguise **spins forever without spending a turn**. Guard every
+loop with an adventure-counter check (see `HANDOFF.md` § "A loop MUST verify the adventure counter actually
+moved"), and move to another zone once the salary is collected.
+
 Wearing the Harem outfit in **Cobb's Knob Treasury** (snarfblat 260) triggers a disguise-specific non-combat:
 
 > "It's nice to see you, baby, but couldn't you have waited until I was finished counting?"

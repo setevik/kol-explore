@@ -473,6 +473,35 @@ walkthroughs in `mechanics/*-quest.md`, Ronin/pull rules, the drinking algorithm
 ⭐ **Guild stores are keyed to the stat group, not the class:** `guildstore1` Moxie · `guildstore2`
 Mysticality · `guildstore3` Muscle. Wrong shop ⇒ *"Uh Oh! Only … may shop here."*
 
+## 🔁 A loop MUST verify the adventure counter actually moved
+
+🚨 **The most expensive engine bug in this project keeps recurring in new costumes.** Several encounters
+**cost no adventure and repeat forever**, so a loop that keeps re-entering the same zone spins indefinitely
+while *looking* busy:
+
+- the **rat faucet** in the Tavern cellar (*"Leave it alone"* is free, and the square never leaves the list);
+- the **Treasury harem-girl salary** once you have already been paid today (*"little lady, you've already been
+  paid once today"*);
+- **falling-down drunk** (every zone returns a free-ish Drunken Stupor — see HARD RULE 1);
+- any **one-time intro noncombat** you re-trigger before answering it.
+
+✅ **The universal guard — snapshot `adventures` before and after each iteration:**
+```js
+const before = await ST(tag);
+… do the encounter …
+const after  = await ST(tag+'x');
+if (+after.adventures >= +before.adventures) {      // no turn was spent
+  free++;                                            // 2 in a row ⇒ the zone is not consuming turns
+  if (free >= 2) { abort('zone returning FREE encounters — change zone or answer the blocker'); }
+}
+```
+This catches **every** variant at once, including ones not listed here, and it is far more reliable than
+special-casing each choice number. **Bake it into the standard burst helper rather than adding it after
+the fact.**
+
+⚠️ Related tell: a burst reporting *N iterations* but **empty monster map, empty item map, and an unchanged
+adventure count** is always this bug — see the Drunken Stupor note in HARD RULE 1.
+
 ## 🫀 There is a THIRD consumption meter: SPLEEN
 
 Alongside `full` (food) and `drunk` (booze), `api.php?what=status` reports **`spleen`**. Spleen items are
@@ -487,6 +516,10 @@ consumed through their **own endpoint** and count against their own daily cap (*
   for 1 spleen**, i.e. roughly a full heal at low level, ~15 times a day.
 - ⚠️ **It is a capped daily resource like the other two.** Don't burn spleen on trivial top-ups if a hard fight
   is coming, and note that some stat/effect items also cost spleen.
+- 🚨 **When it runs out, your healing stops dead** — *"Your spleen can't handle any more toxins today."*
+  On a class whose only heal is a spleen item this ends the day's fighting, and a heal helper will then
+  silently no-op. ✅ **Make the healer return failure when the item can't be consumed, and have the caller
+  fall back to `campground.php?action=rest` (1 adventure, ~10 HP) or stop** — never let it loop.
 
 ## HARD RULES (do every session)
 

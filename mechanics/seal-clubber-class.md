@@ -110,6 +110,22 @@ knuckles* cannot be worn alongside it. Pick one.
 reward, +item drop) needs **10 base Mysticality**; a Seal Clubber at Level 4 has **7** and gains Mys very slowly.
 Check an item's stat requirement before planning around it.
 
+## ⚠️ Zone difficulty is spikier than a caster's at the same level
+
+Measured at **Level 5, base Mus 27, 45 max HP**, on plain weapon attacks:
+
+| Zone | Result |
+|---|---|
+| Outskirts of Cobb's Knob (114) | **14W/0L**, no healing needed |
+| Cobb's Knob Treasury (260) | **20W/0L** |
+| Bat Hole — Batrat Burrow (32) | **15W/1L** |
+| **Cobb's Knob Harem (259)** | **9W/9L** ⚠️ |
+
+The Harem's **Knob Goblin Harem Guards** are far above the rest of the Knob at this level. It still has to be
+farmed for the disguise (veil + pants + perfume all dropped in 18 turns), but **budget healing for a ~50% loss
+rate and get out once the outfit is complete** — don't use it as a leveling zone. This is
+`leveling-zones.md`'s "pick by WIN RATE, not ML" rule biting on a Muscle class.
+
 ## Early quest notes (Muscle-class specifics)
 
 - **Degrassi Knoll arrives as `place.php?whichplace=knoll_hostile`** — bugbear-occupied, with four zones

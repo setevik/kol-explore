@@ -29,55 +29,61 @@ Disco Bandit · Accordion Thief.
 
 ---
 
-## 📊 Character state (end of run #3 Day 2 / 2026-08-29)
+## 📊 Character state (end of run #3 Day 3 / 2026-08-30)
 
-- **LEVEL 4 Seal Clubber.** Base Mus **22** / Mys 7 / Mox 7. **HP 38, MP 7.** **Meat 2,162. adv 18 banked.**
-  full 15, drunk 17 (cap **14** + overdrink), **spleen 8/15**. **Ronin: 871 turns left.**
-- **Quests done:** guild membership · *When Rocks Attack* · *My Other Car Is Made of Meat* (**meatcar built in
-  0 adventures** from Hagnk's parts) · mosquito larva · *Ooh, I Think I Smell a Rat* (Tavern cellar).
-- **Only Council quest left: the Boss Bat** (Bat Hole, Nearby Plains).
-- **Skills:** Seal Clubbing Frenzy · Clobber · Lunge Smack · Fortitude of the Muskox · Hibernate ·
-  Audacity of the Otter · Cold Shoulder · Blubber Up · **Wrath of the Wolverine · Thrust-Smack** (L4, 750 ea)
-  · **Pastamastery (P)** · **Cannelloni Cocoon (P)** *(still unusable — 20 MP vs a 7 MP pool)*.
-- **Equipment:** astral bludgeon (2-handed) · ring of half-assed regeneration.
-  ⚠️ **Baron von Ratsworth's monocle is unwearable** — needs 10 base Mysticality, this class has 7.
-- **Unlocked:** Desert Beach (Bordertown, The Shore, South of the Border), Degrassi Knoll (`knoll_hostile`).
-- **Day 2: ~70 fights, 6 losses** (4 of them to Baron von Ratsworth, 2 to a bad heal threshold).
+- **LEVEL 5 Seal Clubber.** Base Mus **28**. **HP 47, MP 8.** **Meat 460. adv 21 banked.**
+  full 15, drunk 17 (cap **14** + overdrink), **spleen 15/15 — EXHAUSTED**. **Ronin: ~820 turns left.**
+- ✅ **Boss Bat dead** (2 rounds at full HP). Bat Hole fully open.
+- ▶ **Current Council quest: "The Goblin Who Wouldn't Be King"** — Cobb's Knob is **open** (map decoded with
+  the encryption key). Zones: Barracks 257 · Kitchens 258 · Harem 259 · Treasury 260.
+- 🎭 **Harem disguise COMPLETE and equipped** (veil + pants) **+ Knob Goblin perfume in hand** — that is the
+  full kit the Goblin King throne room requires. Also hold **Cobb's Knob lab key**.
+- **Skills:** + **Buoyancy of the Beluga** (L5, 1,250). Torg still owes Super-Advanced Meatsmithing at L5.
+- **Equipment:** astral bludgeon (2-handed) · ring of half-assed regeneration · harem veil + pants.
+- **Day 3: ~70 fights, 11 losses** (9 of them in the Harem — see the zone table in the class doc).
 
-### 🔓 CAPS & SKILLS THIS RUN — the authority for all three meters
+### 🫀 The three meters — all three matter on this class
 
-- **Booze cap 14** (default liver — Liver of Steel was lost on ascension and must be re-earned via the Azazel
-  quest). **Fullness cap 15.** **Spleen cap 15** — a third meter; see below.
-- **Permed and confirmed working cross-class: Pastamastery, Cannelloni Cocoon.**
-- **Karma banked: ~102.**
-
-### 🫀 Healing on this class — spleen, not skills
-
-**Medicinal Herb's medicinal herbs (item 1274)**, guildstore3 row 536, 100 meat, heals **~22 HP for 1 spleen**.
-🐛 **Use `inv_spleen.php`, NOT `inv_use.php`** — the latter says *"not implemented yet"*, which cost two lost
-fights before I noticed. Keep ~10 in stock and **heal at 60–70% HP, not 35%** (no in-combat heal on this class).
+**Fullness 15 · Booze cap 14 · SPLEEN 15.** The spleen cap is the one that bit today: **Medicinal Herb's
+medicinal herbs are the only healing this class has, and they cost 1 spleen each**, so healing is hard-capped
+at ~15 heals/day and then simply stops (*"Your spleen can't handle any more toxins today"*). Budget it:
+save spleen for hard zones, and fall back to `campground.php?action=rest` (1 adv, ~10 HP) once it's spent.
 
 ---
 
 ## 🔜 Next-session priorities
 
-> **18 adventures banked + the new day's allowance.**
-> (1) 🦇 **The Boss Bat** is the only Council quest left. `mechanics/bat-hole-boss-bat.md` applies, but its
->     "Springy Fusilli makes it trivial" advice is **caster-specific** — re-derive for Muscle. The Bat Hole
->     needs **sonar-in-a-biscuit** to open walls; check Hagnk's before buying (storage had 5+ last run).
-> (2) **Torg every level** — `guild.php?place=trainer`, POST `action=buyskill&skillid=<short id>`.
->     L5 unlocks **Buoyancy of the Beluga / Super-Advanced Meatsmithing**.
-> (3) **Restock herbs** (guildstore3 row 536) before any hard fight, and remember spleen caps at 15/day.
-> (4) **Keep filling `mechanics/seal-clubber-class.md`** — still unmeasured: **how Fury actually accumulates
->     and what spends it** (the status API shows `fury` climbing; it was 3 at day's end).
-> (5) A **familiar** would help a lot and I have an empty Familiar-Gro Terrarium — a second mosquito larva
->     from the Spooky Forest (~16 turns) is the cheapest source.
-> **DRINK LAST — cap 14.** Booze that DROPS into inventory (the tavern cellar gives gin/vodka/rum/whiskey/wine)
-> is **not** pull-limited, so the rack is easier than day 1: 4 × 3-potency + 1 × 2 = 14, then ONE overdrink.
+> **21 adventures banked + the new day's allowance.**
+> (1) 👑 **THE GOBLIN KING — the kit is already assembled.** Harem veil + pants equipped, perfume in hand.
+>     Read `mechanics/cobb-knob-quest.md` first: the throne room is
+>     **`cobbsknob.php?action=throneroom`**, and the documented failure mode is **losing initiative and being
+>     one-shot** — the caster fix was Springy Fusilli, so **find the Muscle equivalent or just go in at full
+>     HP with high Muscle**. Enter at FULL HP with spleen herbs unspent.
+> (2) **Torg every level** (`guild.php?place=trainer`). Still unbought at L5: **Super-Advanced Meatsmithing**.
+>     L6 unlocks **Scowl of the Auk / Thirst of the Weasel**.
+> (3) ⚠️ **Meat is low (460).** The **Treasury (260) is 20W/0L and meat-positive** — but the harem salary is
+>     **once/day and then becomes a FREE repeating encounter**, so use the adventure-counter guard.
+> (4) **At Level 6, stolen sushi unlocks** — storage holds **55**, and at 1 pull/day that is one good 6-fullness
+>     food every day instead of fifteen 1-adventure fillers. Big EAT upgrade.
+> (5) **Still unmeasured for the class doc: how Fury accumulates and what spends it.**
+> **DRINK LAST — cap 14**, then STOP. Cellar/Knob booze drops into inventory (not pull-limited); a
+> 4 × 3-potency + 1 × 2-potency rack lands exactly on 14.
 
 ---
 
 ## 🗓️ Session log (this run)
+
+- **Run #3 Day 3 (2026-08-30): 🦇 Boss Bat dead; Cobb's Knob open; Level 4 → 5.**
+  Sonar from storage opened wall 1, a **screambat** took wall 2 on its own, and the Batrat Burrow dropped
+  **3 more sonars** — so the Bat Hole never needed the 3-day pull budget my notes feared. **Boss Bat killed in
+  2 rounds** at full HP. Decoded the Knob map with the day-1 encryption key, then farmed the **Harem (9W/9L —
+  brutal at this level)** for the **full harem disguise + perfume**, and took the Treasury salary.
+  🫀 **Hit the SPLEEN CAP mid-day** — herbs are this class's only healing at 1 spleen each, so healing simply
+  stopped at 15 (*"your spleen can't handle any more toxins today"*). Now documented as the third meter.
+  🔁 **Walked into the free-repeating-encounter trap for the SECOND day running** — yesterday the rat faucet,
+  today the Treasury's "you've already been paid once today", which cost 16 loop iterations and zero turns.
+  Fixed properly this time: the burst helper now **compares the adventure counter before/after and aborts
+  after 2 free encounters**, which catches every variant at once. Finished 14W/0L in the Outskirts.
 
 - **Run #3 Day 2 (2026-08-29): four quests closed; only the Boss Bat left. Level 3 → 4.**
   Cleared *When Rocks Attack* (30-meat unguent, 1 turn), then **built the bitchin' meatcar in ZERO adventures**
