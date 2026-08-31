@@ -29,49 +29,64 @@ Disco Bandit · Accordion Thief.
 
 ---
 
-## 📊 Character state (end of run #3 Day 3 / 2026-08-30)
+## 📊 Character state (end of run #3 Day 4 / 2026-08-31)
 
-- **LEVEL 5 Seal Clubber.** Base Mus **28**. **HP 47, MP 8.** **Meat 460. adv 21 banked.**
-  full 15, drunk 17 (cap **14** + overdrink), **spleen 15/15 — EXHAUSTED**. **Ronin: ~820 turns left.**
-- ✅ **Boss Bat dead** (2 rounds at full HP). Bat Hole fully open.
-- ▶ **Current Council quest: "The Goblin Who Wouldn't Be King"** — Cobb's Knob is **open** (map decoded with
-  the encryption key). Zones: Barracks 257 · Kitchens 258 · Harem 259 · Treasury 260.
-- 🎭 **Harem disguise COMPLETE and equipped** (veil + pants) **+ Knob Goblin perfume in hand** — that is the
-  full kit the Goblin King throne room requires. Also hold **Cobb's Knob lab key**.
-- **Skills:** + **Buoyancy of the Beluga** (L5, 1,250). Torg still owes Super-Advanced Meatsmithing at L5.
-- **Equipment:** astral bludgeon (2-handed) · ring of half-assed regeneration · harem veil + pants.
-- **Day 3: ~70 fights, 11 losses** (9 of them in the Harem — see the zone table in the class doc).
+- **LEVEL 5 Seal Clubber.** Base Mus **33** / Mys 13 / **Mox 13**. **HP 54, MP 13.** **Meat 1,670. adv 19 banked.**
+  full 15, drunk 17 (cap **14** + overdrink), spleen 9/15. **Ronin: 723 turns left.**
+- ▶ **Council quest: "The Goblin Who Wouldn't Be King"** — ⚠️ **ATTEMPTED AND LOST.** The King is
+  **Init 100 / ~45 damage per hit**; he took 50 HP → 5 in round one. This class has **no initiative buff**.
+- 🎽 **Full Elite Guard Uniform held** (helm + pants + polearm) — ⚠️ **helm and pants need 15 base MOXIE and I
+  have 13.** Two points away. Harem disguise also held, but the **perfume is used up** (1-adventure duration).
+- **Skills:** + nothing new today. ⭐ **Discovered `Hibernate` (1027): 1 ADVENTURE = full HP + clears Beaten Up**
+  — no MP, no spleen. Strictly better than campground rest; it is this class's real healer.
+- **Day 4: ~70 fights, 9 losses** (the King, plus a bad Kitchens detour at 11W/7L).
 
-### 🫀 The three meters — all three matter on this class
+### 🔓 CAPS & SKILLS — the authority
 
-**Fullness 15 · Booze cap 14 · SPLEEN 15.** The spleen cap is the one that bit today: **Medicinal Herb's
-medicinal herbs are the only healing this class has, and they cost 1 spleen each**, so healing is hard-capped
-at ~15 heals/day and then simply stops (*"Your spleen can't handle any more toxins today"*). Budget it:
-save spleen for hard zones, and fall back to `campground.php?action=rest` (1 adv, ~10 HP) once it's spent.
+**Fullness 15 · Booze cap 14 · Spleen 15.** Permed and working cross-class: **Pastamastery, Cannelloni Cocoon**
+(Cocoon still unusable — 20 MP vs a 13 MP pool). **Karma banked ~102.**
+
+### 🍽️ Feed yourself from Hagnk's, not the General Store
+
+Filling all 15 fullness cost **zero meat** today by pulling **16 distinct low-level foods** from storage
+(one of each per day is plenty when storage holds 108 food types). Ids that worked at L5:
+`49 · 672 · 244 · 332 · 333 · 786 · 245 · 455 · 303 · 322 · 589 · 161`.
+⚠️ At **Level 6, stolen sushi (6293) unlocks** — storage has ~55, so that becomes 6 fullness from one pull.
 
 ---
 
 ## 🔜 Next-session priorities
 
-> **21 adventures banked + the new day's allowance.**
-> (1) 👑 **THE GOBLIN KING — the kit is already assembled.** Harem veil + pants equipped, perfume in hand.
->     Read `mechanics/cobb-knob-quest.md` first: the throne room is
->     **`cobbsknob.php?action=throneroom`**, and the documented failure mode is **losing initiative and being
->     one-shot** — the caster fix was Springy Fusilli, so **find the Muscle equivalent or just go in at full
->     HP with high Muscle**. Enter at FULL HP with spleen herbs unspent.
-> (2) **Torg every level** (`guild.php?place=trainer`). Still unbought at L5: **Super-Advanced Meatsmithing**.
->     L6 unlocks **Scowl of the Auk / Thirst of the Weasel**.
-> (3) ⚠️ **Meat is low (460).** The **Treasury (260) is 20W/0L and meat-positive** — but the harem salary is
->     **once/day and then becomes a FREE repeating encounter**, so use the adventure-counter guard.
-> (4) **At Level 6, stolen sushi unlocks** — storage holds **55**, and at 1 pull/day that is one good 6-fullness
->     food every day instead of fifteen 1-adventure fillers. Big EAT upgrade.
-> (5) **Still unmeasured for the class doc: how Fury accumulates and what spends it.**
-> **DRINK LAST — cap 14**, then STOP. Cellar/Knob booze drops into inventory (not pull-limited); a
-> 4 × 3-potency + 1 × 2-potency rack lands exactly on 14.
+> **19 adventures banked + the new day's allowance.**
+> (1) ⭐ **GRIND THE BARRACKS (snarfblat 257) TO MOXIE 15.** It is the best zone at this level
+>     (**36W/2L** across two sessions), it drops the guard uniform, and **its monsters feed Moxie**
+>     (7 → 13 in ~38 turns). Two more points unlocks the elite helm + pants.
+> (2) 👑 **Then Path B for the King:** wear the **full Elite Guard Uniform** → farm **Kitchens (258)** for the
+>     **Knob cake pan** noncombat + **Knob batter** + **Knob frosting** → craft the cake → throne room
+>     (`cobbsknob.php?action=throneroom`). ⚠️ The Kitchens were **11W/7L without the uniform** — do NOT go back
+>     in until the armour is on. Re-equip the **astral bludgeon** afterwards (the polearm is a downgrade).
+> (3) 🚫 **Unequip a quest disguise when leaving its zone.** The harem dress in the Barracks gives
+>     **"No Girls Allowed"** — free, repeating, turn-consuming-nothing.
+> (4) **Heal with Hibernate (skill 1027), not campground rest.** Herbs first (spleen is free of adventures),
+>     Hibernate once spleen caps.
+> (5) **At Level 6: pull stolen sushi** for the food meter, and buy the L6 skills at Torg
+>     (Scowl of the Auk / Thirst of the Weasel).
+> **DRINK LAST — cap 14**, then STOP. Knob zones drop **Cobb's Knob Wurstbrau** (2 potency) into inventory.
 
 ---
 
 ## 🗓️ Session log (this run)
+
+- **Run #3 Day 4 (2026-08-31): 👑 Goblin King attempted and LOST; Moxie 7 → 13 to unlock the armour.**
+  Ate all 15 fullness **for zero meat** by pulling 16 distinct foods from Hagnk's. ⭐ **Found `Hibernate`:
+  1 adventure for a FULL heal + Beaten Up cleared** — it had been in my skill list since Level 2 while I spent
+  yesterday resting for 10 HP a time. Then the King: **50 HP → 5 in round one** (Init 100, ~45 damage), which
+  is the documented failure mode with no initiative buff available to this class. Fell back to Path B and the
+  **Barracks (257) delivered the whole Elite Guard Uniform in 18 turns at 18W/0L** — but ⚠️ **helm and pants
+  need 15 base Moxie** and I had 7. Ground the Barracks for the rest of the day precisely because **its
+  monsters feed Moxie: 7 → 13**. Two points short. 🚫 Also met the free-encounter trap a third time
+  (**"No Girls Allowed"** — the harem dress blocks the Barracks); the guard built yesterday caught it after
+  two iterations instead of sixteen.
 
 - **Run #3 Day 3 (2026-08-30): 🦇 Boss Bat dead; Cobb's Knob open; Level 4 → 5.**
   Sonar from storage opened wall 1, a **screambat** took wall 2 on its own, and the Batrat Burrow dropped

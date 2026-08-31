@@ -120,11 +120,42 @@ Measured at **Level 5, base Mus 27, 45 max HP**, on plain weapon attacks:
 | Cobb's Knob Treasury (260) | **20W/0L** |
 | Bat Hole — Batrat Burrow (32) | **15W/1L** |
 | **Cobb's Knob Harem (259)** | **9W/9L** ⚠️ |
+| **Cobb's Knob Barracks (257)** | **36W/2L** ⭐ — best zone at this level; drops the guard uniform and feeds **Moxie** |
+| Cobb's Knob Kitchens (258) | **11W/7L** ⚠️ (without the guard uniform) |
 
 The Harem's **Knob Goblin Harem Guards** are far above the rest of the Knob at this level. It still has to be
 farmed for the disguise (veil + pants + perfume all dropped in 18 turns), but **budget healing for a ~50% loss
 rate and get out once the outfit is complete** — don't use it as a leveling zone. This is
 `leveling-zones.md`'s "pick by WIN RATE, not ML" rule biting on a Muscle class.
+
+## 👑 The Knob Goblin King — BOTH disguise paths are stat-gated for this class
+
+The King is **Init 100 · Attack 53**, and he opens by hitting for **~45**. Measured at Level 5 (Muscle 30,
+**50 max HP**, Seal Clubbing Frenzy + Blubber Up up): **50 HP → 5 in round one, dead in round two.**
+He acts first essentially always, and this class has **no initiative buff** (the caster's Springy Fusilli
+answer does not exist here).
+
+Both documented entry paths then hit a *second* wall:
+
+| Path | Requirement | Muscle-class problem |
+|---|---|---|
+| **A — Harem disguise + perfume** | Knob Goblin perfume, **lasts 1 adventure** | Single-use; farmed in the **Harem (259), a 9W/9L zone at L5.** And it only gets you *in* — the King still one-shots you. |
+| **B — Elite Guard Uniform + Knob cake** | elite helm + pants | ⚠️ **Both need 15 base MOXIE.** A Seal Clubber has ~7 at Level 5 and gains Moxie very slowly. |
+
+🎯 **The answer to both is the Barracks (snarfblat 257).** It drops the **whole uniform** (helm, pants,
+polearm — all three inside ~18 turns), runs **18W/0L at Level 5**, and — the important part — **its monsters
+feed MOXIE**: base Moxie went **7 → 13 in ~38 turns** there. Grind it until Moxie ≥ 15, wear the uniform, then
+go for the cake and the King with real armour on.
+
+⚠️ **The elite polearm is a downgrade** if you hold an astral bludgeon — it swaps in automatically when you
+equip the "uniform", so re-equip your real weapon afterwards.
+
+## 🚫 A disguise gates zones BOTH ways
+
+Wearing the **harem disguise** and walking into the **Barracks (257)** returns **"No Girls Allowed"** —
+a noncombat that **costs no adventure and repeats forever**, so a farm loop pointed there spins.
+(This was the third instance of that trap in three days; see `HANDOFF.md` § "A loop MUST verify the adventure
+counter actually moved".) **Unequip a quest disguise the moment you leave the zone it belongs to.**
 
 ## Early quest notes (Muscle-class specifics)
 
@@ -137,7 +168,21 @@ rate and get out once the outfit is complete** — don't use it as a leveling zo
 - ⚠️ **Baron von Ratsworth is a real fight at Level 4** — 5 encounters, 4 of them losses, before he dropped the
   monocle. Enter him at full HP with spleen herbs in reserve.
 
-## 🩹 Healing without a heal skill — spleen is the answer
+## ⭐ Hibernate (skill 1027) is the class's real healer — buy it at Level 2
+
+**`Hibernate` — Noncombat, costs 1 ADVENTURE (not MP), fully restores HP and removes Beaten Up.**
+✅ Measured: 2/33 HP → full, Beaten Up cleared, 1 adventure spent, **no MP and no spleen**.
+
+🎯 **It strictly dominates `campground.php?action=rest`**, which costs the same 1 adventure and returns only
+~10 HP. **Any heal-fallback in a loop should call Hibernate, never campground rest** — a burst that rested 11
+times to stay alive would have spent the same 11 adventures for ~10× the healing.
+
+⇒ **The healing ladder for this class:**
+1. **Medicinal Herb's medicinal herbs** (spleen, free of adventures) — use while spleen lasts;
+2. **Hibernate** (1 adventure, full heal) — once spleen is capped, or before a boss;
+3. campground rest — never, if Hibernate is known.
+
+## 🩹 The spleen route (use it first — it costs no adventures)
 
 A low-level Muscle class has **no heal skill and no MP to cast one**, so HP is restored with **items**, and the
 staple is a **spleen** item:

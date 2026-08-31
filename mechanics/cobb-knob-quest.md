@@ -79,9 +79,28 @@ Then craft at the cooking bench:
 
 Keep the cake in inventory (don't eat it!) and approach the throne room while wearing the Guard Uniform.
 
+## ⚠️ Both paths carry a hidden STAT gate — check before farming either
+
+The disguise is only half the requirement; each path also needs a stat you may not have:
+
+- **Path A (harem):** the **perfume lasts 1 adventure**, so it is single-use per attempt and must be re-farmed
+  from the Harem for every retry.
+- **Path B (guard):** ⚠️ **the elite helm and elite pants both require 15 base MOXIE.** A Muscle class can hold
+  the full uniform and still be unable to wear it (measured: base Moxie 7 at Level 5).
+
+✅ **The Barracks (257) solves both**: it drops the entire uniform, is the easiest Knob zone, and **its monsters
+raise Moxie** (7 → 13 in ~38 turns), so grinding there both equips you and unlocks the gate.
+
+🚫 **Do not enter the Barracks in the harem disguise** — it returns **"No Girls Allowed"**, a **free repeating
+noncombat that costs no adventure**, and a loop pointed at it will spin forever. Unequip first.
+
 ## The Goblin King Fight
 
 **Stats (wiki):** **HP 50 · Attack 53 · Defense 47 · No-Hit 63 · Initiative 100 · phylum goblin.**
+
+✅ **Measured opening damage: ~45 in round one**, and with **Initiative 100 he acts first essentially always.**
+That makes max HP the real entry requirement: **~50 max HP is NOT enough** (50 → 5 → dead). Either bring an
+initiative buff, enough max HP to eat two hits, or real damage absorption from armour.
 Drops: 2× dense meat stack, **Crown of the Goblin King** (or Glass Balls / Codpiece), + **Cobb's Knob lab key**.
 
 🧱 **⚠️ CORRECT PREP IS NOT ENOUGH IF YOU'RE SQUISHY (verified in-game — this attempt LOST).** With the **full Harem
