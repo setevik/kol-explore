@@ -404,6 +404,14 @@ carried ~40 max HP out of a championship fight and turned a 2-round win into thr
 ✅ **After any one-shot step, re-equip and then read `charsheet.php`'s Equipment block to confirm** — and
 before any boss/champion, verify max HP/MP match what you expect.
 
+🚨 **The exception: OUTFITS. "Swap back the moment the step is done" means AFTER the step, never during it.**
+An outfit's set bonus and — critically — any **disguise** it provides need **every piece worn at once**, and
+several outfit pieces are worse than your normal gear, which makes swapping one back very tempting. It breaks
+the disguise **silently**, and the failure surfaces later as a zone or boss refusing you. **Wear the complete
+set until its purpose is served, then re-derive the whole loadout slot by slot** (you lose the set bonus too,
+so it is not a piece-for-piece comparison). Full rule: `mechanics/equipment-strategy.md` § "Outfits are
+all-or-nothing".
+
 ## 💸 Check the unit price before bulk-buying a commodity
 
 Mall prices on common restoratives swing hard. A routine "buy 20 Mountain Stream sodas" ran at **~248 meat each

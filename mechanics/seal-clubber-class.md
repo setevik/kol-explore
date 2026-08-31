@@ -147,8 +147,12 @@ polearm — all three inside ~18 turns), runs **18W/0L at Level 5**, and — the
 feed MOXIE**: base Moxie went **7 → 13 in ~38 turns** there. Grind it until Moxie ≥ 15, wear the uniform, then
 go for the cake and the King with real armour on.
 
-⚠️ **The elite polearm is a downgrade** if you hold an astral bludgeon — it swaps in automatically when you
-equip the "uniform", so re-equip your real weapon afterwards.
+🚨 **Do NOT swap the polearm out for a better weapon while you need the uniform.** The Elite Guard Uniform is
+an **outfit**: the set bonus *and* the disguise the throne room checks for both require **all three pieces worn
+at once**. The elite polearm is a statistical downgrade next to an astral bludgeon, and swapping it back
+**silently breaks the disguise** — the King then greets you with *"You are neither a guard with a cake, nor one
+of my harem girls"* and the scripted one-shot. **Wear the whole set, accept the worse weapon, until the King is
+dead.** Only then re-open the loadout question — see `equipment-strategy.md` § "Outfits are all-or-nothing".
 
 ## 🚫 A disguise gates zones BOTH ways
 

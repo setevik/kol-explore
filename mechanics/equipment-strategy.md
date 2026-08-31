@@ -54,13 +54,42 @@ Accessories are often the biggest class-specific lever. Known options:
 - ninja hot pants (70 but no enchantments) — skip
 - old sweatpants (10) — starter, skip
 
-## Outfit Bonuses (Set Effects)
+## 🚨 Outfits are ALL-OR-NOTHING — never "upgrade" a piece while the outfit is the goal
 
-Wearing full matching outfits unlocks set bonuses:
-- **Knob Goblin Elite Guard Uniform** — higher stats, enables Throne Room cake path, triggers Kitchens cake-pan encounter
-- **Knob Goblin Harem Girl Disguise** — enables Throne Room harem path, triggers Treasury +500 Meat non-combat
+Wearing a full matching outfit unlocks a **set bonus**, and — far more importantly — many outfits *are* a
+**disguise that gates a zone, a noncombat, or a boss**:
+- **Knob Goblin Elite Guard Uniform** (helm + pants + polearm) — set bonus; **enables the Throne Room cake
+  path**; triggers the Kitchens cake-pan noncombat.
+- **Knob Goblin Harem Girl Disguise** (veil + pants) — **enables the Throne Room harem path**; triggers the
+  Treasury +500 Meat noncombat.
 
-These override individual piece choices temporarily. Swap to them only for quest needs, then back to Uberpants+Crown+pasta spoon+regen ring.
+🐛 **The trap: outfit pieces are frequently WORSE than your best individual gear**, so the instinct is to swap
+one back — the guard polearm for a stronger weapon, the harem veil for a better hat. **Doing so silently
+breaks both the set bonus and the disguise.** There is no warning at the moment you swap; the failure surfaces
+much later as a refusal you then misdiagnose:
+> *"You are neither a guard with a cake, nor one of my harem girls."*
+
+✅ **Rule while the outfit is the goal: wear every piece, accept the statistical downgrade.** A worse weapon
+you can swing beats a better weapon that gets you scripted-defeated at the door.
+
+## 🔁 Re-open the loadout question once the outfit has done its job
+
+An outfit is a **temporary tool**, not a wardrobe. The moment its purpose is served — boss dead, zone entered,
+noncombat triggered — **stop wearing it and re-derive the whole loadout from scratch.** Two things make this
+worth a deliberate pass rather than "put the old gear back":
+
+1. **You are giving up the set bonus too**, so the comparison is
+   *(set bonus + all outfit pieces)* **vs** *(your best individual item in each slot)* — not piece-vs-piece.
+2. **Stat requirements and slot conflicts may have changed** since you last chose gear (levels gained, a
+   two-handed weapon blocking an off-hand, a Moxie/Mysticality gate now met).
+
+✅ **Do it slot by slot, and verify with the charpane before/after** (see "Key Test" below). Also re-check
+anything you were **unable to equip earlier** — items parked for a stat gate are easy to forget once the
+quest that needed them is over.
+
+⚠️ **And unequip a disguise when you leave the zone it belongs to** — a disguise worn in the wrong place can
+*block* a zone with a free, repeating noncombat (e.g. the harem outfit in the Barracks: *"No Girls Allowed"*),
+which costs no adventure and will spin a farm loop forever.
 
 ## Key Test: Charpane Before/After
 

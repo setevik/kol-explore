@@ -79,6 +79,12 @@ Then craft at the cooking bench:
 
 Keep the cake in inventory (don't eat it!) and approach the throne room while wearing the Guard Uniform.
 
+🚨 **Wear ALL THREE pieces — helm, pants AND polearm.** The disguise is the *complete outfit*; swapping the
+elite polearm back to a stronger weapon (it is a genuine downgrade, so the temptation is real) **silently
+breaks the disguise**, and the King answers with the scripted one-shot and *"You are neither a guard with a
+cake, nor one of my harem girls."* Take the worse weapon until he is dead, then re-derive your whole loadout
+— see `equipment-strategy.md` § "Outfits are all-or-nothing".
+
 ## ⚠️ Both paths carry a hidden STAT gate — check before farming either
 
 The disguise is only half the requirement; each path also needs a stat you may not have:

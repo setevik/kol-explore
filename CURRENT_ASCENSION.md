@@ -64,7 +64,9 @@ Filling all 15 fullness cost **zero meat** today by pulling **16 distinct low-le
 > (2) 👑 **Then Path B for the King:** wear the **full Elite Guard Uniform** → farm **Kitchens (258)** for the
 >     **Knob cake pan** noncombat + **Knob batter** + **Knob frosting** → craft the cake → throne room
 >     (`cobbsknob.php?action=throneroom`). ⚠️ The Kitchens were **11W/7L without the uniform** — do NOT go back
->     in until the armour is on. Re-equip the **astral bludgeon** afterwards (the polearm is a downgrade).
+>     in until the armour is on. 🚨 **Keep ALL THREE uniform pieces on** — helm, pants **and polearm** — for
+>     the Kitchens noncombat and the throne room; the disguise is the *complete outfit*, so swapping the
+>     polearm back to the astral bludgeon breaks it. Re-open the loadout only **after the King is dead.**
 > (3) 🚫 **Unequip a quest disguise when leaving its zone.** The harem dress in the Barracks gives
 >     **"No Girls Allowed"** — free, repeating, turn-consuming-nothing.
 > (4) **Heal with Hibernate (skill 1027), not campground rest.** Herbs first (spleen is free of adventures),
