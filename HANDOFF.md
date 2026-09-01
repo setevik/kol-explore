@@ -481,6 +481,30 @@ walkthroughs in `mechanics/*-quest.md`, Ronin/pull rules, the drinking algorithm
 ⭐ **Guild stores are keyed to the stat group, not the class:** `guildstore1` Moxie · `guildstore2`
 Mysticality · `guildstore3` Muscle. Wrong shop ⇒ *"Uh Oh! Only … may shop here."*
 
+## 🚨 A guard must FAIL CLOSED — read state from `api.php`, not the charpane
+
+🐛 **A safety check that returns a permissive value on parse failure is worse than no check at all.**
+A drink loop used a charpane scrape for current drunkenness:
+```js
+const m = charpaneText.match(/(?:Tipsiness|Drunkenness):\s*(\d+)/);
+return m ? +m[1] : 0;          // ← parse failure reports "sober"
+```
+The regex intermittently missed, the helper reported **0**, the look-ahead `drunk + potency <= CAP` therefore
+always passed, and the rack **overshot the cap (16 against a cap of 14)** while the log showed drunkenness
+bouncing 0 → 6 → 8 → 0 → 10 → 0. HARD RULE 1's look-ahead was in place and did nothing, because the number
+feeding it was wrong.
+
+✅ **Two rules:**
+1. **Read consumption state from `api.php?what=status`** — it exposes **`full`, `drunk`, `spleen`,
+   `adventures`, `hp`, `mp`** as reliable fields. **Never scrape the charpane for a number the API already
+   gives you.** (The charpane is still the right source for things the API lacks, e.g. active effects and the
+   drunk-blur CSS.)
+2. **On failure, return the value that STOPS the loop, or throw.** For a cap check that means "assume you are
+   at/over the cap", never "assume zero". Same for HP gates, ronin checks, and pull budgets.
+
+⚠️ Related: `api.php` has **no cap field** — cap detection still comes from `charsheet.php` ("Liver of Steel"
+⇒ 19, else 14). So the *cap* is scraped and the *current value* is not; don't conflate them.
+
 ## 🔁 A loop MUST verify the adventure counter actually moved
 
 🚨 **The most expensive engine bug in this project keeps recurring in new costumes.** Several encounters

@@ -73,9 +73,20 @@ Grants a **Knob cake pan** (quest item). You also need:
 - **Knob batter** (drops from Kitchens enemies)
 - **Knob frosting** (drops from Kitchens enemies)
 
-Then craft at the cooking bench:
-1. `Knob cake pan + Knob batter` → **unfrosted Knob cake**
-2. `unfrosted Knob cake + Knob frosting` → **Knob cake**
+✅ **Wearing the uniform, all three cake ingredients dropped inside 3 turns** in the Kitchens (258) — the
+disguise both triggers the cake-pan noncombat and makes the zone far safer (it was 11W/7L without it).
+
+Then craft — ⚠️ **this is COOKING, not meat-pasting**:
+```
+craft.php  mode=cook  action=craft  a=<id>  b=<id>  qty=1  pwd=<hash>
+```
+1. **Knob cake pan (4943) + Knob batter (4944) → unfrosted Knob cake (4946)** ✅ works with a bare kitchen.
+2. **unfrosted Knob cake (4946) + Knob frosting (4945) → Knob cake** — 🚨 **requires a cooking appliance**:
+   *"You need a more advanced cooking appliance to cook something with fancy ingredients."*
+   ⇒ Buy a **Dramatic™ range — General Store row 643, 1,000 meat** (row 642 is the cocktailcrafting kit).
+   **Budget that 1,000 meat before starting Path B**, or you will assemble every ingredient and stall on
+   step 2.
+⚠️ `mode=combine` on either step returns *"Those two items don't combine to make anything interesting."*
 
 Keep the cake in inventory (don't eat it!) and approach the throne room while wearing the Guard Uniform.
 

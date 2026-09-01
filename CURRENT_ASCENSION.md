@@ -29,55 +29,70 @@ Disco Bandit · Accordion Thief.
 
 ---
 
-## 📊 Character state (end of run #3 Day 4 / 2026-08-31)
+## 📊 Character state (end of run #3 Day 5 / 2026-09-01)
 
-- **LEVEL 5 Seal Clubber.** Base Mus **33** / Mys 13 / **Mox 13**. **HP 54, MP 13.** **Meat 1,670. adv 19 banked.**
-  full 15, drunk 17 (cap **14** + overdrink), spleen 9/15. **Ronin: 723 turns left.**
-- ▶ **Council quest: "The Goblin Who Wouldn't Be King"** — ⚠️ **ATTEMPTED AND LOST.** The King is
-  **Init 100 / ~45 damage per hit**; he took 50 HP → 5 in round one. This class has **no initiative buff**.
-- 🎽 **Full Elite Guard Uniform held** (helm + pants + polearm) — ⚠️ **helm and pants need 15 base MOXIE and I
-  have 13.** Two points away. Harem disguise also held, but the **perfume is used up** (1-adventure duration).
-- **Skills:** + nothing new today. ⭐ **Discovered `Hibernate` (1027): 1 ADVENTURE = full HP + clears Beaten Up**
-  — no MP, no spleen. Strictly better than campground rest; it is this class's real healer.
-- **Day 4: ~70 fights, 9 losses** (the King, plus a bad Kitchens detour at 11W/7L).
+- **LEVEL 6 Seal Clubber.** Base Mus **32** / Mox **18**. **HP 53 (63 with the uniform on), MP 13.**
+  **Meat 354. adv 28 banked.** full 15, drunk **16 (⚠️ overshot a cap of 14 — see below)**, spleen 15/15.
+- ▶ **Council quest: "The Goblin Who Wouldn't Be King"** — ⚠️ still open, but **BOTH paths are now within reach**:
+  - **Path A is READY:** harem veil + pants held, **and a fresh Knob Goblin perfume is in inventory.**
+    At **53–63 max HP** I should now survive his ~45 opening hit, which is what killed the Level 5 attempt.
+  - **Path B is one purchase away:** full Elite Guard Uniform **equippable** (Moxie 18 ≥ 15), and the
+    **unfrosted Knob cake** is made — it needs a **Dramatic™ range (General Store row 643, 1,000 meat)** to
+    frost, and I have 354.
+- **Skills:** + Super-Advanced Meatsmithing (L6, 1,250).
+- **Day 5: ~95 fights, 3 losses.** Moxie 13 → 18, Level 5 → 6.
 
-### 🔓 CAPS & SKILLS — the authority
+### 🚨 Day 5's process failure — the drink guard failed OPEN
 
-**Fullness 15 · Booze cap 14 · Spleen 15.** Permed and working cross-class: **Pastamastery, Cannelloni Cocoon**
-(Cocoon still unusable — 20 MP vs a 13 MP pool). **Karma banked ~102.**
+The look-ahead guard read drunkenness by scraping the charpane, and **returned 0 whenever the regex missed**,
+so it waved every bottle through and I landed on **16 against a cap of 14**. No damage done (0 adventures were
+left and 28 banked either way), but the lesson is general and now in `HANDOFF.md`:
+**read `drunk`/`full`/`spleen`/`adventures` from `api.php?what=status`, never from a charpane regex, and make
+any guard fail CLOSED.**
 
-### 🍽️ Feed yourself from Hagnk's, not the General Store
+### 🔓 CAPS & METERS
 
-Filling all 15 fullness cost **zero meat** today by pulling **16 distinct low-level foods** from storage
-(one of each per day is plenty when storage holds 108 food types). Ids that worked at L5:
-`49 · 672 · 244 · 332 · 333 · 786 · 245 · 455 · 303 · 322 · 589 · 161`.
-⚠️ At **Level 6, stolen sushi (6293) unlocks** — storage has ~55, so that becomes 6 fullness from one pull.
+**Fullness 15 · Booze cap 14 · Spleen 15.** Healing ladder: **herbs (spleen, no adventures) → `Hibernate`
+(skill 1027, 1 adventure, FULL heal)**. Never campground rest. Permed: Pastamastery, Cannelloni Cocoon
+(Cocoon still unusable at 13 MP). Karma banked ~102.
 
 ---
 
 ## 🔜 Next-session priorities
 
-> **19 adventures banked + the new day's allowance.**
-> (1) ⭐ **GRIND THE BARRACKS (snarfblat 257) TO MOXIE 15.** It is the best zone at this level
->     (**36W/2L** across two sessions), it drops the guard uniform, and **its monsters feed Moxie**
->     (7 → 13 in ~38 turns). Two more points unlocks the elite helm + pants.
-> (2) 👑 **Then Path B for the King:** wear the **full Elite Guard Uniform** → farm **Kitchens (258)** for the
->     **Knob cake pan** noncombat + **Knob batter** + **Knob frosting** → craft the cake → throne room
->     (`cobbsknob.php?action=throneroom`). ⚠️ The Kitchens were **11W/7L without the uniform** — do NOT go back
->     in until the armour is on. 🚨 **Keep ALL THREE uniform pieces on** — helm, pants **and polearm** — for
->     the Kitchens noncombat and the throne room; the disguise is the *complete outfit*, so swapping the
->     polearm back to the astral bludgeon breaks it. Re-open the loadout only **after the King is dead.**
-> (3) 🚫 **Unequip a quest disguise when leaving its zone.** The harem dress in the Barracks gives
->     **"No Girls Allowed"** — free, repeating, turn-consuming-nothing.
-> (4) **Heal with Hibernate (skill 1027), not campground rest.** Herbs first (spleen is free of adventures),
->     Hibernate once spleen caps.
-> (5) **At Level 6: pull stolen sushi** for the food meter, and buy the L6 skills at Torg
->     (Scowl of the Auk / Thirst of the Weasel).
-> **DRINK LAST — cap 14**, then STOP. Knob zones drop **Cobb's Knob Wurstbrau** (2 potency) into inventory.
+> **28 adventures banked + the new day's allowance. The King should die today.**
+> (1) 👑 **PATH A FIRST — it needs no meat and is one turn of setup.**
+>     Equip **harem veil + pants** (⚠️ remove the guard uniform first), heal to FULL, then
+>     **use the perfume LAST — it lasts exactly 1 adventure** — and go straight to
+>     `cobbsknob.php?action=throneroom`. Fight at full HP; he opens for ~45 and has Initiative 100, so the
+>     whole question is whether you survive round one. **Hibernate before entering if HP is short.**
+> (2) 🎂 **If Path A fails, Path B is a 1,000-meat purchase:** farm meat, buy the **Dramatic™ range
+>     (General Store row 643)**, then `craft.php mode=cook a=4946 b=4945` to frost the cake, wear the
+>     **complete** Elite Guard Uniform (all three pieces — the charsheet must show
+>     *"Outfit: Knob Goblin Elite Guard Uniform"*) and enter with the cake **uneaten** in inventory.
+> (3) 🚫 **Swap disguises deliberately — each one BLOCKS the other's zone** with a free repeating noncombat
+>     (harem → Barracks *"No Girls Allowed"*; guard → Harem *"Therein Lies the Rub"*).
+> (4) **After the King is dead, re-derive the whole loadout** — you get the **Crown of the Goblin King** and
+>     no longer need either disguise (see `equipment-strategy.md` § "Outfits are all-or-nothing").
+> (5) **Level 6 unlocks stolen sushi (6293)** — storage holds ~55, so pull one daily for 6 fullness instead
+>     of a dozen 1-adventure fillers.
+> **DRINK LAST — cap 14 — and take `drunk` from the API, not the charpane.**
 
 ---
 
 ## 🗓️ Session log (this run)
+
+- **Run #3 Day 5 (2026-09-01): Moxie 13 → 18, Level 6, the guard uniform fits — but the King survives again.**
+  Ground the **Barracks 36W/0L** to clear the **15-Moxie gate**, equipped the **complete Elite Guard Uniform**
+  (charsheet prints *"Outfit: …"* — that line is the cheap way to verify a set), and the Kitchens then gave
+  **all three cake ingredients in 3 turns**. ⚠️ **Stalled on the cake's second step:** frosting needs a
+  **Dramatic™ range (1,000 meat)** and Torg had just taken 1,250 for Super-Advanced Meatsmithing.
+  🚫 **Confirmed the disguise trap runs BOTH ways** — the guard uniform blocks the **Harem**
+  (*"Therein Lies the Rub"*) exactly as the dress blocks the Barracks; both free and repeating.
+  Stripped the armour and farmed 28 turns of Harem for a replacement **perfume**, which dropped on the last
+  few turns — so **Path A is loaded for tomorrow** with 53–63 max HP against his ~45 opener.
+  🚨 **Process failure: the drink look-ahead failed OPEN** (charpane parse returning 0) and overshot to
+  **16/14**. Harmless tonight, but `api.php` had the number all along — now a HANDOFF rule.
 
 - **Run #3 Day 4 (2026-08-31): 👑 Goblin King attempted and LOST; Moxie 7 → 13 to unlock the armour.**
   Ate all 15 fullness **for zero meat** by pulling 16 distinct foods from Hagnk's. ⭐ **Found `Hibernate`:

@@ -83,13 +83,27 @@ worth a deliberate pass rather than "put the old gear back":
 2. **Stat requirements and slot conflicts may have changed** since you last chose gear (levels gained, a
    two-handed weapon blocking an off-hand, a Moxie/Mysticality gate now met).
 
+✅ **Verify the set is actually recognised: `charsheet.php` prints an explicit `Outfit:` line** naming it
+(e.g. *"Outfit: Knob Goblin Elite Guard Uniform"*) once every piece is worn. That one line is the cheapest
+possible check that you have not accidentally broken the set — read it before attempting whatever the outfit
+gates. Measured effect of completing the set: **Muscle 37 → 39, Moxie 15 → 18, max HP 60 → 63.**
+
 ✅ **Do it slot by slot, and verify with the charpane before/after** (see "Key Test" below). Also re-check
 anything you were **unable to equip earlier** — items parked for a stat gate are easy to forget once the
 quest that needed them is over.
 
-⚠️ **And unequip a disguise when you leave the zone it belongs to** — a disguise worn in the wrong place can
-*block* a zone with a free, repeating noncombat (e.g. the harem outfit in the Barracks: *"No Girls Allowed"*),
-which costs no adventure and will spin a farm loop forever.
+⚠️ **And unequip a disguise when you leave the zone it belongs to.** A disguise worn in the wrong place
+*blocks* that zone with a **free, repeating noncombat** — no adventure spent, so a farm loop spins forever.
+✅ **Confirmed in both directions** within one quest:
+
+| Wearing | Entering | Result (free, repeating) |
+|---|---|---|
+| Harem Girl Disguise | Cobb's Knob **Barracks** (257) | *"No Girls Allowed"* |
+| Elite Guard Uniform | Cobb's Knob **Harem** (259) | *"Therein Lies the Rub"* |
+
+⇒ Treat a disguise as **scoped to one zone**: put it on to enter, take it off to leave. And note the cost of
+taking it off — the Elite Guard Uniform was worth **+13 max HP** here, so removing it mid-quest measurably
+weakens you for whatever you farm next.
 
 ## Key Test: Charpane Before/After
 

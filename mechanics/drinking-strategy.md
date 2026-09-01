@@ -34,8 +34,12 @@ And because of rule 1, **all of this must happen at the END of the day**, after 
   consumed, no adventures are gained, and drunkenness stays 0.** An empty `updateInv([])` is the tell.
   ✅ Correct: **`inv_booze.php?which=1&whichitem=<id>&pwd=<hash>&ajax=1`**
   → *"Results: You drink the tiki drink."* and `updateInv({"6682":-1})`.
-- ✅ **Always verify a drink actually landed** by diffing `api.php` `adventures` before/after AND reading the
-  charpane's `Drunkenness: X / Y`. (Note the charpane label is **`Drunkenness:`**, not `Tipsiness:`, in the
+- ✅ **Always verify a drink actually landed** by diffing `api.php` `adventures` before/after.
+- 🚨 **Take current drunkenness from `api.php?what=status` → `drunk`, NOT from a charpane regex.** A charpane
+  scrape that returns `0` when the pattern misses turns the look-ahead guard into a no-op and **overshoots the
+  cap** (observed: 16 against a cap of 14, with the log showing 0 → 6 → 8 → 0 → 10). The charpane's
+  `Drunkenness: X / Y` line is still useful for reading the **cap** (Y) — but only once drunk > 0, and the
+  authoritative cap test remains `charsheet.php` + "Liver of Steel". (Note the charpane label is **`Drunkenness:`**, not `Tipsiness:`, in the
   current UI — match both.) A "drink" that yields +0 adventures did not happen.
 
 ## 🛒 Buying booze from the mall — the per-store daily limit
