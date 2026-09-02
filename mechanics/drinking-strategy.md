@@ -35,6 +35,12 @@ And because of rule 1, **all of this must happen at the END of the day**, after 
   ✅ Correct: **`inv_booze.php?which=1&whichitem=<id>&pwd=<hash>&ajax=1`**
   → *"Results: You drink the tiki drink."* and `updateInv({"6682":-1})`.
 - ✅ **Always verify a drink actually landed** by diffing `api.php` `adventures` before/after.
+- 🚨 **A look-ahead is only as good as its POTENCY TABLE.** Even with a correct `drunk` reading, a wrong
+  constant overshoots: **Typical Tavern swill (3831) is potency 3, not 1** — assumed as 1 it passed the
+  `13 + 1 <= 14` check and landed on **16**. ✅ **Measure potency from the observed delta** (`drunk` after −
+  `drunk` before) and correct the table as you go; **treat any unverified bottle as potency 3** (the common
+  maximum for cheap booze) when `cap − drunk < 3`. Verify a new bottle's potency early in the rack, while
+  there is headroom to absorb a surprise.
 - 🚨 **Take current drunkenness from `api.php?what=status` → `drunk`, NOT from a charpane regex.** A charpane
   scrape that returns `0` when the pattern misses turns the look-ahead guard into a no-op and **overshoots the
   cap** (observed: 16 against a cap of 14, with the log showing 0 → 6 → 8 → 0 → 10). The charpane's
@@ -56,6 +62,10 @@ dedupe by store, and issue one purchase per store. 5 stores → 5 Fog Murderers 
 |---|---|---|---|
 | **Fog Murderer** | 6682 | 6 | **16, 15, 14, 14** (~15 avg) |
 | Imp Ale | 470 | 1 | 1 |
+| bottle of gin / vodka / rum / whiskey / boxed wine | 237/238/787/328/1005 | 3 | ~3 |
+| bottle of popskull | 1774 | 2 | 3–4 |
+| Cobb's Knob Wurstbrau | 4960 | 2 | 2–3 |
+| **Typical Tavern swill** | 3831 | **3** ⚠️ (not 1) | 5–6 |
 
 ⇒ Fog Murderer is ~**2.5 adv per point of liver** at ~250–420 meat: still the best no-skill bottle.
 Yield scales with **your** cap — measured at a 19 cap (3 × Fog Murderer + 1 × Imp Ale + 1 overdrink):

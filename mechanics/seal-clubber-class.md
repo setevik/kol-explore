@@ -128,6 +128,18 @@ farmed for the disguise (veil + pants + perfume all dropped in 18 turns), but **
 rate and get out once the outfit is complete** — don't use it as a leveling zone. This is
 `leveling-zones.md`'s "pick by WIN RATE, not ML" rule biting on a Muscle class.
 
+## 🔌 MP is a dead end on this class — plan around it
+
+Max MP is tiny (**22 at Level 6**) and there is **no working MP restorative in reach**:
+- **Mana curds (6416)** — `inv_use.php` says *"not implemented yet"*, and the spleen route consumed one
+  without restoring MP. Not an MP source.
+- **Hibernate does not restore MP.** The guild store (guildstore3) sells no MP item.
+- ⚠️ **`Pastamastery` (a permed carry-over) costs 10 MP** — casting it in the morning routine leaves a Level 6
+  Seal Clubber with ~1 MP for the whole day, which silently disables **Thrust-Smack (3 MP)**, the class's best
+  early attack. **Skip Pastamastery on a boss day**, or accept plain attacks only.
+
+⇒ Treat MP as a **once-per-day budget**, not a renewable pool, and spend it on attacks rather than buffs.
+
 ## 👑 The Knob Goblin King — BOTH disguise paths are stat-gated for this class
 
 The King is **Init 100 · Attack 53**, and he opens by hitting for **~45**. Measured at Level 5 (Muscle 30,
@@ -141,6 +153,25 @@ Both documented entry paths then hit a *second* wall:
 |---|---|---|
 | **A — Harem disguise + perfume** | Knob Goblin perfume, **lasts 1 adventure** | Single-use; farmed in the **Harem (259), a 9W/9L zone at L5.** And it only gets you *in* — the King still one-shots you. |
 | **B — Elite Guard Uniform + Knob cake** | elite helm + pants | ⚠️ **Both need 15 base MOXIE.** A Seal Clubber has ~7 at Level 5 and gains Moxie very slowly. |
+
+### ⚔️ Measured: the disguise is NOT the hard part — the DPS race is
+
+With the gate solved (Moxie 21, Muscle 47, **75 max HP**, complete uniform, cake in hand) the fight is a
+genuine combat and still **7 losses out of 7 attempts**:
+
+| Config | Entry HP | Rounds survived | Result |
+|---|---|---|---|
+| Harem + perfume, astral bludgeon | 56 | 1 | lost |
+| Elite Guard Uniform + cake | 72–79 | **2–3** | lost ×6 |
+
+He deals **~30–37 per round** (less with the uniform's absorption) and has **50 HP**; plain weapon attacks at
+Muscle 47 do not remove 50 HP in three rounds. **Retries are cheap — neither the cake nor the uniform is
+consumed on a loss**, so only the adventure and a Hibernate are spent — but repeating the same loadout does
+not converge.
+
+⇒ **What actually needs to change:** more levels/Muscle, or **combat items as supplementary damage**
+(Knob Goblin firecrackers drop constantly in the Knob). A Path A retry additionally costs **a fresh perfume**
+(~28 turns of Harem farming), so **Path B is the right platform for repeated attempts.**
 
 🎯 **The answer to both is the Barracks (snarfblat 257).** It drops the **whole uniform** (helm, pants,
 polearm — all three inside ~18 turns), runs **18W/0L at Level 5**, and — the important part — **its monsters
@@ -175,6 +206,7 @@ counter actually moved".) **Unequip a quest disguise the moment you leave the zo
 ## ⭐ Hibernate (skill 1027) is the class's real healer — buy it at Level 2
 
 **`Hibernate` — Noncombat, costs 1 ADVENTURE (not MP), fully restores HP and removes Beaten Up.**
+⚠️ **It does NOT restore MP** (measured: HP full, MP still 1/22 afterwards).
 ✅ Measured: 2/33 HP → full, Beaten Up cleared, 1 adventure spent, **no MP and no spleen**.
 
 🎯 **It strictly dominates `campground.php?action=rest`**, which costs the same 1 adventure and returns only

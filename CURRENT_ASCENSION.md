@@ -29,58 +29,69 @@ Disco Bandit · Accordion Thief.
 
 ---
 
-## 📊 Character state (end of run #3 Day 5 / 2026-09-01)
+## 📊 Character state (end of run #3 Day 6 / 2026-09-02)
 
-- **LEVEL 6 Seal Clubber.** Base Mus **32** / Mox **18**. **HP 53 (63 with the uniform on), MP 13.**
-  **Meat 354. adv 28 banked.** full 15, drunk **16 (⚠️ overshot a cap of 14 — see below)**, spleen 15/15.
-- ▶ **Council quest: "The Goblin Who Wouldn't Be King"** — ⚠️ still open, but **BOTH paths are now within reach**:
-  - **Path A is READY:** harem veil + pants held, **and a fresh Knob Goblin perfume is in inventory.**
-    At **53–63 max HP** I should now survive his ~45 opening hit, which is what killed the Level 5 attempt.
-  - **Path B is one purchase away:** full Elite Guard Uniform **equippable** (Moxie 18 ≥ 15), and the
-    **unfrosted Knob cake** is made — it needs a **Dramatic™ range (General Store row 643, 1,000 meat)** to
-    frost, and I have 354.
-- **Skills:** + Super-Advanced Meatsmithing (L6, 1,250).
-- **Day 5: ~95 fights, 3 losses.** Moxie 13 → 18, Level 5 → 6.
+- **LEVEL 6 Seal Clubber.** Base Mus **47** (peak, buffed) / Mox 21. **Max HP 75, max MP 22.**
+  **Meat 1,127. adv 37 banked.** full 15, drunk **16 (⚠️ overshot a 14 cap again — different cause)**.
+- ▶ **Council quest: "The Goblin Who Wouldn't Be King"** — ⚠️ **7 attempts today, 7 losses.**
+  **Both paths are now fully unlocked** — the gates are done; the fight itself is the wall.
+  - **Path B is the platform for retries: NOTHING is consumed on a loss** (cake + uniform persist), so a
+    retry costs 1 adventure + 1 Hibernate.
+  - **Knob cake is MADE** (Dramatic™ range bought for 1,000 and installed in the campground kitchen).
+  - Path A would need a **fresh perfume each attempt** (~28 turns of Harem) — not worth it for repeats.
+- **Measured:** he deals **~30–37/round**, has **50 HP**, and I survive **2–3 rounds**. Plain attacks at
+  Muscle 47 cannot remove 50 HP in that window.
+- **Day 6: ~80 fights, 7 losses (all to the King).** Barracks remains 20W/0L and ~500 meat per 18 turns.
 
-### 🚨 Day 5's process failure — the drink guard failed OPEN
+### 🔌 MP is a dead resource on this class — and Pastamastery is eating it
 
-The look-ahead guard read drunkenness by scraping the charpane, and **returned 0 whenever the regex missed**,
-so it waved every bottle through and I landed on **16 against a cap of 14**. No damage done (0 adventures were
-left and 28 banked either way), but the lesson is general and now in `HANDOFF.md`:
-**read `drunk`/`full`/`spleen`/`adventures` from `api.php?what=status`, never from a charpane regex, and make
-any guard fail CLOSED.**
+Max MP 22, and **no MP restorative works**: mana curds say *"not implemented yet"*, **Hibernate restores HP
+but NOT MP**, and guildstore3 sells none. ⚠️ **`Pastamastery` costs 10 MP** and I cast it every morning out of
+habit, which left **1 MP** for all seven King fights — silently disabling **Thrust-Smack (3 MP)**.
+**Do not cast Pastamastery on a boss day.**
 
-### 🔓 CAPS & METERS
+### 🚨 Overshot the booze cap two nights running — two DIFFERENT causes
 
-**Fullness 15 · Booze cap 14 · Spleen 15.** Healing ladder: **herbs (spleen, no adventures) → `Hibernate`
-(skill 1027, 1 adventure, FULL heal)**. Never campground rest. Permed: Pastamastery, Cannelloni Cocoon
-(Cocoon still unusable at 13 MP). Karma banked ~102.
+Night 1: the charpane drunkenness parse returned 0 on failure (fixed — read `api.php` `drunk`).
+Night 2: the reading was correct but the **potency constant was wrong — Typical Tavern swill (3831) is
+potency 3, not 1**. Both now in `drinking-strategy.md`, along with a measured potency table.
+**Treat any unverified bottle as potency 3 when `cap − drunk < 3`.**
 
 ---
 
 ## 🔜 Next-session priorities
 
-> **28 adventures banked + the new day's allowance. The King should die today.**
-> (1) 👑 **PATH A FIRST — it needs no meat and is one turn of setup.**
->     Equip **harem veil + pants** (⚠️ remove the guard uniform first), heal to FULL, then
->     **use the perfume LAST — it lasts exactly 1 adventure** — and go straight to
->     `cobbsknob.php?action=throneroom`. Fight at full HP; he opens for ~45 and has Initiative 100, so the
->     whole question is whether you survive round one. **Hibernate before entering if HP is short.**
-> (2) 🎂 **If Path A fails, Path B is a 1,000-meat purchase:** farm meat, buy the **Dramatic™ range
->     (General Store row 643)**, then `craft.php mode=cook a=4946 b=4945` to frost the cake, wear the
->     **complete** Elite Guard Uniform (all three pieces — the charsheet must show
->     *"Outfit: Knob Goblin Elite Guard Uniform"*) and enter with the cake **uneaten** in inventory.
-> (3) 🚫 **Swap disguises deliberately — each one BLOCKS the other's zone** with a free repeating noncombat
->     (harem → Barracks *"No Girls Allowed"*; guard → Harem *"Therein Lies the Rub"*).
-> (4) **After the King is dead, re-derive the whole loadout** — you get the **Crown of the Goblin King** and
->     no longer need either disguise (see `equipment-strategy.md` § "Outfits are all-or-nothing").
-> (5) **Level 6 unlocks stolen sushi (6293)** — storage holds ~55, so pull one daily for 6 fullness instead
->     of a dozen 1-adventure fillers.
-> **DRINK LAST — cap 14 — and take `drunk` from the API, not the charpane.**
+> **37 adventures banked + the new day's allowance.**
+> (1) 🧨 **NEW IDEA FIRST — use COMBAT ITEMS on the King.** The Knob zones drop **Knob Goblin firecrackers**
+>     constantly (several in inventory) and they have gone completely unused. `fight.php?action=useitem&whichitem=<id>`
+>     each round alongside weapon attacks is the cheapest way to close a ~50 HP gap. Also try the
+>     **Knob Goblin deluxe scimitar** and any other combat items in the bag.
+> (2) ⚠️ **DO NOT cast Pastamastery** before the fight — it costs 10 of 22 MP and disables Thrust-Smack.
+>     Enter with full MP and use **Thrust-Smack (skill 1003, 3 MP)** every round it is affordable.
+> (3) 👑 **Retry Path B** — wear ALL THREE uniform pieces (charsheet must read
+>     *"Outfit: Knob Goblin Elite Guard Uniform"*), cake **uneaten** in inventory,
+>     `cobbsknob.php?action=throneroom`. Hibernate between attempts; nothing is consumed on a loss.
+> (4) If still losing, **grind the Barracks (257) to Level 7+** — it is 20W/0L and pays ~500 meat per 18 turns
+>     — and retry with more Muscle.
+> (5) **After the King: re-derive the whole loadout** (Crown of the Goblin King drops) and drop both disguises.
+> **EAT: pull a stolen sushi (6293) daily — 6 fullness / 13 adventures for one pull.**
+> **DRINK LAST — cap 14, `drunk` from the API, and verify potency before the last bottle.**
 
 ---
 
 ## 🗓️ Session log (this run)
+
+- **Run #3 Day 6 (2026-09-02): 🎂 Knob cake made — and the King won seven times.**
+  **Stolen sushi unlocked at L6** (6 fullness / 13 adv from one pull — a large EAT upgrade). Farmed the
+  Barracks for the **1,000-meat Dramatic™ range**, installed it, and **frosted the Knob cake**, so both
+  disguise paths are finally open. Then **7 attempts, 7 losses**: 1 in the harem disguise (survived one
+  round), 6 in the Elite Guard Uniform (2–3 rounds each). ⚠️ **The gates were never the problem — the DPS
+  race is.** He does ~30–37/round with 50 HP; plain attacks at Muscle 47 can't close that in three rounds.
+  🔌 Discovered **MP is a dead resource here** — mana curds are "not implemented", Hibernate doesn't restore
+  MP, and **Pastamastery's 10 MP cost had left me with 1 MP for every attempt**, silently disabling
+  Thrust-Smack. 🚨 **Overshot the booze cap a second night, from a different cause**: the reading was right
+  but **Typical Tavern swill is potency 3, not 1**. Next idea: **combat items** — the firecrackers piling up
+  in the Knob have never been thrown.
 
 - **Run #3 Day 5 (2026-09-01): Moxie 13 → 18, Level 6, the guard uniform fits — but the King survives again.**
   Ground the **Barracks 36W/0L** to clear the **15-Moxie gate**, equipped the **complete Elite Guard Uniform**
