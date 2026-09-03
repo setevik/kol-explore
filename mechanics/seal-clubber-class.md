@@ -154,6 +154,20 @@ Both documented entry paths then hit a *second* wall:
 | **A — Harem disguise + perfume** | Knob Goblin perfume, **lasts 1 adventure** | Single-use; farmed in the **Harem (259), a 9W/9L zone at L5.** And it only gets you *in* — the King still one-shots you. |
 | **B — Elite Guard Uniform + Knob cake** | elite helm + pants | ⚠️ **Both need 15 base MOXIE.** A Seal Clubber has ~7 at Level 5 and gains Moxie very slowly. |
 
+### ✅ SOLVED — win with the HAREM disguise, because it leaves your weapon slot free
+
+**The Elite Guard Uniform occupies the weapon slot and forces the elite polearm; the harem disguise is hat +
+pants only.** For a Muscle class whose entire damage output is its weapon, that is the whole fight:
+
+| Loadout | Attempts | Result |
+|---|---|---|
+| Elite Guard Uniform (forced polearm) | 7 | **7 losses**, 2–3 rounds |
+| **Harem veil + pants + astral bludgeon + perfume** | 1 | ✅ **WON in 2 rounds** — 35 damage a swing |
+
+⚠️ **Knob Goblin firecrackers do 4 damage** — worthless here. Measure a combat item before planning around it.
+🎁 **Drops the Crown of the Goblin King**, which is a large upgrade for this class: **max HP 83 → 98,
+Muscle 52 → 62** on equipping. Re-derive the whole loadout the moment he dies.
+
 ### ⚔️ Measured: the disguise is NOT the hard part — the DPS race is
 
 With the gate solved (Moxie 21, Muscle 47, **75 max HP**, complete uniform, cake in hand) the fight is a

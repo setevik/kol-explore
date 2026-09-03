@@ -72,6 +72,28 @@ much later as a refusal you then misdiagnose:
 ✅ **Rule while the outfit is the goal: wear every piece, accept the statistical downgrade.** A worse weapon
 you can swing beats a better weapon that gets you scripted-defeated at the door.
 
+## ⭐ When TWO outfits both qualify, pick the one that leaves your KEY SLOT free
+
+This is the corollary that actually wins fights, and it is easy to miss because both outfits "work".
+
+**Count the slots each disguise occupies, and check which of your own slots carries your damage.**
+
+| Disguise | Slots taken | Weapon slot |
+|---|---|---|
+| **Knob Goblin Harem Girl** | hat + pants | ✅ **FREE** |
+| **Knob Goblin Elite Guard** | hat + pants + **weapon** | ❌ forces the elite polearm |
+
+✅ **Measured against the Knob Goblin King (50 HP, deals ~28–30/round, wins initiative):**
+- **Elite Guard Uniform** (forced polearm): **7 attempts, 7 losses**, 2–3 rounds each — could not remove 50 HP.
+- **Harem disguise + own weapon (astral bludgeon):** **won on the first attempt, in 2 rounds** — the bludgeon
+  hit for **35 a swing**, so two swings cleared his 50 HP.
+
+Same character, same level, same fight. **The entire difference was which slot the costume occupied.**
+⇒ For a class whose damage lives in one slot (a weapon for Muscle classes, an off-hand tuning item for a
+caster), a disguise that covers that slot is a **much bigger cost than its stat line suggests** — and a
+disguise that needs a consumable (the harem path burns a perfume per attempt) can still be the cheaper option
+overall.
+
 ## 🔁 Re-open the loadout question once the outfit has done its job
 
 An outfit is a **temporary tool**, not a wardrobe. The moment its purpose is served — boss dead, zone entered,

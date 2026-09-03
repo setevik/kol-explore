@@ -29,57 +29,65 @@ Disco Bandit · Accordion Thief.
 
 ---
 
-## 📊 Character state (end of run #3 Day 6 / 2026-09-02)
+## 📊 Character state (end of run #3 Day 7 / 2026-09-03)
 
-- **LEVEL 6 Seal Clubber.** Base Mus **47** (peak, buffed) / Mox 21. **Max HP 75, max MP 22.**
-  **Meat 1,127. adv 37 banked.** full 15, drunk **16 (⚠️ overshot a 14 cap again — different cause)**.
-- ▶ **Council quest: "The Goblin Who Wouldn't Be King"** — ⚠️ **7 attempts today, 7 losses.**
-  **Both paths are now fully unlocked** — the gates are done; the fight itself is the wall.
-  - **Path B is the platform for retries: NOTHING is consumed on a loss** (cake + uniform persist), so a
-    retry costs 1 adventure + 1 Hibernate.
-  - **Knob cake is MADE** (Dramatic™ range bought for 1,000 and installed in the campground kitchen).
-  - Path A would need a **fresh perfume each attempt** (~28 turns of Harem) — not worth it for repeats.
-- **Measured:** he deals **~30–37/round**, has **50 HP**, and I survive **2–3 rounds**. Plain attacks at
-  Muscle 47 cannot remove 50 HP in that window.
-- **Day 6: ~80 fights, 7 losses (all to the King).** Barracks remains 20W/0L and ~500 meat per 18 turns.
+- **LEVEL 7 Seal Clubber.** Base Mus **67**. **Max HP 105, max MP 25.** **Meat 2,629. adv 22 banked.**
+  full 15, drunk 15 (landed exactly on the 14 cap, then ONE overdrink ✅). Ronin ~620 left.
+- 👑 **THE KNOB GOBLIN KING IS DEAD** — after 9 losses across 3 days, won **first try in 2 rounds** once I
+  switched to the **harem disguise + astral bludgeon** (see below). Dropped the **Crown of the Goblin King**.
+- 🎁 **Loadout re-derived after the quest** (the outfit rule): **Crown of the Goblin King** (+15 max HP,
+  +10 Muscle) · **astral bludgeon** · Knob Goblin elite pants · ring of half-assed regeneration.
+- ▶ **New Council quests: the Deep Fat Friars** (fey creatures in the Copse) **and the Cyrpt** (spookiness).
+  Friar zones **539 / 540 / 541** are all live and survivable at Level 7; ~47 turns there produced **none** of
+  the three ritual items (dodecagram · box of birthday candles · eldritch butterknife) but paid well in
+  stats and meat.
+- **Day 7: ~110 fights, 3 losses.** Muscle 48 → 67, max HP 77 → 105, Level 6 → 7.
 
-### 🔌 MP is a dead resource on this class — and Pastamastery is eating it
+### ⭐ Why the King finally died — the slot, not the stats
 
-Max MP 22, and **no MP restorative works**: mana curds say *"not implemented yet"*, **Hibernate restores HP
-but NOT MP**, and guildstore3 sells none. ⚠️ **`Pastamastery` costs 10 MP** and I cast it every morning out of
-habit, which left **1 MP** for all seven King fights — silently disabling **Thrust-Smack (3 MP)**.
-**Do not cast Pastamastery on a boss day.**
+**The Elite Guard Uniform takes hat + pants + WEAPON** (forcing the weak elite polearm); **the harem disguise
+takes only hat + pants, leaving the weapon slot free.** Same character, same level:
+**guard uniform = 7 attempts, 7 losses** (2–3 rounds); **harem + astral bludgeon = won in 2 rounds at 35
+damage a swing.** ⇒ When two outfits both open the same door, prefer the one that **doesn't occupy the slot
+your damage lives in** — full rule in `equipment-strategy.md`.
+⚠️ Also measured: **Knob Goblin firecrackers do 4 damage** — they are not a damage plan.
 
-### 🚨 Overshot the booze cap two nights running — two DIFFERENT causes
+### 🔓 CAPS & METERS
 
-Night 1: the charpane drunkenness parse returned 0 on failure (fixed — read `api.php` `drunk`).
-Night 2: the reading was correct but the **potency constant was wrong — Typical Tavern swill (3831) is
-potency 3, not 1**. Both now in `drinking-strategy.md`, along with a measured potency table.
-**Treat any unverified bottle as potency 3 when `cap − drunk < 3`.**
+**Fullness 15 · Booze cap 14 · Spleen 15.** Healing: **herbs (spleen, 0 adv) → `Hibernate` (1 adv, full HP,
+does NOT restore MP)**. ⚠️ **MP is a dead resource** — no restorative works; **don't cast Pastamastery
+(10 MP) on a fight day.** Permed: Pastamastery, Cannelloni Cocoon. Karma banked ~102.
 
 ---
 
 ## 🔜 Next-session priorities
 
-> **37 adventures banked + the new day's allowance.**
-> (1) 🧨 **NEW IDEA FIRST — use COMBAT ITEMS on the King.** The Knob zones drop **Knob Goblin firecrackers**
->     constantly (several in inventory) and they have gone completely unused. `fight.php?action=useitem&whichitem=<id>`
->     each round alongside weapon attacks is the cheapest way to close a ~50 HP gap. Also try the
->     **Knob Goblin deluxe scimitar** and any other combat items in the bag.
-> (2) ⚠️ **DO NOT cast Pastamastery** before the fight — it costs 10 of 22 MP and disables Thrust-Smack.
->     Enter with full MP and use **Thrust-Smack (skill 1003, 3 MP)** every round it is affordable.
-> (3) 👑 **Retry Path B** — wear ALL THREE uniform pieces (charsheet must read
->     *"Outfit: Knob Goblin Elite Guard Uniform"*), cake **uneaten** in inventory,
->     `cobbsknob.php?action=throneroom`. Hibernate between attempts; nothing is consumed on a loss.
-> (4) If still losing, **grind the Barracks (257) to Level 7+** — it is 20W/0L and pays ~500 meat per 18 turns
->     — and retry with more Muscle.
-> (5) **After the King: re-derive the whole loadout** (Crown of the Goblin King drops) and drop both disguises.
-> **EAT: pull a stolen sushi (6293) daily — 6 fullness / 13 adventures for one pull.**
-> **DRINK LAST — cap 14, `drunk` from the API, and verify potency before the last bottle.**
+> **22 adventures banked + the new day's allowance.**
+> (1) 🔥 **Deep Fat Friars** — farm zones **539 / 540 / 541** for the **dodecagram**, **box of birthday
+>     candles** and **eldritch butterknife**, then `friars.php?action=ritual`.
+>     ⚠️ ~47 turns produced none of them; budget ~66 turns total (see `friars-blessings.md`).
+>     The Friar **blessings** are a significant buff — read that doc before the Cyrpt.
+> (2) ⚰️ **The Cyrpt** is also open (L7+ grind, needs the Evilometer from the Council).
+>     `mechanics/bonerdagon-boss.md` has the sub-zone breakdown — but its combat advice is caster-specific.
+> (3) **Torg every level** — L7 unlocks **Hide of the Walrus / Furious Wallop**; meat is healthy at 2,629.
+> (4) **EAT: pull a stolen sushi (6293) daily** (6 fullness / 13 adv) plus storage variety — costs no meat.
+> (5) **DRINK: cap 14.** Use the measured potency table in `drinking-strategy.md`, read `drunk` from the API,
+>     and let the loop self-correct potency from the observed delta.
 
 ---
 
 ## 🗓️ Session log (this run)
+
+- **Run #3 Day 7 (2026-09-03): 👑 THE KNOB GOBLIN KING IS DEAD — and the reason is a slot, not a stat.**
+  After 9 losses in 3 days I stopped attacking and started measuring. **Knob Goblin firecrackers: 4 damage**
+  (I had been planning to win with party poppers). He deals ~28–30/round with 50 HP and always acts first,
+  so the requirement is **~25 damage per action**. Then the real find: **the Elite Guard Uniform occupies the
+  WEAPON slot** and had been confiscating my astral bludgeon for a mediocre polearm, while **the harem
+  disguise only takes hat + pants**. Swapped to harem + bludgeon + perfume and **won first try in 2 rounds at
+  35 damage a swing.** Dropped the **Crown of the Goblin King** — and re-deriving the loadout afterwards (the
+  rule from Day 4) took **max HP 83 → 98 and Muscle 52 → 62** immediately. Spent the rest of the day in the
+  Friars' Copse: **Level 6 → 7, Muscle 48 → 67, max HP 105**, though none of the three ritual items dropped.
+  ✅ Drink step landed **exactly on 14** using the corrected potency table + API reading.
 
 - **Run #3 Day 6 (2026-09-02): 🎂 Knob cake made — and the King won seven times.**
   **Stolen sushi unlocked at L6** (6 fullness / 13 adv from one pull — a large EAT upgrade). Farmed the

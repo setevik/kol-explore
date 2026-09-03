@@ -96,6 +96,20 @@ breaks the disguise**, and the King answers with the scripted one-shot and *"You
 cake, nor one of my harem girls."* Take the worse weapon until he is dead, then re-derive your whole loadout
 — see `equipment-strategy.md` § "Outfits are all-or-nothing".
 
+## 👑 WHICH PATH TO PICK — this decides the fight, not the stats
+
+✅ **Prefer Path A (harem + perfume) if your damage comes from your weapon.**
+The harem disguise is **hat + pants only, leaving the weapon slot FREE**; the Elite Guard Uniform takes
+**hat + pants + weapon**, forcing the mediocre elite polearm.
+
+Measured, same character and level, against the King:
+- **Guard uniform (forced polearm): 7 attempts, 7 losses** (2–3 rounds each).
+- **Harem + own weapon (astral bludgeon): won first try in 2 rounds**, hitting for **35 per swing**.
+
+Path A costs **one perfume per attempt** (~20 turns of Harem farming, and 3 dropped in 22 turns at Level 7),
+which is a real price — but losing every attempt is more expensive. Path B remains the better *platform* only
+if your weapon is worse than the polearm, or if you cannot source perfume.
+
 ## ⚠️ Both paths carry a hidden STAT gate — check before farming either
 
 The disguise is only half the requirement; each path also needs a stat you may not have:
@@ -115,7 +129,11 @@ noncombat that costs no adventure**, and a loop pointed at it will spin forever.
 
 **Stats (wiki):** **HP 50 · Attack 53 · Defense 47 · No-Hit 63 · Initiative 100 · phylum goblin.**
 
-✅ **Measured opening damage: ~45 in round one**, and with **Initiative 100 he acts first essentially always.**
+✅ **Measured: he deals ~28–30 per round** (≈37–45 against a lightly-armoured low-level character), has
+**50 HP**, and with **Initiative 100 he acts first essentially always** — so he lands one more hit than you
+get actions. ⇒ **You need ~25 damage per action.**
+⚠️ **Knob Goblin firecrackers are NOT the answer — measured at 4 damage.** Check a combat item's actual
+output before building a plan on it.
 That makes max HP the real entry requirement: **~50 max HP is NOT enough** (50 → 5 → dead). Either bring an
 initiative buff, enough max HP to eat two hits, or real damage absorption from armour.
 Drops: 2× dense meat stack, **Crown of the Goblin King** (or Glass Balls / Codpiece), + **Cobb's Knob lab key**.
