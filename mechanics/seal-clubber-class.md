@@ -82,6 +82,10 @@ Scrape both from the trainer page together:
 unlocks; re-visit the trainer **every level** (this was a documented blind spot for the Pastamancer too).
 
 ### The skill tree (from the trainer page)
+
+Costs scraped live from Torg's rack (they rise steeply — budget ahead):
+`1,750 · 2,500 · 3,250 · 4,000 · 5,000 · 6,250 · 7,500 · 10,000 · 12,500 · 15,000` meat as you climb the tiers.
+
 | Lvl | Skills |
 |---|---|
 | 1 | Lunge Smack · Fortitude of the Muskox |
@@ -231,6 +235,26 @@ times to stay alive would have spent the same 11 adventures for ~10× the healin
 1. **Medicinal Herb's medicinal herbs** (spleen, free of adventures) — use while spleen lasts;
 2. **Hibernate** (1 adventure, full heal) — once spleen is capped, or before a boss;
 3. campground rest — never, if Hibernate is known.
+
+## 🛡️ `Hide of the Walrus` (L7, 2,500 meat) converts meat into ADVENTURES — buy it the moment you can
+
+The class's healing costs **adventures** (Hibernate), so **damage reduction is not a comfort buff — it is a
+turn generator.** Measured back-to-back in the Defiled Cyrpt, same character, same day, one level apart:
+
+| | Alcove — no DR | Cranny — Hide of the Walrus up |
+|---|---|---|
+| Fights | 24 | 30 |
+| Losses | 2 | 0 |
+| **Adventures burned on Hibernate** | **8** | **2** |
+| End-of-run HP | 37 / 117 | 116 / 125 |
+
+⇒ **~6 adventures saved per 25 fights**, i.e. the 2,500-meat skill repaid itself inside a single day's grind
+(one Cyrpt room yields ~1,500–1,900 meat). ✅ **General rule for a Muscle class: prefer flat damage reduction
+over raw damage** once fights are already 1–2 rounds — shorter fights don't save turns, but not needing to heal
+does.
+
+⚠️ Cast it **once at the start of a grind loop** (bake it into the loop's preamble); it needs ~10 MP, which is
+most of this class's pool, so a single soda or a level-up is usually enough to afford it.
 
 ## 🩹 The spleen route (use it first — it costs no adventures)
 

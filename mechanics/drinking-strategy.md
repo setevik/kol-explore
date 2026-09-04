@@ -144,11 +144,38 @@ The craft page (`craft.php?mode=cocktail`) `<option>` list is also the fastest w
    at ~250–450 but almost always **`(Limit 1 / day)` per store**, so buy one each from the ~4–5 cheapest stores.
 4. Long-term: **Ode to Booze** (Accordion Thief) adds adventures per drink — not available to a Pastamancer.
 
+### 📏 Measured potencies / yields (verified in-game — extend this table, don't guess)
+
+| Bottle | id | Drunk | Adv | Adv per drunk |
+|---|---|---|---|---|
+| **Ye Olde Meade** | 6276 | 5 | **16** | **3.2** ⭐ best measured non-Fog filler |
+| Fog Murderer | 6682 | 6 | 14–16 | 2.5 |
+| Green Manalishi | 7206 | 3 | 8 | 2.7 |
+| bottle of popskull | 1774 | 2 | 4 | 2.0 |
+| Typical Tavern swill | 3831 | 3 | — | (potency 3, **not** 1) |
+| Imp Ale | 470 | 1 | 1 | 1.0 — pure topper |
+| **gin-soaked blotter paper** | 4675 | **1** | **1** | 1.0 ⚠️ *the name lies; a terrible overdrink* |
+
+⚠️ Anything not on this table is **unverified — treat as potency 3** for look-ahead, and never make it the
+overdrink.
+
 ## ⭐ Worked examples — the SHAPE is fixed, the numbers follow your cap
 
 🚨 **Do not copy a rack; derive it.** The algorithm is cap-agnostic:
 > **big bottles while `drunk + potency <= CAP` → small bottles to land EXACTLY on CAP → ONE overdrink
-> (your highest-adventure bottle).**
+> (your highest-adventure *measured* bottle).**
+
+🚨 **The overdrink is UNCAPPED — so size is free there and only ABSOLUTE yield matters.** Inside the cap you are
+optimising **adv-per-drunk** (efficiency, because drunk is the scarce thing); in the overdrink slot you are
+optimising **adv, full stop**. Those are different objectives, and the same bottle is rarely best at both.
+- ✅ **Two-bucket rule:** fill the cap with the most *efficient* booze; **reserve your biggest measured-yield
+  bottle for the overdrink.**
+- ❌ **Never overdrink on an unmeasured bottle.** You get exactly one per day and cannot retry it.
+  *Measured failure (run #3 Day 8):* filled to exactly 14 correctly, then overdrank on a **gin-soaked blotter
+  paper (4675)** chosen on the strength of its name — **1 drunk / 1 adventure**, against a **Ye Olde Meade**
+  measured at **16 adventures** an hour earlier and spent inside the cap.
+- ✅ Every drink self-reports its potency and yield (`drunk`/`adventures` delta). **Measure as you fill**, then
+  overdrink with the best number you actually observed.
 
 Worked both ways with **Fog Murderer (potency 6, 14–16 adv)** as the big bottle and **Imp Ale (470, potency 1)**
 / popskull (1774, potency 2) as the fillers:

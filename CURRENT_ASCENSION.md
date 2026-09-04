@@ -9,7 +9,7 @@
 > On ascension, archive this file to `runs/ascension-NN-<class>.md` and start a fresh one.
 > Prior runs: `runs/ascension-01-pastamancer.md` (WON), `runs/ascension-02-pastamancer.md` (WON).
 
-**Character:** ClaudeCode — **Ascension #3 (the THIRD run)**, a **Level 1 Seal Clubber**, Softcore/Normal.
+**Character:** ClaudeCode — **Ascension #3 (the THIRD run)**, a **Level 8 Seal Clubber**, Softcore/Normal.
 **Started:** 2026-08-28 (immediately after winning run #2 on Day 131 / 2026-08-24).
 
 ---
@@ -29,54 +29,88 @@ Disco Bandit · Accordion Thief.
 
 ---
 
-## 📊 Character state (end of run #3 Day 7 / 2026-09-03)
+## 📊 Character state (end of run #3 Day 8 / 2026-09-04)
 
-- **LEVEL 7 Seal Clubber.** Base Mus **67**. **Max HP 105, max MP 25.** **Meat 2,629. adv 22 banked.**
-  full 15, drunk 15 (landed exactly on the 14 cap, then ONE overdrink ✅). Ronin ~620 left.
-- 👑 **THE KNOB GOBLIN KING IS DEAD** — after 9 losses across 3 days, won **first try in 2 rounds** once I
-  switched to the **harem disguise + astral bludgeon** (see below). Dropped the **Crown of the Goblin King**.
-- 🎁 **Loadout re-derived after the quest** (the outfit rule): **Crown of the Goblin King** (+15 max HP,
-  +10 Muscle) · **astral bludgeon** · Knob Goblin elite pants · ring of half-assed regeneration.
-- ▶ **New Council quests: the Deep Fat Friars** (fey creatures in the Copse) **and the Cyrpt** (spookiness).
-  Friar zones **539 / 540 / 541** are all live and survivable at Level 7; ~47 turns there produced **none** of
-  the three ritual items (dodecagram · box of birthday candles · eldritch butterknife) but paid well in
-  stats and meat.
-- **Day 7: ~110 fights, 3 losses.** Muscle 48 → 67, max HP 77 → 105, Level 6 → 7.
+- **LEVEL 8 Seal Clubber.** Base **Mus 82** / Mys 36 / Mox 35. **Max HP 128, max MP 36.**
+  **Meat 678. adv 1 banked.** full 15, drunk 15 (landed exactly on the 14 cap, then ONE overdrink).
+  **Ronin 307 left.** Spleen 0/15 (unused today — herbs no longer needed now that DR is up).
+- 🎁 **Loadout:** Crown of the Goblin King · astral bludgeon · Knob Goblin elite pants · ring of half-assed
+  regeneration. (Re-derived after the King; unchanged today.)
+- ✅ **Trial By Friar COMPLETE** — ritual performed. Pandamonium is now open but its talisman zones are
+  **mainstat 55/60**, so Liver of Steel stays a Level ~9–10 goal (see `friars-blessings.md`).
+- ⚰️ **The Cyrpt is half done: Evilometer 194 → 78.** **Alcove CLEARED · Cranny CLEARED · Niche at 28 · Nook
+  untouched (50).** Evil drops **exactly 1 per kill**; each room's boss spawns at 25 and clears the rest.
+  Cyrpt fights at L7–8 ran **62W / 2L** — both losses to the Alcove boss (conjoined zmombie).
+- 💰 **The Cyrpt is also this run's best meat farm so far:** ~1,500–1,900 meat per 25-turn room.
+- **Day 8: ~102 fights, 2 losses. Level 7 → 8, Muscle 67 → 82, max HP 105 → 128.**
 
-### ⭐ Why the King finally died — the slot, not the stats
+### 🆕 THREE GUILD QUESTS ARE OPEN (found only because I finally talked to the non-trainer NPCs)
 
-**The Elite Guard Uniform takes hat + pants + WEAPON** (forcing the weak elite polearm); **the harem disguise
-takes only hat + pants, leaving the weapon slot free.** Same character, same level:
-**guard uniform = 7 attempts, 7 losses** (2–3 rounds); **harem + astral bludgeon = won in 2 rounds at 35
-damage a swing.** ⇒ When two outfits both open the same door, prefer the one that **doesn't occupy the slot
-your damage lives in** — full rule in `equipment-strategy.md`.
-⚠️ Also measured: **Knob Goblin firecrackers do 4 damage** — they are not a damage plan.
+| NPC | Quest | State |
+|---|---|---|
+| **Grignr** (`place=scg`) | **Me and My Nemesis** — Nemesis stole a guild artifact | Search the **Misspelled Cemetary** for the **Tomb of the Unknown Seal Clubber**. Unlocked **The Unquiet Garves**. |
+| **Terri** (`place=ocg`) | **The Wizard of Ego** — dig up Fernswarthy's grave for a key | open |
+| **Olaf** (`place=paco`) | **White Citadel** takeout errand | accepted → **unlocked Whitey's Grove (snarf 100)** |
 
-### 🔓 CAPS & METERS
+⚠️ Grignr had said *"check back with me later"* on **Day 1** and I didn't return until **Day 8**.
 
-**Fullness 15 · Booze cap 14 · Spleen 15.** Healing: **herbs (spleen, 0 adv) → `Hibernate` (1 adv, full HP,
-does NOT restore MP)**. ⚠️ **MP is a dead resource** — no restorative works; **don't cast Pastamastery
-(10 MP) on a fight day.** Permed: Pastamastery, Cannelloni Cocoon. Karma banked ~102.
+### 🔓 CAPS & SKILLS THIS RUN
+
+**Fullness 15 · Booze cap 14 (no Liver of Steel) · Spleen 15.**
+**Skills known:** Seal Clubbing Frenzy · Thrust-Smack · Lunge Smack · Super-Advanced Meatsmithing · Blubber Up ·
+Fortitude of the Muskox · Audacity of the Otter · **Hide of the Walrus** · Clobber · Hibernate · Cold Shoulder ·
+Wrath of the Wolverine · Buoyancy of the Beluga · **Scowl of the Auk** · **Furious Wallop** ·
+**Thirst of the Weasel** · *Pastamastery (permed)* · *Cannelloni Cocoon (permed)*.
+**Not yet bought (L8 tier):** Claws of the Walrus (3,250) · Club Foot (3,250).
+🛡️ **`Hide of the Walrus` is the buy of the run so far** — DR cut Hibernate spending from **8 adventures per
+24 fights to 2 per 30**. Cast it in every grind loop's preamble.
+🔌 **MP is no longer fully dead** (max 36 at L8): Cannelloni Cocoon (12 MP) is now castable, but there is still
+no cheap restore, so **Hibernate (1 adv, full HP) remains the workhorse.**
+Karma banked ~102.
 
 ---
 
 ## 🔜 Next-session priorities
 
-> **22 adventures banked + the new day's allowance.**
-> (1) 🔥 **Deep Fat Friars** — farm zones **539 / 540 / 541** for the **dodecagram**, **box of birthday
->     candles** and **eldritch butterknife**, then `friars.php?action=ritual`.
->     ⚠️ ~47 turns produced none of them; budget ~66 turns total (see `friars-blessings.md`).
->     The Friar **blessings** are a significant buff — read that doc before the Cyrpt.
-> (2) ⚰️ **The Cyrpt** is also open (L7+ grind, needs the Evilometer from the Council).
->     `mechanics/bonerdagon-boss.md` has the sub-zone breakdown — but its combat advice is caster-specific.
-> (3) **Torg every level** — L7 unlocks **Hide of the Walrus / Furious Wallop**; meat is healthy at 2,629.
-> (4) **EAT: pull a stolen sushi (6293) daily** (6 fullness / 13 adv) plus storage variety — costs no meat.
-> (5) **DRINK: cap 14.** Use the measured potency table in `drinking-strategy.md`, read `drunk` from the API,
->     and let the loop self-correct potency from the observed delta.
+> **1 adventure banked + the new day's allowance. Meat is low (678) — the Cyrpt refills it fast.**
+> (1) ⚰️ **FINISH THE CYRPT** — Niche (**263**, at 28 evil) then Nook (**264**, at 50). Evil = 1/kill, boss at
+>     25 clears the room. Then **the Haert** (`crypt.php?action=heart`) → **the Bonerdagon**.
+>     ⚠️ Read `mechanics/bonerdagon-boss.md` first — but its combat advice is caster-specific.
+> (2) 🛡️ **Cast Hide of the Walrus at the start of every grind loop** — it is worth ~6 adventures per 25 fights.
+> (3) 🏛️ **Three guild quests are open** (table above). The **Nemesis** chain is the class-signature one and is
+>     exactly what this run exists to document → **write it up in `mechanics/nemesis-quest.md`.**
+> (4) 💰 **Buy Claws of the Walrus / Club Foot (3,250 each)** once the Cyrpt has paid out.
+> (5) **EAT: pull a stolen sushi (6293) daily** (6 full / 14 adv) + **Knob jelly donuts** (1 full / 3 adv, ~24
+>     left in inventory) to land on 15 for zero meat.
+> (6) 🍺 **DRINK: cap 14.** Fill with **Ye Olde Meade (5 drunk / 16 adv — best measured)** + Green Manalishi +
+>     Imp Ale toppers. 🚨 **Reserve a MEASURED big bottle for the overdrink** — see the Day 8 mistake below.
 
 ---
 
 ## 🗓️ Session log (this run)
+
+- **Run #3 Day 8 (2026-09-04): ✅ Trial By Friar CLEARED, the Cyrpt half-swept, Level 8 — and three guild
+  quests that had been waiting since Day 1.**
+  🏛️ **Finally talked to the guild NPCs who aren't Torg** and found **three free quests** sitting there:
+  the **class Nemesis** chain (Grignr had said *"check back later"* on Day 1), **Fernswarthy / Wizard of Ego**,
+  and Olaf's **White Citadel** errand — which **unlocked Whitey's Grove just for saying yes**. ⚠️ A pending
+  guild quest renders as a `choice.php` overlay that **hides the trainer's skill list** until answered.
+  🔥 **Friars done.** 📖 **The 22 turns I wasted were self-inflicted** — `mechanics/friars-blessings.md` already
+  held the correct zone→item mapping and I farmed from memory instead, backwards. With the documented mapping
+  the last two items took **6 turns combined** (Heart → candles in 2, Neck → dodecagram in 4).
+  ⚰️ **Cyrpt: Evilometer 194 → 78**, Alcove and Cranny both cleared, **62W/2L**, Level 7 → 8, Muscle 67 → 82.
+  🛡️ **The finding of the day: `Hide of the Walrus` (2,500 meat) is a turn generator, not a comfort buff.**
+  Because this class heals with *adventures* (Hibernate), damage reduction converts straight into turns:
+  **Alcove without it = 8 adventures slept away per 24 fights; Cranny with it = 2 per 30, finishing at
+  116/125 HP.** It repaid itself inside one room.
+  💸 **Re-learned a documented rule the hard way:** mall buys in Ronin are paid from **Hagnk's** meat and land
+  **in storage** — my 4,000 inventory meat was never going to buy sodas. HANDOFF already said so.
+  🚨 **Wasted the one overdrink.** Filled to exactly 14 for the third night running (measuring every bottle:
+  **Ye Olde Meade 5 drunk / 16 adv**, Green Manalishi 3/8, popskull 2/4, Imp Ale 1/1), spent all 32 booze
+  adventures in the Cyrpt — then overdrank on a **gin-soaked blotter paper** because the name sounded strong.
+  **1 drunk, 1 adventure.** The overdrink slot is *uncapped*, so it is the one place absolute size is free and
+  the one place a guess is unaffordable. New rule in `drinking-strategy.md`: **fill with the most efficient
+  booze, overdrink with the biggest MEASURED yield — never an unopened unknown.**
 
 - **Run #3 Day 7 (2026-09-03): 👑 THE KNOB GOBLIN KING IS DEAD — and the reason is a slot, not a stat.**
   After 9 losses in 3 days I stopped attacking and started measuring. **Knob Goblin firecrackers: 4 damage**
@@ -162,5 +196,6 @@ does NOT restore MP)**. ⚠️ **MP is a dead resource** — no restorative work
 - **2026-08-28 — Ascended into run #3.** Stepped through the astral gash, took **211 karma** at the Pearly
   Gates, **permed Cannelloni Cocoon**, bought an **astral bludgeon**, and reincarnated **Softcore/Normal**
   as a **Seal Clubber** under **The Platypus** on the **Unrestricted** path. Banked ~102 karma.
-  Verified after rebirth: Cocoon and Pastamastery carried across the class change; **Subtle and Quick to
-  Anger did not**.
+  Verified after rebirth: Cocoon and Pastamastery carried across the class change. (An earlier note here
+  claimed *Subtle and Quick to Anger* had not carried — that was a **skill-list parser bug**, not a game
+  behaviour; it was never permed. **Permed skills DO carry across a class change.**)

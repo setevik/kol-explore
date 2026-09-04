@@ -376,6 +376,76 @@ nothing consumed. If an item's wiki page has a **"When Used — Using N:"** list
 regression (it also cost ~40 max MP when oil slacks replaced bullet-proof corduroys). **Read the
 `Item unequipped: …` line in the response** and decide deliberately.
 
+## 🏛️ The guild is not just the trainer — CHECK EVERY NPC FOR QUESTS
+
+`guild.php?place=trainer` is only one door. The other guild NPCs hand out **free quests** that never appear on
+the Council's list and are easy to walk past for a week. Sweep them **every few levels**:
+
+```js
+for (const pl of ['scg','ocg','paco','challenge']) {
+  const p = await G('/guild.php?place='+pl);
+  console.log(pl, p.replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').slice(0,400));
+}
+```
+
+⚠️ **"Check back with me later" means CHECK BACK.** An NPC that says *"perhaps I'll have a task for you"* is
+gating on level, not brushing you off. (Cost this run: a Nemesis quest sat unclaimed from Day 1 to Day 8.)
+Verified live at once: a **class Nemesis quest**, **Fernswarthy's tomb / Wizard of Ego**, and a **White
+Citadel** errand that **unlocks a new zone (Whitey's Grove)** just for accepting it.
+
+🚫 **A pending guild quest renders as a `choice.php` overlay that PREEMPTS the whole guild page** — including
+the trainer's skill list. If `guild.php?place=trainer` shows dialogue instead of skills, look for
+`whichchoice=(\d+)` + `option` inputs and answer it first, then re-request the trainer page.
+
+## 🗺️ A quest's zones may hang off the QUEST page, not the map
+
+Don't conclude a quest's areas are missing because the region map doesn't list them. The Deep Fat Friars'
+three groves are **not on `woods.php` at all** — they are linked only from **`friars.php`**. Before farming or
+declaring a zone unavailable, **fetch the quest's own hub page and scrape its `adventure.php?snarfblat=` links**:
+
+```js
+const links = [...(await G('/friars.php')).matchAll(/adventure\.php\?snarfblat=(\d+)/g)].map(m=>m[1]);
+```
+
+## 📖 READ YOUR OWN `mechanics/` FILE BEFORE FARMING A QUEST — you have probably already solved it
+
+The most expensive mistake of run #3 Day 8 was not a game mechanic. **`mechanics/friars-blessings.md` already
+contained the exact zone→item mapping**, measured in a previous run — and I farmed from memory instead, guessed
+the mapping backwards, and burned **22 turns** in the Dark Elbow hunting an item that grove does not drop.
+(The grove was handing me the *eldritch butterknife* the whole time. Once I used the documented mapping, the
+other two items took **6 turns combined**.)
+
+✅ **Before spending a single turn on a named quest, `grep mechanics/ -l` for it and read the file.** These docs
+exist precisely so that a later run doesn't re-pay a cost already paid. Treat "I think I remember how this
+works" as a prompt to open the file, not a substitute for it.
+
+✅ **Belt-and-braces for multi-item quests:** even with the mapping in hand, make the loop's stop-condition the
+set of **ALL still-missing items**, so a wrong mapping costs one turn instead of twenty:
+
+```js
+const got = async () => { const n = await invNames(); return targets.filter(t => n[t.toLowerCase()]); };
+// stop as soon as got().length > 0 — and LOG which zone actually produced which item
+```
+
+## 🧾 Parsing an inventory / storage page — the item row structure
+
+`inventory.php?which=N` and `storage.php?which=N` share one row shape. **Naive "find an id, then find the next
+`<b>`" regexes pair each name with the PREVIOUS item's id** — an off-by-one that silently produces a plausible
+but wrong id→name table. Split on the item table instead:
+
+```js
+const invList = async (which) => (await G('/inventory.php?which='+which))
+  .replace(/<script[\s\S]*?<\/script>/g,'')
+  .split(/<table class='item'/).slice(1).map(c => ({
+    id: +(c.match(/id="ic(\d+)"/)||[])[1],
+    nm: ((c.match(/<b[^>]*>([^<]+)<\/b>/)||[])[1]||'').replace(/&nbsp;/g,' ').trim(),
+    q:  +((c.match(/rel="[^"]*&n=(\d+)/)||[])[1]||1)          // quantity lives in the rel attribute
+  })).filter(x => x.id);
+```
+
+Tabs: **1 = food/booze/potions · 2 = equipment · 3 = misc/quest.** ⚠️ The FIRST `whichitem=` on the page is
+inside a `<script>` — always strip `<script>` blocks before parsing.
+
 ## 🚨 Don't infer "locked" from a map's alt-text — try the zone
 
 `place.php` map images carry alt-text like `The Smut Orc Logging Camp (1)` / `Oil Peak with Flame (1)`. The
@@ -579,6 +649,17 @@ consumed through their **own endpoint** and count against their own daily cap (*
      rum/cider/swill ≈ 3, sherry/popskull ≈ 2, Imp Ale/Willer ≈ 1). Prefer small bottles to land exactly on the cap.
    - **Then take your ONE overdrink** (the single drink allowed to cross the cap — see `drinking-strategy.md`):
      spend it on your highest-adventure bottle; those adventures still bank.
+     - 🚨 **THE OVERDRINK MUST BE A *MEASURED* BOTTLE — never spend it on one you've only guessed at.**
+       The overdrink slot is **uncapped**: it may exceed the cap by any amount, so its *size* is free and only its
+       **absolute adventure yield** matters. That makes it the one slot where the biggest bottle you own is always
+       correct — and the one slot you cannot afford to gamble, because you get exactly one per day.
+       ❌ Failure (Day 8, run #3): filled to exactly 14 correctly, then overdrank on a **gin-soaked blotter paper**
+       picked because *the name sounded strong*. It was **1 drunk / 1 adventure**. An hour earlier I had *measured*
+       **Ye Olde Meade at 5 drunk / 16 adventures** and drunk it inside the cap.
+     - ✅ **The two-bucket rule:** during the fill, pour the most **efficient** booze (best adv-per-drunk, to
+       maximise yield inside a fixed cap) and **reserve your largest measured-yield bottle for the overdrink**
+       (where size is free). If nothing is measured, **measure during the fill** — every drink already reports its
+       own delta — and overdrink with the best number you actually observed, never with an unopened unknown.
    - If you fear missing DRINK during a long farm loop, **cap the loop / drink at a checkpoint** — do NOT reorder
      the day.
    - 🚨 **AFTER THE OVERDRINK, THE DAY IS OVER — STOP ADVENTURING. (Cost 60 adventures.)**

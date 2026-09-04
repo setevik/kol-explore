@@ -14,8 +14,14 @@ enterable at base Mysticality 33** (verified in-game), with no "recommended that
 harder than in a Recom-20 zone, so go in with **Springy Fusilli up** and full HP/MP.
 Reach the zones via `friars.php` / the Distant Woods.
 
-✅ **Verified in-game:** 66 turns total to farm all three (~20–24 each) at base Mys 33–38, with Springy Fusilli up
-(37W/17L). Item IDs: **dodecagram 479 · box of birthday candles 480 · eldritch butterknife 481.**
+✅ **Verified in-game (Pastamancer, base Mys 33–38, Springy Fusilli up):** 66 turns total, ~20–24 each (37W/17L).
+✅ **Re-verified (Seal Clubber, Level 7, base Mus 67): far cheaper on a Muscle class — Dark Heart gave the
+candles in 2 turns and Dark Neck the dodecagram in 4**, all wins, no healing. The drops are not slow; budget
+~10–25 turns per grove and don't plan a whole day around it.
+Item IDs: **dodecagram 479 · box of birthday candles 480 · eldritch butterknife 481.**
+
+🚨 **The three groves are NOT linked from `woods.php`** — they hang off **`friars.php`** only. Scrape the
+snarfblats from that page rather than the region map, or you will conclude the zones are locked.
 **Perform the ritual with a single GET: `friars.php?action=ritual&pwd=<hash>`** (the `friars.php` page exposes
 `action=friars` and `action=ritual` links).
 
