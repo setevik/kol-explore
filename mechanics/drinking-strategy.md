@@ -148,11 +148,14 @@ The craft page (`craft.php?mode=cocktail`) `<option>` list is also the fastest w
 
 | Bottle | id | Drunk | Adv | Adv per drunk |
 |---|---|---|---|---|
-| **Ye Olde Meade** | 6276 | 5 | **16** | **3.2** ⭐ best measured non-Fog filler |
+| **Corpse Island iced tea** | 3028 | 6 | **22** | **3.7** ⭐ best measured |
+| **Ye Olde Meade** | 6276 | 5 | 14–16 | 3.2 |
 | Fog Murderer | 6682 | 6 | 14–16 | 2.5 |
 | Green Manalishi | 7206 | 3 | 8 | 2.7 |
 | bottle of popskull | 1774 | 2 | 4 | 2.0 |
 | Typical Tavern swill | 3831 | 3 | — | (potency 3, **not** 1) |
+| limoncello | 6036 | 2 | 6 | 3.0 |
+| electric snakebite | 7325 | 2 | 5 | 2.5 |
 | Imp Ale | 470 | 1 | 1 | 1.0 — pure topper |
 | **gin-soaked blotter paper** | 4675 | **1** | **1** | 1.0 ⚠️ *the name lies; a terrible overdrink* |
 
@@ -176,6 +179,9 @@ optimising **adv, full stop**. Those are different objectives, and the same bott
   measured at **16 adventures** an hour earlier and spent inside the cap.
 - ✅ Every drink self-reports its potency and yield (`drunk`/`adventures` delta). **Measure as you fill**, then
   overdrink with the best number you actually observed.
+- ✅ **Applied successfully the next night:** reserved a measured Ye Olde Meade for the overdrink while filling
+  the cap with efficient bottles → landed exactly on 14, then **+14 adventures** from the overdrink (versus
+  **+1** the night the slot was spent on a guess). Same character, same cap, 14× the return.
 
 Worked both ways with **Fog Murderer (potency 6, 14–16 adv)** as the big bottle and **Imp Ale (470, potency 1)**
 / popskull (1774, potency 2) as the fillers:

@@ -1,5 +1,73 @@
 # Nemesis Quest (Class-Specific)
 
+> **Structure is CLASS-AGNOSTIC; only the names change.** Part 1 = *Tomb riddle → ghost → class weapon →
+> Beelzebozo → missing component → smith the Legendary Epic Weapon*. Part 2 = *cave → boss → lair*.
+> Verified end-to-end on a **Pastamancer** (below) and a **Seal Clubber** (run #3 Day 9).
+
+---
+
+## ⭐ PART 1, CLASS-AGNOSTIC WALKTHROUGH (verified twice)
+
+**0. It starts at the GUILD, not the Council.** The quest giver is your class guildmaster
+(`guild.php?place=scg` / `ocg` / `paco` — sweep all three). ⚠️ If they said *"check back with me later"*, that
+is a **level gate — go back**; the quest can sit unclaimed for days otherwise.
+
+**1. Tomb of the Unknown &lt;Class&gt; — the riddle (choice 1049).** Fires as a noncombat in
+**The Unquiet Garves (snarf 21)**, usually within ~5 turns. (Afterwards the tomb is direct-access at
+`place.php?whichplace=cemetery&action=cem_advtomb`; the Misspelled Cemetary hangs off `whichplace=plains`.)
+
+🎲 **THE BUTTON ORDER IS RANDOMIZED ON EVERY PAGE LOAD** (stated by the wiki, confirmed live — the same answer
+was option 2 on one fetch and option 3 on the next). **Match on the label text, never on the option number.**
+
+| Class | Riddle answer (match this TEXT) | Class weapon | Starter weapon needed for the swap |
+|---|---|---|---|
+| **Seal Clubber** | **"Boredom."** | Bjorn's Hammer | seal-clubbing club |
+| Turtle Tamer | **"Friendship."** | Mace of the Tortoise | turtle totem |
+| Pastamancer | **"Binding pasta thralls."** | Pasta of Peril | pasta spoon |
+| Sauceror | **"Power."** | 5-Alarm Saucepan | saucepan |
+| Disco Bandit | **"Me. Duh."** | Disco Banjo | disco ball |
+| Accordion Thief | **"Music."** | Rock and Roll Legend | stolen accordion |
+
+⚠️ **The riddles are jokes, not descriptions — do NOT reason them out.** The Seal Clubber riddle is all
+howling, claws and frozen blood, and both "Seals." and "The freezing Northlands weather." read as obviously
+correct; the answer is **"Boredom."** A wrong answer isn't fatal (you may return and retry) but costs the trip.
+
+**2. Three trials, then the swap.** Right answer → coffer opens → single-option choices (`Uh-oh.` →
+`Examine Bjorn` → `Check your pack` → `Switch.`) with a **ghost fight** in between (*The Unknown &lt;Class&gt;*,
+**15 HP** — trivial, one round). The final step is an Indiana-Jones swap: **you must be carrying your class's
+un-equipped STARTER weapon**, which is traded for the class weapon on the plinth.
+⚠️ **If you smithed/sold your starter weapon, the guildmaster will give you a new one** — ask before going.
+
+**3. ⚠️ The class weapon is a CRAFTING COMPONENT, not a weapon.** Bjorn's Hammer is **Damage 5–10**, tagged
+*(Meatsmithing component)*. **Do not equip it over your real weapon.** Take it to the guildmaster.
+
+**4. Beelzebozo — the missing component.** Guildmaster sends you to **The "Fun" House (snarf 20)**, which only
+appears in `whichplace=plains` once you hold the class weapon. Reaching his door needs **100% clownosity = 4
+clown items**: clown wig (**2475**, hat) · bloody clown pants (**432**, pants) · clown shoes (**431**, acc) ·
+big red clown nose (**449**, acc). ⭐ **They occupy hat + pants + 2 accessories and leave the WEAPON SLOT FREE**
+— keep your real weapon on (see the outfit/slot rule in `equipment-strategy.md`).
+- In Ronin these are 4 **distinct** items, so the 1-pull-per-item-per-day limit still lets you pull the whole
+  suit in one morning if storage has them.
+- Grind snarf 20 → **choice 151 "Push the nose"** → **choice 152 "Open the door"** → the boss.
+- 🐣 **The Clownlord Beelzebozo is a pushover: HP 40, Att 27, Def 27, No-Hit 37, Init 85.** Won in **1 round**
+  (84 damage) at L8. Drops the class component: **distilled seal blood** (SC) / turtle chain (TT) /
+  Peppercorns of Power (S) / high-octane olive oil (P) / golden reeds (AT) / vial of mojo (DB).
+- The clownosity gates **his security system, not the fight** (he says so) — you may re-derive your loadout
+  after the door opens.
+
+**5. Smith the Legendary Epic Weapon.** Guildmaster grants **1,000 meat** for supplies. Buy a **tenderizing
+hammer** from the Meatsmith — ⚠️ **`shop.php?whichshop=meatsmith`, and it is `whichrow=498` (1,000 meat);
+row 495 is the *meatsmithing guide*.** Parse shop rows by splitting into row blocks and finding by NAME (the
+naive forward-scan regex pairs each row with the next row's name — see HANDOFF).
+Then `craft.php` POST `mode=smith&action=craft&qty=1&a=<classWeaponId>&b=<componentId>`.
+→ **Seal Clubber result: the `Hammer of Smiting` (item 2559) — Damage 9–18, ONE-HANDED** (frees the off-hand;
+roughly double the astral bludgeon's 5–10). Requires **Super-Advanced Meatsmithing**.
+
+**6. Hand in → the lair-search delay.** Guildmaster: *"we will attempt to locate your Nemesis in the
+meantime."* This is a **gated wait**, not a re-visit (see Part 2, step 6 below).
+
+---
+
 ## ✅ VERIFIED WALKTHROUGH PART 2 — the cave & boss, Pastamancer
 
 After forging the Legendary Epic Weapon (Part 1 below), Asiago points you to a **cave in the Big Mountains**:

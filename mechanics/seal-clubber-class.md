@@ -132,7 +132,7 @@ farmed for the disguise (veil + pants + perfume all dropped in 18 turns), but **
 rate and get out once the outfit is complete** — don't use it as a leveling zone. This is
 `leveling-zones.md`'s "pick by WIN RATE, not ML" rule biting on a Muscle class.
 
-## 🔌 MP is a dead end on this class — plan around it
+## 🔌 MP is a narrow resource on this class (but see the PASSIVE section above — it matters less than it looks)
 
 Max MP is tiny (**22 at Level 6**) and there is **no working MP restorative in reach**:
 - **Mana curds (6416)** — `inv_use.php` says *"not implemented yet"*, and the spleen route consumed one
@@ -236,25 +236,46 @@ times to stay alive would have spent the same 11 adventures for ~10× the healin
 2. **Hibernate** (1 adventure, full heal) — once spleen is capped, or before a boss;
 3. campground rest — never, if Hibernate is known.
 
-## 🛡️ `Hide of the Walrus` (L7, 2,500 meat) converts meat into ADVENTURES — buy it the moment you can
+## ⭐ MOST SEAL CLUBBER SKILLS ARE **PASSIVE** — there is nothing to cast, and that reframes the class
 
-The class's healing costs **adventures** (Hibernate), so **damage reduction is not a comfort buff — it is a
-turn generator.** Measured back-to-back in the Defiled Cyrpt, same character, same day, one level apart:
+🚨 **Verified against `desc_skill.php?whichskill=<id>&self=true` for every known skill.** The "of the [animal]"
+skills are almost all **Type: Passive, MP Cost: N/A** — permanently on from the moment of purchase:
 
-| | Alcove — no DR | Cranny — Hide of the Walrus up |
+| Passive (always on, no MP, nothing to cast) | Noncombat buff (costs MP) | Combat |
 |---|---|---|
-| Fights | 24 | 30 |
-| Losses | 2 | 0 |
-| **Adventures burned on Hibernate** | **8** | **2** |
-| End-of-run HP | 37 / 117 | 116 / 125 |
+| Super-Advanced Meatsmithing · Fortitude of the Muskox · Audacity of the Otter · **Hide of the Walrus (Damage Absorption +50)** · Cold Shoulder · Wrath of the Wolverine · Buoyancy of the Beluga · Thirst of the Weasel | **Seal Clubbing Frenzy (1 MP!)** · Blubber Up (7) · Scowl of the Auk (10) · *Cannelloni Cocoon (20)* | Clobber (1) · Lunge Smack (1) · Thrust-Smack (3) · **Furious Wallop (1 Gal. Fury — guaranteed critical hit)** |
 
-⇒ **~6 adventures saved per 25 fights**, i.e. the 2,500-meat skill repaid itself inside a single day's grind
-(one Cyrpt room yields ~1,500–1,900 meat). ✅ **General rule for a Muscle class: prefer flat damage reduction
-over raw damage** once fights are already 1–2 rounds — shorter fights don't save turns, but not needing to heal
-does.
+⚠️ **This corrects an earlier note here** that told you to "cast Hide of the Walrus in every grind loop's
+preamble." That call does nothing — `runskillz.php` on a passive returns the skills page and spends no MP. The
+damage-reduction benefit is real but it starts at **purchase**, not at cast.
 
-⚠️ Cast it **once at the start of a grind loop** (bake it into the loop's preamble); it needs ~10 MP, which is
-most of this class's pool, so a single soda or a level-up is usually enough to afford it.
+🎯 **The strategic consequence: low max MP is a much smaller problem than it looks.** This class's power budget
+is overwhelmingly passive, so "MP is a dead resource" (an earlier conclusion here) overstated it — you are not
+missing damage by having no mana, you are only missing three cheap buffs. Notably **Seal Clubbing Frenzy costs
+1 MP** for a Muscle buff and is affordable at literally any time; cast it at the top of every loop.
+
+✅ **How to check any skill in one call** — never infer castability from the name:
+```js
+(await G('/desc_skill.php?whichskill='+id+'&self=true')).match(/Type:\s*(\w+)\s+MP Cost:\s*(\S+)/)
+```
+
+## 🛡️ `Hide of the Walrus` (L7, 2,500 meat) = Damage Absorption +50, passive — buy it the moment you can
+
+Because this class heals with **adventures** (Hibernate), damage reduction converts directly into turns.
+Measured across two Cyrpt rooms (note the confound: a level-up landed between them, so treat this as
+indicative rather than clean):
+
+| | Alcove (before purchase) | Cranny / Niche / Nook (after) |
+|---|---|---|
+| Fights | 24 | 30 / 21 / 42 |
+| Losses | 2 | 0 / 0 / 0 |
+| **Adventures burned on Hibernate** | **8** | **2 / 2 / 2** |
+
+⇒ Roughly **6 adventures saved per 25 fights**; the 2,500-meat skill repaid itself inside a day's grind.
+✅ **General rule for a Muscle class: prefer flat damage reduction over raw damage** once fights are already
+1–2 rounds — shorter fights don't save turns, but not needing to heal does.
+⚠️ **Damage Absorption did NOT save me from the Bonerdagon's ~46 *spooky* damage per round** — absorption and
+*elemental resistance* are different axes. For elemental bosses you need resistance (see the Friar blessing).
 
 ## 🩹 The spleen route (use it first — it costs no adventures)
 

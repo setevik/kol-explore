@@ -64,3 +64,22 @@ L5 = base 20 (raw 400) · **L6 = base 29 (raw 841)** · L7 = base 40 (raw 1600) 
 Kitchen that's 500+ turns; even at ~14/turn in a high-ML zone it's ~180 turns. **Plan L10 as a multi-day push**,
 and don't trust a single "almost there" reading. (⚠️ An earlier note wrongly said "L10 = raw 5,625" — verified WRONG:
 still Level 9 at base 78 / raw 6,113.)
+
+
+## 🤍 Whitey's Grove (snarf 100) — unlocked by accepting the guild's White Citadel errand
+
+⭐ **Unlocked for free just by ACCEPTING Olaf's White Citadel quest** at the Muscle guild (`guild.php?place=paco`,
+choice 930 → "Yeah, okay.") — no turns required to open it.
+✅ **Measured (Seal Clubber L8, Muscle ~90): 35W / 0L**, good stat gains and ~450 meat per 26 turns.
+Monsters: white chocolate golem · whitesnake · Knight in White Satin · white lion.
+
+**Its three noncombats each offer stats OR items — pick by what you need** (all verified on the wiki):
+
+| Choice | Stats option | Item option | Item option |
+|---|---|---|---|
+| **73** *Don't Fence Me In* | Whitewash the fence → **20–30 Muscle** | Steal the fence → white picket fence | Jump the fence → wedding cake + white rice |
+| **74** *The Only Thing About Him…* | Show him some moves → 20–30 Moxie | Show him a good time → **3 boxes of wine** 🍷 | steal his stuff → mullet wig |
+| **75** *Rapido!* | Steer for the cave → 21–30 Myst | Steer for the trees → **3 jars of white lightning** 🍷 | laundromat → white collar |
+
+🍷 **Note choices 74 and 75 pay BOOZE in threes** — a genuinely good source of drink-step material for a
+character still filling a 14 cap off single daily pulls.

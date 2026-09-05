@@ -1,5 +1,24 @@
 # Bonerdagon (Defiled Cyrpt boss)
 
+## 📊 VERIFIED STATS (from the official wiki — stop guessing his HP)
+
+| HP | Attack | Defense | No-Hit | Initiative | Element |
+|---|---|---|---|---|---|
+| **120** | 90 | 81 | 100 | 90 | **Spooky (deals spooky damage)** |
+
+⚠️ **He is 120 HP, not the ~180 commonly assumed** — that is only ~3 swings for a mid-level melee character,
+which makes him a far more winnable DPS race than his reputation suggests.
+✅ **Measured live (Seal Clubber, L8):** he deals **~46 spooky damage per round** and has **initiative** (90),
+so he hits BEFORE your first swing. Budget `ceil(yourMaxHP / 46) - 1` swings.
+
+🚨 **DAMAGE ABSORPTION DOES NOT SAVE YOU HERE — you need ELEMENTAL RESISTANCE.** `Hide of the Walrus`
+(Damage Absorption +50) made no meaningful dent in his 46/round because the damage is **spooky**. Absorption
+and resistance are different axes; check which one a boss's damage needs.
+🎯 ⏱️ **Take `Brother Smothers's Blessing` (`friars.php` POST `action=buffs&bro=3`, +3 all-elemental res)
+IMMEDIATELY BEFORE entering the Haert — it lasts only 20 adventures.** Taking it at day-open and then grinding
+is the single most common way to lose this fight with the counter sitting unused. (See HARD RULE 3.)
+
+
 ## ✅ KILLED in 4 rounds, ZERO damage taken (verified in-game) — what actually worked
 
 🚨 **THE #1 LESSON: TAKE OFF THE NECROTELICOMNICON (2494).** It tunes all pasta damage to **Spooky**,
@@ -28,11 +47,18 @@ Report to `council.php` to close the quest.
 
 - **Council gives this at Level 8** (aura of Spookiness) along with the **Evilometer (item 4964)**.
 - **`inv_use` the Evilometer** any time to read **Total evil + per-zone** (starts ~50 each, 199 total).
+  ✅ **When all four rooms are clear the Evilometer reads `Total evil: 999 / Haert: 999`** — 999 is a
+  **sentinel meaning "only the Haert remains"**, not a parse error, and `crypt.php` then shows only that zone.
+  Each room's boss becomes available at 25 evil and clears the remaining 25 on death.
 - **Four Defiled sub-zones**, each must be ground to **0 evil** (each fight removes ~1):
   **Alcove 261 · Cranny 262 · Niche 263 · Nook 264.** All **ML 53–79, Recom Stat 40.**
 - Then **The Haert of the Cyrpt** (`crypt.php?action=heart`) opens → the Bonerdagon fight (below).
 
-🚨 **THIS IS A LEVEL 9–10 GRIND, NOT A LEVEL 8 ONE.** At L8 (base Mys 55, HP 50) verified:
+🚨 **THIS IS A LEVEL 9–10 GRIND, NOT A LEVEL 8 ONE — *for a caster*.** ⚠️ **Class-specific:** the numbers
+below were measured on a Pastamancer with ~50 HP. ✅ **Re-measured on a Seal Clubber (L7–8, 128–150 max HP,
+Hide of the Walrus passive): the four sub-zones went 125W / 2L across two days**, ~1 evil per kill, with
+Hibernate every ~12 fights. **A Muscle class can clear the Cyrpt at Level 8 comfortably** — read the
+"class-specific vs class-agnostic" rule in HANDOFF before believing the paragraph below. At L8 (base Mys 55, HP 50) verified:
 - With **full MP + Springy Fusilli + Brother Smothers's Spooky blessing**, a spiny skeleton dies in ~4 rounds
   untouched. **But that state is expensive and short-lived** — once MMJ runs out OR the 20-turn blessing
   expires, win rate collapses (measured **7W/23L**). ⇒ ~1 evil/fight × 199 with a losing record = **many days**.

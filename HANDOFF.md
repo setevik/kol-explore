@@ -407,6 +407,90 @@ declaring a zone unavailable, **fetch the quest's own hub page and scrape its `a
 const links = [...(await G('/friars.php')).matchAll(/adventure\.php\?snarfblat=(\d+)/g)].map(m=>m[1]);
 ```
 
+## ⚔️ LOOK UP A BOSS'S STATS BEFORE YOU FIGHT IT — it costs ~90 seconds and decides the fight
+
+Two bosses in one day made the case by themselves:
+
+| | Researched first? | Result |
+|---|---|---|
+| Clownlord Beelzebozo | ✅ (HP 40, Att 27) | **Won in 1 round** — the lookup showed the fight was free |
+| Bonerdagon | ❌ (assumed ~180 HP) | **Lost in 3 rounds** — actually 120 HP, but deals **spooky** damage I had a once-daily counter for and had already wasted |
+
+✅ **Fetch it in one Bash call** (the wiki 403s WebFetch but not a browser UA):
+```bash
+curl -s -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)" \
+  "https://wiki.kingdomofloathing.com/<Monster_Name>" \
+| python3 -c "import sys,re; h=re.sub(r'<script.*?</script>','',sys.stdin.read(),flags=re.S); \
+t=re.sub(r'<[^>]+>','|',h); i=t.find('Hit Points'); print(re.sub(r'\|+',' | ',t[i:i+240]))"
+```
+**Read three things: HP (how many swings you need), damage-per-round + Initiative (how many you get), and
+ELEMENT (which resistance counters it).** Then decide whether to fight *today* or to come back with the
+counter up. A boss you cannot yet beat is not a fight to retry — it is a shopping list.
+
+⚠️ Prefer `curl` over opening a browser tab for the wiki: same content, far cheaper, and it does not disturb
+the game tab's session.
+
+## 🧙 CHECK A SKILL'S **TYPE AND COST** BEFORE BUILDING A LOOP AROUND IT
+
+Two bugs in one day came from assuming what a skill was:
+
+1. **A PASSIVE skill cannot be cast.** `runskillz.php` on one silently returns the skills page and spends no
+   MP — no error, no effect. A loop "casting" a passive every iteration looks like it is working and is doing
+   nothing. (Most Seal Clubber "of the [animal]" skills are passive; a caster's intuition does not transfer.)
+2. **A wrong MP cost silently disables your healing.** A heal step written as
+   `if (mp >= 12) cocoon(); else hibernate();` looks safe — but **Cannelloni Cocoon costs 20 MP, not 12**, so
+   at 12–19 MP it attempted the cocoon, failed, and *skipped the fallback*, leaving the character unhealed.
+
+✅ **One call answers both, for any skill:**
+```js
+const d = (await G('/desc_skill.php?whichskill='+id+'&self=true')).replace(/<[^>]+>/g,' ').replace(/\s+/g,' ');
+d.match(/Type:\s*(\w+)\s+MP Cost:\s*(\S+)/);   // -> ["...", "Passive"|"Noncombat"|"Combat", "N/A"|"20"|...]
+```
+✅ **Make every heal step verify it actually healed**, so a wrong constant fails loudly instead of quietly:
+```js
+await heal(); s = await ST(tag);
+if (+s.hp / +s.maxhp < 0.5) { abort('HEAL FAILED hp '+s.hp+' mp '+s.mp); }
+```
+
+## 🎲 CHOICE BUTTON ORDER IS RANDOMIZED — match on the LABEL, never on the option number
+
+Verified live and stated outright by the wiki for the class Nemesis riddle (choice 1049): **the option numbers
+are shuffled on every page load.** The same answer was `option=2` on one fetch and `option=3` on the next.
+Any note of the form "choice 1049 → option 1" is therefore wrong roughly (n−1)/n of the time.
+
+✅ **Scrape label→option in the SAME response you are about to answer, then pick by text:**
+```js
+const blocks = p.split(/<form/).slice(1).map(b => ({
+  opt:   (b.match(/name=["']?option["']? value=["']?(\d+)/)||[])[1],
+  label: (b.match(/type=["']?submit["']?[^>]*value=["']([^"']+)["']/i)||[])[1]
+})).filter(x => x.opt && x.label);
+const pick = blocks.find(b => /Boredom/i.test(b.label));   // decide by MEANING
+```
+⚠️ Record answers in `mechanics/` as **label text**, never as an option index.
+⚠️ A single-option choice (`blocks.length === 1`) is just a "continue" button — safe to auto-answer. **Stop and
+inspect anything with 2+ options** you don't have a recorded answer for; blind `opts[0]` is how you fail a
+puzzle you could have looked up in 90 seconds.
+
+## 🔢 THE OFF-BY-ONE ROW PARSE — it bites on inventory, equipment AND shop pages
+
+The pattern `id …[\s\S]{0,400}?<b>(name)</b>` pairs each id with the **NEXT** row's name, because the id
+appears at the end of the preceding block. It produces a plausible-looking, entirely wrong table. Hit three
+times in one day: inventory items, the equipped-slot list, and **`shop.php` rows** — where it cost 50 meat on
+the wrong item and a failed craft.
+
+✅ **Always split into per-row blocks FIRST, then read id and name from inside the same block:**
+```js
+// shop.php
+const rows = sh.replace(/<script[\s\S]*?<\/script>/g,'').split(/<tr[^>]*rel=|<tr>/i)
+  .filter(b => /whichrow=/.test(b))
+  .map(b => ({ row:(b.match(/whichrow=(\d+)/)||[])[1],
+               name:((b.match(/<b>([^<]+)<\/b>/)||[])[1]||'').trim() }))
+  .filter(x => x.row && x.name);
+const want = rows.find(r => /tenderizing hammer/i.test(r.name));   // find by NAME, then use .row
+```
+🎯 **The general rule: never pair an identifier with a name found by scanning FORWARD across a row boundary.**
+Split on the row/cell delimiter, then match within the block. Same rule as the choice-button fix above.
+
 ## 📖 READ YOUR OWN `mechanics/` FILE BEFORE FARMING A QUEST — you have probably already solved it
 
 The most expensive mistake of run #3 Day 8 was not a game mechanic. **`mechanics/friars-blessings.md` already
@@ -683,9 +767,21 @@ consumed through their **own endpoint** and count against their own daily cap (*
    adventuring until near 0. Disconnects / MP starvation / a stalled quest are reasons to **adapt** (re-login, tiny-house
    MP, switch to a sustainable zone like the Airship snarf 81), NOT to stop. Only stop early if genuinely out of advs,
    Beaten-Up with no recovery and <3 advs, or the user says so.
-3. **Prep daily-limited & one-shot things EARLY.** Do the **Daily Dungeon** at day-open (1 run/day). Cast once/day
-   summons/buffs at open. Before a gated/one-shot quest step (e.g. the NS contest desk), assemble ALL required
-   items/gear/buffs FIRST, verify, then trigger. If too broke for what a step needs, farm meat first (with a +item buff up).
+3. **Prep daily-limited & one-shot things EARLY — but TIME DURATION BUFFS TO THEIR TARGET.**
+   Do the **Daily Dungeon** at day-open (1 run/day). Cast once/day **summons** at open. Before a gated/one-shot
+   quest step (e.g. the NS contest desk), assemble ALL required items/gear/buffs FIRST, verify, then trigger.
+   If too broke for what a step needs, farm meat first (with a +item buff up).
+   - 🚨 **Distinguish two kinds of "daily":**
+     **(a) CONSUMABLES / one-shot acquisitions** (a daily pull, a daily purchase, a once/day summon that yields
+     items) — take these **at day-open**; they sit in inventory and never expire.
+     **(b) DURATION BUFFS measured in adventures** (e.g. a **20-adventure** Friar blessing) — these are
+     **once-per-day but short**. Taking one at login and then grinding 60 turns *wastes it entirely*. Take them
+     **immediately before the fight/step they are for**, as the last action of your prep.
+   - ❌ **Measured failure (run #3 Day 9):** took **Brother Smothers's Blessing** (+3 all-elemental res, 20 adv)
+     at breakfast "because it's daily", spent 63 turns clearing Cyrpt rooms, then met the **Bonerdagon** — a
+     boss dealing ~46 **spooky** damage/round, exactly what the blessing counters — about 40 turns after it had
+     expired. Lost in 3 rounds, and it is once/day, so there was no second chance that day.
+   - ✅ **Test to apply:** *does it expire?* If yes, ask *what is it for?* and take it at that moment.
 4. **Wrap order:** EAT + advs spent + DRINK all done → write the lore diary (`my-adventures/YYYY-MM-DD.md`) →
    **close the KoL browser tab FIRST** → **commit & push LAST** (tab closes before the commit).
 5. **Diaries are lore-friendly stories**; **this manual + CURRENT_ASCENSION.md hold the operational data** (item IDs,

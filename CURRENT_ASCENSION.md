@@ -29,65 +29,99 @@ Disco Bandit · Accordion Thief.
 
 ---
 
-## 📊 Character state (end of run #3 Day 8 / 2026-09-04)
+## 📊 Character state (end of run #3 Day 9 / 2026-09-05)
 
-- **LEVEL 8 Seal Clubber.** Base **Mus 82** / Mys 36 / Mox 35. **Max HP 128, max MP 36.**
-  **Meat 678. adv 1 banked.** full 15, drunk 15 (landed exactly on the 14 cap, then ONE overdrink).
-  **Ronin 307 left.** Spleen 0/15 (unused today — herbs no longer needed now that DR is up).
-- 🎁 **Loadout:** Crown of the Goblin King · astral bludgeon · Knob Goblin elite pants · ring of half-assed
-  regeneration. (Re-derived after the King; unchanged today.)
-- ✅ **Trial By Friar COMPLETE** — ritual performed. Pandamonium is now open but its talisman zones are
-  **mainstat 55/60**, so Liver of Steel stays a Level ~9–10 goal (see `friars-blessings.md`).
-- ⚰️ **The Cyrpt is half done: Evilometer 194 → 78.** **Alcove CLEARED · Cranny CLEARED · Niche at 28 · Nook
-  untouched (50).** Evil drops **exactly 1 per kill**; each room's boss spawns at 25 and clears the rest.
-  Cyrpt fights at L7–8 ran **62W / 2L** — both losses to the Alcove boss (conjoined zmombie).
-- 💰 **The Cyrpt is also this run's best meat farm so far:** ~1,500–1,900 meat per 25-turn room.
-- **Day 8: ~102 fights, 2 losses. Level 7 → 8, Muscle 67 → 82, max HP 105 → 128.**
+- **LEVEL 8 Seal Clubber.** Base **Mus 91**. **Max HP 148, max MP ~43.** **Meat 1,467. adv 14 banked.**
+  full 15, drunk 19 (landed exactly on the 14 cap, then ONE overdrink ✅). **Ronin 181 left.**
+- ⚔️ **LOADOUT UPGRADED: the `Hammer of Smiting` (2559) — Damage 9–18 and ONE-HANDED**, roughly double the
+  astral bludgeon (5–10, two-handed). **The off-hand slot is now free and unused — find something for it.**
+  Also: Crown of the Goblin King · Knob Goblin elite pants · ring of half-assed regeneration
+  (⚠️ clown shoes + big red clown nose are still occupying the other two accessory slots — re-derive).
+- ⚰️ **THE CYRPT IS SWEPT.** All four rooms cleared (Evilometer now reads the `999 / Haert: 999` sentinel).
+  **Only the Bonerdagon remains.** Day 9 Cyrpt record: **63W / 0L**.
+- 💀 **Bonerdagon attempted and LOST in 3 rounds** — see the plan below; this is tomorrow's first job.
+- 🏆 **NEMESIS PART 1 COMPLETE** — riddle → ghost → Bjorn's Hammer → Beelzebozo → distilled seal blood →
+  smithed the Epic Weapon. Guild is now in the **lair-search delay** ("we will attempt to locate your Nemesis").
+- 🤍 **Whitey's Grove (snarf 100) unlocked** by accepting Olaf's errand. 35W/0L there.
+- **Day 9: ~140 fights, 1 loss (the Bonerdagon). Muscle 82 → 91, max HP 128 → 148.**
 
-### 🆕 THREE GUILD QUESTS ARE OPEN (found only because I finally talked to the non-trainer NPCs)
+### 💀 THE BONERDAGON — measured, and the plan that should win
 
-| NPC | Quest | State |
-|---|---|---|
-| **Grignr** (`place=scg`) | **Me and My Nemesis** — Nemesis stole a guild artifact | Search the **Misspelled Cemetary** for the **Tomb of the Unknown Seal Clubber**. Unlocked **The Unquiet Garves**. |
-| **Terri** (`place=ocg`) | **The Wizard of Ego** — dig up Fernswarthy's grave for a key | open |
-| **Olaf** (`place=paco`) | **White Citadel** takeout errand | accepted → **unlocked Whitey's Grove (snarf 100)** |
+| | |
+|---|---|
+| His stats (wiki) | **HP 120** · Att 90 · Def 81 · No-Hit 100 · **Init 90 (he strikes first)** |
+| His damage (measured) | **~46 SPOOKY per round** |
+| My damage then | 36/swing with the astral bludgeon → needed 4 swings, survived 3 rounds |
 
-⚠️ Grignr had said *"check back with me later"* on **Day 1** and I didn't return until **Day 8**.
+**Why I lost: I wasted the counter.** `Brother Smothers's Blessing` (+3 all-elemental res) is the answer to
+46 spooky/round — but it lasts **20 adventures** and I took it at day-open, then ground 63 turns. It had been
+gone ~40 turns when I opened the door. ⚠️ **Damage Absorption (Hide of the Walrus +50) does NOT help here** —
+absorption ≠ elemental resistance.
+
+✅ **Tomorrow's sequence:** Hibernate to full HP → cast Seal Clubbing Frenzy (1 MP) →
+**take `bro=3` blessing LAST** → `crypt.php?action=heart` → choice 527 opt 1 → **plain attacks only**
+(he disrupts skills/items ~25%). With **120 HP at ~45/swing from the Hammer of Smiting that is 3 swings**,
+and 148 max HP absorbs 3 of his hits. It should be winnable.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
 **Fullness 15 · Booze cap 14 (no Liver of Steel) · Spleen 15.**
-**Skills known:** Seal Clubbing Frenzy · Thrust-Smack · Lunge Smack · Super-Advanced Meatsmithing · Blubber Up ·
-Fortitude of the Muskox · Audacity of the Otter · **Hide of the Walrus** · Clobber · Hibernate · Cold Shoulder ·
-Wrath of the Wolverine · Buoyancy of the Beluga · **Scowl of the Auk** · **Furious Wallop** ·
-**Thirst of the Weasel** · *Pastamastery (permed)* · *Cannelloni Cocoon (permed)*.
+⭐ **Most of this class's skills are PASSIVE** (always on, nothing to cast): Hide of the Walrus (**Damage
+Absorption +50**), Fortitude of the Muskox, Audacity of the Otter, Cold Shoulder, Wrath of the Wolverine,
+Buoyancy of the Beluga, Thirst of the Weasel, Super-Advanced Meatsmithing.
+**Castable:** Seal Clubbing Frenzy (**1 MP** — cast it constantly), Blubber Up (7), Scowl of the Auk (10),
+*Cannelloni Cocoon (**20 MP**, permed)*, *Pastamastery (10, permed, 1/day)*. Combat: Clobber/Lunge Smack (1),
+Thrust-Smack (3), **Furious Wallop (1 Gal. Fury = guaranteed crit)**.
 **Not yet bought (L8 tier):** Claws of the Walrus (3,250) · Club Foot (3,250).
-🛡️ **`Hide of the Walrus` is the buy of the run so far** — DR cut Hibernate spending from **8 adventures per
-24 fights to 2 per 30**. Cast it in every grind loop's preamble.
-🔌 **MP is no longer fully dead** (max 36 at L8): Cannelloni Cocoon (12 MP) is now castable, but there is still
-no cheap restore, so **Hibernate (1 adv, full HP) remains the workhorse.**
+Healing ladder: **Cannelloni Cocoon (20 MP)** → **Hibernate (1 adv, full HP + clears Beaten Up)**.
 Karma banked ~102.
 
 ---
 
 ## 🔜 Next-session priorities
 
-> **1 adventure banked + the new day's allowance. Meat is low (678) — the Cyrpt refills it fast.**
-> (1) ⚰️ **FINISH THE CYRPT** — Niche (**263**, at 28 evil) then Nook (**264**, at 50). Evil = 1/kill, boss at
->     25 clears the room. Then **the Haert** (`crypt.php?action=heart`) → **the Bonerdagon**.
->     ⚠️ Read `mechanics/bonerdagon-boss.md` first — but its combat advice is caster-specific.
-> (2) 🛡️ **Cast Hide of the Walrus at the start of every grind loop** — it is worth ~6 adventures per 25 fights.
-> (3) 🏛️ **Three guild quests are open** (table above). The **Nemesis** chain is the class-signature one and is
->     exactly what this run exists to document → **write it up in `mechanics/nemesis-quest.md`.**
-> (4) 💰 **Buy Claws of the Walrus / Club Foot (3,250 each)** once the Cyrpt has paid out.
-> (5) **EAT: pull a stolen sushi (6293) daily** (6 full / 14 adv) + **Knob jelly donuts** (1 full / 3 adv, ~24
->     left in inventory) to land on 15 for zero meat.
-> (6) 🍺 **DRINK: cap 14.** Fill with **Ye Olde Meade (5 drunk / 16 adv — best measured)** + Green Manalishi +
->     Imp Ale toppers. 🚨 **Reserve a MEASURED big bottle for the overdrink** — see the Day 8 mistake below.
+> **14 adventures banked + the new day's allowance. Meat 1,467. Ronin 181 — plan for its end (unlimited pulls).**
+> (1) 💀 **KILL THE BONERDAGON FIRST, while the daily blessing is fresh** — exact sequence in the box above.
+>     Then report to `council.php` to close *Cyrptic Emanations*. Drops: skull of the Bonerdagon (off-hand —
+>     **and the off-hand is now free**) + chest of the Bonerdagon (`inv_use` → 3,000 meat).
+> (2) 🎽 **Re-derive the loadout** — clown shoes + big red clown nose are still equipped from the Fun House.
+> (3) 🏆 **Nemesis Part 2** is in its gated delay; re-check `guild.php?place=scg` each day. Meanwhile the
+>     Nemesis puts a **bounty** on you (wandering "disreputable" monsters) — that's expected, not a bug.
+> (4) 📜 **Two guild quests still open:** *The Wizard of Ego* (Fernswarthy's grave) and *White Citadel*.
+> (5) **EAT: pull a stolen sushi (6293) daily** + toppers (Knob jelly donuts are nearly gone — cottage
+>     cheese ×8 / fortune cookies ×4 / ghuol eggs are the 1-fullness fallbacks).
+> (6) 🍺 **DRINK: cap 14.** Best measured: **Corpse Island iced tea 6/22**, Ye Olde Meade 5/14–16,
+>     Green Manalishi 3/8, limoncello 2/6. **Reserve a measured big bottle for the overdrink.**
+>     🍷 Whitey's Grove choices **74 and 75** pay 3 boxes of wine / 3 jars of white lightning.
 
 ---
 
 ## 🗓️ Session log (this run)
+
+- **Run #3 Day 9 (2026-09-05): 🏆 The Nemesis epic weapon forged, the Cyrpt swept — and a boss lost to a
+  scheduling mistake.**
+  ⭐ **The class finding that reframes everything: most Seal Clubber skills are PASSIVE.** Verified every skill
+  against `desc_skill.php` — Hide of the Walrus is *Type: Passive, Damage Absorption +50*, always on since
+  purchase. So yesterday's "cast it in the loop preamble" advice was doing **nothing**, and the wider
+  "MP is a dead resource" complaint was overstated: this class's power is passive by design. Also found
+  **Seal Clubbing Frenzy costs 1 MP** and I had never cast it in nine days. 🐛 And a real bug: my heal step read
+  `if (mp >= 12) cocoon()` — **Cannelloni Cocoon costs 20 MP**, so between 12 and 19 MP it cast nothing *and*
+  skipped the Hibernate fallback.
+  ⚰️ **Cyrpt finished: Niche + Nook, 63W/0L**, Evilometer → the `999/Haert` sentinel.
+  💀 **Then lost to the Bonerdagon in 3 rounds** — ~46 spooky/round vs my 36/swing. Root cause was *timing*, not
+  tactics: **Brother Smothers's Blessing counters exactly that damage and lasts 20 adventures**, and I had taken
+  it at breakfast before a 63-turn grind. New HANDOFF rule: **daily CONSUMABLES go early; daily DURATION BUFFS
+  go immediately before their target.**
+  🏆 **Nemesis Part 1, start to finish.** The tomb riddle's answer is **"Boredom."** — not "Seals." and not "the
+  weather", both of which I'd have sworn to. 🎲 And the buttons are **shuffled on every page load**, so the
+  answer must be matched by *label*, never by option number; recorded all six classes' answers for the class
+  sweep. Ghost → Bjorn's Hammer (a **5–10 damage crafting component**, do not equip) → clown suit (**leaves the
+  weapon slot free**) → **Beelzebozo dead in 1 round for 84 damage** → smithed the **Hammer of Smiting**
+  (9–18, **one-handed**, off-hand now free).
+  🔢 **The off-by-one row parse struck a third time** — bought a 50-meat *meatsmithing guide* instead of the
+  1,000-meat tenderizing hammer because the shop regex paired each row with the *next* row's name.
+  ✅ **Overdrink done right:** reserved a measured bottle → **+14 adventures**, against **+1** the night before.
+  📖 Two bosses today: **the one I looked up first died in one round; the one I didn't killed me in three.**
 
 - **Run #3 Day 8 (2026-09-04): ✅ Trial By Friar CLEARED, the Cyrpt half-swept, Level 8 — and three guild
   quests that had been waiting since Day 1.**
