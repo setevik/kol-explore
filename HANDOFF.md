@@ -233,6 +233,7 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
   radio whose value starts with the item id — then POST `mallstore.php` with
   `pwd, whichstore, buying=Yep., whichitem=<value>, quantity=N, searchitem=<itemid>, searchprice=<price>`.
   ⚠️ Never loop mall buys gated on `api.php?what=inventory` — it caches and you'll overbuy. (Verified: 2 jerky for 360 meat.)
+  🚨 **This cache bites ANY loop that polls inventory, not just buying** — see the rule below.
 
 ## Raising meat fast (when a skill/item is unaffordable)
 
@@ -406,6 +407,37 @@ declaring a zone unavailable, **fetch the quest's own hub page and scrape its `a
 ```js
 const links = [...(await G('/friars.php')).matchAll(/adventure\.php\?snarfblat=(\d+)/g)].map(m=>m[1]);
 ```
+
+## 🚨 `api.php?what=inventory` IS CACHED — bust it, or your farm loop will never see the drop
+
+The status endpoint is fine (the helper already varies `for=`), but **any loop that polls inventory with a
+constant URL gets a stale answer**. Symptom: you farm a zone, the drops are landing, and the loop reports
+`got: 0` forever and grinds past its own stop condition.
+
+❌ `const have = async () => JSON.parse(await G('/api.php?what=inventory&for=q'))[id]` — constant URL, cached.
+✅ **Always append a unique token:**
+```js
+window.invQty = async (id) =>
+  +(JSON.parse(await G('/api.php?what=inventory&for=q'+Date.now()+Math.random()))[id] || 0);
+```
+Measured cost: a 7-turn Goatlet run that reported zero goat cheese while cheese was dropping (the very next
+manual fight showed *"goat cheese (1 of 3 found.)"*).
+
+## 🔢 VERIFY AN ITEM ID BEFORE YOU TRUST IT — a wrong ID reads as "I already have this"
+
+A stale/guessed item id in a doc is worse than no id: `inv['747']` returned **8**, so I "had 8 asbestos ore",
+marched up the mountain, and was told to git. Item 747 was something else entirely; **asbestos ore is 364**.
+(The same guess had also mislabelled 363/364 as miner's gear — they are *linoleum ore* and *asbestos ore*.)
+
+✅ **Confirm from the wiki in one Bash call before relying on an id:**
+```bash
+curl -s -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)" \
+  "https://wiki.kingdomofloathing.com/Asbestos_ore" \
+| python3 -c "import sys,re; h=sys.stdin.read(); m=re.search(r'itemid[^0-9]{0,20}(\d+)',h,re.I); print(m.group(1))"
+```
+✅ **Prefer name-matching over id-matching when reading YOUR OWN inventory** (ids drift between notes), but
+**prefer ids when checking quantities via `api.php`** (names there are absent). When a doc records an id,
+record the **name beside it** so a future run can re-verify cheaply.
 
 ## ⚔️ LOOK UP A BOSS'S STATS BEFORE YOU FIGHT IT — it costs ~90 seconds and decides the fight
 

@@ -9,7 +9,7 @@
 > On ascension, archive this file to `runs/ascension-NN-<class>.md` and start a fresh one.
 > Prior runs: `runs/ascension-01-pastamancer.md` (WON), `runs/ascension-02-pastamancer.md` (WON).
 
-**Character:** ClaudeCode — **Ascension #3 (the THIRD run)**, a **Level 8 Seal Clubber**, Softcore/Normal.
+**Character:** ClaudeCode — **Ascension #3 (the THIRD run)**, a **Level 9 Seal Clubber**, Softcore/Normal.
 **Started:** 2026-08-28 (immediately after winning run #2 on Day 131 / 2026-08-24).
 
 ---
@@ -29,74 +29,87 @@ Disco Bandit · Accordion Thief.
 
 ---
 
-## 📊 Character state (end of run #3 Day 9 / 2026-09-05)
+## 📊 Character state (end of run #3 Day 10 / 2026-09-06)
 
-- **LEVEL 8 Seal Clubber.** Base **Mus 91**. **Max HP 148, max MP ~43.** **Meat 1,467. adv 14 banked.**
-  full 15, drunk 19 (landed exactly on the 14 cap, then ONE overdrink ✅). **Ronin 181 left.**
-- ⚔️ **LOADOUT UPGRADED: the `Hammer of Smiting` (2559) — Damage 9–18 and ONE-HANDED**, roughly double the
-  astral bludgeon (5–10, two-handed). **The off-hand slot is now free and unused — find something for it.**
-  Also: Crown of the Goblin King · Knob Goblin elite pants · ring of half-assed regeneration
-  (⚠️ clown shoes + big red clown nose are still occupying the other two accessory slots — re-derive).
-- ⚰️ **THE CYRPT IS SWEPT.** All four rooms cleared (Evilometer now reads the `999 / Haert: 999` sentinel).
-  **Only the Bonerdagon remains.** Day 9 Cyrpt record: **63W / 0L**.
-- 💀 **Bonerdagon attempted and LOST in 3 rounds** — see the plan below; this is tomorrow's first job.
-- 🏆 **NEMESIS PART 1 COMPLETE** — riddle → ghost → Bjorn's Hammer → Beelzebozo → distilled seal blood →
-  smithed the Epic Weapon. Guild is now in the **lair-search delay** ("we will attempt to locate your Nemesis").
-- 🤍 **Whitey's Grove (snarf 100) unlocked** by accepting Olaf's errand. 35W/0L there.
-- **Day 9: ~140 fights, 1 loss (the Bonerdagon). Muscle 82 → 91, max HP 128 → 148.**
+- **LEVEL 9 Seal Clubber.** Base Mus ~72 (buffed 95). **Max HP 147, max MP 61.** **Meat 7,026. adv 16 banked.**
+  full 15, drunk 19 (exactly 14 then ONE overdrink ✅). ⏳ **Ronin 81 left — it ends in ~1–2 days.**
+- ⚔️ **Loadout:** Crown of the Goblin King · **Hammer of Smiting** (9–18, 1-handed) · **coffin lid** (off-hand:
+  DR 3 + Slight Spooky Resistance) · Knob Goblin elite pants · batskin belt · shiny ring · regen ring.
+  ⚠️ Currently wearing the **eXtreme Cold-Weather Gear** (scarf/pants/mittens) for the mountain — re-derive
+  when off the peak.
+- 💀 **THE BONERDAGON IS DEAD** (4 rounds) and *Cyrptic Emanations* is **closed**. +3,000 meat from the chest.
+- 🏔️ **Trapper Phase 1 complete** (3 goat cheese + 3 asbestos ore delivered; ski lift fixed).
+  ✅ **Phase 2 already satisfied** — the cold-weather outfit alone gives **Cold Protection: High (5)** and
+  **The Mist-Shrouded Icy Peak is unlocked** on `place.php?whichplace=mclargehuge` (`action=cloudypeak`).
+- 🧰 Gained the full **Mining Gear** set (helmet 360 · pants 361 · mattock 362) from the mine's own encounters.
+- 💎 Mining by-products banked: 3 lumps of diamond · 2 stones of eXtreme power · loadstone · 4 chrome ore ·
+  3 linoleum ore (all autosellable).
+- **Day 10: ~80 fights, 0 losses. Level 8 → 9, max HP 148 → 147ish, meat 1,467 → 7,026.**
 
-### 💀 THE BONERDAGON — measured, and the plan that should win
+### 🎯 WHY THE DRAGON DIED THIS TIME (the rule, proven both directions)
 
-| | |
-|---|---|
-| His stats (wiki) | **HP 120** · Att 90 · Def 81 · No-Hit 100 · **Init 90 (he strikes first)** |
-| His damage (measured) | **~46 SPOOKY per round** |
-| My damage then | 36/swing with the astral bludgeon → needed 4 swings, survived 3 rounds |
-
-**Why I lost: I wasted the counter.** `Brother Smothers's Blessing` (+3 all-elemental res) is the answer to
-46 spooky/round — but it lasts **20 adventures** and I took it at day-open, then ground 63 turns. It had been
-gone ~40 turns when I opened the door. ⚠️ **Damage Absorption (Hide of the Walrus +50) does NOT help here** —
-absorption ≠ elemental resistance.
-
-✅ **Tomorrow's sequence:** Hibernate to full HP → cast Seal Clubbing Frenzy (1 MP) →
-**take `bro=3` blessing LAST** → `crypt.php?action=heart` → choice 527 opt 1 → **plain attacks only**
-(he disrupts skills/items ~25%). With **120 HP at ~45/swing from the Hammer of Smiting that is 3 swings**,
-and 148 max HP absorbs 3 of his hits. It should be winnable.
+Same character, one day apart, **one variable: whether the 20-adventure elemental blessing was still up.**
+**46 damage/round → 31** with `Brother Smothers's Blessing` fresh + a **coffin lid** (Slight Spooky Resistance)
+in the off-hand the one-handed Hammer had freed. That bought exactly the fourth round I needed.
+⇒ **Daily CONSUMABLES early; daily DURATION BUFFS immediately before their target.**
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
 **Fullness 15 · Booze cap 14 (no Liver of Steel) · Spleen 15.**
-⭐ **Most of this class's skills are PASSIVE** (always on, nothing to cast): Hide of the Walrus (**Damage
-Absorption +50**), Fortitude of the Muskox, Audacity of the Otter, Cold Shoulder, Wrath of the Wolverine,
-Buoyancy of the Beluga, Thirst of the Weasel, Super-Advanced Meatsmithing.
-**Castable:** Seal Clubbing Frenzy (**1 MP** — cast it constantly), Blubber Up (7), Scowl of the Auk (10),
-*Cannelloni Cocoon (**20 MP**, permed)*, *Pastamastery (10, permed, 1/day)*. Combat: Clobber/Lunge Smack (1),
-Thrust-Smack (3), **Furious Wallop (1 Gal. Fury = guaranteed crit)**.
-**Not yet bought (L8 tier):** Claws of the Walrus (3,250) · Club Foot (3,250).
-Healing ladder: **Cannelloni Cocoon (20 MP)** → **Hibernate (1 adv, full HP + clears Beaten Up)**.
+⭐ **Most skills are PASSIVE** (nothing to cast): Hide of the Walrus (**Damage Absorption +50**), Fortitude of
+the Muskox, Audacity of the Otter, Cold Shoulder, Wrath of the Wolverine, Buoyancy of the Beluga, Thirst of
+the Weasel, Super-Advanced Meatsmithing.
+**Castable:** Seal Clubbing Frenzy (**1 MP**), Blubber Up (7), Scowl of the Auk (10),
+*Cannelloni Cocoon (**20 MP**, permed — heals to full without spending an adventure)*, *Pastamastery (10, 1/day)*.
+Combat: Clobber/Lunge Smack (1), Thrust-Smack (3), **Furious Wallop (1 Gal. Fury = guaranteed crit)**.
+**Not yet bought:** Claws of the Walrus (3,250) · Club Foot (3,250) — **affordable now at 7,026 meat.**
+Healing ladder: **Cannelloni Cocoon (20 MP, 0 adv)** → **Hibernate (1 adv, full HP + clears Beaten Up)**.
 Karma banked ~102.
 
 ---
 
 ## 🔜 Next-session priorities
 
-> **14 adventures banked + the new day's allowance. Meat 1,467. Ronin 181 — plan for its end (unlimited pulls).**
-> (1) 💀 **KILL THE BONERDAGON FIRST, while the daily blessing is fresh** — exact sequence in the box above.
->     Then report to `council.php` to close *Cyrptic Emanations*. Drops: skull of the Bonerdagon (off-hand —
->     **and the off-hand is now free**) + chest of the Bonerdagon (`inv_use` → 3,000 meat).
-> (2) 🎽 **Re-derive the loadout** — clown shoes + big red clown nose are still equipped from the Fun House.
-> (3) 🏆 **Nemesis Part 2** is in its gated delay; re-check `guild.php?place=scg` each day. Meanwhile the
->     Nemesis puts a **bounty** on you (wandering "disreputable" monsters) — that's expected, not a bug.
-> (4) 📜 **Two guild quests still open:** *The Wizard of Ego* (Fernswarthy's grave) and *White Citadel*.
-> (5) **EAT: pull a stolen sushi (6293) daily** + toppers (Knob jelly donuts are nearly gone — cottage
->     cheese ×8 / fortune cookies ×4 / ghuol eggs are the 1-fullness fallbacks).
-> (6) 🍺 **DRINK: cap 14.** Best measured: **Corpse Island iced tea 6/22**, Ye Olde Meade 5/14–16,
->     Green Manalishi 3/8, limoncello 2/6. **Reserve a measured big bottle for the overdrink.**
->     🍷 Whitey's Grove choices **74 and 75** pay 3 boxes of wine / 3 jars of white lightning.
+> **16 adventures banked + the new day's allowance. Meat 7,026. ⏳ RONIN 81 — plan for the transition.**
+> (1) 🏔️ **THE ICY PEAK** — `place.php?whichplace=mclargehuge` → **`action=cloudypeak`** (scrape the link; the
+>     name changes with progression). **3 panicking Knott Yetis → Groar** (ML 120, HP 250, cold-aligned,
+>     **weak to HOT and SPOOKY**). ⭐ **Equip the `skull of the Bonerdagon` (+5 Spooky Damage) in the off-hand
+>     for Groar** — that is exactly what it is for. Keep the cold-weather outfit ON to climb.
+>     ⚠️ Enter at full HP; after a loss you re-enter straight at Groar.
+> (2) 💰 **Buy Claws of the Walrus + Club Foot (3,250 each)** — 7,026 meat covers both.
+> (3) ⏳ **RONIN ENDS IN ~81 TURNS.** The moment `roninleft` hits 0: Hagnk's becomes **unlimited pulls, free**,
+>     and mall buys go to **inventory** paid from **inventory meat**. **Raid storage immediately** (522+ items:
+>     Ye Olde Meade ×13, Corpse Island iced tea, stolen sushi ×50, gauze garters ×24, Monstar ×15).
+> (4) 📜 **Guild quests open:** *The Wizard of Ego* (Fernswarthy's grave) · *White Citadel* (road now found).
+>     **Nemesis Part 2** is in its gated delay — re-check `guild.php?place=scg` daily.
+> (5) **EAT:** pull a stolen sushi (6293) + 1-fullness toppers (cottage cheese, ghuol eggs, fortune cookies).
+> (6) 🍺 **DRINK: cap 14.** Best measured: **Corpse Island iced tea 6/22** · Ye Olde Meade 5/14–16 ·
+>     white lightning 3/7 · Green Manalishi 3/6–8 · popskull 2/3–4 · ⚠️ boxed wine 3/3 (skip).
+>     **Reserve a measured big bottle for the overdrink** — it has paid 14 and 16 the last two nights.
 
 ---
 
 ## 🗓️ Session log (this run)
+
+- **Run #3 Day 10 (2026-09-06): 💀 The Bonerdagon dies in 4 rounds; the Trapper's ski lift runs again.**
+  🎯 **The fix worked exactly as predicted, and the measurement is clean:** same character, one day later, one
+  variable changed — **his damage fell from ~46/round to ~31** with `Brother Smothers's Blessing` taken **last**
+  instead of at breakfast, plus a **coffin lid** (Slight Spooky Resistance) in the off-hand that the
+  one-handed Hammer of Smiting had freed up. That bought the 4th round, which was all I needed. *Cyrptic
+  Emanations* closed; +3,000 meat from the chest.
+  🏔️ **Trapper Phase 1 done**, via a chain of self-inflicted detours worth recording:
+  🐛 **A stale item ID cost the first trip** — my notes said asbestos ore was 747; I had 8 of *something* and
+  marched up the mountain to be told to git. **Asbestos ore is 364.**
+  🐛 **`api.php?what=inventory` is CACHED** — a constant `for=` token made a 7-turn Goatlet run report zero
+  cheese while cheese was actually dropping. My manual warned about this cache, but only in the *mall-buying*
+  section; now generalised.
+  🪨 **The hostile Knoll means no miner's-gear shop** — but **the mine hands you the whole outfit itself**
+  (locker choice 556, the elevator-shaft dwarf choice 20, and choice 19's consolation trousers). Then 23 digs
+  on "Promising Chunk of Wall" squares for 3 asbestos + 3 diamonds.
+  🚪 **Then 27 turns hunting a gate that was already open:** the quest wants "Superhuman (5) cold resistance"
+  and **the cold-weather outfit alone gives Cold Protection: High (5)** — the Icy Peak had been unlocked from
+  the moment I put it on. Second time this week I farmed for a key I already held.
+  ✅ Overdrink reserved-and-measured again: **+16 adventures** (14 the night before, 1 the night before that).
 
 - **Run #3 Day 9 (2026-09-05): 🏆 The Nemesis epic weapon forged, the Cyrpt swept — and a boss lost to a
   scheduling mistake.**

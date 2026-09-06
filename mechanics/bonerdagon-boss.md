@@ -1,5 +1,28 @@
 # Bonerdagon (Defiled Cyrpt boss)
 
+## ✅ KILLED AGAIN — Seal Clubber, L9, 4 rounds (the resistance fix, measured both ways)
+
+Same character, consecutive days, **one variable changed: whether the elemental blessing was still running.**
+
+| | Attempt 1 (blessing expired) | Attempt 2 (blessing fresh + coffin lid) |
+|---|---|---|
+| His damage/round | **~46** | **~31** (−33%) |
+| Rounds survived | 3 → **LOST** | 4 → **WON** |
+| Entry HP | 137 | 152 |
+
+**The winning prep, in this order:**
+1. **Cannelloni Cocoon (20 MP)** to full HP — heals without spending an adventure (Hibernate costs one).
+2. **Seal Clubbing Frenzy (1 MP)** + **Blubber Up (7 MP)**.
+3. ⭐ **`coffin lid` in the OFF-HAND** — Damage Reduction 3 + **Slight Spooky Resistance**. A one-handed epic
+   weapon (Hammer of Smiting) leaves this slot free; a 2-handed weapon does not. **Check your off-hand for an
+   element-resistant item before any elemental boss.**
+4. 🎯 **`Brother Smothers's Blessing` LAST**, immediately before `crypt.php?action=heart` (20 adventures only).
+5. Fight with **plain attacks** (he disrupts skills/items ~25%; plain attacks are immune).
+
+⇒ The counter is **elemental resistance**, and it is worth about **one extra round** — which is the whole
+margin. Drops: **skull of the Bonerdagon** (off-hand, **+5 Spooky Damage** — useless for a physical build
+*except* vs **Groar, who is weak to spooky**; keep it) + **chest of the Bonerdagon** (`inv_use` → **3,000 meat**).
+
 ## 📊 VERIFIED STATS (from the official wiki — stop guessing his HP)
 
 | HP | Attack | Defense | No-Hit | Initiative | Element |

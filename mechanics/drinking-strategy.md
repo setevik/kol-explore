@@ -151,11 +151,13 @@ The craft page (`craft.php?mode=cocktail`) `<option>` list is also the fastest w
 | **Corpse Island iced tea** | 3028 | 6 | **22** | **3.7** ⭐ best measured |
 | **Ye Olde Meade** | 6276 | 5 | 14–16 | 3.2 |
 | Fog Murderer | 6682 | 6 | 14–16 | 2.5 |
-| Green Manalishi | 7206 | 3 | 8 | 2.7 |
 | bottle of popskull | 1774 | 2 | 4 | 2.0 |
 | Typical Tavern swill | 3831 | 3 | — | (potency 3, **not** 1) |
 | limoncello | 6036 | 2 | 6 | 3.0 |
 | electric snakebite | 7325 | 2 | 5 | 2.5 |
+| white lightning | 266 | 3 | 7 | 2.3 |
+| Green Manalishi | 7206 | 3 | 6–8 | 2.0–2.7 |
+| **boxed wine** | 1005 | 3 | 3 | **1.0 — skip it** |
 | Imp Ale | 470 | 1 | 1 | 1.0 — pure topper |
 | **gin-soaked blotter paper** | 4675 | **1** | **1** | 1.0 ⚠️ *the name lies; a terrible overdrink* |
 
