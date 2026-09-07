@@ -390,7 +390,7 @@ for (const pl of ['scg','ocg','paco','challenge']) {
 ```
 
 ⚠️ **"Check back with me later" means CHECK BACK.** An NPC that says *"perhaps I'll have a task for you"* is
-gating on level, not brushing you off. (Cost this run: a Nemesis quest sat unclaimed from Day 1 to Day 8.)
+gating on level, not brushing you off. (Measured cost: a class Nemesis quest sat unclaimed for seven play days.)
 Verified live at once: a **class Nemesis quest**, **Fernswarthy's tomb / Wizard of Ego**, and a **White
 Citadel** errand that **unlocks a new zone (Whitey's Grove)** just for accepting it.
 
@@ -425,8 +425,8 @@ manual fight showed *"goat cheese (1 of 3 found.)"*).
 
 ## 🔢 VERIFY AN ITEM ID BEFORE YOU TRUST IT — a wrong ID reads as "I already have this"
 
-A stale/guessed item id in a doc is worse than no id: `inv['747']` returned **8**, so I "had 8 asbestos ore",
-marched up the mountain, and was told to git. Item 747 was something else entirely; **asbestos ore is 364**.
+A stale/guessed item id in a doc is worse than no id: a lookup of the wrong id returned **8**, reading as
+"8 asbestos ore already held" — the quest step then refused the turn-in. **Asbestos ore is 364**, not 747.
 (The same guess had also mislabelled 363/364 as miner's gear — they are *linoleum ore* and *asbestos ore*.)
 
 ✅ **Confirm from the wiki in one Bash call before relying on an id:**
@@ -441,13 +441,13 @@ record the **name beside it** so a future run can re-verify cheaply.
 
 ## 🎯 A DASH IN THE DAMAGE COLUMN MEANS *ACCURACY*, NOT DAMAGE — check Defense vs your attack stat
 
-The most expensive misdiagnosis of run #3: nine rounds against Groar in which **I dealt zero damage, not low
-damage**, while optimising spooky resistance, off-hand items and healing potions. The game had said so in
-plain words the whole time:
+✅ **Measured (Seal Clubber vs Groar):** nine rounds in which **zero damage was dealt — not low damage, none** —
+while spooky resistance, off-hand items and healing potions were all being carefully optimised. The game says so
+in plain words:
 
 > *"...out of your league!"*
 
-**Groar's Defense was 108; my Muscle was 98.** It was never a DPS race — I could not connect at all.
+**Groar's Defense is 108; the attacking Muscle was 98.** It was never a DPS race — no attack could connect.
 
 ✅ **Log damage-dealt every round, and treat a run of blanks as a HARD STOP, not bad luck:**
 ```js
@@ -486,10 +486,10 @@ wrong number and walk back into the same wall.
 
 ## 📝 DON'T OVERWRITE A CORRECT NOTE WITH A TEMPORARY OBSERVATION
 
-`mechanics/` said the Icy Peak link was **`cloudypeak2`**, with an explicit warning that the pre-gear name
-`cloudypeak` *silently no-ops*. On Day 10 I saw `cloudypeak` on the map (because I had not yet finished the
-gear step) and "corrected" the doc to match. On Day 11 the map said `cloudypeak2` and my correction was simply
-wrong — I had replaced durable knowledge with a snapshot of a transient state.
+✅ **Verified failure mode:** `mechanics/` correctly recorded the Icy Peak link as **`cloudypeak2`**, warning
+that the pre-gear name `cloudypeak` *silently no-ops*. Mid-quest the map still showed `cloudypeak` (the gear step
+was unfinished), the doc was "corrected" to match — and once the gear step completed, the map reverted to
+`cloudypeak2` and the edit was simply wrong. Durable knowledge had been replaced by a snapshot of transient state.
 
 ✅ **Before editing an existing note, ask: is what I just saw a permanent fact, or this run's current state?**
 State belongs in `CURRENT_ASCENSION.md`. If a doc and your observation disagree, **add the condition** ("before
@@ -521,7 +521,7 @@ Two bosses in one day made the case by themselves:
 | | Researched first? | Result |
 |---|---|---|
 | Clownlord Beelzebozo | ✅ (HP 40, Att 27) | **Won in 1 round** — the lookup showed the fight was free |
-| Bonerdagon | ❌ (assumed ~180 HP) | **Lost in 3 rounds** — actually 120 HP, but deals **spooky** damage I had a once-daily counter for and had already wasted |
+| Bonerdagon | ❌ (assumed ~180 HP) | **Lost in 3 rounds** — actually 120 HP, but deals **spooky** damage whose once-daily counter had already been spent |
 
 ✅ **Fetch it in one Bash call** (the wiki 403s WebFetch but not a browser UA):
 ```bash
@@ -578,33 +578,42 @@ const pick = blocks.find(b => /Boredom/i.test(b.label));   // decide by MEANING
 inspect anything with 2+ options** you don't have a recorded answer for; blind `opts[0]` is how you fail a
 puzzle you could have looked up in 90 seconds.
 
-## 🔢 THE OFF-BY-ONE ROW PARSE — it bites on inventory, equipment AND shop pages
+## 🔢 ROW PARSING — split into row blocks FIRST, then read id and name from the same block
 
-The pattern `id …[\s\S]{0,400}?<b>(name)</b>` pairs each id with the **NEXT** row's name, because the id
-appears at the end of the preceding block. It produces a plausible-looking, entirely wrong table. Hit three
-times in one day: inventory items, the equipped-slot list, and **`shop.php` rows** — where it cost 50 meat on
-the wrong item and a failed craft.
+🎯 **Never pair an identifier with a name found by scanning FORWARD across a row boundary.** The pattern
+`id …[\s\S]{0,400}?<b>(name)</b>` pairs each id with the **NEXT** row's name (the id sits at the end of the
+preceding block), producing a plausible-looking but entirely wrong table — with no error to warn you.
+Bites on **inventory, the equipped-slot list, and `shop.php` rows** alike; on a shop it buys the wrong item.
+(Same rule as the choice-button fix above: split on the delimiter, then match within the block.)
 
-✅ **Always split into per-row blocks FIRST, then read id and name from inside the same block:**
 ```js
-// shop.php
+// inventory.php?which=N and storage.php?which=N share one row shape
+const invList = async (which) => (await G('/inventory.php?which='+which))
+  .replace(/<script[\s\S]*?<\/script>/g,'')
+  .split(/<table class='item'/).slice(1).map(c => ({
+    id: +(c.match(/id="ic(\d+)"/)||[])[1],
+    nm: ((c.match(/<b[^>]*>([^<]+)<\/b>/)||[])[1]||'').replace(/&nbsp;/g,' ').trim(),
+    q:  +((c.match(/rel="[^"]*&n=(\d+)/)||[])[1]||1)          // quantity lives in the rel attribute
+  })).filter(x => x.id);
+
+// shop.php — find by NAME, then use .row
 const rows = sh.replace(/<script[\s\S]*?<\/script>/g,'').split(/<tr[^>]*rel=|<tr>/i)
   .filter(b => /whichrow=/.test(b))
   .map(b => ({ row:(b.match(/whichrow=(\d+)/)||[])[1],
                name:((b.match(/<b>([^<]+)<\/b>/)||[])[1]||'').trim() }))
   .filter(x => x.row && x.name);
-const want = rows.find(r => /tenderizing hammer/i.test(r.name));   // find by NAME, then use .row
 ```
-🎯 **The general rule: never pair an identifier with a name found by scanning FORWARD across a row boundary.**
-Split on the row/cell delimiter, then match within the block. Same rule as the choice-button fix above.
+
+Inventory tabs: **1 = food/booze/potions · 2 = equipment · 3 = misc/quest.**
+⚠️ The FIRST `whichitem=` on a page is inside a `<script>` — strip `<script>` blocks before parsing.
+⚠️ **Equipped items do not appear in the inventory list** — read the worn set from `charsheet.php` instead.
 
 ## 📖 READ YOUR OWN `mechanics/` FILE BEFORE FARMING A QUEST — you have probably already solved it
 
-The most expensive mistake of run #3 Day 8 was not a game mechanic. **`mechanics/friars-blessings.md` already
-contained the exact zone→item mapping**, measured in a previous run — and I farmed from memory instead, guessed
-the mapping backwards, and burned **22 turns** in the Dark Elbow hunting an item that grove does not drop.
-(The grove was handing me the *eldritch butterknife* the whole time. Once I used the documented mapping, the
-other two items took **6 turns combined**.)
+✅ **Measured cost of not doing this: 22 turns.** `mechanics/friars-blessings.md` already contained the exact
+zone→item mapping from a previous run. Farming from memory instead put the mapping backwards, and the Dark Elbow
+was ground for an item it does not drop (while it handed over the *eldritch butterknife* the whole time). With the
+documented mapping, the other two items took **6 turns combined**.
 
 ✅ **Before spending a single turn on a named quest, `grep mechanics/ -l` for it and read the file.** These docs
 exist precisely so that a later run doesn't re-pay a cost already paid. Treat "I think I remember how this
@@ -617,25 +626,6 @@ set of **ALL still-missing items**, so a wrong mapping costs one turn instead of
 const got = async () => { const n = await invNames(); return targets.filter(t => n[t.toLowerCase()]); };
 // stop as soon as got().length > 0 — and LOG which zone actually produced which item
 ```
-
-## 🧾 Parsing an inventory / storage page — the item row structure
-
-`inventory.php?which=N` and `storage.php?which=N` share one row shape. **Naive "find an id, then find the next
-`<b>`" regexes pair each name with the PREVIOUS item's id** — an off-by-one that silently produces a plausible
-but wrong id→name table. Split on the item table instead:
-
-```js
-const invList = async (which) => (await G('/inventory.php?which='+which))
-  .replace(/<script[\s\S]*?<\/script>/g,'')
-  .split(/<table class='item'/).slice(1).map(c => ({
-    id: +(c.match(/id="ic(\d+)"/)||[])[1],
-    nm: ((c.match(/<b[^>]*>([^<]+)<\/b>/)||[])[1]||'').replace(/&nbsp;/g,' ').trim(),
-    q:  +((c.match(/rel="[^"]*&n=(\d+)/)||[])[1]||1)          // quantity lives in the rel attribute
-  })).filter(x => x.id);
-```
-
-Tabs: **1 = food/booze/potions · 2 = equipment · 3 = misc/quest.** ⚠️ The FIRST `whichitem=` on the page is
-inside a `<script>` — always strip `<script>` blocks before parsing.
 
 ## 🚨 Don't infer "locked" from a map's alt-text — try the zone
 
@@ -844,9 +834,9 @@ consumed through their **own endpoint** and count against their own daily cap (*
        The overdrink slot is **uncapped**: it may exceed the cap by any amount, so its *size* is free and only its
        **absolute adventure yield** matters. That makes it the one slot where the biggest bottle you own is always
        correct — and the one slot you cannot afford to gamble, because you get exactly one per day.
-       ❌ Failure (Day 8, run #3): filled to exactly 14 correctly, then overdrank on a **gin-soaked blotter paper**
-       picked because *the name sounded strong*. It was **1 drunk / 1 adventure**. An hour earlier I had *measured*
-       **Ye Olde Meade at 5 drunk / 16 adventures** and drunk it inside the cap.
+       ❌ **Measured failure:** filled to exactly 14 correctly, then overdrank on a **gin-soaked blotter paper**
+       chosen because *the name sounded strong* — **1 drunk / 1 adventure**, against a **Ye Olde Meade measured at
+       5 drunk / 16 adventures** that had been spent inside the cap an hour earlier.
      - ✅ **The two-bucket rule:** during the fill, pour the most **efficient** booze (best adv-per-drunk, to
        maximise yield inside a fixed cap) and **reserve your largest measured-yield bottle for the overdrink**
        (where size is free). If nothing is measured, **measure during the fill** — every drink already reports its
@@ -854,9 +844,9 @@ consumed through their **own endpoint** and count against their own daily cap (*
    - If you fear missing DRINK during a long farm loop, **cap the loop / drink at a checkpoint** — do NOT reorder
      the day.
    - 🚨 **AFTER THE OVERDRINK, THE DAY IS OVER — STOP ADVENTURING. (Cost 60 adventures.)**
-     This is the failure mode that survives "drink last": we correctly spent all advs, correctly filled to exactly
-     19, correctly took ONE overdrink (→ drunk 25) — and then, because the overdrink handed us **+60 adventures on
-     the spot**, HARD RULE 2 ("don't end the day with ≥40 unspent") pulled us straight back out to a quest zone.
+     This is the failure mode that survives "drink last": advs all spent, filled to exactly 19, ONE overdrink taken
+     (→ drunk 25) — all correct — and then, because the overdrink grants **+60 adventures on the spot**, HARD RULE 2
+     ("don't end the day with ≥40 unspent") pulls you straight back out to a quest zone.
      At drunk 25 every one of those 60 turns was a **Drunken Stupor**: turn consumed, zero monsters, zero meat,
      zero drops.
      - ⚖️ **Rule precedence: this beats HARD RULE 2.** Adventures granted by the *overdrink* are **not** "unspent
@@ -884,10 +874,10 @@ consumed through their **own endpoint** and count against their own daily cap (*
      **(b) DURATION BUFFS measured in adventures** (e.g. a **20-adventure** Friar blessing) — these are
      **once-per-day but short**. Taking one at login and then grinding 60 turns *wastes it entirely*. Take them
      **immediately before the fight/step they are for**, as the last action of your prep.
-   - ❌ **Measured failure (run #3 Day 9):** took **Brother Smothers's Blessing** (+3 all-elemental res, 20 adv)
-     at breakfast "because it's daily", spent 63 turns clearing Cyrpt rooms, then met the **Bonerdagon** — a
-     boss dealing ~46 **spooky** damage/round, exactly what the blessing counters — about 40 turns after it had
-     expired. Lost in 3 rounds, and it is once/day, so there was no second chance that day.
+   - ❌ **Measured failure:** **Brother Smothers's Blessing** (+3 all-elemental res, **20 adv**) taken at day-open
+     "because it's daily", then 63 turns of Cyrpt clearing — so it had been expired ~40 turns by the time the
+     **Bonerdagon** (~46 **spooky** damage/round, exactly what the blessing counters) came up. Lost in 3 rounds,
+     and the blessing is once/day, so there was no second attempt that day.
    - ✅ **Test to apply:** *does it expire?* If yes, ask *what is it for?* and take it at that moment.
 4. **Wrap order:** EAT + advs spent + DRINK all done → write the lore diary (`my-adventures/YYYY-MM-DD.md`) →
    **close the KoL browser tab FIRST** → **commit & push LAST** (tab closes before the commit).
