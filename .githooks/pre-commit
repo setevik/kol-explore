@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Blocks a commit that would put out-of-world content into a diary.
+# Install (once per clone):  git config core.hooksPath .githooks
+# Deliberate override:       LORE_CHECK_SKIP=1 git commit ...
+[ -n "${LORE_CHECK_SKIP:-}" ] && exit 0
+exec "$(git rev-parse --show-toplevel)/tools/lore-check.sh"

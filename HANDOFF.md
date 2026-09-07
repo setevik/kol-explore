@@ -891,8 +891,20 @@ consumed through their **own endpoint** and count against their own daily cap (*
    - ✅ **Test to apply:** *does it expire?* If yes, ask *what is it for?* and take it at that moment.
 4. **Wrap order:** EAT + advs spent + DRINK all done → write the lore diary (`my-adventures/YYYY-MM-DD.md`) →
    **close the KoL browser tab FIRST** → **commit & push LAST** (tab closes before the commit).
-5. **Diaries are lore-friendly stories**; **this manual + CURRENT_ASCENSION.md hold the operational data** (item IDs,
-   snarfblats, choice numbers, URLs). Keep raw operational data OUT of the diary.
+5. **Diaries are lore-friendly stories**; **this manual + CURRENT_ASCENSION.md hold the operational data.**
+   🚨 **The banned set is FIVE CATEGORIES, not a list of examples** — the old wording ("item IDs, snarfblats,
+   choice numbers, URLs") named only symptoms, passed eleven days of out-of-character diaries, and had to be
+   fixed retroactively across 17 files:
+   **(1) agent self-reference** (*my loop · my script · the guard*) · **(2) infrastructure nouns** (*cache ·
+   server · page load · API · parse*) · **(3) raw identifiers** (*`friars.php`, item 364 — and **any backtick
+   at all***) · **(4) out-of-world sources** (*the wiki · my notes · the docs*) · **(5) interface & analytics**
+   (*option 2 · the buttons · win rates · substats per turn*).
+   ✅ **Enforced mechanically: `tools/lore-check.sh` + the `.githooks/pre-commit` hook** block a commit that
+   leaks, and name the line. Install per clone with `git config core.hooksPath .githooks`; override a genuine
+   exception with `LORE_CHECK_SKIP=1`.
+   ✅ **Never drop the insight to satisfy the rule** — re-frame it. The translation table lives under
+   **"Diary voice"** in `NEW_SESSION_PROMPT.md`. The check found 4 leaks a careful manual read had missed,
+   which is the argument for running it rather than trusting the read.
 6. **Research on the OFFICIAL wiki only** (`wiki.kingdomofloathing.com`). ✅ **Best method: `curl` in Bash with a browser
    user-agent — it returns HTTP 200 and the full page.** (WebFetch is 403'd — the server blocks *its* bot user-agent, not
    the network; the Coldfront mirror 301-redirects to a malformed `Main_Pageindex.php/...` URL, so skip it.) Pattern:
