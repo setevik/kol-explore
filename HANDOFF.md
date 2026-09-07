@@ -439,6 +439,81 @@ curl -s -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)" \
 **prefer ids when checking quantities via `api.php`** (names there are absent). When a doc records an id,
 record the **name beside it** so a future run can re-verify cheaply.
 
+## 🎯 A DASH IN THE DAMAGE COLUMN MEANS *ACCURACY*, NOT DAMAGE — check Defense vs your attack stat
+
+The most expensive misdiagnosis of run #3: nine rounds against Groar in which **I dealt zero damage, not low
+damage**, while optimising spooky resistance, off-hand items and healing potions. The game had said so in
+plain words the whole time:
+
+> *"...out of your league!"*
+
+**Groar's Defense was 108; my Muscle was 98.** It was never a DPS race — I could not connect at all.
+
+✅ **Log damage-dealt every round, and treat a run of blanks as a HARD STOP, not bad luck:**
+```js
+const dmg  = (p.match(/for (\d+) damage/)||[])[1];      // undefined => you did not hit
+const took = (p.match(/You lose (\d+) hit points/i)||[])[1];
+log.push('R'+r+' dealt '+(dmg||'-')+' took '+(took||'-'));
+// 2-3 consecutive '-' dealt => abort: this is an ACCURACY gate, not a damage gate
+```
+🎯 **The rule: your MAIN STAT must exceed the monster's Defense to land hits reliably.** Before any boss, read
+**Defense** from the wiki alongside HP, and compare it to your *buffed, as-you-will-actually-be-dressed* stat.
+⚠️ Phrases to recognise as accuracy failures (not damage failures): *"out of your league"*, and any round where
+your attack line reports no number at all.
+⚠️ Corollary: **+damage gear, elemental resistance and healing items are all worthless below the accuracy
+gate.** Fix accuracy first; everything else is wasted preparation.
+
+## 🎽 AN OUTFIT'S BONUS MAY BE A *SET* BONUS — and the outfit can cost you the stat you need to fight in it
+
+Before planning around "I'll wear two pieces and keep my good hat", **check whether the effect lives on the
+pieces or on the set**. Read each piece's own `desc_item.php`:
+- ✅ eXtreme scarf / snowboarder pants / eXtreme mittens: **none of the three lists any cold resistance.**
+  The `Cold Protection: High (5)` comes **only from wearing all three** (charsheet shows `Outfit: <name>`).
+  ⇒ Mixing is impossible; it is genuinely all-or-nothing.
+
+🚨 **Then budget the stat the OUTFIT COSTS YOU.** A gating outfit usually occupies hat/pants/accessory — the
+slots your stat gear lives in:
+
+| | Best combat loadout | Required outfit |
+|---|---|---|
+| Muscle | **111** | **98** (−13) |
+
+⇒ **Requirement = monsterDefense + outfitStatCost.** Groar needs Defense 108 *while wearing* a −13 outfit,
+so the real gate is **~121 buffed Muscle**, not 108. Compute this BEFORE grinding, or you will level to the
+wrong number and walk back into the same wall.
+(Related: the *opposite* case — an outfit that leaves your key slot free — is the Goblin King lesson in
+`equipment-strategy.md`. Always ask which slots an outfit takes.)
+
+## 📝 DON'T OVERWRITE A CORRECT NOTE WITH A TEMPORARY OBSERVATION
+
+`mechanics/` said the Icy Peak link was **`cloudypeak2`**, with an explicit warning that the pre-gear name
+`cloudypeak` *silently no-ops*. On Day 10 I saw `cloudypeak` on the map (because I had not yet finished the
+gear step) and "corrected" the doc to match. On Day 11 the map said `cloudypeak2` and my correction was simply
+wrong — I had replaced durable knowledge with a snapshot of a transient state.
+
+✅ **Before editing an existing note, ask: is what I just saw a permanent fact, or this run's current state?**
+State belongs in `CURRENT_ASCENSION.md`. If a doc and your observation disagree, **add the condition** ("before
+the gear step it appears as X; after, as Y") rather than replacing the entry.
+✅ **Scrape identifiers from the page instead of hard-coding them** — it sidesteps the whole class of error:
+```js
+const link = [...pl.matchAll(/place\.php\?whichplace=\w+&action=(\w+)/g)]
+  .map(m=>m[1]).find(a => /peak/i.test(a));
+```
+
+## 📉 WIN RATE IS THE WRONG EFFICIENCY METRIC WHEN HEALING COSTS ADVENTURES
+
+A class that heals with a **turn** (Seal Clubber's `Hibernate`) pays for damage taken in the same currency as
+progress. **75 fights, 0 losses** in the Ninja Snowmen looked excellent and was mediocre: **22 of the day's
+adventures went on healing** (≈30% overhead), for Muscle 107 → 110.
+
+✅ **Measure `progress per TOTAL adventure, including heals`**, not win rate:
+```js
+// track hib/cocoon counts alongside wins, and report both
+{ win: 75, lose: 0, hib: 22, muscleGain: 3 }   // -> ~97 turns for +3 Muscle
+```
+⇒ **Prefer a zone you win in 1–2 rounds while taking little damage over a higher-ML zone you also always win
+but that costs a heal every 3rd fight.** Compare candidate zones on **HP lost per win**, not just win rate.
+
 ## ⚔️ LOOK UP A BOSS'S STATS BEFORE YOU FIGHT IT — it costs ~90 seconds and decides the fight
 
 Two bosses in one day made the case by themselves:

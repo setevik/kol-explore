@@ -76,3 +76,12 @@ These should fire damage even when spells are disrupted.
 | Tingly Wrists | phonics down | 3 turns | +Mys |
 | Tingly Elbows | phonics down | 3 turns | +Mys/Mox |
 | Beaten Up | failed combat | 3 turns | -stats, HP cap 75%, blocks adventures |
+
+## 🫀 Stat-elixir items are SPLEEN items, and they give SUBSTATS (not a buff)
+
+**`strongness elixir` (15) / `extra-strength strongness elixir` (277) / moxie weed / jug-o-magicalness** are
+consumed via **`inv_spleen.php?pwd=<hash>&which=1&whichitem=<id>`** — `inv_use.php` answers *"This item is not
+implemented yet"* (the same trap as Medicinal Herb's medicinal herbs).
+⚠️ **They award substats** (*"You gain 3 Fortitude"*), **not a temporary stat buff** — so they do **not** help
+you clear a same-fight accuracy gate. They cost 1 spleen each (cap 15). Use them for slow levelling, never as
+boss prep.

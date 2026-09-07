@@ -29,40 +29,44 @@ Disco Bandit · Accordion Thief.
 
 ---
 
-## 📊 Character state (end of run #3 Day 10 / 2026-09-06)
+## 📊 Character state (end of run #3 Day 11 / 2026-09-07)
 
-- **LEVEL 9 Seal Clubber.** Base Mus ~72 (buffed 95). **Max HP 147, max MP 61.** **Meat 7,026. adv 16 banked.**
-  full 15, drunk 19 (exactly 14 then ONE overdrink ✅). ⏳ **Ronin 81 left — it ends in ~1–2 days.**
-- ⚔️ **Loadout:** Crown of the Goblin King · **Hammer of Smiting** (9–18, 1-handed) · **coffin lid** (off-hand:
-  DR 3 + Slight Spooky Resistance) · Knob Goblin elite pants · batskin belt · shiny ring · regen ring.
-  ⚠️ Currently wearing the **eXtreme Cold-Weather Gear** (scarf/pants/mittens) for the mountain — re-derive
-  when off the peak.
-- 💀 **THE BONERDAGON IS DEAD** (4 rounds) and *Cyrptic Emanations* is **closed**. +3,000 meat from the chest.
-- 🏔️ **Trapper Phase 1 complete** (3 goat cheese + 3 asbestos ore delivered; ski lift fixed).
-  ✅ **Phase 2 already satisfied** — the cold-weather outfit alone gives **Cold Protection: High (5)** and
-  **The Mist-Shrouded Icy Peak is unlocked** on `place.php?whichplace=mclargehuge` (`action=cloudypeak`).
-- 🧰 Gained the full **Mining Gear** set (helmet 360 · pants 361 · mattock 362) from the mine's own encounters.
-- 💎 Mining by-products banked: 3 lumps of diamond · 2 stones of eXtreme power · loadstone · 4 chrome ore ·
-  3 linoleum ore (all autosellable).
-- **Day 10: ~80 fights, 0 losses. Level 8 → 9, max HP 148 → 147ish, meat 1,467 → 7,026.**
+- **LEVEL 9 Seal Clubber.** **Base Mus 81** (buffed 110 in combat gear / **98 in the cold outfit**).
+  **Max HP 170, max MP 58.** **Meat 1,092. adv 14 banked.** full 15, drunk 19 (exactly 14 then ONE overdrink ✅).
+- 🎉 **RONIN IS OVER — `roninleft` = 0.** (A bulk pull still failed tonight, almost certainly because today's
+  1-per-item allowance was already spent before the counter ran out — **verify at rollover**.)
+- ⚔️ **Combat loadout:** Crown of the Goblin King · Hammer of Smiting · coffin lid (off-hand) · Knob Goblin
+  elite pants · batskin belt · shiny ring · ring of half-assed regeneration → **Muscle 110**.
+- 🏔️ **Trapper Phase 3 open:** 3 Knott Yetis cleared, **Groar reached and LOST** (see the gate below).
+  Peak link is **`place.php?whichplace=mclargehuge&action=cloudypeak2`**.
+- 🆕 Skills bought: **Claws of the Walrus** (passive, **Weapon Damage +7**) · **Club Foot** (combat, 8 MP,
+  weakens enemy defense; stuns if Furious).
+- **Day 11: 78 fights, 1 loss (Groar). Muscle 95 → 110 buffed / base 81. Meat spent down to 1,092 on skills.**
 
-### 🎯 WHY THE DRAGON DIED THIS TIME (the rule, proven both directions)
+### 🚨 THE GROAR GATE — it is ACCURACY, not damage (measured)
 
-Same character, one day apart, **one variable: whether the 20-adventure elemental blessing was still up.**
-**46 damage/round → 31** with `Brother Smothers's Blessing` fresh + a **coffin lid** (Slight Spooky Resistance)
-in the off-hand the one-handed Hammer had freed. That bought exactly the fourth round I needed.
-⇒ **Daily CONSUMABLES early; daily DURATION BUFFS immediately before their target.**
+| | |
+|---|---|
+| Groar | **HP 250 · Defense 108 · No-Hit ∞ (never misses) · Cold** |
+| His damage | **43–56 per round**, through Cold Protection High (5) |
+| My damage over 9 rounds | **ZERO — every attack line blank**, *"out of your league!"* |
+
+**Muscle in combat gear 111 · Muscle in the required cold outfit 98.** `Cold Protection (5)` is an **outfit
+SET bonus** (no piece carries it alone), so I cannot keep the Crown. ⇒ **The real requirement is
+`108 + the outfit's 13-Muscle cost` ≈ 121 buffed, measured while wearing the outfit.**
+Base Muscle is **81**; it needs roughly **+11 base** to get there.
+⚠️ Spooky off-hands / healing items / resistance are all irrelevant until the accuracy gate is cleared.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
 **Fullness 15 · Booze cap 14 (no Liver of Steel) · Spleen 15.**
-⭐ **Most skills are PASSIVE** (nothing to cast): Hide of the Walrus (**Damage Absorption +50**), Fortitude of
-the Muskox, Audacity of the Otter, Cold Shoulder, Wrath of the Wolverine, Buoyancy of the Beluga, Thirst of
-the Weasel, Super-Advanced Meatsmithing.
-**Castable:** Seal Clubbing Frenzy (**1 MP**), Blubber Up (7), Scowl of the Auk (10),
-*Cannelloni Cocoon (**20 MP**, permed — heals to full without spending an adventure)*, *Pastamastery (10, 1/day)*.
-Combat: Clobber/Lunge Smack (1), Thrust-Smack (3), **Furious Wallop (1 Gal. Fury = guaranteed crit)**.
-**Not yet bought:** Claws of the Walrus (3,250) · Club Foot (3,250) — **affordable now at 7,026 meat.**
+⭐ **Most skills are PASSIVE**: Hide of the Walrus (**Damage Absorption +50**), **Claws of the Walrus
+(Weapon Damage +7)**, Fortitude of the Muskox, Audacity of the Otter, Cold Shoulder, Wrath of the Wolverine,
+Buoyancy of the Beluga, Thirst of the Weasel, Super-Advanced Meatsmithing.
+**Castable:** Seal Clubbing Frenzy (**1 MP**, +Muscle — keep it up), Blubber Up (7), Scowl of the Auk (10),
+*Cannelloni Cocoon (**20 MP**, permed — heals full, 0 adventures)*, *Pastamastery (10, 1/day)*.
+Combat: Clobber/Lunge Smack (1), Thrust-Smack (3), **Club Foot (8, −enemy def)**, **Furious Wallop (1 Fury = crit)**.
+**Next tier:** Tongue of the Walrus (4,000 — noncombat heal 30–40 HP for 10 MP) · Seething of the Snow Leopard (4,000).
 Healing ladder: **Cannelloni Cocoon (20 MP, 0 adv)** → **Hibernate (1 adv, full HP + clears Beaten Up)**.
 Karma banked ~102.
 
@@ -70,26 +74,48 @@ Karma banked ~102.
 
 ## 🔜 Next-session priorities
 
-> **16 adventures banked + the new day's allowance. Meat 7,026. ⏳ RONIN 81 — plan for the transition.**
-> (1) 🏔️ **THE ICY PEAK** — `place.php?whichplace=mclargehuge` → **`action=cloudypeak`** (scrape the link; the
->     name changes with progression). **3 panicking Knott Yetis → Groar** (ML 120, HP 250, cold-aligned,
->     **weak to HOT and SPOOKY**). ⭐ **Equip the `skull of the Bonerdagon` (+5 Spooky Damage) in the off-hand
->     for Groar** — that is exactly what it is for. Keep the cold-weather outfit ON to climb.
->     ⚠️ Enter at full HP; after a loss you re-enter straight at Groar.
-> (2) 💰 **Buy Claws of the Walrus + Club Foot (3,250 each)** — 7,026 meat covers both.
-> (3) ⏳ **RONIN ENDS IN ~81 TURNS.** The moment `roninleft` hits 0: Hagnk's becomes **unlimited pulls, free**,
->     and mall buys go to **inventory** paid from **inventory meat**. **Raid storage immediately** (522+ items:
->     Ye Olde Meade ×13, Corpse Island iced tea, stolen sushi ×50, gauze garters ×24, Monstar ×15).
-> (4) 📜 **Guild quests open:** *The Wizard of Ego* (Fernswarthy's grave) · *White Citadel* (road now found).
->     **Nemesis Part 2** is in its gated delay — re-check `guild.php?place=scg` daily.
-> (5) **EAT:** pull a stolen sushi (6293) + 1-fullness toppers (cottage cheese, ghuol eggs, fortune cookies).
-> (6) 🍺 **DRINK: cap 14.** Best measured: **Corpse Island iced tea 6/22** · Ye Olde Meade 5/14–16 ·
->     white lightning 3/7 · Green Manalishi 3/6–8 · popskull 2/3–4 · ⚠️ boxed wine 3/3 (skip).
->     **Reserve a measured big bottle for the overdrink** — it has paid 14 and 16 the last two nights.
+> **14 adventures banked + the new day's allowance. Meat 1,092. 🎉 RONIN IS OVER.**
+> (1) 🎉 **FIRST: CONFIRM HAGNK'S IS FULLY OPEN** — try pulling **5+ of one item**. If it works, the economy
+>     has changed: unlimited free pulls, and mall buys go to **inventory** paid from **inventory meat**.
+>     **Then raid storage** (522+ items): **Ye Olde Meade ×13** (5/14–16 adv) · **stolen sushi ×50** ·
+>     **gauze garters ×24 / filthy poultices ×30** (in-combat heals) · **Monstar ×15** · strongness elixirs ·
+>     ancient protein powder ×18. This ends the 1-item-per-day rationing that has shaped every day so far.
+> (2) 🎯 **CLOSE THE GROAR GATE: base Muscle 81 → ~92** (buffed ~121 *while wearing the cold outfit*).
+>     ✅ **Verify for free before climbing:** equip outfit 7, read `muscle` from `api.php`, swap back.
+>     ⚠️ **Pick the levelling zone on HP-lost-per-win, not win rate** — the Ninja Snowmen (272) went 75W/0L but
+>     cost **22 adventures in Hibernate** for +3 Muscle. With Hagnk's open, **pulled healing items may beat
+>     Hibernate outright** and change which zone is best.
+> (3) 🏔️ Then **Groar** (`action=cloudypeak2`) → Groar's fur → the Trapper → fuzzy earmuffs, quest complete.
+> (4) 📜 **Guild quests open:** *The Wizard of Ego* · *White Citadel* (road found). **Nemesis Part 2** is in its
+>     gated delay — re-check `guild.php?place=scg` daily.
+> (5) 💰 **Meat is low (1,092)** after two 3,250 skills. Groar drops **5 dense meat stacks (~5,000 meat)**.
+> (6) 🍺 **DRINK: cap 14.** Corpse Island iced tea 6/22 · Ye Olde Meade 5/14–16 · **white lightning 3/7–9** ·
+>     Green Manalishi 3/6–8 · popskull 2/3 · ⚠️ boxed wine 3/3 (skip). **Reserve a measured bottle for the
+>     overdrink** (paid 14, 16, 14 the last three nights). ⭐ With unlimited pulls, build the rack from Meade.
 
 ---
 
 ## 🗓️ Session log (this run)
+
+- **Run #3 Day 11 (2026-09-07): 🧊 Groar reached and lost — the gate is ACCURACY, not damage. Ronin ends.**
+  🎯 **The finding of the run so far:** nine rounds against Groar in which **I dealt literally zero damage** —
+  every attack line blank, the game printing *"out of your league!"* — while he dealt 43–56 cold damage a round
+  through full cold protection. **His Defense is 108; my Muscle in the required outfit was 98.** It was never a
+  DPS race. All my preparation (spooky off-hand, healing items, resistance) was answering the wrong question.
+  ⇒ New HANDOFF rule: **a blank damage column is an accuracy gate**; read monster **Defense** before every boss.
+  🎽 **And the outfit is the trap:** `Cold Protection (5)` is an **outfit SET bonus** — I checked all three
+  pieces individually and *none* carries cold resistance — so I cannot keep the Crown of the Goblin King.
+  The outfit costs **13 Muscle** (111 → 98), making the true requirement **Defense + outfit cost ≈ 121**.
+  📝 **I also corrupted my own notes yesterday**: `mechanics/` correctly said the peak link is `cloudypeak2`
+  *with a warning that the pre-gear name silently no-ops*; I "corrected" it to `cloudypeak` after seeing the
+  pre-gear map. Today `cloudypeak` no-opped exactly as the original warning said. **Don't overwrite durable
+  knowledge with a snapshot of transient state.** (The adventure-counter guard caught it at zero turns lost.)
+  📉 **75 fights, 0 losses in the Ninja Snowmen — and it was mediocre.** 22 adventures went on Hibernate
+  (~30% overhead) for +3 Muscle. **Win rate is the wrong metric when healing costs turns**; measure progress
+  per total adventure and compare zones on HP lost per win.
+  🫀 Also confirmed **strongness elixirs are spleen items** (`inv_spleen.php`) that grant *substats*, not a
+  buff — useless as boss prep.
+  🎉 **RONIN HIT 0** at day's end. Hagnk's should open fully at rollover — 522+ items stop being rationed.
 
 - **Run #3 Day 10 (2026-09-06): 💀 The Bonerdagon dies in 4 rounds; the Trapper's ski lift runs again.**
   🎯 **The fix worked exactly as predicted, and the measurement is clean:** same character, one day later, one

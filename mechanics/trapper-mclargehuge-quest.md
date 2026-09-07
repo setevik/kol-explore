@@ -62,8 +62,11 @@ eXtreme power · 1 loadstone. ⇒ **Budget ~8–12 digs per specific ore type** 
   spending a single turn on the slope.
 - *(Previously observed chain, may fire but is not the gate:* *Discovering Your Extremity* → *2 eXXtreme 4 U* →
   *3 eXXXtreme 4ever 6pack*, seen at slope turns 1, 9, 17 on a different run.*)*
-- ⚠️ The peak link differs by progression state — this run it listed as **`action=cloudypeak`**; a later state
-  uses **`cloudypeak2`**. **Scrape the link from the place page rather than hard-coding either.**
+- ⚠️ **The peak link is `action=cloudypeak2` once the gear step is done.** Before it, the map shows
+  **`cloudypeak`** — and that pre-gear name **silently no-ops afterwards** (returns a bare page, no fight, no
+  error, no turn spent). ✅ **Always scrape the action from `place.php?whichplace=mclargehuge` rather than
+  hard-coding either name**, and keep a "did an adventure actually get spent?" guard in the loop — that guard
+  is what catches this instantly.
 - The slope is also a **fine leveling zone** at L9–10 (≈18 substats/win, near-100% win with MP up).
 
 ## Phase 3 — the Mist-Shrouded Peak & Groar
@@ -73,6 +76,27 @@ eXtreme power · 1 loadstone. ⇒ **Budget ~8–12 digs per specific ore type** 
 - Sequence: **3 panicking Knott Yetis** (ML 105, HP 90, drop yeti fur, 160–240 meat) → **Groar**
   (ML 120, HP 250, cold-aligned, **weak to HOT and SPOOKY** — Necrotelicomnicon spooky-tuned Cannelloni
   is ideal). After a loss you **re-enter straight at Groar** (no yeti re-clear).
+### 🚨 GROAR IS AN **ACCURACY** GATE FIRST — verified stats and the real requirement
+
+| HP | Attack | Defense | No-Hit | Initiative | Element |
+|---|---|---|---|---|---|
+| **250** | 120 | **108** | **∞ (he NEVER misses)** | 50 | **Cold** |
+
+🎯 **You must exceed Defense 108 with your main stat, WHILE WEARING the cold outfit.** Measured failure
+(Seal Clubber L9): 9 rounds, **zero damage dealt** — every attack line blank, the game saying *"out of your
+league!"* — while he dealt **43–56 cold damage every single round** through `Cold Protection: High (5)`.
+Spooky-damage off-hands, healing items and resistance are all **worthless below the accuracy gate**.
+
+🚨 **The outfit is the trap.** `Cold Protection (5)` is an **outfit SET bonus** — none of the three pieces
+carries cold resistance alone, so you cannot wear two and keep your stat hat. The outfit cost **13 Muscle**
+(111 → 98), so the real requirement is:
+
+> **buffed main stat ≥ monster Defense + outfit cost ≈ 108 + 13 = ~121, measured while dressed to fight.**
+
+✅ **Check it for free before climbing:** equip the outfit, read `muscle` from `api.php?what=status`, swap back.
+Panicking Knott Yetis (HP 90, Def 92) are beatable well below that, so **clearing the yetis proves nothing
+about Groar** — measure separately.
+
 - **Groar one-shot us at 53 max HP on attempt 1.** Winning prep (attempt 2, 8 rounds, never dropped low):
   1. kmail **Buffy** for **Ghostly Shell + Astral Shell** (free, ~160 damage absorption + 1 all-res);
   2. full HP (scroll 595) + ~120 MP (tiny houses) + **fresh Springy Fusilli**;
