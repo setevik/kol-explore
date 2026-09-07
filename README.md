@@ -44,14 +44,6 @@ Note: there is a style gap in May/June, lore-friendly entries were encouraged si
 
 ## Diary lore check
 
-`my-adventures/*.md` are in-character stories; operational data belongs in `HANDOFF.md`,
-`CURRENT_ASCENSION.md` and `mechanics/`. A pre-commit hook enforces this.
-
-```bash
-git config core.hooksPath .githooks   # once per clone
-tools/lore-check.sh                   # check staged diaries
-tools/lore-check.sh my-adventures/2026-09-07.md   # check specific files
-```
-
-Override a deliberate exception with `LORE_CHECK_SKIP=1 git commit ...`.
-See **Diary voice** in `NEW_SESSION_PROMPT.md` for the banned categories and the translation table.
+Diaries are in-character; operational detail belongs in the manuals. `tools/lore-check.sh` enforces it
+via a pre-commit hook — run `git config core.hooksPath .githooks` once per clone.
+See **Diary voice** in `NEW_SESSION_PROMPT.md`.

@@ -28,26 +28,20 @@ in the top window and `window.frames['mainpane'].location.href` for navigation (
 4. Do daily-limited things EARLY (Daily Dungeon, once/day casts). Progress the current priorities from `CURRENT_ASCENSION.md`.
 5. Write a **lore-friendly, in-character diary** to `my-adventures/YYYY-MM-DD.md` (use the real date).
 6. When wrapped (EAT + advs spent + DRINK + diary): **close the KoL browser tab FIRST**, then **commit & push LAST**.
-   ✅ **Run `tools/lore-check.sh` on the diary before committing** (the pre-commit hook runs it anyway; if a fresh
-   clone hasn't installed hooks yet: `git config core.hooksPath .githooks`). Fix what it reports using the
-   **Diary voice** translation table below — don't delete the insight, re-frame it.
+   The pre-commit hook runs `tools/lore-check.sh` on the diary; fix what it reports via **Diary voice** below.
+   (Fresh clone: `git config core.hooksPath .githooks`.)
 7. **Update `CURRENT_ASCENSION.md`** with the new state (progress, next priorities, a session-log line). Log any newly
    discovered reusable mechanics into `mechanics/` and reusable operational lessons into `HANDOFF.md` — see the
    **doc-hygiene rule** below before writing a single word into either.
 
-## ✍️ DIARY VOICE — what "lore-friendly" actually excludes
+## ✍️ DIARY VOICE — what "lore-friendly" excludes
 
-> 🚨 **Read this before writing the diary.** The old rule listed only *item IDs, snarfblats, choice numbers,
-> URLs* — and every one of those is a **symptom**, not the category. Eleven days of diaries passed that list
-> and still broke character, because the leakage was in categories the list never named.
-> ✅ **A mechanical check now enforces this: `tools/lore-check.sh`, wired to a pre-commit hook.**
+**The test:** *could the character, standing in the Kingdom, have written this sentence?* If it requires
+knowing there is a program driving him, it fails — however true and interesting it is.
 
-**The test:** *could ClaudeCode, a Seal Clubber standing in the Kingdom, have written this sentence?*
-If it requires knowing there is a program driving him, it fails — however true and interesting it is.
+**Five banned categories** (enforced by `tools/lore-check.sh` via the pre-commit hook):
 
-**The five categories that actually leak (all banned):**
-
-| # | Category | Examples caught in the wild |
+| # | Category | Examples |
 |---|---|---|
 | 1 | **Agent self-reference** | *my loop · my script · the guard · my fight-loop · supply logic · I have fixed the loop* |
 | 2 | **Infrastructure nouns** | *cache · server · page load · API · endpoint · parse · regex · browser tab · character pane* |
@@ -55,8 +49,7 @@ If it requires knowing there is a program driving him, it fails — however true
 | 4 | **Out-of-world sources** | *the wiki · my notes · HANDOFF · the docs · "it took ninety seconds"* |
 | 5 | **Interface & analytics** | *option 2 · the three buttons · page load order · win rates · substats per turn · inventory tab* |
 
-**⭐ The translation table — keep the insight, change the frame.** The insight is what makes these worth
-reading; you are *never* meant to drop it. Every leak so far had a good in-world equivalent:
+**⭐ Never drop the insight to satisfy the rule — re-frame it:**
 
 | Instead of… | Write… |
 |---|---|
@@ -69,16 +62,16 @@ reading; you are *never* meant to drop it. Every leak so far had a good in-world
 | asbestos ore is item 364 | *asbestos ore* — the **name** is the durable identifier |
 | win rate / substats per turn | *when your bandages are made of daylight, a fight you bleed through costs twice* |
 
-⚠️ **Operational specifics are not lost — they go to `HANDOFF.md` / `mechanics/` / `CURRENT_ASCENSION.md`
-in the same session.** The diary and the manual are two renderings of one day; write the manual entry first
-if the engineering is what's on your mind, then tell the story.
+⚠️ The specifics still get recorded — in `HANDOFF.md` / `mechanics/` / `CURRENT_ASCENSION.md` the same
+session. If the engineering is what's on your mind, write the manual entry first, then tell the story.
 
 **The HARD RULES (full text in `HANDOFF.md`) — the load-bearing ones:**
 - **Never end the day with ≥ 40 adventures unspent.** Adapt around disconnects/MP-starvation/stalls; don't stop early.
 - **Never wrap with an unused food or booze meter.** EAT and DRINK are both mandatory.
 - **Prep necessary items EARLY** — daily-limited activities and everything a gated/one-shot step needs, assembled and
   verified BEFORE triggering the step.
-- **Diaries are stories; operational data (item IDs, snarfblats, choices, URLs) goes in `HANDOFF.md` / `CURRENT_ASCENSION.md`.**
+- **Diaries are stories; operational data goes in `HANDOFF.md` / `CURRENT_ASCENSION.md`** — see **Diary voice** above
+  for the five banned categories (the short list of "IDs, snarfblats, URLs" is symptoms, not the rule).
 - **After the ONE overdrink, the day is over — STOP.** The adventures a day-end overdrink grants are *tomorrow's
   opening balance*; they are meant to sit at 40–60 overnight. Past the cap every turn is a **Drunken Stupor** (turn
   consumed, nothing gained). This **outranks** the "never end with ≥40 unspent" rule. To spend booze adventures the
@@ -134,8 +127,8 @@ goes to `mechanics/`/`HANDOFF.md` in timeless form, the cost and the date go to 
 
 > Continue the KoL run. Read `CURRENT_ASCENSION.md` (state) then `HANDOFF.md` (manual). Log in with the credentials in
 > `credentials.local.md`, do EAT → ADVENTURE → DRINK, use the current combat combo, do the Daily Dungeon early, spend all
-> adventures, then at day-end **read your drink cap from the charpane (`Tipsiness: X / Y`; Y = 14, or 19 with Liver of
-> Steel), fill the booze meter to Y, then take one overdrink and STOP adventuring** (see
+> adventures, then at day-end **detect your drink cap from `charsheet.php` ("Liver of Steel" ⇒ 19, else 14), read
+> `drunk` from `api.php?what=status`, fill to exactly the cap, then take one overdrink and STOP adventuring** (see
 > `mechanics/drinking-strategy.md`). Write a lore diary to `my-adventures/YYYY-MM-DD.md`, then close the tab and commit —
 > and update `CURRENT_ASCENSION.md`. Keep `HANDOFF.md` and `mechanics/` **run-agnostic**: no day numbers, no run numbers,
 > no progress or inventory claims — all of that goes in `CURRENT_ASCENSION.md`.
