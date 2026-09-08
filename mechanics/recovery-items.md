@@ -85,3 +85,21 @@ implemented yet"* (the same trap as Medicinal Herb's medicinal herbs).
 ⚠️ **They award substats** (*"You gain 3 Fortitude"*), **not a temporary stat buff** — so they do **not** help
 you clear a same-fight accuracy gate. They cost 1 spleen each (cap 15). Use them for slow levelling, never as
 boss prep.
+
+## ⭐ ONCE HAGNK'S IS OPEN, ITEM HEALS REPLACE ADVENTURE HEALS — worth ~30% of a day
+
+For a class whose healing costs a **turn** (Seal Clubber's `Hibernate`), the single biggest post-Ronin upgrade
+is a stack of healing items, because they cost **no adventure at all**:
+
+| Heal | Cost | Amount |
+|---|---|---|
+| **filthy poultice** (2369) | **0 adventures** | **~87 HP** ✅ measured |
+| gauze garter (2402) | 0 adventures | smaller top-up |
+| Cannelloni Cocoon | 20 MP | heals to full |
+| `Hibernate` | **1 ADVENTURE** | full HP + clears Beaten Up |
+
+✅ **Measured before/after on the same character:** a day of grinding with Hibernate spent **22 adventures on
+healing**; the next day, with ~50 pulled poultices/garters, **112 fights cost 0 healing adventures.**
+🎯 **The moment `roninleft` hits 0, pull every healing item you own** and demote Hibernate to the fallback.
+⚠️ Poultices/garters work **in combat as well as out** — unlike `Monstar energy beverage`, which is
+out-of-combat only and will stall a fight loop (see HANDOFF).

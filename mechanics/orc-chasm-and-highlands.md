@@ -6,8 +6,15 @@
 ## Part 1 — Bridging The Orc Chasm
 
 **Entry:** `place.php?whichplace=orc_chasm`. Two links matter:
-- `place.php?whichplace=orc_chasm&action=bridge0` — **the build/inspect button.** Safe to click any time; it
+- `place.php?whichplace=orc_chasm&action=bridge<N>` — **the build/inspect button.** Safe to click any time; it
   reports your current tally and auto-builds the moment you have enough. Costs no adventure.
+  🚨 **`<N>` IS YOUR CURRENT PROGRESS AND IT CHANGES** — `bridge0` before you start, then `bridge5`, `bridge12`…
+  **The stale name returns a blank page: no tally, no error, no turn spent.** A loop polling `bridge0` reported
+  *"no lumber, no fasteners"* for 40+ turns while 37 lumber / 31 fasteners sat in the pack. ✅ **Scrape it:**
+  ```js
+  const act = ((await G('/place.php?whichplace=orc_chasm')).match(/action=(bridge\d+)/)||[])[1];
+  ```
+  The map title also states it plainly: `A Partial Bridge (5/30)`.
 - `adventure.php?snarfblat=295` — **The Smut Orc Logging Camp** (recommended mainstat 75, 100% combat).
 
 **You need 30 lumber + 30 fasteners.** ⚠️ **Both categories have THREE members each and the names are
@@ -65,7 +72,7 @@ Three peaks, any order. **A lit peak is visible on the map as an alt-text change
 | Twin Peak | 297 | solve the lodge 4× (or 50-turn fallback) |
 | Oil Peak | 298 | reduce pressure 310.66 µB/Hg → negligible |
 
-### ⭐ Oil Peak — do this one first as a caster (verified, one day, 50 turns)
+### ⭐ Oil Peak — do this one FIRST, whatever your class (verified twice, ~50 turns)
 
 - Monsters: **oil slick** at +0–19 ML, **no elemental alignment, no damage resistance.** Ordinary DPS works.
 - Each oil slick removes **6.34 µB/Hg**; 310.66 total ⇒ **49 slicks**. ✅ Measured: **50 fights, 0 losses**, peak lit.
@@ -94,7 +101,14 @@ Three peaks, any order. **A lit peak is visible on the map as an alt-text change
 💰 **50 crude (one full Oil Peak clear) comfortably funds lamp + jar + slacks (31) with 19 to spare.**
 Make all three the morning after Oil Peak — they unlock work on *both* remaining peaks.
 
-### ⚠️ A-boo Peak — a hard wall for a Pastamancer; check before you spend turns
+### ⚠️ A-boo Peak — a hard wall for ANY physical or spooky damage source
+
+⚠️ **Not just a caster problem.** The ghosts' **100% damage resistance blocks plain weapon attacks too**, so a
+Muscle class is equally stuck without an elemental source. ✅ **The oil lamp fixes it for everyone** —
+re-verified on a Seal Clubber: with the lamp in the off-hand, plain `fight.php?action=attack` killed
+**3 ghosts in 2 rounds each, 0 losses, 0 MP.** Do Oil Peak first, make the lamp, then come here.
+
+### ⚠️ A-boo Peak — the original caster analysis
 
 All five ghosts are **Damage Resistance 100%** (physically immune) **AND spooky-aligned** (immune to their own
 element), **weak to hot and stench**. That closes **both** of a Pastamancer's damage types at once:

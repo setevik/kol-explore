@@ -9,7 +9,7 @@
 > On ascension, archive this file to `runs/ascension-NN-<class>.md` and start a fresh one.
 > Prior runs: `runs/ascension-01-pastamancer.md` (WON), `runs/ascension-02-pastamancer.md` (WON).
 
-**Character:** ClaudeCode — **Ascension #3 (the THIRD run)**, a **Level 9 Seal Clubber**, Softcore/Normal.
+**Character:** ClaudeCode — **Ascension #3 (the THIRD run)**, a **Level 10 Seal Clubber**, Softcore/Normal.
 **Started:** 2026-08-28 (immediately after winning run #2 on Day 131 / 2026-08-24).
 
 ---
@@ -29,73 +29,83 @@ Disco Bandit · Accordion Thief.
 
 ---
 
-## 📊 Character state (end of run #3 Day 11 / 2026-09-07)
+## 📊 Character state (end of run #3 Day 12 / 2026-09-08)
 
-- **LEVEL 9 Seal Clubber.** **Base Mus 81** (buffed 110 in combat gear / **98 in the cold outfit**).
-  **Max HP 170, max MP 58.** **Meat 1,092. adv 14 banked.** full 15, drunk 19 (exactly 14 then ONE overdrink ✅).
-- 🎉 **RONIN IS OVER — `roninleft` = 0.** (A bulk pull still failed tonight, almost certainly because today's
-  1-per-item allowance was already spent before the counter ran out — **verify at rollover**.)
-- ⚔️ **Combat loadout:** Crown of the Goblin King · Hammer of Smiting · coffin lid (off-hand) · Knob Goblin
-  elite pants · batskin belt · shiny ring · ring of half-assed regeneration → **Muscle 110**.
-- 🏔️ **Trapper Phase 3 open:** 3 Knott Yetis cleared, **Groar reached and LOST** (see the gate below).
-  Peak link is **`place.php?whichplace=mclargehuge&action=cloudypeak2`**.
-- 🆕 Skills bought: **Claws of the Walrus** (passive, **Weapon Damage +7**) · **Club Foot** (combat, 8 MP,
-  weakens enemy defense; stuns if Furious).
-- **Day 11: 78 fights, 1 loss (Groar). Muscle 95 → 110 buffed / base 81. Meat spent down to 1,092 on skills.**
+- **LEVEL 10 Seal Clubber.** Base Mus ~96 (buffed **129**). **Max HP 198, max MP ~68.** **Meat 3,361.
+  adv 15 banked.** full 15, drunk 19 (exactly 14 then ONE overdrink ✅). 🎉 **RONIN OVER — `roninleft` 0.**
+- ⚔️ **Loadout:** Crown of the Goblin King · Hammer of Smiting · **oil lamp** (off-hand — swap to **keg shield**
+  DR 11 outside A-boo) · Knob Goblin elite pants · giant motorcycle boots · batskin belt · shiny ring.
+- 💀 **GROAR IS DEAD — Trapper quest COMPLETE** (fuzzy busby). Beaten not by levelling but by **Club Foot ×2**
+  weakening his Defense; see below.
+- 🌉 **Orc Chasm bridged.** Council quest is now **"There Can Be Only One Topping"** (three signal fires).
+  🔥 **Oil Peak LIT** (54W/0L). **A-boo Peak (296)** and **Twin Peak (297)** remain.
+- 🛢️ Made all three crude items: **oil lamp · jar of oil · oil slacks** (23 bubblin' crude spare).
+- ✅ **A-boo tested with the lamp: 3 ghosts, 2 rounds each, 0 losses** — tomorrow's zone is proven.
+- 🆕 Skills: **Claws of the Walrus** (passive, Weapon Damage +7) · **Club Foot** (8 MP, −enemy Defense) ·
+  **Tongue of the Walrus** (10 MP, heal 30–40) · **Seething of the Snow Leopard** (passive).
+  **Torg's rack is now empty at this level.**
+- **Day 12: 112 fights, 1 loss. Level 9 → 10, Muscle 110 → 129, max HP 170 → 198.**
 
-### 🚨 THE GROAR GATE — it is ACCURACY, not damage (measured)
+### 🎯 THE TWO THINGS THAT CHANGED THE RUN
 
-| | |
-|---|---|
-| Groar | **HP 250 · Defense 108 · No-Hit ∞ (never misses) · Cold** |
-| His damage | **43–56 per round**, through Cold Protection High (5) |
-| My damage over 9 rounds | **ZERO — every attack line blank**, *"out of your league!"* |
-
-**Muscle in combat gear 111 · Muscle in the required cold outfit 98.** `Cold Protection (5)` is an **outfit
-SET bonus** (no piece carries it alone), so I cannot keep the Crown. ⇒ **The real requirement is
-`108 + the outfit's 13-Muscle cost` ≈ 121 buffed, measured while wearing the outfit.**
-Base Muscle is **81**; it needs roughly **+11 base** to get there.
-⚠️ Spooky off-hands / healing items / resistance are all irrelevant until the accuracy gate is cleared.
+1. **Hagnk's opened.** Pulled ~50 **filthy poultices / gauze garters** — **87 HP for zero adventures**.
+   Yesterday 22 adventures went on Hibernate; today **112 fights cost 0 healing adventures.**
+2. **Club Foot beat the Groar accuracy gate.** At attack 106 vs Defense 108 nothing landed; two casts of a
+   **defense-weakening** skill won the fight. ⇒ **When under a Defense gate, lower theirs before levelling yours.**
+   ⚠️ Also learned: **equipment requirements read BASE stats** — the keg-shield-lends-Myst plan to unlock the
+   headhunter necktie (base Myst 65 needed, have ~57) simply does not work.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
 **Fullness 15 · Booze cap 14 (no Liver of Steel) · Spleen 15.**
-⭐ **Most skills are PASSIVE**: Hide of the Walrus (**Damage Absorption +50**), **Claws of the Walrus
-(Weapon Damage +7)**, Fortitude of the Muskox, Audacity of the Otter, Cold Shoulder, Wrath of the Wolverine,
-Buoyancy of the Beluga, Thirst of the Weasel, Super-Advanced Meatsmithing.
-**Castable:** Seal Clubbing Frenzy (**1 MP**, +Muscle — keep it up), Blubber Up (7), Scowl of the Auk (10),
-*Cannelloni Cocoon (**20 MP**, permed — heals full, 0 adventures)*, *Pastamastery (10, 1/day)*.
-Combat: Clobber/Lunge Smack (1), Thrust-Smack (3), **Club Foot (8, −enemy def)**, **Furious Wallop (1 Fury = crit)**.
-**Next tier:** Tongue of the Walrus (4,000 — noncombat heal 30–40 HP for 10 MP) · Seething of the Snow Leopard (4,000).
-Healing ladder: **Cannelloni Cocoon (20 MP, 0 adv)** → **Hibernate (1 adv, full HP + clears Beaten Up)**.
+⭐ **Mostly PASSIVE:** Hide of the Walrus (DA +50) · **Claws of the Walrus (Weapon Damage +7)** · Seething of the
+Snow Leopard · Fortitude of the Muskox · Audacity of the Otter · Cold Shoulder · Wrath of the Wolverine ·
+Buoyancy of the Beluga · Thirst of the Weasel · Super-Advanced Meatsmithing.
+**Castable:** Seal Clubbing Frenzy (**1 MP**) · Blubber Up (7) · Scowl of the Auk (10) ·
+**Tongue of the Walrus (10, heal 30–40)** · *Cannelloni Cocoon (20, permed)* · *Pastamastery (10, 1/day)*.
+Combat: Clobber/Lunge Smack (1) · Thrust-Smack (3) · **Club Foot (8, −enemy Defense)** · **Furious Wallop (1 Fury = crit)**.
+Healing ladder: **filthy poultice (0 adv, ~87 HP)** → gauze garter → Cocoon (20 MP) → Hibernate (1 adv, last resort).
 Karma banked ~102.
 
 ---
 
 ## 🔜 Next-session priorities
 
-> **14 adventures banked + the new day's allowance. Meat 1,092. 🎉 RONIN IS OVER.**
-> (1) 🎉 **FIRST: CONFIRM HAGNK'S IS FULLY OPEN** — try pulling **5+ of one item**. If it works, the economy
->     has changed: unlimited free pulls, and mall buys go to **inventory** paid from **inventory meat**.
->     **Then raid storage** (522+ items): **Ye Olde Meade ×13** (5/14–16 adv) · **stolen sushi ×50** ·
->     **gauze garters ×24 / filthy poultices ×30** (in-combat heals) · **Monstar ×15** · strongness elixirs ·
->     ancient protein powder ×18. This ends the 1-item-per-day rationing that has shaped every day so far.
-> (2) 🎯 **CLOSE THE GROAR GATE: base Muscle 81 → ~92** (buffed ~121 *while wearing the cold outfit*).
->     ✅ **Verify for free before climbing:** equip outfit 7, read `muscle` from `api.php`, swap back.
->     ⚠️ **Pick the levelling zone on HP-lost-per-win, not win rate** — the Ninja Snowmen (272) went 75W/0L but
->     cost **22 adventures in Hibernate** for +3 Muscle. With Hagnk's open, **pulled healing items may beat
->     Hibernate outright** and change which zone is best.
-> (3) 🏔️ Then **Groar** (`action=cloudypeak2`) → Groar's fur → the Trapper → fuzzy earmuffs, quest complete.
-> (4) 📜 **Guild quests open:** *The Wizard of Ego* · *White Citadel* (road found). **Nemesis Part 2** is in its
->     gated delay — re-check `guild.php?place=scg` daily.
-> (5) 💰 **Meat is low (1,092)** after two 3,250 skills. Groar drops **5 dense meat stacks (~5,000 meat)**.
-> (6) 🍺 **DRINK: cap 14.** Corpse Island iced tea 6/22 · Ye Olde Meade 5/14–16 · **white lightning 3/7–9** ·
->     Green Manalishi 3/6–8 · popskull 2/3 · ⚠️ boxed wine 3/3 (skip). **Reserve a measured bottle for the
->     overdrink** (paid 14, 16, 14 the last three nights). ⭐ With unlimited pulls, build the rack from Meade.
+> **15 adventures banked + the new day's allowance. Meat 3,361. Hagnk's is unlimited — pull freely.**
+> (1) 👻 **A-BOO PEAK (296)** — **equip the `oil lamp`** (off-hand) and just `fight.php?action=attack`; the
+>     ghosts are 100% resistant to physical but weak to the lamp's hot damage. **Proven: 2 rounds/ghost.**
+>     98% hauntedness, −2% per ghost ⇒ ~49 ghosts; **A-Boo clues** shortcut it (see the doc).
+> (2) ⛰️ **TWIN PEAK (297)** — needs the **jar of oil** ("bring your own J") and **+40% initiative**
+>     (**oil slacks** are half of it); both already made. Read `orc-chasm-and-highlands.md` for the choice map.
+> (3) 🩹 **Pull ~30 filthy poultices every morning** — they are the reason the day is now ~30% longer.
+> (4) 📜 **Guild quests still open:** *The Wizard of Ego* · *White Citadel*. **Nemesis Part 2** is in its gated
+>     delay — re-check `guild.php?place=scg` daily.
+> (5) ⬇️ **When a boss won't take damage, reach for Club Foot before reaching for levels.**
+> (6) 🍺 **DRINK: cap 14.** **Ye Olde Meade ×8 left (5 drunk / 14–16 adv)** — 2 Meade + Manalishi + an Imp Ale
+>     lands exactly on 14. **Reserve one Meade for the overdrink** (paid 14/16/14/15 the last four nights).
 
 ---
 
 ## 🗓️ Session log (this run)
+
+- **Run #3 Day 12 (2026-09-08): 🎉 Ronin ends, Groar dies, the chasm is bridged, Oil Peak is lit. Level 10.**
+  🏦 **Hagnk's opened fully** and the day got about a third longer: ~50 **filthy poultices/gauze garters**
+  (**87 HP, zero adventures**) retire `Hibernate`, which had eaten **22 adventures** the day before.
+  **112 fights today, 0 healing adventures.** ⚠️ The pull quantity field is **`howmany1`**, not `quantity1` —
+  the wrong name pulls nothing *silently*, which reads exactly like "still in Ronin".
+  💀 **GROAR DEAD — and not the way I planned.** Two days had gone into chasing a ~121 attack stat. The actual
+  answer was **Club Foot**, bought two days earlier and never used: it **weakens the enemy's Defense**, so at
+  106 vs 108 two casts turned "no damage at all" into a win. ⇒ **Lower their Defense before raising yours.**
+  📏 En route, a clean correction: the big +Muscle accessories are Myst-gated, and **equipment requirements read
+  BASE stats** — *"You must have at least 65 base Mysticality"* — so lending myself +5 Myst with a keg shield
+  never had a chance. `api.php` reports buffed; `charsheet.php` prints `(base: N)`, which is what gates read.
+  🌉 **Orc Chasm bridged** — after 40+ turns of a tally that read "no lumber, no fasteners" while **37 lumber
+  and 31 fasteners** sat in my pack. **The build link is `bridge<N>` where N is current progress**; my
+  hard-coded `bridge0` had gone stale and returned a blank page. Same trap as `cloudypeak`/`cloudypeak2`.
+  🔥 **Oil Peak lit** (54W/0L), 54 crude → **oil lamp + jar of oil + oil slacks**. Then spent the last turns
+  proving the lamp on A-boo: **3 ghosts, 2 rounds each** — and confirming the 100% physical resistance blocks
+  a Muscle class exactly as it blocks a caster.
+  💰 Groar's **8 dense meat stacks = 8,000 meat**, which bought Torg's last two skills.
 
 - **Run #3 Day 11 (2026-09-07): 🧊 Groar reached and lost — the gate is ACCURACY, not damage. Ronin ends.**
   🎯 **The finding of the run so far:** nine rounds against Groar in which **I dealt literally zero damage** —

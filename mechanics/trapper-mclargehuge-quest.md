@@ -76,7 +76,26 @@ eXtreme power · 1 loadstone. ⇒ **Budget ~8–12 digs per specific ore type** 
 - Sequence: **3 panicking Knott Yetis** (ML 105, HP 90, drop yeti fur, 160–240 meat) → **Groar**
   (ML 120, HP 250, cold-aligned, **weak to HOT and SPOOKY** — Necrotelicomnicon spooky-tuned Cannelloni
   is ideal). After a loss you **re-enter straight at Groar** (no yeti re-clear).
-### 🚨 GROAR IS AN **ACCURACY** GATE FIRST — verified stats and the real requirement
+### ✅ GROAR SOLVED — beat the accuracy gate with a DEFENSE DEBUFF, not with levels
+
+🎯 **The cheap answer: weaken his Defense from inside the fight.** At attack stat **106 vs his Defense 108** a
+straight swing still landed nothing; **two casts of a defense-weakening combat skill** (Seal Clubber's
+`Club Foot`, 8 MP) flipped the same fight to a win in ~9 rounds. Two days of levelling for the "required"
+~121 stat turned out to be unnecessary.
+
+**Winning kit (Seal Clubber, L9, attack stat 106):** eXtreme Cold-Weather Gear (mandatory, set bonus) ·
+Hammer of Smiting · **keg shield** off-hand (DR 11) · giant motorcycle boots + eXtreme mittens ·
+**filthy poultices as in-fight heals** (87 HP, no adventure) · **Mountain Stream soda** for in-fight MP.
+⚠️ **Monstar energy beverage is NOT combat-usable** — it stalls the fight loop; use the soda.
+**Measured:** he deals **30–37 cold damage/round** through Cold Protection (5) and never misses.
+Drops: **Groar's fur** → the Trapper → **fuzzy busby** (hat, Power 130, Muscle req 50) + quest complete,
+plus **8 dense meat stacks = 8,000 meat autosell**.
+
+⚠️ **The stat-gated-accessory trap:** the obvious fix is a big +Muscle accessory, but the good ones are
+**Mysticality-gated** (headhunter necktie +15 needs base Myst 65) and **requirements read BASE stats**, so
+lending yourself Myst with a keg shield does not unlock them. See HANDOFF.
+
+### 🚨 Groar's numbers — why it is an ACCURACY gate first
 
 | HP | Attack | Defense | No-Hit | Initiative | Element |
 |---|---|---|---|---|---|

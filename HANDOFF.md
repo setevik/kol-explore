@@ -213,6 +213,13 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
 
 ## Buying (mall + fixed shops)
 
+- 🧾 **Pull from Hagnk's:** `storage.php?action=pull&whichitem1=<id>&**howmany1**=<n>&pwd=<hash>`.
+  ⚠️ **The quantity field is `howmany1`, not `quantity1`** — a wrong name pulls **nothing**, silently (it does
+  not even error), which reads exactly like "Hagnk's is still locked".
+- 💰 **Autosell:** POST `sellstuff_ugly.php` with `pwd`, `action=sell`, **`mode=1`** (1 = all · 2 = all but one ·
+  3 = quantity, and it rejects anything else with *"That radio button has to be a 1, 2, or 3"*), plus the item
+  checkbox **`item<ID>=<ID>`** — the value must be the id, not `on`, or you get *"You neglected to select any
+  items."* The sell page lists each item's unit price next to it; read it there rather than guessing.
 - 🎉 **RONIN ENDS AT ~1,000 TURNS — CHECK `api.php?what=status` → `roninleft`. When it's 0, the economy transforms:**
   Hagnk's is **fully open (UNLIMITED pulls, no 1/day/item cap, no meat cost to pull)**, and **mall buys go to
   INVENTORY and spend INVENTORY meat** like normal (no more Hagnk's-purse detour). ✅ **First thing after Ronin ends:
@@ -438,6 +445,72 @@ curl -s -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)" \
 ✅ **Prefer name-matching over id-matching when reading YOUR OWN inventory** (ids drift between notes), but
 **prefer ids when checking quantities via `api.php`** (names there are absent). When a doc records an id,
 record the **name beside it** so a future run can re-verify cheaply.
+
+## ⬇️ CAN'T RAISE YOUR STAT? LOWER THEIRS — defense-debuffs beat the accuracy gate
+
+The companion to the accuracy rule below. When your attack stat sits under a monster's Defense, there are
+**two** ways to close the gap, and the second is usually far cheaper:
+
+| | |
+|---|---|
+| Raise your stat | levelling, gear, buffs — slow, and a required outfit may claw it straight back |
+| **Lower their Defense** | **one combat skill, immediately, from inside the fight** |
+
+✅ **Measured:** at attack stat **106 vs Defense 108** the first attempt still landed nothing. Casting a
+defense-weakening combat skill **twice** (Seal Clubber's `Club Foot`, 8 MP — *"Weakens enemy defense"*) turned
+the same fight into a win. **Two days had gone into trying to out-level the wall.**
+
+🎯 **Before grinding levels for a boss, read your own combat skill list for anything that says *weakens*,
+*sunders*, *shatters* or *-Defense*.** Most classes have one and it is usually cheap. Check with
+`desc_skill.php?whichskill=<id>&self=true`.
+⚠️ It also stacks with being *close* — a 2-point deficit is a very different animal from a 10-point one; a debuff
+finishes a near-miss but will not rescue a rout.
+
+## 📏 EQUIPMENT REQUIREMENTS CHECK **BASE** STATS — buffs and gear bonuses do NOT count
+
+Verified by the game's own refusal: *"You must have at least 65 **base** Mysticality to equip that item."*
+
+⇒ **You cannot bootstrap into a stat-gated item** by first equipping something that grants that stat (the
+classic plan: keg shield gives +5 Myst, so 60+5 = 65 → wear the Myst-65 necktie). It does not work; the
+requirement reads the number you have *unbuffed and unequipped*.
+✅ **Check `charsheet.php`, which prints both:** `Muscle: 129 (base: 96)`. The parenthesised number is the one
+gates compare against. `api.php?what=status` returns the **buffed** value, so it will mislead you here.
+⇒ Closing a *requirement* gap means real levelling/substats; closing a *combat* gap can be done with buffs.
+
+## 🔤 ACTION NAMES CAN ENCODE PROGRESS — scrape the link, never hard-code it
+
+`place.php` actions sometimes carry state in the name, and **the stale name silently returns an empty page** —
+no error, no turn spent, no clue:
+
+| Thing | Action while incomplete | After progress |
+|---|---|---|
+| Orc Chasm bridge | `bridge0` | **`bridge5`, `bridge12`, … (the number is your current progress)** |
+| Mist-Shrouded Icy Peak | `cloudypeak` | **`cloudypeak2`** (after the gear step) |
+
+❌ A tally-checking loop hard-coded to `bridge0` reported "no lumber, no fasteners" for 40+ turns while **37
+lumber and 31 fasteners** sat in the pack — the bridge finished instantly once the right link was clicked.
+✅ **Always resolve the action from the place page:**
+```js
+const pl  = await G('/place.php?whichplace=orc_chasm');
+const act = (pl.match(/action=(bridge\d+)/)||[])[1];        // or /action=(\w*peak\w*)/ etc.
+await G('/place.php?whichplace=orc_chasm&action='+act);
+```
+
+## 🧪 NOT EVERY ITEM WORKS IN COMBAT — and a no-op item spins the fight loop forever
+
+`Monstar energy beverage` restores MP **out of combat only**; in a fight it answers *"that can't be used in
+combat"* — **the round does not advance**. A loop that keeps choosing it burns iterations indefinitely while HP,
+MP and the adventure count all sit still. (Verified in-combat MP restore: **Mountain Stream soda**.)
+
+✅ **Guard every in-fight item use, and blacklist on refusal:**
+```js
+const banned = new Set();
+…
+p = await G('/fight.php?action=useitem&whichitem='+item);
+if (/can't be used in combat/i.test(p)) { banned.add(item); r--; continue; }   // retry the round differently
+```
+⚠️ Same family as the free-encounter guard: **any action that leaves state unchanged must be detected and
+retired**, not repeated.
 
 ## 🎯 A DASH IN THE DAMAGE COLUMN MEANS *ACCURACY*, NOT DAMAGE — check Defense vs your attack stat
 
