@@ -2,7 +2,7 @@
 
 > **Structure is CLASS-AGNOSTIC; only the names change.** Part 1 = *Tomb riddle → ghost → class weapon →
 > Beelzebozo → missing component → smith the Legendary Epic Weapon*. Part 2 = *cave → boss → lair*.
-> Verified end-to-end on a **Pastamancer** (below) and a **Seal Clubber** (run #3 Day 9).
+> Verified end-to-end on a **Pastamancer** (below) and independently on a **Seal Clubber**.
 
 ---
 

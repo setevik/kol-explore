@@ -176,7 +176,7 @@ optimising **adv, full stop**. Those are different objectives, and the same bott
 - ✅ **Two-bucket rule:** fill the cap with the most *efficient* booze; **reserve your biggest measured-yield
   bottle for the overdrink.**
 - ❌ **Never overdrink on an unmeasured bottle.** You get exactly one per day and cannot retry it.
-  *Measured failure (run #3 Day 8):* filled to exactly 14 correctly, then overdrank on a **gin-soaked blotter
+  *Measured failure:* filled to exactly 14 correctly, then overdrank on a **gin-soaked blotter
   paper (4675)** chosen on the strength of its name — **1 drunk / 1 adventure**, against a **Ye Olde Meade**
   measured at **16 adventures** an hour earlier and spent inside the cap.
 - ✅ Every drink self-reports its potency and yield (`drunk`/`adventures` delta). **Measure as you fill**, then

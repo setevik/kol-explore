@@ -81,7 +81,7 @@ Use when: **going into the Cyrpt** (spiny skeleltons deal 30 spooky dmg per hit)
 
 🚨 These are **once per day AND short**. Taking one at day-open "because it's a daily" wastes it: 20 adventures
 is roughly a third of one Cyrpt room. **Take the blessing as the last action before the fight or zone it is
-for**, not as part of the morning routine. (Cost of getting this wrong: run #3 Day 9 took Smothers at
+for**, not as part of the morning routine. (Measured cost of getting this wrong: Smothers taken at
 breakfast, ground 63 turns, and met the Bonerdagon — the exact boss it counters — ~40 turns after it expired.)
 ✅ POST `friars.php` with `pwd, action=buffs, bro=<1|2|3>`; confirm via `charpane.php` → *Effects:* line.
 
