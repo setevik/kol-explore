@@ -136,3 +136,37 @@ When trying new equipment, snapshot the charpane immediately before and after to
 - **Fancy gown** / **finest gown** — if droppable and usable, may have Myst enchantments (note: the Lady Spookyraven quest gown is consumed by that quest)
 - Look for items with "spell damage", "mysticality", or "MP regeneration" enchantments when browsing mall/shop listings
 - Higher-tier class weapon (Pastamancer guildmaster may sell something)
+
+---
+
+## 🎽 AN OUTFIT'S BONUS MAY BE A *SET* BONUS — and the outfit can cost you the stat you need to fight in it
+
+Before planning around "I'll wear two pieces and keep my good hat", **check whether the effect lives on the
+pieces or on the set**. Read each piece's own `desc_item.php`:
+- ✅ eXtreme scarf / snowboarder pants / eXtreme mittens: **none of the three lists any cold resistance.**
+  The `Cold Protection: High (5)` comes **only from wearing all three** (charsheet shows `Outfit: <name>`).
+  ⇒ Mixing is impossible; it is genuinely all-or-nothing.
+
+🚨 **Then budget the stat the OUTFIT COSTS YOU.** A gating outfit usually occupies hat/pants/accessory — the
+slots your stat gear lives in:
+
+| | Best combat loadout | Required outfit |
+|---|---|---|
+| Muscle | **111** | **98** (−13) |
+
+⇒ **Requirement = monsterDefense + outfitStatCost.** Groar needs Defense 108 *while wearing* a −13 outfit,
+so the real gate is **~121 buffed Muscle**, not 108. Compute this BEFORE grinding, or you will level to the
+wrong number and walk back into the same wall.
+(Related: the *opposite* case — an outfit that leaves your key slot free — is the Goblin King rule above,
+*"When TWO outfits both qualify"*. Always ask which slots an outfit takes.)
+
+## 📏 EQUIPMENT REQUIREMENTS CHECK **BASE** STATS — buffs and gear bonuses do NOT count
+
+Verified by the game's own refusal: *"You must have at least 65 **base** Mysticality to equip that item."*
+
+⇒ **You cannot bootstrap into a stat-gated item** by first equipping something that grants that stat (the
+classic plan: keg shield gives +5 Myst, so 60+5 = 65 → wear the Myst-65 necktie). It does not work; the
+requirement reads the number you have *unbuffed and unequipped*.
+✅ **Check `charsheet.php`, which prints both:** `Muscle: 129 (base: 96)`. The parenthesised number is the one
+gates compare against. `api.php?what=status` returns the **buffed** value, so it will mislead you here.
+⇒ Closing a *requirement* gap means real levelling/substats; closing a *combat* gap can be done with buffs.

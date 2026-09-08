@@ -63,3 +63,26 @@ one-shot quest, doable at Level 1–4.
 
 **MP costs (verified via `desc_skill.php?whichskill=<id>&self=true`, which prints "MP Cost"):**
 Spaghetti Spear 0 · Utensil Twist 1 · Ravioli Shurikens 4 · Lasagna Bandages 6 · Cannelloni Cannon 8.
+
+---
+
+## 🏛️ The guild is not just the trainer — CHECK EVERY NPC FOR QUESTS
+
+`guild.php?place=trainer` is only one door. The other guild NPCs hand out **free quests** that never appear on
+the Council's list and are easy to walk past for a week. Sweep them **every few levels**:
+
+```js
+for (const pl of ['scg','ocg','paco','challenge']) {
+  const p = await G('/guild.php?place='+pl);
+  console.log(pl, p.replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').slice(0,400));
+}
+```
+
+⚠️ **"Check back with me later" means CHECK BACK.** An NPC that says *"perhaps I'll have a task for you"* is
+gating on level, not brushing you off. (Measured cost: a class Nemesis quest sat unclaimed for seven play days.)
+Verified live at once: a **class Nemesis quest**, **Fernswarthy's tomb / Wizard of Ego**, and a **White
+Citadel** errand that **unlocks a new zone (Whitey's Grove)** just for accepting it.
+
+🚫 **A pending guild quest renders as a `choice.php` overlay that PREEMPTS the whole guild page** — including
+the trainer's skill list. If `guild.php?place=trainer` shows dialogue instead of skills, look for
+`whichchoice=(\d+)` + `option` inputs and answer it first, then re-request the trainer page.
