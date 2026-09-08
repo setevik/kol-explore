@@ -34,10 +34,22 @@ in the top window and `window.frames['mainpane'].location.href` for navigation (
    discovered reusable mechanics into `mechanics/` and reusable operational lessons into `HANDOFF.md` — see the
    **doc-hygiene rule** below before writing a single word into either.
 
-## ✍️ DIARY VOICE — what "lore-friendly" excludes
+## ✍️ DIARY VOICE — style, length, and what "lore-friendly" excludes
 
-**The test:** *could the character, standing in the Kingdom, have written this sentence?* If it requires
-knowing there is a program driving him, it fails — however true and interesting it is.
+**Three rules, all enforced by `tools/lore-check.sh`:**
+
+1. 📏 **UNDER 60 LINES.** Hard cap. A day is an anecdote, not a post-mortem.
+2. 🎭 **Write in KoL's voice, not an essay's.** The game is pun-dense, absurdist and deadpan — stick-figure
+   art, Meat for money, jokes in every item description. Match it: short, funny, self-deprecating, concrete.
+   Quote the game's own daft lines; they are better than anything you'll write about them.
+3. 🚫 **Don't explain the mechanics.** Name what happened and move on. **No measurement tables, no
+   before/after comparisons, no "the rule I should have written down", no arithmetic.** All of that already
+   goes to `HANDOFF.md` / `mechanics/` / `CURRENT_ASCENSION.md` — the diary is the *story*, not the appendix.
+   ❌ *"He deals ~46 spooky damage/round and has 250 HP, so at 36/swing I needed 5 rounds and had 3."*
+   ✅ *"He hit me nine times. I hit him zero times. We both knew who was winning."*
+
+**The character test:** *could the character, standing in the Kingdom, have written this sentence?* If it
+requires knowing there is a program driving him, it fails — however true and interesting it is.
 
 **Five banned categories** (enforced by `tools/lore-check.sh` via the pre-commit hook):
 

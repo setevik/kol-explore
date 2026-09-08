@@ -48,6 +48,12 @@ for f in $FILES; do
   bt=$(grep -n '`' "$f" || true)
   [ -n "$bt" ] && HITS+="$bt"$'\n'
 
+  # length cap: a diary is an anecdote, not a post-mortem
+  LINES=$(wc -l < "$f" | tr -d ' ')
+  if [ "$LINES" -gt 60 ]; then
+    HITS+="1:TOO LONG — ${LINES} lines (cap is 60). Trim the mechanics exposition, not the story."$'\n'
+  fi
+
   if [ -n "$HITS" ]; then
     FAIL=1
     echo "✖ non-lore content in $f:"
@@ -58,9 +64,9 @@ done
 
 if [ "$FAIL" -ne 0 ]; then
   cat <<'MSG'
-Diaries are in-character stories. Operational data belongs in HANDOFF.md,
-CURRENT_ASCENSION.md or mechanics/ — see "Diary voice" in NEW_SESSION_PROMPT.md
-for the translation table (how to keep the insight without breaking the fiction).
+Diaries: under 60 lines, in KoL's deadpan voice, no mechanics exposition.
+Measurements and rules belong in HANDOFF.md / mechanics/ / CURRENT_ASCENSION.md.
+See "Diary voice" in NEW_SESSION_PROMPT.md.
 
   Override for a deliberate exception:  LORE_CHECK_SKIP=1 git commit ...
 MSG
