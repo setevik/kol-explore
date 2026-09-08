@@ -965,9 +965,18 @@ consumed through their **own endpoint** and count against their own daily cap (*
    ✅ **Enforced mechanically: `tools/lore-check.sh` + the `.githooks/pre-commit` hook** block a commit that
    leaks, and name the line. Install per clone with `git config core.hooksPath .githooks`; override a genuine
    exception with `LORE_CHECK_SKIP=1`.
-   ✅ **Never drop the insight to satisfy the rule** — re-frame it. The translation table lives under
-   **"Diary voice"** in `NEW_SESSION_PROMPT.md`. The check found 4 leaks a careful manual read had missed,
-   which is the argument for running it rather than trusting the read.
+   ✅ **Never let the rule cost you the insight — but "keep it" means keep it IN THE REPO, not in the diary.**
+   ⚠️ This is the one place two rules look like they disagree, so the precedence is fixed:
+   - **The insight always survives** — as a rule in `HANDOFF.md`/`mechanics/`, or as state in
+     `CURRENT_ASCENSION.md`. Never delete a finding because it was awkward to phrase in character.
+   - **The diary gets the story beat, not the derivation** — one in-world line, or nothing. Diaries are
+     capped at 60 lines and ban measurement tables, arithmetic and rule-statements (see **Diary voice**).
+   - ⇒ *"Re-frame it"* is for prose that is **already staying in the diary** and merely reads out-of-world.
+     It is **not** a licence to keep an appendix, and it never overrides the length or no-mechanics rules.
+   Example, one finding split correctly: `mechanics/` gets *"Hibernate costs 1 adventure; pulled poultices
+   cost 0 — measured 22 adventures/day saved"*; the diary gets *"Yesterday I spent twenty-two hours of a
+   perfectly good day asleep. Today, none."*
+   The check found 4 leaks a careful manual read had missed — the argument for running it, not trusting the read.
 6. **Research on the OFFICIAL wiki only** (`wiki.kingdomofloathing.com`). ✅ **Best method: `curl` in Bash with a browser
    user-agent — it returns HTTP 200 and the full page.** (WebFetch is 403'd — the server blocks *its* bot user-agent, not
    the network; the Coldfront mirror 301-redirects to a malformed `Main_Pageindex.php/...` URL, so skip it.) Pattern:

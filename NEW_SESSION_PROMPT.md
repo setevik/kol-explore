@@ -47,6 +47,10 @@ in the top window and `window.frames['mainpane'].location.href` for navigation (
    goes to `HANDOFF.md` / `mechanics/` / `CURRENT_ASCENSION.md` — the diary is the *story*, not the appendix.
    ❌ *"He deals ~46 spooky damage/round and has 250 HP, so at 36/swing I needed 5 rounds and had 3."*
    ✅ *"He hit me nine times. I hit him zero times. We both knew who was winning."*
+   ⚖️ **Precedence vs "never drop the insight" (HANDOFF rule 5):** no conflict — that rule means the finding
+   must survive **somewhere in the repo**, and its home is the manual. **Write the manual entry first**, then
+   the diary keeps at most a one-line in-world *beat* of the same realisation. **Rules 1–3 always win inside
+   `my-adventures/`.**
 
 **The character test:** *could the character, standing in the Kingdom, have written this sentence?* If it
 requires knowing there is a program driving him, it fails — however true and interesting it is.
@@ -61,7 +65,8 @@ requires knowing there is a program driving him, it fails — however true and i
 | 4 | **Out-of-world sources** | *the wiki · my notes · HANDOFF · the docs · "it took ninety seconds"* |
 | 5 | **Interface & analytics** | *option 2 · the three buttons · page load order · win rates · substats per turn · inventory tab* |
 
-**⭐ Never drop the insight to satisfy the rule — re-frame it:**
+**⭐ Translation table — for prose that is *already staying* in the diary and merely reads out-of-world.**
+(Deciding *whether* a thing belongs in the diary at all is rule 3's job, not this table's.)
 
 | Instead of… | Write… |
 |---|---|
