@@ -243,7 +243,19 @@ skills are almost all **Type: Passive, MP Cost: N/A** — permanently on from th
 
 | Passive (always on, no MP, nothing to cast) | Noncombat buff (costs MP) | Combat |
 |---|---|---|
-| Super-Advanced Meatsmithing · Fortitude of the Muskox · Audacity of the Otter · **Hide of the Walrus (Damage Absorption +50)** · Cold Shoulder · Wrath of the Wolverine · Buoyancy of the Beluga · Thirst of the Weasel | **Seal Clubbing Frenzy (1 MP!)** · Blubber Up (7) · Scowl of the Auk (10) · *Cannelloni Cocoon (20)* | Clobber (1) · Lunge Smack (1) · Thrust-Smack (3) · **Furious Wallop (1 Gal. Fury — guaranteed critical hit)** |
+| Super-Advanced Meatsmithing · Fortitude of the Muskox · Audacity of the Otter · **Hide of the Walrus (Damage Absorption +50)** · Cold Shoulder · Wrath of the Wolverine · Buoyancy of the Beluga · Thirst of the Weasel · Claws of the Walrus (Weapon Damage +7) · Seething of the Snow Leopard · **Ire of the Orca** | **Seal Clubbing Frenzy (1 MP!)** · Blubber Up (7) · Scowl of the Auk (10) · **Tongue of the Walrus (10, heals 30–40)** · *Cannelloni Cocoon (20)* | Clobber (1) · Lunge Smack (1) · Thrust-Smack (3) · **Club Foot (8, lowers enemy Defense)** · **Lunging Thrust-Smack (8, TRIPLE weapon damage)** · **Furious Wallop (1 Gal. Fury — guaranteed critical hit)** |
+
+⭐ **The two that change how you fight bosses**, both on the upper tiers of Torg's rack:
+- **Club Foot** — *lowers the enemy's Defense.* This is the answer to an **accuracy gate** (a boss whose damage
+  column comes back blank). ⇒ **Lower theirs before raising yours**; see `combat-and-initiative.md`.
+- **Lunging Thrust-Smack** — *Combat, 8 MP, **triple weapon damage** if it connects.* The first skill on this
+  class that meaningfully multiplies a boss burst rather than shaving a round off a trash fight. ⚠️ It is
+  **damage, not accuracy** — against a Defense gate it still misses, so Club Foot comes first.
+
+💰 **Revisit Torg on every level-up, and check your meat first.** The rack refills as you level and the tiers
+climb steeply (the Level-10 pair cost **5,000 each**). A single boss's drop can fund a whole tier, so **do the
+trainer check right after a boss dies**, not at the following morning's login — a run has repeatedly recorded
+"Torg's rack is empty" as if it were a permanent state when it only meant *at that level*.
 
 ⚠️ **This corrects an earlier note here** that told you to "cast Hide of the Walrus in every grind loop's
 preamble." That call does nothing — `runskillz.php` on a passive returns the skills page and spends no MP. The

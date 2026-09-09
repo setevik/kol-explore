@@ -163,6 +163,14 @@ General, class-agnostic combat rules (accuracy gates, defense debuffs, initiativ
   `<input name="whichitem">` radio for the item — **its value is `"<itemid>.<price>"`** (e.g. `"2620.180"`), so pick the
   radio whose value starts with the item id — then POST `mallstore.php` with
   `pwd, whichstore, buying=Yep., whichitem=<value>, quantity=N, searchitem=<itemid>, searchprice=<price>`.
+  🐛 **The radio attributes are UNQUOTED, and the searched item's radio carries an extra `checked`:**
+  `<input name=whichitem checked type=radio value=1650.100>` against `<input name=whichitem  type=radio value=…>`
+  for every other row. A regex of the form `name=["']?whichitem["']?\s+type=radio\s+value=["']([\d.]+)["']`
+  therefore **misses exactly the one item you searched for** and reports "not listed" about a row the page
+  plainly renders. ✅ Match loosely and don't require quotes:
+  `/name=whichitem[^>]*value=["']?([\d.]+)/g` — then confirm by finding the item's NAME in the stripped text.
+  ⚠️ **Many mall listings are `(Limit 1 / day)` per store**, so a `quantity=5` order fills exactly one. The
+  limit is stated in the row text next to the item name — read it there before sizing an order.
   ⚠️ Never loop mall buys gated on `api.php?what=inventory` — it caches and you'll overbuy. (Verified: 2 jerky for 360 meat.)
   🚨 **This cache bites ANY loop that polls inventory, not just buying** — see the rule below.
 
@@ -210,9 +218,14 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
   which a caster desperately needs); its **Mysticality** twin **insanely spicy enchanted bean burrito (319)** is
   **Level 5**; **gnocchetti di Nietzsche** = 6 fullness, ~24 adv, Level 6. Plain **orange (242, item id is 242 —
   NOT 332)** = crappy 1-fullness filler, ~1 adv — fine for topping the meter off.
-- **EAT (day open):** **stolen sushi (6293) = 6 fullness / ~12 adv** — the workhorse **once Level 6+**.
-  **unidentified jerky (2620) = 2 fullness / +6 adv**. **Eat the big item first, then 1-fullness fillers to top**
-  (filler-first can overshoot and strand you). Target full 14–15.
+- ⭐ **EAT (day open) — see `mechanics/eating-strategy.md`. Rank food by ADVENTURES PER FULLNESS, not by size.**
+  ✅ **Measured, same character and same 15-fullness cap one day apart: 35 adventures from the "big item first"
+  pattern vs 62 from the best adv-per-fullness combination** — the largest free daily gain found so far.
+  **stolen sushi (6293) = 6 fullness / ~13 adv is only 2.2 adv/fullness**; several **1-fullness** items
+  (*later tots*, *tomb aspic*, *hot honey ant* at 3–4 adv each) are **3.5**, and **herbal stuffing** (4 fullness,
+  ~17.5 adv, Level 7) is **4.4**. ⚠️ "Eat the big item first, then 1-fullness fillers" is an **overshoot** rule,
+  not an efficiency rule — once your combination sums to the cap exactly, order does not matter and only the
+  ratio does. Target the cap exactly (full 15).
   ⚠️ In **Ronin** you can only pull 1 of each per day — so the pattern is **1 pulled big food + inventory filler**.
   ⚠️ Pastamancer pasta filling is still **unsolved** (dry noodles 304 + long-pork/lihc-eye/olive/bean all "no recipe");
   buy ready food instead.
@@ -792,11 +805,19 @@ consumed through their **own endpoint** and count against their own daily cap (*
   "snarf 33–35" note was wrong) — see `mechanics/bat-hole-boss-bat.md`.
 - 15 Spooky Forest · 20 The "Fun" House · 81 **Penultimate Fantasy Airship** — ⚠️ **ML 90–100, NOT an easy
   meat farm below ~L11** (the "easy Airship" memory is late-run-#1 colored; Burly Sidekick/Protagonist ML 100
-  hit a L10 caster for ~40/round). Its **choice 182 "Random Lack of an Encounter"**: opt 1 = fight one of those
-  ML 90–100 crew (good drops: Mohawk wig, titanium assault umbrella, tiny houses) — **never auto-pick it in a
-  farm loop**; **opt 2 = free Penultimate Fantasy chest** (safe default); opt 3 = lose 40–50 HP, gain ~25×3
-  substats. L10 quest: 4 "Spirit" noncombats, then **"F-F-Fantastic!" (choice 681) → give El Cid the spirits →
-  S.O.C.K.** · **83 The Hole in the Sky**
+  hit a L10 caster for ~40/round). ✅ **A Muscle class at base Mus ~96 with a one-handed weapon ran 55 fights
+  here for 0 losses**, so the "not below ~L11" warning is about the *class and gear*, not the level number —
+  re-measure rather than assuming either way.
+  Its **choice 182 "Random Lack of an Encounter"** offers four options; ⚠️ **match them by LABEL, and note that
+  the labels are flavour text that does not say what the option does:**
+  **`Check the cargo hold` = the free Penultimate Fantasy chest — the safe default in a farm loop.**
+  `Investigate the crew quarters` picks a fight with one of those ML 90–100 crew (good drops: Mohawk wig,
+  titanium assault umbrella, tiny houses) — **never auto-pick it**; the remaining two trade HP for substats.
+  L10 quest: 4 "Spirit" noncombats, then **"F-F-Fantastic!" (choice 681) → give El Cid the spirits →
+  S.O.C.K.** ⭐ **Reaching the Airship at all costs ZERO adventures if storage holds an enchanted bean** —
+  a previous ascension's estate very often does. Pull one, `inv_use` it while the giant-garbage Council quest is
+  active, and the beanstalk grows on the spot; **check storage before farming the Beanbat Chamber for one.**
+  · **83 The Hole in the Sky**
   (stars/lines; atop the beanstalk — NOT 84) · 126 Themthar Hills (Nunnery) · 136 Sonofa Beach · 140 wartime battlefield ·
   297 Twin Peak (Great Overlook Lodge) · **325 the Daily Dungeon** (inside the Dungeoneers' Assoc.; NOT 322) ·
   322/323/324 Giant Castle basement/ground/top · 355 The Shore · **565 Vanya's Castle** (8-Bit Realm; also 563/564/566).

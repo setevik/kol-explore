@@ -29,64 +29,97 @@ Disco Bandit · Accordion Thief.
 
 ---
 
-## 📊 Character state (end of run #3 Day 12 / 2026-09-08)
+## 📊 Character state (end of run #3 Day 13 / 2026-09-09)
 
-- **LEVEL 10 Seal Clubber.** Base Mus ~96 (buffed **129**). **Max HP 198, max MP ~68.** **Meat 3,361.
-  adv 15 banked.** full 15, drunk 19 (exactly 14 then ONE overdrink ✅). 🎉 **RONIN OVER — `roninleft` 0.**
-- ⚔️ **Loadout:** Crown of the Goblin King · Hammer of Smiting · **oil lamp** (off-hand — swap to **keg shield**
-  DR 11 outside A-boo) · Knob Goblin elite pants · giant motorcycle boots · batskin belt · shiny ring.
-- 💀 **GROAR IS DEAD — Trapper quest COMPLETE** (fuzzy busby). Beaten not by levelling but by **Club Foot ×2**
-  weakening his Defense; see below.
-- 🌉 **Orc Chasm bridged.** Council quest is now **"There Can Be Only One Topping"** (three signal fires).
-  🔥 **Oil Peak LIT** (54W/0L). **A-boo Peak (296)** and **Twin Peak (297)** remain.
-- 🛢️ Made all three crude items: **oil lamp · jar of oil · oil slacks** (23 bubblin' crude spare).
-- ✅ **A-boo tested with the lamp: 3 ghosts, 2 rounds each, 0 losses** — tomorrow's zone is proven.
-- 🆕 Skills: **Claws of the Walrus** (passive, Weapon Damage +7) · **Club Foot** (8 MP, −enemy Defense) ·
-  **Tongue of the Walrus** (10 MP, heal 30–40) · **Seething of the Snow Leopard** (passive).
-  **Torg's rack is now empty at this level.**
-- **Day 12: 112 fights, 1 loss. Level 9 → 10, Muscle 110 → 129, max HP 170 → 198.**
+- **LEVEL 10 Seal Clubber.** Base Mus 102 (buffed **144**). **Max HP 221, max MP 76.** **Meat 611.
+  adv 14 banked.** full 15, drunk 19 (exactly 14 then ONE overdrink ✅). Ronin over — pull freely.
+- ⚔️ **Loadout:** Crown of the Goblin King · **Misty Cloak (back — new)** · Hammer of Smiting · **oil lamp**
+  (off-hand) · Knob Goblin elite pants · giant motorcycle boots · batskin belt · shiny ring.
+- 🔥 **ALL THREE SIGNAL FIRES LIT — "There Can Be Only One Topping" COMPLETE.** A-boo (ghosts + 3 Horrors),
+  Twin Peak (jar-of-oil step solved, then the Cabin Fever burn-down), Oil Peak was already lit.
+- 🌱 **Beanstalk planted for ZERO adventures** — storage held 4 enchanted beans (1 spare in inventory).
+- ✈️ **Penultimate Fantasy Airship swept: 55 fights, 0 losses.** All four "Spirit" noncombats fired and the
+  Council quest advanced to **"The Rain on the Plains is Mainly Garbage — Explore the Castle."**
+- 🆕 Skills bought at Level 10 (5,000 meat each, drained the war chest): **Lunging Thrust-Smack** (Combat,
+  8 MP, **TRIPLE weapon damage**) · **Ire of the Orca** (passive). Torg's rack is empty again *at this level*.
+- **Day 13: ~130 fights, 0 losses, 0 deaths.** Muscle 129 → 144 buffed, max HP 198 → 221.
 
-### 🎯 THE TWO THINGS THAT CHANGED THE RUN
+### 🎯 THE FINDING OF THE DAY: the fullness meter was being wasted
 
-1. **Hagnk's opened.** Pulled ~50 **filthy poultices / gauze garters** — **87 HP for zero adventures**.
-   Yesterday 22 adventures went on Hibernate; today **112 fights cost 0 healing adventures.**
-2. **Club Foot beat the Groar accuracy gate.** At attack 106 vs Defense 108 nothing landed; two casts of a
-   **defense-weakening** skill won the fight. ⇒ **When under a Defense gate, lower theirs before levelling yours.**
-   ⚠️ Also learned: **equipment requirements read BASE stats** — the keg-shield-lends-Myst plan to unlock the
-   headhunter necktie (base Myst 65 needed, have ~57) simply does not work.
+**Eating by ADVENTURES PER FULLNESS instead of "big item first" turned 15 fullness into 62 adventures
+against yesterday's ~35** — for the same meter, the same cap, and no extra meat. The 6-fullness staple
+(stolen sushi, 2.2 adv/fullness) is *worse* than the 1-fullness odds and ends that had been treated as
+gravel (later tots / tomb aspic / hot honey ant, ~3.5), and herbal stuffing is 4.4.
+⇒ New doc: **`mechanics/eating-strategy.md`** with the measured ratio table and the daily procedure.
+⚠️ Twelve days of this run ate the wrong composition. It is the single largest free daily gain found so far.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
 **Fullness 15 · Booze cap 14 (no Liver of Steel) · Spleen 15.**
-⭐ **Mostly PASSIVE:** Hide of the Walrus (DA +50) · **Claws of the Walrus (Weapon Damage +7)** · Seething of the
-Snow Leopard · Fortitude of the Muskox · Audacity of the Otter · Cold Shoulder · Wrath of the Wolverine ·
-Buoyancy of the Beluga · Thirst of the Weasel · Super-Advanced Meatsmithing.
+⭐ **Mostly PASSIVE:** Hide of the Walrus (DA +50) · Claws of the Walrus (Weapon Damage +7) · Seething of the
+Snow Leopard · **Ire of the Orca** · Fortitude of the Muskox · Audacity of the Otter · Cold Shoulder ·
+Wrath of the Wolverine · Buoyancy of the Beluga · Thirst of the Weasel · Super-Advanced Meatsmithing.
 **Castable:** Seal Clubbing Frenzy (**1 MP**) · Blubber Up (7) · Scowl of the Auk (10) ·
-**Tongue of the Walrus (10, heal 30–40)** · *Cannelloni Cocoon (20, permed)* · *Pastamastery (10, 1/day)*.
-Combat: Clobber/Lunge Smack (1) · Thrust-Smack (3) · **Club Foot (8, −enemy Defense)** · **Furious Wallop (1 Fury = crit)**.
-Healing ladder: **filthy poultice (0 adv, ~87 HP)** → gauze garter → Cocoon (20 MP) → Hibernate (1 adv, last resort).
+Tongue of the Walrus (10, heal 30–40) · *Cannelloni Cocoon (20, permed)* · *Pastamastery (10, 1/day)*.
+Combat: Clobber/Lunge Smack (1) · Thrust-Smack (3) · **Club Foot (8, −enemy Defense)** ·
+**Lunging Thrust-Smack (8, triple weapon damage)** · **Furious Wallop (1 Fury = crit)**.
+Healing ladder: **filthy poultice / gauze garter (0 adv, ~87 HP)** → Cocoon (20 MP) → Hibernate (1 adv,
+also the only thing here that clears Beaten Up). ⚠️ **Poultices ran to 0 today; 10 garters left** — pull or
+buy more in the morning, they are why the day has no healing overhead.
 Karma banked ~102.
-
----
 
 ## 🔜 Next-session priorities
 
-> **15 adventures banked + the new day's allowance. Meat 3,361. Hagnk's is unlimited — pull freely.**
-> (1) 👻 **A-BOO PEAK (296)** — **equip the `oil lamp`** (off-hand) and just `fight.php?action=attack`; the
->     ghosts are 100% resistant to physical but weak to the lamp's hot damage. **Proven: 2 rounds/ghost.**
->     98% hauntedness, −2% per ghost ⇒ ~49 ghosts; **A-Boo clues** shortcut it (see the doc).
-> (2) ⛰️ **TWIN PEAK (297)** — needs the **jar of oil** ("bring your own J") and **+40% initiative**
->     (**oil slacks** are half of it); both already made. Read `orc-chasm-and-highlands.md` for the choice map.
-> (3) 🩹 **Pull ~30 filthy poultices every morning** — they are the reason the day is now ~30% longer.
-> (4) 📜 **Guild quests still open:** *The Wizard of Ego* · *White Citadel*. **Nemesis Part 2** is in its gated
->     delay — re-check `guild.php?place=scg` daily.
-> (5) ⬇️ **When a boss won't take damage, reach for Club Foot before reaching for levels.**
-> (6) 🍺 **DRINK: cap 14.** **Ye Olde Meade ×8 left (5 drunk / 14–16 adv)** — 2 Meade + Manalishi + an Imp Ale
->     lands exactly on 14. **Reserve one Meade for the overdrink** (paid 14/16/14/15 the last four nights).
-
----
+> **14 adventures banked + the new day's allowance. Meat 611 — LOW; the day needs a meat plan early.**
+> (1) 🍽️ **EAT BY THE RATIO** — `mechanics/eating-strategy.md`. Buy the day's milk of magnesium first
+>     (~100 meat, and it is **Limit 1/day per store**). Stock is thin now: pull anything left in storage and
+>     price a stack of the good 1-fullness items.
+> (2) 🏰 **THE GIANT CASTLE is the main line AND the meat answer** — Council quest is *"Explore the Castle to
+>     find the source of the giant garbage."* The **Ground Floor (323)** is the documented ~105–120 meat/turn
+>     farm, so the quest step and the empty war chest are the same errand. Basement 322 / Ground 323 / Top 324.
+> (3) 🩹 **Restock healing before anything else** — poultices are at 0, garters at 10.
+> (4) ⚔️ **New toy: Lunging Thrust-Smack (8 MP, triple weapon damage).** Max MP 76 makes it affordable for
+>     ~8 casts a day — spend them on bosses, not trash. Against a *blank damage column* it still misses:
+>     **Club Foot first, then lunge.**
+> (5) 📜 **Guild quests still open:** *Me and My Nemesis Part 2* (**now unlocked** — the cave in the Big
+>     Mountains, `place.php?whichplace=mountains` → `mts_caveblocked` → choice 1087; the wall-opening option is
+>     class-specific and NOT yet known for a Seal Clubber) · *The Wizard of Ego* · *White Citadel*.
+> (6) 🍺 **DRINK: cap 14.** **Ye Olde Meade ×5 left (5 drunk / 15–16 adv)** — 2 Meade + Green Manalishi ×6 +
+>     Imp Ale ×10 lands exactly on 14 (verified today). **Reserve one Meade for the overdrink.**
+>     ⭐ **Today's ordering worked and should be repeated:** spend the day → fill to exactly 14 (**+40 adv**) →
+>     spend those too → overdrink last (**+14 adv banked**). That is ~40 extra adventures of actual play.
 
 ## 🗓️ Session log (this run)
+
+- **Run #3 Day 13 (2026-09-09): 🔥 All three fires lit, the Council quest closed, the beanstalk planted,
+  the Airship swept — ~130 fights, 0 losses, and the best breakfast of the run.**
+  🍽️ **The finding: I had been eating wrong for twelve days.** Ranking food by **adventures per fullness**
+  instead of "biggest item first" turned the same 15-fullness meter into **62 adventures against ~35** — the
+  1-fullness odds and ends I'd been treating as gravel (later tots, tomb aspic, hot honey ants ≈ 3.5/fullness)
+  beat the 6-fullness sushi staple (2.2) outright, and herbal stuffing is 4.4. New doc:
+  `mechanics/eating-strategy.md`. ⇒ **"Eat the big item first" is an OVERSHOOT rule, not an efficiency rule.**
+  👻 **A-boo Peak lit.** 34 ghosts at 2 rounds each with the oil lamp, plus 3 × *The Horror…*
+  🎲 The Horror's "keep talking" button is **relabelled every single round** (*Talk to the Ghosts → Try to Talk
+  Some Sense into Them → Make a Suggestion → Take Command → Lose Your Patience*) — matching round one's label
+  drops you out of the encounter. Match "the option that is not Flee". 🚨 And **hauntedness has no cheap
+  readout**: I trusted arithmetic instead of the map and **burned a clue on a peak that was already 2% from
+  done** — it was consumed and handed me an ordinary ghost. Check the map alt-text after every Horror.
+  ⛰️ **Twin Peak lit.** The jar of oil solved the music step; the other three gates (stench resistance, +50%
+  item, +40% init) were all out of reach. 🚨 **Four consecutive hub noncombats went into re-attempting Room 237**
+  before I accepted that — **a failed gate consumes the whole hub NC**, so a gate that fails twice should never
+  be picked a third time. Cabin Fever then fired on schedule and I burned the lodge down. 40 fights, 0 losses.
+  🌱 **Beanstalk for ZERO adventures** — storage had 4 enchanted beans from a prior run. Checked before farming
+  the Beanbat Chamber, for once.
+  ✈️ **Airship: 55 fights, 0 losses** at base Muscle ~96, which contradicts the "not below ~L11" warning in my
+  own notes — that warning was written about a caster. All four Spirit noncombats fired; the Council quest is
+  now the Giant Castle.
+  💰 **Torg's rack was not empty, it was empty *at that level*.** The Airship's meat pushed the purse past
+  10,000 and Level 10 had two 5,000-meat skills waiting: **Lunging Thrust-Smack (triple weapon damage)** and
+  **Ire of the Orca**. Bought both; the war chest is down to 611.
+  ⏱️ **The drink ordering paid for itself:** filled to exactly 14 *without* overdrinking (**+40 adventures**),
+  spent all of them on the Airship, and took the single overdrink as the last action of the day (**+14 banked**).
+  🐛 One engine fix: the mall store page writes radio attributes **unquoted**, and puts a `checked` on the item
+  you searched for — so the obvious regex misses **exactly** the row you came for and reports "not listed".
 
 - **Run #3 Day 12 (2026-09-08): 🎉 Ronin ends, Groar dies, the chasm is bridged, Oil Peak is lit. Level 10.**
   🏦 **Hagnk's opened fully** and the day got about a third longer: ~50 **filthy poultices/gauze garters**

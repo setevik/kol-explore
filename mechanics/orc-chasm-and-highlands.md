@@ -140,7 +140,7 @@ The wall comes down the moment you carry **elemental damage that isn't spooky**.
 - Ghosts have only 40 HP and **0 initiative**, so you always strike first. This is one of the safest zones in the
   game once the lamp is on — and it costs no MP at all, which makes it ideal for the tail of a day.
 
-#### ⭐ *The Horror…* is worth ~4× a ghost — always spend clues
+#### ⭐ *The Horror…* is worth ~4× a ghost — spend clues, but stop before the peak is done
 
 Using an **A-Boo clue** (`inv_use.php?which=3&whichitem=5964&pwd=<hash>`) makes your **next** A-boo adventure
 *The Horror…* (choice **611**). It is not a fight — it's a repeating choice where each round you either press
@@ -155,6 +155,32 @@ you end at 0 HP and **Beaten Up**.
 - 🐛 **Get the clue's item id right (5964).** Scraping the id by searching the inventory HTML for the item *name*
   returned `null` (quest items render differently), and the follow-up `adventure.php` call then walked into an
   ordinary ghost fight — **wasting the turn and leaving a fight open mid-script**. Use the literal id.
+
+- 🎲 **The "keep talking" button is RELABELLED EVERY ROUND — match it as "the option that is not Flee".**
+  ✅ Verified sequence across one encounter: **"Talk to the Ghosts" → "Try to Talk Some Sense into Them" →
+  "Make a Suggestion" → "Take Command" → "Lose Your Patience"**. Matching the first round's label (the obvious
+  thing to record) fails on round two and drops you out of the encounter with the reduction unclaimed.
+  ✅ Robust pick: `o.find(x => !/flee/i.test(x.label))`. This is the choice-button rule from `HANDOFF.md` in a
+  nastier form — there the *order* is unstable, here the *text* is.
+- 📐 **Measured shape:** 3–4 talk-rounds, HP driven to ~2, **max HP shrinks for the rest of the day**, ends in
+  **Beaten Up (3)**. Clearing it costs **1 adventure** (`Hibernate`, or a campground rest on a class without it).
+  ⚠️ A healing *item* restores the HP but **does not clear Beaten Up** — so item-healing does not make the
+  encounter cost 1 adventure instead of 2. A **tiny house** does; price it against your meat-per-turn before
+  buying a stack (at ~214 meat against a ~110-meat/turn farm, it costs two turns of meat to save one turn).
+
+#### 🚨 There is no cheap read of hauntedness — check the MAP, not your arithmetic
+
+The percentage is not exposed on `place.php`, the charpane, or the quest log, and it does not appear in ordinary
+fight text. **Do not track it by counting kills × 2% and Horrors × 15%** — the Horror's reduction varies with how
+deep you got, so the running total drifts.
+
+✅ **The cheap authoritative check is the map alt-text** — `A-boo Peak` becomes **`A-boo Peak with Flame`** on
+`place.php?whichplace=highlands`. Test it after every Horror and at the end of every burst.
+
+⚠️ **A clue spent when the peak is nearly clear is simply consumed.** Verified failure: with roughly one ghost
+of hauntedness left, `inv_use` on a clue **decremented the stack** and the next adventure was an **ordinary ghost
+fight**, not *The Horror*. ⇒ **Once you are within one Horror of finishing, kill ghosts instead of burning clues**
+— 2% per turn is cheap when only 2% remains.
 
 #### Measured burn-down (from a fresh 98%)
 
@@ -208,7 +234,26 @@ guests take no notice of you"* — that is the **scripted continuation**, not a 
 consumed and the step completed. Verify via the hub menu, not the prose.
 
 ✅ **Cabin Fever timing:** it fired on roughly the **51st** in-zone adventure for us (the free 604 intro does not
-count). Budget ~50 turns and expect no signal at all until it appears.
+count). Budget ~50 turns and expect no signal at all until it appears. ✅ **Re-verified independently on a Muscle
+class:** ~50 in-zone adventures, **40 fights / 0 losses at base Muscle ~96**, then Cabin Fever → burn it down.
+
+🚨 **AN ATTEMPT AT A GATE YOU CANNOT MEET CONSUMES THE WHOLE HUB NONCOMBAT.** Each 606 gives you exactly **one**
+attempt; a failed gate drops you back to the zone, not back to the menu. Verified waste: **four consecutive hub
+noncombats spent re-attempting Room 237** with insufficient stench resistance, all four failing identically.
+✅ **Rule: if a gate fails twice, stop selecting it.** The remaining options are (a) another gate you can
+actually meet, or (b) `Leave the hotel` — and since Cabin Fever counts *in-zone adventures* regardless of how
+you spend them, a hub NC you cannot use productively is still progress toward the fallback. What you must not do
+is keep paying hub NCs into a wall while telling yourself you are "trying the real solve".
+
+⚖️ **Deciding between the real solve and the fallback, honestly:** three of the four gates (**4 levels of stench
+resistance**, **+50% item drop**, **+40% initiative**) are *stacking* problems, not turn problems, and the fourth
+option only appears once the other three are done. **A character who cannot already meet at least two of them
+should plan on the ~50-turn fallback from the start** and treat any gate it does pass (the jar of oil is free if
+Oil Peak came first) as a bonus. The gold wedding ring is the price of the shortcut, and it is not worth a day.
+
+✅ **The music/jar-of-oil step is class-agnostic** — re-verified on a Muscle class; success again showed only as
+the option **disappearing from the 606 hub menu** (`Investigate Room 237 | Search the pantry | Leave the hotel`),
+with the prose still reading like a rejection.
 
 Monsters here are ML 81–95 with 90–105 HP (recommended mainstat 90) and **no elemental alignment** — harder than
 the logging camp but ordinary.
@@ -238,3 +283,13 @@ Lighting all three fires ⇒ return to **The Highland Lord's Tower**. Reward is 
 Cloak / Misty Robe / Misty Cape**, plus access to **The Valley of Rof L'm Fao** (the level 10+ path onward).
 Catching your double in Twin Peak (option 4, rather than the burn-it-down fallback) additionally yields a
 **gold wedding ring** — a reason to prefer the real solve if you can hit the four gates.
+
+✅ **The turn-in costs no adventure and has no choice to answer** — fetch
+`place.php?whichplace=highlands&action=highlands_dude` once and the Lord hands the cloak over in his reply
+(*"It's enough that you lit the fires so I can get my pizza"*). The **back slot is commonly empty at this point
+in a run**, so the cloak is usually a free upgrade — equip it and re-read `charsheet.php` to confirm.
+
+⚠️ **Confirm completion on the map, not on the reply text.** All three titles read
+`… with Flame` on `place.php?whichplace=highlands` when the quest is genuinely done; the quest log then drops
+the Council entry and immediately replaces it with the **next** Council quest, which is the cheapest signal that
+the turn-in registered.
