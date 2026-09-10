@@ -89,9 +89,16 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
   *"You twiddle your thumbs"* (which looks like MP-starvation but is really a stuck fight). Hit this 3× in
   one session. ✅ Helper that works:
   `stopSafe = async () => { window._abort=true; await sleep(3000);
-     for (let i=0;i<3;i++){ let p=await G('fight.php'); if(!inFight(p)) break; await runFight(p,{}); }
-     window._abort=false; window._running=false; }`
-  — and inside that finisher fall back to **Spaghetti Spear (3020, 0 MP)** whenever MP < 10, or it can't finish.
+     window._abort=false;                       // ← MUST come BEFORE the drain, see below
+     for (let i=0;i<3;i++){ let p=await G('fight.php'); if(!inFight(p)) break; await runFight(p,{noSkill:true}); }
+     window._running=false; }`
+  — and inside that finisher fall back to a **0-MP attack** (plain `action=attack`, or Spaghetti Spear 3020 for
+  a Pastamancer) whenever MP is low, or it can't finish.
+  🚨 **CLEAR `_abort` BEFORE DRAINING, NOT AFTER.** Every fight helper checks `window._abort` at the top of its
+  round loop, so a finisher called while the flag is still set **returns `{res:'abort'}` immediately and drains
+  nothing** — leaving the fight open. ✅ Measured: the drain "succeeded", then a mall buy of 14 items reported
+  no purchases and the meat never moved, because the open fight was swallowing every request. The tell is a
+  `fight.php` body containing *"You twiddle your thumbs"* — that is an unfinished fight, not MP starvation.
 - 🚨 **THE FARM-LOOP DEATH SPIRAL (cost ~30 adventures): one loss cascades unless the loop checks BOTH
   Beaten Up AND healing-supply counts every iteration.** Mechanism: a loss applies **Beaten Up (−50% all stats)**
   → next fights are entered at half Mysticality/Muscle → more losses → more Beaten Up. Meanwhile a heal branch
@@ -293,6 +300,15 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
 - Eat / drink / use: `inv_eat.php?whichitem=<id>&pwd=` · `inv_booze.php?which=1&whichitem=<id>&pwd=` · `inv_use.php?which=3&whichitem=<id>&pwd=`.
 - Choice: `choice.php?whichchoice=<id>&option=<n>&pwd=`. ⚠️ Resolve any leftover forced-choice at session start,
   before doing anything else (they silently bounce every navigation).
+  🚨 **AN OPEN CHOICE BLOCKS EVERY OTHER ACTION, SILENTLY — INCLUDING EQUIPPING AND PULLING.** This is not just
+  a session-start chore: it bites *mid-quest*, at exactly the moment you discover a choice needs an item you
+  are not wearing. ✅ **Measured failure:** standing in a castle choice whose best option required an off-hand
+  item, a `storage.php` pull reported **0 pulled**, `inv_equip.php` left the old off-hand on, and
+  `place.php` returned an **empty page** — all with HTTP 200 and no error, while the choice itself still
+  answered normally. The obvious reading ("the pull is broken") is wrong.
+  ✅ **Rule: you cannot change gear or acquire items while a choice is open.** If a choice needs equipment you
+  don't have on, take the cheapest exit, gear up **outside** the choice, and come back. Better: **equip for a
+  zone's known gates BEFORE you enter it.**
 - Equip: `inv_equip.php?which=2&action=equip&whichitem=<id>&pwd=` (unequip a slot first if all accessory slots are full:
   `...&action=unequip&type=acc2&pwd=`).
 
@@ -557,6 +573,17 @@ const rows=[...s.matchAll(/searchitem=357&searchprice=(\d+)/g)].map(m=>+m[1]).sl
 consumables, the evening's booze). Restoratives are the easiest thing to over-buy because they always feel
 necessary.
 
+⭐ **Rank MP restoratives by MEAT PER MP, and re-rank every session — the order flips.** ✅ Measured inside a
+single session: **Mountain Stream soda (357)** was **250 meat** at day-open (~6.8 meat/MP) and **424** an hour
+later once the cheap listings were bought out (~11.5), which promoted **tiny house (592) at 214 for ~23 MP**
+(~9.3) to the best buy — *and* a tiny house **also clears Beaten Up**, which a soda does not.
+⚠️ **The same item can be the right buy and the wrong buy on consecutive days**, so a note saying "soda is the
+cheap one" is a note that will mislead you. Price all of them, divide by the MP they restore, and buy the
+winner. A separate calculation decides whether to buy **Beaten Up removal** at all: a tiny house saves the
+1 adventure a `Hibernate`/rest would cost, so it is worth its price only when your **meat-per-turn is higher
+than the house's price** (at a ~110 meat/turn farm, a 214-meat house costs two turns of meat to save one turn —
+buy it for the MP, not for the convenience).
+
 ## ⭐ Endgame meat farm: the Giant castle Ground Floor
 
 At L16 with a working nuke, **`adventure.php?snarfblat=323`** yields a measured **~105–120 meat per turn**
@@ -651,15 +678,25 @@ while *looking* busy:
 ```js
 const before = await ST(tag);
 … do the encounter …
-const after  = await ST(tag+'x');
-if (+after.adventures >= +before.adventures) {      // no turn was spent
-  free++;                                            // 2 in a row ⇒ the zone is not consuming turns
-  if (free >= 2) { abort('zone returning FREE encounters — change zone or answer the blocker'); }
+if (!wasFight) {                                     // see the exemption below
+  await sleep(600);                                  // let the status endpoint catch up
+  const after = await ST(tag+'x');
+  if (+after.adventures >= +before.adventures) {     // no turn was spent
+    if (++free >= 3) { abort('zone returning FREE encounters — change zone or answer the blocker'); }
+  } else free = 0;                                   // consecutive, not cumulative
 }
 ```
 This catches **every** variant at once, including ones not listed here, and it is far more reliable than
 special-casing each choice number. **Bake it into the standard burst helper rather than adding it after
 the fact.**
+
+🚨 **BUT THE GUARD MUST EXEMPT COMPLETED FIGHTS, OR IT KILLS HEALTHY LOOPS.** `api.php`'s `adventures` value
+**lags** right after a fight resolves, so a before/after comparison around a *fight* intermittently reads
+"no turn spent" when a turn plainly was. ✅ Measured: a castle loop at **0 losses** aborted twice with
+*"zone returning FREE encounters"* after 3 and 12 perfectly normal fights. **A completed fight is proof a turn
+was spent** — every free-encounter trap in the list above is a *noncombat*. Three fixes, use all of them:
+**(a) only police non-combat iterations**, **(b) re-read after a short sleep**, **(c) require the free
+iterations to be CONSECUTIVE** (reset the counter on any turn that did cost an adventure).
 
 ⚠️ Related tell: a burst reporting *N iterations* but **empty monster map, empty item map, and an unchanged
 adventure count** is always this bug — see the Drunken Stupor note in HARD RULE 1.

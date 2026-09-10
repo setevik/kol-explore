@@ -144,6 +144,32 @@ Max MP is tiny (**22 at Level 6**) and there is **no working MP restorative in r
 
 ⇒ Treat MP as a **once-per-day budget**, not a renewable pool, and spend it on attacks rather than buffs.
 
+## 🚨 ONCE YOU OWN **Lunging Thrust-Smack**, THE ABOVE STOPS BEING TRUE — MP BECOMES LOAD-BEARING
+
+**Lunging Thrust-Smack (Combat, 8 MP, TRIPLE weapon damage)** changes the class's whole resource picture. The
+"low max MP is fine, this class is passive" conclusion above is correct *only while you have nothing worth
+spending MP on*.
+
+✅ **Measured on the same character, in the same zone, on the same day** (Castle in the Clouds, ~150 HP giants
+that hit for 40–60/round, base Muscle ~110):
+
+| Opening move | Rounds per fight | Damage taken | Result |
+|---|---|---|---|
+| plain `fight.php?action=attack` | **3** | ~120 | **3 losses in ~10 fights** |
+| **Lunging Thrust-Smack round 1** | **1** | ~40, often 0 | **0 losses in ~60 fights** |
+
+⇒ **The skill is not a boss-only luxury; at 8 MP it is the trash-clearing default**, and the day's real
+constraint becomes *how many MP restoratives you can afford*. A fight that yields ~110 meat and consumes ~75
+meat of restorative is still comfortably meat-positive, so **the loop pays for its own MP**.
+
+⚠️ **The failure mode is silent and fast.** When the restorative stack hits 0 the loop keeps running, quietly
+reverts to 3-round fights, and starts losing — which then triggers Beaten Up and the death spiral. ✅ **Make
+"top MP to at least one cast" a precondition of entering a fight**, exactly as you would a healing check, and
+**stop the burst when the restoratives run out** rather than fighting on without them.
+
+🎯 **General form for any class:** re-open the "is MP a dead resource here?" question **every time you buy a
+damage multiplier.** The answer is a property of your current skill list, not of the class.
+
 ## 👑 The Knob Goblin King — BOTH disguise paths are stat-gated for this class
 
 The King is **Init 100 · Attack 53**, and he opens by hitting for **~45**. Measured at Level 5 (Muscle 30,

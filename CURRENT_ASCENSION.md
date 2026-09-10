@@ -9,7 +9,7 @@
 > On ascension, archive this file to `runs/ascension-NN-<class>.md` and start a fresh one.
 > Prior runs: `runs/ascension-01-pastamancer.md` (WON), `runs/ascension-02-pastamancer.md` (WON).
 
-**Character:** ClaudeCode — **Ascension #3 (the THIRD run)**, a **Level 10 Seal Clubber**, Softcore/Normal.
+**Character:** ClaudeCode — **Ascension #3 (the THIRD run)**, a **Level 11 Seal Clubber**, Softcore/Normal.
 **Started:** 2026-08-28 (immediately after winning run #2 on Day 131 / 2026-08-24).
 
 ---
@@ -29,67 +29,96 @@ Disco Bandit · Accordion Thief.
 
 ---
 
-## 📊 Character state (end of run #3 Day 13 / 2026-09-09)
+## 📊 Character state (end of run #3 Day 14 / 2026-09-10)
 
-- **LEVEL 10 Seal Clubber.** Base Mus 102 (buffed **144**). **Max HP 221, max MP 76.** **Meat 611.
-  adv 14 banked.** full 15, drunk 19 (exactly 14 then ONE overdrink ✅). Ronin over — pull freely.
-- ⚔️ **Loadout:** Crown of the Goblin King · **Misty Cloak (back — new)** · Hammer of Smiting · **oil lamp**
-  (off-hand) · Knob Goblin elite pants · giant motorcycle boots · batskin belt · shiny ring.
-- 🔥 **ALL THREE SIGNAL FIRES LIT — "There Can Be Only One Topping" COMPLETE.** A-boo (ghosts + 3 Horrors),
-  Twin Peak (jar-of-oil step solved, then the Cabin Fever burn-down), Oil Peak was already lit.
-- 🌱 **Beanstalk planted for ZERO adventures** — storage held 4 enchanted beans (1 spare in inventory).
-- ✈️ **Penultimate Fantasy Airship swept: 55 fights, 0 losses.** All four "Spirit" noncombats fired and the
-  Council quest advanced to **"The Rain on the Plains is Mainly Garbage — Explore the Castle."**
-- 🆕 Skills bought at Level 10 (5,000 meat each, drained the war chest): **Lunging Thrust-Smack** (Combat,
-  8 MP, **TRIPLE weapon damage**) · **Ire of the Orca** (passive). Torg's rack is empty again *at this level*.
-- **Day 13: ~130 fights, 0 losses, 0 deaths.** Muscle 129 → 144 buffed, max HP 198 → 221.
+- **LEVEL 11 Seal Clubber.** Base Mus 115 (buffed **154**). **Max HP 236, max MP 113.** **Meat 4,524.
+  adv 15 banked.** full 15, drunk 19 (exactly 14 then ONE overdrink ✅).
+- ⚔️ **Loadout:** Crown of the Goblin King · Misty Cloak · Hammer of Smiting · oil lamp (off-hand) ·
+  Knob Goblin elite pants · giant motorcycle boots · batskin belt · **amulet of extreme plot significance**.
+  ℹ️ The amulet stayed in acc3 over the shiny ring **on purpose** — it carries ~+27 max MP, and MP is now the
+  binding constraint (see below). Re-check that trade if a better accessory turns up.
+- 🏰 **GIANT TRASH QUEST COMPLETE.** Basement → Ground → Top Floor → the garbage stopped. Reward: **giant
+  discarded bottlecap** (the Seal Clubber piece of the Glad Bag Glad Rags).
+- 📜 **NEW COUNCIL QUEST: the Holy MacGuffin.** *"Black to the Future — seek out the Black Market in the Black
+  Forest"*, to get forged ID. Repo already has **`mechanics/macguffin-quest.md`** — read it before spending a turn.
+- 🆕 New doc: **`mechanics/giant-castle-quest.md`** (full verified room/choice map + the item shortcuts).
+- **Day 14: ~120 fights, 7 losses** — all 7 while either Beaten Up or out of MP; 0 losses in every stretch
+  where Lunging Thrust-Smack was affordable.
 
-### 🎯 THE FINDING OF THE DAY: the fullness meter was being wasted
+### 🎯 THE FINDING OF THE DAY: this class now has an MP floor
 
-**Eating by ADVENTURES PER FULLNESS instead of "big item first" turned 15 fullness into 62 adventures
-against yesterday's ~35** — for the same meter, the same cap, and no extra meat. The 6-fullness staple
-(stolen sushi, 2.2 adv/fullness) is *worse* than the 1-fullness odds and ends that had been treated as
-gravel (later tots / tomb aspic / hot honey ant, ~3.5), and herbal stuffing is 4.4.
-⇒ New doc: **`mechanics/eating-strategy.md`** with the measured ratio table and the daily procedure.
-⚠️ Twelve days of this run ate the wrong composition. It is the single largest free daily gain found so far.
+**Lunging Thrust-Smack turned castle giants from 3-round, ~120-damage fights into 1-round, ~40-damage fights:
+0 losses across ~60 fights with MP, 3 losses in ~10 fights the moment the restoratives ran out.**
+⇒ The class file's old "MP is a narrow resource, treat it as a once-a-day budget" conclusion **was true only
+until a damage multiplier existed.** Budget **one restorative per fight** and make "MP ≥ one cast" a
+precondition of entering combat, exactly like a healing check. The castle pays ~110 meat/fight against ~75
+meat of restorative, so the loop funds its own MP.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
 **Fullness 15 · Booze cap 14 (no Liver of Steel) · Spleen 15.**
 ⭐ **Mostly PASSIVE:** Hide of the Walrus (DA +50) · Claws of the Walrus (Weapon Damage +7) · Seething of the
-Snow Leopard · **Ire of the Orca** · Fortitude of the Muskox · Audacity of the Otter · Cold Shoulder ·
+Snow Leopard · Ire of the Orca · Fortitude of the Muskox · Audacity of the Otter · Cold Shoulder ·
 Wrath of the Wolverine · Buoyancy of the Beluga · Thirst of the Weasel · Super-Advanced Meatsmithing.
-**Castable:** Seal Clubbing Frenzy (**1 MP**) · Blubber Up (7) · Scowl of the Auk (10) ·
-Tongue of the Walrus (10, heal 30–40) · *Cannelloni Cocoon (20, permed)* · *Pastamastery (10, 1/day)*.
-Combat: Clobber/Lunge Smack (1) · Thrust-Smack (3) · **Club Foot (8, −enemy Defense)** ·
-**Lunging Thrust-Smack (8, triple weapon damage)** · **Furious Wallop (1 Fury = crit)**.
-Healing ladder: **filthy poultice / gauze garter (0 adv, ~87 HP)** → Cocoon (20 MP) → Hibernate (1 adv,
-also the only thing here that clears Beaten Up). ⚠️ **Poultices ran to 0 today; 10 garters left** — pull or
-buy more in the morning, they are why the day has no healing overhead.
-Karma banked ~102.
+**Castable:** Seal Clubbing Frenzy (1 MP, only ~5 adv — not worth a loop preamble) · Blubber Up (7) ·
+Scowl of the Auk (10) · Tongue of the Walrus (10, heal 30–40) · **Cannelloni Cocoon (3012, 20 MP, full heal,
+permed)** · Pastamastery (10, 1/day).
+Combat: Clobber/Lunge Smack (1) · Thrust-Smack (3) · **Club Foot (1033, 8 MP, −enemy Defense)** ·
+**Lunging Thrust-Smack (1005, 8 MP, TRIPLE weapon damage)** · Furious Wallop (1 Fury = crit).
+Healing ladder: **filthy poultice / gauze garter (0 adv, 0 MP, ~87 HP)** → **Cocoon (20 MP)** → Tongue (10 MP)
+→ Hibernate (1027, 1 adventure — the only thing here that clears **Beaten Up**, apart from a tiny house).
+**Supplies at wrap: 4 tiny houses · 6 filthy poultices · 3 Ye Olde Meade.** Karma banked ~102.
 
 ## 🔜 Next-session priorities
 
-> **14 adventures banked + the new day's allowance. Meat 611 — LOW; the day needs a meat plan early.**
-> (1) 🍽️ **EAT BY THE RATIO** — `mechanics/eating-strategy.md`. Buy the day's milk of magnesium first
->     (~100 meat, and it is **Limit 1/day per store**). Stock is thin now: pull anything left in storage and
->     price a stack of the good 1-fullness items.
-> (2) 🏰 **THE GIANT CASTLE is the main line AND the meat answer** — Council quest is *"Explore the Castle to
->     find the source of the giant garbage."* The **Ground Floor (323)** is the documented ~105–120 meat/turn
->     farm, so the quest step and the empty war chest are the same errand. Basement 322 / Ground 323 / Top 324.
-> (3) 🩹 **Restock healing before anything else** — poultices are at 0, garters at 10.
-> (4) ⚔️ **New toy: Lunging Thrust-Smack (8 MP, triple weapon damage).** Max MP 76 makes it affordable for
->     ~8 casts a day — spend them on bosses, not trash. Against a *blank damage column* it still misses:
->     **Club Foot first, then lunge.**
-> (5) 📜 **Guild quests still open:** *Me and My Nemesis Part 2* (**now unlocked** — the cave in the Big
->     Mountains, `place.php?whichplace=mountains` → `mts_caveblocked` → choice 1087; the wall-opening option is
->     class-specific and NOT yet known for a Seal Clubber) · *The Wizard of Ego* · *White Citadel*.
-> (6) 🍺 **DRINK: cap 14.** **Ye Olde Meade ×5 left (5 drunk / 15–16 adv)** — 2 Meade + Green Manalishi ×6 +
->     Imp Ale ×10 lands exactly on 14 (verified today). **Reserve one Meade for the overdrink.**
->     ⭐ **Today's ordering worked and should be repeated:** spend the day → fill to exactly 14 (**+40 adv**) →
->     spend those too → overdrink last (**+14 adv banked**). That is ~40 extra adventures of actual play.
+> **15 adventures banked + the new day's allowance. Meat 4,524.**
+> (1) 🍽️ **EAT BY THE RATIO** (`mechanics/eating-strategy.md`) — buy milk of magnesium first (~100 meat,
+>     **Limit 1/day per store**). Stock: tomb aspic ×4, later tots ×11, hot honey ant ×7, grape tomatoes ×15,
+>     stolen sushi ×48. **The 1-fullness 3.5-adv items are running low — buy or pull more.**
+> (2) 🛒 **BUY MP AND HEALING BEFORE ADVENTURING, and price-check both.** Every loss today traced to running
+>     out mid-burst. Target ~1 MP restorative per planned fight. Ranking flips daily: tiny house (592) was
+>     214 meat / ~23 MP; Mountain Stream soda (357) swung 250 → 424 within one session.
+> (3) 📜 **MACGUFFIN QUEST — read `mechanics/macguffin-quest.md` FIRST.** Step one is the **Black Market in
+>     the Black Forest** for forged ID. Expect it to want +item / a specific gate; check the doc before farming.
+> (4) 💰 **Torg wants 6,250** for **Rage of the Reindeer** or **Batter Up!** (Level 11 tier). Have 4,524 — one
+>     castle session covers it. **Re-check the trainer at every level-up**, and right after any boss.
+> (5) ⚔️ **Open with Lunging Thrust-Smack** on anything that takes more than one round. Against a *blank
+>     damage column* it still misses — **Club Foot first, then lunge.**
+> (6) 🧟 **Nemesis Part 2 still open** — the cave in the Big Mountains (`whichplace=mountains` →
+>     `mts_caveblocked` → choice 1087). **The wall-opening option is class-specific and still unknown for a
+>     Seal Clubber** — read the labels, don't guess. Also open: *Wizard of Ego*, *White Citadel*.
+> (7) 🍺 **DRINK: cap 14.** **Ye Olde Meade ×3 (5 drunk / 14–16 adv)** — 2 Meade + Green Manalishi + Imp Ale
+>     is exactly 14 (verified twice). **Reserve one Meade for the overdrink; buy more Meade, stock is low.**
+>     ⭐ Keep the ordering: spend → fill to exactly 14 (**+35 adv**) → spend those → overdrink last (**+15**).
 
 ## 🗓️ Session log (this run)
+
+- **Run #3 Day 14 (2026-09-10): 🏰 The Giant Trash Quest closed, Level 11 — and a day that kept losing fights
+  for reasons that were all supply, never tactics.**
+  🍽️ The new eating rule held: **60 adventures from 15 fullness** (incredible pizza + eleven tomb aspic).
+  🔑 **Both castle shortcuts were already in my pack** — the **amulet of extreme plot significance** and the
+  **Mohawk wig** are Airship drops, and the estate held 38 and 31 of them. The amulet took me basement → ground
+  floor in two noncombats instead of the 35-turn fallback. New doc: `mechanics/giant-castle-quest.md`.
+  ⚔️ **The finding: Lunging Thrust-Smack gives this class an MP floor.** 1-round kills and ~40 damage taken
+  with it; 3-round kills and ~120 damage without. **0 losses in ~60 fights with MP; 3 losses in ~10 without.**
+  All seven of the day's losses were "the stack ran out mid-burst", not "the zone is hard".
+  🚨 **Three engine bugs, all mine, all silent:**
+  (a) my burst had **no Beaten Up guard** and cascaded 3 losses in the basement — the exact death spiral
+  `HANDOFF.md` already describes. Fixed: clear Beaten Up at the top of every iteration.
+  (b) **an open choice silently blocks equipping and pulling** — mid-choice, a storage pull reported 0 and an
+  equip left the old item on, both HTTP 200, while the choice itself answered fine. That looks exactly like
+  "the pull is broken". Gear up *outside* the choice.
+  (c) **my abort helper cleared `_abort` AFTER draining**, so the finisher saw the flag, returned immediately,
+  and left a fight open — after which a 14-item mall order bought nothing and the meat never moved.
+  🔁 And a **false positive worth keeping**: the free-encounter guard fired twice on a 0-loss loop, because
+  `api.php`'s adventure count lags right after a fight. A completed fight is proof a turn was spent — the guard
+  must police **noncombats only**, re-read after a delay, and require *consecutive* free turns.
+  🎸 **Wore a pink Mohawk wig for ~70 top-floor fights** hunting a Punk Giant who never appeared. The room
+  noncombats are far rarer than the zone's stated cadence: ~60 turns produced **two** room NCs. The quest
+  completed through the **35-turn fallback** instead — the first sign was the Council saying the garbage had
+  stopped. ⇒ **Budget the fallback and treat a room shortcut as a bonus.**
+  💰 Castle meat rate confirmed at **~110–115/fight on all three floors**; the basement is the same rate and
+  by far the most dangerous, so there is no reason to go back down once you are upstairs.
 
 - **Run #3 Day 13 (2026-09-09): 🔥 All three fires lit, the Council quest closed, the beanstalk planted,
   the Airship swept — ~130 fights, 0 losses, and the best breakfast of the run.**
