@@ -26,6 +26,40 @@ Council at L11 → "father missing; collect his diary." The real chain (quest lo
 5. **Shore vacation WITH the forged ID → "your father's diary."** Reading it unlocks the Spookyraven
    cellar (choice 921 gate), the desert chain, etc.
 
+## ⚔️ A MUSCLE CLASS WITH A DAMAGE MULTIPLIER REWRITES THIS WHOLE CHAPTER
+
+The level gates and loss records below were measured on a **Mysticality caster**. ✅ Re-measured on a
+**Seal Clubber at Level 11, base Muscle ~115–123, black sword, opening every fight with Lunging Thrust-Smack
+(triple weapon damage):**
+
+| Zone | Caster record | Muscle-class record |
+|---|---|---|
+| Black Forest (405, ML 123–133) | 1W/10L unprepped, ~4W/1L prepped | **~40 fights, 1 loss while MP lasted — 1-round kills** |
+| Black Market unlock | ~55 wins over 2 days | **~22 wins, same day** |
+| Hidden City pygmies (ML 142–150) | 1W/5L — "come back at L13+" | **~45 fights, 0 losses — 1-round kills, often no damage taken** |
+
+⚠️ **The one hard condition is MP.** With MP at 0 the same character in the Black Forest immediately went
+**0W/3L** on plain attacks. Buy restoratives before entering — see `seal-clubber-class.md`.
+
+## 🛡️ The Black Forest blacksmith hands out a free, excellent armour set
+
+`All Over the Map` (**923**) → **`Visit the blacksmith's cottage`** → **925** *The Blackest Smith*:
+`How about a sword?` · `A shield, maybe?` · `A helmet, please.` · `I would like pants.` · `Nothing, thank you.`
+Each visit yields one piece of **Black Armaments** for the cost of the noncombat:
+
+| Piece | Stats | Requirement |
+|---|---|---|
+| **black sword** | 1-handed, **16–32 damage, Weapon Damage +7**, +7% crit | Muscle 65 |
+| **black greaves** | Power 160, **Muscle +10, Damage Absorption +30** | Moxie 65 |
+| **black shield** | DR 10, **Muscle +5, max HP +20** | Muscle 65 |
+| black helmet | Power 160, max HP +30 | Muscle 65 |
+
+✅ For a Muscle class at this level each piece was a straight upgrade (Hammer of Smiting 9–18 → sword 16–32;
+Knob Goblin elite pants → greaves: +10 Muscle, +15 max HP). **Take them in the order sword → pants → shield**,
+and ⚠️ **make the choice rule track which pieces you already hold** — a static "pick pants" rule took the
+greaves three times running. Spares autosell for 145 each.
+923 also offered `Go to the black gold mine` and `Check out the black church` at later progress milestones.
+
 ## ✅ Opening chain — the verified sequence
 
 1. Meatcar → Desert Beach.
@@ -79,8 +113,44 @@ pieces (Hidden City amulet + Spookyraven + Palindome "Staff of Fats"); Copperhea
    `place.php?whichplace=woods`; city map = `place.php?whichplace=hiddencity`).
 5. **Hidden City shrines:** altars **347/346/349/348**, each = **3 dense-liana fights + 1 noncombat**
    (take option 1, "Place your head in the impression"). ⭐ **An antique machete (6679) equipped makes
-   the liana trivial** — check Hagnk's, ours was there. Clearing all four opens **The Hidden Apartment
+   the liana trivial** — check Hagnk's, ours was there.
+   ✅ **Better than trivial: with the machete equipped the lianas are FREE.** The fight resolves on the intro
+   page (*"you came prepared, armed with a machete… You win the fight!"*) and **costs no adventure** — only the
+   four altar noncombats do. ✅ Measured: **all four shrines in 4 adventures**, against ~16 budgeted.
+   ⚠️ Those intro pages carry no combat form, so `inFight()` reads false and the adventure counter does not
+   move — a free-encounter guard will misfire here. Expect it. Clearing all four opens **The Hidden Apartment
    Building (341) · Hospital (342) · Office Building (343) · Bowling Alley (344)** (+ Park 345, Ziggurat 350).
+
+## 🔥 The protector spirits — `fire of unknown origin` kills them for any class
+
+✅ **Verified twice: every building's ancient protector spirit is 80 HP, Defense 140–144, 100% physical
+resistance, no element — and a `fire of unknown origin` (combat item, 35–45 HOT damage) kills one in 1–2
+throws.** Office spirit: 2 throws. Hospital spirit: 1 throw. Items do not miss, so the Defense doesn't matter,
+and no class skill or re-tuned spellbook is needed.
+- `fight.php?action=useitem&whichitem=7208&pwd=<hash>` every round.
+- Sources: estate storage very often holds a stack; check Hagnk's before anything else.
+- ⚠️ Physical combat items (**water pipe bomb, beer bomb, sake bomb, torpedo**) are *useless* here despite
+  bigger numbers — the resistance eats them.
+
+## 🏢 Building-by-building, the fast routes (✅ verified)
+
+- **Office (343) — ~25 adventures total.** *Working Holiday* (**786**) fires on the 6th zone encounter and every
+  5th after: **first visit `Raid the supply cabinet`** (boring binder clip) → **every later visit `Pick a fight
+  with a cubicle drone`**, which *forces* a pygmy witch accountant, the McClusky page source. Five pages +
+  `inv_use` the clip → **McClusky file (complete)** → next 786 → **`Knock on the boss's office door`** → spirit.
+  ⭐ **`Take the day off` costs no adventure** — use it to leave the choice when you need to change gear
+  before the spirit (gear cannot change while a choice is open).
+- **Hospital (342) — one surgical piece was enough.** Wearing only the **bloodied surgical dungarees** (a pygmy
+  witch surgeon drop), *You, M. D.* (**784**) fired within ~4 adventures → `Enter the Operating Theater` → spirit.
+  **Auto-equip each surgical piece as it drops** (half-size scalpel / head mirror / surgical mask / surgical
+  apron / dungarees, +10% each).
+- **Bowling Alley (344)** — *Life is Like a Cherry of Bowls* (**788**) is **100%** whenever you hold a bowling
+  ball; `Let's roll` ×4 gives stats, the **5th** summons the spirit. Balls are a 40% drop from **bowlers only**,
+  so this is the slow building (~1 ball per ~10 fights measured).
+  ⚠️ `Let's don't` is free and re-fires forever while you hold a ball.
+- **Book of matches** (pygmy janitor drop) → `inv_use` → **unlocks the Hidden Tavern**
+  (`shop.php?whichshop=hiddentavern`): **Cursed Punch** (500, row 173 — the Apartment's curse),
+  **Fog Murderer** (500, row 175, no per-store limit), **Bowl of Scorpions** (row 174).
 
 ## The Hidden City buildings (Staff of Ed headpiece)
 

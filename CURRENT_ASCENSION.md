@@ -29,30 +29,32 @@ Disco Bandit · Accordion Thief.
 
 ---
 
-## 📊 Character state (end of run #3 Day 14 / 2026-09-10)
+## 📊 Character state (end of run #3 Day 15 / 2026-09-11)
 
-- **LEVEL 11 Seal Clubber.** Base Mus 115 (buffed **154**). **Max HP 236, max MP 113.** **Meat 4,524.
-  adv 15 banked.** full 15, drunk 19 (exactly 14 then ONE overdrink ✅).
-- ⚔️ **Loadout:** Crown of the Goblin King · Misty Cloak · Hammer of Smiting · oil lamp (off-hand) ·
-  Knob Goblin elite pants · giant motorcycle boots · batskin belt · **amulet of extreme plot significance**.
-  ℹ️ The amulet stayed in acc3 over the shiny ring **on purpose** — it carries ~+27 max MP, and MP is now the
-  binding constraint (see below). Re-check that trade if a better accessory turns up.
-- 🏰 **GIANT TRASH QUEST COMPLETE.** Basement → Ground → Top Floor → the garbage stopped. Reward: **giant
-  discarded bottlecap** (the Seal Clubber piece of the Glad Bag Glad Rags).
-- 📜 **NEW COUNCIL QUEST: the Holy MacGuffin.** *"Black to the Future — seek out the Black Market in the Black
-  Forest"*, to get forged ID. Repo already has **`mechanics/macguffin-quest.md`** — read it before spending a turn.
-- 🆕 New doc: **`mechanics/giant-castle-quest.md`** (full verified room/choice map + the item shortcuts).
-- **Day 14: ~120 fights, 7 losses** — all 7 while either Beaten Up or out of MP; 0 losses in every stretch
-  where Lunging Thrust-Smack was affordable.
+- **LEVEL 11 Seal Clubber.** Base Mus 123 / Mys 86 / Mox 84. **Max HP 266, max MP 119.** 💰 **Meat 46,799.**
+  **adv 16 banked.** full 15, drunk 19 (exactly 14 then ONE overdrink ✅).
+- ⚔️ **Loadout (re-derived today):** Crown of the Goblin King · Misty Cloak · **black sword** (16–32, WD +7) ·
+  **black shield** (DR 10, Mus +5, HP +20) · **black greaves** (Mus +10, DA +30) · giant motorcycle boots ·
+  batskin belt · amulet of extreme plot significance (kept for its ~+27 max MP).
+  In inventory, not worn: Hammer of Smiting (the Nemesis epic weapon — **keep it**), antique machete, oil lamp.
+- 📜 **MACGUFFIN: father's diary READ.** Five quests now open: *Gotta Worship Them All* (Hidden City) ·
+  *Just Deserts* (desert pyramid) · *Of Mice and Shen* (Copperhead Club) · *Merry-Go-Ron* (Red Zeppelin) ·
+  *In a Manor of Spooking* (Spookyraven cellar).
+- 🏙️ **HIDDEN CITY OPEN, all four buildings unlocked.** Spheres: ✅ **crackling** (Office) · ✅ **dripping**
+  (Hospital) · ⬜ Bowling Alley (1 of 5 rolls done) · ⬜ Apartment (needs Thrice-Cursed).
+- 🔑 **Book of matches used → Hidden Tavern open** (Cursed Punch 500 · Fog Murderer 500, no per-store limit).
+- 🧰 **Supplies:** tiny house ×10 · filthy poultice ×12 · **fire of unknown origin ×7** (+0 in storage) ·
+  Ye Olde Meade ×3 · ten-leaf clover 13 in inventory + ~115 in storage · stone wool 0.
+- **Day 15: ~100 fights, 4 losses** (3 of them the moment MP hit 0 in the Black Forest).
 
-### 🎯 THE FINDING OF THE DAY: this class now has an MP floor
+### 🎯 THE TWO FINDINGS OF THE DAY
 
-**Lunging Thrust-Smack turned castle giants from 3-round, ~120-damage fights into 1-round, ~40-damage fights:
-0 losses across ~60 fights with MP, 3 losses in ~10 fights the moment the restoratives ran out.**
-⇒ The class file's old "MP is a narrow resource, treat it as a once-a-day budget" conclusion **was true only
-until a damage multiplier existed.** Budget **one restorative per fight** and make "MP ≥ one cast" a
-precondition of entering combat, exactly like a healing check. The castle pays ~110 meat/fight against ~75
-meat of restorative, so the loop funds its own MP.
+1. **The estate was worth 66,192 meat.** A single pull-and-sell of spare copies (keeping 3 of each) turned a
+   611-meat character into a 66,000-meat one for zero adventures. The previous two days had been losing fights
+   purely for lack of 214-meat tiny houses. ⇒ `HANDOFF.md` § junk drawer, now with the measured list.
+2. **A Muscle class with Lunging Thrust-Smack walks through the caster's "come back at L13" gates.** Black
+   Forest 1-round kills and the market in ~22 wins (caster: ~55); Hidden City pygmies 0 losses at L11 (caster:
+   1W/5L at base Mys 134). **Protector spirits die to 1–2 `fire of unknown origin`** — no spellbook needed.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -71,27 +73,48 @@ Healing ladder: **filthy poultice / gauze garter (0 adv, 0 MP, ~87 HP)** → **C
 
 ## 🔜 Next-session priorities
 
-> **15 adventures banked + the new day's allowance. Meat 4,524.**
-> (1) 🍽️ **EAT BY THE RATIO** (`mechanics/eating-strategy.md`) — buy milk of magnesium first (~100 meat,
->     **Limit 1/day per store**). Stock: tomb aspic ×4, later tots ×11, hot honey ant ×7, grape tomatoes ×15,
->     stolen sushi ×48. **The 1-fullness 3.5-adv items are running low — buy or pull more.**
-> (2) 🛒 **BUY MP AND HEALING BEFORE ADVENTURING, and price-check both.** Every loss today traced to running
->     out mid-burst. Target ~1 MP restorative per planned fight. Ranking flips daily: tiny house (592) was
->     214 meat / ~23 MP; Mountain Stream soda (357) swung 250 → 424 within one session.
-> (3) 📜 **MACGUFFIN QUEST — read `mechanics/macguffin-quest.md` FIRST.** Step one is the **Black Market in
->     the Black Forest** for forged ID. Expect it to want +item / a specific gate; check the doc before farming.
-> (4) 💰 **Torg wants 6,250** for **Rage of the Reindeer** or **Batter Up!** (Level 11 tier). Have 4,524 — one
->     castle session covers it. **Re-check the trainer at every level-up**, and right after any boss.
-> (5) ⚔️ **Open with Lunging Thrust-Smack** on anything that takes more than one round. Against a *blank
->     damage column* it still misses — **Club Foot first, then lunge.**
-> (6) 🧟 **Nemesis Part 2 still open** — the cave in the Big Mountains (`whichplace=mountains` →
->     `mts_caveblocked` → choice 1087). **The wall-opening option is class-specific and still unknown for a
->     Seal Clubber** — read the labels, don't guess. Also open: *Wizard of Ego*, *White Citadel*.
-> (7) 🍺 **DRINK: cap 14.** **Ye Olde Meade ×3 (5 drunk / 14–16 adv)** — 2 Meade + Green Manalishi + Imp Ale
->     is exactly 14 (verified twice). **Reserve one Meade for the overdrink; buy more Meade, stock is low.**
->     ⭐ Keep the ordering: spend → fill to exactly 14 (**+35 adv**) → spend those → overdrink last (**+15**).
+> **16 adventures banked + the new day's allowance. Meat 46,799 — money is no longer a constraint.**
+> (1) 🍽️ **EAT BY THE RATIO** (`mechanics/eating-strategy.md`). **The 1-fullness 3.5-adv stock is GONE** (tomb
+>     aspic / later tots used up; hot honey ant ×7, grape tomato ×15, sushi ×48 left). **Buy food by ratio in the
+>     mall now that meat is plentiful** — look up herbal stuffing (4.4/fullness) and the 3.5 snacks first.
+> (2) 🛒 **Restock before adventuring:** ~30 tiny houses, ~15 poultices, **more fire of unknown origin**
+>     (storage is empty of them — mall), Ye Olde Meade ×4+.
+> (3) 🎳 **Bowling Alley (344):** 1 of 5 rolls done. Balls are a 40% drop from bowlers only (~1 per 10 fights).
+>     Rolls 2–4 are safe; **the 5th summons the spirit — have 2 fires in hand.**
+> (4) 🏢 **Apartment (341):** needs **Thrice-Cursed**. Best path per the doc: drink **3 Cursed Punch** (Hidden
+>     Tavern, 1 drunk each) **as part of the day's 14-drunk fill**, then race to the Apartment's Action Elevator
+>     (9th encounter, then every 8th) → penthouse → spirit → fire. Plan the drink ordering so the curse isn't
+>     wasted — drinking it mid-day means filling the rest of the meter around it.
+> (5) 🗿 With 4 spheres: place them at the **Massive Ziggurat (350)** → the Hidden City boss → ancient amulet.
+> (6) 📜 Then the other four MacGuffin branches (desert, Copperhead/Zeppelin, Spookyraven cellar) — read
+>     `mechanics/macguffin-quest.md` / `palindome-quest.md` / `pyramid-lower-chamber-wheel.md` first. The estate
+>     holds **12 tomb ratchets** (pyramid) and **~115 clovers**.
+> (7) ⚔️ **Combat standard:** Lunging Thrust-Smack every round, **never enter a fight below 8 MP**.
+> (8) 🍺 **DRINK: cap 14.** Meade ×3 — buy more. Keep the ordering: spend → fill to 14 → spend → overdrink last.
 
 ## 🗓️ Session log (this run)
+
+- **Run #3 Day 15 (2026-09-11): 📜 Father's diary read; the Hidden Temple and Hidden City opened; two of four
+  spheres taken — and 66,000 meat found in the warehouse.**
+  🌲 **Black Forest:** Lunging Thrust-Smack one-rounds every monster; **Black Market found after ~22 wins** (the
+  caster notes said ~55). The **blacksmith's cottage gives free Black Armaments** — black sword (16–32, WD +7),
+  black greaves (Mus +10, DA +30), black shield (Mus +5, HP +20) — each a straight upgrade. 🐛 My choice rule
+  asked for trousers three times running; spares autosold.
+  🪪 Forged ID (5,000) → the Shore → *"Ah, Mr. Abercrombie"* → **father's diary**, read at `diary.php` → five quests.
+  💰 **The warehouse:** broke at 144 meat, I finally audited Hagnk's properly. Keeping 3 of each, one pass of
+  pull-and-autosell raised **66,192 meat for zero adventures**. Then Torg's Level-11 pair (**Rage of the
+  Reindeer**, **Batter Up!**) and a real stock of restoratives.
+  🌳 **Hidden Temple:** Spooky Forest chain (~13 adv) → two stone wool (**Stone-Faced is consumed by the first
+  Fitting In — not 5 guaranteed adventures**) → vines/Nostril → lightning button → door → hands up → BANANAS →
+  do nothing → **Hidden City in ~7 adventures**. 🐛 Twice the loop fought my own pending choice: inventory
+  checks *inside* the open Arboreal Respite read as empty (sent me to the cave 3×), and after the lightning
+  button my handler kept taking the stairs instead of the door that had just gained "(3 Adventures)".
+  🌿 **Shrines: 4 adventures for all four** — with the antique machete equipped, lianas die on the intro page
+  and cost nothing. Pygmies (ML 142–150): **~45 fights, 0 losses**, 1-round kills.
+  🔥 **Spirits:** Office via Working Holiday (clip → force accountants → complete file → knock) — **dead to 2
+  fires of unknown origin.** Hospital with just the dungarees on — **dead to 1 fire.** 🐛 And a parser bug:
+  choice labels with apostrophes (*Let's roll / Let's don't*) both parsed as "Let"; fixed with a matched-quote
+  backreference.
 
 - **Run #3 Day 14 (2026-09-10): 🏰 The Giant Trash Quest closed, Level 11 — and a day that kept losing fights
   for reasons that were all supply, never tactics.**

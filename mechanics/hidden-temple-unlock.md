@@ -108,6 +108,28 @@ Reaching Hidden Heart (580) is itself a low-rate temple NC; **stone wool → Sto
 wool drops from temple monsters, ~1/15-20). Once you've pressed the lightning button once,
 the door stays Pikachutlotal, so subsequent visits just need opt 1.
 
+### ⭐ The whole temple in ~7 adventures with TWO stone wool (✅ verified end to end)
+
+⚠️ **Stone-Faced is consumed by the first *Fitting In* it produces** — it is *not* "5 adventures of guaranteed
+choices". The very next temple adventure after using it was an ordinary fight. So budget **one wool per
+Fitting In you need, i.e. two**. Stone wool is in the mall (~1,000–1,700; stores are often limit-1/day).
+
+1. Wool #1 → **582 `Explore the higher levels`** → **579 `Climb down some vines`** → *Nostril of the Serpent*.
+2. Wool #2 → **582 `Poke around the ground floor`** → **580 `Go down the stairs`** → **584 `The one with the
+   cute little lightning-tailed guy on it`** → back at 580 the first option now reads
+   **`Go through the door (3 Adventures)`** — ⚠️ **take it**. A handler that keeps answering 580 with "stairs"
+   loops 584 ↔ 580 forever without spending turns; the tell is the "(3 Adventures)" suffix appearing.
+3. **123 `Raise your hands up toward the heavens`** → the tile floor at **`tiles.php`** (BANANAS; parse the
+   active row with `/whichtile=(\d+)[^>]*>\s*<img[^>]*tile(\w)\.gif/`, jump, re-read, repeat — **stop if the
+   needed letter is absent, never guess**) → **125 `Do nothing`** → the Hidden City.
+
+✅ The Spooky Forest item chain (sapling + fertilizer + map) took ~13 adventures before this, so
+**unlocked-temple-to-Hidden-City was one afternoon**.
+🐛 Engine note from the same run: the Spooky Forest handler checked "do I hold the coin?" **inside** the open
+Arboreal Respite choice, where inventory reads are silently bounced — so it reported "no coin" and sent the
+character to the cave three times. **Read item state before `adventure.php`, then pass it into the choice
+handler.** (See `HANDOFF.md` § open choices.)
+
 ### Hidden City layout + mechanic
 
 The game is **building-based**. The four "Altars" on the map are **Overgrown Shrines**

@@ -200,6 +200,19 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
    yields **porquoise (706) / hamethyst / baconstone — 500 meat autosell each**. Their only use is jewelrycrafting
    (a skill we don't have), so **selling them early is usually correct**.
 4. 🚨 **AUDIT YOUR OWN JUNK DRAWER BEFORE YOU FARM ANYTHING — it beat a full day of farming .**
+   ⭐ **After a previous ascension, the junk drawer is HAGNK'S, and it is enormous.** ✅ Measured the day after
+   Ronin ended: a single pull-and-autosell pass over spare copies in storage raised **66,192 meat in minutes,
+   for zero adventures** — against a character who had been rationing 611 meat. The big lines were
+   Airship/castle drops that a prior run had farmed for months: *amulet of extreme plot significance* (205 ea),
+   *glowing red eye* (165), *Penultimate Fantasy chest* (108), *super-spiky hair gel* (112), *titanium assault
+   umbrella* / *Mohawk wig* / *ridiculously huge sword* (155), *magilaser blastercannon* (170), *energy drink IV*
+   (211), *valuable trinket* (250).
+   ✅ **Policy: keep 3 of each for future runs** (storage persists across ascensions, and several of these are
+   quest shortcuts — the castle's amulet/wig/umbrella), **sell the rest.** Pull exactly the surplus, then sell
+   exactly that count with `mode=3` so copies already in inventory survive.
+   ✅ Get prices in one Bash pass from the wiki's `Selling Price:` line rather than one sell-page at a time.
+   ⚠️ **Do this BEFORE a day that needs meat, not after starving for a week.** The two days before this sale had
+   lost fights purely for lack of MP restoratives.
    A long-running farm zone quietly buries you in drops. Months on the eXtreme Slope had left **166 gr8ps,
    140 t8r tots, 54 sk8boards and ~50 SPARE copies of each eXtreme outfit piece** — **41,195 meat, sold in
    minutes for ZERO adventures.** ✅ Method: build the authoritative `{id:name}` map from `inventory.php`,
@@ -463,10 +476,15 @@ Any note of the form "choice 1049 → option 1" is therefore wrong roughly (n−
 ```js
 const blocks = p.split(/<form/).slice(1).map(b => ({
   opt:   (b.match(/name=["']?option["']? value=["']?(\d+)/)||[])[1],
-  label: (b.match(/type=["']?submit["']?[^>]*value=["']([^"']+)["']/i)||[])[1]
+  label: (b.match(/type=["']?submit["']?[^>]*value=(["'])(.*?)\1/i)||[])[2]   // matched-quote backreference
 })).filter(x => x.opt && x.label);
 const pick = blocks.find(b => /Boredom/i.test(b.label));   // decide by MEANING
 ```
+🐛 **Labels contain apostrophes, so the quote must be matched, not a character class.** The older pattern
+`value=["']([^"']+)["']` stops at the first quote of *either* kind, so `value="Let's roll"` and
+`value="Let's don't"` both parse as **`Let`** — two identical labels, and a rule looking for "Let's roll"
+finds nothing and halts (or worse, a loose rule picks the wrong one). ✅ Measured on the Hidden Bowling
+Alley's choice 788. Use the backreference form above: `value=(["'])(.*?)\1`.
 ⚠️ Record answers in `mechanics/` as **label text**, never as an option index.
 ⚠️ A single-option choice (`blocks.length === 1`) is just a "continue" button — safe to auto-answer. **Stop and
 inspect anything with 2+ options** you don't have a recorded answer for; blind `opts[0]` is how you fail a
