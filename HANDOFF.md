@@ -485,6 +485,15 @@ const pick = blocks.find(b => /Boredom/i.test(b.label));   // decide by MEANING
 `value="Let's don't"` both parse as **`Let`** — two identical labels, and a rule looking for "Let's roll"
 finds nothing and halts (or worse, a loose rule picks the wrong one). ✅ Measured on the Hidden Bowling
 Alley's choice 788. Use the backreference form above: `value=(["'])(.*?)\1`.
+🚨 **A RENDERED OPTION IS NOT AN AVAILABLE OPTION — AND A SILENTLY-REFUSED PICK LEAVES THE CHOICE OPEN.**
+Some menus display every option unconditionally and simply **do nothing** when you pick one whose requirement
+you don't meet. The choice then stays unanswered, and because **an unanswered choice is re-served by every later
+`adventure.php` at no turn cost**, the symptom is "this noncombat keeps firing" rather than "my pick failed".
+✅ Measured: the Hidden Apartment's elevator renders `Go to the Thrice-Cursed Penthouse` while you are only
+Twice-Cursed; 21 loop iterations produced 8 adventures of fighting and zero progress.
+✅ **Two defences:** (a) **verify the requirement from game state** (the charpane effect, an inventory count)
+rather than from the presence of the label; (b) **after answering, confirm the choice actually cleared** —
+`if (getChoice(await G('/choice.php'))) abort('pick was refused')`.
 ⚠️ Record answers in `mechanics/` as **label text**, never as an option index.
 ⚠️ A single-option choice (`blocks.length === 1`) is just a "continue" button — safe to auto-answer. **Stop and
 inspect anything with 2+ options** you don't have a recorded answer for; blind `opts[0]` is how you fail a
@@ -687,6 +696,11 @@ feeding it was wrong.
 while *looking* busy:
 
 - the **rat faucet** in the Tavern cellar (*"Leave it alone"* is free, and the square never leaves the list);
+- **room-hop options inside a multi-room zone** — the Giant castle's top floor moves you between the four
+  giants' rooms via `Check Behind the Giant Poster` / `Look Behind the Poster` / `Gimme Steam` / `Go through the
+  Crack` **for no adventure**, so a rule that prefers "the interesting-looking exit" ping-pongs forever. Prefer
+  a **terminal** option (one that hands you an item and ends the encounter);
+- a **choice whose pick was silently refused** (see the rendered-vs-available rule above);
 - the **Treasury harem-girl salary** once you have already been paid today (*"little lady, you've already been
   paid once today"*);
 - **falling-down drunk** (every zone returns a free-ish Drunken Stupor — see HARD RULE 1);

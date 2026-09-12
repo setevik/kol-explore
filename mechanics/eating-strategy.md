@@ -59,6 +59,18 @@ that they read as "filler"** — they are the second-best food in the list.
 fullness.** If a 1-fullness gap is all that is left and everything you own for it yields 1 adventure, that is
 fine — but never build a plan around them.
 
+## 💰 Once meat is plentiful, BUY the ratio instead of scavenging it
+
+The 1-fullness 3.5-adv snacks come from earlier content and run out; **herbal stuffing is reliably listed in the
+mall at ~390 meat**, which is **~22 meat per adventure** — cheap enough that a full meter is a rounding error
+against a day's farming. ✅ Measured best day so far: **3 × herbal stuffing + 3 × hot honey ant = 15 fullness for
+71 adventures** (milk of magnesium first).
+⚠️ Price-check the rest before assuming: the same session showed *later tots* at **3,874** and *tomb aspic* at
+**1,475** — the snacks that are excellent when they drop are terrible to buy. *incredible pizza* at ~240 (3.5) is
+the other good buy.
+⇒ **Rank candidates by `price ÷ adventures`, not by `price`**, and buy two or three days' worth while a good
+listing is up.
+
 ## 🧮 How to run the step
 
 1. **Read the cap** (`api.php?what=status` → `full`; the cap is 15 unless a run-specific effect changes it).

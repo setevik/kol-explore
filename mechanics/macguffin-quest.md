@@ -132,6 +132,33 @@ and no class skill or re-tuned spellbook is needed.
 - ⚠️ Physical combat items (**water pipe bomb, beer bomb, sake bomb, torpedo**) are *useless* here despite
   bigger numbers — the resistance eats them.
 
+## 🚨 THE APARTMENT'S PENTHOUSE OPTION IS ALWAYS DISPLAYED — AND SILENTLY FAILS
+
+*Action Elevator* (**choice 780**) always renders all four labels, **including `Go to the Thrice-Cursed
+Penthouse`, even when you are only Once- or Twice-Cursed.** Picking it then **does nothing and leaves the choice
+unanswered** — and an unanswered choice is re-served by every later `adventure.php` **for free**, so the loop
+looks like "the elevator keeps firing" while no turn is spent. ✅ Measured: 21 iterations, 8 adventures, no
+progress, before the cause was found.
+
+✅ **Read the CURSE from the charpane, not the menu.** Only act on the penthouse when the effect list literally
+says **Thrice-Cursed**; otherwise take **`Go to the mezzanine`**, which advances the curse one step *and*
+consumes the choice (`You lose an effect: Twice-Cursed / You acquire an effect: Thrice-Cursed`).
+⭐ **Curses persist across days** — a character who fought pygmy shamans yesterday can arrive already
+Twice-Cursed, so **check before buying Cursed Punch**; one mezzanine ride may be all you need.
+✅ Measured: Thrice-Cursed has **9–10 adventures** of duration and the next elevator arrived **7 encounters**
+later, so one ride is enough if you go straight there. Keep a Cursed Punch or two in reserve to top it up.
+
+## 🗿 Endgame: spheres → triangles → the Ziggurat (✅ verified, ~1 adventure)
+
+The four spheres are **not** the quest turn-in; the Ziggurat needs **four stone triangles**.
+- Take each sphere back to **its own altar** and pick `Place the <X> sphere in the impression`:
+  **moss-covered → 346** (earth) · **dripping → 347** (water) · **crackling → 348** (air) · **scorched → 349** (fire).
+  ✅ **All four placements cost ZERO adventures**, and with the machete the lianas on the way are free too.
+- Then **A Massive Ziggurat (350)**: clear three vines (free with the machete) → *Legend of the Temple in the
+  Hidden City* (**choice 791**) → **`Open the door`** → **Protector Spectre**.
+- **Protector Spectre: 100 HP, Attack 164, Defense 151, 100% physical resistance** — same answer as the four
+  building spirits: **2 × `fire of unknown origin`**. Drops the **ancient amulet** (+ a spectre scepter).
+
 ## 🏢 Building-by-building, the fast routes (✅ verified)
 
 - **Office (343) — ~25 adventures total.** *Working Holiday* (**786**) fires on the 6th zone encounter and every
@@ -177,6 +204,22 @@ Killed the Apartment spirit in ~3 casts at base Mys 134. Needs a 1-handed weapon
 **Come back at base Mys 150+ / L13+**, or bring serious elemental resistance + deleveling.
 
 ## Just Deserts — the desert / buried pyramid
+
+🚨 **THE OASIS IS NOT OPEN UNTIL YOU TAKE A DRY TURN IN THE DESERT ITSELF.** Adventuring at **122** before
+that returns *"You shouldn't be here."* — **for free, forever**, so a loop written as "if not hydrated → go to
+the Oasis" spins on turn one. ✅ Correct order: **enter 364 while dry** (that reveals the Oasis), and only then
+run the Oasis ⇄ desert loop.
+
+✅ **Measured run of the whole crossing** (Muscle class, Lunging, ~50 turns total): dry desert turn → Oasis
+(*Glug, Glug, Glug* = **Ultrahydrated**) → ~10 desert turns → repeat. **0 losses in 70 desert fights.**
+⭐ **Gnasir's three errands are all obtainable in one day and each pamphlet is worth ~15%:**
+stone rose (Oasis noncombat) · **can of black paint — Black Market row 282, 1,000 meat** · **15 worm-riding
+manual pages** (ordinary desert drops; 15 arrived inside ~60 desert fights). Measured: **38% → 53% → 68%** off
+two pamphlets, then ten hydrated turns finished it at **100%**.
+⚠️ Close his conversation with **`"No, that's all."`** or navigation keeps bouncing.
+➡️ 100% explored ⇒ *"Investigate the pyramid"*: `place.php?whichplace=desertbeach&action=db_pyramid1` shows the
+wooden model of Seaside Town with **a socket that wants the assembled Staff of Ed** — so the desert branch then
+waits on the Spookyraven and Palindome pieces.
 
 - **The Arid, Extra-Dry Desert = snarf 364** (Desert Beach). ML 134–142, rec stat 120.
   The place page shows **`alt='(N% explored)'`** — parse that, not the visible text (the zone label is

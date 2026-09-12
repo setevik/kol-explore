@@ -9,7 +9,7 @@
 > On ascension, archive this file to `runs/ascension-NN-<class>.md` and start a fresh one.
 > Prior runs: `runs/ascension-01-pastamancer.md` (WON), `runs/ascension-02-pastamancer.md` (WON).
 
-**Character:** ClaudeCode — **Ascension #3 (the THIRD run)**, a **Level 11 Seal Clubber**, Softcore/Normal.
+**Character:** ClaudeCode — **Ascension #3 (the THIRD run)**, a **Level 12 Seal Clubber**, Softcore/Normal.
 **Started:** 2026-08-28 (immediately after winning run #2 on Day 131 / 2026-08-24).
 
 ---
@@ -29,32 +29,35 @@ Disco Bandit · Accordion Thief.
 
 ---
 
-## 📊 Character state (end of run #3 Day 15 / 2026-09-11)
+## 📊 Character state (end of run #3 Day 16 / 2026-09-12)
 
-- **LEVEL 11 Seal Clubber.** Base Mus 123 / Mys 86 / Mox 84. **Max HP 266, max MP 119.** 💰 **Meat 46,799.**
-  **adv 16 banked.** full 15, drunk 19 (exactly 14 then ONE overdrink ✅).
-- ⚔️ **Loadout (re-derived today):** Crown of the Goblin King · Misty Cloak · **black sword** (16–32, WD +7) ·
-  **black shield** (DR 10, Mus +5, HP +20) · **black greaves** (Mus +10, DA +30) · giant motorcycle boots ·
-  batskin belt · amulet of extreme plot significance (kept for its ~+27 max MP).
-  In inventory, not worn: Hammer of Smiting (the Nemesis epic weapon — **keep it**), antique machete, oil lamp.
-- 📜 **MACGUFFIN: father's diary READ.** Five quests now open: *Gotta Worship Them All* (Hidden City) ·
-  *Just Deserts* (desert pyramid) · *Of Mice and Shen* (Copperhead Club) · *Merry-Go-Ron* (Red Zeppelin) ·
-  *In a Manor of Spooking* (Spookyraven cellar).
-- 🏙️ **HIDDEN CITY OPEN, all four buildings unlocked.** Spheres: ✅ **crackling** (Office) · ✅ **dripping**
-  (Hospital) · ⬜ Bowling Alley (1 of 5 rolls done) · ⬜ Apartment (needs Thrice-Cursed).
-- 🔑 **Book of matches used → Hidden Tavern open** (Cursed Punch 500 · Fog Murderer 500, no per-store limit).
-- 🧰 **Supplies:** tiny house ×10 · filthy poultice ×12 · **fire of unknown origin ×7** (+0 in storage) ·
-  Ye Olde Meade ×3 · ten-leaf clover 13 in inventory + ~115 in storage · stone wool 0.
-- **Day 15: ~100 fights, 4 losses** (3 of them the moment MP hit 0 in the Black Forest).
+- **LEVEL 12 Seal Clubber.** Base Mus 136 / Mys 94 / Mox 95. **Max HP 278, max MP 122.** 💰 **Meat 32,068.**
+  **adv 15 banked.** full 15, drunk 19 (exactly 14 then ONE overdrink ✅).
+- ⚔️ **Loadout:** Crown of the Goblin King · Misty Cloak · **black sword** · **black shield** · **black greaves** ·
+  giant motorcycle boots · batskin belt · amulet of extreme plot significance.
+  Carried, not worn: Hammer of Smiting (**keep — Nemesis epic weapon**), antique machete (free lianas), oil lamp.
+- 🏙️ **HIDDEN CITY COMPLETE.** All four spheres → four triangles → Ziggurat → Protector Spectre → **ANCIENT
+  AMULET** (+ spectre scepter). *Gotta Worship Them All* closed.
+- 🏜️ **DESERT 100% EXPLORED.** *Just Deserts* now reads **"Investigate the pyramid"** — the small pyramid holds
+  the wooden model of Seaside Town with a socket that wants **the assembled Staff of Ed**, so this branch is
+  blocked on the other two staff pieces.
+- 🐍 **Shen Copperhead engaged** (*Of Mice and Shen*): he wants **The Eye of the Stars from The Hole in the Sky**
+  first. ⚠️ **Blocked on a steam-powered model rocketship**, which comes from the castle Top Floor noncombat
+  *Copper Feel* (677) → "Investigate the Whirligigs and Gimcrackery". **It did not fire in ~25 top-floor turns
+  today** (two other giants' rooms did).
+- 🆕 Level-12 skills bought (7,500 each): ⭐ **Double-Fisted Skull Smashing** (passive — **wield a one-handed
+  weapon in EACH hand**) · **Cavalcade of Fury** (Combat, 15 MP, consumes all Fury).
+- 🧰 **Supplies:** tiny house ×5 ⚠️ · filthy poultice ×12 · **fire of unknown origin ×6** · Ye Olde Meade ×2 ⚠️ ·
+  Cursed Punch ×3 · ten-leaf clover ~115 in storage · 12 tomb ratchets in storage (pyramid).
+- **Day 16: ~150 fights, 0 losses.** Best day of the run on every axis.
 
-### 🎯 THE TWO FINDINGS OF THE DAY
+### 🎯 THE FINDING OF THE DAY
 
-1. **The estate was worth 66,192 meat.** A single pull-and-sell of spare copies (keeping 3 of each) turned a
-   611-meat character into a 66,000-meat one for zero adventures. The previous two days had been losing fights
-   purely for lack of 214-meat tiny houses. ⇒ `HANDOFF.md` § junk drawer, now with the measured list.
-2. **A Muscle class with Lunging Thrust-Smack walks through the caster's "come back at L13" gates.** Black
-   Forest 1-round kills and the market in ~22 wins (caster: ~55); Hidden City pygmies 0 losses at L11 (caster:
-   1W/5L at base Mys 134). **Protector spirits die to 1–2 `fire of unknown origin`** — no spellbook needed.
+🚨 **A rendered option is not an available option.** The Apartment elevator always draws
+`Go to the Thrice-Cursed Penthouse`, even at Twice-Cursed — picking it does nothing **and leaves the choice
+unanswered, which is then re-served free forever**. That reads as "the noncombat keeps firing", not as "my pick
+failed". **21 iterations burned.** ⇒ Verify a requirement from game state (the charpane effect), and after
+answering any choice, **confirm it actually cleared**. Now a `HANDOFF.md` rule.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -73,26 +76,55 @@ Healing ladder: **filthy poultice / gauze garter (0 adv, 0 MP, ~87 HP)** → **C
 
 ## 🔜 Next-session priorities
 
-> **16 adventures banked + the new day's allowance. Meat 46,799 — money is no longer a constraint.**
-> (1) 🍽️ **EAT BY THE RATIO** (`mechanics/eating-strategy.md`). **The 1-fullness 3.5-adv stock is GONE** (tomb
->     aspic / later tots used up; hot honey ant ×7, grape tomato ×15, sushi ×48 left). **Buy food by ratio in the
->     mall now that meat is plentiful** — look up herbal stuffing (4.4/fullness) and the 3.5 snacks first.
-> (2) 🛒 **Restock before adventuring:** ~30 tiny houses, ~15 poultices, **more fire of unknown origin**
->     (storage is empty of them — mall), Ye Olde Meade ×4+.
-> (3) 🎳 **Bowling Alley (344):** 1 of 5 rolls done. Balls are a 40% drop from bowlers only (~1 per 10 fights).
->     Rolls 2–4 are safe; **the 5th summons the spirit — have 2 fires in hand.**
-> (4) 🏢 **Apartment (341):** needs **Thrice-Cursed**. Best path per the doc: drink **3 Cursed Punch** (Hidden
->     Tavern, 1 drunk each) **as part of the day's 14-drunk fill**, then race to the Apartment's Action Elevator
->     (9th encounter, then every 8th) → penthouse → spirit → fire. Plan the drink ordering so the curse isn't
->     wasted — drinking it mid-day means filling the rest of the meter around it.
-> (5) 🗿 With 4 spheres: place them at the **Massive Ziggurat (350)** → the Hidden City boss → ancient amulet.
-> (6) 📜 Then the other four MacGuffin branches (desert, Copperhead/Zeppelin, Spookyraven cellar) — read
->     `mechanics/macguffin-quest.md` / `palindome-quest.md` / `pyramid-lower-chamber-wheel.md` first. The estate
->     holds **12 tomb ratchets** (pyramid) and **~115 clovers**.
-> (7) ⚔️ **Combat standard:** Lunging Thrust-Smack every round, **never enter a fight below 8 MP**.
-> (8) 🍺 **DRINK: cap 14.** Meade ×3 — buy more. Keep the ordering: spend → fill to 14 → spend → overdrink last.
+> **15 adventures banked + the new day's allowance. Meat 32,068.**
+> (1) 🍽️ **EAT:** buy **herbal stuffing ×3–6 at ~390** (4.4 adv/fullness) + milk of magnesium. 3 stuffing +
+>     3 hot honey ant = 15 fullness = **71 adventures** (verified). ⚠️ Don't buy later tots (3,874) or tomb
+>     aspic (1,475) — excellent as drops, terrible as purchases.
+> (2) 🛒 **RESTOCK FIRST — tiny houses are down to 5** (the day stops dead without MP): ~30 tiny houses,
+>     ~15 poultices, **more fire of unknown origin** (~100 ea — the universal answer to physically-immune
+>     bosses), **Ye Olde Meade ×4**.
+> (3) ⚔️ **TRY DUAL-WIELDING.** With Double-Fisted Skull Smashing, a second one-handed weapon can replace the
+>     black shield. The Black Forest blacksmith gives **black swords free** (choice 923 → `Visit the blacksmith`
+>     → `How about a sword?`). **Measure it:** rounds-per-kill and damage taken, sword+shield vs sword+sword —
+>     the shield is DR 10 / +5 Mus / +20 HP, so this is not obviously an upgrade.
+> (4) 🚀 **ROCKETSHIP = the day's real blocker.** Castle **Top Floor (324)** until *Copper Feel* (677) →
+>     **"Investigate the Whirligigs and Gimcrackery"**. ⚠️ **Never pick the poster/crack/steam room-hops** —
+>     they cost no adventure and ping-pong between giants' rooms forever; take terminal item options instead.
+>     Then **The Hole in the Sky (83)** → The Astronomer → **Eye of the Stars** → Shen.
+> (5) 🐍 Shen's other two: **Shield of Brook** (Unquiet Garves 21, the Snakeleton, ~20 turns) and
+>     **First Pizza** (Lair of the Ninja Snowmen 272, ~9 turns). Each hand-in is a separate club visit.
+> (6) 👻 **In a Manor of Spooking** needs the whole Spookyraven ghost chain (library key → necklace → finery →
+>     Ballroom → choice 921 with the diary). It is a multi-day project — read `spookyraven-ghost-chain.md`
+>     before starting, and budget it as such.
+> (7) 🍺 **DRINK: cap 14.** 2 Meade + Green Manalishi + Imp Ale = exactly 14 (verified 3×). Buy more Meade.
+>     Keep the ordering: spend → fill to 14 → spend those → overdrink last.
 
 ## 🗓️ Session log (this run)
+
+- **Run #3 Day 16 (2026-09-12): 🏙️ Hidden City COMPLETE (ancient amulet), desert 100% explored, Level 12 —
+  ~150 fights, ZERO losses.**
+  🍽️ **71 adventures from breakfast**, a run record: 3 bought herbal stuffing (4.4 adv/fullness at 390 meat) +
+  3 hot honey ants. Buying the ratio beats scavenging it now that meat exists.
+  🚨 **The finding: a rendered option is not an available option.** The Apartment elevator always shows
+  `Go to the Thrice-Cursed Penthouse`; at Twice-Cursed it silently does nothing **and leaves the choice open**,
+  which `adventure.php` then re-serves for free — so it looked like the elevator was firing every turn.
+  **21 iterations gone.** The mezzanine ride advanced the curse and cleared the choice in one go. Also learned
+  **curses persist overnight** — I arrived Twice-Cursed without drinking anything, so the three Cursed Punches
+  I bought were unnecessary.
+  🗿 **Spheres → triangles at the four matching altars, all for ZERO adventures**, then the Ziggurat: three free
+  machete vines, a door, and the **Protector Spectre (100 HP, physically immune) dead to 2 fires of unknown
+  origin.** Every spirit in this quest has the same answer; no spellbook, no class requirement.
+  🏜️ **The desert in one day.** 🐛 First the loop went to the Oasis while dry and got *"You shouldn't be here"*
+  free on repeat — **the Oasis only opens after a dry turn in the desert itself**; the turn guard caught it at
+  zero cost. Then drink → ten turns → drink, **70 desert fights 0 losses**, and Gnasir's three errands were all
+  already in my pack (stone rose, black paint, and exactly 15 worm-riding pages). Two pamphlets took 38% → 68%;
+  ten hydrated turns finished it.
+  🐍 Shen engaged; he wants the **Eye of the Stars** first, which needs a rocketship from the castle top floor.
+  ~25 turns up there produced the Raver, Goth and **Punk** giants' rooms — the last being the room I wore a
+  Mohawk wig all of yesterday hunting — but never the Steampunk room that actually holds it.
+  🐛 And the castle's **poster/crack exits cost no adventure and ping-pong between rooms**, so a rule that
+  prefers them spins; take terminal item options.
+  💪 Level 12 → **Double-Fisted Skull Smashing** (dual-wield one-handers) and Cavalcade of Fury, 7,500 each.
 
 - **Run #3 Day 15 (2026-09-11): 📜 Father's diary read; the Hidden Temple and Hidden City opened; two of four
   spheres taken — and 66,000 meat found in the warehouse.**
