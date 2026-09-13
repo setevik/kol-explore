@@ -50,6 +50,26 @@ Disco Bandit · Accordion Thief.
   herbal stuffing ×3 · Flamin' Whatshisname ×8 · lynyrd musk ×9 · hand chalk ×17 · Cursed Punch ×3.
 - **Day 17: ~110 fights, 0 losses.** Also bought no skills (none at L12 beyond yesterday's).
 
+### 🐾 FAMILIARS (checked after Day 17 — none has been out this entire run)
+
+- **Active familiar: none** (`api.php` → `familiar: "0"`) for all 17 days.
+- **Terrarium holds exactly one:** **Marcellus, the Mosquito** — *1 pound, 0 exp, 9,568 lifetime kills* (hatched in
+  run #1). In-combat HP drain/heal; weak while fights are one round.
+- **Unhatched in the estate (verified on the wiki as hatchlings/recipes):**
+  - **smiling rat ×2** (storage) → **Smiling Rat**: volleyball-formula stat gain after every fight. ⭐ Free.
+  - **topiary nugglet ×16** (storage) → 15 craft a **Topiary Skunk**: stench damage + **HP restore after each combat**. ⭐ Free.
+  - **macaroni duck ×1** (storage) → **Animated Macaroni Duck**: attacks + MP (Pastamancer Nemesis hatchling).
+  - **bubblin' crude** (~84 across inventory/storage) → *oily boids*; each thrown boid has ~15% to yield a **woim**
+    (initiative familiar).
+  - *clutch of dodecapede eggs* ×3 is **not** a hatchling (combat item).
+- **Class familiar:** the **Adorable Seal Larva** comes from this run's Nemesis quest (not reached yet) — MP restore
+  with +min(20, 2·level) effective weight for a Seal Clubber.
+- **Mall, one check:** blood-faced volleyball ~100 · leprechaun hatchling ~10,000 · hovering sombrero ~10,000 ·
+  fertilized ghuol egg ~7,800 · potato sprout ~17,000 · pregnant mushroom ~19,000 · mosquito larva / seal larva: none.
+- ▶ **Next session:** hatch the smiling rat and craft/hatch the Topiary Skunk (both free, permanent, one-per-type).
+  Take the **Smiling Rat** on levelling days (stats every fight) and the **Skunk** when healing supplies are the
+  constraint. Record how quickly each gains weight — starting at 1 lb, 25 wins reaches 5 lb.
+
 ### 🎯 THE FINDINGS OF THE DAY
 
 1. **Dual-wielding beats the shield once fights are one round** — black sword + Hammer: Muscle +11, 34 castle
@@ -96,6 +116,8 @@ Healing ladder: **filthy poultice / gauze garter (0 adv, 0 MP, ~87 HP)** → **C
 > (6) ⚔️ **Combat standard:** dual-wield (black sword + Hammer), Lunging Thrust-Smack every round; **Club Foot first
 >     against Defense-160+ bosses** (Snakeleton, Frozen Solid Snake, the Snake With Like Ten Heads are all Def 160).
 > (7) 🍺 **DRINK: cap 14**, fill → spend → overdrink last.
+> (8) 🐾 **FAMILIAR — none has been out all run.** Hatch the *smiling rat* (volleyball stats) and craft the *Topiary
+>     Skunk* from 15 nugglets (after-combat heal), then take one along every day. See `mechanics/familiars.md`.
 
 ## 🗓️ Session log (this run)
 

@@ -308,6 +308,29 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
 - **Free buffs:** the buffbot **"Buffy" (#1889009)** casts e.g. **Fat Leon's Phat Loot Lyric (+20% item)** — just kmail
   the buff name (`sendmessage.php` POST towho=1889009, message="Fat Leon's Phat Loot Lyric", sendmeat=1); auto-casts in seconds.
 
+## 🐾 Familiars — check the terrarium every run (mechanics: `mechanics/familiars.md`)
+
+🚨 **Familiars survive ascension, so a new run inherits every one ever hatched — and an unequipped familiar is
+silently wasted.** ✅ Measured failure: a whole class run went 17 days with no familiar out while one sat in the
+terrarium, because the session routine never looked. **Add "which familiar is out?" to day one of every run**, and
+re-ask it whenever the day's job changes (meat farm → leprechaun, drops → fairy, stat grind → volleyball).
+
+- **Read state from `api.php?what=status`:** ✅ `familiar` = the active familiar's id (**`"0"` means none**),
+  `familiarexp`, `famlevel`, `familiarpic`.
+- **Terrarium page:** `familiar.php`. Each row reads `<Name>, the N-pound <Type> (X exp, Y kills) [favorite] [take
+  with you]` — ⚠️ *kills* is lifetime, *exp* is what drives weight; they are different numbers.
+- ✅ **Take a familiar along:** `familiar.php?action=newfam&newfam=<familiar id>&pwd=<hash>` (the id is the
+  familiar-type number, e.g. Mosquito = 1 — scrape it from the `[take with you]` link, don't guess).
+  Favorite toggle: `familiar.php?group=1&action=fave&famid=<id>&pwd=<hash>`.
+- **Familiar equipment:** the terrarium page's form posts `familiar.php` with `action`, `whichfam`, `whichitem`
+  (`famequip`) — ⚑ not yet exercised; verify the exact `action` value on first use.
+- ⚑ **Putting the familiar away** isn't shown while none is out; confirm the link (likely `newfam=0` or a
+  "put back" action) the first time you need it, and record it here.
+- ⚠️ **Hatchlings hide in storage.** Match storage/inventory names against the wiki's *Category:Familiar
+  Hatchlings* list (≈335 names) — or check an item's `desc_item.php` text — before assuming the account has
+  nothing new to hatch. Hatching is permanent and one-per-type, so confirm what the familiar does first.
+- ⚠️ **Mid-choice and mid-fight, familiar swaps are blocked** like any other gear change — do it at a clean state.
+
 ## Common URL patterns
 
 - Adventure a zone: `adventure.php?snarfblat=<id>`. ⚠️ **Stat-gate warnings: the GET param `&ignorewarning=1`
@@ -932,7 +955,8 @@ consumed through their **own endpoint** and count against their own daily cap (*
 
 ## Daily routine template
 
-1. Log in; rebuild `window._pwd` + helpers; read status (level/stats/meat/adv/full/drunk/MP).
+1. Log in; rebuild `window._pwd` + helpers; read status (level/stats/meat/adv/full/drunk/MP) **and `familiar`** —
+   if it's `"0"`, pick one from the terrarium for the day's job (see § Familiars).
 2. Check for & clear any leftover forced-choice or stuck fight.
 3. **EAT** to full 14–15 (sushi first, then topper).
 4. **Daily Dungeon** run (hero-key token) + any once/day casts, EARLY.
