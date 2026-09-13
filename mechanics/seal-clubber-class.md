@@ -170,6 +170,37 @@ reverts to 3-round fights, and starts losing — which then triggers Beaten Up a
 🎯 **General form for any class:** re-open the "is MP a dead resource here?" question **every time you buy a
 damage multiplier.** The answer is a property of your current skill list, not of the class.
 
+## 🐺 A Seal-Clubber-only skill hides in the Haunted Gallery (⚑ wiki-only, not yet tested)
+
+The Haunted Gallery's *Out in the Garden* noncombat offers **"The first knight"**, which normally starts a fight with
+a wolf knight — but **a Seal Clubber carrying a *tattered wolf standard* instead gains the skill *Snarl of the
+Timberwolf***. (The second knight is the Turtle Tamer equivalent: *tattered snake standard* → *Spectral Snapper*.)
+Worth checking storage for the standard before the Gallery step of the Spookyraven chain, and recording what the
+skill actually does once acquired.
+⚑ **Where the standard comes from (wiki, re-checked):** the **Haunted Bedroom (393)** — the **animated mahogany
+nightstand**'s drawer menu (**choice 877**) offers **`Look under the nightstand`**, which yields the *tattered wolf
+standard* for a Seal Clubber (*snake* standard for a Turtle Tamer) — 🚨 **but only while *Lord Spookyraven's
+spectacles* are EQUIPPED**, and only **once per ascension**. The spectacles themselves come from another Bedroom
+nightstand's `Look behind the nightstand` option.
+✅ **Verified failure without them:** a Bedroom grind that picked `Look under the nightstand` whenever it was offered,
+with no spectacles on, found **no standard in 20 fights**. ⇒ **Order: spectacles → equip → mahogany → look under.**
+⚠️ Avoid the mahogany nightstand's `Check the bottom drawer` — it just deals damage.
+
+## ⚔️ Double-Fisted Skull Smashing (L12) — dual-wield one-handers; the Hammer of Smiting is the obvious off-hand
+
+**Passive: wield a one-handed weapon in each hand.** Equip the second weapon with
+`inv_equip.php?which=2&action=dualwield&whichitem=<id>&pwd=<hash>` — ⚠️ plain `action=equip` would replace the
+main hand. The response names what it displaced (`Item unequipped: black shield`).
+
+✅ **Measured with the black sword main-hand + Hammer of Smiting off-hand** (the Nemesis epic weapon, which a
+Seal Clubber is carrying anyway): **Muscle 169 → 180** (the Hammer carries Muscle), max HP 278 → 275 (the
+shield's +20 HP is gone). Then **34 Castle Top Floor giants: 1.00 rounds per fight, ~7 HP lost per fight, 0
+losses**, opening with Lunging Thrust-Smack. The +11 Muscle also lifts you clear of Defense-160 bosses'
+accuracy gate.
+⇒ **Prefer a second one-hander over a shield once fights are already one round** — damage absorption only
+matters when you're getting hit, and a one-round kill mostly isn't. Revisit if you start taking multi-round
+fights against something that hits hard.
+
 ## 👑 The Knob Goblin King — BOTH disguise paths are stat-gated for this class
 
 The King is **Init 100 · Attack 53**, and he opens by hitting for **~45**. Measured at Level 5 (Muscle 30,

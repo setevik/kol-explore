@@ -64,6 +64,12 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
   never fires. **✅ FIX (works): vary the `for=` param each round** — `api.php?what=status&for=CC${tick++}` returns fresh
   data every call. (Do NOT instead range-match charpane `X / Y` pairs for HP — maxHP/maxMP shift mid-fight and the ranges
   cross-match, giving a wrong/stuck value. api.php with a varying `for=` gives correct hp/maxhp directly, no parsing.)
+- 🐛 **A SUCCESS REGEX MUST NOT MATCH ITS OWN NEGATION.** `/find the key/i` was used to detect the Haunted Kitchen's
+  key drop — and it also matches the *failure* line *"To add insult to injury, you don't find the key, just…"*. The
+  loop stopped after **one** fight declaring victory, with 20 of the 21 required drawers unsearched and no key in
+  inventory. ✅ **Match the full positive sentence** (*"Fortunately, you find the key"*), **explicitly exclude the
+  negated form** (`!/don't find the key/i`), and **confirm the outcome from inventory or the quest log** before
+  acting on it. Same family as the Boss Bat bug below: short phrases recur inside their opposites.
 - ⚠️ **Don't identify a monster by a substring that its minions also contain.** Matching `/Boss Bat/i` to detect the
   Boss Bat **false-positived on the "beefy bodyguard bat"**, whose description says *"the Boss Bat chose him as a
   bodyguard"* — we reported a kill that hadn't happened. **Match the full combat header** (`/fighting The Boss Bat/i`)
@@ -494,6 +500,14 @@ Twice-Cursed; 21 loop iterations produced 8 adventures of fighting and zero prog
 ✅ **Two defences:** (a) **verify the requirement from game state** (the charpane effect, an inventory count)
 rather than from the presence of the label; (b) **after answering, confirm the choice actually cleared** —
 `if (getChoice(await G('/choice.php'))) abort('pick was refused')`.
+🐛 **KEY EVERY CHOICE RULE BY CHOICE NUMBER, not by label alone.** A rule written as `o.find(x => /^Open it/i.test(x.label))`
+for *Never Gonna Make You Up* (881, whose only option is `Open it`) also matches **`Open it and see what's inside`** on a
+*different* choice in the same zone (105, *Having a Medicine Ball*) — and it **did**: the loop answered that
+unresearched noncombat with "Open it and see what's inside", which chained into a third menu (107). ✅ Measured in the
+Haunted Bathroom; the "choice did not clear" check is what stopped it there. The same zone's 105 also offers
+*Say "Guy made of bees."*, which every fifth time summons a **99,999-HP** monster — a loose label rule is one bad match
+away from a guaranteed loss. Shape rules as `if (ch === '881') pick = …` and let every unlisted choice number stop the
+loop for inspection.
 ⚠️ Record answers in `mechanics/` as **label text**, never as an option index.
 ⚠️ A single-option choice (`blocks.length === 1`) is just a "continue" button — safe to auto-answer. **Stop and
 inspect anything with 2+ options** you don't have a recorded answer for; blind `opts[0]` is how you fail a
@@ -558,6 +572,16 @@ fired days earlier.
 
 ✅ **Alt-text IS reliable for *completion* state** when the label itself changes (`Twin Peak` →
 `Twin Peak with Flame`) — that's a different string, not a suffix.
+🚨 **The inverse bites too: a room drawn on a map with a `(1)` title can be LOCKED.** ✅ Verified on Spookyraven
+Manor's first floor: the map titled *The Haunted Billiards Room (1)*, *Kitchen (1)*, *Library (1)*, *Conservatory
+(1)*, yet only the Pantry's `snarfblat=` link was on the page — and 388 and 391 both answered *"You shouldn't be
+here."* **for free**. A loop pointed at them spins without spending turns, and a **once-per-day buff taken for
+that zone is simply lost**. ✅ **The signal is the link, not the picture:** scrape `adventure.php?snarfblat=` from
+the place page, and treat a room with an image but no link as closed. The locked rooms on that map link to
+**`place.php?whichplace=manor1&action=manor1lock_<room>`** instead — the game spells out the word "lock".
+⚠️ **A zone bouncing *"You shouldn't be here."* is a definitive LOCKED signal — stop on the first one**, don't wait
+for the generic three-free-encounters guard, and **don't take a duration buff for a zone until its link is live.**
+(Recoverable this time only because the free bounces consumed none of the buff's 20 adventures.)
 ✅ **To test whether a zone is open, adventure into it** — but do it inside a wrapper that **handles a fight**,
 because an open zone answers with a monster and abandoning it leaves a stuck fight (see the
 "never run an unlocked-yet test on a page that might be a fight" rule above). Budget the one turn; it is far
@@ -688,6 +712,13 @@ feeding it was wrong.
 
 ⚠️ Related: `api.php` has **no cap field** — cap detection still comes from `charsheet.php` ("Liver of Steel"
 ⇒ 19, else 14). So the *cap* is scraped and the *current value* is not; don't conflate them.
+
+🐛 **`charsheet.php` does not print elemental resistance in any parseable "Protection"/"Resist" form.** ✅ Verified:
+the stripped page contains neither word, so a regex like `/Hot Protection:\s*…\((\d+)\)/` can never match — and a
+`|| '0'` fallback then reports **zero resistance while Brother Smothers's Blessing (+3 all) is plainly active** in
+the charpane's Effects line. That is this rule's failure mode in its purest form: the number was never read at all.
+✅ **Before building a decision on a scraped number, prove the scrape can succeed once** (dump the surrounding text
+and look), and **make a no-match return `null`, not `0`**, so the caller has to notice.
 
 ## 🔁 A loop MUST verify the adventure counter actually moved
 

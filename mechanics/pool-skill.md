@@ -7,6 +7,28 @@ To defeat the ghostly pool-shark in **The Haunted Billiards Room** (snarfblat 39
 - 16 skill: ~60% win chance
 - 18 skill: 100% win chance
 
+## 🔑 Prerequisite: the Spookyraven billiards room key
+
+✅ **Verified: The Haunted Billiards Room (391) needs the *Spookyraven billiards room key*.** Without it,
+`adventure.php?snarfblat=391` answers *"You shouldn't be here."* — **for free, forever** (a loop pointed at it spins
+without spending turns). The key comes from **The Haunted Kitchen (388)**: at the end of each fight you search
+drawers, `1 + (hot or stench resistance ÷ 3)` of them, capped at 4 — so resistance directly shortens the grind.
+
+⚠️ **The pool cue (1793) is TWO-HANDED.** Equipping it removes *both* hands' weapons (verified: it knocked off a
+main-hand sword and a dual-wielded off-hand). Wear your real combat gear for the Kitchen and anything tougher,
+and swap the cue on **outside the choice**, right before entering the Billiards Room — gear cannot change inside
+a choice.
+⭐ **A failed *Hustle the ghost* still grants +1 pool skill** (wiki), so once you're close, hustling beats
+practising: every attempt is either the key or a permanent point.
+
+✅ **Verified result on a fresh ascension:** questlog skill **6** (cue included) + **10 drunk** (+10) + **Chalky Hand**
+(+3) = **19**, above the ghost's maximum roll of 18 — **won on the very first `Hustle the ghost`**, library key in
+inventory. The free *That's Your Cue* noncombat fired first (the season's first Billiards noncombat). Total cost
+from key-in-hand: **8 adventures, 6 of them trivial fights**. Keep Chalky Hand refreshed while hunting the table —
+it lasts only a few adventures and cannot be applied inside the choice.
+⚠️ The questlog skill line was still readable *immediately after* winning, contrary to the note below that it only
+shows beforehand; don't rely on either — read it before hustling.
+
 ## ✅ Verified working recipe (verified in-game) — beat the ghost with zero luck
 
 1. **Find the encounter:** adventure **snarfblat 391** (Haunted Billiards Room) until **choice 875

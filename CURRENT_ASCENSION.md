@@ -29,35 +29,40 @@ Disco Bandit · Accordion Thief.
 
 ---
 
-## 📊 Character state (end of run #3 Day 16 / 2026-09-12)
+## 📊 Character state (end of run #3 Day 17 / 2026-09-13)
 
-- **LEVEL 12 Seal Clubber.** Base Mus 136 / Mys 94 / Mox 95. **Max HP 278, max MP 122.** 💰 **Meat 32,068.**
+- **LEVEL 12 Seal Clubber.** Base Mus 144 / Mys 99 / Mox 101. **Max HP 287, max MP 127.** 💰 **Meat 20,530.**
   **adv 15 banked.** full 15, drunk 19 (exactly 14 then ONE overdrink ✅).
-- ⚔️ **Loadout:** Crown of the Goblin King · Misty Cloak · **black sword** · **black shield** · **black greaves** ·
-  giant motorcycle boots · batskin belt · amulet of extreme plot significance.
-  Carried, not worn: Hammer of Smiting (**keep — Nemesis epic weapon**), antique machete (free lianas), oil lamp.
-- 🏙️ **HIDDEN CITY COMPLETE.** All four spheres → four triangles → Ziggurat → Protector Spectre → **ANCIENT
-  AMULET** (+ spectre scepter). *Gotta Worship Them All* closed.
-- 🏜️ **DESERT 100% EXPLORED.** *Just Deserts* now reads **"Investigate the pyramid"** — the small pyramid holds
-  the wooden model of Seaside Town with a socket that wants **the assembled Staff of Ed**, so this branch is
-  blocked on the other two staff pieces.
-- 🐍 **Shen Copperhead engaged** (*Of Mice and Shen*): he wants **The Eye of the Stars from The Hole in the Sky**
-  first. ⚠️ **Blocked on a steam-powered model rocketship**, which comes from the castle Top Floor noncombat
-  *Copper Feel* (677) → "Investigate the Whirligigs and Gimcrackery". **It did not fire in ~25 top-floor turns
-  today** (two other giants' rooms did).
-- 🆕 Level-12 skills bought (7,500 each): ⭐ **Double-Fisted Skull Smashing** (passive — **wield a one-handed
-  weapon in EACH hand**) · **Cavalcade of Fury** (Combat, 15 MP, consumes all Fury).
-- 🧰 **Supplies:** tiny house ×5 ⚠️ · filthy poultice ×12 · **fire of unknown origin ×6** · Ye Olde Meade ×2 ⚠️ ·
-  Cursed Punch ×3 · ten-leaf clover ~115 in storage · 12 tomb ratchets in storage (pyramid).
-- **Day 16: ~150 fights, 0 losses.** Best day of the run on every axis.
+- ⚔️ **Loadout — now DUAL-WIELDING:** Crown of the Goblin King · Misty Cloak · **black sword + Hammer of Smiting
+  (off-hand)** · black greaves · giant motorcycle boots · batskin belt · amulet of extreme plot significance.
+  Black shield retired to inventory (measured: 1.00 rounds/fight, ~7 HP lost/fight with two weapons).
+  Carried: pool cue (**two-handed**), antique machete (free lianas).
+- 🎈 **MERRY-GO-RON COMPLETE** — Copperhead Charm (rampant) in hand. Red Zeppelin ticket **not consumed**.
+- 🐍 **Of Mice and Shen** still wants the **Eye of the Stars** first → needs the **steam-powered model rocketship**
+  from the castle Top Floor's *Copper Feel* (677). ⚠️ **~60 top-floor turns over two days, never fired.** Quest
+  item — not buyable.
+- 🏚️ **SPOOKYRAVEN MANOR OPENED AND RUSHED:** telegram read → Kitchen (billiards key, 21 fights) → Billiards (library
+  key, won pool on the first hustle) → Library (necklace, 10 fights) → Lady on floor 1 → Lady on floor 2 →
+  **Lady Spookyraven's Dance** now needs only the **dancing shoes** (Gallery 394). ✅ powder puff · ✅ finest gown.
+- 🐺 **Tattered wolf standard NOT obtained** — requires **Lord Spookyraven's spectacles equipped** (not owned).
+- 🏜️ *Just Deserts* still waits on the assembled Staff of Ed.
+- 🧰 **Supplies:** tiny house ×15 · filthy poultice ×13 · **fire of unknown origin ×15** · Ye Olde Meade ×3 ⚠️ ·
+  herbal stuffing ×3 · Flamin' Whatshisname ×8 · lynyrd musk ×9 · hand chalk ×17 · Cursed Punch ×3.
+- **Day 17: ~110 fights, 0 losses.** Also bought no skills (none at L12 beyond yesterday's).
 
-### 🎯 THE FINDING OF THE DAY
+### 🎯 THE FINDINGS OF THE DAY
 
-🚨 **A rendered option is not an available option.** The Apartment elevator always draws
-`Go to the Thrice-Cursed Penthouse`, even at Twice-Cursed — picking it does nothing **and leaves the choice
-unanswered, which is then re-served free forever**. That reads as "the noncombat keeps firing", not as "my pick
-failed". **21 iterations burned.** ⇒ Verify a requirement from game state (the charpane effect), and after
-answering any choice, **confirm it actually cleared**. Now a `HANDOFF.md` rule.
+1. **Dual-wielding beats the shield once fights are one round** — black sword + Hammer: Muscle +11, 34 castle
+   giants at 1.00 rounds / ~7 HP each, 0 losses. ⇒ `seal-clubber-class.md`.
+2. **A room drawn on a map can be locked** — Spookyraven's first floor showed every room, but only the Pantry had a
+   zone link; the rest linked to `manor1lock_*`. I took Brother Smothers's once-daily blessing *for* the locked Kitchen
+   (it survived only because the bounces were free), and **the blessing turned out not to add drawers anyway**
+   (10/10 single-drawer fights). ⇒ `HANDOFF.md` + `spookyraven-ghost-chain.md`.
+3. **Two silent parser bugs, both caught:** `/find the key/` matched "you **don't** find the key" and declared victory
+   after one of 21 fights; and a label rule for one choice (`/^Open it/`) answered a *different* choice in the same
+   room. ⇒ HANDOFF: success regexes must exclude their negation; key choice rules by choice number.
+4. **The Red Zeppelin in ~46 turns, not ~90** — carry Flamin' Whatshisnames (10 protesters per fire NC instead of 3)
+   and wear Musky. Ron (Def 170) died to Club Foot → Lunging.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -76,30 +81,47 @@ Healing ladder: **filthy poultice / gauze garter (0 adv, 0 MP, ~87 HP)** → **C
 
 ## 🔜 Next-session priorities
 
-> **15 adventures banked + the new day's allowance. Meat 32,068.**
-> (1) 🍽️ **EAT:** buy **herbal stuffing ×3–6 at ~390** (4.4 adv/fullness) + milk of magnesium. 3 stuffing +
->     3 hot honey ant = 15 fullness = **71 adventures** (verified). ⚠️ Don't buy later tots (3,874) or tomb
->     aspic (1,475) — excellent as drops, terrible as purchases.
-> (2) 🛒 **RESTOCK FIRST — tiny houses are down to 5** (the day stops dead without MP): ~30 tiny houses,
->     ~15 poultices, **more fire of unknown origin** (~100 ea — the universal answer to physically-immune
->     bosses), **Ye Olde Meade ×4**.
-> (3) ⚔️ **TRY DUAL-WIELDING.** With Double-Fisted Skull Smashing, a second one-handed weapon can replace the
->     black shield. The Black Forest blacksmith gives **black swords free** (choice 923 → `Visit the blacksmith`
->     → `How about a sword?`). **Measure it:** rounds-per-kill and damage taken, sword+shield vs sword+sword —
->     the shield is DR 10 / +5 Mus / +20 HP, so this is not obviously an upgrade.
-> (4) 🚀 **ROCKETSHIP = the day's real blocker.** Castle **Top Floor (324)** until *Copper Feel* (677) →
->     **"Investigate the Whirligigs and Gimcrackery"**. ⚠️ **Never pick the poster/crack/steam room-hops** —
->     they cost no adventure and ping-pong between giants' rooms forever; take terminal item options instead.
->     Then **The Hole in the Sky (83)** → The Astronomer → **Eye of the Stars** → Shen.
-> (5) 🐍 Shen's other two: **Shield of Brook** (Unquiet Garves 21, the Snakeleton, ~20 turns) and
->     **First Pizza** (Lair of the Ninja Snowmen 272, ~9 turns). Each hand-in is a separate club visit.
-> (6) 👻 **In a Manor of Spooking** needs the whole Spookyraven ghost chain (library key → necklace → finery →
->     Ballroom → choice 921 with the diary). It is a multi-day project — read `spookyraven-ghost-chain.md`
->     before starting, and budget it as such.
-> (7) 🍺 **DRINK: cap 14.** 2 Meade + Green Manalishi + Imp Ale = exactly 14 (verified 3×). Buy more Meade.
->     Keep the ordering: spend → fill to 14 → spend those → overdrink last.
+> **15 adventures banked + the new day's allowance. Meat 20,530.**
+> (1) 🍽️ **EAT:** herbal stuffing ×3 in hand (+ hot honey ants? check) — buy milk of magnesium and stuffing to taste.
+> (2) 🍺 **Buy Ye Olde Meade ×4+ (only 3 left).**
+> (3) 👠 **FINISH LADY SPOOKYRAVEN'S DANCE:** the **Haunted Gallery (394)** for the **dancing shoes** — the *Louvre It
+>     or Leave It* stair maze (see `spookyraven-ghost-chain.md` Step 4c). Then Lady on floor 2 → **Haunted Ballroom
+>     (395)** → the dance → and choice 921 with **father's diary** in inventory opens **the cellar** (*In a Manor of
+>     Spooking*). ⚠️ Key every choice rule by choice number; stop on unknown menus.
+> (4) 🚀 **Rocketship retry:** castle Top Floor (324), terminal item options only. It has not fired in ~60 turns —
+>     budget it as a background task, not the day's plan.
+> (5) 🐺 **Optional class skill:** Lord Spookyraven's spectacles (a Bedroom nightstand, `Look behind the nightstand`)
+>     → equip → mahogany nightstand (877) → `Look under the nightstand` → tattered wolf standard → the Gallery's
+>     *Out in the Garden* first knight → *Snarl of the Timberwolf*. Log the monster name with each drawer menu.
+> (6) ⚔️ **Combat standard:** dual-wield (black sword + Hammer), Lunging Thrust-Smack every round; **Club Foot first
+>     against Defense-160+ bosses** (Snakeleton, Frozen Solid Snake, the Snake With Like Ten Heads are all Def 160).
+> (7) 🍺 **DRINK: cap 14**, fill → spend → overdrink last.
 
 ## 🗓️ Session log (this run)
+
+- **Run #3 Day 17 (2026-09-13): 🎈 Merry-Go-Ron done, the Spookyraven manor opened and half-cleared — ~110 fights, 0 losses.**
+  ⚔️ **Dual-wielding measured:** black sword + Hammer of Smiting (the Nemesis weapon is a fine off-hand) — Muscle 169 →
+  180, **1.00 rounds and ~7 HP lost per fight over 34 castle giants**. Shield retired.
+  🚀 The castle Top Floor produced the Raver, Goth and Punk rooms again, never *Copper Feel* — **~60 top-floor turns in
+  two days without the rocketship.** Not buyable (quest item). Also learned **repeat visits to every room's item option
+  cost no adventure**, so the free-encounter guard is the only thing stopping a loop there.
+  🎈 **Red Zeppelin in ~46 turns** (my notes said ~90): **Flamin' Whatshisname carried** (10 protesters per fire NC),
+  **lynyrd musk** for the bush ambush. Aboard, six crew kills then **Ron (Def 170) — Club Foot, Lunging, dead**. Bought
+  the 5,000-meat ticket; 0 throw-offs and it wasn't consumed.
+  🏚️ **The manor:** I'd been carrying the *telegram from Lady Spookyraven* since Level 5. Reading it opened the Kitchen.
+  🚨 Before that I **took Brother Smothers's once-a-day blessing for a Kitchen that was locked** — the map drew every
+  room, but only the Pantry had a real link (the others are `manor1lock_*`). The free "You shouldn't be here" bounces
+  meant none of its 20 turns were lost… and then 10/10 Kitchen fights searched a single drawer anyway: **the blessing
+  doesn't help this zone.** Also: my charsheet resistance parse had been reading **0** because charsheet has no
+  resistance text at all — a fail-open default, again.
+  🐛 **`/find the key/` matched "you don't find the key"** and declared the key found after 1 of 21 fights. Fixed to the
+  positive sentence plus an inventory check. 21 fights → key.
+  🎱 **Pool won on the first hustle** — skill 6 (cue) + exactly 10 drunk + Chalky Hand = 19 > 18. The cue is **two-handed**.
+  📚 Library necklace on exactly the 5th writing desk (10 fights). Lady on floor 1, Lady on floor 2 (that visit is
+  what unlocks the Bathroom/Bedroom/Gallery).
+  🛁 **Bathroom:** 🐛 a `/^Open it/` rule written for the makeup case (881) answered a *different* choice (105, whose
+  third option summons a 99,999-HP monster) — caught by the "choice did not clear" check. Wraith → **powder puff**.
+  🛏️ **Bedroom:** 20 fights → **finest gown**. No wolf standard — it needs Lord Spookyraven's spectacles equipped.
 
 - **Run #3 Day 16 (2026-09-12): 🏙️ Hidden City COMPLETE (ancient amulet), desert 100% explored, Level 12 —
   ~150 fights, ZERO losses.**

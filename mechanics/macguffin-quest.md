@@ -290,7 +290,7 @@ fills with **ninja waiters** you must fight through to reach his table each time
 | # | Artifact | Where | Notes |
 |---|---|---|---|
 | 1 | **The Shield of Brook** | **The Unquiet Garves (21)** — `place.php?whichplace=cemetery` | dropped by *the Snakeleton*; ~20 turns |
-| 2 | **The Eye of the Stars** | **The Hole in the Sky (83)** | dropped by **The Astronomer** — ours fell on the *first* fight |
+| 2 | **The Eye of the Stars** | **The Hole in the Sky (83)** | ⚠️ **dropped by *The Snake With Like Ten Heads*** (ML 160, Def 160, HP 175) per the wiki's zone table — **not** the Astronomer, as an earlier note here said; the snake appears while this step is active |
 | 3 | **The First Pizza** | **Lair of the Ninja Snowmen (272)** — `place.php?whichplace=mclargehuge` | dropped by *the Frozen Solid Snake*; ~9 turns |
 
 Completing all three ends **"Of Mice and Shen"** and yields **Copperhead Charm #1**. The second charm is held
@@ -306,6 +306,13 @@ by his brother **Ron**, on the **Red Zeppelin** — both charms are what open th
    doorknob forty feet over your head"* and **consumes no adventures**.)
 2. **Top Floor (324)** — the NC **"Copper Feel" (choice 677) → option 2 "Investigate the Whirligigs and
    Gimcrackery"** → **steam-powered model rocketship**. Took ~10 turns to fire.
+   ⚠️ **"~10 turns" was luck, not a rate.** Which giant's room a top-floor noncombat shows is random, and a later
+   character saw **~60 top-floor turns produce the Raver, Goth and Punk rooms repeatedly but never Copper Feel**.
+   The rocketship is a **quest item — not in the mall, not tradeable** — so there is no shortcut; budget it as open-ended
+   and put the days it doesn't fire onto a branch with a deterministic grind (the Zeppelin mob below).
+   ⚠️ **After the first visit, every room's item option (`Raid the Crate`, `Dig Through His Drawers`, `Grab a Gear`,
+   `Snag some Candles`, and the Whirligigs themselves) costs NO adventure** — a loop that keeps taking them spins,
+   and the free-encounter guard is what stops it.
 3. The Hole in the Sky is then open. ⚠️ **Stars, lines and the star chart all come from the Hole in the Sky
    itself** (Astronomer drops the chart) — **not** from the 8-Bit Realm, despite what the item sources imply.
 
@@ -320,3 +327,33 @@ protesters; e.g. *"pour Molotov cocktails down their pants"*).
 `place.php?whichplace=zeppelin`:
 **A Massive Mob of…** → **A Bunch of…** → **A Scattered Mob of…** → the **Red Zeppelin (385)** link goes live.
 Ours took roughly **90 turns** with no +sleaze/+hot gear; budget accordingly, and check the *name*, not a guess.
+
+✅ **Re-measured with the two cheap boosts: ~46 turns (38 fights + 8 noncombats), 0 losses.** The full name ladder,
+observed in order: **A Massive Mob of… → A Huge Mob of… → A Mob of… → A Bunch of… → A Scattered Mob of…, at which
+point the Red Zeppelin (385) link goes live** (each step took ~5–10 fights; the last two changed between two checks
+five fights apart, so poll the map for the `snarfblat=385` link rather than waiting to read "Scattered"). The noncombats came far more often than the wiki's "every 7th turn"
+floor — 8 of them in 46 turns.
+- ⭐ **Carry `Flamin' Whatshisname`** (booze, ~100 meat in the mall): with one **in inventory**, *Fire Up Above*
+  → `Join in` scares **10** protesters instead of 3. It is consumed per use — carry several.
+  ⚠️ It is booze; don't let the day's drink step swallow them.
+- ⭐ **`lynyrd musk` → *Musky* (30 adventures)** boosts *This Looks Like a Good Bush for an Ambush* → `Hide in the
+  bushes`. It's a duration buff: take it **immediately before** the grind and refresh it as it lapses.
+- *Bench Warrant* → `Eye the protesters with bad intent` scales with **sleaze damage**; without a sleaze source it
+  still works but scares fewer.
+- ⚠️ The "Start away uneasy" / "Slip into darkness" / "Ignore the bustle" options **cost no adventure** and leave you
+  where you were — never let a loop pick them.
+
+### 🛩️ Aboard the Red Zeppelin (385) — Ron Copperhead (✅ verified)
+
+- **Six crew kills open Ron's cabin.** Butlers, red skeletons and the man with the red buttons count (so do Red
+  Foxes per the wiki); the **Red Herring does not**. ✅ Measured: 10 fights (6 counting) and then Ron appeared as
+  an ordinary encounter — there is no noncombat to find.
+- **Red Zeppelin ticket** — Black Market **row 289, 5,000 meat**. Without one the wiki says you are occasionally
+  thrown overboard after a fight with no progress. ✅ With one: **0 throw-offs in 10 fights**, and **the ticket was
+  still in inventory afterwards** — boarding and the boss fight did not consume it. (No control run, so this
+  shows the ticket works, not how often you'd be thrown off without it.)
+- **Ron "The Weasel" Copperhead: HP 180, Attack 165, Defense 170, Initiative 100, no element.**
+  ⚠️ **Defense 170 is an accuracy gate for anything under ~170 Muscle.** ✅ Won in **2 rounds**: **Club Foot
+  (lower his Defense) round 1, Lunging Thrust-Smack round 2**, from base Muscle 136 / buffed 180 dual-wielding.
+- Drops **Copperhead Charm (rampant)** — one of the two charms the Palindome needs — and *Merry-Go-Ron* moves to
+  the completed log as *"recovered half of the Talisman o' Namsilat"*.

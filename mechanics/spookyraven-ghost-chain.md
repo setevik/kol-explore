@@ -22,6 +22,32 @@ Rewards at the end: massive stat gains (+100 in each substat + 1 point to each p
 - `place.php?whichplace=manor3` = Third Floor (lady's chamber via `manor3_ladys`)
 - `place.php?whichplace=manor4` = Cellar (gated until "We'll All Be Flat")
 
+## 🔑 Step 0 — the manor starts LOCKED; the telegram opens it
+
+✅ **Verified: on a run where the manor hasn't been started, only the Haunted Pantry (113) is enterable.** The
+Kitchen, Conservatory, Billiards Room, Library and Stairs Up are drawn on `place.php?whichplace=manor1` but link to
+`action=manor1lock_<room>`, and `adventure.php` for them answers *"You shouldn't be here."* at no turn cost.
+- **`inv_use` the *telegram from Lady Spookyraven* (7304)** — it arrives by KMail at Level 5 and is easy to
+  forget in the misc tab. Per the wiki it unlocks **The Haunted Kitchen (388)** and **The Haunted Conservatory
+  (389)**.
+- **Kitchen → Spookyraven billiards room key** (21 drawers; `1 + resistance ÷ 3` per fight, max 4) → **Billiards
+  Room (391)** → pool ghost → **library key** → the chain below. See `pool-skill.md` for the pool game and its
+  drunkenness window.
+  ⚠️ **Brother Smothers's Blessing does NOT speed up the drawers.** ✅ Measured: with the blessing (+3 all elemental
+  resistance) active, **10 of 10 Kitchen fights searched "a single drawer"** — the formula's `1 + 3÷3 = 2` never
+  happened. Don't spend the once-a-day blessing on this zone; either bring real **hot or stench resistance of 6+**
+  (which the formula says should reach 3 drawers) and verify the count on the first fight, or just accept ~21
+  cheap fights (the Kitchen is ML 20–22).
+  ✅ Read progress from the fight text: *"You manage to dig through a single drawer looking for the key…"* per fight.
+  ✅ **Measured end to end with no real resistance: exactly 21 fights, one drawer each, then *"Fortunately, you find
+  the key, in the last drawer you check"* on the 21st — 0 losses** (Kitchen monsters are ML 20–22). Budget 21
+  adventures flat, plus a free *Lights Out* interruption.
+  🐛 Never detect success with `/find the key/` — the failure line *"you don't find the key"* matches it too.
+  ✅ **Lights Out in the Kitchen (choice 893)** — `Refuse to Take the Heat` · **`Light a Candle`** · `Open the Icebox`.
+  It interrupts the grind on the manor's periodic Lights Out timer. **`Light a Candle` costs no adventure** and just
+  clears the choice (a joke-telling witzergeist, then the lights come back); give the loop a rule for it rather
+  than letting an unknown-choice stop end the burst.
+
 ## Chain Walkthrough
 
 > ⚠️ **The Ballroom step needs "your father's diary" (verified in-game).** After delivering the dancing
@@ -37,6 +63,11 @@ You need the **Spookyraven library key** (from beating the Billiards Room pool-s
 ### Step 1: Find the Necklace
 Zone: **The Haunted Library** (snarfblat 390). **The necklace is a GUARANTEED drop from the 5th writing desk you defeat in the Library — NOT a random rate.** The Library has multiple monsters (writing desks, bookbats, banshee librarians); only writing desks count. With Library NCs (book readings) being very frequent, expect to burn 30+ advs just to encounter 5 actual writing desks.
 
+✅ **Re-verified: the necklace dropped on exactly the 5th writing desk.** Measured: **10 Library fights total** (5
+writing desks, 3 banshee librarians, 2 bookbats), **0 losses, and zero book noncombats** that run — so the "30+
+adventures" budget above was pessimistic; plan on ~10–15. Stop the loop on the necklace appearing **in inventory**
+(check by name between fights), not on a desk count alone.
+
 ⚠️ Counter trap: a naive "monster name in mainpane text" detector will double-count after disconnects / page reloads / mid-fight reads. Build the counter to gate on per-fight monotonic round numbers that reset *only* on the explicit `Adventure Again` page navigation.
 
 Also look out for:
@@ -44,11 +75,18 @@ Also look out for:
 
 ### Step 2: Deliver to Lady Spookyraven (1st Floor)
 Return to `place.php?whichplace=manor1`. Click Lady Spookyraven. She takes the necklace; you receive **ghost of a necklace** (accessory item).
+✅ Verified: **her icon only exists on the map while the necklace is in your inventory** — before that, there is no
+Lady link to find. With it, she is `place.php?whichplace=manor1&action=manor1_ladys`; one visit, no choice to
+answer, the necklace is taken and *ghost of a necklace* arrives.
 
 New quest: *"Go see Lady Spookyraven on the second floor."*
 
 ### Step 3: Meet Lady on 2nd Floor
 Stairs Up (now accessible) → `place.php?whichplace=manor2`. Click Lady Spookyraven. She asks for her **dancing finery**:
+✅ **Verified: the three finery rooms are LOCKED until you have this conversation.** Before it, every room on
+`manor2` links to `action=manor2lock_<room>`; one visit to **`place.php?whichplace=manor2&action=manor2_ladys`**
+(no choice to answer) turns **Bathroom 392, Bedroom 393 and Gallery 394** into live `adventure.php` links. The
+**Ballroom** and **Stairs Up** stay locked afterwards — they open later in the chain.
 
 | Item | Zone | Snarfblat |
 | --- | --- | --- |
@@ -58,7 +96,23 @@ Stairs Up (now accessible) → `place.php?whichplace=manor2`. Click Lady Spookyr
 
 ### Step 4a: Bathroom → Powder Puff
 
+✅ **Lights Out in the Bathroom (choice 892)** — `Fumble Your Way to the Door` · `Flush the Toilet` · `Check out the
+Vanity`. **`Fumble Your Way to the Door` costs no adventure** and just clears it (a wet bathmat, no fight, no item).
+Together with the Kitchen's *Light a Candle*, **both Lights Out variants seen so far had a free, harmless exit** —
+give the loop an explicit rule for each room's variant rather than letting it stop, but don't assume the other
+rooms' variants behave the same until verified. (The wiki lists every option's outcome as unknown.)
+
 Bathroom monsters are tissue-paper constructs (physical damage, easy). Keep grinding until the **"Never Gonna Make You Up"** choice: open an ornate monogrammed makeup case that's bouncing like a possessed spirit. This triggers a **cosmetics wraith** boss fight.
+
+✅ **Verified flow:** *Never Gonna Make You Up* is **choice 881** with a single option, `Open it`; it only appears after
+**5+ turns in the zone**. The **cosmetics wraith** (HP 65, spooky, weak to hot/stench) died in one round and dropped
+the powder puff — **13 zone turns, 3 fights, 0 losses**, puff confirmed in inventory (misc tab).
+⚠️ **Choice 105, *Having a Medicine Ball*, shares the zone** — key your rules by choice number:
+- `Gaze deeply into the mirror` — Mysticality substats, harmless.
+- `Open it and see what's inside` — chains to **107 *Bad Medicine is What You Need*** (cough syrup / hair oil /
+  vitamins / **`Take off`, which costs no adventure**).
+- 🚨 `Say "Guy made of bees."` — **every fifth time summons the Guy Made of Bees: ML 99,999, HP 99,999.** Never let a
+  loop pick it.
 
 Boss opens with ~33 damage (gets the jump). Standard Pastamancer combo (Entangling Noodles → Ravioli Shurikens burst) clears it. Drops:
 - **Lady Spookyraven's powder puff** ✓
@@ -67,6 +121,24 @@ Boss opens with ~33 damage (gets the jump). Standard Pastamancer combo (Entangli
 Also expect a semi-rare **"Lights Out in the Bathroom"** (clock strikes 13, pick from toilet/vanity/door). Flavor only.
 
 ### Step 4b: Bedroom → Gown
+
+✅ **Verified flow (20 fights, 0 losses):** every nightstand's drawer menu appears **immediately after you defeat it**
+and costs no turn. Key the loop's rule by the menu's **label set**, because each nightstand type has its own:
+- **880 — elegant animated nightstand:** `Open the single drawer` · `Break a leg (off of the nightstand)` · `Ignore it`.
+  **`Open the single drawer` gives *Lady Spookyraven's finest gown* once**; later elegant drawers hold "nothing but
+  ephemera", so stop checking for it once the gown is in inventory.
+- **878** — a five-option menu: `Open the top drawer` · `Open the bottom drawer` · `Look behind the nightstand` ·
+  `Look under the nightstand` · `Ignore it`. ⚠️ An earlier version of this note called 878 the *mahogany* nightstand;
+  the wiki numbers **One Mahogany Nightstand as choice 877**, and the loop that captured these menus kept too little
+  history to tie each menu to its monster. Treat 876/878's identities as **unverified** and match by label set.
+- **876** — `Check the top drawer` · `Check the bottom drawer` · `Ignore it`.
+- 🐺 **The class standards** (Seal Clubber wolf / Turtle Tamer snake) come from the mahogany nightstand's (877)
+  `Look under the nightstand`, **only with Lord Spookyraven's spectacles equipped** — see `seal-clubber-class.md`.
+  A 20-fight grind without the spectacles found none.
+- 🔧 Next time, **log the monster name alongside each drawer menu** so the choice-number ↔ nightstand map can be
+  verified rather than inferred.
+- The zone also throws in non-nightstand monsters (a wardrobe-type enemy) with no drawer menu.
+Elegant nightstands were common: four in 20 fights.
 
 Bedroom has "Animated Nightstand" combat → choice pairs. Each nightstand variant has different drawer options:
 
