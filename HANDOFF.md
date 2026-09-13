@@ -133,8 +133,12 @@ you have actually bought:
 | Pastamancer | `mechanics/pastamancer-class.md` |
 | Seal Clubber | `mechanics/seal-clubber-class.md` |
 
-General, class-agnostic combat rules (accuracy gates, defense debuffs, initiative, hit chance) live in
-**`mechanics/combat-and-initiative.md`**.
+General, class-agnostic combat rules live in three places:
+- **`mechanics/combat-mechanics.md`** — the formulas: hit chance, damage dealt and taken, crits/fumbles, DA/DR and
+  elemental resistance, initiative and running away, Monster Level, stun vs stagger, drops, free fights, Beaten Up.
+- **`mechanics/noncombat-mechanics.md`** — how an adventure's encounter is chosen: the check order, the combat roll,
+  sneaks and forced-noncombat caps, the adventure queue, delays, superlikelies, Lucky!, wandering monsters.
+- **`mechanics/combat-and-initiative.md`** — verified field notes: accuracy gates, defense debuffs, no-op combat items.
 
 ## api.php / charpane / tool-output caveats
 

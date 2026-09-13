@@ -141,3 +141,21 @@
   Ravioli Shurikens 3003 · Lasagna Bandages 3009 (heal, works out-of-combat via runskillz) · Springy Fusilli 3015 (+init) ·
   Pastamastery 3006 (daily dry-noodle summon) · Manicotti Meditation 3000 · Bind Spaghetti Elemental 3041.
   ⚠️ Springy Fusilli can't be cast mid-choice — cast it BEFORE triggering a +init check.
+
+## Class combat benefits and measured early-skill damage
+
+*(Moved here from `combat-and-initiative.md`, which is now class-agnostic.)*
+
+- **+50% max MP** — the class's innate bonus.
+- **Shield of the Pastalord** (Level 8 skill) — **−30% physical damage** taken.
+- **Leash of Linguini** (Level 11 skill) — **+5 familiar weight**.
+- **Entangling Noodles stuns** a Pastamancer's target (other classes only stagger).
+
+✅ **Measured at base Mysticality, early game:**
+
+| Skill | MP | Damage | Damage per MP |
+|---|---|---|---|
+| Spaghetti Spear | 1 | 3–4, single hit | ~3 |
+| Ravioli Shurikens | 4 | 3 hits, 12–15 total (e.g. 5+5+4); each shuriken rolls a random element | ~3.5, but fewer rounds per kill |
+
+These early skills are superseded once Stuffed Mortar Shell and Cannelloni Cannon are available (see above).

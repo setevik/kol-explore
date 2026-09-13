@@ -59,7 +59,7 @@ one-shot quest, doable at Level 1–4.
 2. **Entangling Noodles (250)** — stun.
 3. **Lasagna Bandages (500)** — heal; out of combat via `runskillz.php?...whichskill=3009`.
 4. Then Ravioli Shurikens (125) as an MP-cheap (4 MP) alternative nuke, and L6 **Springy Fusilli (+init)**
-   — see the initiative problem in `combat-and-initiative.md`.
+   — see initiative (and why a buffed mainstat doesn't help it) in `combat-mechanics.md` §5.
 
 **MP costs (verified via `desc_skill.php?whichskill=<id>&self=true`, which prints "MP Cost"):**
 Spaghetti Spear 0 · Utensil Twist 1 · Ravioli Shurikens 4 · Lasagna Bandages 6 · Cannelloni Cannon 8.

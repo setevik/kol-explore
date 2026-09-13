@@ -2,7 +2,7 @@
 
 > Scope: UI/frame architecture, zone/URL reference, and early-game quest structure. Deeper
 > mechanics live in dedicated files — **stats/organs/leveling/moon → `stats-and-leveling.md`**,
-> **combat/initiative/familiars/Beaten-Up → `combat-and-initiative.md`**, **fetch engine, buying,
+> **combat rules & formulas (initiative, Beaten Up) → `combat-mechanics.md`**, **encounter selection → `noncombat-mechanics.md`**, **familiars → `familiars.md`**, **combat field notes → `combat-and-initiative.md`**, **fetch engine, buying,
 > and the full snarfblat table → `HANDOFF.md`**. This file avoids re-deriving those.
 
 ## UI Architecture

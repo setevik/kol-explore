@@ -1,96 +1,35 @@
-# Combat Mechanics and Initiative
+# Combat — verified field notes
 
-> **Per-class combat doctrine lives in `mechanics/<class>-class.md`**: the Pastamancer default is **Stuffed Mortar Shell → Cannelloni
-> Cannon**. The low-level skill notes below (Spaghetti Spear / Ravioli Shurikens) are **early-game** and superseded once
-> those skills are available.
+> **The rules and formulas now live elsewhere:**
+> - **`combat-mechanics.md`** — round order, hit chance, damage dealt and taken, crits and fumbles, DA/DR and
+>   elemental resistance, initiative and running away, Monster Level, stun vs stagger, drops, free fights, Beaten Up.
+> - **`noncombat-mechanics.md`** — how the game picks an encounter: the combat roll, delays, queue, superlikelies, Lucky!.
+> - **`familiars.md`** — what familiars do in a fight.
+> - **Per-class doctrine** — `<class>-class.md` (the Pastamancer benefits and early skill numbers formerly here are now
+>   in `pastamancer-class.md`).
+>
+> ⚠️ This file used to carry a "safe Moxie = max experience × 4" formula, a claim that Beaten Up *blocks* adventuring and
+> is cured by a *free* rest, and a Mosquito that acts every round. All three were wrong or outdated — see
+> `combat-mechanics.md` §4, §10 and `familiars.md`. What remains below is what this repo **measured in-game**.
 
-## Initiative System
+## Combat messages decoded
 
-When a combat begins, one side gets the "jump" -- meaning they act first.
+| Message | Meaning |
+|---|---|
+| *"gets the jump on you"* / *"You get the jump on him"* | the monster / you won initiative and act first |
+| *"You twiddle your thumbs"* | the round was wasted — usually a skill cast at too little MP, or nothing selected. ⚠️ Stagger-immune monsters get a free attack on a wasted round. |
+| *"…out of your league!"* with no damage number | an **accuracy gate** — see below |
+| *"Unfazed, your opponent attacks you anyway!"* | the monster is stagger-immune |
+| *"STUN RESISTED!"* | the monster shrugged off your stun this round |
+| *"You lose. You slink away, dejected and defeated."* | you lost; Beaten Up applied |
+| *"Adventure Again (Zone Name)"* | the fight is over and you can continue |
 
-**Key observations:**
-- If the monster gets the jump on you, it attacks before you can act
-- If you get the jump, you attack first (huge advantage)
-- Low Moxie relative to zone = frequent jumps against you
-- High Moxie relative to zone = frequent jumps for you
+## Combat page structure (for scripts)
 
-## Safe Moxie Formula
-
-From the KoL wiki: **"Safe moxie" = monster's maximum experience × 4**
-
-- Monsters in a zone yielding ~3-4 exp need Moxie ~12-16 to dodge all non-critical hits
-- Critical hits can still land even at "safe moxie"
-- Defensive strategy: keep Moxie above zone's safe threshold
-
-## Class-Specific Combat Benefits
-
-### Pastamancer
-- **Entangling Noodles stuns** (vs just staggering for other classes)
-- **Shield of the Pastalord**: -30% physical damage (Level 8 skill)
-- **+50% max MP** (innate class bonus)
-- **Cannelloni Cocoon**: full HP heal (Level 12 skill)
-- **Leash of Linguini**: +5 familiar weight (Level 11 skill)
-
-## Skill Damage Analysis (early-game skills)
-
-Observed in combat:
-- **Spaghetti Spear** (1 MP): single hit, 3-4 damage at base Mys
-- **Ravioli Shurikens** (4 MP): 3 hits, total 12-15 damage (5+5+4 typical)
-- **Ravioli Shurikens** has damage variance: each shuriken has a random element
-  - "hair oil" damage
-  - "glacial runoff" damage
-  - Multiple elemental types per cast
-
-### Damage/MP Efficiency
-- Spaghetti Spear: ~3 damage per MP
-- Ravioli Shurikens: ~3.5 damage per MP BUT with better burst = fewer rounds per kill
-
-## Multi-Round Combat
-
-- Early-game, most fights take 1-2 rounds with Ravioli Shurikens
-- Tougher enemies (vampire bats, briefcase bats) take multiple rounds
-- Each round the monster gets an attack unless stunned
-- Marcellus triggers once per round of combat (typically after your action)
-
-## Familiar Combat Contribution
-
-### Marcellus (Mosquito)
-- Drains blood from enemies, heals YOU
-- Heal amount **scales with familiar weight** (roughly ~5 HP at low weight up to ~20-26 HP at high weight)
-- Triggers automatically each combat round (after your action)
-
-## Beaten Up Effect
-
-- Duration: 3 adventures
-- Reduces all stats to roughly half
-- Blocks adventuring ("too beaten up")
-- Removed by resting at campsite (free, 1 rest = removed)
-- Resting also restores some HP/MP
-
-## Healing During Combat
-
-Options:
-1. **Marcellus healing** (passive, each round, scales with weight)
-2. **Lasagna Bandages** skill (active heal)
-3. **Healing items** (consumed mid-fight)
-4. **Cannelloni Cocoon** (Level 12 full heal -- not yet accessible)
-
-## Combat Messages Decoded
-
-- "gets the jump on you" -- monster acts first
-- "You get the jump on him" -- you act first  
-- "twiddle your thumbs" -- no action taken (wasted round?)
-- "Adventure Again (Zone Name)" -- fight won, can continue
-- "You lose. You slink away, dejected and defeated." -- you lost, now Beaten Up
-- "Marcellus plunges his tiny proboscis" -- familiar blood drain attack
-
-## Combat UI Structure
-
-- `select[name="whichitem"]` -- dropdown of combat items
-- `select[name="whichskill"]` -- dropdown of combat skills
-- `input[value="Use Skill"]` -- skill action button
-- `input[value="Use Item"]` -- item action button
-- Skills show `(X MP)` cost next to name
+- `select[name="whichitem"]` — combat items · `select[name="whichskill"]` — combat skills (each shows `(X MP)`).
+- ✅ The most reliable "am I in a fight?" test is the presence of `<form name=attack` (HANDOFF § `inFight()`).
+- ✅ Some fights end on their **intro page**, with no combat form at all (e.g. a *dense liana* against a machete). Treat
+  *"You win the fight!"* on the adventure page itself as a completed fight.
 
 ---
 
