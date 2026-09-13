@@ -10,7 +10,7 @@
 A pet that fights beside you and acts on its own every round or at the end of a fight — attacking, healing,
 restoring MP, boosting meat/item drops, adding stat gains, blocking attacks, and so on.
 
-- **You need a Familiar-Gro™ Terrarium** at the campsite (General Store, 500 meat). Using a **hatchling** item
+- **You need a Familiar-Gro™ Terrarium** at the campsite. Using a **hatchling** item
   puts that familiar into the terrarium **permanently**.
 - **One of each type per account, forever.** Once a hatchling of a type has been used you can't use another of the
   same type. Familiars can't be traded, sold or discarded once hatched.
@@ -40,11 +40,6 @@ A familiar's power scales with its **weight** (pounds).
 ## Types that earn a slot (formulas, wt = weight)
 
 Pick by what the day actually needs. All of these are **readily available** (hatchlings obtainable by anyone).
-⚠️ **"Readily available" is not "cheap".** ✅ Observed mall spread in one check: *blood-faced volleyball* ~**100**
-meat, but *leprechaun hatchling* and *hovering sombrero* ~**10,000**, *fertilized ghuol egg* ~**7,800**, *potato
-sprout* ~**17,000**, *pregnant mushroom* (Baby Gravy Fairy) ~**19,000**; *mosquito larva* had **no listings**.
-Price-check before planning around one (HANDOFF's commodity rule), and remember it's a one-time purchase that
-lasts across every future ascension — amortise it over runs, not over a day.
 
 | Job | Familiar (hatchling) | Formula / behaviour |
 |---|---|---|
@@ -56,7 +51,7 @@ lasts across every future ascension — amortise it over runs, not over a day.
 | **Restores HP / damage** | Mosquito (*mosquito larva*) | ~25–30% of rounds: damage **⌈wt/2⌉+1 to wt+3**, heals you **≈2× that** |
 | **Blocks enemy attacks** | Levitating Potato (*potato sprout*) | **1.5·wt% chance** per round to block (max 90%) |
 | **Initiative** | Oily Woim (*woim*) | **+2·wt% initiative**, passive. The hatchling comes from an *oily boid* (3 bubblin' crude via `multiuse.php`, see `orc-chasm-and-highlands.md`) — but ⚠️ a boid is a **combat item**, and throwing one has only **~15% chance** to yield the woim (otherwise it's a one-round stun). Budget several boids. |
-| **Elemental resistance** | Exotic Parrot (Black Market, 500,000 meat) | +1 all-element resistance per 4 lb |
+| **Elemental resistance** | Exotic Parrot | +1 all-element resistance per 4 lb |
 | **Weakens the enemy** | Barrrnacle, Ghost Pickle, Misshapen Animal Skeleton… | delevels (Barrrnacle: 4.5·wt% chance, wt/2 levels at start) |
 | **Fewer combats** | Disgeist, Peace Turkey | −⌊wt/7.5⌋% / −⌊wt/5⌋% combat frequency (max −10%) |
 
@@ -83,7 +78,7 @@ The Nemesis quest hands each class its own familiar:
 ⭐ **The class bonus is the reason to care:** "+min(20, 2·level)" means a *1-lb* class familiar behaves like a
 *21-lb* one at level 10 for its owning class. Check the Nemesis steps in `nemesis-quest.md` for when it's granted.
 
-## Other ways to get hatchlings cheaply
+## Other hatchling sources
 
 - **Topiary Skunk** — crafted from **15 topiary nugglets** (use the nugglet stack; it offers a recipe menu). The
   nugglets drop in the Naughty Sorceress' tower **Hedge Maze**, are tradable, and at most eight drop per ascension, so
@@ -92,10 +87,9 @@ The Nemesis quest hands each class its own familiar:
   class that kills in one round still collects it every time — unlike the Mosquito, whose heal only fires during
   combat rounds. Familiar-specific equipment: *topiary noseplugs*.
 - **Smiling Rat** — its hatchling, the *smiling rat*, drops in **The Tavern Cellar** (the *1984 Had Nothing on This
-  Cellar* adventure), is **tradable** (autosells for 100), and hatches a **volleyball-formula** stat-gain familiar.
+  Cellar* adventure), is **tradable**, and hatches a **volleyball-formula** stat-gain familiar.
   An end-of-fight familiar, so it pays out every fight however short. Familiar-specific equipment: *rat tooth polish*.
-  ⇒ A long-lived account often has spares in storage from Tavern quests on earlier runs — check before buying a
-  Blood-Faced Volleyball.
+  ⇒ A long-lived account often has spares in storage from Tavern quests on earlier runs.
 - **Reassembled blackbird** — assembled from Black Forest drops; its ability is *finding the Black Market* for the
   MacGuffin quest (see `macguffin-quest.md`), otherwise minor.
 - The *Familiars by availability* page lists moon-sign familiars (Degrassi Knoll gravy fairies, Little Canadia
