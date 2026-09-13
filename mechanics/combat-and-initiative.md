@@ -5,12 +5,7 @@
 >   elemental resistance, initiative and running away, Monster Level, stun vs stagger, drops, free fights, Beaten Up.
 > - **`noncombat-mechanics.md`** — how the game picks an encounter: the combat roll, delays, queue, superlikelies, Lucky!.
 > - **`familiars.md`** — what familiars do in a fight.
-> - **Per-class doctrine** — `<class>-class.md` (the Pastamancer benefits and early skill numbers formerly here are now
->   in `pastamancer-class.md`).
->
-> ⚠️ This file used to carry a "safe Moxie = max experience × 4" formula, a claim that Beaten Up *blocks* adventuring and
-> is cured by a *free* rest, and a Mosquito that acts every round. All three were wrong or outdated — see
-> `combat-mechanics.md` §4, §10 and `familiars.md`. What remains below is what this repo **measured in-game**.
+> - **Per-class doctrine** — `<class>-class.md`.
 
 ## Combat messages decoded
 

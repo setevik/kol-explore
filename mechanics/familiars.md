@@ -17,8 +17,6 @@ restoring MP, boosting meat/item drops, adding stat gains, blocking attacks, and
 - **Only one familiar accompanies you at a time.**
 - 🔁 **Familiars survive ascension** — they stay in the terrarium through the reset (except on Bad Moon and the
   Avatar paths). ⇒ **A new run inherits every familiar ever hatched; check the terrarium on day one.**
-  ✅ Verified: a run went 17 days with **no familiar equipped** while one sat unused in the terrarium, because nobody
-  looked. The api's `familiar` field reads `"0"` in that state — see HANDOFF.
 
 ## Weight = the one number that matters
 

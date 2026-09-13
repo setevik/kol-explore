@@ -81,9 +81,7 @@ combined power. **Monsters fumble 6% of rounds and crit 6% of rounds.**
 × (1 − Absorb fraction) × (1 − Elemental fraction)
 ```
 
-**Safe Moxie:** with **Moxie ≥ monster Attack + 10**, only the monster's critical hits (6% of rounds) can land. (An
-older rule of thumb, "max experience × 4", was a way of *estimating* attack; the monster's Attack is now shown
-directly on its wiki page.)
+**Safe Moxie:** with **Moxie ≥ monster Attack + 10**, only the monster's critical hits (6% of rounds) can land.
 
 **Damage Reduction (DR)** is subtracted first, as a flat number.
 

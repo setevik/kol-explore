@@ -315,8 +315,7 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
 ## 🐾 Familiars — check the terrarium every run (mechanics: `mechanics/familiars.md`)
 
 🚨 **Familiars survive ascension, so a new run inherits every one ever hatched — and an unequipped familiar is
-silently wasted.** ✅ Measured failure: a whole class run went 17 days with no familiar out while one sat in the
-terrarium, because the session routine never looked. **Add "which familiar is out?" to day one of every run**, and
+silently wasted.** **Add "which familiar is out?" to day one of every run**, and
 re-ask it whenever the day's job changes (meat farm → leprechaun, drops → fairy, stat grind → volleyball).
 
 - **Read state from `api.php?what=status`:** ✅ `familiar` = the active familiar's id (**`"0"` means none**),

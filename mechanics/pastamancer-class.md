@@ -144,8 +144,6 @@
 
 ## Class combat benefits and measured early-skill damage
 
-*(Moved here from `combat-and-initiative.md`, which is now class-agnostic.)*
-
 - **+50% max MP** — the class's innate bonus.
 - **Shield of the Pastalord** (Level 8 skill) — **−30% physical damage** taken.
 - **Leash of Linguini** (Level 11 skill) — **+5 familiar weight**.
