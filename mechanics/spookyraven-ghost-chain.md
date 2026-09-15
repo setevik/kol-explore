@@ -286,11 +286,15 @@ Check manor3 for `snarfblat=` links before planning around the six-ingredient re
    Defense 129–148 — ✅ a Level 12 Muscle class (Muscle ~189, dual-wield, Lunging Thrust-Smack) won all 52 fights
    in one round.
 4. ✅ **Cook them:** `craft.php?mode=cook&action=craft&a=7491&b=7492&qty=1` → *unstable fulminate* (7493, off-hand).
-5. Equip it and fight **monstrous boilers** in the **Boiler Room (399)**: per the wiki, each fight adds
-   `10 + ML/2` degrees and at **51** it becomes a **wine bomb** (7494) — ML 134 boilers should do it in one fight.
-   ⚑ **UNRESOLVED:** 10 Boiler Room fights including **3 monstrous boilers, all one-round kills, left the fulminate
-   unconverted.** Read the item's description for its temperature before assuming anything; a suspect is that the
-   heat is applied per boiler *round*, so killing it before it acts gives none.
+5. Equip it and fight **monstrous boilers** in the **Boiler Room (399)**; at **51 degrees** it becomes a **wine
+   bomb** (7494) and drops out of the off-hand into inventory.
+   🚨 **The wiki's `10 + ML/2` means +10 plus half your BONUS Monster Level — not the boiler's own ML 134.**
+   ✅ Measured with **no +ML**: every boiler win printed *"You plug the bottle of fulminate with your thumb and hold it
+   over the smoldering coals… It gets 10 degrees hotter."* — so it takes **6 monstrous boilers** (~20 Boiler Room
+   fights, since coaltergeists and steam elementals share the zone). **+82 ML** does it in one fight, per the wiki.
+   ✅ **The heat persists** — across other fights and across rollover (three boilers one day, three the next).
+   ✅ **One-round kills count** — how you kill the boiler doesn't matter, only that you win with the bottle worn.
+   ⚠️ The item's description never shows the temperature; count the "10 degrees hotter" lines yourself.
 6. Wine bomb → click the masonry → the Summoning Chamber (Part 2 below).
 - Lights Out exits (from the wiki): **Wine Cellar 901** `Get out of here right now go go go` · **Laundry Room
   891** `Feel Your Way to the Door` (✅ used, free) · **Boiler Room 902** `Get the heck out`.
@@ -343,7 +347,13 @@ toy that ghost hates.
   hold all six; the game mixes and applies the solution for you and the wall collapses.
 - Then **`place.php?whichplace=manor4&action=manor4_chamberboss`** → **Lord Spookyraven**.
   🚨 **His opening attack hits for ~your current HP** unless you have **+3 to ALL elemental resistances** —
-  **Brother Smothers's Blessing (`friars.php?bro=3`) is exactly that** and turns it into an ordinary hit
-  (took 62 of our 99 HP with the blessing up; it would have been lethal without).
+  **Brother Smothers's Blessing (POST `friars.php` `action=buffs&bro=3`) is exactly that** and, per the wiki,
+  turns it into an ordinary hit (a Pastamancer took 62 of 99 HP with the blessing up).
+  ⚠️ **But don't count on the blessing alone.** ✅ Measured on a Level 12 Seal Clubber **with the blessing
+  active**: the opener took **265 of 296 HP** — close to the "your current HP" special. What made it survivable
+  was **entering at FULL HP**. ✅ **Pattern that won in 3 rounds:** full HP and MP at entry → blessing as the
+  last prep step → on 31 HP, **filthy poultice in combat** (`fight.php?action=useitem&whichitem=2369`) twice →
+  **one Lunging Thrust-Smack killed him** (200 HP). Treat the opener as "you keep ~10% of your HP" and bring
+  in-combat heals.
   Otherwise a normal fight: Entangle → Mortar → Cannelloni, **5 rounds** at base Mys ~131.
 - **Drops: the Eye of Ed** (Staff of Ed component) + Lord Spookyraven's ear trumpet. Quest complete.

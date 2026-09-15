@@ -292,6 +292,15 @@ fills with **ninja waiters** you must fight through to reach his table each time
 | 1 | **The Shield of Brook** | **The Unquiet Garves (21)** — `place.php?whichplace=cemetery` | dropped by *the Snakeleton*; ~20 turns |
 | 2 | **The Eye of the Stars** | **The Hole in the Sky (83)** | ⚠️ **dropped by *The Snake With Like Ten Heads*** (ML 160, Def 160, HP 175) per the wiki's zone table — **not** the Astronomer, as an earlier note here said; the snake appears while this step is active |
 | 3 | **The First Pizza** | **Lair of the Ninja Snowmen (272)** — `place.php?whichplace=mclargehuge` | dropped by *the Frozen Solid Snake*; ~9 turns |
+| — | **The Stankara Stone** | **The Batrat and Ratbat Burrow (32)** | dropped by *the Batsnake*; ✅ 6th Burrow turn, 0 losses at Level 12 |
+| — | **Murphy's Rancid Black Flag** | **Castle Top Floor (324)** | dropped by *the Burning Snake of Fire*; ✅ 6th top-floor turn, 2 rounds (Club Foot → Lunging Thrust-Smack) |
+
+⚠️ **The table above is not a fixed set of three.** Shen draws his three from a larger pool, and the order and
+choice differ between characters. ✅ A later character was sent for **The Eye of the Stars → The Stankara Stone →
+Murphy's Rancid Black Flag**, and the hand-in menus were **852 then 853** (each a single `Give him the artifact.` /
+`Sit down.` button). **Read the quest log for the current artifact** after every hand-in rather than following the
+table's order. Every artifact so far comes from a *snake* monster that only appears while its step is active —
+open against it with Club Foot.
 
 Completing all three ends **"Of Mice and Shen"** and yields **Copperhead Charm #1**. The second charm is held
 by his brother **Ron**, on the **Red Zeppelin** — both charms are what open the **Palindome**.
@@ -308,8 +317,12 @@ by his brother **Ron**, on the **Red Zeppelin** — both charms are what open th
    Gimcrackery"** → **steam-powered model rocketship**. Took ~10 turns to fire.
    ⚠️ **"~10 turns" was luck, not a rate.** Which giant's room a top-floor noncombat shows is random, and a later
    character saw **~60 top-floor turns produce the Raver, Goth and Punk rooms repeatedly but never Copper Feel**.
-   The rocketship is a **quest item — not in the mall, not tradeable** — so there is no shortcut; budget it as open-ended
-   and put the days it doesn't fire onto a branch with a deterministic grind (the Zeppelin mob below).
+   The rocketship is a **quest item — not in the mall, not tradeable.**
+   ✅ **But you don't need Copper Feel to appear by itself — walk to it.** Once the Giant Trash Quest is done, every
+   top-floor room noncombat connects to it through **free** exits: **Goth 675 `Gimme Steam`**, or **Raver 676
+   `Check Behind the Giant Poster` → Punk 678 `Check behind the trash can`** → Copper Feel. The ~60 dry turns above
+   were a loop taking each room's item option instead of the exit; the next Raver room seen gave the rocketship for
+   1 adventure. Full room graph: `giant-castle-quest.md` § Top Floor.
    ⚠️ **After the first visit, every room's item option (`Raid the Crate`, `Dig Through His Drawers`, `Grab a Gear`,
    `Snag some Candles`, and the Whirligigs themselves) costs NO adventure** — a loop that keeps taking them spins,
    and the free-encounter guard is what stops it.

@@ -60,6 +60,17 @@ Bones in the Naughty Sorceress' tower needs it later.
 |---|---|---|
 | **677** | *Copper Feel* — Steampunk Giant | `Harrumph in Disdain` (with a **model airship** → **the Wheel**) · `Investigate the Whirligigs and Gimcrackery` · `Grab a Gear` (brass gear) · `Go through the Crack` (**→ the Goth Giant's room**) |
 | **675** | *Melon Collie and the Infinite Lameness* — Goth Giant | `End His Suffering` (**starts a fight**) · `Change up the Music` (needs the **drum 'n' bass record** from the Raver's crate → **the Wheel**) · `Snag some Candles` · `Gimme Steam` (**→ the Steampunk Giant's room**) |
+| **676** | *Flavor of a Raver* — Raver Giant | `Pick a Fight` (**fight**) · `Breathe Deeply` (1,000 HP/MP per the wiki) · `Raid the Crate` (the drum 'n' bass record, first time) · `Check Behind the Giant Poster` (**→ the Punk Giant's room**) |
+| **678** | *Yeah, You're for Me, Punk Rock Giant* — Punk Giant | `Get the Punk's Attention` (with a **Mohawk wig** worn → **the Wheel**; otherwise a fight) · `Dig Through His Drawers` (450–550 meat) · **`Check behind the trash can` (→ *Copper Feel*; only after the Giant Trash Quest)** · `Look Behind the Poster` (**→ the Raver Giant's room**) |
+
+🗺️ **The room graph — every exit costs NO adventure** (✅ verified):
+**Raver 676 ⇄ Punk 678** (the two posters point at each other, so a loop that only takes posters ping-pongs
+forever) · **Goth 675 ⇄ Steampunk 677** (`Gimme Steam` / `Go through the Crack`) · and the one bridge between the
+pairs, **Punk 678 `Check behind the trash can` → Steampunk 677**, which only renders once the trash quest is done.
+⭐ **So after the trash quest, ANY room noncombat reaches the rocketship for free:** Raver → poster → Punk → trash
+can → Copper Feel → `Investigate the Whirligigs and Gimcrackery`; Goth → `Gimme Steam` → Copper Feel. ✅ Measured:
+a character that had spent ~60 turns waiting for *Copper Feel* to appear by itself got the **steam-powered model
+rocketship** on the next Raver room it saw, for **1 adventure** (the three hops were free).
 
 ⚠️ **`Change up the Music` is simply absent from the 675 menu when you don't hold the record** — the option
 does not render greyed out, so a script matching on it will fall through to whatever rule comes next. **Match

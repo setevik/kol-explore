@@ -99,7 +99,15 @@ Costs scraped live from Torg's rack (they rise steeply — budget ahead):
 | 9 | Tongue of the Walrus · Seething of the Snow Leopard |
 | 10 | Ire of the Orca · Lunging Thrust-Smack |
 | 11 | Rage of the Reindeer · Batter Up! |
-| 12 | Double-Fiste… |
+| 12 | Double-Fisted Skull Smashing · Cavalcade of Fury |
+| 13 | **Northern Explosion** (Combat, 16 MP — *"a powerful Smack that deals Cold Damage"*) · **Northern Exposure** (Passive, So-So Cold Resistance +2) |
+| 14 | Precision of the Penguin · Musk of the Moose |
+| 15 | Pulverize · Pride of the Puffin |
+
+⚠️ The trainer page lists these by name and level but **prints no price**; read the cost from the purchase
+response (or the meat delta) rather than assuming the tier pattern above continues.
+💡 *Northern Explosion* is the class's **elemental** attack — the answer to physically-immune monsters (the Hidden
+City spirits, A-boo's ghosts) that otherwise need fires of unknown origin or an oil lamp.
 
 ## Early combat standard
 

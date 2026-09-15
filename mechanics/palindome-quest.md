@@ -6,7 +6,10 @@ covers the **Shen Copperhead / Red Zeppelin** unlock chain that gates the Palind
 
 ## Unlock chain
 
-1. **Shen Copperhead quest** (3 snake artifacts) → **Copperhead Charm (rampant)** (item 7186).
+1. **Shen Copperhead quest** (3 snake artifacts) → **Copperhead Charm** (plain, item 7178).
+   ✅ Verified: Shen's final hand-in (a single `"Yeah, Shen, I sure did."` button) cures the poison and gives the
+   **plain** charm; **Ron on the Red Zeppelin drops the *(rampant)* one (7186)**. Older text here had them swapped —
+   it doesn't matter for the meat-paste, but don't go looking for the wrong one.
    Shen poisons you and demands a snake artifact; which one is fixed by the ascension-day you
    start his quest. He asks for **3 in a row** (same pool); after the 3rd you're cured and get
    the charm. The six possible artifacts, and where each drops:
@@ -54,6 +57,12 @@ Beaten-Up issues with the stun combo.
 - **photograph of an ostrich egg (7265)** — from the noncombat **"Last Egg Gets Al"** (NOT a monster drop,
   contrary to the older note here).
 
+✅ **Re-verified menus (match these labels):** **873** `Accept (500 Meat)` · `Decline` — **129** `Buy the photograph
+(500 meat)` · `Politely decline` — and **Last Egg Gets Al has no menu at all**: it is a plain noncombat that hands
+over the egg photo, so a loop that only watches for choice numbers will not see it happen (check inventory by name).
+Declining 129/873 costs no adventure; buying makes each one-time. ✅ Measured at Level 12 (Muscle ~189,
+Lunging Thrust-Smack): **three of the four photos in 22 Palindome fights, 0 losses** (ML 136–155).
+
 ### ✅ Choice 872 "Drawn Onward" — IT IS NOT A RANDOM NONCOMBAT (solved)
 🚨🚨 **STOP GRINDING FOR IT.** Days 121–122 burned ~190 turns hunting 872 as a random noncombat
 (56 straight fights with Sonata of Sneakiness + hair spray, still zero). **872 is not a wandering
@@ -63,6 +72,13 @@ encounter — Dr. Awkward's Office is a LOCATION**, and it only appears after yo
 → choice 872 fires immediately, no adventure spent hunting.
 **LESSON: when a "noncombat" won't appear, check whether it's really a place//action link gated by an
 unread book or unused item, before spending another turn.**
+✅ **Where the book comes from (wiki, confirmed in-game):** the **5th Bob Racecar, Racecar Bob or Drab Bard** you
+kill in the Palindome. ✅ The photograph of a dog followed after ~10 native palindrome dudes, in the same session.
+🐛 **Match its name loosely.** The inventory page renders it as `&quot;I Love Me, Vol. I&quot;` — HTML-escaped
+quotes and all — so a check like `/^"I Love Me, Vol\. I"$/` or an exact-name compare reads **"not held"** while it
+sits in the bag. Match `/Love Me, Vol\. I\b/` (and exclude `Vol. 2`), or check item id **7262** via `api.php`.
+💡 A **disposable instant camera** used against Bob Racecar / Racecar Bob also yields the dog photo (per the wiki)
+— worth carrying if the dudes are slow to add up.
 ✅ **Bring a −combat / forced-noncombat source before you grind for it.** Treat "get the noncombat rate up"
 as a prerequisite step, not an optimisation.
 
@@ -90,6 +106,29 @@ Dr. Awkward's "ineptitude field" means you cannot fight him yet; he clubs you do
 
 - Final: place/use the 4 photographs + Mega Gem → **Dr. Awkward** boss → **Staff of Fats**.
   Enter at FULL HP (hard hitter like Ron; keep torpedoes ready).
+
+### ✅ The whole post-photo chain costs ZERO adventures (verified end to end)
+1. **Read *I Love Me, Vol. I*** → `place.php?whichplace=palindome&action=pal_droffice` → *Drawn Onward* (872).
+2. **The frames are a form, not buttons:** POST `choice.php` with `pwd`, `whichchoice=872`, `option=1`,
+   **`photo1=2259` (God) · `photo2=7264` (red nugget) · `photo3=7263` (dog) · `photo4=7265` (ostrich egg)**.
+   (`option=2` is `Leave`.) ✅ Correct order → *"Stop, spots!"* → **HP set to 0 and Beaten Up**, no fight, no adventure,
+   *2 Love Me, Vol. 2* in the bag. A tiny house clears the Beaten Up.
+3. **Read Vol. 2** → the place page gains **`action=pal_mroffice`** (Mr. Alarm; `pal_mrlabel`/`pal_drlabel` are just
+   labels). First visit is plain text, no menu — he asks for **wet stunt nut stew**.
+4. ✅ **Cook it instead of visiting Whitey's Grove if you hold the parts:** `craft.php?mode=cook` **bird rib + lion
+   oil → wet stew**, then **wet stew + stunt nuts → wet stunt nut stew** (Palindome dudes drop stunt nuts; the rib
+   and oil may already be in an old estate). Revisit `pal_mroffice` → **Mega Gem (2267)**, again no menu.
+5. **Wear the Mega Gem AND keep the Talisman worn** (the office refuses you with *"You need to be wearing the Mega
+   Gem…"* otherwise) → `pal_droffice` → **Dr. Awkward**: 200 HP, Attack 175, **Defense 157**, Initiative 0, no
+   element, heals himself 23–50.
+6. ⚠️ **The office first serves choice 131 — a menu of THREE palindrome battle cries** (`War, sir, is raw!` ·
+   `Egad!  No bondage!` · `Eva, can I stack Rod's sad-ass, dork cats in a cave?`). The wiki gives them no
+   different outcomes; ✅ `War, sir, is raw!` started the fight. A loop that auto-answers only single-button menus
+   stops here, which is correct — just pick one.
+7. ✅ **Measured (Level 12 Seal Clubber, Muscle ~189, dual-wield):** Club Foot → Lunging Thrust-Smack, **dead in
+   2 rounds, 0 damage taken**. Drops **Staff of Fats** (+ Drowsy Sword). Meat-paste **headpiece of the Staff of Ed +
+   Staff of Fats → Staff of Ed (2325)**, then `place.php?whichplace=desertbeach&action=db_pyramid1` plugs it in
+   automatically (no menu) and **the Ancient Buried Pyramid opens with the Upper Chamber (406)**.
 
 ## Then: complete the Staff of Ed
 ```

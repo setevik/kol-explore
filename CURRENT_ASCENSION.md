@@ -29,27 +29,23 @@ Disco Bandit · Accordion Thief.
 
 ---
 
-## 📊 Character state (end of run #3 Day 18 / 2026-09-15)
+## 📊 Character state (end of run #3 Day 19 / 2026-09-15)
 
-- **LEVEL 12 Seal Clubber.** Buffed Muscle ~189 / Mys ~98 / Mox ~101 (+1 each from the dance). **Max HP ~291,
-  max MP ~131.** 💰 **Meat ~19,777.** **~52 adv banked at rollover.** full 15, **drunk 0 — the meter went unused.**
-- ⚔️ **Loadout:** Crown of the Goblin King · Misty Cloak · black sword · 🚨 **off-hand = unstable fulminate** (the
-  **Hammer of Smiting is in inventory** — put it back with `action=dualwield` once the bomb is done) · black greaves ·
-  giant motorcycle boots · batskin belt · amulet of extreme plot significance.
-  Carried: pool cue (**two-handed**), antique machete (free lianas), **Lord Spookyraven's spectacles**.
-- 🎈 **MERRY-GO-RON COMPLETE** — Copperhead Charm (rampant) in hand. Red Zeppelin ticket **not consumed**.
-- 🐍 **Of Mice and Shen** still wants the **Eye of the Stars** first → needs the **steam-powered model rocketship**
-  from the castle Top Floor's *Copper Feel* (677). ⚠️ **~60 top-floor turns over two days, never fired.** Quest
-  item — not buyable.
-- 🏚️ **SPOOKYRAVEN:** ✅ **Lady Spookyraven's Dance COMPLETE.** ✅ **Cellar open** (921 played). ⚠️ **Third floor still
-  locked.** *In a Manor of Spooking* — recipe read **with the spectacles** (explosive route active) → ✅ vinegar +
-  soda → ✅ **unstable fulminate cooked and equipped** → ❌ **not yet a wine bomb** after 3 monstrous boilers.
-- 🐺 ✅ **Tattered wolf standard in inventory** — the skill itself is still to be taken in the Gallery.
-- 🏜️ *Just Deserts* still waits on the assembled Staff of Ed (the Eye of Ed is behind the cellar boss).
-- 🧰 **Supplies:** tiny house ×1 ⚠️ · **Monstar energy beverage ×12 (+74–79 MP)** · **phonics down ×55** · filthy
-  poultice ×13 · fire of unknown origin ×15 · **Ye Olde Meade ×7** · artisanal limoncello ×3 · herbal stuffing ×3 ·
-  hot honey ant ×2 · plain snowcone ×13 · Flamin' Whatshisname ×8 · lynyrd musk ×9 · hand chalk ×17.
-- **Day 18: ~70 fights, 0 losses.** No skills bought.
+- **LEVEL 13 Seal Clubber.** Muscle ~189–221 (depends on the war outfit) / Mys ~115 / Mox ~118. **Max HP ~328,
+  max MP ~185.** 💰 **Meat 18,617.** **15 adv banked** (the overdrink). full 15, drunk 19 (exactly 14 + ONE Meade ✅).
+- ⚔️ **Loadout — WAR:** 🎽 **War Hippy Fatigues worn** (reinforced beaded headband · bullet-proof corduroys · round
+  purple sunglasses in acc1) · Misty Cloak · **black sword + Hammer of Smiting** (dual-wield) · batskin belt ·
+  amulet of extreme plot significance. **In inventory:** Crown of the Goblin King, black greaves, giant motorcycle
+  boots (put back when the war is over), Mega Gem, Talisman o' Namsilat, Lord Spookyraven's spectacles.
+- 🏆 **THE QUEST FOR THE HOLY MACGUFFIN — COMPLETE** (Council turn-in confirmed in completed quests). All of
+  *In a Manor of Spooking*, *Of Mice and Shen*, the Palindome and *Just Deserts* are done with it.
+- ⚔️ **ISLAND WAR (hippy side) STARTED** — battlefield (140) at **Image #6**, **0 side quests**; the Lighthouse was
+  still closed at #5. Dingy dinghy owned.
+- 🐺 ✅ **Snarl of the Timberwolf LEARNED** (Noncombat, 10 MP, +10 spooky damage for 10 adv).
+- 🧰 **Supplies:** **phonics down ×43** · tiny house ×5 · filthy poultice ×8 · scroll of drastic healing ×6 ·
+  antidote ×53 · fire of unknown origin ×15 · **Ye Olde Meade ×4** · artisanal limoncello ×1 · plain snowcone ×13 ·
+  Knob nuts ×2 · Flamin' Whatshisname ×8 · lynyrd musk ×9 · hand chalk ×17. ❌ Monstar, herbal stuffing, milk: none.
+- **Day 19: ~230 fights, 2 losses (both tomb-asp poison in the Middle Chamber).** No skills bought.
 
 ### 🐾 FAMILIARS
 
@@ -97,26 +93,50 @@ Healing ladder: **filthy poultice / gauze garter (0 adv, 0 MP, ~87 HP)** → **C
 
 ## 🔜 Next-session priorities
 
-> **Day 18's drink meter was never used** (rollover hit mid-loop). ~52 adventures were banked at rollover, plus
-> the new day's allowance. Meat ~19,777. Rollover logged the session out — log in again.
-> (0) ⏰ **Read the time to rollover at login and drink BEFORE any loop that could cross it.**
-> (1) 🍽️ **EAT:** herbal stuffing ×3 + hot honey ant ×2 + plain snowcones/Knob nuts (3.0) to 15 — buy milk of
->     magnesium first (it is not stocked).
-> (2) 💣 **THE WINE BOMB DIDN'T FORM:** the **unstable fulminate is EQUIPPED in the off-hand** (Hammer of Smiting in
->     inventory). 10 Boiler Room fights incl. 3 monstrous boilers left it unconverted. First read its description
->     (temperature) — hypotheses: the heat is applied per boiler *round* and one-round kills deny it; or the kill
->     must be done with the item still worn at the end. Try letting a boiler act (plain attack instead of Lunging).
-> (3) 🧱 Wine bomb → click the Suspicious Masonry → **Brother Smothers's Blessing IMMEDIATELY before** → Lord
->     Spookyraven (HP 200, Def 148, Init ∞, multi-element; his opener ≈ your current HP without +3 all
->     resistance) → **Eye of Ed**. Put the Hammer back with `action=dualwield` afterwards.
-> (4) 🐺 **Snarl of the Timberwolf:** tattered wolf standard is in inventory → Haunted Gallery (394) *Out in the
->     Garden* (choice 89) → `The first knight`. ⚠️ Don't pick `None of the above` there any more.
-> (5) 🚀 Rocketship retry on the castle Top Floor (background only).
-> (6) ⚔️ Combat standard unchanged (dual-wield, Lunging every round; Club Foot first vs Defense 160+).
-> (7) 🍺 **DRINK: cap 14** — Ye Olde Meade ×7 in hand: 2 Meade + 2 artisanal limoncello → 14, then ONE Meade
->     overdrink, last thing, **before rollover**.
+> **15 adventures banked (the Day 19 overdrink) + the new day's allowance. Meat 18,617. Level 13.**
+> (0) ⏰ At login read `rollover` from `api.php?what=status` (it's a Unix timestamp; 03:30 UTC).
+> (1) 🍽️ **EAT:** no herbal stuffing left — buy 3 (~390) + milk of magnesium (~100); fill the gap with plain
+>     snowcones (13 held, 3.0) / Knob nuts (2).
+> (2) ⚔️ **THE ISLAND WAR (hippy side) — front at Image #6, 0 side quests.** Keep the **War Hippy Fatigues** on
+>     (zone 140 is tied to them). Re-test `bigisland.php?place=lighthouse` every ~10 wins — it should open ~#7 →
+>     **Sonofa Beach (136)** gunpowder ×5 → `bigisland.php?place=lighthouse&action=pyro` (2x). Then the **Farm**
+>     (~#13, `place=farm&action=farmer`, duck zones 142/144/147) for 4x. See `mechanics/island-war.md`.
+> (3) 💰 The war is meat-negative: phonics down ×43 (+46–50 MP) is the MP battery; Monstar is gone. Restock tiny
+>     houses / poultices if they drop low (mall 214 / 170).
+> (4) 🧙 **Torg at Level 13:** *Northern Explosion* (combat, 16 MP, cold Smack) · *Northern Exposure* (passive, +2 cold
+>     resistance). Prices not shown on the page — check `guild.php` buy response. Optional.
+> (5) Other open quests: Nemesis cave, Wizard of Ego, White Citadel, *A Quest, LOL* (Baron Rof L'm Fao).
+> (6) ⚔️ Combat standard unchanged (dual-wield, Lunging every round; Club Foot first vs Defense 150+ bosses).
+> (7) 🍺 **DRINK: cap 14** — Ye Olde Meade ×4 + limoncello ×1: buy more Meade (~222) and fill to exactly 14 early if
+>     the day is long, overdrink with a Meade last.
 
 ## 🗓️ Session log (this run)
+
+- **Run #3 Day 19 (2026-09-15, same real date as Day 18): 🏆 THE HOLY MACGUFFIN — Spookyraven cellar, Shen, the
+  Palindome and the pyramid all in one day; the Island War started. Level 13. ~230 fights, 2 losses.**
+  🍽️ 74 adventures from breakfast (3 stuffing + 2 hot honey ants + Knob nuts, milk first).
+  💣 **The wine bomb mystery solved:** each monstrous boiler adds **10 degrees** without +ML (the wiki's "ML/2" is
+  *bonus* ML), heat persists overnight; the 3rd boiler of the day made 60°. Wall → **Lord Spookyraven**: his opener
+  took **265/296 HP even with Brother Smothers's Blessing**; two in-combat poultices, one Lunging → **Eye of Ed**.
+  🐺 **Snarl of the Timberwolf** learned (Gallery *Out in the Garden*, first knight, 6th turn).
+  🚀 **The rocketship was a free walk away:** Raver poster → Punk room → *Check behind the trash can* → Copper Feel.
+  Two days of waiting for that room to come up by itself were a loop taking item options instead of exits.
+  🐍 **Shen:** Eye of the Stars (Snake With Like Ten Heads, Hole in the Sky) → Stankara Stone (Batsnake) → Murphy's
+  Rancid Black Flag (Burning Snake of Fire) — ~35 turns total → plain Copperhead Charm → **Talisman o' Namsilat**.
+  🪞 **Palindome:** 3 photos in 22 fights, the dog photo + *I Love Me, Vol. I* after ~10 dudes (🐛 the book's name
+  carries `&quot;` and my exact-name check missed it). **Everything after the photos cost 0 adventures** — the 872
+  photo form, the scripted beating, Mr. Alarm, **stew cooked from bird rib + lion oil already in the bag**, Mega Gem.
+  🐛 My `getChoice` regex missed the quoted `name="whichchoice"` on that form (fixed + HANDOFF). Choice 131's three
+  battle cries → **Dr. Awkward dead in 2 rounds** → Staff of Fats → **Staff of Ed** → socket.
+  🏜️ **Pyramid:** Upper/Middle/Lower opened on schedule. 🚨 **Two losses to tomb-asp poison** (max HP halved; the
+  first because the loop only logged it, the second mid-fight). **25 turns of rat farming gave 1 ratchet — then I
+  found ratchets in the mall at 666** and bought 7. 🐛 The wheel is **one step per wheel OR ratchet on a 5-ring**
+  (doc said +5 on ~9) — corrected; I also mis-counted one step myself (no loss). Token → bomb → rubble → **Ed the
+  Undying: 7 forms, 0 losses** → **Holy MacGuffin → Council: parade, confetti. Level 12 → 13 during Ed.**
+  ⚔️ **The war:** storage already held both war outfits + 1 scrip; 2 Dude Ranch vacations → dinghy plans + planks →
+  dingy dinghy → Frat House 146 on the 7th turn → war on. **56 battlefield wins, 0 losses, Image #0 → #6.**
+  🍺 Filled to 14 mid-day (2 Meade + 2 limoncello, +43) and spent it; **ONE Meade overdrink last (+15 banked).**
+  💸 Meat 20,486 → 18,617 despite ~5,000 on ratchets, ~1,000 on vacations and ~3,500 on restoratives.
 
 - **Run #3 Day 18 (2026-09-15): 👠 Lady Spookyraven's Dance DONE, the cellar OPEN, the spectacles and the wolf
   standard found — ~65 fights, 0 losses. 🚨 But the day ended at rollover without the DRINK step.**

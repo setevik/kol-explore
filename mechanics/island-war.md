@@ -101,6 +101,13 @@ high-HP boss that hits harder over time, see the boss note in `HANDOFF.md`.
    Ship Trip Scrip** (`shop.php?whichshop=shore`, row **176**) - one scrip per Shore vacation
    (snarf **355**, choice 793, ~500 meat + 3 adv each) - plus **dingy planks** (mall, item 140, ~340
    meat). `inv_use` the plans with planks in inventory -> **dingy dinghy** -> `island.php` opens.
+   ✅ **Choice 793's labels** (each *"Costs 3 Adventures and 500 Meat"*, each gives 1 scrip + substats):
+   `Distant Lands Dude Ranch Adventure` (Muscle) · `Tropical Paradise Island Getaway` (Mysticality) ·
+   `Large Donkey Mountain Ski Resort` (Moxie) — pick your main stat's. Opening the menu costs nothing.
+   ⚠️ **Neither the dinghy, the plans nor the scrip is sold in the mall** (verified: no listings) — only the planks.
+   ⭐ **Check storage first:** scrip is kept across ascensions, and ✅ a previous run's Hagnk's held **1 spare scrip**
+   plus **both complete war outfits** (War Hippy Fatigues ×9+ of each piece, Frat Warrior Fatigues ×3+) — which
+   skips step 2 below entirely.
 2. **Camp outfits come from the camps themselves, mostly via NONCOMBATS.**
    - **Orcish Frat House (27)** handed over the whole **Frat Boy Ensemble** (Orcish baseball cap 239,
      Orcish frat-paddle 241, Orcish cargo shorts 240) in ~14 turns of noncombats, no disguise needed.
@@ -110,6 +117,13 @@ high-HP boss that hits harder over time, see the boss note in `HANDOFF.md`.
    - ⚠️ **The sunglasses are an ACCESSORY** - free an accessory slot first.
 3. **Wear the full War Hippy Fatigues -> adventure the Orcish Frat House (27)** -> choice **146**
    -> **"Screw this, head to the roof"** -> **the war starts** and `bigisland.php` goes live.
+   ✅ Re-verified on a Level 13 Muscle class: 146 arrived on the **7th** Frat House turn (6 War Pledge / drill
+   sergeant fights, all one round), labels `Wander this way` · `Wander that way` · `Screw this, head to the roof`.
+   The island page then shows **`The Battlefield [Image #0]`** and the quest log flips to *"You've managed to get
+   the war… started"*.
+   ⚠️ **The battlefield zone is tied to the outfit:** snarf **140** is *"The Battlefield (War Hippy Fatigues)"*
+   (the frat side's is **132**), recommended main stat **180**, ML 170–210. Keep the whole outfit on while you
+   grind it.
 4. Battlefield = **snarf 140**; progress is the **"Image #N"** in the zone link (0 -> 32).
    At 0 side quests it moves ~1 image per 9-10 wins (37 wins took us #0 -> #4).
 
@@ -146,6 +160,10 @@ high-HP boss that hits harder over time, see the boss note in `HANDOFF.md`.
 | 1x (no side quests) | 37 | 4 |
 | 2x (Lighthouse) | 54 | 9 |
 | 4x (Lighthouse + Farm) | 71 | 8 (deeper images, #13 -> #21) |
+| 1x, **Level 13 Seal Clubber** (Muscle ~221, dual-wield, Lunging Thrust-Smack) | 44 | 5 (#0 -> #5), **0 losses** |
+
+✅ The Muscle-class run confirms the 1x rate is **~9 wins per image** regardless of class, and that a Level 13
+melee character handles the ML 170–210 frat soldiers in one round with MP from **phonics down (+46–50 MP each)**.
 
 ⚠️ **The war is MP-hungry as well as meat-negative** - it is easy to hit 0 MP mid-advance.
 Buy ~25 MMJ before starting and expect to restock mid-day.

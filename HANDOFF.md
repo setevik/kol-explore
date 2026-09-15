@@ -30,7 +30,12 @@
 Drive combat/farming with `fetch()` GETs in page context — robust against extension disconnects and tab throttling.
 Standard helpers: `G=(u)=>fetch(u,{credentials:'include'}).then(r=>r.text())`, a status reader
 (`api.php?what=status&for=ClaudeCode` → JSON), an `inFight(t)` test (`/name=["']?whichskill/` or "Attack with your weapon"),
-and a `getChoice(t)` (`whichchoice value=(\d+)`).
+and a `getChoice(t)`.
+🐛 **Write `getChoice` to tolerate quoted attributes.** The short form `/whichchoice value=(\d+)/` matches the common
+button forms (`name=whichchoice value=872`) but **not** a choice whose form quotes them
+(`name="whichchoice" value="872"`) — ✅ measured on the Palindome's *Drawn Onward* photo-frame form, where the helper
+returned `null` on an open choice, so the page read as "nothing to answer" while it blocked every other action.
+✅ Use: `/name=["']?whichchoice["']?[^>]*?value=["']?(\d+)/i` (and fall back to `/whichchoice=(\d+)/`).
 
 **Gotchas (each of these has bitten us):**
 - **Single-instance guard.** A `javascript_tool` call that launches a long async loop returns `{}` (blocked) but the
@@ -78,10 +83,11 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
   mid-run and **the DRINK step is silently missed** (it happened: the day ended with drunk 0). For any loop that could
   run near rollover, **do the DRINK step before starting it**, or cap the loop short.
   🚨 **It happened AGAIN despite this note — because nothing checked the clock.** A warning you have to remember to
-  apply is not a guard. ✅ **At login, record how long remains until rollover** (the wiki says only *"every night, at about
-  X:30 PM (your time)"*, taking ~10 minutes; the commonly quoted 8:30 PM Arizona / 03:30 UTC is ⚑ unverified —
-  measure it once and record the confirmation here), and **before launching any loop, compare the remaining time
-  to the loop's likely length** — if it is under ~45 minutes, DRINK first (fill + overdrink) and only then spend
+  apply is not a guard. ✅ **At login, record how long remains until rollover.** ✅ **`api.php?what=status` carries a `rollover`
+  field — the Unix timestamp of the next rollover** (verified: it resolved to **03:30 UTC**, i.e. 8:30 PM Arizona;
+  the wiki says only *"every night, at about X:30 PM (your time)"*, ~10 minutes of downtime):
+  `hoursLeft = (+s.rollover - Date.now()/1000) / 3600`. **Before launching any loop, compare that to the loop's
+  likely length** — if it is under ~45 minutes, DRINK first (fill + overdrink) and only then spend
   what is left. Rollover **logs the session out**; the symptom afterwards is `api.php` answering with an HTML
   page instead of JSON.
 - **Concurrent frame reloads deadlock.** Don't reload the charpane frame (`_readChar`) while a fight/farm loop is also
