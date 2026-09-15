@@ -127,10 +127,15 @@ and costs no turn. Key the loop's rule by the menu's **label set**, because each
 - **880 — elegant animated nightstand:** `Open the single drawer` · `Break a leg (off of the nightstand)` · `Ignore it`.
   **`Open the single drawer` gives *Lady Spookyraven's finest gown* once**; later elegant drawers hold "nothing but
   ephemera", so stop checking for it once the gown is in inventory.
-- **878** — a five-option menu: `Open the top drawer` · `Open the bottom drawer` · `Look behind the nightstand` ·
-  `Look under the nightstand` · `Ignore it`. ⚠️ An earlier version of this note called 878 the *mahogany* nightstand;
-  the wiki numbers **One Mahogany Nightstand as choice 877**, and the loop that captured these menus kept too little
-  history to tie each menu to its monster. Treat 876/878's identities as **unverified** and match by label set.
+- **878 — animated ornate nightstand** (✅ verified: the fight header said *animated ornate nightstand* and the
+  menu followed): `Open the top drawer` (meat) · `Open the bottom drawer` (Mysticality) · **`Look behind the
+  nightstand` → *Lord Spookyraven's spectacles*, first time only** · `Look under the nightstand` (disposable
+  camera) · `Ignore it`. ✅ The spectacles came from the first ornate nightstand met, on the 2nd Bedroom turn.
+- **877 — animated mahogany nightstand:** `Check the top drawer` (half of a memo once, then coin purses) ·
+  `Check the bottom drawer` (**bites you**) · `Look under the nightstand` (the class item, **only while the
+  spectacles are equipped**) · `Ignore it`.
+- **897 — Lights Out in the Bedroom:** `Search for a light` (opens a further menu) · **`Flee`** (the wiki's
+  "Run away" — walks you out, harmless).
 - **876** — `Check the top drawer` · `Check the bottom drawer` · `Ignore it`.
 - 🐺 **The class standards** (Seal Clubber wolf / Turtle Tamer snake) come from the mahogany nightstand's (877)
   `Look under the nightstand`, **only with Lord Spookyraven's spectacles equipped** — see `seal-clubber-class.md`.
@@ -164,6 +169,24 @@ Gallery has 4 noteworthy encounters:
    - Steal shoes from a girl whose feet match Lady Spookyraven's size: **Lady Spookyraven's dancing shoes** ✓
 
 Note: the Escher maze may require multiple tries; if you pick wrong you pop back out to the Gallery.
+
+✅ **Verified route to the shoes (the layout has been fixed since May 2014, per the wiki):**
+1. **Louvre It or Leave It = choice 914** → `Enter the drawing`. It is conditional on **5+ turns spent in the
+   Gallery**; ✅ it fired on the 6th Gallery adventure, after 5 fights (ML 56–60 cubist bulls, suits of armor,
+   pitchfork couples — all one-round kills for a Level 12 Muscle class).
+2. **Relativity = choice 904** (the start). Every maze page offers three `Take the stairs <direction>` buttons
+   whose **direction words are reshuffled on every visit** — ignore them. **Position is what matters:** the
+   first/second/third button (= `option` 1/2/3, rendered in that order).
+3. **Take the MIDDLE button (option 2) until you reach The Persistence of Memory = choice 905**, then the **TOP
+   button (option 1)** → **The Dance Class** → *Lady Spookyraven's dancing shoes* (first time; later visits give
+   the 30-turn *Dancin' Fool* buff instead). ✅ Measured: the middle button cycled **905 → 908 → 911 → 905**;
+   top at 905 dropped the shoes. **Only the 914 entry and the final step cost an adventure** — the
+   stair hops were free.
+4. 🐛 **Detect the clocks room by CHOICE NUMBER (905), not by text.** Its description says *"a puddle of…
+   clock"* (singular) and never "melting" or "clocks", so a text regex walks straight past it, and the
+   middle-button rule then loops forever with no turn cost. Other maze rooms seen: 908, 911, 913.
+5. Other Gallery noncombats: **Out in the Garden = choice 89** (`None of the above` is free and re-schedules it
+   10 turns later), **Lights Out in the Gallery = choice 896** (`Quit the Gallery`).
 
 ### Step 5: Deliver Finery + Dance
 
@@ -245,6 +268,32 @@ Use it to power-grind the Escher maze without running out of MP.
 
 Unlocked by **reading the MacGuffin diary** (`diary.php`) → the Ballroom (395) organ choice **921
 "We'll All Be Flat"** becomes playable → opens **manor3** (3rd floor) *and* **manor4** (the true cellar).
+⚠️ **Not always both.** ✅ Verified on another character: 921 (`Play the music`, 6th Ballroom turn, the diary
+read earlier in the run) opened **only manor4** — the second floor's Stairs Up stayed `manor2lock_stairsup` and
+`place.php?whichplace=manor3` had no zone links, so the Lab and Storage Room ingredients below were unreachable.
+Check manor3 for `snarfblat=` links before planning around the six-ingredient recipe.
+
+## ⭐ The wine-bomb shortcut (skips all six ingredients)
+
+1. Click the masonry once → *recipe: mortar-dissolving solution*.
+2. Get **Lord Spookyraven's spectacles** (Bedroom ornate nightstand, choice 878, `Look behind the nightstand`),
+   **equip them, and read the recipe again** → a green-ink note appears, and ✅ the quest log adds *"-or- Gather
+   the explosive ingredients: Chateau de Vinegar, blasting soda"*. The two items **do not drop until you have done
+   this**, and the flag resets each ascension.
+3. **bottle of Chateau de Vinegar** — possessed wine rack, **Wine Cellar (401)**. ✅ Measured: dropped from the
+   **11th wine rack** (33 cellar fights, mostly with +20% item). **blasting soda** — cabinet of Dr. Limpieza,
+   **Laundry Room (400)**. ✅ Measured: the **4th cabinet** (9 fights). Cellar monsters are ML 134–164 with
+   Defense 129–148 — ✅ a Level 12 Muscle class (Muscle ~189, dual-wield, Lunging Thrust-Smack) won all 52 fights
+   in one round.
+4. ✅ **Cook them:** `craft.php?mode=cook&action=craft&a=7491&b=7492&qty=1` → *unstable fulminate* (7493, off-hand).
+5. Equip it and fight **monstrous boilers** in the **Boiler Room (399)**: per the wiki, each fight adds
+   `10 + ML/2` degrees and at **51** it becomes a **wine bomb** (7494) — ML 134 boilers should do it in one fight.
+   ⚑ **UNRESOLVED:** 10 Boiler Room fights including **3 monstrous boilers, all one-round kills, left the fulminate
+   unconverted.** Read the item's description for its temperature before assuming anything; a suspect is that the
+   heat is applied per boiler *round*, so killing it before it acts gives none.
+6. Wine bomb → click the masonry → the Summoning Chamber (Part 2 below).
+- Lights Out exits (from the wiki): **Wine Cellar 901** `Get out of here right now go go go` · **Laundry Room
+  891** `Feel Your Way to the Door` (✅ used, free) · **Boiler Room 902** `Get the heck out`.
 
 ## Part 1 — Lady Spookyraven's triplets ("Chasin' Babies")
 

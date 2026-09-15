@@ -77,6 +77,13 @@ and a `getChoice(t)` (`whichchoice value=(\d+)`).
 - ⚠️ **A long farm loop can run through ROLLOVER.** If a loop is still going at rollover, adventures/full/drunk reset
   mid-run and **the DRINK step is silently missed** (it happened: the day ended with drunk 0). For any loop that could
   run near rollover, **do the DRINK step before starting it**, or cap the loop short.
+  🚨 **It happened AGAIN despite this note — because nothing checked the clock.** A warning you have to remember to
+  apply is not a guard. ✅ **At login, record how long remains until rollover** (the wiki says only *"every night, at about
+  X:30 PM (your time)"*, taking ~10 minutes; the commonly quoted 8:30 PM Arizona / 03:30 UTC is ⚑ unverified —
+  measure it once and record the confirmation here), and **before launching any loop, compare the remaining time
+  to the loop's likely length** — if it is under ~45 minutes, DRINK first (fill + overdrink) and only then spend
+  what is left. Rollover **logs the session out**; the symptom afterwards is `api.php` answering with an HTML
+  page instead of JSON.
 - **Concurrent frame reloads deadlock.** Don't reload the charpane frame (`_readChar`) while a fight/farm loop is also
   reloading frames — onload promises stall. Poll in-memory `window._X` while a loop runs; read the charpane only when idle.
 - ⚠️ **Every farm loop's MP branch must check ALL restoratives you actually carry.** a desert
@@ -786,6 +793,12 @@ the fact.**
 was spent** — every free-encounter trap in the list above is a *noncombat*. Three fixes, use all of them:
 **(a) only police non-combat iterations**, **(b) re-read after a short sleep**, **(c) require the free
 iterations to be CONSECUTIVE** (reset the counter on any turn that did cost an adventure).
+
+🐛 **"Consecutive" means a FIGHT iteration must reset the counter too, not just a paid noncombat.** In zones
+where a monster's follow-up menu is served by the **next** `adventure.php` request (the Haunted Bedroom's
+nightstand drawers), the rhythm is *fight (turn) → drawer menu (free) → fight → menu (free)…*. A guard that
+resets `free` only when a *noncombat* costs a turn never resets in that rhythm, and aborted a healthy 3-win loop
+after the third drawer menu. ✅ `if (wasFight) free = 0; else { …compare adventures… }`.
 
 ⚠️ Related tell: a burst reporting *N iterations* but **empty monster map, empty item map, and an unchanged
 adventure count** is always this bug — see the Drunken Stupor note in HARD RULE 1.

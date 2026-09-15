@@ -29,30 +29,31 @@ Disco Bandit · Accordion Thief.
 
 ---
 
-## 📊 Character state (end of run #3 Day 17 / 2026-09-13)
+## 📊 Character state (end of run #3 Day 18 / 2026-09-15)
 
-- **LEVEL 12 Seal Clubber.** Base Mus 144 / Mys 99 / Mox 101. **Max HP 287, max MP 127.** 💰 **Meat 20,530.**
-  **adv 15 banked.** full 15, drunk 19 (exactly 14 then ONE overdrink ✅).
-- ⚔️ **Loadout — now DUAL-WIELDING:** Crown of the Goblin King · Misty Cloak · **black sword + Hammer of Smiting
-  (off-hand)** · black greaves · giant motorcycle boots · batskin belt · amulet of extreme plot significance.
-  Black shield retired to inventory (measured: 1.00 rounds/fight, ~7 HP lost/fight with two weapons).
-  Carried: pool cue (**two-handed**), antique machete (free lianas).
+- **LEVEL 12 Seal Clubber.** Buffed Muscle ~189 / Mys ~98 / Mox ~101 (+1 each from the dance). **Max HP ~291,
+  max MP ~131.** 💰 **Meat ~19,777.** **~52 adv banked at rollover.** full 15, **drunk 0 — the meter went unused.**
+- ⚔️ **Loadout:** Crown of the Goblin King · Misty Cloak · black sword · 🚨 **off-hand = unstable fulminate** (the
+  **Hammer of Smiting is in inventory** — put it back with `action=dualwield` once the bomb is done) · black greaves ·
+  giant motorcycle boots · batskin belt · amulet of extreme plot significance.
+  Carried: pool cue (**two-handed**), antique machete (free lianas), **Lord Spookyraven's spectacles**.
 - 🎈 **MERRY-GO-RON COMPLETE** — Copperhead Charm (rampant) in hand. Red Zeppelin ticket **not consumed**.
 - 🐍 **Of Mice and Shen** still wants the **Eye of the Stars** first → needs the **steam-powered model rocketship**
   from the castle Top Floor's *Copper Feel* (677). ⚠️ **~60 top-floor turns over two days, never fired.** Quest
   item — not buyable.
-- 🏚️ **SPOOKYRAVEN MANOR OPENED AND RUSHED:** telegram read → Kitchen (billiards key, 21 fights) → Billiards (library
-  key, won pool on the first hustle) → Library (necklace, 10 fights) → Lady on floor 1 → Lady on floor 2 →
-  **Lady Spookyraven's Dance** now needs only the **dancing shoes** (Gallery 394). ✅ powder puff · ✅ finest gown.
-- 🐺 **Tattered wolf standard NOT obtained** — requires **Lord Spookyraven's spectacles equipped** (not owned).
-- 🏜️ *Just Deserts* still waits on the assembled Staff of Ed.
-- 🧰 **Supplies:** tiny house ×15 · filthy poultice ×13 · **fire of unknown origin ×15** · Ye Olde Meade ×3 ⚠️ ·
-  herbal stuffing ×3 · Flamin' Whatshisname ×8 · lynyrd musk ×9 · hand chalk ×17 · Cursed Punch ×3.
-- **Day 17: ~110 fights, 0 losses.** Also bought no skills (none at L12 beyond yesterday's).
+- 🏚️ **SPOOKYRAVEN:** ✅ **Lady Spookyraven's Dance COMPLETE.** ✅ **Cellar open** (921 played). ⚠️ **Third floor still
+  locked.** *In a Manor of Spooking* — recipe read **with the spectacles** (explosive route active) → ✅ vinegar +
+  soda → ✅ **unstable fulminate cooked and equipped** → ❌ **not yet a wine bomb** after 3 monstrous boilers.
+- 🐺 ✅ **Tattered wolf standard in inventory** — the skill itself is still to be taken in the Gallery.
+- 🏜️ *Just Deserts* still waits on the assembled Staff of Ed (the Eye of Ed is behind the cellar boss).
+- 🧰 **Supplies:** tiny house ×1 ⚠️ · **Monstar energy beverage ×12 (+74–79 MP)** · **phonics down ×55** · filthy
+  poultice ×13 · fire of unknown origin ×15 · **Ye Olde Meade ×7** · artisanal limoncello ×3 · herbal stuffing ×3 ·
+  hot honey ant ×2 · plain snowcone ×13 · Flamin' Whatshisname ×8 · lynyrd musk ×9 · hand chalk ×17.
+- **Day 18: ~70 fights, 0 losses.** No skills bought.
 
-### 🐾 FAMILIARS (checked after Day 17 — none has been out this entire run)
+### 🐾 FAMILIARS
 
-- **Active familiar: none** (`api.php` → `familiar: "0"`) for all 17 days.
+- **Active familiar: Marcellus the Mosquito** (brought out on Day 18 after 17 days with none).
 - **Terrarium holds exactly one:** **Marcellus, the Mosquito** — *1 pound, 0 exp, 9,568 lifetime kills* (hatched in
   run #1). In-combat HP drain/heal; weak while fights are one round.
 - **Unhatched in the estate (verified on the wiki as hatchlings/recipes):**
@@ -96,23 +97,45 @@ Healing ladder: **filthy poultice / gauze garter (0 adv, 0 MP, ~87 HP)** → **C
 
 ## 🔜 Next-session priorities
 
-> **15 adventures banked + the new day's allowance. Meat 20,530.**
-> (1) 🍽️ **EAT:** herbal stuffing ×3 in hand (+ hot honey ants? check) — buy milk of magnesium and stuffing to taste.
-> (2) 🍺 **Buy Ye Olde Meade ×4+ (only 3 left).**
-> (3) 👠 **FINISH LADY SPOOKYRAVEN'S DANCE:** the **Haunted Gallery (394)** for the **dancing shoes** — the *Louvre It
->     or Leave It* stair maze (see `spookyraven-ghost-chain.md` Step 4c). Then Lady on floor 2 → **Haunted Ballroom
->     (395)** → the dance → and choice 921 with **father's diary** in inventory opens **the cellar** (*In a Manor of
->     Spooking*). ⚠️ Key every choice rule by choice number; stop on unknown menus.
-> (4) 🚀 **Rocketship retry:** castle Top Floor (324), terminal item options only. It has not fired in ~60 turns —
->     budget it as a background task, not the day's plan.
-> (5) 🐺 **Optional class skill:** Lord Spookyraven's spectacles (a Bedroom nightstand, `Look behind the nightstand`)
->     → equip → mahogany nightstand (877) → `Look under the nightstand` → tattered wolf standard → the Gallery's
->     *Out in the Garden* first knight → *Snarl of the Timberwolf*. Log the monster name with each drawer menu.
-> (6) ⚔️ **Combat standard:** dual-wield (black sword + Hammer), Lunging Thrust-Smack every round; **Club Foot first
->     against Defense-160+ bosses** (Snakeleton, Frozen Solid Snake, the Snake With Like Ten Heads are all Def 160).
-> (7) 🍺 **DRINK: cap 14**, fill → spend → overdrink last.
+> **Day 18's drink meter was never used** (rollover hit mid-loop). ~52 adventures were banked at rollover, plus
+> the new day's allowance. Meat ~19,777. Rollover logged the session out — log in again.
+> (0) ⏰ **Read the time to rollover at login and drink BEFORE any loop that could cross it.**
+> (1) 🍽️ **EAT:** herbal stuffing ×3 + hot honey ant ×2 + plain snowcones/Knob nuts (3.0) to 15 — buy milk of
+>     magnesium first (it is not stocked).
+> (2) 💣 **THE WINE BOMB DIDN'T FORM:** the **unstable fulminate is EQUIPPED in the off-hand** (Hammer of Smiting in
+>     inventory). 10 Boiler Room fights incl. 3 monstrous boilers left it unconverted. First read its description
+>     (temperature) — hypotheses: the heat is applied per boiler *round* and one-round kills deny it; or the kill
+>     must be done with the item still worn at the end. Try letting a boiler act (plain attack instead of Lunging).
+> (3) 🧱 Wine bomb → click the Suspicious Masonry → **Brother Smothers's Blessing IMMEDIATELY before** → Lord
+>     Spookyraven (HP 200, Def 148, Init ∞, multi-element; his opener ≈ your current HP without +3 all
+>     resistance) → **Eye of Ed**. Put the Hammer back with `action=dualwield` afterwards.
+> (4) 🐺 **Snarl of the Timberwolf:** tattered wolf standard is in inventory → Haunted Gallery (394) *Out in the
+>     Garden* (choice 89) → `The first knight`. ⚠️ Don't pick `None of the above` there any more.
+> (5) 🚀 Rocketship retry on the castle Top Floor (background only).
+> (6) ⚔️ Combat standard unchanged (dual-wield, Lunging every round; Club Foot first vs Defense 160+).
+> (7) 🍺 **DRINK: cap 14** — Ye Olde Meade ×7 in hand: 2 Meade + 2 artisanal limoncello → 14, then ONE Meade
+>     overdrink, last thing, **before rollover**.
 
 ## 🗓️ Session log (this run)
+
+- **Run #3 Day 18 (2026-09-15): 👠 Lady Spookyraven's Dance DONE, the cellar OPEN, the spectacles and the wolf
+  standard found — ~65 fights, 0 losses. 🚨 But the day ended at rollover without the DRINK step.**
+  🍽️ 70 adventures from breakfast (3 herbal stuffing + later tots + 2 hot honey ants, milk first).
+  🖼️ **Gallery:** the Louvre NC on the 6th turn; the middle stair cycled 905 → 908 → 911, and **my text test for the
+  clocks room missed** (it says "clock", singular) — top button at **choice 905** gave the shoes. Now in `mechanics/`.
+  💃 Delivered the finery → dance on the first Ballroom visit → **921 on the 6th Ballroom turn** → cellar open.
+  ⚠️ **The third floor did NOT open** (Stairs Up still locked), so the six-ingredient recipe was out of reach.
+  👓 **Spectacles route instead:** ornate nightstand (878) `Look behind` on the 2nd Bedroom turn → equipped →
+  re-read the recipe (green-ink note; the quest log gained "-or- Gather the explosive ingredients") → mahogany
+  (877) `Look under` → **tattered wolf standard**. 🐛 A false "3 free encounters" abort: nightstand drawer menus
+  arrive on the *next* request after a fight, and my guard only reset on paid noncombats. Fixed + HANDOFF note.
+  🍷 **Vinegar: 33 Wine Cellar fights, 11 wine racks** before it dropped (Fat Leon's +20% item from Buffy for
+  most of them). 🧺 **Blasting soda: 9 Laundry fights** (4th cabinet). Cooked → unstable fulminate → off-hand.
+  💣 **10 Boiler Room fights, 3 monstrous boilers — no wine bomb.** Unresolved; see priority (2).
+  🔋 **MP from the bag:** Monstar energy beverage **+74–79 MP** each (15 held), phonics down ×55 untouched —
+  no tiny houses/sodas bought. 🔌 One browser restart mid-script; the leftover state was clean.
+  🍺 **DRINK MISSED:** rollover arrived during the Boiler Room loop. `HANDOFF.md` already warned about exactly
+  this; the fix is a time check before starting a loop, now added there.
 
 - **Run #3 Day 17 (2026-09-13): 🎈 Merry-Go-Ron done, the Spookyraven manor opened and half-cleared — ~110 fights, 0 losses.**
   ⚔️ **Dual-wielding measured:** black sword + Hammer of Smiting (the Nemesis weapon is a fine off-hand) — Muscle 169 →

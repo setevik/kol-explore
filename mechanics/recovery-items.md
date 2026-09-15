@@ -30,6 +30,14 @@
 - **Source**: Tradeable (buy from mall, ~440 meat) — the cheap tradeable MP battery for combat days.
 - **Use case**: MP top-up when you're out of tiny houses and don't want to burn adventures resting.
 
+### Monstar energy beverage (item 2389)
+- **Effect**: ✅ measured **+74 to +79 MP** per can (wiki: 70–80) — two tiny houses' worth of MP in one item
+- **Cost**: no adventure; **out of combat only** (`inv_use.php`)
+- **Source**: Island War battlefield / frat grill sergeants — a finished war tends to leave a stack in the estate
+- **Use case**: ⭐ **check your own bag for it before buying MP.** A restorative ladder that only lists tiny
+  houses and sodas walks straight past it; put it first in the ladder (then phonics down, then tiny house, which
+  is better kept for clearing Beaten Up).
+
 ## Tier A — Use freely, plentiful
 
 ### Lasagna Bandages (Pastamancer skill, ID 3009)

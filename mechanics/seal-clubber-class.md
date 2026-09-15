@@ -170,7 +170,16 @@ reverts to 3-round fights, and starts losing — which then triggers Beaten Up a
 🎯 **General form for any class:** re-open the "is MP a dead resource here?" question **every time you buy a
 damage multiplier.** The answer is a property of your current skill list, not of the class.
 
-## 🐺 A Seal-Clubber-only skill hides in the Haunted Gallery (⚑ wiki-only, not yet tested)
+## 🐺 A Seal-Clubber-only skill hides in the Haunted Gallery
+
+✅ **Standard route verified in-game (Level 12, ~11 Bedroom turns, 0 losses):** Bedroom (393) → the first
+**animated ornate nightstand (choice 878)** → `Look behind the nightstand` → *Lord Spookyraven's spectacles*
+(2nd turn) → **equip them** (accessory; `inv_equip.php … &slot=3` replaces acc3 and names what it displaced) →
+keep fighting nightstands, `Ignore it` on every other drawer menu (876/878/879/880) → the first **animated
+mahogany nightstand (choice 877)** → `Look under the nightstand` → *tattered wolf standard* (8th turn after the
+spectacles). ⭐ **While you're wearing them, re-read the *recipe: mortar-dissolving solution*** if the cellar is
+open — the spectacles also unlock the wine-bomb shortcut through the Suspicious Masonry
+(`spookyraven-ghost-chain.md`).
 
 The Haunted Gallery's *Out in the Garden* noncombat offers **"The first knight"**, which normally starts a fight with
 a wolf knight — but **a Seal Clubber carrying a *tattered wolf standard* instead gains the skill *Snarl of the
