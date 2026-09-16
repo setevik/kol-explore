@@ -133,8 +133,25 @@ high-HP boss that hits harder over time, see the boss note in `HANDOFF.md`.
 - **The Lighthouse road opens at about Image #7.** Grind the battlefield until
   `bigisland.php?place=lighthouse` stops saying *"You can't fight your way through the frat boys"* -
   re-test it every ~10 wins rather than assuming a fixed threshold.
+  ✅ **Re-verified exactly at Image #7** (closed at #6, open on the win that reached #7). The wiki gives the real
+  rule: as a hippy the Lighthouse opens once **64+ frat warriors** have been killed on the battlefield.
 - **Sonofa Beach (136)** then works: **lobsterfrogmen drop a barrel of gunpowder at roughly 1 per kill**
   (5 needed). The zone is noncombat-heavy, so budget ~3 turns per barrel.
+  ✅ **Measured: 26 turns → 5 lobsterfrogmen → 5 barrels, 0 losses** (21 of the 26 were noncombats; the zone is
+  **10% combat**, and every lobsterfrogman drops a barrel, so the turns go on finding them, not on drops).
+  ML 171, Defense 152, 190 HP — one round each for a Level 13 Muscle class.
+  🚨 **The turn-in link needs the pwd: `bigisland.php?place=lighthouse&action=pyro&pwd=<hash>`.**
+  ✅ Measured failure and fix: the same URL **without** `&pwd` returned a normal 200 whose text was just
+  *"The Lighthouse — Back to the Main Map"* — no keeper, no error — and the barrels stayed in inventory; the next
+  40 battlefield wins were therefore spent at 1x. With the pwd: *"My gunpowder! Big boom! … My bombs for you,
+  bumpty-bumpty-bump!"*, the 5 barrels are consumed and he vanishes inside.
+  ⚠️ **The plain `place=lighthouse` page has no visible button** — scrape the page's own links and you will find the
+  `action=pyro` one already carrying a pwd. **Visit `action=pyro` once more afterwards** for the leftovers
+  (*patchouli oil bomb*, 2 × *exploding hackensack* on the hippy side).
+  📊 **Pace after this first doubling, measured on the same character:** 40 wins moved the front **#9 → #13**
+  (~10 wins per image) — the *same* wins-per-image as 1x earlier in the day (#0 → #6). ⇒ **deeper images cost
+  more kills**, so the multiplier keeps the pace roughly flat rather than visibly halving the grind. Judge
+  progress by images gained per day, not by expecting the wins-per-image number to drop.
 - **Hand the barrels in at `bigisland.php?place=lighthouse&action=pyro`** (the plain `place=lighthouse`
   page has no button - the `action=pyro` link is the turn-in).
 - **Measured value of the x2 multiplier:** 37 battlefield wins moved the front **4 images** at 0 side

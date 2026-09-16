@@ -22,6 +22,13 @@
   A direct `navigate` to game.php sometimes times out on the tool side but still lands the page — verify with a JS read.
 - **Get the pwd hash:** scan a frame's HTML for `pwd=([0-9a-f]{20,})`; stash it on `window._pwd`. Almost every
   write action needs `&pwd=`.
+  🚨 **A write action fetched WITHOUT `pwd` returns a normal-looking page and silently does nothing** — no error,
+  no redirect, just the page's frame text with the action's own result missing. ✅ Measured: an island side-quest
+  turn-in (`bigisland.php?place=lighthouse&action=pyro`) read as an empty page, the five quest items stayed in
+  inventory, and **40 subsequent fights were spent at the wrong quest multiplier** before the cause was spotted.
+  ✅ **Two defences:** (a) **scrape the action link off the page** instead of composing it — the game's own link
+  already carries a `pwd`; (b) after any turn-in, **verify the item count dropped** (or that the quest log moved)
+  rather than trusting the response text.
 - **Session drops** (logouts / `api.php` returns an ~11KB HTML account page instead of JSON): re-login, re-grab pwd,
   rebuild helpers. Work in short bursts. The game session (cookies) persists even if the MCP tab drops from its group.
 

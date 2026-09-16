@@ -29,7 +29,16 @@ Disco Bandit · Accordion Thief.
 
 ---
 
-## 📊 Character state (end of run #3 Day 19 / 2026-09-15)
+## 📊 Character state (end of run #3 Day 20 / 2026-09-16)
+
+- **LEVEL 14 Seal Clubber.** Muscle 200 / Mys 125 / Mox 127 (in the war outfit). **Max HP 345, max MP 195.**
+  💰 **Meat 20,485.** **14 adv banked** (the overdrink). full 15, drunk 19 (exactly 14 + ONE Meade ✅).
+- ⚔️ **ISLAND WAR:** front at **Image #16 of 32**; **Lighthouse side quest DONE (2x)**. War Hippy Fatigues worn.
+- 🧰 **Supplies after Day 20:** phonics down ×20 ⚠️ · tiny house ×5 · filthy poultice ×7 · scroll of drastic healing ×6 ·
+  antidote ×53 · Ye Olde Meade ×1 ⚠️ · popskull ×16 · limoncello ×1 · plain snowcone ×10 · fire of unknown origin ×15.
+- **Day 20: ~140 fights, 0 losses.**
+
+<details><summary>End of Day 19 (for reference)</summary>
 
 - **LEVEL 13 Seal Clubber.** Muscle ~189–221 (depends on the war outfit) / Mys ~115 / Mox ~118. **Max HP ~328,
   max MP ~185.** 💰 **Meat 18,617.** **15 adv banked** (the overdrink). full 15, drunk 19 (exactly 14 + ONE Meade ✅).
@@ -46,6 +55,7 @@ Disco Bandit · Accordion Thief.
   antidote ×53 · fire of unknown origin ×15 · **Ye Olde Meade ×4** · artisanal limoncello ×1 · plain snowcone ×13 ·
   Knob nuts ×2 · Flamin' Whatshisname ×8 · lynyrd musk ×9 · hand chalk ×17. ❌ Monstar, herbal stuffing, milk: none.
 - **Day 19: ~230 fights, 2 losses (both tomb-asp poison in the Middle Chamber).** No skills bought.
+</details>
 
 ### 🐾 FAMILIARS
 
@@ -62,7 +72,7 @@ Disco Bandit · Accordion Thief.
 - **Class familiar:** the **Adorable Seal Larva** comes from this run's Nemesis quest (not reached yet) — MP restore
   with +min(20, 2·level) effective weight for a Seal Clubber.
 
-### 🎯 THE FINDINGS OF THE DAY
+### 🎯 FINDINGS — Day 17 (kept for context; later days' findings are in the session log)
 
 1. **Dual-wielding beats the shield once fights are one round** — black sword + Hammer: Muscle +11, 34 castle
    giants at 1.00 rounds / ~7 HP each, 0 losses. ⇒ `seal-clubber-class.md`.
@@ -84,33 +94,53 @@ Snow Leopard · Ire of the Orca · Fortitude of the Muskox · Audacity of the Ot
 Wrath of the Wolverine · Buoyancy of the Beluga · Thirst of the Weasel · Super-Advanced Meatsmithing.
 **Castable:** Seal Clubbing Frenzy (1 MP, only ~5 adv — not worth a loop preamble) · Blubber Up (7) ·
 Scowl of the Auk (10) · Tongue of the Walrus (10, heal 30–40) · **Cannelloni Cocoon (3012, 20 MP, full heal,
-permed)** · Pastamastery (10, 1/day).
+permed)** · Pastamastery (10, 1/day) · **Snarl of the Timberwolf (1020, 10 MP, +10 spooky damage / 10 adv —
+Day 19, from the Gallery knight with the tattered wolf standard)**.
 Combat: Clobber/Lunge Smack (1) · Thrust-Smack (3) · **Club Foot (1033, 8 MP, −enemy Defense)** ·
 **Lunging Thrust-Smack (1005, 8 MP, TRIPLE weapon damage)** · Furious Wallop (1 Fury = crit).
+**Not bought (Torg):** Level 13 *Northern Explosion* (Combat, 16 MP, cold — the class's only elemental attack) ·
+*Northern Exposure* (Passive, +2 cold res) · Level 14 *Precision of the Penguin* · *Musk of the Moose*.
 Healing ladder: **filthy poultice / gauze garter (0 adv, 0 MP, ~87 HP)** → **Cocoon (20 MP)** → Tongue (10 MP)
 → Hibernate (1027, 1 adventure — the only thing here that clears **Beaten Up**, apart from a tiny house).
 **Supplies at wrap: 4 tiny houses · 6 filthy poultices · 3 Ye Olde Meade.** Karma banked ~102.
 
 ## 🔜 Next-session priorities
 
-> **15 adventures banked (the Day 19 overdrink) + the new day's allowance. Meat 18,617. Level 13.**
-> (0) ⏰ At login read `rollover` from `api.php?what=status` (it's a Unix timestamp; 03:30 UTC).
-> (1) 🍽️ **EAT:** no herbal stuffing left — buy 3 (~390) + milk of magnesium (~100); fill the gap with plain
->     snowcones (13 held, 3.0) / Knob nuts (2).
-> (2) ⚔️ **THE ISLAND WAR (hippy side) — front at Image #6, 0 side quests.** Keep the **War Hippy Fatigues** on
->     (zone 140 is tied to them). Re-test `bigisland.php?place=lighthouse` every ~10 wins — it should open ~#7 →
->     **Sonofa Beach (136)** gunpowder ×5 → `bigisland.php?place=lighthouse&action=pyro` (2x). Then the **Farm**
->     (~#13, `place=farm&action=farmer`, duck zones 142/144/147) for 4x. See `mechanics/island-war.md`.
-> (3) 💰 The war is meat-negative: phonics down ×43 (+46–50 MP) is the MP battery; Monstar is gone. Restock tiny
->     houses / poultices if they drop low (mall 214 / 170).
-> (4) 🧙 **Torg at Level 13:** *Northern Explosion* (combat, 16 MP, cold Smack) · *Northern Exposure* (passive, +2 cold
->     resistance). Prices not shown on the page — check `guild.php` buy response. Optional.
-> (5) Other open quests: Nemesis cave, Wizard of Ego, White Citadel, *A Quest, LOL* (Baron Rof L'm Fao).
-> (6) ⚔️ Combat standard unchanged (dual-wield, Lunging every round; Club Foot first vs Defense 150+ bosses).
-> (7) 🍺 **DRINK: cap 14** — Ye Olde Meade ×4 + limoncello ×1: buy more Meade (~222) and fill to exactly 14 early if
->     the day is long, overdrink with a Meade last.
+> **14 adventures banked (the Day 20 overdrink) + the new day's allowance. Meat 20,485. Level 14.**
+> (0) ⏰ At login read `rollover` from `api.php?what=status` (Unix timestamp; 03:30 UTC) before any long burst.
+> (1) 🍽️ **EAT:** buy milk of magnesium (~100) + herbal stuffing ×3 (~390 each) again — both are consumed daily;
+>     top up to 15 with plain snowcones (10 held, 3.0 adv/fullness).
+> (2) 🍺 **BUY BOOZE EARLY: only 1 Ye Olde Meade left** (~222 in the mall). The rack that works: 2 Meade (→10) +
+>     2 popskull (→14, 16 held), then ONE Meade overdrink last.
+> (3) ⚔️ **THE WAR — front at Image #16 of 32, Lighthouse done (2x).** Keep the **War Hippy Fatigues** on.
+>     Next doubling: **the Farm** — `bigisland.php?place=farm&action=farmer`, then clear duck zones **142 / 144 /
+>     147** (~10 wins each; a cleared zone disappears from the farm page), then talk to the farmer again (4x).
+>     ⚠️ **Scrape the action link off the place page and always include `&pwd`** — see the Lighthouse lesson.
+>     The **Junkyard** (gremlin tools) is open-ended; prefer battlefield turns unless the front stalls.
+> (4) 💰 **Restock MP: phonics down is down to 20** (+46–50 MP each, no adventure). Tiny houses 214 / poultices 170
+>     in the mall; meat is healthy at 20k.
+> (5) 🧙 **Torg at Level 14:** *Precision of the Penguin* · *Musk of the Moose* (plus the Level 13 pair, unbought:
+>     Northern Explosion 16 MP cold attack · Northern Exposure +2 cold res). Prices aren't shown — read the buy
+>     response.
+> (6) Other open quests: Nemesis cave, Wizard of Ego, White Citadel, *A Quest, LOL* (Baron Rof L'm Fao).
+> (7) ⚔️ Combat standard unchanged (dual-wield, Lunging every round; Club Foot first vs Defense 150+ bosses).
 
 ## 🗓️ Session log (this run)
+
+- **Run #3 Day 20 (2026-09-16): ⚔️ Lighthouse side quest done, war front #6 → #16 of 32, Level 14 — ~140 fights,
+  0 losses.**
+  🍽️ 72 adventures from breakfast (milk + 3 herbal stuffing + 3 plain snowcones = exactly 15).
+  🗼 **The Lighthouse opened at exactly Image #7** (the wiki's rule: 64+ frat kills). **Sonofa Beach: 26 turns → 5
+  lobsterfrogmen → 5 barrels** (the zone is 10% combat, so the turns go on finding them, not on drops).
+  🚨 **The day's lesson: a write action without `&pwd` silently does nothing.** My first turn-in fetched
+  `place=lighthouse&action=pyro` with no pwd, got a page with no keeper text and no error, left the 5 barrels in
+  inventory — and I then spent **40 battlefield wins at 1x** believing the quest was done. With the pwd:
+  *"My gunpowder! Big boom! … My bombs for you, bumpty-bumpty-bump!"* ⇒ `HANDOFF.md` + `island-war.md`.
+  A later visit to the same link handed over a patchouli oil bomb + 2 exploding hackensacks.
+  📊 **Pace:** 40 wins #9 → #13 *after* the doubling — the same ~10 wins/image as at 1x earlier in the day
+  (#0 → #6), so **deeper images cost more kills** and the multiplier keeps the pace flat rather than halving it.
+  🍺 Filled to exactly 14 mid-day (2 Meade + 2 popskull, +37 adv), spent every one of them on the battlefield,
+  then **ONE Meade overdrink last (+14 banked)**. Level 13 → 14 somewhere in the afternoon.
 
 - **Run #3 Day 19 (2026-09-15, same real date as Day 18): 🏆 THE HOLY MACGUFFIN — Spookyraven cellar, Shen, the
   Palindome and the pyramid all in one day; the Island War started. Level 13. ~230 fights, 2 losses.**
