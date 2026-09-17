@@ -162,14 +162,33 @@ high-HP boss that hits harder over time, see the boss note in `HANDOFF.md`.
 
 - Opens once the front is ~**Image #13** (Farm / Nunnery / Orchard were all reachable then; the
   **Junkyard was still gated**).
-- **Accept it at `bigisland.php?place=farm&action=farmer`** ("Ach! Me farm, it's overrun! Dooks all
-  over it!").
-- **The farm page then lists its own duck zones - snarfs 142, 144, 147.** Clear each (~10 wins);
-  **a cleared zone disappears from the farm page**, which is the progress gauge.
-  🚨 **snarf 137 is NOT part of this quest** - adventuring there returns unrelated noncombats and wastes
-  turns (cost us 7).
-- **Talk to the farmer again** when all three are gone -> he plants soybeans -> **side quest complete**.
+- **Accept it at `bigisland.php?place=farm&action=farmer&pwd=<hash>`** ("Ach! Me farm, it's overrun! Dooks all
+  over it!"). ⚠️ Include the **pwd** — without it the page renders and nothing happens.
+- 🚨 **CORRECTION — the quest STARTS in the Barn, snarf 137.** An older note here said "137 is NOT part of this
+  quest"; ✅ verified otherwise: after the farmer accepts, **the Barn is the only live `snarfblat=` link on the farm
+  page**, and it serves *generic ducks*.
+- ✅ **How the other zones open (wiki + verified):** the Barn has **three one-time noncombats spread over its first
+  ~10 adventures** (combat frequency does not affect them, and free runaways still count). Each shoos part of the
+  flock into a different zone, and **the Barn closes for good after the third**:
+  | Noncombat | Options → zone opened |
+  |---|---|
+  | **Cornered!** (choice **147**) | `Grab the pitchfork and wave it around` → **Granary** (rotund ducks) · `Bang on the cowbell` → **Bog** (stench) · `Make a fence out of the barbed wire` → **Pond** (cold) |
+  | **Cornered Again!** | `Knock over the lantern` → **Back 40** (hot) · `Try to catch them in the beartrap` → **Family Plot** (spooky) |
+  | **How Many Corners Does this Stupid Barn Have!?** | `Grab the shotgun and start firing` → **Shady Thicket** · `Dump out the drum` → **Other Back 40** |
+  ⇒ You end with **three duck zones**, one per noncombat; clear each (~10 wins), then talk to the farmer again.
+  **A cleared zone disappears from the farm page**, which is the progress gauge.
+  💡 The duck types are elemental (cold/hot/stench/spooky), so a physical-damage class can take whichever options
+  it likes; a caster should pick zones its element beats.
+- **Talk to the farmer again** when all three are gone (again **with `&pwd`**) -> *"Ach, the dooks are gone! Thank
+  ye."* -> he plants soybeans -> **side quest complete**.
 - No RNG, no items to collect - purely combat, which makes it the best second pick after the Lighthouse.
+- ✅ **Measured end to end on a Level 14 Muscle class: 32 adventures, 0 losses** — 4 Barn turns to fire all three
+  shoo noncombats, then **9 + 10 + 9** turns to empty the three zones. The snarfs match the monsters:
+  **142 = hot ducks** (scorched / fire-breathing — the *Back 40*), **144 = rotund ducks** (the *Granary*),
+  **147 = drunk ducks** (the *Shady Thicket*). Which three you get depends on the shoo options you pick, so read
+  the farm page's live `snarfblat=` links rather than assuming these numbers.
+- ⚠️ **The zone list is the progress gauge**: each zone vanishes from the farm page the moment its ducks are gone,
+  and when the list is empty the farmer is ready. Don't count kills.
 
 ## Observed pace with multipliers (hippy side, base Mys ~225)
 | Multiplier | Wins | Images gained |
@@ -178,6 +197,13 @@ high-HP boss that hits harder over time, see the boss note in `HANDOFF.md`.
 | 2x (Lighthouse) | 54 | 9 |
 | 4x (Lighthouse + Farm) | 71 | 8 (deeper images, #13 -> #21) |
 | 1x, **Level 13 Seal Clubber** (Muscle ~221, dual-wield, Lunging Thrust-Smack) | 44 | 5 (#0 -> #5), **0 losses** |
+| 2x (Lighthouse), same character | 40 | 4 (#9 -> #13), 0 losses |
+| **4x (Lighthouse + Farm)**, same character at Level 14 | 45 | 5 (#16 -> #21), 0 losses |
+
+🚨 **The wins-per-image number barely moves as the multiplier climbs** — ~9–10 wins per image at 1x, 2x *and* 4x
+on the same character. Deeper images simply need more kills, so each doubling roughly cancels the increase.
+⇒ **Budget the war in images per day, not in "the next side quest halves the grind".** The side quests are still
+worth doing (without them the later images would crawl), but expect ~4–5 images per 45 turns either way.
 
 ✅ The Muscle-class run confirms the 1x rate is **~9 wins per image** regardless of class, and that a Level 13
 melee character handles the ML 170–210 frat soldiers in one round with MP from **phonics down (+46–50 MP each)**.

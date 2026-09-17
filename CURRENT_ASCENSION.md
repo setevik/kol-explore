@@ -29,7 +29,18 @@ Disco Bandit · Accordion Thief.
 
 ---
 
-## 📊 Character state (end of run #3 Day 20 / 2026-09-16)
+## 📊 Character state (end of run #3 Day 21 / 2026-09-17)
+
+- **LEVEL 14 Seal Clubber.** Muscle 211 / Mys 132 / Mox 134 (in the war outfit). **Max HP 361, max MP 202.**
+  💰 **Meat 26,801.** **14 adv banked** (the overdrink). full 15, drunk 19 (exactly 14 + ONE Meade ✅).
+- ⚔️ **ISLAND WAR:** front at **Image #26 of 32**; **Lighthouse ✅ and Farm ✅ side quests done (4x)**.
+  War Hippy Fatigues worn. Remaining side quests: Nunnery, Orchard, Junkyard, Arena (all optional).
+- 🧰 **Supplies after Day 21 — thin:** phonics down ×9 ⚠️ · popskull ×9 · tiny house ×5 · filthy poultice ×6 ·
+  scroll of drastic healing ×6 · antidote ×53 · plain snowcone ×7 · fire of unknown origin ×15 · limoncello ×1.
+  ❌ **No Ye Olde Meade, no milk, no herbal stuffing** — buy all three at day-open.
+- **Day 21: ~148 fights, 0 losses.**
+
+<details><summary>End of Day 20 (for reference)</summary>
 
 - **LEVEL 14 Seal Clubber.** Muscle 200 / Mys 125 / Mox 127 (in the war outfit). **Max HP 345, max MP 195.**
   💰 **Meat 20,485.** **14 adv banked** (the overdrink). full 15, drunk 19 (exactly 14 + ONE Meade ✅).
@@ -37,6 +48,7 @@ Disco Bandit · Accordion Thief.
 - 🧰 **Supplies after Day 20:** phonics down ×20 ⚠️ · tiny house ×5 · filthy poultice ×7 · scroll of drastic healing ×6 ·
   antidote ×53 · Ye Olde Meade ×1 ⚠️ · popskull ×16 · limoncello ×1 · plain snowcone ×10 · fire of unknown origin ×15.
 - **Day 20: ~140 fights, 0 losses.**
+</details>
 
 <details><summary>End of Day 19 (for reference)</summary>
 
@@ -106,6 +118,27 @@ Healing ladder: **filthy poultice / gauze garter (0 adv, 0 MP, ~87 HP)** → **C
 
 ## 🔜 Next-session priorities
 
+> **14 adventures banked (the Day 21 overdrink) + the new day's allowance. Meat 26,801. Level 14.**
+> (0) ⏰ At login read `rollover` from `api.php?what=status` before any long burst.
+> (1) 🛒 **BUY FIRST — the pantry is empty:** milk of magnesium (~100) · herbal stuffing ×3 (~390–420) ·
+>     **phonics down ×15** (only 9 left; prices climbed 230 → 290 as I bought) · booze for the rack.
+>     ⚠️ **Ye Olde Meade was 599 and Fog Murderer vanished from the mall mid-day** — price both, and fall back to
+>     **popskull (130, potency 2, ~3–4 adv)**: 7 of them fill a 14 cap exactly. Keep ONE big bottle for the overdrink.
+> (2) ⚔️ **FINISH THE WAR — front at Image #26 of 32.** ~9–10 wins per image, so **~60 wins** should clear it.
+>     Keep the War Hippy Fatigues on. Further side quests (Nunnery / Orchard / Junkyard) are **not worth it now** —
+>     each doubling has measured out flat (see `island-war.md`).
+> (3) 🏁 **When the front is clear → the boss, "The Man"** (hippy side): the way in is the **Orcish Frat House**
+>     building on `bigisland.php`; `bigisland.php?place=camp&whichcamp=2` flips to narrative prose and exposes
+>     **`bigisland.php?action=bossfight&pwd=<hash>`**. 🚨 **He RAMPS damage every round — it is a DPS race, not a
+>     turtle.** Enter at FULL HP/MP, open with the biggest hit every round, heal only under ~35%.
+>     ⚠️ Boss attempts cost **0 adventures**, so a loss only costs the Beaten Up recovery — but re-read
+>     `island-war.md` § "The Man" before the first try, and look up his Defense (Club Foot first if it's 150+).
+> (4) 💰 Meat is healthy (26k) and the war is meat-positive at the moment (frat drops sell) — restock freely.
+> (5) 🧙 Torg at Level 14: *Precision of the Penguin* · *Musk of the Moose* (plus the unbought Level 13 pair).
+> (6) Other open quests once the war ends: Nemesis cave, Wizard of Ego, White Citadel, *A Quest, LOL*.
+
+<details><summary>Day 20's priorities (superseded)</summary>
+
 > **14 adventures banked (the Day 20 overdrink) + the new day's allowance. Meat 20,485. Level 14.**
 > (0) ⏰ At login read `rollover` from `api.php?what=status` (Unix timestamp; 03:30 UTC) before any long burst.
 > (1) 🍽️ **EAT:** buy milk of magnesium (~100) + herbal stuffing ×3 (~390 each) again — both are consumed daily;
@@ -124,8 +157,24 @@ Healing ladder: **filthy poultice / gauze garter (0 adv, 0 MP, ~87 HP)** → **C
 >     response.
 > (6) Other open quests: Nemesis cave, Wizard of Ego, White Citadel, *A Quest, LOL* (Baron Rof L'm Fao).
 > (7) ⚔️ Combat standard unchanged (dual-wield, Lunging every round; Club Foot first vs Defense 150+ bosses).
+</details>
 
 ## 🗓️ Session log (this run)
+
+- **Run #3 Day 21 (2026-09-17): 🦆 Farm side quest done (4x), war front #16 → #26 of 32 — ~148 fights, 0 losses.**
+  🍽️ 72 adventures from breakfast (milk + 3 herbal stuffing + 3 plain snowcones).
+  🚨 **Corrected a wrong note of my own:** `island-war.md` said *"snarf 137 is NOT part of the Farm quest"*. It is
+  **the** quest zone — after the farmer accepts (with `&pwd`), **the Barn (137) is the only live link on the farm
+  page**. Three scheduled Barn noncombats shoo the flock elsewhere: **147 Cornered!** (pitchfork → Granary),
+  **148 Cornered Again!** (lantern → Back 40), **149 How Many Corners…** (shotgun → Shady Thicket) — then the Barn
+  closes (*"There are no more ducks here"*). ✅ Whole quest: **32 adventures, 0 losses** (4 Barn + 9/10/9 in the
+  three duck zones: 142 hot ducks · 144 rotund · 147 drunk), then the farmer plants soybeans.
+  📊 **The doubling measured out flat again:** 45 wins moved #16 → #21 at 4x — the same ~9–10 wins per image as at
+  1x and 2x. ⇒ budget the war in **images per day**, not in "the next side quest halves it". ⇒ `island-war.md`.
+  🍺 **Supply squeeze:** the Meade listings jumped to **599** and **Fog Murderer vanished from the mall mid-day**
+  (a buy returned 0, then the search showed no listings at all). Fell back to **7 × popskull → exactly 14** (+25 adv)
+  and spent the last Meade on the overdrink (+14 banked). Phonics down also thinned to 9 as prices rose 230 → 290.
+  💰 Meat 20,485 → 26,801 despite ~4,000 of buying: the battlefield pays for itself at this level.
 
 - **Run #3 Day 20 (2026-09-16): ⚔️ Lighthouse side quest done, war front #6 → #16 of 32, Level 14 — ~140 fights,
   0 losses.**
