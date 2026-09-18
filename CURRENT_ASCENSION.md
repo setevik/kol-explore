@@ -29,16 +29,25 @@ Disco Bandit · Accordion Thief.
 
 ---
 
-## 📊 Character state (end of run #3 Day 21 / 2026-09-17)
+## 📊 Character state (end of run #3 Day 22 / 2026-09-18)
 
-- **LEVEL 14 Seal Clubber.** Muscle 211 / Mys 132 / Mox 134 (in the war outfit). **Max HP 361, max MP 202.**
-  💰 **Meat 26,801.** **14 adv banked** (the overdrink). full 15, drunk 19 (exactly 14 + ONE Meade ✅).
-- ⚔️ **ISLAND WAR:** front at **Image #26 of 32**; **Lighthouse ✅ and Farm ✅ side quests done (4x)**.
-  War Hippy Fatigues worn. Remaining side quests: Nunnery, Orchard, Junkyard, Arena (all optional).
-- 🧰 **Supplies after Day 21 — thin:** phonics down ×9 ⚠️ · popskull ×9 · tiny house ×5 · filthy poultice ×6 ·
-  scroll of drastic healing ×6 · antidote ×53 · plain snowcone ×7 · fire of unknown origin ×15 · limoncello ×1.
-  ❌ **No Ye Olde Meade, no milk, no herbal stuffing** — buy all three at day-open.
-- **Day 21: ~148 fights, 0 losses.**
+- **LEVEL 14 Seal Clubber.** Muscle 245 / Mys 137 / Mox 141. **Max HP 372, max MP 137.**
+  💰 **Meat 22,361.** **15 adv banked** (the overdrink). full 15, drunk 20 (exactly 14 + ONE Fog Murderer ✅).
+- 🏆 **THE ISLAND WAR IS WON** — The Man dead (7 rounds), **Blue Diamond of Honesty** from the Council, war outfit
+  retired. Loadout back to: Crown of the Goblin King · Misty Cloak · black sword + Hammer of Smiting ·
+  black greaves · giant motorcycle boots · batskin belt · **continuum transfunctioner in acc3** (for the 8-Bit
+  Realm; the *amulet of extreme plot significance* is in inventory, swap back when not grinding pixels).
+- 🗼 **NEW COUNCIL QUEST: the Naughty Sorceress' Tower** (*The Ultimate Final Epic Conflict of the Ages*).
+  - **Keys: 3 of 6** ✅ skeleton key · ✅ Richard's star key (both from storage parts, zero adventures) ·
+    ✅ Boris's key (Daily Dungeon token). ❌ Jarlsberg's + Sneaky Pete's = **one Daily Dungeon run per day**,
+    so **2 more days**. ❌ digital key = **8,250 / 10,000 points** in the 8-Bit Realm (points persist).
+  - **Contests: all three REGISTERED AT RANK #11** (worst) — 10 opponents each, and it cannot be re-rated.
+    Crowd 1: 9 warm-ups beaten, **champion The Tasmanian Dervish LOST twice** (1 round, then 2 rounds from
+    375/375 HP with Astral + Ghostly Shell). Crowds 2 and 3 untouched.
+- 🧰 **Supplies:** popskull ×10 · Ye Olde Meade ×1 · phonics down ×13 · tiny house ×6 · filthy poultice ×5 ·
+  scroll of drastic healing ×5 · antidote ×53 · plain snowcone ×4. ❌ No milk, no herbal stuffing, no Fog Murderer.
+- 🛡️ **Astral Shell + Ghostly Shell active (~455 turns)** — free from the buffbot by kmail.
+- **Day 22: ~75 fights, 2 losses (both to the Dervish).**
 
 <details><summary>End of Day 20 (for reference)</summary>
 
@@ -118,6 +127,26 @@ Healing ladder: **filthy poultice / gauze garter (0 adv, 0 MP, ~87 HP)** → **C
 
 ## 🔜 Next-session priorities
 
+> **15 adventures banked (the Day 22 overdrink) + the new day's allowance. Meat 22,361. Level 14.**
+> (0) ⏰ Read `rollover` from `api.php?what=status` at login before any long burst.
+> (1) 🛒 **BUY:** milk of magnesium (~100) · herbal stuffing ×3 (~420) · **phonics down ×15** (13 left) ·
+>     popskull is fine (10) but **buy one big bottle for the overdrink** (Fog Murderer ~250 when listed, else Meade).
+> (2) 🗝️ **DAILY DUNGEON FIRST — it is the only day-gated thing left.** Tools are in inventory (pole, ring,
+>     lockpicks; ⚠️ the ring displaces an accessory — take it off after). Chest labels are `Open the chest`
+>     (690/691) and `Open it!` (689). Token → DA Vending Machine **row 94 Jarlsberg's key** (row 95 = Sneaky Pete's
+>     on the following day). ⭐ **The fat loot token is item 5221, NOT 1470** — look it up by name.
+> (3) 🕹️ **Digital key: 1,750 points to go (8,250 / 10,000).** Equip the **continuum transfunctioner**, rotate
+>     zones by the charpane Score colour (black 565 · blue 566 · green 564 · red 563) — ~134 pts/fight, ~13 fights.
+>     Then **Treasure House** `place.php?whichplace=8bit&action=8treasure` → choice 1493 **option 1** = digital key.
+>     ⭐ The 8-Bit Realm works **while drunk**, so it is where the evening's booze adventures should go.
+> (4) 🏋️ **THE DERVISH IS A DAMAGE PROBLEM, NOT AN HP ONE.** Lost twice at 375/375 with both shells up; it deals
+>     ~190+/round through DR and must die in ~2 rounds. Before trying again: more damage (a real multiplier /
+>     +weapon damage gear), and consider doing crowds 2 and 3's warm-ups first so only champions remain.
+> (5) ⚔️ Combat standard unchanged (dual-wield, Lunging every round; Club Foot first vs Defense 150+).
+> (6) Other open quests once the tower is moving: Nemesis cave, Wizard of Ego, White Citadel, *A Quest, LOL*.
+
+<details><summary>Day 21's priorities (superseded)</summary>
+
 > **14 adventures banked (the Day 21 overdrink) + the new day's allowance. Meat 26,801. Level 14.**
 > (0) ⏰ At login read `rollover` from `api.php?what=status` before any long burst.
 > (1) 🛒 **BUY FIRST — the pantry is empty:** milk of magnesium (~100) · herbal stuffing ×3 (~390–420) ·
@@ -136,6 +165,7 @@ Healing ladder: **filthy poultice / gauze garter (0 adv, 0 MP, ~87 HP)** → **C
 > (4) 💰 Meat is healthy (26k) and the war is meat-positive at the moment (frat drops sell) — restock freely.
 > (5) 🧙 Torg at Level 14: *Precision of the Penguin* · *Musk of the Moose* (plus the unbought Level 13 pair).
 > (6) Other open quests once the war ends: Nemesis cave, Wizard of Ego, White Citadel, *A Quest, LOL*.
+</details>
 
 <details><summary>Day 20's priorities (superseded)</summary>
 
@@ -160,6 +190,27 @@ Healing ladder: **filthy poultice / gauze garter (0 adv, 0 MP, ~87 HP)** → **C
 </details>
 
 ## 🗓️ Session log (this run)
+
+- **Run #3 Day 22 (2026-09-18): 🏆 THE ISLAND WAR WON (The Man dead), the Naughty Sorceress' Tower opened,
+  3 of 6 keys — ~75 fights, 2 losses (both to one champion).**
+  🍽️ 67 adventures from breakfast. ⚔️ Cleared the front #26 → #32 (69 wins), then **The Man: 7 rounds** —
+  **Club Foot ×2 first** (his Defense 225 vs my Muscle 211), then Lunging every round; he landed 2 hits.
+  Drop autosold for **5,000**. Council → **Blue Diamond of Honesty** → new quest: the Tower.
+  🗝️ **Two keys for zero adventures:** storage held 64 skeleton bones, 54 loose teeth, 7 stars, 8 lines and spare
+  dungeon tools ⇒ skeleton key meat-pasted, **Richard's star key** bought at the star chart shop (it is **item
+  665**, and the **fat loot token is 5221** — both ids in my notes were wrong). Daily Dungeon (pole/lockpicks,
+  3 fights) → token → **Boris's key**.
+  🚨 **The day's real mistake: I registered all three tower contests while `Apathy` was active** (Muscle 185 vs
+  246), unbuffed and with no gear swaps — the desk rated me **rank #11 in all three**, i.e. **10 opponents each**,
+  and the rating cannot be redone. ⇒ `naughty-sorceress-tower.md` now says to clear debuffs and gear up *per
+  contest* before submitting.
+  💀 **The Tasmanian Dervish beat me twice** — 1 round at 268 HP, then **2 rounds at 375/375 with Astral +
+  Ghostly Shell up**. It deals ~190+/round through damage reduction. ⇒ it is a **damage check**: kill it in ~2
+  rounds or don't attempt. Also learned that a 35% in-combat heal gate wastes the healing stack on the 9 warm-ups.
+  🛡️ **Buffy the buffbot casts Ghostly Shell and Astral Shell free — 455 turns each** ⇒ `HANDOFF.md`.
+  🕹️ Spent the tail of the day (and all the booze adventures — **the 8-Bit Realm works while drunk, the tower does
+  not**) on pixel points: **8,250 / 10,000** for the digital key at ~134 pts/fight with zone rotation.
+  🍺 Filled to exactly 14 with 7 popskull, spent every one, then **ONE Fog Murderer overdrink (+15 banked)**.
 
 - **Run #3 Day 21 (2026-09-17): 🦆 Farm side quest done (4x), war front #16 → #26 of 32 — ~148 fights, 0 losses.**
   🍽️ 72 adventures from breakfast (milk + 3 herbal stuffing + 3 plain snowcones).

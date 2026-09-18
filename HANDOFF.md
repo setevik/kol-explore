@@ -331,6 +331,11 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
 - **Antidote:** soft green echo eyedrop antidote (588) cures poison via `uneffect.php` (`using=true&whichitem=588&whicheffect=284`).
 - **Free buffs:** the buffbot **"Buffy" (#1889009)** casts e.g. **Fat Leon's Phat Loot Lyric (+20% item)** — just kmail
   the buff name (`sendmessage.php` POST towho=1889009, message="Fat Leon's Phat Loot Lyric", sendmeat=1); auto-casts in seconds.
+  ✅ **It also casts the defensive shells: `Ghostly Shell` and `Astral Shell` — measured at 455 adventures each**,
+  free, one kmail per buff name. That is effectively a permanent damage-reduction layer for a whole day's
+  questing. ⭐ **Ask for them before any champion/boss fight** (the NS tower's crowd champions, war bosses), and
+  re-request whenever the charpane no longer lists them. ⚠️ They add damage reduction, **not max HP** — measured:
+  max HP was unchanged at 375 with both up.
 
 ## 🐾 Familiars — check the terrarium every run (mechanics: `mechanics/familiars.md`)
 

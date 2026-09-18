@@ -47,6 +47,22 @@ snarf 27 is dead (*"you shouldn't be here"*). Instead **click "The Orcish Frat H
 `bigisland.php` map** (~x503,y320) → **"Commence the Sense-Knocking"** link → boss fight.
 (Frat side's boss is **The Big Wisniewski**, reached analogously via the Hippy Camp building.)
 
+### 📊 The Man — stat block (wiki)
+
+**HP 2,000 · Attack 250 · Defense 225 · No-Hit 269 · Initiative 60 · Phylum dude · Element sleaze · no resistance.**
+Drops the **really dense meat stack** (autosells ~5,000).
+🚨 **You cannot enter the fight while drunk** — *"You're too drunk to go there. So don't go there."* ⇒ **fight the
+boss BEFORE the evening drink step**, not after. (A day that fills the liver first cannot finish the war.)
+⚔️ **Defense 225 is an accuracy gate** for a melee class whose buffed Muscle is below it — open with the
+Defense-lowering skill (Seal Clubber: **Club Foot**) before spending rounds on damage, or the damage column
+comes back blank (see `combat-and-initiative.md`).
+
+📦 **War combat items, measured off the wiki** (all one round each, so they are a *backup*, not a plan, against
+2,000 HP): **beer bomb 55–75 physical** · **water pipe bomb 55–75 physical** · **patchouli oil bomb 65–80 stench**
+· **sake bomb 45–60 physical + weakens the enemy** · fire of unknown origin 35–45 hot + 35–45 spooky ·
+photoprotoneutron torpedo 30–40 physical. The battlefield drops beer/sake bombs steadily, so a stack of 15+ is
+normal by the time the front clears — worth ~1,000 damage in total if the fight goes badly.
+
 ### ⭐⭐ Beating "The Man" — DPS RACE, do NOT turtle
 - **He RAMPS UP damage every round.** Sleaze paddle ~55–59 early, climbing to ~70–100+ by round ~25.
 - **Attrition/turtling LOSES** — the longer the fight, the harder he hits; you out-heal him early but eventually
@@ -62,6 +78,18 @@ snarf 27 is dead (*"you shouldn't be here"*). Instead **click "The Orcish Frat H
 - **Boss attempts cost 0 adventures.** Only the Beaten-Up recovery rest costs 1 adv. Retries are cheap:
   lose → `campground.php?action=rest` (clears Beaten Up) → scroll(595) full HP + tiny houses(592) full MP →
   re-click frat house → retry.
+
+### ✅ VERIFIED KILL #2 — a MUSCLE class, 7 rounds, two hits taken
+
+**Level 14 Seal Clubber, base Muscle 211 (below his Defense 225), dual-wielding black sword + Hammer of Smiting.**
+Entry: **376/376 HP, 165/205 MP**, no buffs at all, no familiar contribution worth noting.
+**Line that won it: `Club Foot` ×2 (rounds 0–1), then `Lunging Thrust-Smack` every round.** He landed exactly two
+blows (68 and 74) and died on round 7 at 262/376 HP. No healing item was needed, no bombs were thrown.
+⇒ **The Defense gate is the whole fight for a melee class:** two casts of the Defense-lowering skill turn a
+Muscle-211 character into someone who hits a Defense-225 boss every round. Don't open with damage.
+⇒ The ramp never started — consistent with the Pastamancer note below: **kill him inside ~10 rounds and the
+ramping damage is irrelevant.** Budget ~110 MP (16 for Club Foot + ~8/round).
+💰 Drop: **really dense meat stack** (autosell 5,000, `sellstuff_ugly.php` with `mode=3`/`item2829=2829`).
 
 ### ✅ VERIFIED KILL — **5 rounds, no damage taken after round 4**
 The doctrine above is confirmed, and can be tightened:

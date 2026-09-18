@@ -32,6 +32,15 @@ measured three different ways. ✅ Verified in-game:
 
 Each swap is free and costs no adventure; each one lowers that contest's opponent count.
 
+🚨 **MEASURED COST OF REGISTERING UNPREPARED: rank #11 in all three = 30 opponent fights.** A character that
+submitted all three options back-to-back — no initiative buff, no elemental item, no stat booster, **and an
+active `Apathy` debuff holding its main stat 61 points below normal** — was rated *"rank #11"* by the desk each
+time, which is the worst of the #2–#11 band (10 opponents per contest). **The evaluation cannot be redone**: once
+a contest is entered its option disappears from choice 1003, so the rank is locked in for the run.
+✅ **Before touching the desk:** read `api.php?what=status` → `effects` and **clear any debuff**, put on the
+initiative / elemental / stat gear for the contest you are about to submit, and submit them **one at a time**.
+A few minutes of free swapping is worth ~25 adventures of avoided fights.
+
 - **Then fight the crowds:** the tower shows **ns_01_crowd1 / crowd2 / crowd3** — `place.php?whichplace=nstower&action=ns_01_crowdN`
   starts each opponent fight; keep clicking a crowd until it stops giving a fight (that contest won). ⚠️ opponents (esp. the
   rank-1 champions like the **Tasmanian Dervish**) are **tanky — keep MP topped (Mortar→Cannelloni)**; MP-starving loses.
@@ -57,10 +66,37 @@ damage taken**, and the remaining two crowds went **10W/0L each including their 
 ✅ **Cocoon threshold for these fights: heal at ~70% HP, not 35%** — at ~190 damage per round, 35% is already
 dead.
 
+🚨 **Re-measured on a Muscle class, and it is worse than "two-shot": The Tasmanian Dervish killed a Level 14 Seal
+Clubber in ONE round from ~268/282 HP.** The nine warm-up opponents before it (Microwave Magus, Kung-Fu Hustler,
+Cheetahman) died in a round each without trouble — **the crowd is a pushover right up to the champion, which is a
+different class of monster entirely.** Two lessons:
+- **Max HP is the gate.** ~280 is not enough; raise it (buffbot shells, gear, a stat-boosting food) before
+  clicking a crowd for the 10th time, or expect to donate a turn plus a Beaten Up recovery.
+  ✅ **Second attempt, same character, everything fixed that could be fixed cheaply — still lost.** Full
+  **375/375 HP**, **Astral Shell + Ghostly Shell** both active, in-combat healing gated at 70% with 10 poultices
+  in the bag: the Dervish won **in 2 rounds**. ⇒ It deals **~190+ per round through damage reduction**, so a
+  ~375 max-HP melee character cannot trade with it at all — the extra HP bought one round, not the fight.
+  🎯 **Treat a crowd champion as a DAMAGE check, not a survivability one:** you must kill it in ~2 rounds.
+  For a Muscle class that means a real damage multiplier (and the rank you registered at, which decides how many
+  of these you have to face). **Don't retry it more than once in a day** — each loss is a turn plus a Beaten Up
+  clear, and nothing about the fight changes between attempts.
+- 🐛 **A 35% in-combat heal gate spends your whole healing stack on the warm-ups.** Four poultices went on
+  one-round fights that never needed them, leaving nothing for the champion. **Gate in-combat healing at ~70% and
+  only for the champion**, or heal between fights out of combat instead.
+
 - When all 3 crowds are gone, the desk offers **choice 1003 opt 4 "Claim your prize"** → **World's Best Adventurer sash** →
   advances to `ns_02_coronation`.
 
 ## Step 2 — The SIX tower-door keys  (each consumed at the door)
+
+⭐ **RAID HAGNK'S BEFORE SPENDING A SINGLE TURN ON KEYS.** Key materials and the Daily Dungeon tools all persist
+across ascensions, so a second-or-later run usually starts with most of them. ✅ Measured on one such run, all for
+**zero adventures**: storage held **64 skeleton bones · 54 loose teeth · 7 stars · 8 lines · 3 star charts** plus
+spare **eleven-foot poles, rings of Detect Boring Doors and pick-o-matic lockpicks** — enough to meat-paste the
+**skeleton key** on the spot and buy **Richard's star key** the same minute. That is 2 of the 6 locks before the
+day's first fight, and the dungeon tools that make each Daily Dungeon run ~6–8 turns instead of 15.
+⇒ **Order of work: pull and craft the free keys first, then start the day-gated hero keys, and leave the digital
+key (10,000 points) as the long tail.**
 | Key | Source | Notes |
 |---|---|---|
 | **Boris's / Jarlsberg's / Sneaky Pete's** | **Daily Dungeon** → fat loot token → **DA Vending Machine** | 1 token/day ⇒ 3 days |
@@ -76,6 +112,9 @@ Boris's key = **item 282, row 93** · Jarlsberg's = **item 283, row 94** · Snea
 - **Farm the Hole in the Sky = `adventure.php?snarfblat=83`** (atop the beanstalk via `place.php?whichplace=beanstalk`;
   81 = Airship, 83 = Hole in the Sky). Its constellation-monsters drop **star (654)** and **line (655)** at a good rate
   (~13 stars + 7 lines in ~15 fights). Monsters die in 2 rounds to Mortar→Cannelloni.
+- ✅ **Richard's star key is item 665** (an older note here implied 640 — wrong id, and a wrong id reads as "I already
+  have it"). Buying it prints *"You place the stars and lines on the chart -- the chart bursts into flames"* and
+  consumes 8 stars + 7 lines but **not** the star chart.
 - **Craft the key at the star chart shop: `shop.php?whichshop=starchart`, Richard's star key = row 141**
   (`&action=buyitem&whichrow=141&quantity=1&pwd=`). Consumes exactly **8 stars + 7 lines** (the star chart 656 is
   the reusable "tool", not consumed). ⚠️ `inv_use` on the star chart says "not implemented" — you MUST use the shop URL.
@@ -92,6 +131,10 @@ Boris's key = **item 282, row 93** · Jarlsberg's = **item 283, row 94** · Snea
   565, blue→Megalo-City 566, green→Hero's Field 564, red→Fungus Plains 563.** (Bonus points from init/DA/item/meat need
   300–595% to matter — negligible for us, so it's just +100 in the matching zone, +50 off-color.)
 - ✅ **Measured rotation rate: ~140–170 pts/fight** (samples: 2,400 over 14 fights, then 2,800 over 18).
+  ✅ **Re-measured on a Level 14 Muscle class: 3,350 points over 25 fights (~134/fight), 0 losses**, using plain
+  weapon attacks (MP spend ≈ 0) and re-reading the Score colour before **every** fight. ⭐ **It is also the right
+  place to spend booze adventures at day's end: the 8-Bit Realm is NOT the tower**, so it still works while drunk,
+  whereas the tower map refuses you ("Too Drunk!").
   ⇒ **10,000 from a standing start ≈ 60–75 fights.** (An older ~110/fight estimate is on the low side; the
   ~63/fight figure below is for staying in ONE zone, which is the thing to avoid.) Weapon-attack rounds 1–2 and
   escalate to Cannelloni only if the monster survives — **MP cost is near zero**, which makes this the right zone
@@ -116,6 +159,17 @@ Boris's key = **item 282, row 93** · Jarlsberg's = **item 283, row 94** · Snea
   eleven-foot pole (**6302**), ring of Detect Boring Doors (**6303**, equip it), pick-o-matic lockpicks (**280**).
 - **Room-choice handling:** trap = **choice 693 → option 2** (pole); locked door = **choice 692 → option 3** (lockpicks);
   chests (rooms 5/10) = **choices 690/691 → option 1** (open); **final room-15 chest = choice 689 → option 1** ("Open it!").
+  ⚠️ **Match the chest labels exactly: 690/691 read `Open the chest`** (· `Go through the boring door` · `Ignore the
+  chest`), **not** "Open it" — a rule written as `/^Open it/` stops the run dead on the first chest. Only the final
+  689 chest uses "Open it".
+  ⚠️ **The ring of Detect Boring Doors displaces an accessory, so take it off after the run** (HANDOFF § "Quest
+  gear is a loan") — but it is a *small* loss: swapping the ring for an *amulet of extreme plot significance*
+  moved max HP by only ~6.
+  🐛 **Don't attribute a max-HP drop to a gear swap without reading your ACTIVE EFFECTS.** A first pass here
+  blamed the ring for **374 → 288 max HP**; putting the amulet back gave only **282**, and the real cause was
+  **`Apathy`** — a debuff picked up inside the dungeon that also dropped Muscle 246 → 185. Gear explained ~6 HP of
+  it. ✅ **Read `api.php?what=status` → `effects` before concluding anything from a stat change**; a debuff and a
+  gear swap look identical in the numbers alone.
   Monster rooms = fight. With tools, a full run ≈ 6–8 adv (only monster/chest rooms cost turns).
 - **DA Vending Machine = `shop.php?whichshop=damachine`.** Hero keys: **Boris's = row 93, Jarlsberg's = row 94,
   Sneaky Pete's = row 95**, each **1 fat loot token**. (Also sells hero-outfit pieces rows 96–98.)
