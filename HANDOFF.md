@@ -89,8 +89,9 @@ returned `null` on an open choice, so the page read as "nothing to answer" while
 - ⚠️ **A long farm loop can run through ROLLOVER.** If a loop is still going at rollover, adventures/full/drunk reset
   mid-run and **the DRINK step is silently missed** (it happened: the day ended with drunk 0). For any loop that could
   run near rollover, **do the DRINK step before starting it**, or cap the loop short.
-  🚨 **It happened AGAIN despite this note — because nothing checked the clock.** A warning you have to remember to
-  apply is not a guard. ✅ **At login, record how long remains until rollover.** ✅ **`api.php?what=status` carries a `rollover`
+  🚨 **A warning you have to remember to apply is not a guard** — this trap recurs even where the note above is
+  already written down, because nothing in the routine checks the clock. ✅ **At login, record how long remains
+  until rollover.** ✅ **`api.php?what=status` carries a `rollover`
   field — the Unix timestamp of the next rollover** (verified: it resolved to **03:30 UTC**, i.e. 8:30 PM Arizona;
   the wiki says only *"every night, at about X:30 PM (your time)"*, ~10 minutes of downtime):
   `hoursLeft = (+s.rollover - Date.now()/1000) / 3600`. **Before launching any loop, compare that to the loop's
@@ -306,7 +307,7 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
   `shop.php?whichshop=hiddentavern&action=buyitem&whichrow=175`. Drink with
   `inv_booze.php?which=1&whichitem=6682&pwd=` (**not** `inv_use.php` — see `drinking-strategy.md`).
   (There is NO booze upgrade beyond this — Advanced Cocktailcrafting is Disco-Bandit-only; Pastamancer can't learn it.)
-- ✅ **MP restore — the two that matter.** ⚠️ Older notes in this file disagreed about these; this is the
+- ✅ **MP restore — the two that matter.** ⚠️ Conflicting claims circulate about these; this is the
   reconciled version. **Both exist; neither is "gone".**
   | Item | MP | Where | Note |
   |---|---|---|---|

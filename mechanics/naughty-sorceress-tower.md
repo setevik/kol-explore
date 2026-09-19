@@ -112,8 +112,8 @@ Boris's key = **item 282, row 93** · Jarlsberg's = **item 283, row 94** · Snea
 - **Farm the Hole in the Sky = `adventure.php?snarfblat=83`** (atop the beanstalk via `place.php?whichplace=beanstalk`;
   81 = Airship, 83 = Hole in the Sky). Its constellation-monsters drop **star (654)** and **line (655)** at a good rate
   (~13 stars + 7 lines in ~15 fights). Monsters die in 2 rounds to Mortar→Cannelloni.
-- ✅ **Richard's star key is item 665** (an older note here implied 640 — wrong id, and a wrong id reads as "I already
-  have it"). Buying it prints *"You place the stars and lines on the chart -- the chart bursts into flames"* and
+- ✅ **Richard's star key is item 665.** ⚠️ Confirm that id before testing possession — a wrong item id reads as
+  *"I already have it"* (HANDOFF § "Verify an item id before you trust it"). Buying it prints *"You place the stars and lines on the chart -- the chart bursts into flames"* and
   consumes 8 stars + 7 lines but **not** the star chart.
 - **Craft the key at the star chart shop: `shop.php?whichshop=starchart`, Richard's star key = row 141**
   (`&action=buyitem&whichrow=141&quantity=1&pwd=`). Consumes exactly **8 stars + 7 lines** (the star chart 656 is
@@ -165,11 +165,11 @@ Boris's key = **item 282, row 93** · Jarlsberg's = **item 283, row 94** · Snea
   ⚠️ **The ring of Detect Boring Doors displaces an accessory, so take it off after the run** (HANDOFF § "Quest
   gear is a loan") — but it is a *small* loss: swapping the ring for an *amulet of extreme plot significance*
   moved max HP by only ~6.
-  🐛 **Don't attribute a max-HP drop to a gear swap without reading your ACTIVE EFFECTS.** A first pass here
-  blamed the ring for **374 → 288 max HP**; putting the amulet back gave only **282**, and the real cause was
-  **`Apathy`** — a debuff picked up inside the dungeon that also dropped Muscle 246 → 185. Gear explained ~6 HP of
-  it. ✅ **Read `api.php?what=status` → `effects` before concluding anything from a stat change**; a debuff and a
-  gear swap look identical in the numbers alone.
+  🐛 **A debuff and a gear swap look identical in the numbers — read your ACTIVE EFFECTS before blaming gear.**
+  ✅ Measured: max HP fell **374 → 288** across a dungeon run that also involved the ring swap, yet restoring the
+  displaced amulet gave back only **282**. The real cause was **`Apathy`**, picked up inside the dungeon, which
+  also cut Muscle 246 → 185; the gear accounted for ~6 HP of the fall. ✅ **Read `api.php?what=status` → `effects`
+  before concluding anything from a stat change.**
   Monster rooms = fight. With tools, a full run ≈ 6–8 adv (only monster/chest rooms cost turns).
 - **DA Vending Machine = `shop.php?whichshop=damachine`.** Hero keys: **Boris's = row 93, Jarlsberg's = row 94,
   Sneaky Pete's = row 95**, each **1 fat loot token**. (Also sells hero-outfit pieces rows 96–98.)

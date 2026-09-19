@@ -17,7 +17,7 @@ battlefield + complete side quests, then beat the side's final boss to win.
   `0 done = 1/fight · 1 = 2 · 2 = 4 · 3 = 8 · 4 = 16 · 5 = 32 · 6 = 64.`
 - Raw battlefield grinding at 1–2 kills/fight is hopeless (1001 enemies). **WIN PATH: do the side quests FIRST**
   to crank the multiplier, then mop up the battlefield fast (which also unlocks gated quests/zones deeper in).
-🚨 **CORRECTION: several side quests are GATED BEHIND BATTLEFIELD PROGRESS.** At
+🚨 **Several side quests are GATED BEHIND BATTLEFIELD PROGRESS.** At
 **Image #0** both **The Lighthouse** and **Sonofa Beach (136)** refuse entry -
 *"You can't fight your way through the frat boys to get to the lighthouse"* / *"Can't get here."*
 So the "do side quests first" advice is only half true: **you must push the battlefield far enough to
@@ -133,9 +133,9 @@ high-HP boss that hits harder over time, see the boss note in `HANDOFF.md`.
    `Distant Lands Dude Ranch Adventure` (Muscle) · `Tropical Paradise Island Getaway` (Mysticality) ·
    `Large Donkey Mountain Ski Resort` (Moxie) — pick your main stat's. Opening the menu costs nothing.
    ⚠️ **Neither the dinghy, the plans nor the scrip is sold in the mall** (verified: no listings) — only the planks.
-   ⭐ **Check storage first:** scrip is kept across ascensions, and ✅ a previous run's Hagnk's held **1 spare scrip**
-   plus **both complete war outfits** (War Hippy Fatigues ×9+ of each piece, Frat Warrior Fatigues ×3+) — which
-   skips step 2 below entirely.
+   ⭐ **Check storage first:** scrip and war-outfit pieces both persist across ascensions, so **a previous
+   ascension's estate may already hold spare scrip and one or both complete sets of war fatigues** — enough to skip
+   step 2 below entirely. ✅ Verified as a real shortcut on a later run; pull and check before farming either camp.
 2. **Camp outfits come from the camps themselves, mostly via NONCOMBATS.**
    - **Orcish Frat House (27)** handed over the whole **Frat Boy Ensemble** (Orcish baseball cap 239,
      Orcish frat-paddle 241, Orcish cargo shorts 240) in ~14 turns of noncombats, no disguise needed.
@@ -192,9 +192,9 @@ high-HP boss that hits harder over time, see the boss note in `HANDOFF.md`.
   **Junkyard was still gated**).
 - **Accept it at `bigisland.php?place=farm&action=farmer&pwd=<hash>`** ("Ach! Me farm, it's overrun! Dooks all
   over it!"). ⚠️ Include the **pwd** — without it the page renders and nothing happens.
-- 🚨 **CORRECTION — the quest STARTS in the Barn, snarf 137.** An older note here said "137 is NOT part of this
-  quest"; ✅ verified otherwise: after the farmer accepts, **the Barn is the only live `snarfblat=` link on the farm
-  page**, and it serves *generic ducks*.
+- 🚨 **The quest STARTS in the Barn, snarf 137** — it is the entry point, not an unrelated zone. ✅ Verified: once
+  the farmer has accepted, **the Barn is the only live `snarfblat=` link on the farm page**, and it serves *generic
+  ducks*. The other farm zones do not exist until ducks are shooed out of the Barn (below).
 - ✅ **How the other zones open (wiki + verified):** the Barn has **three one-time noncombats spread over its first
   ~10 adventures** (combat frequency does not affect them, and free runaways still count). Each shoos part of the
   flock into a different zone, and **the Barn closes for good after the third**:

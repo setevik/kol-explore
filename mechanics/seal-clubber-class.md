@@ -331,9 +331,9 @@ climb steeply (the Level-10 pair cost **5,000 each**). A single boss's drop can 
 trainer check right after a boss dies**, not at the following morning's login — a run has repeatedly recorded
 "Torg's rack is empty" as if it were a permanent state when it only meant *at that level*.
 
-⚠️ **This corrects an earlier note here** that told you to "cast Hide of the Walrus in every grind loop's
-preamble." That call does nothing — `runskillz.php` on a passive returns the skills page and spends no MP. The
-damage-reduction benefit is real but it starts at **purchase**, not at cast.
+⚠️ **Never try to "cast" Hide of the Walrus as a grind-loop preamble.** That call does nothing —
+`runskillz.php` on a passive returns the skills page and spends no MP. The damage-reduction benefit is real but
+it starts at **purchase**, not at cast.
 
 🎯 **The strategic consequence: low max MP is a much smaller problem than it looks.** This class's power budget
 is overwhelmingly passive, so "MP is a dead resource" (an earlier conclusion here) overstated it — you are not

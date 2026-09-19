@@ -11,11 +11,11 @@ The wheel is **not** "parked at the vending machine," and you do **not** interac
     wheel**. FREE (no adventure).
   - **opt 2 "Use a ratchet on the peg"** = rotate **one step**, consumes 1 **tomb ratchet**.
     FREE (no adventure). (Only shows when you hold ≥1 ratchet.)
-  - 🚨 **CORRECTION: a wheel and a ratchet are the SAME one-step turn.** An older note here said a wheel is
-    +5 on a "~9-position" ring; the wiki gives both the identical "turns the wheel anti-clockwise" text, and
-    ✅ one wheel moved the label exactly one step (*nothing on the left, rubble on the right* → *rats on left,
-    basket on right*). **The ring has 5 positions** (the #1–#5 table below), so the "4 unknown positions" and
-    the +5 arithmetic are wrong.
+  - 🚨 **A wheel and a ratchet are the SAME one-step turn, and the ring has exactly 5 positions** (the #1–#5
+    table below). The wiki gives both items the identical *"turns the wheel anti-clockwise"* text, and ✅ one wheel
+    moved the label exactly one step (*nothing on the left, rubble on the right* → *rats on left, basket on right*).
+    ⚠️ **Don't plan around a wheel being worth several steps, or around extra unmapped positions** — neither
+    exists, and both assumptions overshoot the alignment you meant to descend on.
   - ⭐ **The whole job is 10 turns from the starting position** (*nothing on the left, rubble on the right*), per
     the wiki: **3 → basket (token) · +4 → vending machine (bomb) · +3 → rubble (blow it open)**, plus three
     1-adventure descents. Count your wheels + ratchets against 10 before starting.

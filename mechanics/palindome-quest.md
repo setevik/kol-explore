@@ -8,8 +8,8 @@ covers the **Shen Copperhead / Red Zeppelin** unlock chain that gates the Palind
 
 1. **Shen Copperhead quest** (3 snake artifacts) → **Copperhead Charm** (plain, item 7178).
    ✅ Verified: Shen's final hand-in (a single `"Yeah, Shen, I sure did."` button) cures the poison and gives the
-   **plain** charm; **Ron on the Red Zeppelin drops the *(rampant)* one (7186)**. Older text here had them swapped —
-   it doesn't matter for the meat-paste, but don't go looking for the wrong one.
+   **plain** charm; **Ron on the Red Zeppelin drops the *(rampant)* one (7186)**. The meat-paste works whichever
+   order you hold them in, but know which charm comes from which source before going hunting for one.
    Shen poisons you and demands a snake artifact; which one is fixed by the ascension-day you
    start his quest. He asks for **3 in a row** (same pool); after the 3rd you're cured and get
    the charm. The six possible artifacts, and where each drops:
@@ -54,8 +54,8 @@ Beaten-Up issues with the stun combo.
 - **photograph of a dog (7263)** — drops from **Bob Racecar / Racecar Bob**, but ⚠️ **only after ~10 native
   palindrome dudes have been killed**. Don't panic-farm for it early; it arrives on its own once the
   body count is up.
-- **photograph of an ostrich egg (7265)** — from the noncombat **"Last Egg Gets Al"** (NOT a monster drop,
-  contrary to the older note here).
+- **photograph of an ostrich egg (7265)** — from the noncombat **"Last Egg Gets Al"**; ⚠️ **not a monster drop**,
+  so no amount of fighting produces it.
 
 ✅ **Re-verified menus (match these labels):** **873** `Accept (500 Meat)` · `Decline` — **129** `Buy the photograph
 (500 meat)` · `Politely decline` — and **Last Egg Gets Al has no menu at all**: it is a plain noncombat that hands
@@ -64,7 +64,7 @@ Declining 129/873 costs no adventure; buying makes each one-time. ✅ Measured a
 Lunging Thrust-Smack): **three of the four photos in 22 Palindome fights, 0 losses** (ML 136–155).
 
 ### ✅ Choice 872 "Drawn Onward" — IT IS NOT A RANDOM NONCOMBAT (solved)
-🚨🚨 **STOP GRINDING FOR IT.** Days 121–122 burned ~190 turns hunting 872 as a random noncombat
+🚨🚨 **STOP GRINDING FOR IT.** ~190 turns were burned hunting 872 as a random noncombat
 (56 straight fights with Sonata of Sneakiness + hair spray, still zero). **872 is not a wandering
 encounter — Dr. Awkward's Office is a LOCATION**, and it only appears after you **read
 `"I Love Me, Vol. I"` (item 7262)**, a Palindome drop that can sit unread in your bag for days.

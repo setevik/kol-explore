@@ -279,7 +279,7 @@ thrall up, cheap Cannelloni went **13W/1L** in the Office — 4× more turns per
 
 ---
 
-## The Copperhead / Palindome branch (verified Days 119–120)
+## The Copperhead / Palindome branch (✅ verified in-game)
 
 **Shen Copperhead** — *Copperhead Club, snarfblat **383*** (`place.php?whichplace=town_wrong`).
 First visit is choice **1074 → opt 1 "Approach Shen's table"**, then **851 → 1 "Agreed."**. He poisons you
@@ -290,7 +290,7 @@ fills with **ninja waiters** you must fight through to reach his table each time
 | # | Artifact | Where | Notes |
 |---|---|---|---|
 | 1 | **The Shield of Brook** | **The Unquiet Garves (21)** — `place.php?whichplace=cemetery` | dropped by *the Snakeleton*; ~20 turns |
-| 2 | **The Eye of the Stars** | **The Hole in the Sky (83)** | ⚠️ **dropped by *The Snake With Like Ten Heads*** (ML 160, Def 160, HP 175) per the wiki's zone table — **not** the Astronomer, as an earlier note here said; the snake appears while this step is active |
+| 2 | **The Eye of the Stars** | **The Hole in the Sky (83)** | ⚠️ **dropped by *The Snake With Like Ten Heads*** (ML 160, Def 160, HP 175) per the wiki's zone table — ⚠️ **not** the Astronomer; the snake appears while this step is active |
 | 3 | **The First Pizza** | **Lair of the Ninja Snowmen (272)** — `place.php?whichplace=mclargehuge` | dropped by *the Frozen Solid Snake*; ~9 turns |
 | — | **The Stankara Stone** | **The Batrat and Ratbat Burrow (32)** | dropped by *the Batsnake*; ✅ 6th Burrow turn, 0 losses at Level 12 |
 | — | **Murphy's Rancid Black Flag** | **Castle Top Floor (324)** | dropped by *the Burning Snake of Fire*; ✅ 6th top-floor turn, 2 rounds (Club Foot → Lunging Thrust-Smack) |

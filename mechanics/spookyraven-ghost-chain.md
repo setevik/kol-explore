@@ -140,7 +140,7 @@ and costs no turn. Key the loop's rule by the menu's **label set**, because each
 - 🐺 **The class standards** (Seal Clubber wolf / Turtle Tamer snake) come from the mahogany nightstand's (877)
   `Look under the nightstand`, **only with Lord Spookyraven's spectacles equipped** — see `seal-clubber-class.md`.
   A 20-fight grind without the spectacles found none.
-- 🔧 Next time, **log the monster name alongside each drawer menu** so the choice-number ↔ nightstand map can be
+- 🔧 **Log the monster name alongside each drawer menu** while grinding here, so the choice-number ↔ nightstand map can be
   verified rather than inferred.
 - The zone also throws in non-nightstand monsters (a wardrobe-type enemy) with no drawer menu.
 Elegant nightstands were common: four in 20 fights.
