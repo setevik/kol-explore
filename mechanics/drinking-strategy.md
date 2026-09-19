@@ -131,7 +131,7 @@ The craft page (`craft.php?mode=cocktail`) `<option>` list is also the fastest w
 2. 🎯 **Liver of Steel — raises the cap 14 → 19 (+5).** From drinking a **steel margarita (item 2743)**, the reward
    for the **Azazel quest** in **Pandamonium**. Worth ~+9 adv/day. ⚠️ Cannot be permed at ascension — re-acquire
    each run.
-   ⚠️ **CORRECTION (verified in-game): this is NOT "right after the Friars".** The Friars ritual only opens
+   ⚠️ ✅ **Verified in-game: this is NOT "right after the Friars".** The Friars ritual only opens
    the *gate*. The three talismans live behind hard stat gates — **Infernal Rackets Backstage (snarf 243) needs
    mainstat 55**, **The Laugh Floor (242) needs 60**, Pandamonium Slums (248) needs 45 — so it's a **Level ~9–10**
    project. Plan it for then; don't count on it at Level 6–7.

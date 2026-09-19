@@ -123,7 +123,7 @@ when deciding what to perm. **The answers are run state and belong in `CURRENT_A
      belong to whichever skill precedes it.
   2. **Cut the segment BEFORE the legend.** Pairing anchors with trailing text is right, but the *last* skill's
      capture falls through to `$` and swallows the legend's own `(P)`, so **whatever sits last always reads as
-     permed.** (This invented a skill I had never permed and a whole bogus conclusion with it.)
+     permed.** (That invents a skill which was never permed, and a bogus conclusion along with it.)
   ✅ **Correct form:**
   ```js
   const start = cs.indexOf('Skills:'), legend = cs.indexOf('= Permanent skill');

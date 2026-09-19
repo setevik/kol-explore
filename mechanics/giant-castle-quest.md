@@ -109,5 +109,5 @@ Castle giants are ~150 HP and hit for ~40–60 a round. ✅ **Measured on the sa
 
 ⇒ **Budget one MP restorative per fight and never let the pool hit zero.** The moment MP ran out, the same loop
 in the same zone started losing — see `seal-clubber-class.md`. This is the general form: **a class that has a
-damage multiplier available has an MP floor, whatever its guild file used to say about MP being a dead
+damage multiplier available has an MP floor, regardless of any class-file claim that MP is a dead
 resource.**

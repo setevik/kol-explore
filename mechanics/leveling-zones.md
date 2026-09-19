@@ -62,8 +62,8 @@ L5 = base 20 (raw 400) · **L6 = base 29 (raw 841)** · L7 = base 40 (raw 1600) 
 **L9 = base 68 (raw 4624)** · **L10 = base 85 (raw 7225)** · L11 = base 104 (raw 10816).
 ⚠️ **The gaps are BRUTAL up here** — L9→L10 alone is ~2,600 raw (≈ a base 68→85 climb). At ~5 raw/turn in the
 Kitchen that's 500+ turns; even at ~14/turn in a high-ML zone it's ~180 turns. **Plan L10 as a multi-day push**,
-and don't trust a single "almost there" reading. (⚠️ An earlier note wrongly said "L10 = raw 5,625" — verified WRONG:
-still Level 9 at base 78 / raw 6,113.)
+and don't trust a single "almost there" reading. (⚠️ **"L10 = raw 5,625" is wrong** — ✅ verified: a character at
+base 78 / raw 6,113 was **still Level 9**.)
 
 
 ## 🤍 Whitey's Grove (snarf 100) — unlocked by accepting the guild's White Citadel errand

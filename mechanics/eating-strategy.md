@@ -10,7 +10,7 @@
 add up to exactly your cap.** Size is not quality. A 6-fullness "workhorse" food can be *half* as efficient as
 a 1-fullness snack, and eating it costs you the same meter.
 
-⚠️ **This corrects a rule of thumb that reads like an efficiency rule and is not one.** "Eat the big item
+⚠️ **One popular rule of thumb reads like an efficiency rule and is not one.** "Eat the big item
 first, then 1-fullness fillers to top up" is about **not overshooting the cap** — you cannot un-eat a 6-fullness
 dish that leaves you at 16/15. It says nothing about which foods are *good*. Once your combination sums to the
 cap exactly, order is irrelevant and the only question is adv-per-fullness.

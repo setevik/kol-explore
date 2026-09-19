@@ -12,8 +12,8 @@
 | **33** | The Beanbat Chamber | Opens after wall 2. |
 | **34** | **The Boss Bat's Lair** | Opens after **wall 3**. |
 
-⚠️ The wiki's own "Zone Num" for Guano Junction says 31 and the Lair 34 — **trust `place.php`**, and note the old
-guess of "snarf 33–35" in earlier notes was WRONG.
+⚠️ The wiki's own "Zone Num" for Guano Junction says 31 and the Lair 34 — **trust `place.php`**. ⚠️ A guess of
+"snarf 33–35" for these chambers is **wrong**; scrape the snarfblats from the place page instead of assuming a range.
 
 ## Opening the chambers — 3 walls
 
