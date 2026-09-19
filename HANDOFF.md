@@ -326,6 +326,12 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
 - **MP restore URLs:** all three use `inv_use.php?which=3&whichitem=<id>&pwd=` (592 tiny house · 357 soda ·
   518 magical mystery juice). Run them through one shared `topMP` ladder that checks **all** of them — see the
   restorative-ladder rule above.
+- 🚨 **`scroll of drastic healing` is OUT-OF-COMBAT ONLY, and a fight loop that reaches for it STALLS.** ✅ Measured:
+  a boss fight whose heal branch used the scroll got *"That can't be used in combat. (select an item)"* every round —
+  **the round is consumed without acting**, HP froze, and the fight sat open for 11 rounds doing nothing until the
+  loop hit its round cap. **In combat use `filthy poultice` (2369) / `gauze garter`; keep the scroll for between
+  fights.** ✅ **Guard every combat item-use: if the response matches `/can't be used in combat/i`, stop using that
+  item and fall back to an attack** — otherwise the loop repeats a refused action forever.
 - **HP:** **scroll of drastic healing (595)** = full HP (does NOT clear Beaten Up); **Lasagna Bandages (3009)** heals
   ~16 HP/cast out of combat. Campground rest (`campground.php?action=rest`) clears Beaten Up (~+10 MP/adv — poor MP source).
 - **Combat item:** **photoprotoneutron torpedo (630)** — MP-free reliable damage; boss insurance & stuck-fight finisher.

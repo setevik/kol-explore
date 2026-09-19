@@ -29,6 +29,25 @@ Disco Bandit · Accordion Thief.
 
 ---
 
+## 📊 Character state (end of run #3 Day 23 / 2026-09-19)
+
+- **LEVEL 15 Seal Clubber.** Muscle 253 / Mys 142 / Mox 147. **Max HP 384, max MP 142.**
+  💰 **Meat 3,512** ⚠️ (12,500 went on a skill). **14 adv banked.** full 15, drunk 20 (14 + ONE Fog Murderer ✅).
+- 🗼 **TOWER — keys 5 of 6:** ✅ skeleton · ✅ Richard's star (665) · ✅ Boris's · ✅ Jarlsberg's · ✅ **digital (691)**.
+  ❌ **Sneaky Pete's = tomorrow's Daily Dungeon token** (row 95). ⚠️ `nstower_door` is **"Invalid place"** until the
+  contests/coronation/hedge maze are done, so the keys just wait.
+- 🏟️ **Contests: 2 of 3 crowds CLEARED** (Smartest, Spookiest — 10W/0L each, their champions died unremarkably).
+  ❌ **Crowd 1 (Fastest) — The Tasmanian Dervish: 3 attempts, 3 losses.** Hits 71–74 through Astral+Ghostly Shell,
+  or simply removes ~all HP. **It is a damage race; don't retry until damage is much higher.**
+- 🧠 **Bought: Precision of the Penguin (passive, 12,500).** *Northern Explosion* (16 MP cold attack) refused —
+  couldn't afford it; it is the next buy.
+- 🧰 **Supplies:** filthy poultice ×16 · tiny house ×8 · scroll ×4 (⚠️ **out-of-combat only**) · antidote ×53 ·
+  phonics down ×4 ⚠️ · popskull ×3 · Fog Murderer ×1 · Meade ×1 · herbal stuffing ×2 · snowcone ×1.
+- 🕹️ 8-Bit score **13,550** (key already claimed; further points only matter for the 20k/30k chests).
+- **Day 23: 64 wins, 0 losses in ordinary fights; 1 loss to the Dervish.**
+
+<details><summary>End of Day 22 (for reference)</summary>
+
 ## 📊 Character state (end of run #3 Day 22 / 2026-09-18)
 
 - **LEVEL 14 Seal Clubber.** Muscle 245 / Mys 137 / Mox 141. **Max HP 372, max MP 137.**
@@ -48,6 +67,7 @@ Disco Bandit · Accordion Thief.
   scroll of drastic healing ×5 · antidote ×53 · plain snowcone ×4. ❌ No milk, no herbal stuffing, no Fog Murderer.
 - 🛡️ **Astral Shell + Ghostly Shell active (~455 turns)** — free from the buffbot by kmail.
 - **Day 22: ~75 fights, 2 losses (both to the Dervish).**
+</details>
 
 <details><summary>End of Day 20 (for reference)</summary>
 
@@ -127,6 +147,25 @@ Healing ladder: **filthy poultice / gauze garter (0 adv, 0 MP, ~87 HP)** → **C
 
 ## 🔜 Next-session priorities
 
+> **14 adventures banked (the Day 23 overdrink) + the new day's allowance. Level 15. ⚠️ Meat only 3,512.**
+> (0) ⏰ Read `rollover` from `api.php?what=status` at login before any long burst.
+> (1) 💰 **MEAT FIRST — the day's plan depends on it.** 3,512 buys breakfast and little else, and *Northern
+>     Explosion* (the next skill) needs 12,500+. Best earner available: the **Giant castle Ground Floor (323)**
+>     at ~105–120 meat/turn, or autosell surplus from storage (`HANDOFF.md` § "Audit your own junk drawer").
+> (2) 🗝️ **DAILY DUNGEON FIRST — last hero key.** Tools in inventory; ring on, then **off** afterwards. Token →
+>     DA Vending Machine **row 95 = Sneaky Pete's key** ⇒ **all 6 keys**.
+> (3) 🍽️ **EAT:** 2 herbal stuffing left — buy milk (~100) + 3 more stuffing (~250–420) and top to 15.
+> (4) 🏟️ **The Dervish is the only thing between me and the sash.** 3 losses so far; it is a **damage race**
+>     (kill in ~2 rounds). Ideas, in order of cheapness: **buy *Northern Explosion*** (16 MP cold Smack) ·
+>     more levels · a weapon upgrade · +weapon-damage gear. ⚠️ **In-combat healing = filthy poultice only**;
+>     the scroll of drastic healing is refused in combat and wastes the round.
+> (5) 🗼 After the sash: coronation (1020→1021→1022, all option 1) → hedge maze (`/frank|left/i`, ~9 turns,
+>     no fights) → **then** `nstower_door` exists and the 5 held keys open their locks for free.
+> (6) 🍺 **DRINK:** popskull ×3 only — buy more (130 each) or use Meade/Fog; fill to exactly 14, spend, then ONE
+>     overdrink last. The 8-Bit Realm still works while drunk; the tower does not.
+
+<details><summary>Day 22's priorities (superseded)</summary>
+
 > **15 adventures banked (the Day 22 overdrink) + the new day's allowance. Meat 22,361. Level 14.**
 > (0) ⏰ Read `rollover` from `api.php?what=status` at login before any long burst.
 > (1) 🛒 **BUY:** milk of magnesium (~100) · herbal stuffing ×3 (~420) · **phonics down ×15** (13 left) ·
@@ -144,6 +183,7 @@ Healing ladder: **filthy poultice / gauze garter (0 adv, 0 MP, ~87 HP)** → **C
 >     +weapon damage gear), and consider doing crowds 2 and 3's warm-ups first so only champions remain.
 > (5) ⚔️ Combat standard unchanged (dual-wield, Lunging every round; Club Foot first vs Defense 150+).
 > (6) Other open quests once the tower is moving: Nemesis cave, Wizard of Ego, White Citadel, *A Quest, LOL*.
+</details>
 
 <details><summary>Day 21's priorities (superseded)</summary>
 
@@ -190,6 +230,25 @@ Healing ladder: **filthy poultice / gauze garter (0 adv, 0 MP, ~87 HP)** → **C
 </details>
 
 ## 🗓️ Session log (this run)
+
+- **Run #3 Day 23 (2026-09-19): 🗝️ 5 of 6 tower keys, 2 of 3 contest crowds cleared, Level 15 — 64 wins,
+  0 ordinary losses, and a third defeat by the Dervish.**
+  🍽️ 70 adventures from breakfast. 🗝️ Daily Dungeon in **4 fights** (chests also gave a second skeleton key and a
+  skeleton key ring) → token → **Jarlsberg's key**. 🕹️ 12 pixel fights carried the score past 10,000 →
+  **digital key** claimed from the Treasure House for **0 adventures**.
+  🐛 Two id/label traps, both costing a wasted attempt: the Treasure House buttons read `Open the first chest`
+  (the `[requires 10000 Points]` note sits apart), and **the digital key is item 691** — an id check on 641
+  reported "not obtained" while it sat in the bag.
+  🏟️ **Crowds 2 and 3 went 10W/0L each** — their champions (*The Mastermind*, *Arthur Frankenstein*) died in the
+  ordinary run of fights. ⇒ **the Fastest crowd's champion is the outlier**, not champions in general.
+  💀 **Dervish, attempt 3: lost.** 🚨 The real lesson is an engine one: my heal branch reached for a **scroll of
+  drastic healing in combat**, which the game refuses (*"That can't be used in combat"*) — the loop repeated the
+  refused action for **11 rounds**, freezing HP and going nowhere before the round cap. ⇒ `HANDOFF.md`: in-combat
+  healing is **filthy poultice only**, and a combat loop must detect a refused item instead of repeating it.
+  🏋️ Spent the rest on the **Upper Chamber (406)**: 85 wins across the day, **Level 14 → 15**, Muscle 247 → 253,
+  max HP 375 → 384. 🧠 **Precision of the Penguin cost 12,500** — Torg prints no prices, and the next skill was
+  then refused for lack of meat, leaving **3,512**.
+  🍺 Filled to exactly 14 on popskull, spent it in the 8-Bit Realm, then **ONE Fog Murderer overdrink (+14 banked)**.
 
 - **Run #3 Day 22 (2026-09-18): 🏆 THE ISLAND WAR WON (The Man dead), the Naughty Sorceress' Tower opened,
   3 of 6 keys — ~75 fights, 2 losses (both to one champion).**

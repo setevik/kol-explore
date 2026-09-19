@@ -104,8 +104,21 @@ Costs scraped live from Torg's rack (they rise steeply — budget ahead):
 | 14 | Precision of the Penguin · Musk of the Moose |
 | 15 | Pulverize · Pride of the Puffin |
 
+✅ **What the upper-tier skills actually are** (read from `desc_skill.php`, since the names give nothing away):
+**Northern Explosion** Combat, 16 MP, *"a powerful Smack that deals Cold Damage"* — the class's only elemental
+attack, so it is the answer to a physically-immune monster · **Northern Exposure** Passive, So-So Cold Resistance
+(+2) · **Precision of the Penguin** Passive · **Musk of the Moose** Noncombat, 10 MP, **raises** encounter
+frequency (useful only when hunting a monster, harmful when hunting noncombats) · **Pulverize** Passive, smashes
+equipment into essences with a tenderizing hammer (crafting, not combat) · **Pride of the Puffin** Noncombat,
+30 MP, 10-adventure buff.
+⇒ Of the Level 13–15 rack, only **Northern Explosion** adds a new way to deal damage; the rest are passives,
+utility or crafting. Don't expect this tier to solve a damage wall on its own.
+
 ⚠️ The trainer page lists these by name and level but **prints no price**; read the cost from the purchase
 response (or the meat delta) rather than assuming the tier pattern above continues.
+💰 ✅ **Measured: a Level-15 passive (*Precision of the Penguin*) cost 12,500 meat**, and the next purchase was
+refused outright with *"You can't afford to train that skill."* ⇒ **the upper tiers are 12,500+ each**, so budget
+one skill per rich day and buy the one that changes a fight, not the cheapest name on the list.
 💡 *Northern Explosion* is the class's **elemental** attack — the answer to physically-immune monsters (the Hidden
 City spirits, A-boo's ghosts) that otherwise need fires of unknown origin or an oil lamp.
 

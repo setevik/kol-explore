@@ -76,10 +76,20 @@ different class of monster entirely.** Two lessons:
   **375/375 HP**, **Astral Shell + Ghostly Shell** both active, in-combat healing gated at 70% with 10 poultices
   in the bag: the Dervish won **in 2 rounds**. ⇒ It deals **~190+ per round through damage reduction**, so a
   ~375 max-HP melee character cannot trade with it at all — the extra HP bought one round, not the fight.
-  🎯 **Treat a crowd champion as a DAMAGE check, not a survivability one:** you must kill it in ~2 rounds.
+  ⚠️ **The three champions are NOT equally hard — the Fastest one is the outlier.** ✅ Measured on the same
+Level 14 Muscle character, same gear and buffs: the **Smartest** crowd's champion (*The Mastermind*) and the
+**Spookiest** crowd's (*Arthur Frankenstein*) both died inside the ordinary run of ten fights, **10W/0L per crowd
+with no special preparation**, while **The Tasmanian Dervish** (Fastest) one-shot that character and then beat it
+again in 2 rounds from full HP. ⇒ **Do the stat and elemental crowds first** — they are nearly free — and treat
+the initiative crowd's champion as the real gate.
+🎯 **Treat a crowd champion as a DAMAGE check, not a survivability one:** you must kill it in ~2 rounds.
   For a Muscle class that means a real damage multiplier (and the rank you registered at, which decides how many
   of these you have to face). **Don't retry it more than once in a day** — each loss is a turn plus a Beaten Up
   clear, and nothing about the fight changes between attempts.
+  📉 **Three attempts, three losses, all at ~375 max HP with both shells up** (one-shot from 268 HP · 2 rounds from
+  full · a third that stalled on an unusable item and then fell in 2 rounds once it resumed). Where it did not
+  simply remove everything, its blows measured **71–74 through damage reduction**. ⇒ **One try per day at most, then
+  go raise damage and max HP** — persistence alone does not convert this fight.
 - 🐛 **A 35% in-combat heal gate spends your whole healing stack on the warm-ups.** Four poultices went on
   one-round fights that never needed them, leaving nothing for the champion. **Gate in-combat healing at ~70% and
   only for the champion**, or heal between fights out of combat instead.
@@ -150,6 +160,12 @@ Boris's key = **item 282, row 93** · Jarlsberg's = **item 283, row 94** · Snea
   **Points PERSIST across days.**
 - **Treasure House** = `place.php?whichplace=8bit&action=8treasure` = **choice 1493**: three chests
   **opt 1 [10,000] · opt 2 [20,000] · opt 3 [30,000] Points · opt 4 Leave.** At ≥10k, **option 1 = the digital key**.
+  ⚠️ **The button labels are just `Open the first chest` / `second` / `third` / `Leave`** — the point requirements
+  sit in separate `[requires 10000 Points]` text, so **match on "first chest", not on "10,000"**. ✅ Claiming it
+  costs **no adventure**: *"You pop the chest open to find a key inside it, which is the opposite of what usually
+  happens."*
+- 🔢 ✅ **The digital key is item 691.** ⚠️ A lookup of the wrong id returns 0 and reads as "not obtained" while the
+  key is in the bag — check it by **name**, or confirm the id first (HANDOFF § "Verify an item id").
   (Higher chests = better prizes but irrelevant to the tower.)
 
 ### Daily Dungeon (hero keys)
@@ -207,7 +223,11 @@ zone**; that zone is **100% combat**, so it arrives as a *superlikely* override,
 - **The 6-lock Door** = its own place **`place.php?whichplace=nstower_door`** — actions **ns_lock1..ns_lock6** (fetch each;
   each consumes the matching hero/other key) then **ns_doorknob** to open. Free (no adv).
   ✅ **You do NOT need all six keys at once — locks open INCREMENTALLY and permanently.** Fetch each `ns_lockN` as
-  soon as you own its key; the lock vanishes for good and the remaining ones wait. Since the hero keys are
+  soon as you own its key; the lock vanishes for good and the remaining ones wait.
+  🚨 **But the door PLACE does not exist until the contests, coronation and hedge maze are done.** ✅ Verified:
+  with 4 of the 6 keys in hand but the contests still unfinished, `place.php?whichplace=nstower_door` answers
+  **"Uh Oh! Invalid place."** ⇒ **collecting keys early is fine and costs nothing, but you cannot bank lock
+  progress ahead of Step 1** — don't plan a day around "open the locks I already hold". Since the hero keys are
   day-gated, open the four non-hero locks the day you get them and let the last one sit. **Reading the door's
   `alt=` list is the cheapest progress check** — an opened lock disappears from it, so a door showing only
   `Doorknob` + `Sneaky Pete's Lock` is 5/6 done.
