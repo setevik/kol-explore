@@ -116,9 +116,16 @@ utility or crafting. Don't expect this tier to solve a damage wall on its own.
 
 ⚠️ The trainer page lists these by name and level but **prints no price**; read the cost from the purchase
 response (or the meat delta) rather than assuming the tier pattern above continues.
-💰 ✅ **Measured: a Level-15 passive (*Precision of the Penguin*) cost 12,500 meat**, and the next purchase was
-refused outright with *"You can't afford to train that skill."* ⇒ **the upper tiers are 12,500+ each**, so budget
-one skill per rich day and buy the one that changes a fight, not the cheapest name on the list.
+💰 ✅ **Measured prices at the top of the rack: *Precision of the Penguin* (Level 15 passive) 12,500 ·
+*Northern Explosion* (Level 13 combat) 10,000.** A purchase you cannot afford is refused outright with *"You
+can't afford to train that skill."* ⇒ **budget ~10–12.5k per skill** and buy the one that changes a fight rather
+than the cheapest name on the list.
+⭐ **Where that meat comes from without spending turns:** a **storage audit**. ✅ Measured on one run — pulling the
+surplus above 3 of each and autoselling it raised **20,569 meat for ZERO adventures** in a few minutes
+(PADL Phone ×91 at 100 · canopic jar ×47 at 87 · ketchup hound ×34 at 120 · suntan lotion of moxiousness ×22 at
+150; every sale matched its wiki price exactly). **Price the big stacks on the wiki first** — `Selling Price:` —
+because several deep stacks (ten-leaf clovers, class rings) **cannot be sold at all**. See `HANDOFF.md` §
+"Audit your own junk drawer".
 💡 *Northern Explosion* is the class's **elemental** attack — the answer to physically-immune monsters (the Hidden
 City spirits, A-boo's ghosts) that otherwise need fires of unknown origin or an oil lamp.
 

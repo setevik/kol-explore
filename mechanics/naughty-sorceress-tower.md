@@ -86,6 +86,22 @@ the initiative crowd's champion as the real gate.
   For a Muscle class that means a real damage multiplier (and the rank you registered at, which decides how many
   of these you have to face). **Don't retry it more than once in a day** — each loss is a turn plus a Beaten Up
   clear, and nothing about the fight changes between attempts.
+  🚨 **Check `effects` before every attempt — the Daily Dungeon hands out `Apathy`, and the tower is where you
+  spend the rest of the day.** ✅ Measured: a fourth attempt went in at **Muscle 197 / 300 max HP** instead of
+  **253 / 384** because Apathy (8 turns left) was still running from that morning's dungeon, and the champion
+  one-shot it. The prep step must refuse the fight while a stat debuff is up (HANDOFF § "Never enter a boss or
+  champion fight with a stat debuff up").
+  📊 **The cleanest measurement of the wall, taken with everything right:** Level 15, **Muscle 254, 386/386 HP**,
+  **Astral + Ghostly Shell** up, no debuffs, 124 MP, opening with the class's **elemental** attack and healing at
+  55% with poultices that landed (+92 HP). It took **68 then 73 through damage reduction** and killed the
+  character **in 2 rounds** — i.e. **~215 HP of swing per round including the heal**. ⇒ **Preparation is not the
+  missing piece; raw damage-per-round is.**
+  📈 **And grinding levels is a slow lever:** ✅ 60 wins in an ML 160–175 zone moved **Muscle 254 → 258 and max HP
+  386 → 392** — a few percent for most of a day's turns, against a champion that out-damages you several times
+  over. **Budget a weapon or damage-multiplier upgrade instead of "one more level"**, or park the contest for
+  several days.
+  At this level the only remaining levers are a much bigger weapon,
+  a damage multiplier, or several more levels — not another attempt.
   📉 **Three attempts, three losses, all at ~375 max HP with both shells up** (one-shot from 268 HP · 2 rounds from
   full · a third that stalled on an unusable item and then fell in 2 rounds once it resumed). Where it did not
   simply remove everything, its blows measured **71–74 through damage reduction**. ⇒ **One try per day at most, then

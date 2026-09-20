@@ -485,6 +485,23 @@ adventures went on healing** (≈30% overhead), for Muscle 107 → 110.
 ⇒ **Prefer a zone you win in 1–2 rounds while taking little damage over a higher-ML zone you also always win
 but that costs a heal every 3rd fight.** Compare candidate zones on **HP lost per win**, not just win rate.
 
+## 🚫 NEVER ENTER A BOSS OR CHAMPION FIGHT WITH A STAT DEBUFF UP — CHECK `effects` IN THE PREP STEP
+
+🚨 **A debuff silently halves the character you thought you were bringing.** ✅ Measured twice in one run, both
+times unnoticed until afterwards: **`Apathy`** (picked up in the Daily Dungeon) took **Muscle 253 → 197 and max HP
+384 → 300**, and on the second occasion the same character walked into a champion fight in that state and was
+one-shot. The status line looked normal; nothing in the fight said "you are debuffed".
+
+✅ **Make it a precondition, not a memory exercise** — the prep step already reads `api.php?what=status`, so have
+it refuse the fight:
+```js
+const bad = Object.values(st.effects||{}).filter(e => /Apathy|Beaten Up|Sunburned|Really Quite Poisoned|Tetanus/i.test(e[0]));
+if (bad.length) return 'DEBUFFED: ' + bad.map(e => e[0]+' ('+e[1]+')').join(', ');   // wait it out or cure it
+```
+⚠️ **Most stat debuffs simply expire** (Apathy ran 8–10 turns) — spend those turns on ordinary fights and come
+back, rather than "trying once more while it wears off". ⭐ And when a stat reading surprises you, **read
+`effects` before blaming gear** — a debuff and a bad accessory swap look identical in the numbers.
+
 ## ⚔️ LOOK UP A BOSS'S STATS BEFORE YOU FIGHT IT — it costs ~90 seconds and decides the fight
 
 Two bosses in one day made the case by themselves:

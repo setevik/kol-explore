@@ -29,6 +29,24 @@ Disco Bandit · Accordion Thief.
 
 ---
 
+## 📊 Character state (end of run #3 Day 24 / 2026-09-20)
+
+- **LEVEL 15 Seal Clubber.** Muscle 263 / Mys 147 / Mox 152. **Max HP 399, max MP ~175.**
+  💰 **Meat 12,259.** **23 adv banked.** full 15, drunk 20 (exactly 14 + ONE Fog Murderer ✅).
+- 🗝️ **ALL SIX TOWER KEYS HELD** — skeleton · Richard's star (665) · Boris's · Jarlsberg's · Sneaky Pete's ·
+  digital (691). ⚠️ `nstower_door` stays **"Invalid place"** until the contests are finished, so they just wait.
+- 🏟️ **Contests: 2 of 3 crowds cleared.** ❌ **Crowd 1 (Fastest) — The Tasmanian Dervish: 5 attempts, 5 losses.**
+  Cleanest attempt: Muscle 254, **386/386 HP**, Astral + Ghostly Shell, no debuffs, opening with **Northern
+  Explosion**, poultices landing → **dead in 2 rounds (68 then 73 taken)**. ⇒ **a damage problem, not a prep one.**
+- 🧠 **Skills bought:** Precision of the Penguin (12,500) · **Northern Explosion (10,000, Combat 16 MP, cold)**.
+- 🐝 **beehive ×1 held** (Wall of Skin) · **electric boning knife ×1** (Wall of Bones). ❌ No wand of Nagamar yet
+  (it unlocks only after the NS's 3rd form defeats you).
+- 🧰 **Supplies:** filthy poultice ×13 · tiny house ×6 · scroll ×3 (out-of-combat only) · phonics down ×37 ·
+  popskull ×4 · Fog Murderer ×1 · Meade ×1 · herbal stuffing ×2 · antidote ×53.
+- **Day 24: ~130 wins, 0 ordinary losses; 2 losses to the Dervish.**
+
+<details><summary>End of Day 23 (for reference)</summary>
+
 ## 📊 Character state (end of run #3 Day 23 / 2026-09-19)
 
 - **LEVEL 15 Seal Clubber.** Muscle 253 / Mys 142 / Mox 147. **Max HP 384, max MP 142.**
@@ -45,6 +63,7 @@ Disco Bandit · Accordion Thief.
   phonics down ×4 ⚠️ · popskull ×3 · Fog Murderer ×1 · Meade ×1 · herbal stuffing ×2 · snowcone ×1.
 - 🕹️ 8-Bit score **13,550** (key already claimed; further points only matter for the 20k/30k chests).
 - **Day 23: 64 wins, 0 losses in ordinary fights; 1 loss to the Dervish.**
+</details>
 
 <details><summary>End of Day 22 (for reference)</summary>
 
@@ -147,6 +166,30 @@ Healing ladder: **filthy poultice / gauze garter (0 adv, 0 MP, ~87 HP)** → **C
 
 ## 🔜 Next-session priorities
 
+> **23 adventures banked (the Day 24 overdrink) + the new day's allowance. Level 15. Meat 12,259.**
+> (0) ⏰ Read `rollover` at login. 🚫 **Check `effects` before ANY champion/boss attempt** — Apathy from the Daily
+>     Dungeon cost a wasted Dervish attempt (Muscle 253 → 197, max HP 384 → 300). Wait the debuff out; it expires.
+> (1) 🗝️ **The Daily Dungeon is no longer needed for keys — all six are held.** Skip it unless you want the loot.
+> (2) 💪 **THE DERVISH IS THE ONLY BLOCKER, and it is a DAMAGE problem.** 5 attempts, 5 losses; the clean one
+>     (Muscle 254, 386 HP, both shells, Northern Explosion, poultices landing) still died in 2 rounds to 68+73.
+>     Levelling moved Muscle only 254 → 258 in 60 wins, so **buy damage instead**:
+>     - price a **better weapon** in the mall (current: black sword + Hammer of Smiting, both modest);
+>     - check Torg's remaining rack (*Musk of the Moose*, *Pulverize*, *Pride of the Puffin* — none obviously
+>       damage, so the weapon is the likelier lever);
+>     - or consider whether a **+weapon-damage accessory** beats the amulet/boots currently worn.
+>     ⭐ Meat for it: the **storage audit** works — 20,569 meat for zero turns this run. More stacks remain
+>     (dry noodles ×234, cocoa eggshell ×271, water pipe bombs ×73, beer helmets ×32…) — price them first, since
+>     several deep stacks (ten-leaf clovers, class rings) cannot be sold at all.
+> (3) 🗼 **The moment the sash is won:** coronation (1020→1021→1022, all option 1) → hedge maze (`/frank|left/i`,
+>     ~9 turns, no fights) → **then `nstower_door` exists** and all six keys open their locks for free.
+> (4) 🧱 Walls ready: 🐝 **beehive** (Wall of Skin) · 🔪 **electric boning knife** (Wall of Bones). Wall of Meat needs
+>     ~6 kills for 1,001 meat. ❌ No **wand of Nagamar** — it only unlocks after the NS's 3rd form beats you.
+> (5) 🍽️ **EAT:** 2 herbal stuffing left (~249 in the mall) + milk; snowcones are gone.
+> (6) 🍺 **DRINK:** popskull ×4, Fog Murderer ×1, Meade ×1 — buy more popskull (130); fill to exactly 14, spend,
+>     ONE overdrink last. The tower refuses you while drunk; the pyramid and 8-Bit Realm do not.
+
+<details><summary>Day 23's priorities (superseded)</summary>
+
 > **14 adventures banked (the Day 23 overdrink) + the new day's allowance. Level 15. ⚠️ Meat only 3,512.**
 > (0) ⏰ Read `rollover` from `api.php?what=status` at login before any long burst.
 > (1) 💰 **MEAT FIRST — the day's plan depends on it.** 3,512 buys breakfast and little else, and *Northern
@@ -163,6 +206,7 @@ Healing ladder: **filthy poultice / gauze garter (0 adv, 0 MP, ~87 HP)** → **C
 >     no fights) → **then** `nstower_door` exists and the 5 held keys open their locks for free.
 > (6) 🍺 **DRINK:** popskull ×3 only — buy more (130 each) or use Meade/Fog; fill to exactly 14, spend, then ONE
 >     overdrink last. The 8-Bit Realm still works while drunk; the tower does not.
+</details>
 
 <details><summary>Day 22's priorities (superseded)</summary>
 
@@ -230,6 +274,29 @@ Healing ladder: **filthy poultice / gauze garter (0 adv, 0 MP, ~87 HP)** → **C
 </details>
 
 ## 🗓️ Session log (this run)
+
+- **Run #3 Day 24 (2026-09-20): 🗝️ ALL SIX TOWER KEYS, 20,569 meat from a storage audit, *Northern Explosion*
+  bought — ~130 wins, 0 ordinary losses, and two more defeats by the Dervish.**
+  🍽️ 69 adventures from breakfast. 🗝️ Daily Dungeon in **4 fights** → token → **Sneaky Pete's key** ⇒ **6 of 6**.
+  ⚠️ The door is still *"Invalid place"* — the keys wait on the contests.
+  💰 **The storage audit is the best meat-per-turn in the game: 20,569 meat for ZERO adventures.** Pulled the
+  surplus above 3 of each and autosold — PADL Phone ×91 (100 ea) · canopic jar ×47 (87) · ketchup hound ×34 (120) ·
+  suntan lotion ×22 (150); **every sale matched its wiki price exactly**. ⚠️ Price stacks first: ten-leaf clovers
+  and class rings **cannot be sold at all**. Then **Northern Explosion for 10,000** (Combat, 16 MP, cold).
+  🚨 **The day's lesson, and it is one my own docs already warned about: I fought the Dervish while `Apathy` was
+  running** (picked up in the dungeon) — Muscle 253 → 197, max HP 384 → 300 — and was one-shot. The status line
+  looks normal; only `effects` shows it. ⇒ **HANDOFF now makes a debuff check a precondition of any champion or
+  boss fight**, and the debuff simply expires (8 ordinary wins here).
+  💀 **Then the clean attempt, with everything right** — Muscle 254, 386/386, both shells, no debuffs, opening
+  with the cold attack, poultices landing (+92): **dead in 2 rounds, 68 then 73 taken.** Five attempts, five
+  losses. ⇒ **a damage problem, not a preparation one.** 📈 And levelling is a slow lever: 60 wins moved Muscle
+  254 → 258. **Next lever is a weapon/multiplier, not another level.**
+  🐝 **beehive** collected from the Black Forest (923 → 924 → 1018 → **1019 `Almost... there...`**) for the Wall of
+  Skin; the **electric boning knife** for the Wall of Bones was already in the bag.
+  🐛 Two loop stops, both label mismatches of mine: choice **1019** reads `Almost... there...` (not "take the
+  beehive"), and the earlier chest labels. Each cost a round trip, not turns.
+  🍺 Filled to exactly 14 on popskull, spent all 60 evening wins in the pyramid, then **ONE Fog Murderer
+  overdrink (+16, 23 banked)**. Ended Level 15, Muscle 263, max HP 399, meat 12,259.
 
 - **Run #3 Day 23 (2026-09-19): 🗝️ 5 of 6 tower keys, 2 of 3 contest crowds cleared, Level 15 — 64 wins,
   0 ordinary losses, and a third defeat by the Dervish.**
