@@ -68,19 +68,49 @@ meantime."* This is a **gated wait**, not a re-visit (see Part 2, step 6 below).
 
 ---
 
-## ✅ VERIFIED WALKTHROUGH PART 2 — the cave & boss, Pastamancer
+## ✅ VERIFIED WALKTHROUGH PART 2 — the cave & boss (Pastamancer, and re-verified on a Seal Clubber)
+
+⭐ **Class-agnostic summary of Part 2:** open the wall with **the option matching the engraving** (see step 1 — it
+is your class's *resource*, not its attack), grind **snarf 452** for **6 fizzing spore pods (item 8427)**, blast
+the rubble (choice **1088**, option 1, free), then kill a **class-specific guardian** at `nmcave_boss` — and expect
+the quest to then **stall on a gated lair search**, not to finish.
 
 After forging the Legendary Epic Weapon (Part 1 below), Asiago points you to a **cave in the Big Mountains**:
 
 1. **Enter the cave.** `place.php?whichplace=mountains` → before clearing it's action **`mts_caveblocked`**. Click it →
-   **choice 1087** (the secret-door wall, engraved with knotted noodle-lines + finger-holes). For Pastamancer:
-   **option 3 = "Entangle the wall with noodles"** (Entangling Noodles) opens it, then **option 1 = "Enter the doorway."**
-   0 adv. After this the cave becomes its own place: **`place.php?whichplace=nemesiscave`**.
+   **choice 1087** (the secret-door wall). For Pastamancer: **"Entangle the wall with noodles"** opens it, then
+   **"Enter the doorway."** After this the cave becomes its own place: **`place.php?whichplace=nemesiscave`**.
+   🎯 **Choice 1087 is a list of YOUR OWN CLASS SKILLS — one option per skill, and only one works.**
+   🚨 **Read the room description, not the skill names: the engraving shows a figure POURING A BUCKET, and there is
+   a four-inch HOLE beside the seam. The door wants something poured into it, so brute-force "hit the wall" verbs
+   all fail** — and each failure **costs 1 adventure** and ends with *"you decide you're tired of messing with this
+   stupid wall"* (the give-away that the attempt was wrong; the choice clears but the cave stays shut and the quest
+   log still reads *"Figure out how to get into your Nemesis' cave"*).
+   ✅ **Seal Clubber answer: "Freak the hell out like a wrathful wolverine"** — you work up **a gallon of Fury** and
+   pour it into the hole (*"What, did you think it was just metaphorical?"*) → CLICK → **"Enter the doorway."**
+   ⚠️ **So you need ≥1 gallon of Fury banked before answering** — win a trash fight first if the meter is empty.
+   ⇒ **General rule for this choice: the right option is the one matching the ENGRAVING, and each class's flavour
+   text names its own resource.** Two wrong "smack it" guesses cost 2 adventures before the description was read.
 2. **Get 6 fizzing spore pods.** Inside, adventure **The Fungal Nethers = snarfblat 452**. Monster: **angry mushroom guy**
    (weak — dies to a couple weapon attacks / one Cannelloni). Drops **fizzing spore pod** at ~**45%** (took ~13 fights for 6).
+   🔢 ✅ **The fizzing spore pod is item 8427.** ⚠️ The zone also drops **hard spore pod** (from *armored mushroom
+   guy*) and paisley/veiny pods — only the **fizzing** one blasts the rubble.
+   🚨 **Third repeat of the same trap in this run: a wrong item id reads as "I have none".** A loop polling id
+   **2554** reported 0 pods through **20 winning fights** while the pods were piling up under 8427, and only kept
+   going because its stop condition could never be true. ✅ **Check your own inventory BY NAME** (`invList` +
+   a name match) and use ids only where the API needs them — see HANDOFF § "Verify an item id before you trust it".
 3. **Blast the rubble.** In `whichplace=nemesiscave`, the **rubble = action `nmcave_rubble` → choice 1088 →
    option 1** ("Blast the tunnel clear with fizzing spore pods"). Consumes all 6 pods, opens the boss room. 0 adv.
-4. **THE FINAL (?) SHOWDOWN = action `nmcave_boss`.** Monster: **Spaghetti Elemental (~220 HP, 170 atk, 153 def).**
+4. **THE FINAL (?) SHOWDOWN = action `nmcave_boss`.** The guardian is **class-specific**: ✅ a Seal Clubber meets
+   **Gorgolok, the Infernal Seal**, and it dropped the **Scalp of Gorgolok**.
+   ⭐ **It died in ONE round to the class's Fury spender** (Cavalcade of Fury, entering with a full 5-gallon meter
+   at Muscle ~263) — so bank Fury on the mushroom fights on the way in and open with it, exactly as for the tower
+   champions. The rubble blast itself costs **0 adventures** and consumes all 6 fizzing spore pods.
+   ⚠️ **Winning does NOT end the quest:** the guildmaster points out the artifact is not what you brought back
+   (*"Is this all…"*), and the quest log flips to **"You're waiting for your guild's scouts to find out where your
+   Nemesis went"** — the gated lair-search delay in step 6. Don't re-visit expecting a next step the same day.
+
+   For reference, the Pastamancer guardian: **Spaghetti Elemental (~220 HP, 170 atk, 153 def).**
    - **Equip the Greek Pasta Spoon of Peril (item 2561)** first (the Legendary Epic Weapon — its display name is
      "Greek Pasta **Spoon** of Peril").
    - **⚠️ Do NOT add Mysticality buffs** — the monster scales off your Myst. Base gear is fine (257 base Myst worked).

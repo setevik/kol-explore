@@ -3,6 +3,29 @@
 > Run-agnostic. Companion to `pastamancer-class.md`. Covers the guild, the skill tree, the class resource,
 > and the early combat standard. Current-run skill/meat state lives in `CURRENT_ASCENSION.md`.
 
+## 🔥 FURY IS THE CLASS'S REAL BURST — and it is easy to leave at zero all run
+
+**Fury is a Seal-Clubber-only resource, measured in gallons and shown on the charpane between the drunkenness and
+HP meters** (hidden while it is 0, which is why it is easy to forget). `api.php?what=status` exposes it as
+**`fury`**.
+
+- **You gain 1 gallon for every monster you defeat**, and only with **Wrath of the Wolverine** learned.
+  ✅ Measured exactly: **5 ordinary wins took the meter 0 → 5** (one gallon per kill, no exceptions), and
+  `api.php`'s `fury` field tracked it every step — so **a full meter costs five trash fights**, which is nothing
+  next to a boss attempt.
+- **Cap: 3 gallons · 5 with Ire of the Orca** (a *legendary seal-clubbing club* adds one more).
+- 🚨 **You lose ALL of it when you lose a fight** (including a 30-round timeout), and when you cast **Hibernate**,
+  **Batter Up!** or **Cavalcade of Fury**. It also **resets at rollover** — so it cannot be banked overnight.
+- **Spenders:** **Furious Wallop** (1 gallon, Combat, *guaranteed critical hit*) · **Cavalcade of Fury**
+  (Combat, 15 MP, *"consumes all of your Fury and performs multiple savage attacks"*).
+- **Multiplier:** **Batter Up!** is a passive that adds *bonus damage from Fury*.
+- 💥 **Why it matters for a hard fight:** a critical hit **doubles the weapon-damage component** — **tripled with
+  Audacity of the Otter** — and Thrust-Smack-family attacks multiply on top of that. ⇒ **Against a boss you must
+  kill in two rounds, arrive with a full Fury meter and open with the Fury spenders**, not with the everyday
+  attack skill.
+- ⚠️ **Losing repeatedly to the same boss is self-defeating twice over**: each loss also empties the meter, so the
+  next attempt starts weaker than the last. **Build Fury on trash fights immediately before the attempt.**
+
 ## 🥊 The class resource: "Muscularity Points" (+ Fury) — NOT a caster's MP pool
 
 🚨 **This is the single biggest difference from a caster and it is easy to misdiagnose.** A fresh Seal Clubber

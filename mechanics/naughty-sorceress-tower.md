@@ -91,6 +91,14 @@ the initiative crowd's champion as the real gate.
   **253 / 384** because Apathy (8 turns left) was still running from that morning's dungeon, and the champion
   one-shot it. The prep step must refuse the fight while a stat debuff is up (HANDOFF § "Never enter a boss or
   champion fight with a stat debuff up").
+  ✅✅ **SOLVED — and the answer was a resource, not a stat.** After five losses on the everyday attack skill, the
+  same character killed the Dervish **in ONE round** by arriving with a **full Fury meter** and opening with the
+  class's Fury spender (Seal Clubber: **Cavalcade of Fury**, Combat 15 MP, "consumes all your Fury and performs
+  multiple savage attacks"). Entry: Muscle 263, 399 HP, 138 MP, **Fury 5/5**. It landed one blow (69) and died.
+  🚨 **Two compounding traps explain the five losses:** (a) the loop opened with the routine attack skill and never
+  touched the class's burst resource; (b) **losing a fight empties that resource**, so every retry began weaker
+  than the one before. ⭐ **Before any wall-like boss, ask what resource your class banks between fights — Fury,
+  soulsauce, thralls, a once-a-day nuke — fill it on trash fights, and spend it in round one.**
   📊 **The cleanest measurement of the wall, taken with everything right:** Level 15, **Muscle 254, 386/386 HP**,
   **Astral + Ghostly Shell** up, no debuffs, 124 MP, opening with the class's **elemental** attack and healing at
   55% with poultices that landed (+92 HP). It took **68 then 73 through damage reduction** and killed the
@@ -217,6 +225,12 @@ Two ways to obtain it:
   *(Letters collected for the active run are tracked in `CURRENT_ASCENSION.md`.)*
 - **Bear Verb Orgy** (anagram of *Grave Robbery*) — a **noncombat** in **The VERY Unquiet Garves = `adventure.php?snarfblat=58`**
   (The Misspelled Cemetary; regular Unquiet Garves = 21) → pry open Nagamar's coffin → the assembled **Wand of Nagamar**.
+  ✅ **Measured, immediately after losing to form 3: the wand took 13 turns in snarf 58.** The choice is **1017
+  *Bear Verb Orgy***, and its single option is labelled **`HUG VAPID EGRET`** (the whole encounter is anagrams —
+  the label says nothing about digging, so **match the choice NUMBER, not the words**). It hands over the
+  assembled **Wand of Nagamar** on the spot. The quest log also flips to *"Frank thinks you can defeat the
+  Sorceress using the wand of Nagamar, and suggests searching for it in the Misspelled Cemetary"*, which is the
+  cheapest confirmation that the search is live.
   🔑 **This search only UNLOCKS after you have been *defeated by* the NS's 3rd form** — it is the game's safety net for
   arriving at form 3 without the wand. (Before form 3 is reached, the NC will not surface no matter how many fights you run at
   snarf 58 — this is a gate, NOT combat suppression.) Once unlocked it fires on roughly the **11th adventure in the
@@ -230,6 +244,11 @@ zone**; that zone is **100% combat**, so it arrives as a *superlikely* override,
 
 ## Step 4 — Coronation → Hedge Maze → the 6-key Door → the 5 Tower Levels
 - **Coronation** (`ns_02_coronation`) — cutscene, **choice 1020 → 1021 → 1022**, all option 1. Free.
+- **Hedge Maze** (`ns_03_hedgemaze`) — ⚠️ **the maze chains from the page you are already on, not from the tower
+  map.** After the first answer the next choice is served by `choice.php`, and the tower's action list may briefly
+  show nothing — that is **not** "the maze is finished". ✅ **Drive it by answering `choice.php` until a step
+  reports `Escape the maze!` (1013)**, and read the *"That's N% of the maze done"* line as the progress gauge;
+  only then does `nstower_door` exist.
 - **Hedge Maze** (`ns_03_hedgemaze`) — **choice 1005 "Do what Frank says" (opt 1)**; following Frank chains cleanly through
   **choices 1005→1013 with NO fights** (~9 turns). (Opposing Frank = faster but topiary-golem combats.)
   ✅ **Re-verified: exactly 9 turns, 0 fights.** Each turn re-fetches the same `ns_03_hedgemaze` action and answers one
@@ -273,6 +292,13 @@ and one fullness slot**, so it is only worth it when you are rich, have stomach 
     **Castle Ground Floor (snarf 323)** → "Home on the Free Range" **choice 1026 opt 2** ("investigate the noisy drawer"); the
     NC is boosted to 3 copies once tower level 3 is unlocked, so it drops in ~1 turn. (Stuffed Mortar Shell 3007 is also group
     damage but only once/fight.)
+  ✅ **Walls re-verified end to end on a Level 15 Muscle class, 8 adventures total, 0 losses:** beehive
+  **one-shot** the Wall of Skin · **5 Wall of Meat kills** at ~200 meat each (204/210/202/210/194 = 1,020) cleared
+  the 1,001 threshold, **4 rounds per kill** with an ordinary attack skill · electric boning knife **one-shot** the
+  Wall of Bones · mirror gazed. ⇒ **the walls are a shopping problem, not a combat one** — carry the beehive and
+  the boning knife and the whole floor costs ~8 turns.
+  ⭐ **Gazing also pays:** *Confidence!* took max HP **399 → 465** on this character, which is exactly what the
+  Shadow (next) converts into damage.
   - **Mirror** (`ns_08_monster4`) — not a fight: **choice 1015 opt 1 "Gaze into the mirror"** — costs 1 adventure, grants **Confidence! (∞)**. ⚠️ **Do NOT "Break it"** (free, but gives the
     Sorceress **stun+stagger immunity and higher HP**).
   - **Shadow** (`ns_09_monster5`) — *a Shadow [your class]*, **~395 HP**.
@@ -284,6 +310,15 @@ and one fullness slot**, so it is only worth it when you are rich, have stomach 
       +44 max HP ⇒ +44 damage per full heal). More max HP = fewer items needed.
     - **You must be hurt before you can hurt it.** Healing at full HP heals 0 and deals 0. **Let it hit you,
       then heal.** A round spent provoking (`fight.php?action=attack` — it always dodges) is not wasted.
+    ✅ **Re-verified on a Muscle class at 465 max HP — 6 rounds, no skills used at all:**
+    `provoke → massage oil (dealt 170) → provoke → massage oil (170) → provoke → filthy poultice (89)` = **429
+    damage**, which killed *a Shadow Seal Clubber*. It hit for a flat **170–171 every round**, so each full-HP
+    provoke round created exactly the deficit the next heal converted into damage.
+    ⇒ **Two oils plus one poultice is the whole kit at this max HP**; more max HP means fewer items, since every
+    heal is capped by the deficit.
+    🐛 **A win here may not print "You win the fight!"** — the kill text is *"Your shadow writhes in agony…"*, so a
+    loop testing only for the win string reports UNCLEAR. **Confirm by re-reading the tower's live action**
+    (it advances to `ns_10_sorcfight`), not by the fight text.
     ✅ **Verified kill, 5 rounds, from ~362 max HP:**
     `oil (heals/deals 159) → provoke → oil (159) → provoke → poultice (94)` = **412 damage**.
     ⇒ **Kit: 2 × scented massage oil (2438, ~2,000 meat each) + a few filthy poultice (2369, ~170).**
@@ -304,6 +339,60 @@ Fight the **Naughty Sorceress (3 forms)** at `place.php?whichplace=nstower&actio
   **unlocks the Bear Verb Orgy** wand-search. So the intended order is: reach form 3 → lose → get the wand → return and win.
   ✅ **With the wand held (NOT equipped), form 3 resolves by itself** — no item to use, no special action; the tower
   simply advances to **`ns_11_prism`**.
+
+### 🚨 SHE BLOCKS SKILLS — AND THE TELL IS THAT YOUR MP NEVER MOVES
+
+**The Sorceress's signature defence is blocking the skill you tried to use**: *"You prepare to use that skill, but
+when you look up again, the Sorceress is gone. 'Back here,' she says from behind you"* / *"she suddenly throws you
+off by blowing you a kiss… you forget to complete your"*. **The round is consumed, the skill is not.**
+
+✅ **Measured, and it is the cheapest possible diagnostic: 20 rounds against form 1 with MP frozen at 161/178 the
+entire time.** No MP spent means no skill ever resolved — the loop was feeding her blocked skills and taking
+40-odd damage a round for nothing, until the 30-round cap. A **plain `fight.php?action=attack` went through on the
+first try.**
+⇒ **Against her, swing rather than cast** (a Muscle class whose Muscle exceeds her **Defense 211** hits reliably),
+and **treat "MP unchanged across several rounds" as proof your actions are being blocked**, not as a healthy loop.
+⇒ Her stats: **HP 400 · Attack 190 · Defense 211 · Initiative ∞** (she always acts first).
+
+🚨 **TOP UP BETWEEN FORMS — the series does not heal you, and form 2 hits far harder than form 1.** ✅ Measured
+failure: form 1 died in **2 plain-attack rounds**, and the loop walked straight into form 2 at **170/402** because
+it re-entered from the previous page without healing. Form 2 hit **52–56 per round**, so a 45%-of-max heal gate
+never fired before she closed the gap: 170 → 114 → 59 → 7 → dead, **with 8 poultices unused in the bag**.
+✅ **Two fixes, both cheap:** (a) **re-enter each form only after verifying full HP** (the tower action is still
+there; healing between forms does not break the series); (b) **set the in-combat heal gate to ~65% of max**, since
+she removes ~14% of a 400-HP pool every round and an item heals ~90.
+
+### ✅ FULL CLEAR ON A MUSCLE CLASS — plain attacks, garters, and the wand
+
+**Level 15 Seal Clubber, Muscle 263, 402 max HP, no buffs beyond the buffbot shells.** The whole three-form fight
+was won with **`fight.php?action=attack` every round** and an in-combat heal at ~65%:
+- **Form 1: 3 rounds**, taking 41–42 per round.
+- **Form 2: 8 rounds**, taking **50–55 per round** — a *gauze garter* (2402) or *filthy poultice* (2369) whenever
+  HP fell below ~65% kept pace comfortably; entry at full HP is what makes this survivable.
+- **Form 3: resolved by itself** with the **Wand of Nagamar merely HELD** (not equipped) — no item to use, no
+  round spent, the tower simply advanced to `ns_11_prism`.
+- **`ns_11_prism`: free** — *"You shout 'Hi-keeba!'"*, the prism shatters, **King Ralph XI is freed and the astral
+  gash opens.** The quest log's *Ultimate Final Epic Conflict of the Ages* moves to completed.
+⇒ **A melee class does not need the caster playbook here at all** — no stun, no nukes, no big MP battery. What it
+needs is: her Defense (211) under your Muscle, **skills avoided because she blocks them**, full HP at the start of
+each form, and ~15 combat-legal heals.
+
+### ✅ Re-verified on a MUSCLE class — form 1 is trivial at this level
+
+**Level 15 Seal Clubber, Muscle 263, 465 max HP (mirror gazed), Fury 5/5, Astral + Ghostly Shell.**
+**Form 1 died in 5 rounds** opening with the Fury spender (**Cavalcade of Fury**) then **Furious Wallop**, and she
+took the character from 465 to only ~405 — **22–29 damage a round**, no healing item needed. ⇒ The
+"she blocks ~half your spells / bring 60–80 MMJ" warnings below describe an under-levelled caster; a melee class
+arriving with a full Fury meter should not plan the fight around them.
+⚠️ **Between forms the tower's action list goes EMPTY** (the *"Uh oh."* cutscene). That is not a loss and not a
+finished fight — **re-fetch `ns_10_sorcfight` to meet the next form**, and test pages with `/<form name=attack/`
+because the cutscene pages false-negative on the usual checks.
+✅ **Form 2, same character: 9 rounds, won, no crisis** — she hit for a steady **34–38 a round** (465 → ~240 at
+the worst), one poultice mid-fight, Fury spent in the first two rounds and the rest on the everyday attack skill.
+🚨 **Form 3 without the wand ends the climb for the day, by design:** it beat the character to **0 HP and Beaten
+Up**, and the game then serves **choice 1016 "Frank Gets Earnest"** — a one-option cutscene that **blocks every
+other action until answered**. Answer it, clear Beaten Up, and go get the wand (Step 3); the loss is the intended
+trigger for the *Bear Verb Orgy* search, not a mistake.
 
 ### ✅ Verified full clear — and a scaling caveat on the warnings above
 

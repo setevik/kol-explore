@@ -29,6 +29,29 @@ Disco Bandit · Accordion Thief.
 
 ---
 
+## 📊 Character state (end of run #3 Day 25 / 2026-09-21)
+
+- **LEVEL 15 Seal Clubber.** Muscle 272 / Mys 152 / Mox 157. **Max HP 413.** 💰 **Meat 6,247.**
+  **16 adv banked.** full 15, drunk 20 (exactly 14 + ONE Fog Murderer ✅). **92 wins, 0 losses** after the Dervish.
+- 🏆🏆 **THE TOWER IS COMPLETE — KING RALPH XI IS FREE AND THE ASTRAL GASH IS OPEN.**
+  *The Ultimate Final Epic Conflict of the Ages* sits in **completed** quests. ⇒ **This run can ascend whenever
+  you choose** (see `mechanics/ascension.md`); I have NOT ascended — that is your call.
+  The climb, in order: Dervish → sash → coronation → hedge maze (9 turns, no fights) → 6 locks + doorknob (free) →
+  Wall of Skin (beehive, 1 round) → Wall of Meat (5 kills, 1,020 meat) → Wall of Bones (boning knife, 1 round) →
+  mirror **gazed** (+Confidence!, max HP 399 → 465) → Shadow (2 oils + 1 poultice) → NS forms 1–3 → prism.
+- 🔥 **THE RUN'S BIG CLASS LESSON: FURY.** The Dervish beat me 5 times against the everyday attack skill and died
+  **in one round** to **Cavalcade of Fury** from a full 5-gallon meter. Fury = 1 gallon per kill, cap 5 with Ire of
+  the Orca, **lost on every defeat and at rollover**. ⇒ bank it on trash fights immediately before any wall-boss.
+- 🗡️ **Nemesis quest — PARKED ON A GATE.** Cave opened (choice 1087 = *"Freak the hell out like a wrathful
+  wolverine"*, i.e. pour a gallon of Fury into the hole), 6 fizzing spore pods (**item 8427**), rubble blasted,
+  **Gorgolok, the Infernal Seal killed in 1 round** → *Scalp of Gorgolok*. The guild says it isn't the stolen
+  artifact; the log now reads *"waiting for your guild's scouts"* — a timed gate, not a re-visit.
+- 🧰 **Supplies:** gauze garter ×14 (in-combat heal) · tiny house ×6 · phonics down ×37 · popskull ×5 · Meade ×1.
+  ❌ **0 filthy poultices, 0 Fog Murderer, 0 scrolls** — restock before the next boss.
+- 📌 Still open: Nemesis (gated), White Citadel, Wizard of Ego, *A Quest, LOL*.
+
+<details><summary>End of Day 24 (for reference)</summary>
+
 ## 📊 Character state (end of run #3 Day 24 / 2026-09-20)
 
 - **LEVEL 15 Seal Clubber.** Muscle 263 / Mys 147 / Mox 152. **Max HP 399, max MP ~175.**
@@ -44,6 +67,7 @@ Disco Bandit · Accordion Thief.
 - 🧰 **Supplies:** filthy poultice ×13 · tiny house ×6 · scroll ×3 (out-of-combat only) · phonics down ×37 ·
   popskull ×4 · Fog Murderer ×1 · Meade ×1 · herbal stuffing ×2 · antidote ×53.
 - **Day 24: ~130 wins, 0 ordinary losses; 2 losses to the Dervish.**
+</details>
 
 <details><summary>End of Day 23 (for reference)</summary>
 
@@ -166,6 +190,31 @@ Healing ladder: **filthy poultice / gauze garter (0 adv, 0 MP, ~87 HP)** → **C
 
 ## 🔜 Next-session priorities
 
+> **16 adventures banked (the Day 25 overdrink) + the new day's allowance. Level 15. Meat 6,247.**
+> 🏆 **The Council quest chain is FINISHED and the astral gash is open.** The run has no required objective left,
+> so the next session starts with a decision:
+> **(A) ASCEND** — `mechanics/ascension.md`; go **Softcore**, and at the Pearly Gates spend karma before picking
+>     the next class. ⭐ **Run #3's purpose was to document the Seal Clubber, and that is done** — the class file
+>     now covers Fury, the skill tree with prices, the Nemesis route and the tower. The plan ("one ascension per
+>     class") points at **Turtle Tamer** next; `runs/` gets this file archived as `ascension-03-seal-clubber.md`.
+> **(B) MOP UP FIRST** — three side quests are still open and would add to the docs:
+>     **Nemesis** (⏳ gated on the guild's scouts — just re-check `guild.php?place=scg` each day),
+>     **White Citadel** (Whitey's Grove errand), **Wizard of Ego** (Fernswarthy's grave/key),
+>     ***A Quest, LOL*** (Baron Rof L'm Fao's valley).
+> ⚠️ **I have deliberately NOT ascended** — it is irreversible and resets everything; say which you want.
+>
+> Whichever you pick, the daily routine is unchanged:
+> (1) 🛒 **Restock first — the cupboard is bare:** 0 filthy poultices, 0 scrolls, 0 Fog Murderer. Buy poultices
+>     (~170), a big bottle for the overdrink, milk + herbal stuffing (~250) for breakfast. Meat is only 6,247, so
+>     **run a storage audit** if more is needed (deep stacks remain: dry noodles ×234, cocoa eggshell ×271,
+>     water pipe bombs ×73 — price each on the wiki first; clovers and class rings cannot be sold).
+> (2) 🔥 **Bank Fury (5 trash fights) before any boss** — it is the class's burst and it empties on every loss.
+> (3) ⚔️ Combat standard: plain attacks when a boss blocks skills; otherwise Lunging Thrust-Smack, Club Foot
+>     first against Defense 150+; **in-combat healing is poultice/gauze garter only** (scrolls are refused).
+> (4) 🍺 **DRINK:** fill to exactly 14, spend those turns, ONE overdrink last.
+
+<details><summary>Day 24's priorities (superseded)</summary>
+
 > **23 adventures banked (the Day 24 overdrink) + the new day's allowance. Level 15. Meat 12,259.**
 > (0) ⏰ Read `rollover` at login. 🚫 **Check `effects` before ANY champion/boss attempt** — Apathy from the Daily
 >     Dungeon cost a wasted Dervish attempt (Muscle 253 → 197, max HP 384 → 300). Wait the debuff out; it expires.
@@ -187,6 +236,8 @@ Healing ladder: **filthy poultice / gauze garter (0 adv, 0 MP, ~87 HP)** → **C
 > (5) 🍽️ **EAT:** 2 herbal stuffing left (~249 in the mall) + milk; snowcones are gone.
 > (6) 🍺 **DRINK:** popskull ×4, Fog Murderer ×1, Meade ×1 — buy more popskull (130); fill to exactly 14, spend,
 >     ONE overdrink last. The tower refuses you while drunk; the pyramid and 8-Bit Realm do not.
+
+</details>
 
 <details><summary>Day 23's priorities (superseded)</summary>
 
@@ -274,6 +325,29 @@ Healing ladder: **filthy poultice / gauze garter (0 adv, 0 MP, ~87 HP)** → **C
 </details>
 
 ## 🗓️ Session log (this run)
+
+- **Run #3 Day 25 (2026-09-21): 👑 THE NAUGHTY SORCERESS IS DEAD, THE KING IS FREE, THE RUN IS COMPLETE —
+  92 wins, and the Dervish fell in ONE round after beating me five times.**
+  🔥 **The whole day turns on one idea: the class had a banked resource I was never spending.** Five defeats,
+  and every escalation I tried was the same lever harder — more HP, both shells, an elemental attack, 60 wins of
+  levelling (Muscle 254 → 258). The fix was **Fury**: five trash fights to fill the meter to 5 gallons, then open
+  with **Cavalcade of Fury (skill 1037, 15 MP, consumes the whole meter)**. **One round.** ⚠️ And the trap that
+  hid it: **every loss empties the meter**, so each retry began *weaker* than the last.
+  🗼 Sash → coronation → hedge maze with Frank (**9 turns, no fights**) → the door appeared and all six keys
+  opened their locks. Walls: 🐝 beehive · 👊 5 punches for 1,001 meat · 🔪 boning knife · 🪞 mirror looked into,
+  not broken. 👤 **Your Shadow** re-verified — it cannot be damaged, only **healed at**: 6 rounds, ~170 each,
+  2 poultices + 1 garter, win text *"Your shadow writhes in agony"*.
+  🚨 **She blocks skills, and the tell is that MP never moves.** I cast into the void for ~20 rounds before
+  reading my own MP bar. Plain attacks: form 1 in 4 swings, form 2 in 8, form 3 conceded to the wand.
+  ⚠️ I entered form 2 at **170/402** because the loop re-entered from the previous page without healing ⇒
+  **verify full HP before each form**; HANDOFF's in-combat gate raised to 65%.
+  ⚔️ Then the **Nemesis cave**: choice 1087 renders as a class-skill menu, but **the engraving is the clue** —
+  a figure pouring a bucket into a four-inch hole ⇒ *"Freak the hell out like a wrathful wolverine"* (each wrong
+  verb costs 1 adventure). **Gorgolok, the Infernal Seal** lasted **1 round** to a full Fury meter, but did not
+  carry the stolen item; the quest now waits on the guild's scouts (⏳ timed gate, re-check `guild.php?place=scg`).
+  🍺 Filled to 14 on popskull (68 sober + 24 drunk wins), then ONE **Fog Murderer** overdrink (+16 banked).
+  Ended **Level 15**, Muscle 272, max HP 413, meat 6,247 — 🏆 **Council quest chain finished, astral gash open,
+  and I have deliberately not ascended: that call is yours.**
 
 - **Run #3 Day 24 (2026-09-20): 🗝️ ALL SIX TOWER KEYS, 20,569 meat from a storage audit, *Northern Explosion*
   bought — ~130 wins, 0 ordinary losses, and two more defeats by the Dervish.**

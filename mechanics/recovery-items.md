@@ -102,6 +102,7 @@ is a stack of healing items, because they cost **no adventure at all**:
 | Heal | Cost | Amount |
 |---|---|---|
 | **filthy poultice** (2369) | **0 adventures** | **~87 HP** ✅ measured |
+| **gauze garter** (2402) | **0 adventures** | same family — ✅ also works **in combat** |
 | gauze garter (2402) | 0 adventures | smaller top-up |
 | Cannelloni Cocoon | 20 MP | heals to full |
 | `Hibernate` | **1 ADVENTURE** | full HP + clears Beaten Up |
