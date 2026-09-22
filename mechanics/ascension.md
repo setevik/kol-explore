@@ -28,6 +28,40 @@ Gnomad Camp) · `whichpath` **22 = Standard (the default!)**, **0 = Unrestricted
 older items/zones, explicitly send **`whichpath=0` (Unrestricted)** — otherwise much of `mechanics/` silently
 stops applying. Pair each radio with the label that follows it; don't trust list order alone.
 
+🐛 **THE PERMERY PAIRS EACH FORM WITH THE *NEXT* SKILL'S NAME — NEVER READ A PERM TARGET OFF THAT PAGE.**
+✅ Measured: the block whose `whichskill` value was **1017** (*Double-Fisted Skull Smashing*) rendered the text
+**"Cavalcade of Fury"**, and the block for **1005** (*Lunging Thrust-Smack*) rendered *"Snarl of the Timberwolf"*.
+The name sits *after* the form, so a forward scan pairs it with the wrong id — the same row-boundary bug as
+`sellstuff.php` and the shop rows. **Perming is irreversible and costs 100 karma**, so this is the worst place
+in the game to mis-pair an id.
+✅ **Confirm every target independently before posting:**
+`desc_skill.php?whichskill=<id>&self=true` prints the authoritative name. Do it for each id, every time.
+(The page has **two forms per skill** — `scperm` and `hcperm` — so 34 skills renders 68 forms.)
+
+🚨 **`whichpath` ARRIVES WITH STANDARD (22) PRE-`checked`, AND THE READ-BACK NEVER MENTIONS THE PATH.**
+✅ Verified: **`0` = "Unrestricted [older paths]"** and it is the **last** radio on the page; `22` = Standard and
+carries the `checked` attribute. The confirmation page names the difficulty, the moon sign, the class, the astral
+pet and the permed skills — **but not the path** — so **you cannot verify the path before committing.**
+✅ **Two defences:** (a) submitting an older path additionally requires **`lamepathok=1`**, so *needing* that
+field is indirect evidence your path took; (b) **read `api.php?what=status` → `path` immediately after rebirth**
+(`"0"` = Unrestricted) and treat a `22` there as a run to abandon early rather than discover later.
+
+✅ **Ascending mid-game-day still grants a FULL fresh allowance** — measured: a character who had already spent
+its day and taken its overdrink (drunk 20, 14 banked) was reborn with **40 adventures**, `full`/`drunk` reset to
+0 and `roninleft` back to **1000**. ⇒ **there is no reason to wait for rollover to ascend.**
+
+✅ **What survives into the new run** (measured on the charsheet/terrarium right after rebirth): **every permed
+skill** (including ones permed in *earlier* ascensions, and they work across a class change), **all familiars**,
+and — in **Softcore** — the **entire estate and meat balance, moved to Hagnk's** (a 19,969-meat purse arrived
+intact). The new character starts with **meat 0** and a handful of class starting gear, so **day 1's first act
+should be a storage withdrawal**, not farming.
+
+⚠️ **Pick the astral pet for the loadout you will actually run.** Each is 10 karma, and two of the seven occupy
+contested slots: the **astral bludgeon is 2-handed** and the **astral shield / astral statuette are off-hand**,
+so any of them **cancels a dual-wield perm while worn**. Match the pet to the new class's mainstat — the
+enchantments are stat-specific (**Muscle**: bludgeon, shield · **Mysticality**: chapeau, bracer, statuette ·
+**Moxie**: shorts, longbow) — and read the slot before the stat bonus.
+
 ✅ **Always read the confirmation page before committing.** It reads your choices back in plain English
 ("*You are about to step into a Normal incarnation, and be born under the The Platypus Moon Sign as a Seal
 Clubber… You have marked the following skills permanent: …*"), which is the cheapest possible check on an
@@ -38,7 +72,8 @@ irreversible action.
 `charpane.php`, where it occupies the slot meat normally uses** (a bare number under the stats).
 
 💰 **A Normal win pays 111 karma: base 100 + 11 for the Instant Karma** you always get for beating the final
-boss. That is **one softcore perm (100) and almost nothing else** — so treat a perm as roughly *one per
+boss. ✅ **Verified in-game:** the Astral Spirit's charpane read **102 before collecting and 213 after** — a
+delta of exactly **111**. That is **one softcore perm (100) and almost nothing else** — so treat a perm as roughly *one per
 ascension*, not a shopping trip. **Karma banks across ascensions**, so an unspent remainder is never wasted.
 🐛 **Do not read the Pearly Gates balance as the grant.** A balance of ~211 after collecting is what
 *pre-existing banked karma + 111* looks like; recording that as "a Normal win paid 211" doubles your apparent
