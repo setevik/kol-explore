@@ -32,6 +32,38 @@ HP meters** (hidden while it is 0, which is why it is easy to forget). `api.php?
   combo is **rented, not owned**. Perm the class-agnostic passives instead (see `mechanics/ascension.md`
   § "Which skill to perm").
 
+### 💎 WORTH PERMING out of a Seal Clubber run (framework: `mechanics/ascension.md` § "Which skill to perm")
+
+⭐ **The pick: Double-Fisted Skull Smashing (1017, Level 12, Passive)** — *"allows you to wield a one-handed
+weapon in each of your hands."*
+- **Passive** ⇒ free forever: no MP, no turn, no decision.
+- **Works for every class, not just Muscle.** The off-hand may be any one-handed weapon *of the same type*
+  (melee/**Mysticality**, or ranged); the only rule is you cannot mix a melee/Myst weapon with a ranged one.
+- **Two benefits, not one:** extra damage worth **10–20% of the off-hand's power**, **plus the off-hand's
+  enchantments and damage bonus** — effectively a permanent extra enchantment slot, useful even to a class that
+  never swings a weapon.
+- **Irreplaceable** — no item or buff grants dual-wielding.
+- ✅ Measured: replacing a shield with a second weapon gave **+11 Muscle** and held **1.00 rounds/fight at
+  0 losses** over 34 castle giants.
+
+**Runner-up: Lunging Thrust-Smack (1005, Combat, 8 MP)** — triples **base** weapon damage, and ⚠️ its text reads
+*"…and also Bonus Weapon Damage **if a Seal Clubber**"*, so off-class you keep the triple (the large part) and
+lose only the rider. **No club is required** — the Smack family reads *"with your weapon"*. ✅ Measured, same
+character/zone/day: **plain attack = 3 rounds, ~120 damage taken, 3 losses in ~10 fights** vs **Lunging
+Thrust-Smack opener = 1 round, ~40 often 0, 0 losses in ~60 fights.** ⚠️ Active ⇒ re-imposes an MP budget.
+
+**Not worth karma** (evaluated against the four tests):
+| Skill | Why not |
+|---|---|
+| **Fury package** (Wrath of the Wolverine · Ire of the Orca · Cavalcade of Fury · Furious Wallop · Batter Up!) | 🚫 **Fury cannot be built off-class even when permed** — see the Fury section above. |
+| **Hibernate** (1027) | Costs **1 Adventure** per cast — a heal paid for in the same currency as progress. Any MP-cost full heal beats it. |
+| **Audacity of the Otter** (1009, crits ×3) | Its *guaranteed*-crit partner is Fury, which doesn't carry; random crits alone are too rare to buy. |
+| **Fortitude of the Muskox** (1008, regen 1–2 HP/adv) | Real but tiny; cheap items cover the same gap. |
+| **Hide of the Walrus** (1011, DA +50) · **Claws of the Walrus** (1012, Weapon Damage +7) | Small flat passives that fade as monsters scale. |
+| **Northern Explosion** (1038, 16 MP, cold) | A genuine answer to physically-immune monsters, but **items already solve that** (fires of unknown origin, an oil lamp). |
+| **Pulverize** (1016) · **Super-Advanced Meatsmithing** (1006) | Crafting access only; a storage audit already raises tens of thousands of meat with no skill at all. |
+| **Rage of the Reindeer** (1015, Noncombat 10 MP) | A situational buff (stronger "against guys with beards"). |
+
 ### ✅ Verified skill IDs (read from `desc_skill.php` / the wiki, not guessed)
 **Passives:** Fortitude of the Muskox **1008** · Audacity of the Otter **1009** (crits ×3) ·
 Hide of the Walrus **1011** (DA +50) · Claws of the Walrus **1012** (Weapon Damage +7) ·
@@ -127,8 +159,7 @@ unlocks; re-visit the trainer **every level** (this was a documented blind spot 
 
 ### The skill tree (from the trainer page)
 
-Costs scraped live from Torg's rack (they rise steeply — budget ahead):
-`1,750 · 2,500 · 3,250 · 4,000 · 5,000 · 6,250 · 7,500 · 10,000 · 12,500 · 15,000` meat as you climb the tiers.
+Costs rise steeply with the tier — the full priced ladder is in § "The whole rack, priced" below.
 
 | Lvl | Skills |
 |---|---|
@@ -160,22 +191,21 @@ utility or crafting. Don't expect this tier to solve a damage wall on its own.
 
 ### 💰 THE WHOLE RACK, PRICED — measured to the last skill
 
-✅ **Torg's prices rise in a fixed ladder and then flatten at the top.** Measured across a run that bought the
-tree out completely (trainer page then reported **0 skills remaining**):
+✅ **The price is set by the skill's LEVEL, not by the skill** — both Level 13 skills cost 10,000, both Level 14
+cost 12,500, both Level 15 cost 15,000. Measured across a run that bought the tree out completely (the trainer
+page then reported **0 skills remaining**):
 
 | Tier | Price |
 |---|---|
 | Level 1 / 2 / 3 skills | **125 · 250 · 500** |
 | mid rack | **1,750 · 2,500 · 3,250 · 4,000 · 5,000 · 6,250 · 7,500** |
-| **Level 13 Northern Explosion** | **10,000** |
-| **Level 14 Precision of the Penguin · Musk of the Moose** | **12,500** |
-| **Level 15 Pulverize · Pride of the Puffin** | **15,000** |
+| **Level 13** Northern Explosion · Northern Exposure | **10,000** |
+| **Level 14** Precision of the Penguin · Musk of the Moose | **12,500** |
+| **Level 15** Pulverize · Pride of the Puffin | **15,000** |
 
 ⇒ **Budget ~52,500 meat for the last four skills alone** (Northern Exposure 10,000 · Musk of the Moose 12,500 ·
 Pulverize 15,000 · Pride of the Puffin 15,000). A purchase you cannot afford is refused outright with *"You
 can't afford to train that skill."* — no meat moves, so it is safe to just try.
-⭐ **Fund it with a storage audit, not with farming:** ✅ measured **68,100 meat for ZERO adventures** in one
-pass (see `HANDOFF.md` § "Audit your own junk drawer"). That is roughly *the entire top of the rack* for no turns.
 🔎 **Read what's left from the trainer page rather than tracking it by hand** — the purchase forms are the
 authoritative list: `[...tr.matchAll(/name=skillid value=(\d+)/g)]`. Zero matches ⇒ the class is fully trained.
 
@@ -193,18 +223,10 @@ authoritative list: `[...tr.matchAll(/name=skillid value=(\d+)/g)]`. Zero matche
 ⇒ **Of the entire Level 13–15 tier, only *Northern Explosion* adds a way to deal damage.** Do not expect this
 tier to solve a fight; buy it for completeness and for the +5 Muscle burst.
 
-⚠️ The trainer page lists these by name and level but **prints no price**; read the cost from the purchase
-response (or the meat delta) rather than assuming the tier pattern above continues.
-💰 ✅ **Measured prices at the top of the rack: *Precision of the Penguin* (Level 15 passive) 12,500 ·
-*Northern Explosion* (Level 13 combat) 10,000.** A purchase you cannot afford is refused outright with *"You
-can't afford to train that skill."* ⇒ **budget ~10–12.5k per skill** and buy the one that changes a fight rather
-than the cheapest name on the list.
-⭐ **Where that meat comes from without spending turns:** a **storage audit**. ✅ Measured on one run — pulling the
-surplus above 3 of each and autoselling it raised **20,569 meat for ZERO adventures** in a few minutes
-(PADL Phone ×91 at 100 · canopic jar ×47 at 87 · ketchup hound ×34 at 120 · suntan lotion of moxiousness ×22 at
-150; every sale matched its wiki price exactly). **Price the big stacks on the wiki first** — `Selling Price:` —
-because several deep stacks (ten-leaf clovers, class rings) **cannot be sold at all**. See `HANDOFF.md` §
-"Audit your own junk drawer".
+⚠️ The trainer page prints **no price** — read each cost from the meat delta of the purchase itself.
+⭐ **Fund the top of the rack with a storage audit, not with farming** — ✅ measured at **20,569** and **68,100**
+meat for **zero adventures** on two different runs. ⚠️ Some deep stacks (ten-leaf clovers, class rings)
+**cannot be sold at all**. Method: `HANDOFF.md` § "Audit your own junk drawer".
 💡 *Northern Explosion* is the class's **elemental** attack — the answer to physically-immune monsters (the Hidden
 City spirits, A-boo's ghosts) that otherwise need fires of unknown origin or an oil lamp.
 

@@ -131,14 +131,17 @@ After forging the Legendary Epic Weapon (Part 1 below), Asiago points you to a *
    - ⇒ **The phase is advanced by SPENDING TURNS, anywhere.** There is nothing to check and nothing to buy;
      a guildmaster saying *"he's proving to be devilishly sneaky"* means *go adventure some more*.
 
-   | Class | 1st (45+) | 2nd (60+) | 3rd (75+) | 4th (90+) |
+   **Every class has all four tiers.** Only the Seal Clubber row below was captured in full; `?` means *not yet
+   transcribed*, **not** "no assassin there" — read the missing cells off the wiki when you next need them.
+
+   | Class | 1st (45+) | 2nd (60+) | 3rd (75+) | 4th (90+) — drops the map |
    |---|---|---|---|---|
    | **Seal Clubber** | menacing thug | Mob Penguin hitman | hunting seal | **Argarggagarg the Dire Hellseal** |
-   | Turtle Tamer | turtle trapper | — | — | **Safari Jack, Small-Game Hunter** |
-   | Pastamancer | evil spaghetti cult assassin | — | — | **Yakisoba the Executioner** |
-   | Sauceror | béarnaise zombie | — | — | **Heimandatz, Nacho Golem** |
-   | Disco Bandit | flock of seagulls | — | — | **Jocko Homo** |
-   | Accordion Thief | mariachi bandolero | — | — | **The Mariachi With No Name** |
+   | Turtle Tamer | turtle trapper | ? | ? | **Safari Jack, Small-Game Hunter** |
+   | Pastamancer | evil spaghetti cult assassin | ? | ? | **Yakisoba the Executioner** |
+   | Sauceror | béarnaise zombie | ? | ? | **Heimandatz, Nacho Golem** |
+   | Disco Bandit | flock of seagulls | ? | ? | **Jocko Homo** |
+   | Accordion Thief | mariachi bandolero | ? | ? | **The Mariachi With No Name** |
 
    ✅ **The 4th assassin drops the `secret tropical island volcano lair map`** (and, for a Seal Clubber, also
    **Argarggagarg's fang** and the **adorable seal larva** — the class familiar).

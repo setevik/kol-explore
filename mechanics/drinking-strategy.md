@@ -160,6 +160,11 @@ The craft page (`craft.php?mode=cocktail`) `<option>` list is also the fastest w
 | **boxed wine** | 1005 | 3 | 3 | **1.0 — skip it** |
 | Imp Ale | 470 | 1 | 1 | 1.0 — pure topper |
 | **gin-soaked blotter paper** | 4675 | **1** | **1** | 1.0 ⚠️ *the name lies; a terrible overdrink* |
+| Cursed Punch | 6680 | 1 | 2 | 2.0 — a useful **lander** |
+| whiskey sour | 674 | 3 | 5–6 | 1.8 |
+| strawberry daiquiri | 788 | 3 | 5.5 | 1.8 |
+| bottle of cooking sherry | 2840 | 2 | 3 | 1.5 |
+| accidental cider | 2842 | 3 | 4.5 | 1.5 |
 
 ⚠️ Anything not on this table is **unverified — treat as potency 3** for look-ahead, and never make it the
 overdrink.
@@ -207,47 +212,25 @@ the point of never hard-coding either number. Mixing (below) roughly doubles per
 </details>
 
 
-## 🔎 Reading a bottle's real numbers off the wiki (the field names are NOT what you'd guess)
+## 🔎 Looking a bottle up on the wiki — two field names to know
 
-To rank booze by **adventures per drunkenness** you need two numbers, and both hide behind unobvious labels:
+- **Drunkenness is printed as `Potency:`**, *not* `Size:` (that's food). A `Size:` regex matches nothing on every
+  booze page, and a `|| 0` fallback then reports every bottle as free — a look-ahead that fails **open**.
+- **The yield is a range plus a mean:** `You gain 14-16 Adventures. (avg. 15)` ⇒ read `avg\.\s*([\d.]+)`, or
+  average the range yourself.
 
-- **Drunkenness is printed as `Potency:`** — *not* `Size:` (that's food). A regex for `Size:` silently matches
-  nothing on every booze page, and a `|| 0` fallback then reports every bottle as free.
-- **The yield is a range plus a parenthetical mean:** `You gain 14-16 Adventures. (avg. 15)` ⇒ match `avg\.\s*([\d.]+)`
-  and fall back to averaging the range yourself.
-- ⚠️ Strip the page's inline `.mw-parser-output{…}` CSS first or it swamps the stat block.
+(Use the standard wiki `curl` recipe in `HANDOFF.md` § HARD RULE 6; add anything you measure to the table above.)
 
-```bash
-curl -s -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/120 Safari/537.36" \
-  "https://wiki.kingdomofloathing.com/<Bottle_Name>" | python3 -c "
-import sys,re
-h=re.sub(r'<script.*?</script>','',sys.stdin.read(),flags=re.S)
-t=re.sub(r'<[^>]+>','|',h); t=re.sub(r'\|+','|',t); t=re.sub(r'\s+',' ',t)
-t=re.sub(r'\.mw-parser[^|]*','',t)
-d=re.search(r'Potency:\s*\|?\s*(\d+)',t); a=re.search(r'avg\.\s*([\d.]+)',t)
-print(d.group(1), a.group(1), float(a.group(1))/int(d.group(1)))"
-```
+## ⭐ Why the two-bucket rule is worth the bookkeeping
 
-### ✅ A measured ranking (re-derive it from what you actually hold — availability decides the rack)
+**Ye Olde Meade and the Fog Murderer both average ~15 adventures**, but Meade costs **5** drunkenness and the
+Murderer **6**. ⇒ **pour the Meade inside the cap** (where each point of drunkenness is scarce) and **save the
+Murderer for the overdrink** (where potency is free and only the absolute yield counts). Reversed, you burn a
+whole point of cap for nothing.
 
-| Bottle | Potency | avg adv | **adv / drunk** |
-|---|---|---|---|
-| **Ye Olde Meade** | 5 | 15 | **3.00** ⭐ best filler found |
-| Cursed Punch | 1 | 2.5 | 2.50 |
-| **Fog Murderer** | 6 | 15 | 2.50 ⭐ best *overdrink* (size is free there) |
-| strawberry daiquiri / whiskey sour | 3 | 5.5 | 1.83 |
-| accidental cider | 3 | 4.5 | 1.50 |
-| bottle of popskull / cooking sherry | 2 | 3.0 | 1.50 |
+✅ **Worked fill at a 14 cap, measured:** Meade (→5, **+16**) · Cursed Punch ×3 (→8, +2 each) · whiskey sour ×2
+(→**exactly 14**, +6 then +5) = **33 adventures inside the cap**, then **ONE Fog Murderer overdrink → drunk 20,
++14 banked overnight.** ⭐ **1-potency bottles are what let you land ON the cap** instead of stopping short of it.
 
-⭐ **This table is exactly why the two-bucket rule works.** Meade and Fog Murderer both average **15 adventures**,
-but Meade costs **5** drunkenness and the Murderer costs **6** ⇒ **spend the Meade inside the cap** (where every
-point of drunkenness is scarce) and **spend the Murderer on the overdrink** (where potency is free and only the
-absolute yield counts). Getting this backwards wastes a whole point of cap for nothing.
-
-✅ **Worked fill at a 14 cap, measured:** Meade (→5, **+16 adv**) · Cursed Punch ×3 (→8, +2 each) ·
-whiskey sour ×2 (→**exactly 14**, +6 then +5) = **33 adventures inside the cap**, then **ONE Fog Murderer
-overdrink → drunk 20, +14 adv banked overnight.** 1-potency bottles are what let you *land on* the cap exactly.
-
-⚠️ **Don't assume a mixer recipe exists.** `bottle of rum + soda water` returns *"Those two items don't combine
-to make a refreshing cocktail"* — ✅ and **nothing is consumed**, so a failed craft is free to probe. Check the
-cocktailcrafting page's own discoveries list rather than inventing pairs.
+⚠️ **Don't invent mixer recipes.** `bottle of rum + soda water` answers *"Those two items don't combine to make a
+refreshing cocktail"* — ✅ but **nothing is consumed**, so a failed craft costs nothing and is safe to probe.

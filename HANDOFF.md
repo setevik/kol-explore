@@ -136,6 +136,15 @@ returned `null` on an open choice, so the page read as "nothing to answer" while
   supply is gone; (c) count a fight as LOSS only on `/You lose the fight|black out|slink away/` — bare `/You lose/`
   false-positives on "You lose N hit points" (this old mistake got re-made; see also the Boss Bat note).
 
+- 🎁 **WHEN A QUEST GATE IS AN ITEM DROP, THE BOTTLENECK IS +ITEM — NOT YOUR DAMAGE EITHER.** The sibling of the
+  rule below, and it has the same tell: you are winning every fight and making no progress.
+  ✅ **Measured on one character, one zone, one day: 22 fights produced 1 of the needed scroll; the next 14 fights
+  produced 4** — the only change was stacking **Fat Leon's Phat Loot Lyric (+20%, free from the buffbot by kmail)**
+  and a **+7% item accessory**. ⇒ **Before grinding for any named drop, spend the two minutes to put +item up.**
+  It costs no turns and no meat, and it is the cheapest lever in the game.
+  ⚠️ Verify the accessory is actually **worn** (see the accessory-slot trap under § Common URL patterns) — a
+  silently-unequipped +item accessory is indistinguishable from bad luck.
+
 - 🚧 **WHEN A QUEST GATE IS A *NONCOMBAT*, THE BOTTLENECK IS ENCOUNTER RATE — NOT YOUR DAMAGE.**
   One session spent **~120 turns in the Palindome at 150W/0L** waiting for one choice adventure that never
   came (2 noncombats all day). Winning harder does nothing for this. ✅ **Recognise the shape early:** if
@@ -248,13 +257,10 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
    ✅ **Then rank by `(qty − keep) × price`, and sell per-item with `mode=3&quantity=<surplus>`** — one POST each.
    `mode=1`/`mode=2` cannot express "keep exactly 3", and `mode=3`'s `quantity` applies to *every* checked item,
    so **one item per POST is the only way to keep a per-item reserve.**
-   ✅ **Prove it with a 3-stack test sale and compare the meat delta to the prediction before dumping the rest.**
-   Measured: predicted 14,074 → gained **exactly 14,074**, then the remaining 95 stacks predicted 54,026 →
-   gained **exactly 54,026** (**68,100 total, 889 items, 0 refusals, 0 adventures**).
+   ✅ Measured end-to-end with the test-sale check above: predicted and gained matched **exactly** on both
+   batches — **68,100 meat, 889 items, 98 stacks, 0 refusals, 0 adventures.**
    ⚠️ **Exclude your own supply lines from the plan by NAME before sorting** — a pure price sort will happily sell
-   your in-combat heals and MP restoratives. Things worth protecting even though they price well:
-   **phonics down** (✅ restores **46–50 HP *and* MP**), **ancient Magi-Wipes** (✅ **50–60 MP/HP and removes
-   negative effects**), tiny houses, gauze garters, filthy poultices, and anything you plan to drink tonight.
+   your in-combat heals, your MP restoratives (see § MP restore) and tonight's booze.
 
 3. **Starter-package gems are worth a fortune.** The pork elf goodies sack (Toot Oriole / Letter from King Ralph)
    yields **porquoise (706) / hamethyst / baconstone — 500 meat autosell each**. Their only use is jewelrycrafting
@@ -270,7 +276,8 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
    ✅ **Policy: keep 3 of each for future runs** (storage persists across ascensions, and several of these are
    quest shortcuts — the castle's amulet/wig/umbrella), **sell the rest.** Pull exactly the surplus, then sell
    exactly that count with `mode=3` so copies already in inventory survive.
-   ✅ Get prices in one Bash pass from the wiki's `Selling Price:` line rather than one sell-page at a time.
+   ✅ **Prices: read them straight off `sellstuff.php` (see the parse below) — not from the wiki**, which needs one
+   request per item.
    ⚠️ **Do this BEFORE a day that needs meat, not after starving for a week.** The two days before this sale had
    lost fights purely for lack of MP restoratives.
    A long-running farm zone quietly buries you in drops. Months on the eXtreme Slope had left **166 gr8ps,
@@ -336,13 +343,17 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
   `shop.php?whichshop=hiddentavern&action=buyitem&whichrow=175`. Drink with
   `inv_booze.php?which=1&whichitem=6682&pwd=` (**not** `inv_use.php` — see `drinking-strategy.md`).
   (There is NO booze upgrade beyond this — Advanced Cocktailcrafting is Disco-Bandit-only; Pastamancer can't learn it.)
-- ✅ **MP restore — the two that matter.** ⚠️ Conflicting claims circulate about these; this is the
+- ✅ **MP restore — ranked.** ⚠️ **Check for the dual HP+MP items first** (bottom two rows): a run that carries a
+  stack of those needs no separate healing item and no MP ladder, which quietly removes the whole "MP economy"
+  problem. Deep stacks of both turn up in a post-Ronin storage audit. ⚠️ Conflicting claims circulate about these; this is the
   reconciled version. **Both exist; neither is "gone".**
   | Item | MP | Where | Note |
   |---|---|---|---|
   | **magical mystery juice (518)** | ~25–28 | **guild store** `shop.php?whichshop=guildstore2` **row 527**, ~100 meat | Cheapest by far *when the guild sells it*. **Frequently absent from the MALL entirely** — a mall search can return zero listings while the guild still stocks it. Buy the day's supply here first. |
   | **Mountain Stream soda (357)** | ~37 | mall, tradeable | The fallback. **Price is volatile — observed anywhere from ~50 to ~294 each.** Always price-check before bulk-buying (see the commodity rule below). |
   | **tiny house (592)** | ~23 | drops / mall | Free when it drops, and **also clears Beaten Up**. |
+| ⭐ **phonics down (593)** | **46–50** | drops / mall | ✅ **Restores that much HP *and* MP from one item** — it is both halves of the recovery ladder at once, and it outclasses everything above it. |
+| ⭐ **ancient Magi-Wipes (2616)** | **50–60** | drops / mall | ✅ **HP *and* MP, and removes negative effects** — i.e. it doubles as debuff removal before a boss. |
 - ⭐ **ALTERNATIVE rack, worked at a 19 cap (higher yield, but only if these are in stock — banks ~74 adv;
   rescale the bottle counts to your own cap):**
   ⚠️ Availability is the catch: recent sessions could not source Meade/corpse-on-the-beach and used the Fog
@@ -420,13 +431,13 @@ re-ask it whenever the day's job changes (meat farm → leprechaun, drops → fa
   🚨 **AN ACCESSORY EQUIP WITHOUT `&slot=N` SILENTLY FAILS ONCE ALL THREE ACCESSORY SLOTS ARE FULL.** The
   response is a normal 200 reading **"You may only equip N accessories at a time"** — no error, no redirect —
   and a later `charsheet.php` check is the only way to notice. ✅ **Measured:** a `+7% item drops` accessory
-  "equipped" successfully and was still not worn 25 fights later, so the buff never applied.
+  reported success and was still not worn for the whole following 14-fight burst, so the bonus never applied.
   ✅ **Fix: always pass an explicit slot** — `inv_equip.php?which=2&action=equip&whichitem=<id>&slot=2&pwd=` —
   and **read the `Item unequipped: …` line** to learn what you displaced.
   ⚠️ **Count your accessories before assuming a slot is free:** several things that *sound* like other slots are
   accessories (e.g. **boots and belts**), so a loadout can look like it has room when all three are taken.
-  ⭐ **General rule: after any equip, verify from `charsheet.php`'s Equipment block** — equipping is in the same
-  family as the pwd-less write and the wrong-verb consume: it reports success and does nothing.
+  ⭐ Equipping belongs to the same family as the pwd-less write and the wrong-verb consume: **it reports success
+  and does nothing.** Verify from `charsheet.php`'s Equipment block (as § "Quest gear is a loan" already requires).
 
 ## Item endpoints — pick the right verb or the call silently no-ops
 

@@ -2,7 +2,8 @@
 
 > Beat the Naughty Sorceress (all 3 forms) + freed King Ralph XI on **Day 131**, then ascended
 > **Softcore/Normal** into a **Seal Clubber** run (Platypus sign, **Unrestricted** path).
-> Spent **211 karma**: permed **Cannelloni Cocoon** (100) + **astral bludgeon** (10); **~102 karma banked**.
+> Arrived with a **211 karma balance** (≈100 banked + **111** for the Normal win) and spent **110**: permed
+> **Cannelloni Cocoon** (100) + **astral bludgeon** (10); **~102 karma banked**.
 > Ran Day 86 → Day 131 (46 days), finishing at **Level 17**, base Mys 267, ~8,954 meat.
 > Frozen final-state record of the SECOND run. It ended by ascending into run #3 (Seal Clubber).
 > Live state for the current run is in `../CURRENT_ASCENSION.md`.

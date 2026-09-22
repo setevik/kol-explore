@@ -50,7 +50,6 @@ after the meatcar is built. He wants lunch.
    witch** (32 HP, drops *wand of pigification*). ✅ Both died in **1 round** at base Muscle ~273.
    ⚠️ **Several of 931's steps cost NO adventure** and re-serve the same choice number — the free-encounter
    guard will trip on them. That is expected here; step through by label rather than looping.
-   (The alternative `Cut down one of the cocoons` route hunts a *plastic rock* holding a spare house key.)
 5. **Choice 932 — *No Whammies***, a chest minigame. `Investigate the chests` → three chests, **exactly one
    is trapped**; each safe chest raises the pot, **a trapped one forfeits the whole pot and the turn**.
    🎯 **You only need to bank *some* meat to progress** ⇒ open **one** chest, then
@@ -102,8 +101,8 @@ Combine scrolls by **using two of them as combat items on a `rampaging adding ma
   **Do not attack it** — every round should be a scroll. If it dies with combines left, find another.
   ✅ **A combine that reduces it to 0 HP still yields its output scroll.**
 - ⚠️ **The dictionary and facsimile dictionary do NO damage to this monster** (they work on everything else here).
-- ✅ Measured: machines are **common** (~2 per 15 fights), so a wasted one is cheap — but **all three combines
-  landed on a single machine** once, so feed it until it dies.
+- ✅ Measured: machines are **common** (~2 per 15 fights), so losing one is cheap — but all three combines have
+  fitted on a single machine, so **keep feeding it until it dies.**
 
 ### Finishing
 **`inv_use` the 64735 scroll (552)** → you are transported to the Baron's gates.
@@ -113,10 +112,3 @@ Combine scrolls by **using two of them as combat items on a `rampaging adding ma
 base scrolls, plus 3 turns to find and feed a machine.
 
 ---
-
-## ⭐ The general lesson these three share
-
-**Drop-gated quest steps are an ITEM-DROP problem, not a damage problem.** ✅ Measured in the Valley on one
-character, same zone, same day: **22 fights produced 1 scroll** bare, then **14 fights produced 4 scrolls**
-after stacking **Fat Leon's Phat Loot Lyric (+20%, free from a buffbot — see `HANDOFF.md`)** and a
-**+7% item accessory**. ⇒ **Before grinding a drop, spend the two minutes to put a +item buff up.**

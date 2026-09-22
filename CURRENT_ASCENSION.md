@@ -258,23 +258,28 @@ The gate that blocked this for days is **open**; it was an assassin ladder, not 
 Standard (22), which silently invalidates much of `mechanics/`. The plan ("one ascension per class") points at
 **Turtle Tamer** next; archive this file to `runs/ascension-03-seal-clubber.md`.
 
-#### 🧠 PERM PLAN (decided — full reasoning in `mechanics/ascension.md` § "Which skill to perm")
-**Karma: ~102 banked + ~211 for a Normal win ≈ ~313.** ⚠️ **Read the real balance from the Astral Spirit's
-`charpane.php` before spending** — 102 is a carried-forward estimate, not a reading.
-Use **`action=scperm` (100 karma)**, not `hcperm` (200); we play Softcore/Normal.
+#### 🧠 PERM PLAN (reasoning: `mechanics/seal-clubber-class.md` § "Worth perming")
+**Karma: ~102 banked + 111 for this Normal win ≈ ~213.** A softcore perm is **100**, so this funds **two at
+most, leaving ~13** — the income is ~111/run, i.e. **about one perm per ascension**.
+⚠️ **Read the real balance from the Astral Spirit's `charpane.php` before spending** — 102 is a carried-forward
+estimate, not a reading, and the old "a Normal win pays 211" note in the docs was wrong (that was a *balance*).
+Use **`action=scperm`** (100), not `hcperm` (200); we play Softcore/Normal.
 
-1. ⭐ **Double-Fisted Skull Smashing — `whichskill=1017`** (Passive, dual-wield). **The pick.** Free forever,
-   works for *every* class (melee/Myst or ranged, just not mixed), gives 10–20% of the off-hand's power **plus
-   its enchantments** — effectively a permanent extra gear slot. Nothing else grants dual-wielding.
-2. **Lunging Thrust-Smack — `whichskill=1005`** (Combat, 8 MP, ×3 base weapon damage). Keeps the triple off-class
-   (only the Seal-Clubber bonus rider is lost) and needs no club. Turtle Tamer's own damage is weak, so this
-   should carry the very next run.
-3. 🏦 **BANK the remaining ~113.** Every future class is also a one-time window; karma held is optionality.
+1. ⭐ **PERM: Double-Fisted Skull Smashing — `whichskill=1017`** (Passive, dual-wield). Free forever, works for
+   every class, gives 10–20% of the off-hand's power **plus its enchantments**, and nothing else in the game
+   grants dual-wielding. **This is the one to buy.**
+2. ⚖️ **Lunging Thrust-Smack (`whichskill=1005`) — judgement call, and it costs nearly all the rest.** It keeps
+   its ×3 base weapon damage off-class and needs no club, and **Turtle Tamer's own damage tree is weak**, so it
+   would carry the very next run. But taking it leaves **~13 karma** and no cushion.
+   - Take it **if** you want run #4 to hit hard immediately.
+   - Skip it **if** you'd rather arrive at Turtle Tamer's Valhalla with ~113 + 111 = **~224** and a free choice
+     between its exclusives and this one (⚠️ but Lunging Thrust-Smack is **Seal-Clubber-only — skipping it now
+     means never**, unless a later run is another Seal Clubber).
+3. 🐾 Optionally **10 karma for an astral pet** (equipment for the new run) — cheap, and it comes out of the same purse.
 
 🚨 **DO NOT PERM THE FURY SKILLS** (Wrath of the Wolverine · Ire of the Orca · Cavalcade of Fury ·
-Furious Wallop · Batter Up!). ✅ Verified on the wiki: **other classes cannot build Fury even when Wrath of the
-Wolverine is permed.** The combo that killed the Dervish and Gorgolok in one round each is **rented, not
-ownable** — spend nothing on it.
+Furious Wallop · Batter Up!). ✅ Verified: **other classes cannot build Fury even when Wrath of the Wolverine is
+permed.** The combo that killed the Dervish and Gorgolok in one round each is **rented, not ownable.**
 Already permed and carrying across: **Cannelloni Cocoon** (20 MP full heal) · **Pastamastery**.
 
 ### Daily routine reminders (unchanged)
@@ -918,7 +923,7 @@ Already permed and carrying across: **Cannelloni Cocoon** (20 MP full heal) · *
   five-bottle rack (storage allows only one of each per day). New doc:
   **`mechanics/seal-clubber-class.md`**.
 
-- **2026-08-28 — Ascended into run #3.** Stepped through the astral gash, took **211 karma** at the Pearly
+- **2026-08-28 — Ascended into run #3.** Stepped through the astral gash, read a **211 karma balance** at the Pearly
   Gates, **permed Cannelloni Cocoon**, bought an **astral bludgeon**, and reincarnated **Softcore/Normal**
   as a **Seal Clubber** under **The Platypus** on the **Unrestricted** path. Banked ~102 karma.
   Verified after rebirth: Cocoon and Pastamastery carried across the class change. (An earlier note here
