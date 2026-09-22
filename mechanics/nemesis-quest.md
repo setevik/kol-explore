@@ -121,9 +121,55 @@ After forging the Legendary Epic Weapon (Part 1 below), Asiago points you to a *
 5. **Turn in at Asiago (`guild.php?place=scg`).** Twist: the Colander is **NOT** the stolen artifact — the Nemesis only
    sent the Elemental as a guardian and fled to his **actual lair**. Quest log → *"waiting for your guild's scouts to find
    out where your Nemesis went."*
-6. **⏳ LAIR-SEARCH / BOUNTY PHASE (gated).** The lair does **NOT** open by re-visiting Asiago — it's a **delay** ("we will
-   alert you"). Meanwhile the Nemesis puts a **bounty on you**: "disreputable" wandering monsters (e.g. **Mob Penguin
-   hitman**) attack you while adventuring anywhere. Keep adventuring and re-check Asiago until the lair appears.
+6. **⏳ LAIR-SEARCH / BOUNTY PHASE — it is an ASSASSIN LADDER, not a timer.** The lair does **NOT** open by
+   re-visiting the guildmaster. Instead your Nemesis puts a **bounty** on you, and **four successive assassins
+   attack you as wandering monsters while you adventure anywhere**. ✅ **Killing the 4th one ends the gate.**
+   - **Each tier is gated by your UNBUFFED MAINSTAT, not by days:** 1st at **45+**, 2nd at **60+**, 3rd at
+     **75+**, 4th at **90+**. You keep meeting the *same* assassin until your mainstat clears the next rung.
+   - Spacing: the first can arrive within **5–15 turns**; each later one roughly **35–50 turns** apart.
+   - They can find you **even while falling-down drunk or holding a clover**.
+   - ⇒ **The phase is advanced by SPENDING TURNS, anywhere.** There is nothing to check and nothing to buy;
+     a guildmaster saying *"he's proving to be devilishly sneaky"* means *go adventure some more*.
+
+   | Class | 1st (45+) | 2nd (60+) | 3rd (75+) | 4th (90+) |
+   |---|---|---|---|---|
+   | **Seal Clubber** | menacing thug | Mob Penguin hitman | hunting seal | **Argarggagarg the Dire Hellseal** |
+   | Turtle Tamer | turtle trapper | — | — | **Safari Jack, Small-Game Hunter** |
+   | Pastamancer | evil spaghetti cult assassin | — | — | **Yakisoba the Executioner** |
+   | Sauceror | béarnaise zombie | — | — | **Heimandatz, Nacho Golem** |
+   | Disco Bandit | flock of seagulls | — | — | **Jocko Homo** |
+   | Accordion Thief | mariachi bandolero | — | — | **The Mariachi With No Name** |
+
+   ✅ **The 4th assassin drops the `secret tropical island volcano lair map`** (and, for a Seal Clubber, also
+   **Argarggagarg's fang** and the **adorable seal larva** — the class familiar).
+
+7. **🏝️ THE LAIR: `volcanoisland.php`.** ⚠️ **It is NOT on the main map and NOT a `place.php` whichplace** —
+   `nemesislair` / `volcano` both answer *"Invalid place"*. **`inv_use` the lair map** and the page becomes
+   reachable directly. Ignore the guildmaster's line about needing *"a sturdy ship and an experienced crew"*:
+   ✅ **the map itself provides the transport** (*"a kindly sailor explains the rest of the map"*), and the map
+   **stays in inventory** after the guildmaster "takes" it.
+   The hub exposes three actions and **no `snarfblat` zones until its gate is cleared**:
+   **`?action=npc`** (the hermit in the palm tree — the task-giver) · **`?action=tuba`** · **`?action=tniat`**.
+   ⚠️ **Talk to the NPC first** — the quest log's *"Maybe you can find someone to ask"* is that step. He
+   opens by demanding you **bring him a coconut** before he'll help.
+
+8. **Each class gets a DIFFERENT lair-entry task** (all verified from the wiki):
+   - 🦭 **Seal Clubber — hellseal bits.** In the **Broodling Grounds**, **damage hellseal pups WITHOUT killing
+     them** so they *screech* and summon **mother hellseals**. 🚨 **One-shot a pup and no mother ever comes**,
+     but **too many screeching pups makes the mothers too tough** — so wound deliberately, a little at a time.
+     Then **equip a CLUB and kill mothers with weapon-based attacks only** to collect
+     **6 hellseal brains + 6 hellseal hides + 6 hellseal sinews**.
+     🚨 **Do NOT bring an attacking familiar — it ruins the bits.** ✅ **The Adorable Seal Larva from the 4th
+     assassin is safe**: it does not attack hellseals, which is precisely why the quest hands it to you.
+   - 🐢 **Turtle Tamer:** with the *fouet de tortue-dressage* equipped, use **Apprivoisez la tortue** on six
+     hatted guard turtles in the Outer Compound — **5 casts each** (4 with *Eau de Tortue*) — then return to
+     *"A Guy in the Bushes"*.
+   - 🍝 **Pastamancer:** 5 **cult memos** → decode → **summon a Spaghetti Elemental** (skippable if *Bind
+     Spaghetti Elemental* is permed), raise it to **level 3** (or use an *experimental carbon fiber pasta
+     additive*), then beat a cult member for a **spaghetti cult robe** and wear it in.
+   - 🥫 **Sauceror:** kill Convention Hall Lobby slimes with a **bottle of Gü-Gone** for **vials of coloured
+     slime**, then *cook* two different vials for a secondary colour, and a secondary + one of its primaries
+     for a tertiary.
 
 **Pastamancer combat skill IDs (confirmed in-fight):** Spaghetti Spear 3020 (0 MP), Utensil Twist 3025 (1), Ravioli
 Shurikens 3003 (4), Entangling Noodles 3004 (3), Lasagna Bandages 3009 (6), Cannelloni Cannon 3005 (8), Stuffed Mortar

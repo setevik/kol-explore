@@ -205,3 +205,49 @@ cider ×4 (+~5 adv each) + cooking sherry to land exactly on the cap, then **one
 the point of never hard-coding either number. Mixing (below) roughly doubles per-bottle yield.
 ⚠️ Banks **less than half** what the Fog Murderer rack does; use only early in a run or when the mall is dry.
 </details>
+
+
+## 🔎 Reading a bottle's real numbers off the wiki (the field names are NOT what you'd guess)
+
+To rank booze by **adventures per drunkenness** you need two numbers, and both hide behind unobvious labels:
+
+- **Drunkenness is printed as `Potency:`** — *not* `Size:` (that's food). A regex for `Size:` silently matches
+  nothing on every booze page, and a `|| 0` fallback then reports every bottle as free.
+- **The yield is a range plus a parenthetical mean:** `You gain 14-16 Adventures. (avg. 15)` ⇒ match `avg\.\s*([\d.]+)`
+  and fall back to averaging the range yourself.
+- ⚠️ Strip the page's inline `.mw-parser-output{…}` CSS first or it swamps the stat block.
+
+```bash
+curl -s -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/120 Safari/537.36" \
+  "https://wiki.kingdomofloathing.com/<Bottle_Name>" | python3 -c "
+import sys,re
+h=re.sub(r'<script.*?</script>','',sys.stdin.read(),flags=re.S)
+t=re.sub(r'<[^>]+>','|',h); t=re.sub(r'\|+','|',t); t=re.sub(r'\s+',' ',t)
+t=re.sub(r'\.mw-parser[^|]*','',t)
+d=re.search(r'Potency:\s*\|?\s*(\d+)',t); a=re.search(r'avg\.\s*([\d.]+)',t)
+print(d.group(1), a.group(1), float(a.group(1))/int(d.group(1)))"
+```
+
+### ✅ A measured ranking (re-derive it from what you actually hold — availability decides the rack)
+
+| Bottle | Potency | avg adv | **adv / drunk** |
+|---|---|---|---|
+| **Ye Olde Meade** | 5 | 15 | **3.00** ⭐ best filler found |
+| Cursed Punch | 1 | 2.5 | 2.50 |
+| **Fog Murderer** | 6 | 15 | 2.50 ⭐ best *overdrink* (size is free there) |
+| strawberry daiquiri / whiskey sour | 3 | 5.5 | 1.83 |
+| accidental cider | 3 | 4.5 | 1.50 |
+| bottle of popskull / cooking sherry | 2 | 3.0 | 1.50 |
+
+⭐ **This table is exactly why the two-bucket rule works.** Meade and Fog Murderer both average **15 adventures**,
+but Meade costs **5** drunkenness and the Murderer costs **6** ⇒ **spend the Meade inside the cap** (where every
+point of drunkenness is scarce) and **spend the Murderer on the overdrink** (where potency is free and only the
+absolute yield counts). Getting this backwards wastes a whole point of cap for nothing.
+
+✅ **Worked fill at a 14 cap, measured:** Meade (→5, **+16 adv**) · Cursed Punch ×3 (→8, +2 each) ·
+whiskey sour ×2 (→**exactly 14**, +6 then +5) = **33 adventures inside the cap**, then **ONE Fog Murderer
+overdrink → drunk 20, +14 adv banked overnight.** 1-potency bottles are what let you *land on* the cap exactly.
+
+⚠️ **Don't assume a mixer recipe exists.** `bottle of rum + soda water` returns *"Those two items don't combine
+to make a refreshing cocktail"* — ✅ and **nothing is consumed**, so a failed craft is free to probe. Check the
+cocktailcrafting page's own discoveries list rather than inventing pairs.

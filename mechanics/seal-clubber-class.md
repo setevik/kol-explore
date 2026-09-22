@@ -137,6 +137,41 @@ equipment into essences with a tenderizing hammer (crafting, not combat) · **Pr
 ⇒ Of the Level 13–15 rack, only **Northern Explosion** adds a new way to deal damage; the rest are passives,
 utility or crafting. Don't expect this tier to solve a damage wall on its own.
 
+### 💰 THE WHOLE RACK, PRICED — measured to the last skill
+
+✅ **Torg's prices rise in a fixed ladder and then flatten at the top.** Measured across a run that bought the
+tree out completely (trainer page then reported **0 skills remaining**):
+
+| Tier | Price |
+|---|---|
+| Level 1 / 2 / 3 skills | **125 · 250 · 500** |
+| mid rack | **1,750 · 2,500 · 3,250 · 4,000 · 5,000 · 6,250 · 7,500** |
+| **Level 13 Northern Explosion** | **10,000** |
+| **Level 14 Precision of the Penguin · Musk of the Moose** | **12,500** |
+| **Level 15 Pulverize · Pride of the Puffin** | **15,000** |
+
+⇒ **Budget ~52,500 meat for the last four skills alone** (Northern Exposure 10,000 · Musk of the Moose 12,500 ·
+Pulverize 15,000 · Pride of the Puffin 15,000). A purchase you cannot afford is refused outright with *"You
+can't afford to train that skill."* — no meat moves, so it is safe to just try.
+⭐ **Fund it with a storage audit, not with farming:** ✅ measured **68,100 meat for ZERO adventures** in one
+pass (see `HANDOFF.md` § "Audit your own junk drawer"). That is roughly *the entire top of the rack* for no turns.
+🔎 **Read what's left from the trainer page rather than tracking it by hand** — the purchase forms are the
+authoritative list: `[...tr.matchAll(/name=skillid value=(\d+)/g)]`. Zero matches ⇒ the class is fully trained.
+
+### ✅ What the top-tier skills actually DO (measured in play, not guessed from names)
+
+- **Pride of the Puffin** (Noncombat, **30 MP**, 10 adventures) = **+5 Muscle while active.** ✅ Verified by the
+  stat falling 278 → 273 the moment it expired. Cheap, but 10 adventures is short — **take it immediately
+  before a boss, never at day-open** (HANDOFF HARD RULE 3's duration-buff trap).
+- **Musk of the Moose** (Noncombat, **10 MP**, 10 adventures) = **raises the encounter rate.** 🚨 **This is a
+  liability, not a bonus, whenever the thing you want is a NONCOMBAT** (a quest choice, a library book). Use it
+  only when hunting a *monster* or a monster's drop.
+- **Northern Exposure** (Passive) = So-So Cold Resistance (+2). Pure defence.
+- **Pulverize** (Passive) = smashes equipment into essences with a tenderizing hammer. **Crafting, not combat** —
+  it will not help a damage wall.
+⇒ **Of the entire Level 13–15 tier, only *Northern Explosion* adds a way to deal damage.** Do not expect this
+tier to solve a fight; buy it for completeness and for the +5 Muscle burst.
+
 ⚠️ The trainer page lists these by name and level but **prints no price**; read the cost from the purchase
 response (or the meat delta) rather than assuming the tier pattern above continues.
 💰 ✅ **Measured prices at the top of the rack: *Precision of the Penguin* (Level 15 passive) 12,500 ·

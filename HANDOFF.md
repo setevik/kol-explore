@@ -227,6 +227,35 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
    `<tr>` don't reliably belong together (every item appeared twice with two different IDs). **Build an
    authoritative `{id: name}` map from the inventory pages first** (`inventory.php?which=1/2/3`, parse `table.item`
    `rel="id=<N>"` + `<b>`), decide what to sell by NAME there, then sell those exact IDs. Nearly sold class items otherwise.
+   ✅ **SOLVED — the parse that actually works, and it gives you PRICES too.** The misalignment comes from
+   scanning *forward across row boundaries*. `sellstuff.php?justitems=0` renders each item as a **checkbox `<td>`
+   followed by a name/price `<td>`**, so **splitting on the checkbox tag** puts the id, the name, the quantity and
+   the unit price in **one block**:
+   ```js
+   const rows = html.replace(/<script[\s\S]*?<\/script>/g,'')
+     .split(/<input\s+type=checkbox\s+name=item/i).slice(1).map(c => ({
+       id: +(c.match(/^(\d+)\s+value=(\d+)/)||[])[1],
+       nm: ((c.match(/<b>([^<]+)<\/b>/)||[])[1]||'').trim(),
+       q:  +(((c.match(/<\/a>\s*\((\d+)\)/)||[])[1])||1),   // absent ⇒ you own exactly 1
+       pr: +((c.match(/<font size=1>\s*([\d,]+)\s*Meat/i)||[])[1]||'0').replace(/,/g,'')
+     })).filter(r => r.id && r.nm);
+   ```
+   ✅ **Validate it in one line before trusting it:** every row should satisfy `id === value`, every row should
+   have a non-zero price, and a few known items should match their wiki prices. Measured: **390 rows, `id===value`
+   on all of them, 0 missing prices**, and spot-checks hit *suntan lotion 150 · canopic jar 87 · ketchup hound 120
+   · PADL Phone 100* exactly. ⇒ **This replaces per-item wiki lookups entirely** — the sell page already knows
+   every price you own.
+   ✅ **Then rank by `(qty − keep) × price`, and sell per-item with `mode=3&quantity=<surplus>`** — one POST each.
+   `mode=1`/`mode=2` cannot express "keep exactly 3", and `mode=3`'s `quantity` applies to *every* checked item,
+   so **one item per POST is the only way to keep a per-item reserve.**
+   ✅ **Prove it with a 3-stack test sale and compare the meat delta to the prediction before dumping the rest.**
+   Measured: predicted 14,074 → gained **exactly 14,074**, then the remaining 95 stacks predicted 54,026 →
+   gained **exactly 54,026** (**68,100 total, 889 items, 0 refusals, 0 adventures**).
+   ⚠️ **Exclude your own supply lines from the plan by NAME before sorting** — a pure price sort will happily sell
+   your in-combat heals and MP restoratives. Things worth protecting even though they price well:
+   **phonics down** (✅ restores **46–50 HP *and* MP**), **ancient Magi-Wipes** (✅ **50–60 MP/HP and removes
+   negative effects**), tiny houses, gauze garters, filthy poultices, and anything you plan to drink tonight.
+
 3. **Starter-package gems are worth a fortune.** The pork elf goodies sack (Toot Oriole / Letter from King Ralph)
    yields **porquoise (706) / hamethyst / baconstone — 500 meat autosell each**. Their only use is jewelrycrafting
    (a skill we don't have), so **selling them early is usually correct**.
@@ -388,6 +417,16 @@ re-ask it whenever the day's job changes (meat farm → leprechaun, drops → fa
   zone's known gates BEFORE you enter it.**
 - Equip: `inv_equip.php?which=2&action=equip&whichitem=<id>&pwd=` (unequip a slot first if all accessory slots are full:
   `...&action=unequip&type=acc2&pwd=`).
+  🚨 **AN ACCESSORY EQUIP WITHOUT `&slot=N` SILENTLY FAILS ONCE ALL THREE ACCESSORY SLOTS ARE FULL.** The
+  response is a normal 200 reading **"You may only equip N accessories at a time"** — no error, no redirect —
+  and a later `charsheet.php` check is the only way to notice. ✅ **Measured:** a `+7% item drops` accessory
+  "equipped" successfully and was still not worn 25 fights later, so the buff never applied.
+  ✅ **Fix: always pass an explicit slot** — `inv_equip.php?which=2&action=equip&whichitem=<id>&slot=2&pwd=` —
+  and **read the `Item unequipped: …` line** to learn what you displaced.
+  ⚠️ **Count your accessories before assuming a slot is free:** several things that *sound* like other slots are
+  accessories (e.g. **boots and belts**), so a loadout can look like it has room when all three are taken.
+  ⭐ **General rule: after any equip, verify from `charsheet.php`'s Equipment block** — equipping is in the same
+  family as the pwd-less write and the wrong-verb consume: it reports success and does nothing.
 
 ## Item endpoints — pick the right verb or the call silently no-ops
 
@@ -403,6 +442,7 @@ Always confirm with a before/after diff (inventory count, `adventures`, `full`/`
 | **Use N of one item at once** | **`multiuse.php?whichitem=<id>&action=useitem&quantity=<N>&pwd=<hash>`** |
 | Equip | `inv_equip.php?which=2&action=equip&whichitem=<id>&pwd=<hash>&ajax=1` |
 | **Autosell** | **`sellstuff_ugly.php`** POST: `action=sell`, `mode=3`, `quantity=N`, **`item<id>=<id>`** — ⚠️ posting to `sellstuff.php` does nothing |
+| **Hatch a familiar** | **`inv_familiar.php`**?pwd=<hash>&which=3&whichitem=<id> — ⚠️ `inv_use.php` on a hatchling answers *"This item is not implemented yet. Try again later."* |
 
 🐛 **`multiuse.php` is the one people forget.** Some recipes are defined by **how many you use at once**
 (bubblin' crude: 9 → oil lamp, 12 → jar of oil, …). `inv_use.php` **ignores `quantity`/`numitems` and uses the

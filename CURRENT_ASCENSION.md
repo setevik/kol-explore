@@ -29,7 +29,40 @@ Disco Bandit · Accordion Thief.
 
 ---
 
-## 📊 Character state (end of run #3 Day 25 / 2026-09-21)
+## 📊 Character state (end of run #3 Day 26 / 2026-09-22)
+
+- **LEVEL 15 Seal Clubber.** Muscle 273 / Mys 152 / Mox 157. **Max HP 414.** 💰 **Meat 19,969.**
+  **14 adv banked.** full 15, drunk 20 (exactly 14 + ONE Fog Murderer ✅). **~150 wins, 0 losses** on the day.
+- 🏆🏆 **THE TOWER IS COMPLETE — KING RALPH XI IS FREE AND THE ASTRAL GASH IS OPEN.** This run can ascend
+  whenever you choose (`mechanics/ascension.md`); I have **NOT** ascended — that is your call.
+- 🎓 **THE SEAL CLUBBER SKILL TREE IS 100% COMPLETE — Torg's rack reports ZERO skills remaining.**
+  Bought today for **52,500**: Northern Exposure (10,000) · Musk of the Moose (12,500) · Pulverize (15,000) ·
+  Pride of the Puffin (15,000). ⇒ **Run #3's documentation goal is fully met** — prices, effects and the whole
+  ladder are now in `mechanics/seal-clubber-class.md`.
+- ✅ **THREE SIDE QUESTS CLOSED TODAY:** **The Wizard of Ego** (Manual of Labor — read 1 of its 5 daily uses) ·
+  **Go To White Citadel** (lucky rabbit's foot + a permanent NPC food/MP store) · **A Quest, LOL**
+  (facsimile dictionary + drywall axe). All three walkthroughs ⇒ `mechanics/optional-side-quests.md`.
+- 🗡️ **NEMESIS — THE GATE IS OPEN AT LAST, and it was never a timer.** It is an **assassin ladder** gated on
+  unbuffed mainstat (45/60/75/90). Killed all four; **Argarggagarg the Dire Hellseal** dropped the
+  **secret tropical island volcano lair map**, **Argarggagarg's fang**, and the **adorable seal larva**.
+  **The lair is `volcanoisland.php`** (NOT a `place.php` whichplace — both guesses return "Invalid place").
+  🥚 **Adorable Seal Larva HATCHED** into the terrarium (via **`inv_familiar.php`**, not `inv_use.php`).
+  ⏭️ **NEXT STEP: the palm-tree hermit (`volcanoisland.php?action=npc`) wants a COCONUT brought to him**
+  before he'll help. The island currently exposes only `action=npc` / `tuba` / `tniat` and **no snarfblat zones**.
+- 🔥 **Fury sitting at 5/5** (capped) — bank it before any boss; every loss empties it.
+- 🧰 **Supplies (healthy for once):** filthy poultice ×12 · gauze garter ×14 · **phonics down ×37 (46–50 HP *and*
+  MP)** · **ancient Magi-Wipes ×60 (50–60 MP/HP + clears negative effects)** · tiny house ×6 · antidote ×10 ·
+  **Fog Murderer ×1** · popskull ×5 · sherry ×13 · rum ×15 · Imp Ale ×6 · soda water ×12 · herbal stuffing ×3 ·
+  cocktailcrafting kit installed · dictionary + facsimile dictionary · **astral bludgeon + seal-clubbing club**
+  (the hellseal task needs a CLUB equipped).
+- 🎽 **Loadout:** Crown of the Goblin King · Misty Cloak · black sword + Hammer of Smiting · black greaves ·
+  giant motorcycle boots · **lucky rabbit's foot (+7% item/+7% meat — displaced the batskin belt)** ·
+  amulet of extreme plot significance. Familiar out: Marcellus the Mosquito (the seal larva is in the terrarium).
+- 📌 **Only ONE quest left in the whole run: Me and My Nemesis.**
+
+<details><summary>End of Day 25 (for reference)</summary>
+
+### Day 25 state
 
 - **LEVEL 15 Seal Clubber.** Muscle 272 / Mys 152 / Mox 157. **Max HP 413.** 💰 **Meat 6,247.**
   **16 adv banked.** full 15, drunk 20 (exactly 14 + ONE Fog Murderer ✅). **92 wins, 0 losses** after the Dervish.
@@ -49,6 +82,8 @@ Disco Bandit · Accordion Thief.
 - 🧰 **Supplies:** gauze garter ×14 (in-combat heal) · tiny house ×6 · phonics down ×37 · popskull ×5 · Meade ×1.
   ❌ **0 filthy poultices, 0 Fog Murderer, 0 scrolls** — restock before the next boss.
 - 📌 Still open: Nemesis (gated), White Citadel, Wizard of Ego, *A Quest, LOL*.
+
+</details>
 
 <details><summary>End of Day 24 (for reference)</summary>
 
@@ -144,6 +179,10 @@ Disco Bandit · Accordion Thief.
 ### 🐾 FAMILIARS
 
 - **Active familiar: Marcellus the Mosquito** (brought out on Day 18 after 17 days with none).
+- 🦭 **Adorable Seal Larva — HATCHED Day 26** (from Argarggagarg the Dire Hellseal, the 4th Nemesis assassin).
+  MP restore, with +min(20, 2·level) effective weight for a Seal Clubber. 🚨 **It is the familiar the hellseal
+  task requires** — it is the only one that won't attack hellseals and ruin their drops. Take it to the lair.
+  ⚠️ Hatch hatchlings with **`inv_familiar.php`**; `inv_use.php` reports them "not implemented yet".
 - **Terrarium holds exactly one:** **Marcellus, the Mosquito** — *1 pound, 0 exp, 9,568 lifetime kills* (hatched in
   run #1). In-combat HP drain/heal; weak while fights are one round.
 - **Unhatched in the estate (verified on the wiki as hatchlings/recipes):**
@@ -182,36 +221,57 @@ permed)** · Pastamastery (10, 1/day) · **Snarl of the Timberwolf (1020, 10 MP,
 Day 19, from the Gallery knight with the tattered wolf standard)**.
 Combat: Clobber/Lunge Smack (1) · Thrust-Smack (3) · **Club Foot (1033, 8 MP, −enemy Defense)** ·
 **Lunging Thrust-Smack (1005, 8 MP, TRIPLE weapon damage)** · Furious Wallop (1 Fury = crit).
-**Not bought (Torg):** Level 13 *Northern Explosion* (Combat, 16 MP, cold — the class's only elemental attack) ·
-*Northern Exposure* (Passive, +2 cold res) · Level 14 *Precision of the Penguin* · *Musk of the Moose*.
+🎓 **NOTHING LEFT UNBOUGHT — Torg's rack reports ZERO skills remaining (verified Day 26).** The last four:
+**Northern Explosion** (Combat, 16 MP, cold — the class's only elemental attack, 10,000) ·
+**Northern Exposure** (Passive, +2 cold res, 10,000) · **Precision of the Penguin** (Passive, 12,500) ·
+**Musk of the Moose** (Noncombat, 10 MP, **+encounter rate — harmful when hunting a noncombat**, 12,500) ·
+**Pulverize** (Passive, crafting only, 15,000) ·
+**Pride of the Puffin** (Noncombat, 30 MP, **+5 Muscle for 10 adventures**, 15,000).
 Healing ladder: **filthy poultice / gauze garter (0 adv, 0 MP, ~87 HP)** → **Cocoon (20 MP)** → Tongue (10 MP)
 → Hibernate (1027, 1 adventure — the only thing here that clears **Beaten Up**, apart from a tiny house).
 **Supplies at wrap: 4 tiny houses · 6 filthy poultices · 3 Ye Olde Meade.** Karma banked ~102.
 
 ## 🔜 Next-session priorities
 
-> **16 adventures banked (the Day 25 overdrink) + the new day's allowance. Level 15. Meat 6,247.**
-> 🏆 **The Council quest chain is FINISHED and the astral gash is open.** The run has no required objective left,
-> so the next session starts with a decision:
-> **(A) ASCEND** — `mechanics/ascension.md`; go **Softcore**, and at the Pearly Gates spend karma before picking
->     the next class. ⭐ **Run #3's purpose was to document the Seal Clubber, and that is done** — the class file
->     now covers Fury, the skill tree with prices, the Nemesis route and the tower. The plan ("one ascension per
->     class") points at **Turtle Tamer** next; `runs/` gets this file archived as `ascension-03-seal-clubber.md`.
-> **(B) MOP UP FIRST** — three side quests are still open and would add to the docs:
->     **Nemesis** (⏳ gated on the guild's scouts — just re-check `guild.php?place=scg` each day),
->     **White Citadel** (Whitey's Grove errand), **Wizard of Ego** (Fernswarthy's grave/key),
->     ***A Quest, LOL*** (Baron Rof L'm Fao's valley).
-> ⚠️ **I have deliberately NOT ascended** — it is irreversible and resets everything; say which you want.
->
-> Whichever you pick, the daily routine is unchanged:
-> (1) 🛒 **Restock first — the cupboard is bare:** 0 filthy poultices, 0 scrolls, 0 Fog Murderer. Buy poultices
->     (~170), a big bottle for the overdrink, milk + herbal stuffing (~250) for breakfast. Meat is only 6,247, so
->     **run a storage audit** if more is needed (deep stacks remain: dry noodles ×234, cocoa eggshell ×271,
->     water pipe bombs ×73 — price each on the wiki first; clovers and class rings cannot be sold).
-> (2) 🔥 **Bank Fury (5 trash fights) before any boss** — it is the class's burst and it empties on every loss.
-> (3) ⚔️ Combat standard: plain attacks when a boss blocks skills; otherwise Lunging Thrust-Smack, Club Foot
->     first against Defense 150+; **in-combat healing is poultice/gauze garter only** (scrolls are refused).
-> (4) 🍺 **DRINK:** fill to exactly 14, spend those turns, ONE overdrink last.
+> **14 adventures banked + the new day's allowance. Level 15. Meat 19,969. Supplies are full for once.**
+> 🎓 **Run #3's stated purpose is DONE**: the Seal Clubber tree is bought out to the last skill and documented,
+> and the Council chain was finished on Day 25. **Three of the four optional quests closed on Day 26.**
+> ⚠️ **I have deliberately NOT ascended** — irreversible, and it resets everything. Say the word.
+
+### ▶ (A) FINISH THE NEMESIS — the only quest left in the run
+The gate that blocked this for days is **open**; it was an assassin ladder, not a timer (all four are dead).
+1. 🥥 **Bring the palm-tree hermit a coconut.** `volcanoisland.php?action=npc` — he demands one before helping.
+   ❓ **Unknown: where the coconut comes from** (likely the island's own `tuba`/`tniat` actions, or a drop).
+   The island shows **no `snarfblat` zones yet**, so the hermit is the gate. Probe the two other actions first.
+2. 🦭 **Then the hellseal task — read `mechanics/nemesis-quest.md` step 8 BEFORE the first fight.** It has two
+   traps that waste turns: **one-shotting a pup means no mother ever spawns**, and **too many screeching pups
+   makes the mothers too tough**. So *wound* pups deliberately.
+   - **EQUIP A CLUB** (astral bludgeon or seal-clubbing club — both held) and kill mothers with
+     **weapon-based attacks ONLY**.
+   - 🚨 **Take out NO attacking familiar** — it ruins the drops. **Bring the Adorable Seal Larva** (hatched,
+     in the terrarium); it is the one familiar that won't attack hellseals.
+   - Target: **6 hellseal brains + 6 hellseal hides + 6 hellseal sinews**.
+3. Then the lair itself, and the Nemesis. Bank **Fury to 5** on trash fights immediately before any boss.
+
+### ▶ (B) THEN ASCEND (your call)
+`mechanics/ascension.md`. Go **Softcore/Normal**, and **send `whichpath=0` (Unrestricted)** — the default is
+Standard (22), which silently invalidates much of `mechanics/`. Spend karma at the Pearly Gates first.
+The plan ("one ascension per class") points at **Turtle Tamer** next; archive this file to
+`runs/ascension-03-seal-clubber.md`.
+
+### Daily routine reminders (unchanged)
+1. 🍽️ **EAT to exactly 15** — milk of magnesium first, then rank by **adv per fullness** (herbal stuffing ~4.4
+   is the best held; tomb aspic ~3.5 for the 1-point tops). ✅ Day 26 got **69 adventures** this way.
+2. 🛡️ **Kmail the buffbot before any drop-hunt or boss:** *Fat Leon's Phat Loot Lyric* (+20% item, 450 turns),
+   *Ghostly Shell*, *Astral Shell* — all free. ✅ Day 26's scroll hunt went from 1 drop/22 fights to 4/14.
+3. ⚔️ Combat: **Lunging Thrust-Smack** opener, Club Foot first vs Defense 150+, in-combat healing is
+   **filthy poultice / gauze garter only**. MP is a non-issue now: **phonics down and ancient Magi-Wipes both
+   restore HP *and* MP** (~97 of them held).
+4. 🚫 **Check `effects` before any boss** — a stat debuff halves you invisibly.
+5. 🍺 **DRINK last:** cap is **14** (no Liver of Steel). Fill to exactly 14 — **Meade is the best filler
+   (3.00 adv/drunk); use 1-potency bottles to land on the cap** — spend those turns, then **ONE Fog Murderer
+   overdrink and STOP**. Only 1 Fog Murderer left; the **Hidden Tavern sells them at 500 with no daily limit**
+   (`shop.php?whichshop=hiddentavern`, row 175) — it is open this run.
 
 <details><summary>Day 24's priorities (superseded)</summary>
 
@@ -325,6 +385,43 @@ Healing ladder: **filthy poultice / gauze garter (0 adv, 0 MP, ~87 HP)** → **C
 </details>
 
 ## 🗓️ Session log (this run)
+
+- **Run #3 Day 26 (2026-09-22): 🎓 THE SEAL CLUBBER TREE BOUGHT OUT TO THE LAST SKILL, three side quests closed,
+  and the Nemesis gate finally broken — ~150 wins, 0 losses, 0 heals needed all day.**
+  🍽️ **69 adventures from breakfast** (milk → 3 herbal stuffing → 3 tomb aspic, landing on exactly 15).
+  💰 **The storage audit is still the best meat-per-turn in the game: 68,100 meat, 889 items, 98 stacks, ZERO
+  adventures** — and every single sale matched its predicted price to the meat (14,074 then 54,026, both exact).
+  🔑 **The breakthrough was parsing the sell page properly.** My own notes said its row parse "misaligns ID↔NAME"
+  and told me to price items one at a time off the wiki; in fact **splitting on the checkbox tag** puts id, name,
+  quantity **and unit price** in one block. ⇒ the sell page already knows every price you own. Now in `HANDOFF.md`.
+  🎓 **Torg's rack is EMPTY: 52,500 meat for the last four skills.** Northern Exposure 10,000 · Musk of the Moose
+  12,500 · **Pulverize 15,000 · Pride of the Puffin 15,000**. Measured what they actually do: **Pride of the
+  Puffin = +5 Muscle for 10 adventures** (verified by the stat dropping 278 → 273 when it expired) and
+  **Musk of the Moose raises the encounter rate — which is a LIABILITY when the thing you want is a noncombat.**
+  ✅ **Wizard of Ego:** ruins are `fernruin.php` → snarf **22**; dusty old book in **16 turns**. The reward is a
+  **stat book, not a skill** (220 Muscle substats over five daily reads).
+  ✅ **White Citadel:** 30 pairs of burnouts → biclops → the witch (both fights 1 round) → the chest minigame
+  (opened **one** chest for 400 meat and left — the pot is forfeit on a trap) → Elpízo Crosybdis. ~35 turns, 0
+  losses. Reward: **lucky rabbit's foot (+7% item/+7% meat)** and a permanent NPC store.
+  ✅ **A Quest, LOL:** the **dictionary is UNTRADEABLE** — it comes from the Haunted Library's book choice, 15
+  turns. The **adding machine has only 70 HP and each combine costs it 21–31**, so it survives ~2 combines and an
+  invalid pair **destroys both scrolls**; I got lucky and landed all three combines on one machine. Then
+  **the Baron took one look at the dictionary and surrendered — no fight, no turn spent.**
+  📈 **The day's transferable lesson: a drop-gated step is an ITEM-DROP problem, not a damage problem.** Bare, the
+  Valley gave **1 scroll in 22 fights**; with **Fat Leon's Phat Loot Lyric (free, by kmail)** up it gave **4 in
+  14**. Two minutes of buff-begging beat any amount of fighting harder.
+  🗡️ **NEMESIS UNGATED, and my notes had the mechanism wrong** — it is not a timed wait for "the guild's scouts"
+  but an **assassin ladder gated on unbuffed mainstat (45/60/75/90)**, advanced purely by spending turns anywhere.
+  The 4th, **Argarggagarg the Dire Hellseal**, dropped the **volcano lair map**, its fang, and the **adorable seal
+  larva**. The lair is **`volcanoisland.php`** — not a `place.php` whichplace, and the guildmaster's "you need a
+  sturdy ship" is flavour: **the map is the transport.** Parked on the palm-tree hermit, who wants a coconut.
+  🐛 **Two silent-failure bugs caught, both now in `HANDOFF.md`:** familiar hatchlings need **`inv_familiar.php`**
+  (`inv_use.php` calls them *"not implemented yet"*), and **an accessory equip without `&slot=N` does nothing**
+  once all three accessory slots are full — it answers *"You may only equip N accessories at a time"* behind a
+  normal 200, so the rabbit's foot sat unworn for 25 fights while I believed it was on.
+  🍺 Filled to exactly 14 (**Meade 3.00 adv/drunk + 3 Cursed Punch + 2 whiskey sours = 33 adv**), spent all of it,
+  then **ONE Fog Murderer overdrink → drunk 20, 14 adv banked.** Ended Level 15, Muscle 273, max HP 414,
+  meat 19,969. 📌 **One quest left in the entire run.**
 
 - **Run #3 Day 25 (2026-09-21): 👑 THE NAUGHTY SORCERESS IS DEAD, THE KING IS FREE, THE RUN IS COMPLETE —
   92 wins, and the Dervish fell in ONE round after beating me five times.**
