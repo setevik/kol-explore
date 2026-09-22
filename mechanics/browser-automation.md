@@ -16,8 +16,20 @@ it survives backgrounding/throttling (see HANDOFF). The old `setTimeout` + `loca
 
 ## Get pwd hash — fallback
 
-Regex any page's HTML for the 32-hex hash: `/pwd[=:]\s*["']?([a-f0-9]{32})/`. If a page lacks
-it, navigate to `inventory.php?which=1` first — its form fields always carry the hash.
+Regex any page's HTML for the 32-hex hash: `/pwd[=:]\s*["']?([a-f0-9]{32})/`.
+🐛 **`inventory.php` does NOT always carry it.** ✅ Measured on a freshly-ascended Level 1 character (6 items):
+`inventory.php?which=1` and `charsheet.php` both contained **no hash at all**, because with nothing in the bag
+there are no action links to carry one. A helper that grabs pwd from inventory alone then returns `undefined`,
+and **every later write silently no-ops** (a pwd-less write returns a normal-looking page and does nothing).
+✅ **Scan a LIST of pages and take the first hit** — `charpane.php`, `main.php`, `familiar.php` and
+`storage.php?which=5` all carried it on that same character:
+```js
+for (const u of ['/charpane.php','/main.php','/familiar.php','/storage.php?which=5','/inventory.php?which=1']) {
+  const m = (await G(u)).match(/pwd[=:]\s*["']?([a-f0-9]{16,})/); if (m) { window._pwd = m[1]; break; }
+}
+```
+✅ **And assert it before doing anything else** — `if (!window._pwd) throw 'no pwd'` — rather than discovering it
+via a day's worth of no-ops.
 
 ## ⚠️ Spleen items: `inv_use` URL silently fails; DOM click works
 

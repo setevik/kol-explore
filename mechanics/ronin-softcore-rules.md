@@ -44,8 +44,15 @@
 - ⭐ **Withdraw MEAT: it is NOT on the main storage page.** Go to **`storage.php?which=5`** (the "[Hagnk]" tab)
   and POST `storage.php` with **`action=takemeat`, `amt=<N>`, `pwd`**. Scraping `storage.php` for a meat form
   finds nothing — the only actions there are `useitem` and `pull`.
-  ⚠️ **Meat spends the SAME daily allowance as items, at 1,000 meat per "item" slot.** Withdrawing 8,000 meat
+  🚨 **Meat spends the SAME daily allowance as items, at 1,000 meat per "item" slot.** Withdrawing 8,000 meat
   leaves you 12 item pulls, not 20. Decide the split deliberately at day-open.
+  ✅ **Measured failure worth avoiding:** taking **19,969 meat as the day's first action consumed all 20 slots**.
+  Every later pull answered *"…would exceed your item limit… you should only take 0"*, and because **Ronin mall
+  buys also land in storage**, there was then **no route to any booze at all** — the day wrapped with an empty
+  booze meter, breaking HARD RULE 1 for reasons that had nothing to do with adventuring.
+  ⭐ **Therefore: PULL ITEMS FIRST, MEAT LAST.** Food, booze and restoratives are the pulls that cannot be
+  replaced by an NPC shop; meat can be topped up on any later day, and guild skills are usually affordable from a
+  partial withdrawal. A safe default is **pull ~8–10 items, then take the remaining slots as meat.**
 - 🎯 **The day-1 split that worked:** pull most of the previous run's meat (it funds guild skills, which are
   the biggest early power spike and are bought from **NPC shops that bypass the pull limit entirely**), and
   spend the remaining slots on **distinct** consumables — remember rule 2 means a 14-potency booze rack needs

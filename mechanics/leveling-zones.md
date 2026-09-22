@@ -83,3 +83,22 @@ Monsters: white chocolate golem · whitesnake · Knight in White Satin · white 
 
 🍷 **Note choices 74 and 75 pay BOOZE in threes** — a genuinely good source of drink-step material for a
 character still filling a 14 cap off single daily pulls.
+
+## 🐐 The Outskirts of Cobb's Knob (snarf 114) — the default Level 1–4 zone
+
+**ML 1–2, ~79% combat, open by default.** ✅ Measured on a fresh Muscle character on plain weapon attacks:
+**50 wins / 1 loss across Levels 1 → 3**, **zero healing items consumed**, Muscle 5 → 14 and max HP 12 → 26 in
+~50 turns. It also feeds the guild-membership sausage and drops the **Knob Goblin Encryption Key** (which opens
+Cobb's Knob proper) plus a steady trickle of Knob gear.
+
+**Its noncombats — answers recorded as LABEL text, keyed by choice number:**
+
+| Choice | Encounter | Take this | Why / what the others do |
+|---|---|---|---|
+| **543** | the sausage | *"Grab the sausage, so to speak. I mean… literally."* | Only option. Guild membership. |
+| **118** | wounded Knob Goblin guard | *"Sure, I'll help."* | ⭐ **Starts the *When Rocks Attack* side quest** (bring him unguent, ~30 meat). *"Sorry, gotta run."* declines it. |
+| **111** | *Malice in Chains* (chain gang) | *"Serve your sentence"* | ✅ **4–5 Muscle.** The other two are the Mysticality/Moxie arms — *"Plot a cunning escape"* reads clever but is not the Muscle option. |
+| **113** | *Knob Goblin BBQ* | *"Kick the chef"* | ✅ **Starts a fight with a Knob Goblin Barbecue Team** (substats + drops). *"Abscond with some goodies"* takes **items** instead — prefer it only when the food meter is still empty. |
+
+⚠️ **The labels are flavour and do not state the effect** — *"Kick the chef"* sounds like a stat option and is
+actually a fight. Match by choice number first, label second, and look up anything unrecorded.

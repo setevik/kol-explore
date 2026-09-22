@@ -103,6 +103,9 @@ of magnitude smaller than a caster's, which is why a 7-point pool is fine. `api.
 `guild.php` → **Gunther, Lord of the Smackdown**. Locked until you pass the challenge, same as every class.
 
 ### ✅ The membership challenge — the sausage-measuring competition
+🎯 **It is the MUSCLE GUILD's challenge, not the Seal Clubber's** — ✅ verified: a **Turtle Tamer** is given the
+identical sausage-measuring test by the same Gunther. Expect challenges to be shared by stat group
+(see `turtle-tamer-class.md`).
 > *"Our usual test of manhood is a sausage-measuring competition. The Knob Goblins of the Nearby Plains are
 > the Kingdom's premier sausage-makers… find the biggest sausage you can."*
 

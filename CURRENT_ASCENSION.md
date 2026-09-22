@@ -31,16 +31,20 @@ signature weapon (**turtle totem**) and whether shields matter (Turtle Tamers ar
 
 ---
 
-## 📊 Character state (start of run #4 / 2026-09-22)
+## 📊 Character state (end of run #4 Day 1 / 2026-09-22)
 
-- **LEVEL 1 Turtle Tamer.** Muscle 3 / Mys 2 / Mox 1. **HP 9/9, MP 2/2.** 💰 **Meat 0.**
-  **40 adventures.** full 0, drunk 0. ✅ Ascending mid-game-day still granted a **fresh 40 adventures**.
-- 🎒 **Starting kit:** helmet turtle · **turtle totem** · old sweatpants · ⭐ **astral shield**.
-- 🏦 **Hagnk's holds run #3's entire estate, including 19,969 meat** — ⚠️ **Ronin is back: `roninleft` 1000**,
-  so pulls are **1 of each item per day** and mall buys land in storage, not inventory
-  (`mechanics/ronin-softcore-rules.md`). **Meat is exempt from the 1-per-item rule: up to 20,000/day.**
-- 🐾 **Terrarium (familiars survive ascension):** **Adorable Seal Larva** · **Marcellus the Mosquito**.
-  ⚠️ **No familiar is out** — take one on day 1.
+- **LEVEL 3 Turtle Tamer.** Muscle 14 / Mys 2 / Mox 1. **Max HP 26, max MP 2.** 💰 **Meat 15,580.**
+  **0 adventures.** full **15/15** ✅ · drunk **0/14** ❌ (see the miss below). **50 wins, 1 loss.**
+- 🎽 **Worn:** knobby helmet turtle · turtle totem · **astral shield** · old sweatpants.
+  🐾 **Familiar out: Marcellus the Mosquito** (the Adorable Seal Larva restores MP, useless on a 2-MP pool).
+- 🥋 **Guild joined** (sausage challenge, 6 turns) and **all four available skills bought**: Headbutt ·
+  Spirit Vacation (125 each) · Skin of the Leatherback · Blessing of the War Snapper (250 each).
+- 🏗️ **Installed for the whole run: Dramatic™ range + Queue Du Coq cocktailcrafting kit** (1,000 each).
+- 🧰 **Supplies:** medicinal herbs ×15 (spleen HP battery, 15/day cap) · strongness elixir ×4 ·
+  bowl of cottage cheese ×10 · concentrated cooking ×4. ❌ **No booze of any kind.**
+- 🗡️ **Open:** *When Rocks Attack* accepted (the wounded guard wants unguent, ~30 meat — finish it Day 2).
+  🔑 **Knob Goblin Encryption Key dropped** ⇒ Cobb's Knob interior is decodable. Also held: **Dr. Hobo's map**.
+- 🏦 **Hagnk's still holds run #3's whole estate.** Ronin: **`roninleft` 945**.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -58,25 +62,49 @@ signature weapon (**turtle totem**) and whether shields matter (Turtle Tamers ar
 +25%, **Regenerate 5–10 HP per adventure**, DR 15 — it answers the documented "healing costs turns" tax at low
 level), then **swap to two one-handed weapons once you own two good ones** and re-verify from `charsheet.php`.
 
-## 🔜 Next-session priorities — run #4, Day 1
+## 🔜 Next-session priorities — run #4, Day 2
 
-> **40 adventures on the clock, meat 0, Level 1.** A fresh Softcore run: follow `NEW_SESSION_PROMPT.md`.
-1. 🏦 **Fund the day from Hagnk's first:** withdraw meat (`storage.php?which=5` → `action=takemeat`, up to
-   20,000/day) — run #3 left **19,969** there. This removes every early-game money problem at a stroke.
-2. 🎽 **Equip the astral shield** and take a familiar out of the terrarium.
-3. 🥋 **Join the guild** — the Turtle Tamer guildmaster is **Terri** (`guild.php?place=ocg`); the membership
-   challenge is class-specific, so **document it**. Then **buy every cheap skill** (Levels 1–3 cost
-   125/250/500 for a Seal Clubber; verify the Turtle Tamer ladder) and re-visit the trainer **every level**.
-4. 🍽️ **EAT to exactly 15** (⚠️ in Ronin, 1 of each food per day from storage — pull a big food + buy
-   1-fullness fillers from the General Store). Then adventure, then **DRINK last**: read the cap, fill to
-   exactly it, **ONE overdrink, then stop**.
-5. 📓 **Start `mechanics/turtle-tamer-class.md`** — the point of this run.
-6. ⚔️ Combat: open with **Lunging Thrust-Smack** as soon as MP allows (8 MP is a lot at Level 1 — expect plain
-   attacks first). ⚠️ **Re-ask "is MP a dead resource here?" now that a damage multiplier is permed.**
-7. 🗡️ **The Nemesis quest is a Turtle Tamer one this run** — its lair task is *"use Apprivoisez la tortue on
-   six hatted guard turtles"*, not hellseals (`mechanics/nemesis-quest.md` step 8).
+> **0 adventures banked + the new day's allowance. Level 3. Meat 15,580.** Rollover resets the pull budget.
+1. 🚨 **PULL ITEMS FIRST, MEAT LAST** — the day's 20 storage slots are shared, and **meat costs 1 slot per
+   1,000**. Day 1 took 19,969 meat as its first act, burned all 20 slots, and **could not pull a single bottle,
+   so the booze meter went unfilled.** Meat is no longer scarce (15,580 in hand), so **spend the slots on
+   consumables: booze first, then food, then restoratives.**
+2. 🍺 **Fill the booze meter this time.** ⚠️ At Level 3 most good bottles are level-gated (Fog Murderer needs 6,
+   Ye Olde Meade 7) — pull **low-level** booze and check `Level required` before counting on it.
+   The cap is **14** (no Liver of Steel). Fill to exactly it, ONE overdrink, then stop.
+3. 🍽️ **Food:** pull real food rather than buying fillers. Day 1 was forced onto **1-fullness / 1-adventure**
+   General Store cookies (15 fullness for only 15 adventures) — a pulled food is worth several times that.
+4. 🧠 **Re-visit `guild.php?place=trainer` at EVERY level-up** — it only lists skills up to your current level.
+5. 🗡️ Finish **When Rocks Attack** (buy the unguent, return to the guard — ~1 turn).
+6. 🔑 Decode the Knob with the **Knob Goblin Encryption Key** and move up to a better zone when Level ~5
+   (`leveling-zones.md`: the Outskirts is the Level 1–4 default; the Barracks is the next step).
+7. ⚔️ Still plain attacks — **Lunging Thrust-Smack needs 8 MP and max MP is 2.** Re-check each level.
 
 ## 🗓️ Session log (this run)
+
+- **Run #4 Day 1 (2026-09-22): 🐢 Turtle Tamer born, guild joined, Level 1 → 3 — 50 wins, 1 loss, zero healing
+  items used. But the booze meter never got filled, and the cause was my own bookkeeping.**
+  🏦 Opened by withdrawing **19,969 meat** from Hagnk's — and that single action **consumed the entire day's
+  20 storage slots** (meat costs 1 slot per 1,000). Every later pull answered *"…would exceed your item limit…
+  you should only take 0"*. Because **Ronin mall buys also land in storage**, there was then **no route to any
+  booze in the Kingdom**: the General Store sells none and the Tavern isn't unlocked. Food had to be bought as
+  **15 × 1-fullness / 1-adventure fortune cookies** — 15 adventures where pulled food gives several times that.
+  🚨 **The rule was already correct in `ronin-softcore-rules.md` ("meat spends the SAME daily allowance…").
+  I followed a contradicting line I had written into `HANDOFF.md` instead of reading the mechanics file** — the
+  exact failure HANDOFF's "read your own mechanics file first" rule exists to prevent. Both files now agree,
+  and the fix is a rule: **pull items first, meat last.**
+  🥋 **Guild:** the Turtle Tamer gets the **same sausage-measuring challenge** as the Seal Clubber ⇒ the
+  challenge belongs to the **Muscle guild**, not the class. 6 turns in the Outskirts, 11-inch sausage accepted.
+  🧠 **Skills:** Headbutt + Spirit Vacation (125 each), then at Level 2 Skin of the Leatherback + Blessing of the
+  War Snapper (250 each) — **identical prices to the Seal Clubber**, so the ladder is per guild-level.
+  ⚠️ **The trainer only shows skills up to your current level** (two rows at Level 1) — revisit every level.
+  🐢 Starting kit **arrives unequipped**; Patience of the Tortoise (1 MP) = **temporary max HP, 5 adventures**.
+  🐛 **`inventory.php` carried NO pwd hash** on a 6-item character, so the first helper build silently had no
+  pwd; `charpane.php`/`main.php`/`familiar.php` did. ⇒ `browser-automation.md` now scans a list and asserts.
+  📓 **New doc: `mechanics/turtle-tamer-class.md`**, plus the Outskirts noncombat answers in `leveling-zones.md`
+  (**111** *Malice in Chains* → *Serve your sentence* = 4–5 Muscle · **113** *Knob Goblin BBQ* → *Kick the chef*
+  starts a fight · **118** wounded guard → *Sure, I'll help* starts *When Rocks Attack*).
+  Ended Level 3, Muscle 14, max HP 26, meat 15,580, full 15/15, **drunk 0/14**.
 
 - **2026-09-22 — Ascended into run #4.** Stepped through the astral gash at Level 15 / base Muscle 273.
   Karma read **102 → 213** at the Pearly Gates ⇒ ✅ **a Normal win pays exactly 111** (100 + the Instant

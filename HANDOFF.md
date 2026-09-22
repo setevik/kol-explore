@@ -225,9 +225,18 @@ General, class-agnostic combat rules live in three places:
 
 Before farming meat for hours, check these — they found 2,749 meat in minutes in-game:
 1. **Hagnk's holds a SEPARATE meat purse.** `storage.php?which=5` shows *"You have N meat in long-term storage"*.
-   Withdraw it: POST `storage.php` with `pwd, amt=<n>, action=takemeat`. In Ronin you may pull **20,000 meat/day**
-   (meat is NOT subject to the 1-per-item limit). ⚠️ Mall purchases silently spend *this* purse, so it drains without
-   you noticing.
+   Withdraw it: POST `storage.php` with `pwd, amt=<n>, action=takemeat`.
+   🚨 **IN RONIN, MEAT AND ITEMS SHARE ONE DAILY ALLOWANCE — 20 slots, and meat costs 1 slot per 1,000.**
+   So **20,000 meat is not "the daily meat cap", it is the ENTIRE day's pulls**, and taking it leaves you unable
+   to pull a single item. ✅ Measured on a fresh Softcore day: withdrawing **19,969 meat as the first action**
+   made every later pull answer *"That action would exceed your item limit. I think you should only take 0"* and
+   *"You may not take any more Meat or items out of storage today."* — which **cost that day's entire booze
+   meter**, because in Ronin the mall delivers to storage too, so there was no other route to a bottle.
+   ✅ **Order the day-open correctly: pull the ITEMS you need first (food, booze, restoratives), then take only
+   the meat you actually need** — and read the remaining budget off the storage page, which states it in plain
+   English (*"You may take 17 more items or 17,000 more Meat out of storage today."*). `api.php` has no pull field.
+   ⚠️ Mall purchases silently spend the Hagnk's purse, so it drains without you noticing.
+   Full rules: **`mechanics/ronin-softcore-rules.md`**.
 2. **Autosell junk** via `sellstuff.php?justitems=0` (it lists each item's autosell price). Sell with a POST to
    **`sellstuff_ugly.php`**: `pwd, action=sell, mode=3, quantity=<n>, item<ID>=<ID>` (checkboxes are named
    `item<ID>`). **mode=1** = sell all, **mode=2** = all but one, **mode=3** = the `quantity` field. ✅ Verified:
