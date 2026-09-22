@@ -25,6 +25,27 @@ HP meters** (hidden while it is 0, which is why it is easy to forget). `api.php?
   attack skill.
 - ⚠️ **Losing repeatedly to the same boss is self-defeating twice over**: each loss also empties the meter, so the
   next attempt starts weaker than the last. **Build Fury on trash fights immediately before the attempt.**
+- 🚨 **FURY CANNOT BE EXPORTED BY PERMING IT.** The wiki is explicit: *"Only Seal Clubbers with the Wrath of the
+  Wolverine skill can build up Fury. Other classes are unable to do so, **even if Wrath of the Wolverine has been
+  made permanent**."* ⇒ **Do not spend ascension karma on Wrath of the Wolverine, Ire of the Orca, Cavalcade of
+  Fury, Furious Wallop or Batter Up!** — the karma is wasted and the skills never fire again. The class's best
+  combo is **rented, not owned**. Perm the class-agnostic passives instead (see `mechanics/ascension.md`
+  § "Which skill to perm").
+
+### ✅ Verified skill IDs (read from `desc_skill.php` / the wiki, not guessed)
+**Passives:** Fortitude of the Muskox **1008** · Audacity of the Otter **1009** (crits ×3) ·
+Hide of the Walrus **1011** (DA +50) · Claws of the Walrus **1012** (Weapon Damage +7) ·
+Seething of the Snow Leopard **1034** · Ire of the Orca **1035** (Fury cap 5) ·
+**Double-Fisted Skull Smashing 1017** (dual-wield) · Pulverize **1016** · Northern Exposure **1018** ·
+Precision of the Penguin **1039** · Super-Advanced Meatsmithing **1006**.
+**Combat:** Thrust-Smack **1003** (×2 base weapon damage) · Lunging Thrust-Smack **1005** (×3) ·
+**Furious Wallop 1032** (1 gallon → guaranteed crit) · Club Foot **1033** (−enemy Defense) ·
+Cavalcade of Fury **1037** · **Northern Explosion 1038** (16 MP, cold).
+**Noncombat:** Hibernate **1027** (costs 1 *Adventure*) · Rage of the Reindeer **1015** ·
+Musk of the Moose **1019** (+encounter rate) · Pride of the Puffin **1040** (+5 Muscle / 10 adv).
+⚠️ **1017 is Double-Fisted Skull Smashing, NOT Furious Wallop** — an easy mis-pairing, and the two behave
+nothing alike. **Neither the Smack family nor Northern Explosion requires a club** ("*with your weapon*"), but
+the Smack skills' *Bonus* Weapon Damage rider applies **only to a Seal Clubber**.
 
 ## 🥊 The class resource: "Muscularity Points" (+ Fury) — NOT a caster's MP pool
 

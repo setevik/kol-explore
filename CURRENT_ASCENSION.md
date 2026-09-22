@@ -255,9 +255,27 @@ The gate that blocked this for days is **open**; it was an assassin ladder, not 
 
 ### ▶ (B) THEN ASCEND (your call)
 `mechanics/ascension.md`. Go **Softcore/Normal**, and **send `whichpath=0` (Unrestricted)** — the default is
-Standard (22), which silently invalidates much of `mechanics/`. Spend karma at the Pearly Gates first.
-The plan ("one ascension per class") points at **Turtle Tamer** next; archive this file to
-`runs/ascension-03-seal-clubber.md`.
+Standard (22), which silently invalidates much of `mechanics/`. The plan ("one ascension per class") points at
+**Turtle Tamer** next; archive this file to `runs/ascension-03-seal-clubber.md`.
+
+#### 🧠 PERM PLAN (decided — full reasoning in `mechanics/ascension.md` § "Which skill to perm")
+**Karma: ~102 banked + ~211 for a Normal win ≈ ~313.** ⚠️ **Read the real balance from the Astral Spirit's
+`charpane.php` before spending** — 102 is a carried-forward estimate, not a reading.
+Use **`action=scperm` (100 karma)**, not `hcperm` (200); we play Softcore/Normal.
+
+1. ⭐ **Double-Fisted Skull Smashing — `whichskill=1017`** (Passive, dual-wield). **The pick.** Free forever,
+   works for *every* class (melee/Myst or ranged, just not mixed), gives 10–20% of the off-hand's power **plus
+   its enchantments** — effectively a permanent extra gear slot. Nothing else grants dual-wielding.
+2. **Lunging Thrust-Smack — `whichskill=1005`** (Combat, 8 MP, ×3 base weapon damage). Keeps the triple off-class
+   (only the Seal-Clubber bonus rider is lost) and needs no club. Turtle Tamer's own damage is weak, so this
+   should carry the very next run.
+3. 🏦 **BANK the remaining ~113.** Every future class is also a one-time window; karma held is optionality.
+
+🚨 **DO NOT PERM THE FURY SKILLS** (Wrath of the Wolverine · Ire of the Orca · Cavalcade of Fury ·
+Furious Wallop · Batter Up!). ✅ Verified on the wiki: **other classes cannot build Fury even when Wrath of the
+Wolverine is permed.** The combo that killed the Dervish and Gorgolok in one round each is **rented, not
+ownable** — spend nothing on it.
+Already permed and carrying across: **Cannelloni Cocoon** (20 MP full heal) · **Pastamastery**.
 
 ### Daily routine reminders (unchanged)
 1. 🍽️ **EAT to exactly 15** — milk of magnesium first, then rank by **adv per fullness** (herbal stuffing ~4.4

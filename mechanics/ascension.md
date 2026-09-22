@@ -93,6 +93,72 @@ On ascending, your inventory + closet are dumped into **Hagnk's Ancestral Mini-S
 - **Hardcore** — **no outside access at all** (no Hagnk's except items flagged **"free pull"**, no mall, no stash, no
   player gifts/buffs) until you **free King Ralph**. Most restrictive, most karma.
 
+## 🧠 WHICH SKILL TO PERM — the decision framework (and the trap that voids a whole class's best combo)
+
+🚨 **THE ONE RULE THAT OVERRIDES EVERYTHING: a permed skill is only worth karma if its MECHANIC works on other
+classes.** Some class resources are hard-coded to the class and the wiki says so outright:
+> **"Only Seal Clubbers with the Wrath of the Wolverine skill can build up Fury. Other classes are unable to do
+> so, *even if Wrath of the Wolverine has been made permanent*."**
+
+⇒ ✅ **Verified: the entire Fury package (Wrath of the Wolverine · Ire of the Orca · Cavalcade of Fury ·
+Furious Wallop · Batter Up!) is UNPERMABLE IN PRACTICE** — you may spend the karma and the skills will simply
+never function again. **This is true even though Fury can be the single most powerful thing a Seal Clubber run
+owns** (a full meter one-rounds bosses that beat you five times otherwise). **Before perming, check whether the
+skill reads from a class-exclusive meter** (`fury`, `soulsauce`, `pastathrall`, …) — if it does, walk away.
+
+### The four tests, in order
+1. **Does the mechanic work off-class at all?** (see above — this disqualifies resource skills outright)
+2. **Is it a PASSIVE?** A passive costs no MP, no turns, and never competes with your combat plan. An active
+   skill re-imposes the MP economy on every future run.
+3. **Can it be replaced by an item, buff or purchase?** If yes, it is not worth 100 karma. Dual-wielding cannot.
+   An elemental attack can (fires of unknown origin, an oil lamp). A heal can.
+4. **Is this class your only window?** ⭐ **Under a "one ascension per class" plan every run is a ONE-TIME
+   window** — a skill's `Class:` line on the wiki tells you whether you will ever be able to perm it again.
+
+### ⭐ The strongest perm available from the Seal Clubber tree
+**Double-Fisted Skull Smashing (skill 1017, Level 12, Passive)** — *"allows you to wield a one-handed weapon in
+each of your hands."*
+- ✅ **Passive**, so it is free forever: no MP, no turn, no decision.
+- ✅ **Works for every class, not just Muscle.** The off-hand may be any one-handed weapon *of the same type*
+  (melee/**Mysticality**, or ranged) — so casters and Moxie classes can dual-wield too. The only rule is you
+  cannot mix a melee/Myst weapon with a ranged one.
+- ✅ **It is two benefits, not one:** extra damage equal to **10–20% of the off-hand weapon's power**, **plus the
+  off-hand's enchantments and damage bonus**. That second half makes it a permanent **extra enchantment slot**
+  for every future character — valuable even to a class that never swings a weapon.
+- ✅ **Irreplaceable.** No item, buff or potion grants dual-wielding.
+- ✅ Measured in play: swapping a shield for a second weapon gave **+11 Muscle** and held **1.00 rounds/fight at
+  0 losses** over 34 giants.
+
+### Runner-up
+**Lunging Thrust-Smack (1005, Level 10, Combat, 8 MP)** — triples **base weapon damage**. ⚠️ Its wiki text reads
+*"…and also Bonus Weapon Damage **if a Seal Clubber**"*, so off-class you keep the **triple base damage** (the
+large part) and lose only the rider. There is **no club requirement** — the Smack family reads *"with your
+weapon"*. ✅ Measured on one character, same zone, same day: **plain attack = 3 rounds / ~120 damage taken /
+3 losses in ~10 fights** vs **Lunging Thrust-Smack opener = 1 round / ~40 often 0 / 0 losses in ~60 fights.**
+⚠️ Being an *active* skill, it re-imposes an MP budget on every run that uses it.
+
+### Deliberately NOT worth karma (all verified from the wiki)
+| Skill | Why not |
+|---|---|
+| **Wrath of the Wolverine · Ire of the Orca · Cavalcade of Fury · Furious Wallop · Batter Up!** | 🚫 **Fury does not work off-class even when permed.** |
+| **Hibernate** (1027) | Costs **1 Adventure** per cast. A heal you pay for in the same currency as progress; an already-permed MP heal is strictly better. |
+| **Audacity of the Otter** (1009, crits ×3) | Only pays out on crits, and the *guaranteed*-crit source is Fury — which doesn't carry. Random crits alone are too rare. |
+| **Fortitude of the Muskox** (1008, regen 1–2 HP/adv) | Real but tiny (~a few hundred HP/day); cheap items cover it. |
+| **Hide of the Walrus** (1011, DA +50) · **Claws of the Walrus** (1012, Weapon Damage +7) | Small flat passives that stop mattering as monsters scale. |
+| **Northern Explosion** (1038, Combat 16 MP, cold) | The class's only elemental attack and a genuine answer to physically-immune monsters — but **items already solve that** (fires of unknown origin, an oil lamp). |
+| **Pulverize** (1016) · **Super-Advanced Meatsmithing** (1006) | Crafting access. Useful to a long-term item economy, but a **storage audit + autosell already raises tens of thousands of meat with no skill at all.** |
+| **Rage of the Reindeer** (1015, Noncombat 10 MP) | A buff, stronger "against guys with beards". Situational. |
+
+### 💰 Budget, and why you should usually perm FEWER than you can afford
+A Normal win has paid **211** karma, and karma **banks across ascensions**, so a typical win funds **two**
+softcore perms (100 each) with change. ⭐ **Under a one-class-per-run plan, banking beats spending:** every
+future class also has exclusive skills you will see exactly once, so **karma held is optionality, and karma
+spent on a marginal flat passive is gone.** Perm only what passes all four tests, and carry the rest forward.
+⚠️ **`scperm` (100) is correct for a Softcore/Normal plan;** `hcperm` (200) only buys access inside *Hardcore*
+runs. Don't pay double for a restriction you don't play under.
+⚠️ **Read your real karma from the Astral Spirit's `charpane.php` before spending** (it sits where meat
+normally goes) — the page text's "(100 Karma)" strings are button labels, not your balance.
+
 ## Karma (the perm currency)
 **Earning** (spent in Valhalla): base per completion = **11 Casual / 111 Normal / 211 Hardcore.**
 - ⭐ **KARMA BANKS across ascensions** — unspent karma persists and is available at future Valhalla visits. So you can
