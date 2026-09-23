@@ -52,6 +52,26 @@ Arboreal Respite (choice 502)  [~1 in 6 advs in Spooky Forest 15]
 
 ### Needed items (all 3 to unlock Temple)
 
+🚨 **ANSWER THESE BY LABEL — the option numbers below are a convenience, not a contract.** Choice buttons are
+shuffled per page load, so a rule keyed to `option=N` is wrong most of the time. ✅ **Labels captured live:**
+
+| Choice | Encounter | Options (exact label text) |
+|---|---|---|
+| **502** | *Arboreal Respite* | `Follow the old road` · `Explore the stream` · `Brave the dark thicket` |
+| **505** | *Consciousness of a Stream* | `March to the marsh` · `Squeeze into the cave` · `Go further upstream` |
+| **506** | *Through Thicket and Thinnet* | `Follow the even darker path` · `Investigate the dense foliage` · `Follow the coin` · `Give up and go back` |
+| **507** | *O Lith, Mon* | `Insert coin to continue` · `Ignore the monolith` · `Hit a monkey with a bone` |
+
+⭐ **`Follow the coin` on 506 only renders once you hold the tree-holed coin** — its *presence* is a reliable
+in-choice test that the coin step worked, which is exactly the check that cannot be done by reading inventory
+from inside an open choice (see the engine note below).
+
+⭐ **The Council's mosquito larva lives on this same NC — it is NOT a monster drop.**
+**502 `Explore the stream` → 505 `March to the marsh`** hands it over. ✅ Measured the hard way: **15 fights in
+the Spooky Forest produced no larva at all**, then **4 adventures** with the branch targeted correctly produced
+it immediately. If a quest item "from a zone" is not dropping, check whether it is actually a choice branch
+before grinding for it.
+
 1. **Spooky Sapling** — Arboreal opt 1 → Road Less Traveled **opt 3 (Talk to the hunter)** → Tree's Last Stand opt 3 (Buy a tree for 100 Meat). **NOT** opt 2 "Knock on the cottage door" (that's a flavor dead end).
 2. **Spooky-Gro Fertilizer** — Arboreal opt 3 → Through Thicket and Thinnet opt 2 (Investigate the dense foliage). Single-step.
 3. **tree-holed coin** — Arboreal opt 2 → Consciousness of a Stream opt 2 (Squeeze into the cave). Also yields +300 Meat from Chester Meatpot's corpse.

@@ -161,6 +161,12 @@ The craft page (`craft.php?mode=cocktail`) `<option>` list is also the fastest w
 | Imp Ale | 470 | 1 | 1 | 1.0 — pure topper |
 | **gin-soaked blotter paper** | 4675 | **1** | **1** | 1.0 ⚠️ *the name lies; a terrible overdrink* |
 | Cursed Punch | 6680 | 1 | 2 | 2.0 — a useful **lander** |
+| martini | 251 | 3 | 5 | 1.7 |
+| vodka martini | 1009 | 3 | 6 | 2.0 |
+| strawberry wine | 1014 | 3 | 5 | 1.7 |
+| strawberry daiquiri | 788 | 3 | 6 | 2.0 |
+| **white lightning** | 266 | 3 | **5** | 1.7 ⚠️ *the wiki's "avg 7.5" did NOT hold — measured 5* |
+| glass of bourbon | 7519 | **1** | 5–6 | **5.5** ⭐ best ratio found, but **Level 5** |
 | whiskey sour | 674 | 3 | 5–6 | 1.8 |
 | strawberry daiquiri | 788 | 3 | 5.5 | 1.8 |
 | bottle of cooking sherry | 2840 | 2 | 3 | 1.5 |
@@ -168,6 +174,11 @@ The craft page (`craft.php?mode=cocktail`) `<option>` list is also the fastest w
 
 ⚠️ Anything not on this table is **unverified — treat as potency 3** for look-ahead, and never make it the
 overdrink.
+🚨 **LEVEL REQUIREMENTS GATE BOOZE TOO, and they bite hardest early.** ✅ Measured at Level 3–5, these were all
+refused or unusable: **Fog Murderer L6 · Cursed Punch L6 · artisanal limoncello L6 · Ye Olde Meade L7 ·
+imitation White Russian L6 · Psychotic Train wine L11 · glass of bourbon L5**. ⇒ **Check `Level required`
+BEFORE spending a Ronin pull slot on a bottle** — a pulled drink you cannot drink is a wasted slot, and in
+Ronin slots are the scarce resource, not meat.
 
 ## ⭐ Worked examples — the SHAPE is fixed, the numbers follow your cap
 

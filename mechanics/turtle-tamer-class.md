@@ -37,6 +37,8 @@ the first act of day one; it is a silent stat loss otherwise.
 | **Toss** | 2023 | Combat | **1 MP** | Throws your familiar (or something else) at the enemy. |
 
 ⭐ **Both are castable on the 2-MP pool you start with**, which makes them genuinely usable from turn one.
+⭐ **Level 4 brings `Ghostly Shell` (6 MP), a damage-reduction buff, at exactly the point the MP pool can pay for
+it** — by then max MP is around 9–10. That is the class's first real pre-boss preparation.
 ⚠️ **Patience lasts only 5 adventures** ⇒ cast it immediately before a hard fight, never at day-open.
 
 ## 🧠 The skill rack (Torg)
@@ -54,13 +56,16 @@ POST `guild.php` with `action=buyskill&skillid=<short id>&pwd=`.
 | 1 | **Spirit Vacation** | 2027 | 27 | **125** |
 | 2 | **Skin of the Leatherback** | 2004 | 4 | **250** |
 | 2 | **Blessing of the War Snapper** | 2030 | 30 | **250** |
+| 3 | **Amphibian Sympathy** | 2014 | 14 | **500** |
+| 3 | **Stiff Upper Lip** | 2029 | 29 | **500** |
+| 4 | **Ghostly Shell** | 2007 | 7 | **750** |
+| 4 | **Pizza Lover** | 2036 | 36 | **750** |
 
-💰 **Price is set by the skill's LEVEL, not by the skill** — ✅ measured: both Level 1 skills cost **125**, both
-Level 2 cost **250**.
-⚑ **Above Level 2 the figures are EXPECTED, not yet measured for this class** — this guild's ladder has run
-**500 · 1,750 · 2,500 · 3,250 · 4,000 · 5,000 · 6,250 · 7,500**, then **10,000 · 12,500 · 15,000** at the top
-tiers, so **budget ~50k for the last few skills** — but **read each cost from the meat delta** and correct this
-table as you go. A purchase you cannot afford is refused outright with *"You can't afford to train that skill."*
+💰 **Price is set by the skill's LEVEL, not by the skill** — ✅ measured per level: **125 · 250 · 500 · 750**
+for Levels 1–4, with *both* skills at a level costing the same.
+⚑ **Level 5 and up is still EXPECTED, not measured** — this guild's ladder has run up through
+**1,750 · 2,500 · 3,250 · 4,000 · 5,000 · 6,250 · 7,500**, then **10,000 · 12,500 · 15,000** at the top tiers,
+so **budget ~50k for the last few skills** — but **read each cost from the meat delta** and extend the table. A purchase you cannot afford is refused outright with *"You can't afford to train that skill."*
 — no meat moves, so trying is free.
 ⭐ **Fund the top of the rack with a storage audit rather than farming** — pulling surplus stacks and autoselling
 has raised tens of thousands of meat for **zero adventures**.

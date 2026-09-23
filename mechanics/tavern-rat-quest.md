@@ -14,8 +14,26 @@
 4. Two special squares appear as you go:
    - **The rat faucet — choice 512**, options `1: Do it` / `2: Leave it alone`.
    - **Baron von Ratsworth** — a real fight, drops **Baron von Ratsworth's monocle** (+item drop).
-5. 🎯 **Order matters: kill the Baron FIRST, then turn the faucet off** (512 → *Do it*), then
-   **return to `tavern.php?place=barkeep`** to close the quest (reward: 3 × Typical Tavern swill).
+5. 🎯 **Clear the squares, turn the faucet off, then return to `tavern.php?place=barkeep`** to close the quest
+   (reward: **3 × Typical Tavern swill**).
+   ✅ **CORRECTION — the Baron is OPTIONAL.** An earlier note here said to kill him first; in practice the quest
+   completed **without ever meeting him**: exploring the squares and turning the faucet off was enough, and the
+   log flipped straight to *"Return to Bart Ender"*. **The Baron is the monocle, not the quest.**
+   ⇒ ⚠️ **Only detour for him if you can actually wear the reward** — the monocle needs **10 base Mysticality**,
+   which a Muscle class will not have for a long time, so for those classes skipping him is correct, not a loss.
+
+### The other cellar choices (single-option continues — safe to auto-answer)
+| Choice | Label |
+|---|---|
+| **496** | `Smash the crates` (the rat castle) |
+| **510** | `Search the body` |
+| **515** | `Kick over the castle` |
+| **509** | `Turn off the faucet` |
+
+⚠️ **The faucet appears TWICE under different numbers:** as **512** (`Do it` / `Leave it alone`) while it is
+running, and later as a single-option **509 `Turn off the faucet`**. A loop that auto-answers single-option
+choices will therefore turn it off on its own — which is fine, but it means **the faucet can be closed before
+you have decided about the Baron**, so make that decision up front.
 
 ## 🐛 The loop trap: the faucet square never leaves the list
 
@@ -24,7 +42,7 @@ A naive loop that always explores `spots[0]` therefore re-enters the faucet on e
 without spending a turn or making progress** — 15 iterations produced 15 identical `512` encounters and moved
 the adventure counter by 2.
 
-✅ **Fix: remember the faucet's `whichspot` and skip it** until the Baron is dead:
+✅ **Fix: remember the faucet's `whichspot` and skip it** (until you are done with it):
 ```js
 const skip = new Set();                       // add the spot when choice 512 appears there
 const spots = [...html.matchAll(/whichspot=(\d+)/g)].map(m=>m[1]).filter(x=>!skip.has(x));
@@ -46,3 +64,8 @@ reserve; on a class with no heal skill see the spleen note in `HANDOFF.md`.
   Muscle class may not be able to wear it for a long time (or ever, in a short run).
 - **3 × Typical Tavern swill** from the barkeep (1 potency each — handy for landing exactly on the booze cap).
 - Rat whiskers, furry pills, and assorted booze drop throughout the cellar.
+
+⚠️ **The skip-set is easy to drop when rewriting the loop.** ✅ Measured: a later revision answered *"Leave it
+alone"* correctly but forgot to add the square to the skip set, and the faucet re-fired **13 times** in one
+run. It cost **no adventures** (the encounter is free), so the adventure-counter guard never tripped — the only
+symptom was iterations burning with no progress. **Count the faucet hits and abort if it exceeds a handful.**
