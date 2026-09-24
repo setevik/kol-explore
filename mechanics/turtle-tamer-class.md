@@ -60,13 +60,19 @@ POST `guild.php` with `action=buyskill&skillid=<short id>&pwd=`.
 | 3 | **Stiff Upper Lip** | 2029 | 29 | **500** |
 | 4 | **Ghostly Shell** | 2007 | 7 | **750** |
 | 4 | **Pizza Lover** | 2036 | 36 | **750** |
+| 5 | **Armorcraftiness** | 2006 | 6 | **1,250** — Passive: crafts advanced helmets and pants |
+| 5 | **Shell Up** | 2028 | 28 | **1,250** — Combat, 6 MP, once per fight: the opponent's next attack deals no damage |
+| 6 | **Tenacity of the Snapper** | 2010 | 10 | **1,750** — Buff, 8 MP: more damage per strike |
+| 6 | **Spirit Snap** | 2032 | 32 | **1,750** — Combat, 10 MP, once per fight: effect depends on your Turtle-Spirit relationship |
 
-💰 **Price is set by the skill's LEVEL, not by the skill** — ✅ measured per level: **125 · 250 · 500 · 750**
-for Levels 1–4, with *both* skills at a level costing the same.
-⚑ **Level 5 and up is still EXPECTED, not measured** — this guild's ladder has run up through
-**1,750 · 2,500 · 3,250 · 4,000 · 5,000 · 6,250 · 7,500**, then **10,000 · 12,500 · 15,000** at the top tiers,
-so **budget ~50k for the last few skills** — but **read each cost from the meat delta** and extend the table. A purchase you cannot afford is refused outright with *"You can't afford to train that skill."*
-— no meat moves, so trying is free.
+💰 **Price is set by the skill's LEVEL, not by the skill** — ✅ measured per level: **125 · 250 · 500 · 750 ·
+1,250 · 1,750** for Levels 1–6, with *both* skills at a level costing the same.
+⚠️ An older guess put Level 5 at 1,750 — it was one rung off. **Levels 7+ are still unmeasured**: the steps so
+far grow by ~500 per level, so expect roughly **2,250–2,500 at Level 7** and a total in the tens of thousands for
+the full rack, but **read each cost from the meat delta** and extend the table. ✅ At Level 5 the trainer's page
+did list the whole ladder by name through Level 15 (*Kneebutt · Blessing of She-Who-Was* at 7 … *Tao of the Terrapin ·
+Turtle Power* at 15) even though only your level's rows are buyable. A purchase you cannot afford is refused
+outright with *"You can't afford to train that skill."* — no meat moves, so trying is free.
 ⭐ **Fund the top of the rack with a storage audit rather than farming** — pulling surplus stacks and autoselling
 has raised tens of thousands of meat for **zero adventures**.
 
@@ -102,6 +108,22 @@ Levels 1 → 3**, with **zero healing items consumed**, wearing the starting kit
 herbs**, and **re-ask "can I afford my best attack yet?" at every level-up**: the moment the pool covers one
 cast, a weapon-damage multiplier stops being a luxury and becomes the trash-clearing default, and the day's real
 constraint becomes how many restoratives you can carry.
+
+⭐ **Replace the turtle totem early — it is a 1–2 damage weapon.** ✅ A **scorpion whip** (one-handed, **no stat
+requirement**, 2–4 damage **+13 Weapon Damage**, 50% poison) carried Levels 5 → 6 at **102 wins / 0 losses** in
+one day — the Bat Hole, the Outskirts, the Spooky Forest and **the Knob Goblin Harem (ML 25–30)** — with plain
+attacks, **no healing items and no spleen used**, at buffed Muscle 28 → 46, wearing the astral shield and the
+*ring of half-assed regeneration*. Its only cost is that the MP pool sits unused; check storage for a
+no-requirement bonus-damage weapon before the first fight of a run.
+⚠️ **MP does not refill between fights on its own** at these levels — a character that casts one Thrust-Smack
+sits at 1 MP for the rest of the day. Budget MP for the fights that need it (bosses) rather than spending it on
+trash.
+
+## 🐢 Class noncombats — taming turtles
+
+Turtle Tamers get extra single-option noncombats in ordinary zones, which hand over turtle-themed items:
+**choice 327 `Tame It`** (Beanbat Chamber → *turtle wax*) and **choice 960 `Tame the tortoise`** (Knob Goblin
+Harem → *pillow shell*). ✅ Both are single-button choices, safe to auto-answer.
 
 ## 🛡️ Shields are this class's slot — and they compete with dual-wielding
 

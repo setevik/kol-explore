@@ -643,6 +643,11 @@ Haunted Bathroom; the "choice did not clear" check is what stopped it there. The
 *Say "Guy made of bees."*, which every fifth time summons a **99,999-HP** monster — a loose label rule is one bad match
 away from a guaranteed loss. Shape rules as `if (ch === '881') pick = …` and let every unlisted choice number stop the
 loop for inspection.
+🐛 **A SHOP-LIKE CHOICE RE-SERVES ITSELF AFTER A PURCHASE.** Menus that sell something (*Buy a tree for 100 Meat*,
+*Sell him a bar skin*) stay open after the buy so you can buy again, and a chained auto-answer that re-reads the
+same choice number picks the purchase again every pass. ✅ Measured: 4 spooky saplings bought where 1 was needed.
+✅ **Rules for any "buy" label: answer it once, then pick the exit label (`Take your leave`) — and never let a
+chain answer the same choice number twice in a row.**
 ⚠️ Record answers in `mechanics/` as **label text**, never as an option index.
 ⚠️ A single-option choice (`blocks.length === 1`) is just a "continue" button — safe to auto-answer. **Stop and
 inspect anything with 2+ options** you don't have a recorded answer for; blind `opts[0]` is how you fail a
@@ -792,6 +797,10 @@ already held**, while the quest log had been saying so the whole time.
   Only fall back to scraping `inventory.php` HTML when you don't yet know the id, and then **search every tab**.
 - **After any quest step completes, re-read the quest log before deciding what to do next** — the objective may
   already have moved on.
+- ⚠️ **A side quest's REWARD already in your gear means the quest is done.** A plan carried *When Rocks Attack* as
+  "still open — just adventure the Outskirts until the guard reappears" for a day; 15 turns later the wiki showed
+  its reward is the *ring of half-assed regeneration*, which was already being worn. Cross-check the reward before
+  spending turns on an "open" side quest, and prefer the quest log over a hand-kept status line.
 - The same applies to "is this zone/step done?": prefer the quest log or a place page's own text over inference.
 
 ## 🥊 `inFight()` can false-negative — test for the combat FORM

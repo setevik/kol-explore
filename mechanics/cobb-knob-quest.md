@@ -18,6 +18,13 @@ which silently drops you under 25 and locks you out of a zone you could enter mi
 Beaten Up (`campground.php?action=rest`) before re-entering**, and treat "brandish their swords" as *stat gate*,
 not a disguise requirement.
 
+✅ **The Harem is a good leveling zone once you pass the gate.** Measured: a Muscle class at **base Muscle 25 → 34**
+(Level 5 → 6) went **99 wins / 0 losses** there with a bonus-damage one-handed weapon and no heals, and the drops
+were **9 Knob Goblin perfume, 7 harem veils and 7 harem pants** plus a **Cobb's Knob lab key** — i.e. the whole
+Path-A disguise and several attempts' worth of perfume come free while you level. ⚠️ **Harem girls drop no meat.**
+⚠️ **Check the King's Defense (47) against your buffed Muscle before walking in** — being in disguise gets you to
+the fight, not through it.
+
 ## Outfit shortcut (Ronin-friendly)
 
 The disguise pieces are **cheap and tradeable**: **harem veil 306** (hat, also +1 stench res) · **harem pants 305**

@@ -31,25 +31,28 @@ signature weapon (**turtle totem**) and whether shields matter (Turtle Tamers ar
 
 ---
 
-## 📊 Character state (end of run #4 Day 2 / 2026-09-23)
+## 📊 Character state (end of run #4 Day 3 / 2026-09-24)
 
-- **LEVEL 5 Turtle Tamer.** Muscle 25 / Mys 2 / Mox 1. **Max HP 42, max MP 10.** 💰 **Meat 17,173.**
-  **5 adventures banked.** full **15/15** ✅ · drunk **17** (exactly 14 + ONE overdrink) ✅. **91 wins, 1 loss.**
-- 🎽 **Worn:** knobby helmet turtle · turtle totem · **astral shield** · old sweatpants ·
-  **ring of half-assed regeneration**. 🐾 Familiar: Marcellus the Mosquito.
-- 🧠 **Skills bought (all available):** Headbutt · Spirit Vacation (125 ea) · Skin of the Leatherback ·
-  Blessing of the War Snapper (250) · Amphibian Sympathy · Stiff Upper Lip (500) ·
-  **Ghostly Shell** · Pizza Lover (750). ⇒ **ladder measured: 125 · 250 · 500 · 750 for Levels 1–4.**
-- ✅ **Council: larva done** (+500 meat), **rat quest DONE** (Bart paid 3 × Typical Tavern swill).
-  ❗ **Only "Ooh, I Think I Smell a Bat" remains** — the Boss Bat, in the Bat Hole.
-- 🗺️ **Spooky Temple map + Spooky-Gro fertilizer ×4 + tree-holed coin** held ⇒ **2 of 3 temple items**;
-  still need the **spooky sapling** (502 `Follow the old road` → talk to the hunter → buy a tree, 100 meat).
-- 🗡️ **When Rocks Attack still open** — **Pungent Unguent already bought and held**; the wounded-guard
-  noncombat (118) simply never fired again. Just needs one more Outskirts visit.
-- 🦇 **1 sonar-in-a-biscuit pulled** for the Bat Hole walls (Ronin allows only 1/day of an item).
-- 🧰 **Supplies:** medicinal herbs ×15 (spleen) · phonics down · ancient Magi-Wipes · Typical Tavern swill ×3 ·
-  glass of bourbon (now usable at Level 5) · strongness elixir · Dr. Hobo's map.
-- 🏦 Hagnk's still holds run #3's estate. Ronin: **`roninleft` ~840**.
+- **LEVEL 6 Turtle Tamer.** base Muscle 34 (buffed 46). **Max HP 74, max MP 24** (sitting at 1 — see below).
+  💰 **Meat 12,365.** **6 adventures banked.** full **15/15** ✅ · drunk **17** (exactly 14 + ONE overdrink) ✅.
+  **193 wins, 1 loss** for the run (102–0 today).
+- 🎽 **Worn:** knobby helmet turtle · **scorpion whip** (replaced the 1–2 dmg turtle totem) · **astral shield** ·
+  old sweatpants · ring of half-assed regeneration · **batskin belt**. 🐾 Marcellus the Mosquito.
+  Also held: **white sword** (1-handed, Mus 5, +2 Mus) — the off-hand candidate for dual-wield.
+- 🧠 **Skills bought: all through Level 6** — Levels 1–4 as before, plus **Armorcraftiness · Shell Up (1,250 ea)**
+  and **Tenacity of the Snapper · Spirit Snap (1,750 ea)**.
+- ✅ **Council: larva · rat · Boss Bat all DONE.** ▶ **Current: The Goblin Who Wouldn't Be King.**
+  Cobb's Knob is **open** (map decoded with the encryption key). Harem farmed: **9 Knob Goblin perfume, 8 harem veils,
+  7 harem pants** in inventory ⇒ **Path A disguise complete, several attempts' worth of perfume.**
+  ❗ **The King is HP 50 · Att 53 · Def 47 · Init 100.** Buffed Muscle is 46 — right at the edge.
+- ✅ **Hidden Temple UNLOCKED** (sapling planted; 3 spare saplings in the bag). Cobb's Knob **lab key** also held.
+- ✅ ***When Rocks Attack* was already finished** — its reward is the ring of half-assed regeneration, which was being
+  worn. The Day-2 "still open" note was wrong.
+- 🧰 **Supplies:** medicinal herbs ×18 (spleen unused today) · phonics down · ancient Magi-Wipes · filthy poultice ·
+  enchanted bean (beanstalk later) · 1 spare sonar · 5 bottles of tequila · 3 Typical Tavern swill · whiskey and soda ·
+  wine spritzer · tequila sunrise · 15 ten-leaf clovers.
+- 🍳 **Kitchen: Queue Du Coq cocktail kit + Dramatic range INSTALLED** (both were sitting unused in inventory).
+- 🏦 Hagnk's still holds run #3's estate. Ronin: **`roninleft` 698**.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -67,29 +70,45 @@ signature weapon (**turtle totem**) and whether shields matter (Turtle Tamers ar
 +25%, **Regenerate 5–10 HP per adventure**, DR 15 — it answers the documented "healing costs turns" tax at low
 level), then **swap to two one-handed weapons once you own two good ones** and re-verify from `charsheet.php`.
 
-## 🔜 Next-session priorities — run #4, Day 3
+## 🔜 Next-session priorities — run #4, Day 4
 
-> **5 adventures banked + the new day's allowance. Level 5. Meat 17,173.** Both meters were filled on Day 2 —
-> keep that pattern: **pull items first, meat last** (20 slots shared; meat costs 1 slot per 1,000, and there is
-> plenty of meat in inventory already, so spend ALL 20 slots on consumables).
-1. 🍺 **Booze pulls first, and check `Level required`.** At Level 5, **glass of bourbon (potency 1, ~5.5 adv,
-   ratio 5.50)** is now legal and is both the best filler and a perfect 1-potency cap-lander. Fog Murderer,
-   limoncello and Cursed Punch unlock at **6**; Ye Olde Meade at **7**.
-2. 🍽️ **Food pulls:** ghuol guolash (5 fullness / 17.5 adv) is the standout. **candied yams unlock at Level 5**;
-   centipede eggs and herbal stuffing at 6–7. Day 2's rack gave **47 adventures** off 15 fullness — repeat it.
-3. 🦇 **Boss Bat — the last Council quest.** Bat Hole zones: **30 entryway · 32 Batrat Burrow · 33 Beanbat ·
-   34 Boss Bat's Lair**; walls need **sonar-in-a-biscuit** (1 held, 1 more pullable per day, and the Batrat
-   Burrow drops them). See `mechanics/bat-hole-boss-bat.md`.
-4. 🗡️ **Close *When Rocks Attack*** — the unguent is already in the bag; just adventure the Outskirts (114)
-   until the guard noncombat fires.
-5. 🌳 **Finish the temple set** — only the **spooky sapling** is missing (502 `Follow the old road`).
-6. 🧠 **Re-visit `guild.php?place=trainer` at every level-up** (it lists only skills up to your current level).
-7. ⚔️ **Max MP is 10 now, so Lunging Thrust-Smack (8 MP) is finally castable** — use it on anything that
-   survives a plain attack, and re-check whether restoratives can sustain it.
-8. 🐀 Optional: **Baron von Ratsworth** is still alive in the cellar. His monocle needs **10 base Mysticality**,
-   so for this class he is almost certainly not worth the turns.
+> **6 adventures banked + the new day's allowance. Level 6. Meat 12,365.** Pull items first, meat last (20 slots).
+1. 🍺🍽️ **Level 6 opens new consumables:** Fog Murderer (6/15), artisanal limoncello (2/6), Flamin' Whatshisname
+   (2/6), imitation White Russian, painting of a glass of wine (1/3), stolen sushi, sheet cake (15 fullness!),
+   giant heirloom grape tomato, exotic jungle fruit. Re-price by adv/fullness and adv/drunk; still pull **ghuol
+   guolash** (measured 18) and **tofurkey leg** (measured 12). Mix tequila with lemons (margarita) — pull a lemon or two.
+2. 👑 **Knob Goblin King.** Prep: restore MP first (phonics down / Magi-Wipes — MP sits at 1 after a day of
+   fighting), cast **Tenacity of the Snapper** + **Ghostly Shell** + Patience of the Tortoise, wear **harem veil +
+   harem pants** (weapon slot stays the whip), use **one Knob Goblin perfume**, then
+   `cobbsknob.php?action=throneroom`. Open with **Shell Up**, then **Lunging Thrust-Smack**. If misses dominate,
+   level another day in the Harem (buffed Muscle ~50+) and retry — 9 perfumes allow retries.
+   **Swap the disguise back off afterwards.**
+3. 🧠 **Level 7 → trainer** (Kneebutt · Blessing of She-Who-Was; price unmeasured — record it).
+4. 🏛️ The Hidden Temple is open for when a quest needs it (`hidden-temple-unlock.md`).
+5. ⚔️ Try **dual-wield**: scorpion whip + white sword instead of the astral shield, once HP regen is less needed —
+   re-verify from `charsheet.php`.
+6. 🐀 Optional: Baron von Ratsworth — still not worth it for this class.
 
 ## 🗓️ Session log (this run)
+
+- **Run #4 Day 3 (2026-09-24): 🐢 Level 5 → 6, Boss Bat dead, Hidden Temple open, Cobb's Knob open — 102 wins, 0 losses.**
+  🍽️ **Food 15/15 = +52 adventures** (guolash 18 · tofurkey leg 12 · candied yams 10 · crudités 4 · donut 3 ·
+  snowcone 3 · alien salad 2). 🍺 **Filled to exactly 14 = +38** (bourbon 5 · Marsala 6 · Zinfandel 7 · Green
+  Manalishi 8 · backwoods screwdriver 7 · martini 5), spent all 38, then **ONE margarita overdrink (+6) → drunk 17**.
+  🏦 18 pulls on consumables/gear/sonar/restoratives, the last 2 on the harem veil + pants.
+  🔧 **Found the cocktail kit and Dramatic range unused in inventory — installed both**; mixed a martini, whiskey and
+  soda, wine spritzer, tequila sunrise, and discovered **tequila + lemon → margarita**.
+  🗡️ **Scorpion whip pulled from storage replaced the turtle totem** — every fight today was a plain attack.
+  🦇 **Boss Bat:** 2 sonars → Beanbat Chamber (11 turns; a **screambat knocked the third wall down** by itself, so the
+  sonar that also dropped was spared; also an enchanted bean) → Lair: 5 bodyguards then the Boss Bat, killed with
+  plain swings. Drops: dense meat stack + **batskin belt** (worn).
+  🌳 **Spooky sapling** bought via 502 → 503 → 504 — ⚠️ **504 re-served after the purchase and the chain bought 4**
+  (−400 meat). Map used ⇒ **Hidden Temple unlocked.**
+  🗡️ **15 Outskirts turns chasing the wounded guard were wasted on a quest already finished** — its reward is the ring
+  I was already wearing. Lesson moved to HANDOFF.
+  👑 **Council now: the Goblin King.** Map decoded → Knob open. At base Muscle 25 the **Harem went 99–0** and dropped
+  **9 perfumes, 8 veils, 7 pants** and the **lab key**. King not attempted: Def 47 vs buffed Muscle 37 at the time.
+  🧠 **Level 5 skills 1,250, Level 6 skills 1,750** (the doc's guess of 1,750 at Level 5 was one rung off).
 
 - **Run #4 Day 2 (2026-09-23): 🐢 Level 3 → 5, two Council quests closed, and BOTH meters filled — 91 wins, 1 loss.**
   🏦 **Day 1's mistake fixed by inverting the order: items first, meat last.** With 15,580 meat already in hand,

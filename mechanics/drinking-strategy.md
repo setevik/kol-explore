@@ -115,7 +115,10 @@ FAILS** ("Those two items don't combine to make a refreshing cocktail"). Confirm
 - **olive + bottle of vodka** → **vodka martini** (good, 5–10) ⭐ ✅
 - **olive + bottle of gin** → **martini** (good, 5–10) ⭐ ✅
 - **orange + bottle of vodka** → **screwdriver** (5–6) ✅
-- orange + tequila → tequila sunrise (5–6) (verified in-game, pre-mix)
+- orange + tequila → tequila sunrise (5–6) ✅
+- **lemon + bottle of tequila → margarita** (5–6) ✅ — measured 6 adventures
+- ✅ also confirmed: gin + olive → martini · whiskey + soda water → whiskey and soda · boxed wine + soda water → wine spritzer
+- ❌ tequila + strawberry does **not** combine
 (vodka/gin "and tonic" need **tonic water**, a different item — don't assume soda water substitutes.)
 ⚠️ **qty>1 crafts succeed with DIFFERENT result text** (no "You acquire an item:" match) — verify by
 re-reading the craft page's ingredient `<select>` counts or the inventory, not the response text.
@@ -166,7 +169,12 @@ The craft page (`craft.php?mode=cocktail`) `<option>` list is also the fastest w
 | strawberry wine | 1014 | 3 | 5 | 1.7 |
 | strawberry daiquiri | 788 | 3 | 6 | 2.0 |
 | **white lightning** | 266 | 3 | **5** | 1.7 ⚠️ *the wiki's "avg 7.5" did NOT hold — measured 5* |
-| glass of bourbon | 7519 | **1** | 5–6 | **5.5** ⭐ best ratio found, but **Level 5** |
+| glass of bourbon | 7519 | **1** | 5–6 | **5.5** ⭐ best ratio found, but **Level 5** (✅ measured 5) |
+| dusty bottle of Marsala | 2275 | 2 | 6 | 3.0 ✅ |
+| dusty bottle of Zinfandel | 2274 | 2 | 7 | 3.5 ✅ |
+| Green Manalishi | 7206 | 3 | 8 | 2.7 ✅ **Level 4** |
+| backwoods screwdriver | 6018 | 3 | 7 | 2.3 ✅ **Level 4** |
+| margarita | 1013 | 3 | 6 | 2.0 ✅ |
 | whiskey sour | 674 | 3 | 5–6 | 1.8 |
 | strawberry daiquiri | 788 | 3 | 5.5 | 1.8 |
 | bottle of cooking sherry | 2840 | 2 | 3 | 1.5 |

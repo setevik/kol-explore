@@ -37,7 +37,10 @@ stated range). ✅ The three ratios in bold were re-verified in-game the day thi
 | tomb aspic | 1 | — | 3–4 | 3.5 ⭐ |
 | hot honey ant | 1 | — | 3–4 | 3.5 ⭐ |
 | incredible pizza | 4 | 9 | 12–16 | 3.5 |
-| candied yams | 3 | 5 | 9.5 | 3.2 |
+| ghuol guolash | 5 | — | 16–19 | 3.5 ✅ measured 18 |
+| candied yams | 3 | 5 | 9.5 | 3.2 ✅ measured 10 |
+| tofurkey leg | 3 | 5 | 9.5 | 3.2 ✅ measured 12 |
+| Knob jelly donut · haunted crudités | 1 | — | 3 | 3.0 ✅ measured 3 · 4 |
 | plain snowcone | 1 | 4 | 3 | 3.0 |
 | Knob nuts | 1 | 4 | 3 | 3.0 |
 | pestopiary | 2 | — | 5–7 | 3.0 |
