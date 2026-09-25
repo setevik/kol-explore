@@ -23,7 +23,9 @@ not a disguise requirement.
 were **9 Knob Goblin perfume, 7 harem veils and 7 harem pants** plus a **Cobb's Knob lab key** — i.e. the whole
 Path-A disguise and several attempts' worth of perfume come free while you level. ⚠️ **Harem girls drop no meat.**
 ⚠️ **Check the King's Defense (47) against your buffed Muscle before walking in** — being in disguise gets you to
-the fight, not through it.
+the fight, not through it. ✅ At buffed Muscle 53 (Level 6, whip) he died in **2 rounds**: Shell Up to absorb his
+initiative hit, then one Lunging Thrust-Smack for 66 (`turtle-tamer-class.md`). Drop: **Crown of the Goblin King**
+(hat, Power 70, **+10 Muscle**, needs **20 Moxie**).
 
 ## Outfit shortcut (Ronin-friendly)
 

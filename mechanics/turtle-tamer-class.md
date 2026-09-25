@@ -64,12 +64,14 @@ POST `guild.php` with `action=buyskill&skillid=<short id>&pwd=`.
 | 5 | **Shell Up** | 2028 | 28 | **1,250** — Combat, 6 MP, once per fight: the opponent's next attack deals no damage |
 | 6 | **Tenacity of the Snapper** | 2010 | 10 | **1,750** — Buff, 8 MP: more damage per strike |
 | 6 | **Spirit Snap** | 2032 | 32 | **1,750** — Combat, 10 MP, once per fight: effect depends on your Turtle-Spirit relationship |
+| 7 | **Kneebutt** | 2015 | 15 | **2,500** — Combat, 4 MP |
+| 7 | **Blessing of She-Who-Was** | 2033 | 33 | **2,500** — Noncombat, 30 MP |
 
 💰 **Price is set by the skill's LEVEL, not by the skill** — ✅ measured per level: **125 · 250 · 500 · 750 ·
-1,250 · 1,750** for Levels 1–6, with *both* skills at a level costing the same.
-⚠️ An older guess put Level 5 at 1,750 — it was one rung off. **Levels 7+ are still unmeasured**: the steps so
-far grow by ~500 per level, so expect roughly **2,250–2,500 at Level 7** and a total in the tens of thousands for
-the full rack, but **read each cost from the meat delta** and extend the table. ✅ At Level 5 the trainer's page
+1,250 · 1,750 · 2,500** for Levels 1–7, with *both* skills at a level costing the same.
+⚠️ An older guess put Level 5 at 1,750 — it was one rung off. Prices so far rise by 500–750 per level;
+**Levels 8+ are unmeasured** and the full rack totals tens of thousands — **read each cost from the meat delta**
+and extend the table. ✅ At Level 5 the trainer's page
 did list the whole ladder by name through Level 15 (*Kneebutt · Blessing of She-Who-Was* at 7 … *Tao of the Terrapin ·
 Turtle Power* at 15) even though only your level's rows are buyable. A purchase you cannot afford is refused
 outright with *"You can't afford to train that skill."* — no meat moves, so trying is free.
@@ -122,8 +124,25 @@ trash.
 ## 🐢 Class noncombats — taming turtles
 
 Turtle Tamers get extra single-option noncombats in ordinary zones, which hand over turtle-themed items:
-**choice 327 `Tame It`** (Beanbat Chamber → *turtle wax*) and **choice 960 `Tame the tortoise`** (Knob Goblin
-Harem → *pillow shell*). ✅ Both are single-button choices, safe to auto-answer.
+**choice 327 `Tame It`** (Beanbat Chamber → *turtle wax*), **960 `Tame the tortoise`** (Knob Goblin Harem →
+*pillow shell*), **957 `Go for the glow`** (Dark Neck / Dark Heart of the Woods → *irradiated turtle*), **943 `Tame the
+two turtles!`** (Dark Elbow → *giraffe-necked turtle*) and **944 `Investigate`** (the Cyrpt → *mocking turtle*).
+✅ All are single-button choices, safe to auto-answer.
+
+## ⏱️ Buff durations and recovery at low level
+
+✅ **Measured at Level 6: Tenacity of the Snapper, Ghostly Shell and Patience of the Tortoise each lasted only
+5 adventures** when self-cast. ⇒ They are pre-boss buffs, cast as the last step before the fight — not day buffs.
+⭐ **Spirit Vacation costs 1 adventure and, per its skill text, fully restores HP *and* MP** (⚑ not yet measured) — the class's built-in answer to an empty
+MP pool before a boss, when no MP restorative is at hand.
+
+## 👑 Boss recipe that worked — Shell Up, then Thrust-Smack
+
+✅ **Knob Goblin King (HP 50, Att 53, Def 47, Init 100) died in 2 rounds** at Level 6, buffed Muscle 53 (a
+strongness elixir + an extra-strength strongness elixir), max HP 87: **round 1 `Shell Up`** — his opening hit
+bounced off (*"Your opponent bounces off of you"*) — **round 2 `Lunging Thrust-Smack` for 66** with the scorpion
+whip, plus the Mosquito's drain. MP needed: 6 + 8. ⇒ **Enter bosses with ≥ 14 MP**; the opening Shell Up cancels
+the initiative hit a fast boss gets before you can act.
 
 ## 🛡️ Shields are this class's slot — and they compete with dual-wielding
 

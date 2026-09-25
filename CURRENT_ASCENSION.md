@@ -31,28 +31,23 @@ signature weapon (**turtle totem**) and whether shields matter (Turtle Tamers ar
 
 ---
 
-## 📊 Character state (end of run #4 Day 3 / 2026-09-24)
+## 📊 Character state (end of run #4 Day 4 / 2026-09-25)
 
-- **LEVEL 6 Turtle Tamer.** base Muscle 34 (buffed 46). **Max HP 74, max MP 24** (sitting at 1 — see below).
-  💰 **Meat 12,365.** **6 adventures banked.** full **15/15** ✅ · drunk **17** (exactly 14 + ONE overdrink) ✅.
-  **193 wins, 1 loss** for the run (102–0 today).
-- 🎽 **Worn:** knobby helmet turtle · **scorpion whip** (replaced the 1–2 dmg turtle totem) · **astral shield** ·
-  old sweatpants · ring of half-assed regeneration · **batskin belt**. 🐾 Marcellus the Mosquito.
-  Also held: **white sword** (1-handed, Mus 5, +2 Mus) — the off-hand candidate for dual-wield.
-- 🧠 **Skills bought: all through Level 6** — Levels 1–4 as before, plus **Armorcraftiness · Shell Up (1,250 ea)**
-  and **Tenacity of the Snapper · Spirit Snap (1,750 ea)**.
-- ✅ **Council: larva · rat · Boss Bat all DONE.** ▶ **Current: The Goblin Who Wouldn't Be King.**
-  Cobb's Knob is **open** (map decoded with the encryption key). Harem farmed: **9 Knob Goblin perfume, 8 harem veils,
-  7 harem pants** in inventory ⇒ **Path A disguise complete, several attempts' worth of perfume.**
-  ❗ **The King is HP 50 · Att 53 · Def 47 · Init 100.** Buffed Muscle is 46 — right at the edge.
-- ✅ **Hidden Temple UNLOCKED** (sapling planted; 3 spare saplings in the bag). Cobb's Knob **lab key** also held.
-- ✅ ***When Rocks Attack* was already finished** — its reward is the ring of half-assed regeneration, which was being
-  worn. The Day-2 "still open" note was wrong.
-- 🧰 **Supplies:** medicinal herbs ×18 (spleen unused today) · phonics down · ancient Magi-Wipes · filthy poultice ·
-  enchanted bean (beanstalk later) · 1 spare sonar · 5 bottles of tequila · 3 Typical Tavern swill · whiskey and soda ·
-  wine spritzer · tequila sunrise · 15 ten-leaf clovers.
-- 🍳 **Kitchen: Queue Du Coq cocktail kit + Dramatic range INSTALLED** (both were sitting unused in inventory).
-- 🏦 Hagnk's still holds run #3's estate. Ronin: **`roninleft` 698**.
+- **LEVEL 7 Turtle Tamer.** base Muscle 49 / base Moxie 30. **Max HP ~117 with the Crown, max MP 32.**
+  💰 **Meat 12,637.** **8 adventures banked.** full **15/15** ✅ · drunk **17** (exactly 14 + ONE overdrink) ✅ ·
+  spleen 11/15. **~300 wins, 2 losses** for the run (107–1 today).
+- 🎽 **Worn:** **Crown of the Goblin King** (+10 Mus; wearable since base Moxie passed 20) · scorpion whip · astral
+  shield · old sweatpants · ring of half-assed regeneration · batskin belt. 🐾 Marcellus the Mosquito.
+  Also held: white sword · harem veil ×8 / pants ×7 · **8 Knob Goblin perfume** · Cobb's Knob lab key.
+- 🧠 **Skills bought: all through Level 7** (Level 7 = Kneebutt + Blessing of She-Who-Was, **2,500 each**).
+- ✅ **Council: larva · rat · Boss Bat · Goblin King · Friars — all DONE.** Pandamonium is open (Azazel is a
+  Level 9–10 project). ▶ **Current: the Cyrpt** (Evilometer held).
+  📉 **Evilometer at day end: Alcove 0 ✅ · Nook 16 (boss next) · Cranny 44 · Niche 50 — total 110.**
+- ✅ Hidden Temple unlocked (3 spare saplings). Friars' daily blessing now available (`friars-blessings.md`).
+- 🧰 **Supplies:** medicinal herbs ×9 · phonics down ×1 · Magi-Wipes ×1 · 1 sonar · Imp Ale ×13 · lots of cocktails
+  (martini, vodka martini, whiskey sour, whiskey and soda, wine spritzer, tequila sunrise, salty dog ×2,
+  screwdriver ×3, swill ×3) · 5 bottles of tequila · 3 spicy onigiri · 15 ten-leaf clovers.
+- 🍳 Kitchen: cocktail kit + Dramatic range installed. 🏦 Ronin: **`roninleft` 568**.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -70,26 +65,38 @@ signature weapon (**turtle totem**) and whether shields matter (Turtle Tamers ar
 +25%, **Regenerate 5–10 HP per adventure**, DR 15 — it answers the documented "healing costs turns" tax at low
 level), then **swap to two one-handed weapons once you own two good ones** and re-verify from `charsheet.php`.
 
-## 🔜 Next-session priorities — run #4, Day 4
+## 🔜 Next-session priorities — run #4, Day 5
 
-> **6 adventures banked + the new day's allowance. Level 6. Meat 12,365.** Pull items first, meat last (20 slots).
-1. 🍺🍽️ **Level 6 opens new consumables:** Fog Murderer (6/15), artisanal limoncello (2/6), Flamin' Whatshisname
-   (2/6), imitation White Russian, painting of a glass of wine (1/3), stolen sushi, sheet cake (15 fullness!),
-   giant heirloom grape tomato, exotic jungle fruit. Re-price by adv/fullness and adv/drunk; still pull **ghuol
-   guolash** (measured 18) and **tofurkey leg** (measured 12). Mix tequila with lemons (margarita) — pull a lemon or two.
-2. 👑 **Knob Goblin King.** Prep: restore MP first (phonics down / Magi-Wipes — MP sits at 1 after a day of
-   fighting), cast **Tenacity of the Snapper** + **Ghostly Shell** + Patience of the Tortoise, wear **harem veil +
-   harem pants** (weapon slot stays the whip), use **one Knob Goblin perfume**, then
-   `cobbsknob.php?action=throneroom`. Open with **Shell Up**, then **Lunging Thrust-Smack**. If misses dominate,
-   level another day in the Harem (buffed Muscle ~50+) and retry — 9 perfumes allow retries.
-   **Swap the disguise back off afterwards.**
-3. 🧠 **Level 7 → trainer** (Kneebutt · Blessing of She-Who-Was; price unmeasured — record it).
-4. 🏛️ The Hidden Temple is open for when a quest needs it (`hidden-temple-unlock.md`).
-5. ⚔️ Try **dual-wield**: scorpion whip + white sword instead of the astral shield, once HP regen is less needed —
-   re-verify from `charsheet.php`.
-6. 🐀 Optional: Baron von Ratsworth — still not worth it for this class.
+> **8 adventures banked + the new day's allowance. Level 7. Meat 12,637.** Pull items first, meat last.
+1. 🍽️🍺 **Consumables.** The inventory already holds a full booze rack of dropped cocktails (all 3-potency, ~5–6 each)
+   — so **pull food first** (guolash, yams, snowcone, donut, crudités; also consider **stolen sushi (L6)** and
+   **moose chocolate**) and spend booze pulls only on upgrades: **Fog Murderer** (measured 14), **limoncello**,
+   **Zinfandel**, **Green Manalishi** (measured 8 — the overdrink). Pull a **lemon** for a margarita.
+2. 💀 **The Cyrpt.** Order:
+   - **Nook boss (giant skeelton: HP 120, Att 71, Def 65)** first — Nook is at 16. Prep: herbs to full HP,
+     phonics down/Magi-Wipes for ≥ 23 MP, Patience + **Brother Smothers's Blessing** (spooky res, 20 adv) last,
+     then `Shell Up` → `Lunging Thrust-Smack` ×2. Buffed Muscle with the Crown is ~75 now.
+   - **Cranny (44)** and **Niche (50)** — grind with plain attacks; **stop each loop at ~26 evil** and prep for
+     the room boss rather than meeting it mid-grind (that is how today's only loss happened).
+   - Then the **Bonerdagon** (HP 120, Att 90, Def 81, spooky) — read `bonerdagon-boss.md` first; Smothers LAST.
+3. 🧠 **Level 8 → trainer** (Empathy of the Newt · Butts of Steel; price unmeasured — record it).
+4. ⚔️ Try **dual-wield** (whip + white sword) once HP regen matters less; re-verify on `charsheet.php`.
 
 ## 🗓️ Session log (this run)
+
+- **Run #4 Day 4 (2026-09-25): 🐢 Level 6 → 7. Goblin King dead, Friars cleansed, Cyrpt started — 107 wins, 1 loss.**
+  🍽️ **Food 15/15 = +49** (guolash 19 · yams 9 · 4 × Knob nuts from the Harem · donut · snowcone · crudités, 3 each).
+  🍺 **Filled to exactly 14 = +35** (Fog Murderer 14 · Zinfandel 7 · limoncello 6 · painting 3 · margarita 5), spent,
+  then **ONE Green Manalishi overdrink (+8) → drunk 17.** 14 pulls + 1 tiny house.
+  👑 **Goblin King: 2 rounds.** Strongness elixirs → buffed Muscle 53; phonics down + Magi-Wipes for MP; Tenacity,
+  Ghostly Shell, Patience; harem veil + pants + perfume; **Shell Up** bounced his first hit, **Lunging Thrust-Smack
+  hit for 66**. Crown of the Goblin King dropped — became wearable at day end (base Moxie 30).
+  ⛪ **Friars: 51 turns, 48–0.** ⚠️ Spent 16 Neck fights waiting for a "drop" before learning the items come from
+  the **4th of a fixed chain of noncombats** in each grove — `friars-blessings.md` corrected.
+  🧠 **Level 7 skills 2,500 each.** The Council handed over the **Cyrpt at Level 7**, straight after the ritual.
+  💀 **Cyrpt:** Nook 26–0 + 2 evil eyes (50 → 16); Alcove ground to 11 then **LOST to the conjoined zmombie** (the
+  room boss) mid-grind at part HP → pulled a tiny house for Beaten Up, herbs to full, Shell Up + 2 × Thrust-Smack
+  → **Alcove 0**. Cranny 50 → 44. Recorded the answers for choices 153 / 155 / 523.
 
 - **Run #4 Day 3 (2026-09-24): 🐢 Level 5 → 6, Boss Bat dead, Hidden Temple open, Cobb's Knob open — 102 wins, 0 losses.**
   🍽️ **Food 15/15 = +52 adventures** (guolash 18 · tofurkey leg 12 · candied yams 10 · crudités 4 · donut 3 ·

@@ -68,7 +68,8 @@ Report to `council.php` to close the quest.
 
 ## Clearing the Cyrpt (the 4 sub-zones) — verified in-game
 
-- **Council gives this at Level 8** (aura of Spookiness) along with the **Evilometer (item 4964)**.
+- **Council gives this after the Friars** (aura of Spookiness) along with the **Evilometer (item 4964)** — ✅ it arrived
+  at **Level 7** the moment the Friars' ritual was done, so it is not strictly a Level 8 quest.
 - **`inv_use` the Evilometer** any time to read **Total evil + per-zone** (starts ~50 each, 199 total).
   ✅ **When all four rooms are clear the Evilometer reads `Total evil: 999 / Haert: 999`** — 999 is a
   **sentinel meaning "only the Haert remains"**, not a parse error, and `crypt.php` then shows only that zone.
@@ -76,6 +77,22 @@ Report to `council.php` to close the quest.
 - **Four Defiled sub-zones**, each must be ground to **0 evil** (each fight removes ~1):
   **Alcove 261 · Cranny 262 · Niche 263 · Nook 264.** All **ML 53–79, Recom Stat 40.**
 - Then **The Haert of the Cyrpt** (`crypt.php?action=heart`) opens → the Bonerdagon fight (below).
+
+✅ **Turtle Tamer, Level 7, max HP ~90–108, scorpion whip, plain attacks: 58 wins / 1 loss across the Nook, Alcove
+and Cranny** — the Nook went 26–0. The one loss was the **Alcove's boss** met mid-grind at part HP.
+**Room noncombats (answer by label):** Nook **155** *Skull, Skull, Skull* → `Look inside the second one` (a box of
+Meat) · Alcove **153** *Turn Your Head and Coffin* → `Investigate the fancy coffin` (40–60 Muscle substats; `Check out
+the pine box` is 200–300 Meat) · Cranny **523** *Death Rattlin'* → `Crawl inside the open one` (20–30 of each substat
++ 40–50 HP and MP; `Open the rattling one` is a ghuol-whelp fight).
+**evil eyes** (Nook drop) — `inv_use` each one to knock **3** evil off the Nook.
+🚨 **Each room's boss is a real fight — stop the grind loop at ~26 evil and prep for it.**
+| Room | Boss | HP | Att | Def | Element |
+|---|---|---|---|---|---|
+| Alcove | conjoined zmombie | 120 | 73 | 63 | spooky |
+| Nook | giant skeelton | 120 | 71 | 65 | spooky |
+✅ The zmombie **beat a loop that walked into it at part HP**, then died at once to the prepared version: HP topped
+to ~100% with spleen herbs, Patience of the Tortoise, `Shell Up` → two `Lunging Thrust-Smack`s (needs ~23 MP),
+buffed Muscle 67 against his Defense 63.
 
 🚨 **THIS IS A LEVEL 9–10 GRIND, NOT A LEVEL 8 ONE — *for a caster*.** ⚠️ **Class-specific:** the numbers
 below were measured on a Pastamancer with ~50 HP. ✅ **Re-measured on a Seal Clubber (L7–8, 128–150 max HP,

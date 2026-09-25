@@ -4,10 +4,18 @@ After completing the **Copse of the Deep Fat Friars** quest (place the 3 ritual 
 
 ## Ritual Completion
 
-All three artifacts drop from the surrounding zones:
-- **Dark Neck of the Woods** (snarfblat 541): easiest, drops the `dodecagram`
-- **Dark Heart of the Woods** (snarfblat 540): drops `box of birthday candles`
-- **Dark Elbow of the Woods** (snarfblat 539): drops `eldritch butterknife`
+🚨 **The three artifacts are NOT monster drops.** ✅ Verified on the official wiki and in-game: each grove has a
+**fixed chain of four one-time noncombats**, and the ritual item is the **fourth** (Dark Neck: *How Do We Do It?*
+(250 meat) → *Strike One!* (imp unity ring) → *Olive My Love To You, Oh.* (2 olives) → *Dodecahedrariffic!*
+(dodecagram)). The zones force a noncombat roughly every 5 turns, so **each item costs ~15–20 turns no matter
+how fast you kill** — fighting harder does not speed it up. A grind loop should stop on the item landing in
+inventory, not on a fight's drop list. ✅ Measured (Turtle Tamer, Level 6–7, buffed Muscle ~50, plain attacks):
+**Neck 18 turns · Heart 15 · Elbow 18, 48 wins / 0 losses**. Zone ML is 40–52; the monsters deal **hot** damage.
+
+The three zones and their items:
+- **Dark Neck of the Woods** (snarfblat 541): yields the `dodecagram`
+- **Dark Heart of the Woods** (snarfblat 540): yields the `box of birthday candles`
+- **Dark Elbow of the Woods** (snarfblat 539): yields the `eldritch butterknife`
 
 ⚠️ The old note that 539/540 "need ~45 Mysticality" is a **recommended** stat, not a hard gate — **verified
 enterable at base Mysticality 33** (verified in-game), with no "recommended that you have…" refusal. Expect to get hit

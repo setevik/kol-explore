@@ -172,9 +172,12 @@ The craft page (`craft.php?mode=cocktail`) `<option>` list is also the fastest w
 | glass of bourbon | 7519 | **1** | 5–6 | **5.5** ⭐ best ratio found, but **Level 5** (✅ measured 5) |
 | dusty bottle of Marsala | 2275 | 2 | 6 | 3.0 ✅ |
 | dusty bottle of Zinfandel | 2274 | 2 | 7 | 3.5 ✅ |
-| Green Manalishi | 7206 | 3 | 8 | 2.7 ✅ **Level 4** |
+| Green Manalishi | 7206 | 3 | 8 | 2.7 ✅ **Level 4** — measured 8 twice; a good overdrink |
 | backwoods screwdriver | 6018 | 3 | 7 | 2.3 ✅ **Level 4** |
-| margarita | 1013 | 3 | 6 | 2.0 ✅ |
+| margarita | 1013 | 3 | 5–6 | 1.8 ✅ measured 6 and 5 |
+| **Fog Murderer** | 6682 | 6 | 14 | 2.3 ✅ **Level 6** |
+| artisanal limoncello | 6036 | 2 | 6 | 3.0 ✅ **Level 6** |
+| painting of a glass of wine | 7343 | 1 | 3 | 3.0 ✅ **Level 6** — a 1-potency lander |
 | whiskey sour | 674 | 3 | 5–6 | 1.8 |
 | strawberry daiquiri | 788 | 3 | 5.5 | 1.8 |
 | bottle of cooking sherry | 2840 | 2 | 3 | 1.5 |
