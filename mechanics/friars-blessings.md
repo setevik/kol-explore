@@ -4,13 +4,11 @@ After completing the **Copse of the Deep Fat Friars** quest (place the 3 ritual 
 
 ## Ritual Completion
 
-🚨 **The three artifacts are NOT monster drops.** ✅ Verified on the official wiki and in-game: each grove has a
-**fixed chain of four one-time noncombats**, and the ritual item is the **fourth** (Dark Neck: *How Do We Do It?*
-(250 meat) → *Strike One!* (imp unity ring) → *Olive My Love To You, Oh.* (2 olives) → *Dodecahedrariffic!*
-(dodecagram)). The zones force a noncombat roughly every 5 turns, so **each item costs ~15–20 turns no matter
-how fast you kill** — fighting harder does not speed it up. A grind loop should stop on the item landing in
-inventory, not on a fight's drop list. ✅ Measured (Turtle Tamer, Level 6–7, buffed Muscle ~50, plain attacks):
-**Neck 18 turns · Heart 15 · Elbow 18, 48 wins / 0 losses**. Zone ML is 40–52; the monsters deal **hot** damage.
+🚨 **The three artifacts are NOT monster drops.** Each grove has a **fixed chain of four one-time noncombats**, and
+the ritual item is the **fourth** (Dark Neck: *How Do We Do It?* → *Strike One!* → *Olive My Love To You, Oh.* →
+*Dodecahedrariffic!*). A noncombat is forced after 5 turns without one (turns ~6, 11, 16, 21), so **each item costs
+~20 turns from a fresh start however fast you kill.** Stop a grind loop on the item reaching inventory, not on a
+fight's drop list. The groves are ML 40–52 and deal **hot** damage.
 
 The three zones and their items:
 - **Dark Neck of the Woods** (snarfblat 541): yields the `dodecagram`
@@ -23,8 +21,7 @@ harder than in a Recom-20 zone, so go in with **Springy Fusilli up** and full HP
 Reach the zones via `friars.php` / the Distant Woods.
 
 ✅ **Verified in-game (Pastamancer, base Mys 33–38, Springy Fusilli up):** 66 turns total, ~20–24 each (37W/17L).
-✅ **Re-verified (Seal Clubber, Level 7, base Mus 67): far cheaper on a Muscle class — Dark Heart gave the
-candles in 2 turns and Dark Neck the dodecagram in 4**, all wins, no healing. The drops are not slow; budget
+⚠️ **A grove visited before is further along its chain** and yields its item sooner. Budget
 ~10–25 turns per grove and don't plan a whole day around it.
 Item IDs: **dodecagram 479 · box of birthday candles 480 · eldritch butterknife 481.**
 

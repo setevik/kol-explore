@@ -70,10 +70,12 @@ level), then **swap to two one-handed weapons once you own two good ones** and r
 
 > **5 adventures banked. Level 8. Meat 10,084.** Pull items first (20 slots, 1 per item per day).
 1. 🏦 **Pulls:** **eXtreme mittens** · **phonics down + ancient Magi-Wipes** (Bonerdagon MP) · food (guolash, herbal
-   stuffing, centipede eggs, cactus fruit, + 1-fullness fillers) · booze (**open sauce** 13, **Flamin'
+   stuffing, cactus fruit, + 1-fullness fillers — ⚠️ **no centipede eggs before the Bonerdagon**: they poison you for
+   10 adventures; eat them after the boss or skip them) · booze (**open sauce** 13, **Flamin'
    Whatshisname** 7, a 2-potency lander) — the inventory's cocktails fill the rest of the 14.
 2. 🐉 **Bonerdagon FIRST** (HP 120, Att 90, Def 81, Init 90, spooky, wing-flap disrupts skills/items 25%).
-   Prep, in order: herbs to full HP · phonics/Magi-Wipes to full MP · **coffin lid in the off-hand** (replacing
+   Prep, in order: herbs to full HP · **use an irradiated turtle (4 held: +4–5 MP/adventure for 15)** ·
+   phonics/Magi-Wipes to full MP · **coffin lid in the off-hand** (replacing
    the astral shield) · Tenacity + Ghostly Shell + Patience · **Brother Smothers's Blessing LAST** ·
    `crypt.php?action=heart` → answer the entry choice → `Shell Up` then `Lunging Thrust-Smack` every round.
    Buffed Muscle ~90 vs Def 81. Then **report to the Council** and use the chest (+3,000 meat).
@@ -89,7 +91,7 @@ level), then **swap to two one-handed weapons once you own two good ones** and r
   🍺 **14 = +33** (open sauce 13 · Flamin' Whatshisname 7 · martini 5 · whiskey sour 5 · Merlot 3), spent, then
   **ONE vodka martini overdrink (+5) → drunk 17.** ⚠️ The pulled imitation White Russian turned out **not to be booze**.
   ☠️ **Somewhat Poisoned** silently took buffed Muscle 75 → 45 right before the Nook boss — spotted, cured with a
-  pulled antidote (effect id 283, not the documented 284).
+  pulled antidote (effect id 283). **Cause: the centipede eggs eaten at breakfast.**
   💀 **Learned the boss trigger is evil ≤ 13, not 25** — the Nook served ordinary skeletons at 16/15/14.
   Nook boss (giant skeelton) → **Cranny**: 25–0 + 3 whelp swarms, boss (huge ghuol) → **Niche**: the second urn held a
   **plus-sized phylactery**, which one-shot the gargantulihc. **Evilometer 999 — only the Haert left.**
@@ -105,7 +107,7 @@ level), then **swap to two one-handed weapons once you own two good ones** and r
   👑 **Goblin King: 2 rounds.** Strongness elixirs → buffed Muscle 53; phonics down + Magi-Wipes for MP; Tenacity,
   Ghostly Shell, Patience; harem veil + pants + perfume; **Shell Up** bounced his first hit, **Lunging Thrust-Smack
   hit for 66**. Crown of the Goblin King dropped — became wearable at day end (base Moxie 30).
-  ⛪ **Friars: 51 turns, 48–0.** ⚠️ Spent 16 Neck fights waiting for a "drop" before learning the items come from
+  ⛪ **Friars: 60 turns, 48–0.** ⚠️ Spent 16 Neck fights waiting for a "drop" before learning the items come from
   the **4th of a fixed chain of noncombats** in each grove — `friars-blessings.md` corrected.
   🧠 **Level 7 skills 2,500 each.** The Council handed over the **Cyrpt at Level 7**, straight after the ritual.
   💀 **Cyrpt:** Nook 26–0 + 2 evil eyes (50 → 16); Alcove ground to 11 then **LOST to the conjoined zmombie** (the
@@ -127,7 +129,7 @@ level), then **swap to two one-handed weapons once you own two good ones** and r
   (−400 meat). Map used ⇒ **Hidden Temple unlocked.**
   🗡️ **15 Outskirts turns chasing the wounded guard were wasted on a quest already finished** — its reward is the ring
   I was already wearing. Lesson moved to HANDOFF.
-  👑 **Council now: the Goblin King.** Map decoded → Knob open. At base Muscle 25 the **Harem went 99–0** and dropped
+  👑 **Council now: the Goblin King.** Map decoded → Knob open. At base Muscle 25 the **Harem went 98–0** and dropped
   **9 perfumes, 8 veils, 7 pants** and the **lab key**. King not attempted: Def 47 vs buffed Muscle 37 at the time.
   🧠 **Level 5 skills 1,250, Level 6 skills 1,750** (the doc's guess of 1,750 at Level 5 was one rung off).
 

@@ -32,18 +32,20 @@ stated range). ✅ The three ratios in bold were re-verified in-game the day thi
 
 | Food | Size | Lvl | Adv | **adv/full** |
 |---|---|---|---|---|
-| **herbal stuffing** | 4 | 7 | 17.5 | **4.4** ⭐ best found so far (✅ measured 17) |
-| centipede eggs · cactus fruit | 2 | 7 | 6–7 | 3.3 ✅ measured 6 · 7 |
+| **herbal stuffing** | 4 | 7 | 17.5 | **4.4** ⭐ best found so far |
+| centipede eggs | 2 | 7 | 6–7 | 3.3 🚨 **gives *Somewhat Poisoned*** (10 adv) |
+| cactus fruit | 2 | 7 | 6–7 | 3.3 — costs 8–10 HP to eat |
+| imitation White Russian | 2 | 6 | 4–6 | 2.5 — food, despite the name |
 | later tots | 1 | — | 3–4 | **3.5** ⭐ |
 | tomb aspic | 1 | — | 3–4 | 3.5 ⭐ |
 | hot honey ant | 1 | — | 3–4 | 3.5 ⭐ |
 | incredible pizza | 4 | 9 | 12–16 | 3.5 |
-| ghuol guolash | 5 | — | 16–19 | 3.5 ✅ measured 18 · 19 |
-| candied yams | 3 | 5 | 9.5 | 3.2 ✅ measured 10 |
-| tofurkey leg | 3 | 5 | 9.5 | 3.2 ✅ measured 12 |
-| Knob jelly donut · haunted crudités | 1 | — | 3 | 3.0 ✅ measured 3 · 4 |
+| ghuol guolash | 5 | — | 16–19 | 3.5 |
+| candied yams | 3 | 5 | 9.5 | 3.2 |
+| tofurkey leg | 3 | 5 | 9.5 | 3.2 |
+| Knob jelly donut · haunted crudités | 1 | — | 3 | 3.0 |
 | plain snowcone | 1 | 4 | 3 | 3.0 |
-| Knob nuts | 1 | 4 | 3 | 3.0 ✅ measured 3 — drops in the Knob Goblin Harem |
+| Knob nuts | 1 | 4 | 3 | 3.0 — drops in the Knob Goblin Harem |
 | pestopiary | 2 | — | 5–7 | 3.0 |
 | moose chocolate | 3 | 6 | 8–9 | 2.8 |
 | giant heirloom grape tomato | 5 | 6 | 14 | 2.8 |
@@ -111,6 +113,11 @@ whose wiki average is 17.5 yielded **22**.
   spread around — but the difference is small; the composition of the meter matters far more.
 - **Sourcing:** the mall carries it at ~100 meat. ⚠️ It is very commonly listed **`(Limit 1 / day)` per
   store**, so a `quantity=5` order fills only one. Buy one per store if you want a stockpile.
+
+## 🚨 Some foods carry a debuff — read the item page's `Effect:` line
+
+**centipede eggs apply *Somewhat Poisoned*** (all attributes −50% and −7, 10 adventures). Eat them **after** the
+day's boss, or with an antidote in hand — never right before a hard fight. Cactus fruit costs 8–10 HP.
 
 ## ⚠️ Endpoint reminders
 

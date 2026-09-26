@@ -73,9 +73,8 @@ it immediately. If a quest item "from a zone" is not dropping, check whether it 
 before grinding for it.
 
 1. **Spooky Sapling** — Arboreal opt 1 → Road Less Traveled **opt 3 (Talk to the hunter)** → Tree's Last Stand opt 3 (Buy a tree for 100 Meat). **NOT** opt 2 "Knock on the cottage door" (that's a flavor dead end).
-   🚨 **Tree's Last Stand (504) stays open after `Buy a tree for 100 Meat`** — it re-serves itself so you can buy
-   again. An auto-answer rule that picks `Buy a tree` whenever 504 is showing **buys one sapling per pass** (✅ measured:
-   4 saplings, 400 meat, before a round cap stopped it). Buy once, then answer **`Take your leave`**.
+   🚨 **Tree's Last Stand (504) stays open after `Buy a tree for 100 Meat`** — an auto-answer rule that picks it
+   whenever 504 shows **buys one sapling per pass**. Buy once, then answer **`Take your leave`**.
 2. **Spooky-Gro Fertilizer** — Arboreal opt 3 → Through Thicket and Thinnet opt 2 (Investigate the dense foliage). Single-step.
 3. **tree-holed coin** — Arboreal opt 2 → Consciousness of a Stream opt 2 (Squeeze into the cave). Also yields +300 Meat from Chester Meatpot's corpse.
 4. **Spooky Temple map** — with tree-holed coin in inventory: Arboreal opt 3 → Through Thicket and Thinnet opt 3 (Follow the coin — only appears with the coin) → O Lith, Mon opt 1 (Insert coin).

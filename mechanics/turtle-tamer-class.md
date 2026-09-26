@@ -71,10 +71,8 @@ POST `guild.php` with `action=buyskill&skillid=<short id>&pwd=`.
 
 💰 **Price is set by the skill's LEVEL, not by the skill** — ✅ measured per level: **125 · 250 · 500 · 750 ·
 1,250 · 1,750 · 2,500 · 3,250** for Levels 1–8, with *both* skills at a level costing the same.
-⚠️ An older guess put Level 5 at 1,750 — it was one rung off. Prices so far rise by 500–750 per level;
-**Levels 9+ are unmeasured** and the full rack totals tens of thousands — **read each cost from the meat delta**
-and extend the table. ✅ At Level 5 the trainer's page
-did list the whole ladder by name through Level 15 (*Kneebutt · Blessing of She-Who-Was* at 7 … *Tao of the Terrapin ·
+**Levels 9+ are unmeasured** (prices so far rise by 500–750 per level) — **read each cost from the meat delta**
+and extend the table. The trainer's page lists the whole ladder by name through Level 15 (*Kneebutt · Blessing of She-Who-Was* at 7 … *Tao of the Terrapin ·
 Turtle Power* at 15) even though only your level's rows are buyable. A purchase you cannot afford is refused
 outright with *"You can't afford to train that skill."* — no meat moves, so trying is free.
 ⭐ **Fund the top of the rack with a storage audit rather than farming** — pulling surplus stacks and autoselling
@@ -113,38 +111,45 @@ herbs**, and **re-ask "can I afford my best attack yet?" at every level-up**: th
 cast, a weapon-damage multiplier stops being a luxury and becomes the trash-clearing default, and the day's real
 constraint becomes how many restoratives you can carry.
 
-⭐ **Replace the turtle totem early — it is a 1–2 damage weapon.** ✅ A **scorpion whip** (one-handed, **no stat
-requirement**, 2–4 damage **+13 Weapon Damage**, 50% poison) carried Levels 5 → 6 at **102 wins / 0 losses** in
-one day — the Bat Hole, the Outskirts, the Spooky Forest and **the Knob Goblin Harem (ML 25–30)** — with plain
-attacks, **no healing items and no spleen used**, at buffed Muscle 28 → 46, wearing the astral shield and the
-*ring of half-assed regeneration*. Its only cost is that the MP pool sits unused; check storage for a
-no-requirement bonus-damage weapon before the first fight of a run.
-⚠️ **MP does not refill between fights on its own** at these levels — a character that casts one Thrust-Smack
-sits at 1 MP for the rest of the day. Budget MP for the fights that need it (bosses) rather than spending it on
-trash.
+⭐ **Replace the turtle totem early — it is a 1–2 damage weapon.** A **scorpion whip** (one-handed, **no stat
+requirement**, 2–4 damage **+13 Weapon Damage**, 50% poison) carries Levels 5–8 on plain attacks, up to and
+including the Knob Goblin Harem, with little healing. Check storage for a no-requirement bonus-damage weapon
+before the first fight of a run.
+⚠️ **MP barely regenerates between fights at these levels** — casting Thrust-Smack on trash empties the pool for
+the day. Keep MP for bosses (or use an irradiated turtle, below).
 
 ## 🐢 Class noncombats — taming turtles
 
-Turtle Tamers get extra single-option noncombats in ordinary zones, which hand over turtle-themed items:
-**choice 327 `Tame It`** (Beanbat Chamber → *turtle wax*), **960 `Tame the tortoise`** (Knob Goblin Harem →
-*pillow shell*), **957 `Go for the glow`** (Dark Neck / Dark Heart of the Woods → *irradiated turtle*), **943 `Tame the
-two turtles!`** (Dark Elbow → *giraffe-necked turtle*) and **944 `Investigate`** (the Cyrpt → *mocking turtle*).
-✅ All are single-button choices, safe to auto-answer.
+**Turtle Taming** is a class-wide counter: every so often a Turtle Tamer meets a single-button turtle noncombat in
+whatever zone they are in. **Finding a turtle costs no adventure**, so a
+"did the adventure count move?" guard will see these as free encounters. **The turtle depends on the zone's terrain
+(indoor / outdoor / underground / underwater) and its stat band**, not on the zone itself; where a band has two
+turtles, either can appear. A few zones have their own unique turtle instead (e.g. the Harem's pillow shell).
+
+| Choice (label) | Seen in | Turtle | Use |
+|---|---|---|---|
+| 327 `Tame It` | Beanbat Chamber (low underground) | turtle wax | use → **turtle wax shield (+10 max HP)** |
+| 960 `Tame the tortoise` | Knob Goblin Harem (unique) | pillow shell | **back item, DR 3** (Turtle-Tamer-only bonus) |
+| 957 `Go for the glow` | Dark Neck, Dark Heart (mid outdoor) | irradiated turtle | ⭐ **Turtle Power: regenerate 4–5 MP per adventure, 15 adv** |
+| 943 `Tame the two turtles!` | Dark Elbow, Goatlet (mid outdoor) | giraffe-necked turtle | +30% Combat Initiative, 15 adv |
+| 944 `Investigate` | all four Cyrpt rooms (mid underground) | mocking turtle | +10 Monster Level, 15 adv |
+
+⭐ **The irradiated turtle is this class's answer to the empty-MP-pool problem** — use one before a boss prep or a
+day of Thrust-Smacking. All of these choices are single-button, safe to auto-answer.
 
 ## ⏱️ Buff durations and recovery at low level
 
-✅ **Measured at Level 6: Tenacity of the Snapper, Ghostly Shell and Patience of the Tortoise each lasted only
-5 adventures** when self-cast. ⇒ They are pre-boss buffs, cast as the last step before the fight — not day buffs.
-⭐ **Spirit Vacation costs 1 adventure and, per its skill text, fully restores HP *and* MP** (⚑ not yet measured) — the class's built-in answer to an empty
-MP pool before a boss, when no MP restorative is at hand.
+**At Level 6, self-cast Tenacity of the Snapper, Ghostly Shell and Patience of the Tortoise last only 5
+adventures.** ⇒ They are pre-boss buffs, cast as the last step before the fight — not day buffs.
+⭐ **Spirit Vacation costs 1 adventure and fully restores HP *and* MP** (skill text; ⚑ unmeasured) — the fallback
+for an empty MP pool before a boss.
 
 ## 👑 Boss recipe that worked — Shell Up, then Thrust-Smack
 
-✅ **Knob Goblin King (HP 50, Att 53, Def 47, Init 100) died in 2 rounds** at Level 6, buffed Muscle 53 (a
-strongness elixir + an extra-strength strongness elixir), max HP 87: **round 1 `Shell Up`** — his opening hit
-bounced off (*"Your opponent bounces off of you"*) — **round 2 `Lunging Thrust-Smack` for 66** with the scorpion
-whip, plus the Mosquito's drain. MP needed: 6 + 8. ⇒ **Enter bosses with ≥ 14 MP**; the opening Shell Up cancels
-the initiative hit a fast boss gets before you can act.
+**Round 1 `Shell Up`** cancels the opening hit a fast boss gets from initiative; **then `Lunging Thrust-Smack`
+every round.** ✅ Two rounds for the Knob Goblin King (HP 50, Def 47) at Level 6, buffed Muscle ~53 (strongness
+elixirs), with the scorpion whip (66 per Thrust-Smack). **Enter bosses with ≥ 14 MP** (6 + 8; more for bosses
+with 120 HP).
 
 ## 🛡️ Shields are this class's slot — and they compete with dual-wielding
 

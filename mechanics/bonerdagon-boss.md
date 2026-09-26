@@ -68,27 +68,23 @@ Report to `council.php` to close the quest.
 
 ## Clearing the Cyrpt (the 4 sub-zones) — verified in-game
 
-- **Council gives this after the Friars** (aura of Spookiness) along with the **Evilometer (item 4964)** — ✅ it arrived
-  at **Level 7** the moment the Friars' ritual was done, so it is not strictly a Level 8 quest.
+- **Council gives this at Level 7, right after the Friars** (aura of Spookiness), along with the **Evilometer (item 4964)**.
 - **`inv_use` the Evilometer** any time to read **Total evil + per-zone** (starts ~50 each, 199 total).
   ✅ **When all four rooms are clear the Evilometer reads `Total evil: 999 / Haert: 999`** — 999 is a
   **sentinel meaning "only the Haert remains"**, not a parse error, and `crypt.php` then shows only that zone.
-  🚨 **A room's boss is guaranteed once that room's evil is at or below 13** (official wiki; the old "25" rule was
-  retired in 2023). ✅ Verified in all three rooms that needed it: Nook at 16 → 15 → 14 served ordinary skeletons,
-  and the boss came at exactly **13** in the Nook, Cranny and Niche. His death clears the rest of the room's evil;
-  **grinding a room to 0 without killing him does not clear it**.
+  🚨 **A room's boss appears once that room's evil is at or below 13** (not 25). His death clears the
+  rest of the room's evil; **grinding a room to 0 without killing him does not clear it**.
 - **Four Defiled sub-zones**, each must be ground to **0 evil** (each fight removes ~1):
   **Alcove 261 · Cranny 262 · Niche 263 · Nook 264.** All **ML 53–79, Recom Stat 40.**
 - Then **The Haert of the Cyrpt** (`crypt.php?action=heart`) opens → the Bonerdagon fight (below).
 
-✅ **Turtle Tamer, Level 7, max HP ~90–108, scorpion whip, plain attacks: 58 wins / 1 loss across the Nook, Alcove
-and Cranny** — the Nook went 26–0. The one loss was the **Alcove's boss** met mid-grind at part HP.
+✅ **A Muscle class clears the rooms at Level 7–8** (max HP ~90–130, plain attacks, bonus-damage weapon).
 **Room noncombats (answer by label):** Nook **155** *Skull, Skull, Skull* → `Look inside the second one` (a box of
 Meat) · Alcove **153** *Turn Your Head and Coffin* → `Investigate the fancy coffin` (40–60 Muscle substats; `Check out
 the pine box` is 200–300 Meat) · Cranny **523** *Death Rattlin'* → `Crawl inside the open one` (20–30 of each substat
 + 40–50 HP and MP; `Open the rattling one` is a ghuol-whelp swarm fight worth **3+ evil** — the faster pick) ·
 Niche **157** *Urning Your Keep* → **`Check out the second one` the FIRST time: a plus-sized phylactery**, which
-**kills the gargantulihc outright when used in that fight** (✅ verified — one round); afterwards `See what's behind
+**kills the gargantulihc outright when used in that fight**; afterwards `See what's behind
 Urn #3` (200–300 Meat).
 **evil eyes** (Nook drop) — `inv_use` each one to knock **3** evil off the Nook.
 🚨 **Each room's boss is a real fight — stop the grind loop at 14 evil and prep for it.**
@@ -98,12 +94,8 @@ Urn #3` (200–300 Meat).
 | Nook | giant skeelton | 120 | 71 | 65 | spooky |
 | Cranny | huge ghuol | 120 | 73 | 63 | spooky |
 | Niche | gargantulihc | 120 | 71 | 65 | spooky — or one plus-sized phylactery |
-✅ **Turtle Tamer, Levels 7–8: all four rooms cleared in two days, 0 losses to the prepared bosses.** Each died to
-`Shell Up` → `Lunging Thrust-Smack` at buffed Muscle 77–85 and max HP ~130 (Brother Smothers's Blessing was up only
-for the Nook boss — the huge ghuol died without it); the gargantulihc to the phylactery.
-✅ The zmombie **beat a loop that walked into it at part HP**, then died at once to the prepared version: HP topped
-to ~100% with spleen herbs, Patience of the Tortoise, `Shell Up` → two `Lunging Thrust-Smack`s (needs ~23 MP),
-buffed Muscle 67 against his Defense 63.
+✅ **Prep that beat every room boss:** full HP, ~23 MP, then `Shell Up` → `Lunging Thrust-Smack` ×2, at buffed
+Muscle above the boss's Defense (67–85 vs 63–65). A boss met mid-grind at part HP is the one that loses.
 
 🚨 **THIS IS A LEVEL 9–10 GRIND, NOT A LEVEL 8 ONE — *for a caster*.** ⚠️ **Class-specific:** the numbers
 below were measured on a Pastamancer with ~50 HP. ✅ **Re-measured on a Seal Clubber (L7–8, 128–150 max HP,

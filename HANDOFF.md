@@ -385,10 +385,11 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
   ~16 HP/cast out of combat. Campground rest (`campground.php?action=rest`) clears Beaten Up (~+10 MP/adv — poor MP source).
 - **Combat item:** **photoprotoneutron torpedo (630)** — MP-free reliable damage; boss insurance & stuck-fight finisher.
 - **Antidote:** soft green echo eyedrop antidote (588) cures poison via `uneffect.php?using=true&whichitem=588&whicheffect=<id>&pwd=`.
-  ⚠️ **The effect id differs per poison level** (284 was one; *Somewhat Poisoned* is **283**) — read it from
-  `api.php?what=status` → `effects[<key>][4]` rather than hard-coding it; a call without it answers *"You have to
-  pick an effect."* 🚨 **Poison is a big silent stat drain:** *Somewhat Poisoned* took buffed Muscle **75 → 45** and
-  max HP 123 → 75 before a boss prep — check `effects` for it (see the debuff precondition below).
+  ⚠️ **The effect id differs per poison level:** *Hardly Poisoned at All* **8** · *A Little Bit Poisoned* **282** ·
+  *Somewhat Poisoned* **283** · *Really Quite Poisoned* **284** · *Majorly Poisoned* **264**. Read it from
+  `api.php?what=status` → `effects[<key>][4]`; a blank or wrong id answers *"You have to pick an effect."*
+  🚨 **Poison is a large, silent stat drain** (*Somewhat Poisoned* = all attributes −50% −7) — check `effects` before
+  any boss (see the debuff precondition below). Some foods apply it (`eating-strategy.md`).
 - **Free buffs:** the buffbot **"Buffy" (#1889009)** casts e.g. **Fat Leon's Phat Loot Lyric (+20% item)** — just kmail
   the buff name (`sendmessage.php` POST towho=1889009, message="Fat Leon's Phat Loot Lyric", sendmeat=1); auto-casts in seconds.
   ✅ **It also casts the defensive shells: `Ghostly Shell` and `Astral Shell` — measured at 455 adventures each**,
@@ -649,7 +650,7 @@ away from a guaranteed loss. Shape rules as `if (ch === '881') pick = …` and l
 loop for inspection.
 🐛 **A SHOP-LIKE CHOICE RE-SERVES ITSELF AFTER A PURCHASE.** Menus that sell something (*Buy a tree for 100 Meat*,
 *Sell him a bar skin*) stay open after the buy so you can buy again, and a chained auto-answer that re-reads the
-same choice number picks the purchase again every pass. ✅ Measured: 4 spooky saplings bought where 1 was needed.
+same choice number picks the purchase again every pass.
 ✅ **Rules for any "buy" label: answer it once, then pick the exit label (`Take your leave`) — and never let a
 chain answer the same choice number twice in a row.**
 ⚠️ Record answers in `mechanics/` as **label text**, never as an option index.
@@ -801,10 +802,8 @@ already held**, while the quest log had been saying so the whole time.
   Only fall back to scraping `inventory.php` HTML when you don't yet know the id, and then **search every tab**.
 - **After any quest step completes, re-read the quest log before deciding what to do next** — the objective may
   already have moved on.
-- ⚠️ **A side quest's REWARD already in your gear means the quest is done.** A plan carried *When Rocks Attack* as
-  "still open — just adventure the Outskirts until the guard reappears" for a day; 15 turns later the wiki showed
-  its reward is the *ring of half-assed regeneration*, which was already being worn. Cross-check the reward before
-  spending turns on an "open" side quest, and prefer the quest log over a hand-kept status line.
+- ⚠️ **A side quest's reward already in your gear means the quest is done.** Before spending turns on an "open"
+  side quest, look up its reward and check you don't already own it; prefer the quest log over a hand-kept status line.
 - The same applies to "is this zone/step done?": prefer the quest log or a place page's own text over inference.
 
 ## 🥊 `inFight()` can false-negative — test for the combat FORM

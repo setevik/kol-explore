@@ -52,13 +52,11 @@ With **Springy Fusilli (3015) up + full HP (~22) + MP for stun→nuke**, the Bat
 **Working recipe:** wall 1 & 2 via sonars (pull 1/day from storage), farm the **Beanbat Chamber (33)** for the
 third sonar, then adventure **snarf 34** with Fusilli up. Total cost was ~12 adventures.
 
-✅ **A screambat fight knocks a wall down on its own** — measured: after 2 sonars, the third wall fell to a
-**screambat met in the Beanbat Chamber**, so the sonar that dropped in the same burst was never needed. **Re-check
-`place.php?whichplace=bathole` for the `snarfblat=34` link before using a sonar**; it may already be open.
-✅ **A Muscle class needs no special prep.** A Level 5 Turtle Tamer (buffed Muscle ~28, max HP ~48) with a
-bonus-damage whip cleared the Beanbat Chamber and the Lair at **17 wins / 0 losses**; the Lair served **5 beefy
-bodyguard bats before the Boss Bat** (6 Lair turns), and the Boss died to plain attacks. The Lair's link
-disappears once he is dead (the next visit bounces as locked).
+✅ **A screambat fight knocks a wall down on its own**, so **re-check `place.php?whichplace=bathole` for the
+`snarfblat=34` link before spending a sonar** — the Lair may already be open.
+✅ **A Muscle class needs little prep:** at Level 5 (buffed Muscle ~28, max HP ~48, a bonus-damage weapon) plain
+attacks plus Ghostly Shell and Patience of the Tortoise were enough. Expect several **beefy bodyguard bats** before
+the Boss Bat. The Lair's link disappears once he is dead.
 
 ⚠️ **DETECTION BUG — don't match the string "Boss Bat".** The **beefy bodyguard bat**'s own description reads
 *"…that's why the Boss Bat chose him as a personal bodyguard"*, so `/Boss Bat/i` **false-positives on the

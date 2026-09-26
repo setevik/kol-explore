@@ -112,12 +112,11 @@ installed in the campsite kitchen.
 FAILS** ("Those two items don't combine to make a refreshing cocktail"). Confirmed-working normal recipes:
 - soda water + **bottle of whiskey** → **whiskey and soda** (5–6) ✅
 - soda water + **boxed wine** → **wine spritzer** (5–6) ✅
-- **olive + bottle of vodka** → **vodka martini** (good, 5–10) ⭐ ✅
-- **olive + bottle of gin** → **martini** (good, 5–10) ⭐ ✅
+- **olive + bottle of vodka** → **vodka martini** (decent, 5–6) ✅
+- **olive + bottle of gin** → **martini** (decent, 5–6) ✅
 - **orange + bottle of vodka** → **screwdriver** (5–6) ✅
 - orange + tequila → tequila sunrise (5–6) ✅
-- **lemon + bottle of tequila → margarita** (5–6) ✅ — measured 6 adventures
-- ✅ also confirmed: gin + olive → martini · whiskey + soda water → whiskey and soda · boxed wine + soda water → wine spritzer
+- **lemon + bottle of tequila → margarita** (5–6) ✅
 - ❌ tequila + strawberry does **not** combine
 (vodka/gin "and tonic" need **tonic water**, a different item — don't assume soda water substitutes.)
 ⚠️ **qty>1 crafts succeed with DIFFERENT result text** (no "You acquire an item:" match) — verify by
@@ -165,24 +164,23 @@ The craft page (`craft.php?mode=cocktail`) `<option>` list is also the fastest w
 | **gin-soaked blotter paper** | 4675 | **1** | **1** | 1.0 ⚠️ *the name lies; a terrible overdrink* |
 | Cursed Punch | 6680 | 1 | 2 | 2.0 — a useful **lander** |
 | martini | 251 | 3 | 5 | 1.7 |
-| vodka martini | 1009 | 3 | 6 | 2.0 |
+| vodka martini | 1009 | 3 | 5–6 | 1.8 |
 | strawberry wine | 1014 | 3 | 5 | 1.7 |
 | strawberry daiquiri | 788 | 3 | 6 | 2.0 |
 | **white lightning** | 266 | 3 | **5** | 1.7 ⚠️ *the wiki's "avg 7.5" did NOT hold — measured 5* |
-| glass of bourbon | 7519 | **1** | 5–6 | **5.5** ⭐ best ratio found, but **Level 5** (✅ measured 5) |
-| dusty bottle of Marsala | 2275 | 2 | 6 | 3.0 ✅ |
-| dusty bottle of Zinfandel | 2274 | 2 | 7 | 3.5 ✅ |
-| Green Manalishi | 7206 | 3 | 8 | 2.7 ✅ **Level 4** — measured 8 twice; a good overdrink |
-| backwoods screwdriver | 6018 | 3 | 7 | 2.3 ✅ **Level 4** |
-| margarita | 1013 | 3 | 5–6 | 1.8 ✅ measured 6 and 5 |
-| **Fog Murderer** | 6682 | 6 | 14 | 2.3 ✅ **Level 6** |
-| **open sauce** | 6274 | 4 | 13 | 3.3 ✅ **Level 7** |
-| Flamin' Whatshisname | 7222 | 2 | 7 | 3.5 ✅ **Level 6** |
-| whiskey sour | 674 | 3 | 5 | 1.7 ✅ |
-| dusty bottle of Merlot | 2271 | 2 | 3 | 1.5 ✅ — a 2-potency lander |
-| vodka martini | 1009 | 3 | 5–6 | ✅ measured 6 and 5 |
-| artisanal limoncello | 6036 | 2 | 6 | 3.0 ✅ **Level 6** |
-| painting of a glass of wine | 7343 | 1 | 3 | 3.0 ✅ **Level 6** — a 1-potency lander |
+| glass of bourbon | 7519 | **1** | 5–6 | **5.5** ⭐ best ratio found, but **Level 5** |
+| dusty bottle of Marsala | 2275 | 2 | 6 | 3.0 |
+| dusty bottle of Zinfandel | 2274 | 2 | 7 | 3.5 |
+| Green Manalishi | 7206 | 3 | 8 | 2.7 **Level 4** — a good overdrink |
+| backwoods screwdriver | 6018 | 3 | 7 | 2.3 **Level 4** |
+| margarita | 1013 | 3 | 5–6 | 1.8 |
+| **Fog Murderer** | 6682 | 6 | 14 | 2.3 **Level 6** |
+| **open sauce** | 6274 | 4 | 13 | 3.3 **Level 7** |
+| Flamin' Whatshisname | 7222 | 2 | 7 | 3.5 **Level 6** |
+| whiskey sour | 674 | 3 | 5 | 1.7 |
+| dusty bottle of Merlot | 2271 | 2 | 3 | 1.5 — a 2-potency lander |
+| artisanal limoncello | 6036 | 2 | 6 | 3.0 **Level 6** |
+| painting of a glass of wine | 7343 | 1 | 3 | 3.0 **Level 6** — a 1-potency lander |
 | whiskey sour | 674 | 3 | 5–6 | 1.8 |
 | strawberry daiquiri | 788 | 3 | 5.5 | 1.8 |
 | bottle of cooking sherry | 2840 | 2 | 3 | 1.5 |
@@ -192,7 +190,7 @@ The craft page (`craft.php?mode=cocktail`) `<option>` list is also the fastest w
 overdrink.
 🚨 **LEVEL REQUIREMENTS GATE BOOZE TOO, and they bite hardest early.** ✅ Measured at Level 3–5, these were all
 refused or unusable: **Fog Murderer L6 · Cursed Punch L6 · artisanal limoncello L6 · Ye Olde Meade L7 ·
-imitation White Russian L6 (and ✅ **it is not booze at all** — `inv_booze` answers *"That's not booze."*; a wiki `Type: beverage` is not a drink for the liver) · Psychotic Train wine L11 · glass of bourbon L5**. ⇒ **Check `Level required`
+imitation White Russian L6 (and it is **food**, not booze — `Type: beverage` means eaten; check `Type:` too) · Psychotic Train wine L11 · glass of bourbon L5**. ⇒ **Check `Level required`
 BEFORE spending a Ronin pull slot on a bottle** — a pulled drink you cannot drink is a wasted slot, and in
 Ronin slots are the scarce resource, not meat.
 

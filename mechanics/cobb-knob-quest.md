@@ -18,14 +18,12 @@ which silently drops you under 25 and locks you out of a zone you could enter mi
 Beaten Up (`campground.php?action=rest`) before re-entering**, and treat "brandish their swords" as *stat gate*,
 not a disguise requirement.
 
-✅ **The Harem is a good leveling zone once you pass the gate.** Measured: a Muscle class at **base Muscle 25 → 34**
-(Level 5 → 6) went **99 wins / 0 losses** there with a bonus-damage one-handed weapon and no heals, and the drops
-were **9 Knob Goblin perfume, 7 harem veils and 7 harem pants** plus a **Cobb's Knob lab key** — i.e. the whole
-Path-A disguise and several attempts' worth of perfume come free while you level. ⚠️ **Harem girls drop no meat.**
-⚠️ **Check the King's Defense (47) against your buffed Muscle before walking in** — being in disguise gets you to
-the fight, not through it. ✅ At buffed Muscle 53 (Level 6, whip) he died in **2 rounds**: Shell Up to absorb his
-initiative hit, then one Lunging Thrust-Smack for 66 (`turtle-tamer-class.md`). Drop: **Crown of the Goblin King**
-(hat, Power 70, **+10 Muscle**, needs **20 Moxie**).
+✅ **The Harem is a good leveling zone once you pass the gate** (safe for a Muscle class from base Muscle 25 with
+a bonus-damage weapon), and **leveling there supplies the whole Path-A disguise** — harem veils, harem pants and
+plenty of perfume drop along the way, plus the **Cobb's Knob lab key**. ⚠️ Harem girls drop no meat.
+⚠️ **Check the King's Defense (47) against your buffed Muscle** — the disguise gets you to the fight, not through
+it. At buffed Muscle ~53 he dies in 2 rounds to Shell Up → Lunging Thrust-Smack (`turtle-tamer-class.md`).
+Drop: **Crown of the Goblin King** (hat, Power 70, **+10 Muscle**, needs **20 Moxie**).
 
 ## Outfit shortcut (Ronin-friendly)
 
