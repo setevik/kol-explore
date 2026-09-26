@@ -176,6 +176,11 @@ The craft page (`craft.php?mode=cocktail`) `<option>` list is also the fastest w
 | backwoods screwdriver | 6018 | 3 | 7 | 2.3 ✅ **Level 4** |
 | margarita | 1013 | 3 | 5–6 | 1.8 ✅ measured 6 and 5 |
 | **Fog Murderer** | 6682 | 6 | 14 | 2.3 ✅ **Level 6** |
+| **open sauce** | 6274 | 4 | 13 | 3.3 ✅ **Level 7** |
+| Flamin' Whatshisname | 7222 | 2 | 7 | 3.5 ✅ **Level 6** |
+| whiskey sour | 674 | 3 | 5 | 1.7 ✅ |
+| dusty bottle of Merlot | 2271 | 2 | 3 | 1.5 ✅ — a 2-potency lander |
+| vodka martini | 1009 | 3 | 5–6 | ✅ measured 6 and 5 |
 | artisanal limoncello | 6036 | 2 | 6 | 3.0 ✅ **Level 6** |
 | painting of a glass of wine | 7343 | 1 | 3 | 3.0 ✅ **Level 6** — a 1-potency lander |
 | whiskey sour | 674 | 3 | 5–6 | 1.8 |
@@ -187,7 +192,7 @@ The craft page (`craft.php?mode=cocktail`) `<option>` list is also the fastest w
 overdrink.
 🚨 **LEVEL REQUIREMENTS GATE BOOZE TOO, and they bite hardest early.** ✅ Measured at Level 3–5, these were all
 refused or unusable: **Fog Murderer L6 · Cursed Punch L6 · artisanal limoncello L6 · Ye Olde Meade L7 ·
-imitation White Russian L6 · Psychotic Train wine L11 · glass of bourbon L5**. ⇒ **Check `Level required`
+imitation White Russian L6 (and ✅ **it is not booze at all** — `inv_booze` answers *"That's not booze."*; a wiki `Type: beverage` is not a drink for the liver) · Psychotic Train wine L11 · glass of bourbon L5**. ⇒ **Check `Level required`
 BEFORE spending a Ronin pull slot on a bottle** — a pulled drink you cannot drink is a wasted slot, and in
 Ronin slots are the scarce resource, not meat.
 

@@ -9,7 +9,7 @@ Council → talk to **John the Trapper** (`place.php?whichplace=mclargehuge&acti
   one counts. A wrong id in your notes reads as "I already have 8 of these" and wastes the trip.
 - Ore: equip **Mining Gear outfit** (`inv_equip.php` POST `which=2&action=outfit&whichoutfit=8`), then dig via
   `mining.php?mine=1&which=<sq>` (~1 adv/dig; also yields diamonds/stones of eXtreme power ≈ meat).
-- Cheese: **the Goatlet (271, ML ~68)** — drops from **dairy goats**, ~1 in 4. ✅ Measured: **3 cheese in 13
+- Cheese: **the Goatlet (271, ML ~68)** — drops from **dairy goats**, ~1 in 4. ✅ Measured: **3 cheese in 24 fights, 23W/0L** at L8 Muscle ~85; also **3 cheese in 13
   fights, 13W/0L** at L9 Muscle 101.
 
 ### 🪨 NO MINING GEAR? The mine hands you the whole outfit — you do NOT need Degrassi Knoll
@@ -43,6 +43,12 @@ const target = opts.find(o => /sparkle/i.test(o.img)) || opts[0];
 ```
 ✅ Measured yield over **23 promising digs**: 3 asbestos · 4 chrome · 3 linoleum · 3 diamonds · 2 stones of
 eXtreme power · 1 loadstone. ⇒ **Budget ~8–12 digs per specific ore type** (the type is random per dig).
+✅ A second sample, 14 digs: 2 chrome · 3 linoleum · 2 diamonds · 1 loadstone.
+🚨 **Mining wears your HP down, and at low HP the mine refuses silently:** *"You're way too beaten up to mine right
+now"* — no adventure is spent, so a dig loop keeps "digging" and gets nothing. ✅ Heal before each dig (the
+Mining Gear outfit also lowers max HP) and check that the adventure count moved.
+⭐ **Check Hagnk's for the ore first** — a previous estate often holds some, but in Ronin only **1 per day** can be
+pulled, so pull one and mine the rest.
 - Turn both in at the cabin → he starts fixing the ski lift and says get warm clothes.
 
 ## Phase 2 — eXtreme Cold-Weather Gear

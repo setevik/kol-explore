@@ -32,7 +32,8 @@ stated range). ✅ The three ratios in bold were re-verified in-game the day thi
 
 | Food | Size | Lvl | Adv | **adv/full** |
 |---|---|---|---|---|
-| **herbal stuffing** | 4 | 7 | 17.5 | **4.4** ⭐ best found so far |
+| **herbal stuffing** | 4 | 7 | 17.5 | **4.4** ⭐ best found so far (✅ measured 17) |
+| centipede eggs · cactus fruit | 2 | 7 | 6–7 | 3.3 ✅ measured 6 · 7 |
 | later tots | 1 | — | 3–4 | **3.5** ⭐ |
 | tomb aspic | 1 | — | 3–4 | 3.5 ⭐ |
 | hot honey ant | 1 | — | 3–4 | 3.5 ⭐ |

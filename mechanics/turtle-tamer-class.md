@@ -66,11 +66,13 @@ POST `guild.php` with `action=buyskill&skillid=<short id>&pwd=`.
 | 6 | **Spirit Snap** | 2032 | 32 | **1,750** — Combat, 10 MP, once per fight: effect depends on your Turtle-Spirit relationship |
 | 7 | **Kneebutt** | 2015 | 15 | **2,500** — Combat, 4 MP |
 | 7 | **Blessing of She-Who-Was** | 2033 | 33 | **2,500** — Noncombat, 30 MP |
+| 8 | **Empathy of the Newt** | 2009 | 9 | **3,250** — Buff, 15 MP: familiar empathy |
+| 8 | **Butts of Steel** | 2034 | 34 | **3,250** — Passive: better Butt skills (Headbutt, Kneebutt, Shieldbutt) |
 
 💰 **Price is set by the skill's LEVEL, not by the skill** — ✅ measured per level: **125 · 250 · 500 · 750 ·
-1,250 · 1,750 · 2,500** for Levels 1–7, with *both* skills at a level costing the same.
+1,250 · 1,750 · 2,500 · 3,250** for Levels 1–8, with *both* skills at a level costing the same.
 ⚠️ An older guess put Level 5 at 1,750 — it was one rung off. Prices so far rise by 500–750 per level;
-**Levels 8+ are unmeasured** and the full rack totals tens of thousands — **read each cost from the meat delta**
+**Levels 9+ are unmeasured** and the full rack totals tens of thousands — **read each cost from the meat delta**
 and extend the table. ✅ At Level 5 the trainer's page
 did list the whole ladder by name through Level 15 (*Kneebutt · Blessing of She-Who-Was* at 7 … *Tao of the Terrapin ·
 Turtle Power* at 15) even though only your level's rows are buyable. A purchase you cannot afford is refused

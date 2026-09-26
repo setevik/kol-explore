@@ -384,7 +384,11 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
 - **HP:** **scroll of drastic healing (595)** = full HP (does NOT clear Beaten Up); **Lasagna Bandages (3009)** heals
   ~16 HP/cast out of combat. Campground rest (`campground.php?action=rest`) clears Beaten Up (~+10 MP/adv — poor MP source).
 - **Combat item:** **photoprotoneutron torpedo (630)** — MP-free reliable damage; boss insurance & stuck-fight finisher.
-- **Antidote:** soft green echo eyedrop antidote (588) cures poison via `uneffect.php` (`using=true&whichitem=588&whicheffect=284`).
+- **Antidote:** soft green echo eyedrop antidote (588) cures poison via `uneffect.php?using=true&whichitem=588&whicheffect=<id>&pwd=`.
+  ⚠️ **The effect id differs per poison level** (284 was one; *Somewhat Poisoned* is **283**) — read it from
+  `api.php?what=status` → `effects[<key>][4]` rather than hard-coding it; a call without it answers *"You have to
+  pick an effect."* 🚨 **Poison is a big silent stat drain:** *Somewhat Poisoned* took buffed Muscle **75 → 45** and
+  max HP 123 → 75 before a boss prep — check `effects` for it (see the debuff precondition below).
 - **Free buffs:** the buffbot **"Buffy" (#1889009)** casts e.g. **Fat Leon's Phat Loot Lyric (+20% item)** — just kmail
   the buff name (`sendmessage.php` POST towho=1889009, message="Fat Leon's Phat Loot Lyric", sendmeat=1); auto-casts in seconds.
   ✅ **It also casts the defensive shells: `Ghostly Shell` and `Astral Shell` — measured at 455 adventures each**,

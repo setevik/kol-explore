@@ -31,23 +31,24 @@ signature weapon (**turtle totem**) and whether shields matter (Turtle Tamers ar
 
 ---
 
-## 📊 Character state (end of run #4 Day 4 / 2026-09-25)
+## 📊 Character state (end of run #4 Day 5 / 2026-09-26)
 
-- **LEVEL 7 Turtle Tamer.** base Muscle 49 / base Moxie 30. **Max HP ~117 with the Crown, max MP 32.**
-  💰 **Meat 12,637.** **8 adventures banked.** full **15/15** ✅ · drunk **17** (exactly 14 + ONE overdrink) ✅ ·
-  spleen 11/15. **~300 wins, 2 losses** for the run (107–1 today).
-- 🎽 **Worn:** **Crown of the Goblin King** (+10 Mus; wearable since base Moxie passed 20) · scorpion whip · astral
-  shield · old sweatpants · ring of half-assed regeneration · batskin belt. 🐾 Marcellus the Mosquito.
-  Also held: white sword · harem veil ×8 / pants ×7 · **8 Knob Goblin perfume** · Cobb's Knob lab key.
-- 🧠 **Skills bought: all through Level 7** (Level 7 = Kneebutt + Blessing of She-Who-Was, **2,500 each**).
-- ✅ **Council: larva · rat · Boss Bat · Goblin King · Friars — all DONE.** Pandamonium is open (Azazel is a
-  Level 9–10 project). ▶ **Current: the Cyrpt** (Evilometer held).
-  📉 **Evilometer at day end: Alcove 0 ✅ · Nook 16 (boss next) · Cranny 44 · Niche 50 — total 110.**
-- ✅ Hidden Temple unlocked (3 spare saplings). Friars' daily blessing now available (`friars-blessings.md`).
-- 🧰 **Supplies:** medicinal herbs ×9 · phonics down ×1 · Magi-Wipes ×1 · 1 sonar · Imp Ale ×13 · lots of cocktails
-  (martini, vodka martini, whiskey sour, whiskey and soda, wine spritzer, tequila sunrise, salty dog ×2,
-  screwdriver ×3, swill ×3) · 5 bottles of tequila · 3 spicy onigiri · 15 ten-leaf clovers.
-- 🍳 Kitchen: cocktail kit + Dramatic range installed. 🏦 Ronin: **`roninleft` 568**.
+- **LEVEL 8 Turtle Tamer.** base Muscle 61 / base Moxie 38. **Max HP 140, max MP 44.**
+  💰 **Meat 10,084.** **5 adventures banked.** full **15/15** ✅ · drunk **17** (14 + ONE overdrink) ✅ · spleen 9.
+  **~415 wins, 2 losses** for the run (115–0 today).
+- 🎽 **Worn:** Crown of the Goblin King · scorpion whip · astral shield · old sweatpants · ring of half-assed
+  regeneration · batskin belt. 🐾 Marcellus the Mosquito.
+  **Held for quests:** **coffin lid** (off-hand, Slight Spooky Resistance — for the Bonerdagon) · **eXtreme scarf +
+  snowboarder pants** (need the **eXtreme mittens** pull tomorrow) · mining outfit (helmet, pants, mattock) ·
+  white sword · harem outfit · 8 perfume.
+- 🧠 **Skills bought: all through Level 8** (Level 8 = Empathy of the Newt + Butts of Steel, **3,250 each**).
+- ✅ **Council: larva · rat · Boss Bat · Goblin King · Friars — DONE.**
+  💀 **Cyrpt: all four rooms CLEARED** — Evilometer reads **999 / Haert 999**. ▶ **Only the Bonerdagon remains.**
+  🏔️ **Trapper: phase 1 DONE** (3 chrome ore + 3 goat cheese turned in, ski lift fixed). ▶ Phase 2: cold gear.
+- 🧰 **Supplies:** 12 medicinal herbs · 3 goat cheese · Imp Ale ×13 · cocktails (margarita, whiskey and soda, wine
+  spritzer, tequila sunrise, salty dog ×2, screwdriver ×3, swill ×3) · bottles of whiskey ×8, tequila ×4, gin ·
+  imitation White Russian (NOT booze) · 15 ten-leaf clovers. **No MP restoratives in the bag.**
+- 🏦 Ronin: **`roninleft` 433**.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -65,24 +66,37 @@ signature weapon (**turtle totem**) and whether shields matter (Turtle Tamers ar
 +25%, **Regenerate 5–10 HP per adventure**, DR 15 — it answers the documented "healing costs turns" tax at low
 level), then **swap to two one-handed weapons once you own two good ones** and re-verify from `charsheet.php`.
 
-## 🔜 Next-session priorities — run #4, Day 5
+## 🔜 Next-session priorities — run #4, Day 6
 
-> **8 adventures banked + the new day's allowance. Level 7. Meat 12,637.** Pull items first, meat last.
-1. 🍽️🍺 **Consumables.** The inventory already holds a full booze rack of dropped cocktails (all 3-potency, ~5–6 each)
-   — so **pull food first** (guolash, yams, snowcone, donut, crudités; also consider **stolen sushi (L6)** and
-   **moose chocolate**) and spend booze pulls only on upgrades: **Fog Murderer** (measured 14), **limoncello**,
-   **Zinfandel**, **Green Manalishi** (measured 8 — the overdrink). Pull a **lemon** for a margarita.
-2. 💀 **The Cyrpt.** Order:
-   - **Nook boss (giant skeelton: HP 120, Att 71, Def 65)** first — Nook is at 16. Prep: herbs to full HP,
-     phonics down/Magi-Wipes for ≥ 23 MP, Patience + **Brother Smothers's Blessing** (spooky res, 20 adv) last,
-     then `Shell Up` → `Lunging Thrust-Smack` ×2. Buffed Muscle with the Crown is ~75 now.
-   - **Cranny (44)** and **Niche (50)** — grind with plain attacks; **stop each loop at ~26 evil** and prep for
-     the room boss rather than meeting it mid-grind (that is how today's only loss happened).
-   - Then the **Bonerdagon** (HP 120, Att 90, Def 81, spooky) — read `bonerdagon-boss.md` first; Smothers LAST.
-3. 🧠 **Level 8 → trainer** (Empathy of the Newt · Butts of Steel; price unmeasured — record it).
-4. ⚔️ Try **dual-wield** (whip + white sword) once HP regen matters less; re-verify on `charsheet.php`.
+> **5 adventures banked. Level 8. Meat 10,084.** Pull items first (20 slots, 1 per item per day).
+1. 🏦 **Pulls:** **eXtreme mittens** · **phonics down + ancient Magi-Wipes** (Bonerdagon MP) · food (guolash, herbal
+   stuffing, centipede eggs, cactus fruit, + 1-fullness fillers) · booze (**open sauce** 13, **Flamin'
+   Whatshisname** 7, a 2-potency lander) — the inventory's cocktails fill the rest of the 14.
+2. 🐉 **Bonerdagon FIRST** (HP 120, Att 90, Def 81, Init 90, spooky, wing-flap disrupts skills/items 25%).
+   Prep, in order: herbs to full HP · phonics/Magi-Wipes to full MP · **coffin lid in the off-hand** (replacing
+   the astral shield) · Tenacity + Ghostly Shell + Patience · **Brother Smothers's Blessing LAST** ·
+   `crypt.php?action=heart` → answer the entry choice → `Shell Up` then `Lunging Thrust-Smack` every round.
+   Buffed Muscle ~90 vs Def 81. Then **report to the Council** and use the chest (+3,000 meat).
+3. 🏔️ **Trapper phase 2:** wear the eXtreme Cold-Weather Gear outfit, then **scrape the peak's action from
+   `place.php?whichplace=mclargehuge`** (`cloudypeak2` once the gear is on) — yetis then **Groar** (HP 250,
+   weak to hot/spooky). Read `trapper-mclargehuge-quest.md` § Groar first.
+4. 🧠 **Level 9 → trainer**, and the Level 9 Council quest (the Orc Chasm) — `orc-chasm-and-highlands.md`.
 
 ## 🗓️ Session log (this run)
+
+- **Run #4 Day 5 (2026-09-26): 🐢 Level 7 → 8. The whole Cyrpt cleared except the Bonerdagon; Trapper phase 1 done — 115 wins, 0 losses.**
+  🍽️ **Food 15/15 = +54** (guolash 19 · herbal stuffing 17 · cactus fruit 7 · centipede eggs 6 · crudités 3 + 2).
+  🍺 **14 = +33** (open sauce 13 · Flamin' Whatshisname 7 · martini 5 · whiskey sour 5 · Merlot 3), spent, then
+  **ONE vodka martini overdrink (+5) → drunk 17.** ⚠️ The pulled imitation White Russian turned out **not to be booze**.
+  ☠️ **Somewhat Poisoned** silently took buffed Muscle 75 → 45 right before the Nook boss — spotted, cured with a
+  pulled antidote (effect id 283, not the documented 284).
+  💀 **Learned the boss trigger is evil ≤ 13, not 25** — the Nook served ordinary skeletons at 16/15/14.
+  Nook boss (giant skeelton) → **Cranny**: 25–0 + 3 whelp swarms, boss (huge ghuol) → **Niche**: the second urn held a
+  **plus-sized phylactery**, which one-shot the gargantulihc. **Evilometer 999 — only the Haert left.**
+  Bonerdagon deferred: Smothers's blessing already spent on the Nook, and no MP items left.
+  🧠 **Level 8 skills 3,250 each.** 🏔️ **Trapper** wanted **chrome** ore: pulled 1, mined 2 in 14 digs (mining stalls
+  silently at low HP — *"too beaten up to mine"*); **3 goat cheese in 24 Goatlet fights**. Turned in → lift fixed.
+  Pulled a **coffin lid** (spooky res) and 2 of 3 cold-weather pieces for tomorrow. Goatlet XP for the last 33 turns.
 
 - **Run #4 Day 4 (2026-09-25): 🐢 Level 6 → 7. Goblin King dead, Friars cleansed, Cyrpt started — 107 wins, 1 loss.**
   🍽️ **Food 15/15 = +49** (guolash 19 · yams 9 · 4 × Knob nuts from the Harem · donut · snowcone · crudités, 3 each).
