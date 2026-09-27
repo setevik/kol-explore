@@ -50,8 +50,12 @@ immediately — i.e. the boxes were worth more than half the grind.
 - After the bridge is built, lumber and fasteners **stop dropping**, and leftovers are thrown away automatically
   (*"you throw away the rest of the smut orcs' terrible building materials"*). Don't stockpile past 30/30.
 
+✅ **The bridge builds incrementally**: every visit to `action=bridge<N>` consumes what you hold and raises `<N>`,
+so checking the tally every few fights is enough. ~50 fights + 1 keepsake box finished it at base Muscle ~70.
+
 **Other accelerators** (⚑ wiki-only, not yet tested): a **logging hatchet** equipped yields bonus lumber; a **loadstone**
-yields bonus fasteners; adventuring **Lucky!** triggers *S&M 4-EVER* for 3 lumber + 3 fasteners; overkilling
+yields bonus fasteners; adventuring **Lucky!** triggers *S&M 4-EVER* for 3 lumber + 3 fasteners (⚠️ **ten-leaf clovers no longer grant
+Lucky!** — using one just turns it into a *disassembled clover* and back); overkilling
 non-pervert orcs with **cold** damage 15 points' worth opens the *Blech House* noncombat for more parts.
 
 **Combat note:** smut orcs are ML 69, 69 HP, **no elemental alignment** — a plain Cannelloni grind handles them.
@@ -107,6 +111,9 @@ Make all three the morning after Oil Peak — they unlock work on *both* remaini
 Muscle class is equally stuck without an elemental source. ✅ **The oil lamp fixes it for everyone** —
 re-verified on a Seal Clubber: with the lamp in the off-hand, plain `fight.php?action=attack` killed
 **3 ghosts in 2 rounds each, 0 losses, 0 MP.** Do Oil Peak first, make the lamp, then come here.
+
+⚑ **Turtle Tamer shortcut (untested):** the class's **oil shell** (back item from Oil Peak's turtle-taming
+noncombat, +15 Sleaze Damage) should do the same job as the lamp — the ghosts block physical and spooky, not sleaze.
 
 ### ⚠️ A-boo Peak — the original caster analysis
 

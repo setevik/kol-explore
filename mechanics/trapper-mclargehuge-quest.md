@@ -58,15 +58,14 @@ also lowers max HP (it replaces hat, weapon and pants; the two-handed mattock em
 - Without the pieces: farm them at **the eXtreme Slope (273, ML 73–75, rec stat 70)** — drops:
   scarf ← cross-country hippy, pants ← Orcish snowboarder, mittens ← sk8 gnome; several choice
   adventures also award pieces (meat option ~200 if you have them all).
-- 🚨 **THE OUTFIT ALONE MAY BE THE WHOLE GATE — CHECK THE MAP BEFORE FARMING FOR NONCOMBATS.**
-  The quest line reads *"Get Superhuman (5) cold resistance"*; the **eXtreme Cold-Weather Gear by itself gives
-  `Cold Protection: High (5)`** (see it on `charsheet.php`), which **satisfies the (5) requirement**, and
-  **The Mist-Shrouded Icy Peak appears on `place.php?whichplace=mclargehuge` immediately.**
-  ⚠️ Verified the hard way: 27 slope turns hunting a noncombat chain that was not required — the peak had been
-  unlocked the whole time. ✅ **After equipping the outfit, re-list the zones and look for the peak** before
-  spending a single turn on the slope.
-- *(Previously observed chain, may fire but is not the gate:* *Discovering Your Extremity* → *2 eXXtreme 4 U* →
-  *3 eXXXtreme 4ever 6pack*, seen at slope turns 1, 9, 17 on a different run.*)*
+- The outfit gives **`Cold Protection: High (5)`**, which covers the quest's cold-resistance line. The peak also
+  needs **handholds**: with the outfit on, the Slope must serve three noncombats in order — *Discovering Your
+  Extremity* (guaranteed on the first outfit turn; adds an "Extreme Meter" to the charpane) → *2 eXXtreme 4 U* →
+  *3 eXXXtreme 4ever 6pack*. The last two are ordinary noncombats competing with a high combat rate — **one run
+  saw neither in 59 outfit turns, another saw them on turns 9 and 17** — so bring **−combat** if you have it.
+  (The alternative route is three ninja snowman assassins' rope/carabiner/crampons.)
+  ✅ **Check `place.php?whichplace=mclargehuge` for `cloudypeak2` before grinding** — a run that already has the
+  handholds needs no Slope turns at all.
 - ⚠️ **The peak link is `action=cloudypeak2` once the gear step is done.** Before it, the map shows
   **`cloudypeak`** — and that pre-gear name **silently no-ops afterwards** (returns a bare page, no fight, no
   error, no turn spent). ✅ **Always scrape the action from `place.php?whichplace=mclargehuge` rather than

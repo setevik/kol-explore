@@ -1,5 +1,11 @@
 # Bonerdagon (Defiled Cyrpt boss)
 
+## ✅ KILLED — Turtle Tamer, L8, 5 rounds: accuracy beats resistance
+**Keep your best-accuracy off-hand, not the resistance one.** A coffin lid (spooky res) in place of the astral
+shield (+25% Muscle) dropped buffed Muscle 92 → 76, below his Defense 81 — so the shield stayed. With Smothers's
+Blessing + Ghostly Shell, full HP (146) and MP: **`Shell Up` → `Lunging Thrust-Smack` every round** — two casts were
+wing-flapped, two landed for 74 each, and he dealt only ~38 in total.
+
 ## ✅ KILLED AGAIN — Seal Clubber, L9, 4 rounds (the resistance fix, measured both ways)
 
 Same character, consecutive days, **one variable changed: whether the elemental blessing was still running.**

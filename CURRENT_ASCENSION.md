@@ -31,24 +31,22 @@ signature weapon (**turtle totem**) and whether shields matter (Turtle Tamers ar
 
 ---
 
-## 📊 Character state (end of run #4 Day 5 / 2026-09-26)
+## 📊 Character state (end of run #4 Day 6 / 2026-09-27)
 
-- **LEVEL 8 Turtle Tamer.** base Muscle 61 / base Moxie 38. **Max HP 140, max MP 44.**
-  💰 **Meat 10,084.** **5 adventures banked.** full **15/15** ✅ · drunk **17** (14 + ONE overdrink) ✅ · spleen 9.
-  **~415 wins, 2 losses** for the run (115–0 today).
-- 🎽 **Worn:** Crown of the Goblin King · scorpion whip · astral shield · old sweatpants · ring of half-assed
-  regeneration · batskin belt. 🐾 Marcellus the Mosquito.
-  **Held for quests:** **coffin lid** (off-hand, Slight Spooky Resistance — for the Bonerdagon) · **eXtreme scarf +
-  snowboarder pants** (need the **eXtreme mittens** pull tomorrow) · mining outfit (helmet, pants, mattock) ·
-  white sword · harem outfit · 8 perfume.
-- 🧠 **Skills bought: all through Level 8** (Level 8 = Empathy of the Newt + Butts of Steel, **3,250 each**).
-- ✅ **Council: larva · rat · Boss Bat · Goblin King · Friars — DONE.**
-  💀 **Cyrpt: all four rooms CLEARED** — Evilometer reads **999 / Haert 999**. ▶ **Only the Bonerdagon remains.**
-  🏔️ **Trapper: phase 1 DONE** (3 chrome ore + 3 goat cheese turned in, ski lift fixed). ▶ Phase 2: cold gear.
-- 🧰 **Supplies:** 12 medicinal herbs · 3 goat cheese · Imp Ale ×13 · cocktails (margarita, whiskey and soda, wine
-  spritzer, tequila sunrise, salty dog ×2, screwdriver ×3, swill ×3) · bottles of whiskey ×8, tequila ×4, gin ·
-  imitation White Russian (NOT booze) · 15 ten-leaf clovers. **No MP restoratives in the bag.**
-- 🏦 Ronin: **`roninleft` 433**.
+- **LEVEL 9 Turtle Tamer.** base Muscle 75 / base Moxie 48. **Buffed Muscle 107, max HP 165, max MP 53.**
+  💰 **Meat 7,527.** **6 adventures banked.** full **15/15** ✅ · drunk **17** (14 + ONE overdrink) ✅ · spleen 6.
+- 🎽 **Worn:** Crown of the Goblin King · **oil shell** (back, +15 Sleaze Damage) · scorpion whip · astral shield ·
+  old sweatpants · ring of half-assed regeneration · batskin belt · eXtreme mittens. 🐾 Marcellus the Mosquito.
+  **Held:** eXtreme scarf + snowboarder pants (with the mittens = the cold outfit) · coffin lid · skull of the
+  Bonerdagon · mining outfit · white sword · harem outfit · 2 irradiated turtles · 18 bubblin' crude · 1 loadstone.
+- 🧠 **Skills: all through Level 9** (Level 9 = Testudinal Teachings + Spiky Shell, **4,000 each**).
+- ✅ **Council: larva · rat · Boss Bat · Goblin King · Friars · Cyrpt (Bonerdagon dead) — DONE.**
+  🏔️ **Trapper:** ore + cheese done; cold outfit owned; ▶ **needs the Slope's handholds** — only the first of three
+  eXtreme noncombats has fired (59 outfit turns). Then yetis + **Groar (Def 108)**: buffed Muscle in the outfit ≈ 97.
+  🌉 **Orc Chasm bridge BUILT.** Highlands open, Highland Lord talked to. ▶ **Oil Peak in progress** (18 slicks of ~49).
+- 🧰 16 medicinal herbs · Imp Ale ×13 · cocktails (wine spritzer, tequila sunrise, salty dog, screwdriver ×3,
+  swill ×3) · whiskey ×8, tequila ×3, gin · 15 ten-leaf clovers (useless for Lucky! now).
+- 🏦 Ronin: **`roninleft` 303**.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -66,25 +64,31 @@ signature weapon (**turtle totem**) and whether shields matter (Turtle Tamers ar
 +25%, **Regenerate 5–10 HP per adventure**, DR 15 — it answers the documented "healing costs turns" tax at low
 level), then **swap to two one-handed weapons once you own two good ones** and re-verify from `charsheet.php`.
 
-## 🔜 Next-session priorities — run #4, Day 6
+## 🔜 Next-session priorities — run #4, Day 7
 
-> **5 adventures banked. Level 8. Meat 10,084.** Pull items first (20 slots, 1 per item per day).
-1. 🏦 **Pulls:** **eXtreme mittens** · **phonics down + ancient Magi-Wipes** (Bonerdagon MP) · food (guolash, herbal
-   stuffing, cactus fruit, + 1-fullness fillers — ⚠️ **no centipede eggs before the Bonerdagon**: they poison you for
-   10 adventures; eat them after the boss or skip them) · booze (**open sauce** 13, **Flamin'
-   Whatshisname** 7, a 2-potency lander) — the inventory's cocktails fill the rest of the 14.
-2. 🐉 **Bonerdagon FIRST** (HP 120, Att 90, Def 81, Init 90, spooky, wing-flap disrupts skills/items 25%).
-   Prep, in order: herbs to full HP · **use an irradiated turtle (4 held: +4–5 MP/adventure for 15)** ·
-   phonics/Magi-Wipes to full MP · **coffin lid in the off-hand** (replacing
-   the astral shield) · Tenacity + Ghostly Shell + Patience · **Brother Smothers's Blessing LAST** ·
-   `crypt.php?action=heart` → answer the entry choice → `Shell Up` then `Lunging Thrust-Smack` every round.
-   Buffed Muscle ~90 vs Def 81. Then **report to the Council** and use the chest (+3,000 meat).
-3. 🏔️ **Trapper phase 2:** wear the eXtreme Cold-Weather Gear outfit, then **scrape the peak's action from
-   `place.php?whichplace=mclargehuge`** (`cloudypeak2` once the gear is on) — yetis then **Groar** (HP 250,
-   weak to hot/spooky). Read `trapper-mclargehuge-quest.md` § Groar first.
-4. 🧠 **Level 9 → trainer**, and the Level 9 Council quest (the Orc Chasm) — `orc-chasm-and-highlands.md`.
+> **6 adventures banked. Level 9. Meat 7,527.** Pull items first.
+1. 🏦 **Pulls:** food (guolash, herbal stuffing, moose chocolate, fillers; **centipede eggs only if no boss that day**),
+   booze (open sauce, Flamin' Whatshisname, a lander — plus the bag's cocktails), phonics down / Magi-Wipes.
+2. 🛢️ **Finish Oil Peak** (~31 more slicks). Then `multiuse` crude: **9 → oil lamp** (A-boo), **12 → jar of oil**
+   (Twin Peak) — see `orc-chasm-and-highlands.md`. Try A-boo with the **oil shell's sleaze damage** first (untested).
+3. 🏔️ **Trapper handholds:** wear the cold outfit on the Slope until *2 eXXtreme 4 U* and *3 eXXXtreme 4ever 6pack*
+   fire; look for a −combat source first. Then Groar needs buffed Muscle ≥ ~108 **in the outfit** — use strongness
+   elixirs, Tenacity, Shell Up opener.
+4. 🧠 **Level 10 → trainer.** Meat is getting thin (7.5k) — sell the dense meat stack and junk before buying skills.
 
 ## 🗓️ Session log (this run)
+
+- **Run #4 Day 6 (2026-09-27): 🐢 Level 8 → 9. Bonerdagon dead, Orc Chasm bridged, Highlands open — 127 wins, 0 losses.**
+  🍽️ **Food +52** (guolash 19 · stuffing 17 · moose chocolate 9 · tofurkey gravy 5 · alien salad 2). 🍺 **14 = +33**
+  (open sauce 13 · whiskey and soda 6 · Flamin' 5 · salty dog 5 · Merlot 4), then **ONE margarita overdrink (+6)**.
+  🐉 **Bonerdagon in 5 rounds:** irradiated turtle + phonics for MP, Tenacity/Ghostly/Patience, Smothers last. The coffin
+  lid cost the astral shield's +25% Muscle (92 → 76 < Def 81), so the shield stayed. Shell Up, two flapped casts, two
+  Thrust-Smacks for 74. Chest +3,000 meat. **Cyrpt quest closed.**
+  🏔️ Cold outfit on (Muscle 84): the peak still needs **handholds** — the Slope's first eXtreme noncombat fired, the
+  next two didn't in 59 turns (56–0). Trapper doc corrected (the "outfit alone is the gate" claim was wrong).
+  🧠 **Level 9** mid-Slope; skills 4,000 each. ☘️ Ten-leaf clovers turned out useless for Lucky!.
+  🌉 **Orc Chasm: ~52 Logging Camp fights + 1 keepsake box → bridge built.** Highland Lord visited.
+  🛢️ **Oil Peak: 18 slicks.** The turtle there gave an **oil shell (+15 Sleaze Damage)** — now worn.
 
 - **Run #4 Day 5 (2026-09-26): 🐢 Level 7 → 8. The whole Cyrpt cleared except the Bonerdagon; Trapper phase 1 done — 115 wins, 0 losses.**
   🍽️ **Food 15/15 = +54** (guolash 19 · herbal stuffing 17 · cactus fruit 7 · centipede eggs 6 · crudités 3 + 2).

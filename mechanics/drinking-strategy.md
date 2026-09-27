@@ -176,9 +176,9 @@ The craft page (`craft.php?mode=cocktail`) `<option>` list is also the fastest w
 | margarita | 1013 | 3 | 5–6 | 1.8 |
 | **Fog Murderer** | 6682 | 6 | 14 | 2.3 **Level 6** |
 | **open sauce** | 6274 | 4 | 13 | 3.3 **Level 7** |
-| Flamin' Whatshisname | 7222 | 2 | 7 | 3.5 **Level 6** |
+| Flamin' Whatshisname | 7222 | 2 | 5–7 | 3.0 **Level 6** |
 | whiskey sour | 674 | 3 | 5 | 1.7 |
-| dusty bottle of Merlot | 2271 | 2 | 3 | 1.5 — a 2-potency lander |
+| dusty bottle of Merlot | 2271 | 2 | 3–4 | 1.8 — a 2-potency lander |
 | artisanal limoncello | 6036 | 2 | 6 | 3.0 **Level 6** |
 | painting of a glass of wine | 7343 | 1 | 3 | 3.0 **Level 6** — a 1-potency lander |
 | whiskey sour | 674 | 3 | 5–6 | 1.8 |
