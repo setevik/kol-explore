@@ -654,7 +654,9 @@ same choice number picks the purchase again every pass.
 ✅ **Rules for any "buy" label: answer it once, then pick the exit label (`Take your leave`) — and never let a
 chain answer the same choice number twice in a row.**
 ⚠️ Record answers in `mechanics/` as **label text**, never as an option index.
-⚠️ A single-option choice (`blocks.length === 1`) is just a "continue" button — safe to auto-answer. **Stop and
+⚠️ A single-option choice (`blocks.length === 1`) is just a "continue" button — safe to auto-answer. Some intros
+are **several screens under the same choice number**, so a "same choice twice in a row" guard must exempt
+single-option screens. **Stop and
 inspect anything with 2+ options** you don't have a recorded answer for; blind `opts[0]` is how you fail a
 puzzle you could have looked up in 90 seconds.
 

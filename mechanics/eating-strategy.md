@@ -48,7 +48,7 @@ stated range). ✅ The three ratios in bold were re-verified in-game the day thi
 | Knob nuts | 1 | 4 | 3 | 3.0 — drops in the Knob Goblin Harem |
 | pestopiary | 2 | — | 5–7 | 3.0 |
 | moose chocolate | 3 | 6 | 8–9 | 2.8 |
-| giant heirloom grape tomato | 5 | 6 | 14 | 2.8 |
+| giant heirloom grape tomato | 5 | 6 | 14–15 | 2.9 |
 | sweet roll Alabama / vampire chowder | 4 | 4 | 9–11 | 2.5 |
 | **stolen sushi** | 6 | 6 | 13 | **2.2** |
 | succulent marrow / salacious crumbs | 3 | — | 5–7 | 2.0 |

@@ -31,22 +31,21 @@ signature weapon (**turtle totem**) and whether shields matter (Turtle Tamers ar
 
 ---
 
-## 📊 Character state (end of run #4 Day 6 / 2026-09-27)
+## 📊 Character state (end of run #4 Day 7 / 2026-09-28)
 
-- **LEVEL 9 Turtle Tamer.** base Muscle 75 / base Moxie 48. **Buffed Muscle 107, max HP 165, max MP 53.**
-  💰 **Meat 7,527.** **6 adventures banked.** full **15/15** ✅ · drunk **17** (14 + ONE overdrink) ✅ · spleen 6.
-- 🎽 **Worn:** Crown of the Goblin King · **oil shell** (back, +15 Sleaze Damage) · scorpion whip · astral shield ·
-  old sweatpants · ring of half-assed regeneration · batskin belt · eXtreme mittens. 🐾 Marcellus the Mosquito.
-  **Held:** eXtreme scarf + snowboarder pants (with the mittens = the cold outfit) · coffin lid · skull of the
-  Bonerdagon · mining outfit · white sword · harem outfit · 2 irradiated turtles · 18 bubblin' crude · 1 loadstone.
-- 🧠 **Skills: all through Level 9** (Level 9 = Testudinal Teachings + Spiky Shell, **4,000 each**).
-- ✅ **Council: larva · rat · Boss Bat · Goblin King · Friars · Cyrpt (Bonerdagon dead) — DONE.**
-  🏔️ **Trapper:** ore + cheese done; cold outfit owned; ▶ **needs the Slope's handholds** — only the first of three
-  eXtreme noncombats has fired (59 outfit turns). Then yetis + **Groar (Def 108)**: buffed Muscle in the outfit ≈ 97.
-  🌉 **Orc Chasm bridge BUILT.** Highlands open, Highland Lord talked to. ▶ **Oil Peak in progress** (18 slicks of ~49).
-- 🧰 16 medicinal herbs · Imp Ale ×13 · cocktails (wine spritzer, tequila sunrise, salty dog, screwdriver ×3,
-  swill ×3) · whiskey ×8, tequila ×3, gin · 15 ten-leaf clovers (useless for Lucky! now).
-- 🏦 Ronin: **`roninleft` 303**.
+- **LEVEL 10 Turtle Tamer.** base Muscle 85 / base Moxie 56. **Buffed Muscle 120, max HP 185, max MP 60.**
+  💰 **Meat 8,398** (after a 9k junk sale and 10k of skills). **6 adventures banked.** full 15/15 ✅ · drunk 17 ✅.
+- 🎽 **Worn:** Crown of the Goblin King · oil shell · scorpion whip · astral shield · old sweatpants · ring of
+  half-assed regeneration · batskin belt · eXtreme mittens. **Held:** eXtreme scarf + snowboarder pants · oil lamp ·
+  **oil slacks** (+20% init) · 2 giraffe-necked turtles (+30% init) · coffin lid · skull of the Bonerdagon ·
+  21 bubblin' crude · 1 enchanted bean · 2 irradiated turtles · 3 A-Boo clues.
+- 🧠 **Skills: all through Level 10** (Reptilian Fortitude + Shieldbutt, **5,000 each**).
+- ✅ Council done through the Cyrpt.
+  🔥 **Highlands: Oil Peak LIT · A-boo Peak LIT.** ▶ **Twin Peak: ~50 in-zone turns spent** (music/jar step done) —
+  **Cabin Fever should be due**; answer it `Burn this…`, then visit the Highland Lord.
+  🏔️ **Trapper:** stuck on the Slope's handholds (2 of 3 eXtreme noncombats still missing). Groar Def 108.
+  🌱 **Level 10 quest started — beanstalk PLANTED** (the Airship is open).
+- 🏦 Ronin: **`roninleft` 172**.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -64,19 +63,26 @@ signature weapon (**turtle totem**) and whether shields matter (Turtle Tamers ar
 +25%, **Regenerate 5–10 HP per adventure**, DR 15 — it answers the documented "healing costs turns" tax at low
 level), then **swap to two one-handed weapons once you own two good ones** and re-verify from `charsheet.php`.
 
-## 🔜 Next-session priorities — run #4, Day 7
+## 🔜 Next-session priorities — run #4, Day 8
 
-> **6 adventures banked. Level 9. Meat 7,527.** Pull items first.
-1. 🏦 **Pulls:** food (guolash, herbal stuffing, moose chocolate, fillers; **centipede eggs only if no boss that day**),
-   booze (open sauce, Flamin' Whatshisname, a lander — plus the bag's cocktails), phonics down / Magi-Wipes.
-2. 🛢️ **Finish Oil Peak** (~31 more slicks). Then `multiuse` crude: **9 → oil lamp** (A-boo), **12 → jar of oil**
-   (Twin Peak) — see `orc-chasm-and-highlands.md`. Try A-boo with the **oil shell's sleaze damage** first (untested).
-3. 🏔️ **Trapper handholds:** wear the cold outfit on the Slope until *2 eXXtreme 4 U* and *3 eXXXtreme 4ever 6pack*
-   fire; look for a −combat source first. Then Groar needs buffed Muscle ≥ ~108 **in the outfit** — use strongness
-   elixirs, Tenacity, Shell Up opener.
-4. 🧠 **Level 10 → trainer.** Meat is getting thin (7.5k) — sell the dense meat stack and junk before buying skills.
+> **6 adventures banked. Level 10. Meat 8,398.** Pull items first.
+1. 🏦 Pulls: food (guolash, stuffing, sweet roll / vampire chowder, fillers), booze (open sauce, a lander; the bag's
+   screwdrivers/swill/salty dog fill the rest), phonics / Magi-Wipes.
+2. 🔥 **Twin Peak** until *Cabin Fever* (choice 618 → `Burn this mother-goddamning hotel to the ground.`), then the
+   Highland Lord (`place.php?whichplace=highlands&action=highlands_dude`) to close the Level 9 quest.
+3. 🌱 **Level 10: the Airship** — read `giant-castle-quest.md` first (it's a ~40-turn NC hunt for the S.O.C.K.).
+4. 🏔️ Trapper handholds when a −combat source turns up.
 
 ## 🗓️ Session log (this run)
+
+- **Run #4 Day 7 (2026-09-28): 🐢 Level 9 → 10. Oil Peak and A-boo Peak lit, Twin Peak nearly done — 127 wins, 0 losses.**
+  🍽️ **Food +52** (guolash 18 · stuffing 17 · giant heirloom grape tomato 15 · exotic jungle fruit 2). 🍺 **14 = +33**
+  (open sauce 11 · Flamin' 7 · tequila sunrise 6 · wine spritzer 5 · Merlot 4), then **ONE margarita overdrink (+6)**.
+  🛢️ Oil Peak lit after 34 more slicks; 52 crude → **oil lamp, jar of oil, oil slacks**.
+  👻 **A-boo: the oil shell's +15 sleaze did the job** — 44 ghosts (shell + astral shield beat the lamp on HP
+  taken), 1 Horror (4 rounds, then Beaten Up → tiny house), then *Come On Ghosty, Light My Pyre*. **Lit.**
+  🏨 Twin Peak: jar-of-oil step done, then ~50 turns toward Cabin Fever (47 fights, 0 losses).
+  🧠 **Level 10** in the lodge; sold junk for **+9,045 meat**; skills **5,000 each**. 🌱 Planted the enchanted bean.
 
 - **Run #4 Day 6 (2026-09-27): 🐢 Level 8 → 9. Bonerdagon dead, Orc Chasm bridged, Highlands open — 127 wins, 0 losses.**
   🍽️ **Food +52** (guolash 19 · stuffing 17 · moose chocolate 9 · tofurkey gravy 5 · alien salad 2). 🍺 **14 = +33**

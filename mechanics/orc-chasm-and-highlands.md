@@ -112,8 +112,12 @@ Muscle class is equally stuck without an elemental source. ✅ **The oil lamp fi
 re-verified on a Seal Clubber: with the lamp in the off-hand, plain `fight.php?action=attack` killed
 **3 ghosts in 2 rounds each, 0 losses, 0 MP.** Do Oil Peak first, make the lamp, then come here.
 
-⚑ **Turtle Tamer shortcut (untested):** the class's **oil shell** (back item from Oil Peak's turtle-taming
-noncombat, +15 Sleaze Damage) should do the same job as the lamp — the ghosts block physical and spooky, not sleaze.
+✅ **Turtle Tamer shortcut: the oil shell** (back item from Oil Peak's turtle-taming noncombat, +15 Sleaze Damage)
+does the lamp's job — the ghosts block physical and spooky, not sleaze. With it and the **astral shield kept in the
+off-hand**, plain attacks kill a ghost in ~3 rounds with almost no damage taken; adding the lamp makes it 2 rounds
+but costs the shield's protection (≈ −80 HP over 3 fights). Prefer the shell + shield.
+✅ **When hauntedness reaches 0% the peak is not lit yet** — one more A-boo adventure serves *Come On Ghosty, Light
+My Pyre*, which lights it. Oil Peak works the same way (*Unimpressed with Pressure*).
 
 ### ⚠️ A-boo Peak — the original caster analysis
 

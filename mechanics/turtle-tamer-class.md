@@ -70,10 +70,12 @@ POST `guild.php` with `action=buyskill&skillid=<short id>&pwd=`.
 | 8 | **Butts of Steel** | 2034 | 34 | **3,250** — Passive: better Butt skills (Headbutt, Kneebutt, Shieldbutt) |
 | 9 | **Testudinal Teachings** | 2035 | 35 | **4,000** — Passive: familiars gain weight faster |
 | 9 | **Spiky Shell** | 2031 | 31 | **4,000** — Buff, 8 MP: damages enemies that attack you |
+| 10 | **Reptilian Fortitude** | 2008 | 8 | **5,000** — Buff, 10 MP: temporary max HP |
+| 10 | **Shieldbutt** | 2005 | 5 | **5,000** — Combat, 10 MP: extra damage based on your shield |
 
 💰 **Price is set by the skill's LEVEL, not by the skill** — ✅ measured per level: **125 · 250 · 500 · 750 ·
-1,250 · 1,750 · 2,500 · 3,250 · 4,000** for Levels 1–9, with *both* skills at a level costing the same.
-**Levels 10+ are unmeasured** (prices so far rise by 500–750 per level) — **read each cost from the meat delta**
+1,250 · 1,750 · 2,500 · 3,250 · 4,000 · 5,000** for Levels 1–10, with *both* skills at a level costing the same.
+**Levels 11+ are unmeasured** (prices so far rise by 500–750 per level) — **read each cost from the meat delta**
 and extend the table. The trainer's page lists the whole ladder by name through Level 15 (*Kneebutt · Blessing of She-Who-Was* at 7 … *Tao of the Terrapin ·
 Turtle Power* at 15) even though only your level's rows are buyable. A purchase you cannot afford is refused
 outright with *"You can't afford to train that skill."* — no meat moves, so trying is free.
@@ -136,7 +138,7 @@ turtles, either can appear. A few zones have their own unique turtle instead (e.
 | 943 `Tame the two turtles!` | Dark Elbow, Goatlet (mid outdoor) | giraffe-necked turtle | +30% Combat Initiative, 15 adv |
 | 944 `Investigate` | all four Cyrpt rooms (mid underground) | mocking turtle | +10 Monster Level, 15 adv |
 | 332 `Try to tame it` | eXtreme Slope | tortoboggan | accessory: Moxie +4, +20% Initiative (Moxie 30) |
-| 962 `Help her out` | Oil Peak (unique) | oil shell | ⭐ **back item: +15 Sleaze Damage** (Turtle-Tamer-only bonus) |
+| 962 `Help her out` | Oil Peak (unique) | oil shell | ⭐ **back item: +15 Sleaze Damage** (Turtle-Tamer-only bonus) — cracks A-boo Peak's ghosts |
 
 ⭐ **The irradiated turtle is this class's answer to the empty-MP-pool problem** — use one before a boss prep or a
 day of Thrust-Smacking. All of these choices are single-button, safe to auto-answer.
