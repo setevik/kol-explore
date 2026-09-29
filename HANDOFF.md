@@ -869,6 +869,12 @@ the charpane's Effects line. That is this rule's failure mode in its purest form
 ✅ **Before building a decision on a scraped number, prove the scrape can succeed once** (dump the surrounding text
 and look), and **make a no-match return `null`, not `0`**, so the caller has to notice.
 
+## 📝 Log EVERY noncombat, including the plain ones
+
+A loop that records only fights and choice menus is blind to **plain noncombats** (no buttons, just text) — and
+several quest steps are exactly that. ✅ Measured: a quest's three required noncombats fired unnoticed, and ~60
+more turns went into "waiting" for them. Log the first line of every non-fight, non-choice page.
+
 ## 🔁 A loop MUST verify the adventure counter actually moved
 
 🚨 **The most expensive engine bug in this project keeps recurring in new costumes.** Several encounters

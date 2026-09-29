@@ -61,11 +61,12 @@ also lowers max HP (it replaces hat, weapon and pants; the two-handed mattock em
 - The outfit gives **`Cold Protection: High (5)`**, which covers the quest's cold-resistance line. The peak also
   needs **handholds**: with the outfit on, the Slope must serve three noncombats in order — *Discovering Your
   Extremity* (guaranteed on the first outfit turn; adds an "Extreme Meter" to the charpane) → *2 eXXtreme 4 U* →
-  *3 eXXXtreme 4ever 6pack*. The last two are ordinary noncombats competing with a high combat rate — **one run
-  saw neither in 59 outfit turns, another saw them on turns 9 and 17** — so bring **−combat** if you have it.
-  (The alternative route is three ninja snowman assassins' rope/carabiner/crampons.)
-  ✅ **Check `place.php?whichplace=mclargehuge` for `cloudypeak2` before grinding** — a run that already has the
-  handholds needs no Slope turns at all.
+  *3 eXXXtreme 4ever 6pack* (seen around outfit turns 1, 9 and 17). They are **plain noncombats with no choice
+  menu**, so a loop that logs only fights and choices never notices them. ✅ **Track them by the charpane image
+  `otherimages/extmeter<N>.gif`** — `extmeter3` means all three have fired.
+  🚨 **Then visit `place.php?whichplace=mclargehuge&action=cloudypeak` once** (free, no fight): you spot the
+  staircase, and only now does the link become **`cloudypeak2`**. Without that visit the map keeps showing
+  `cloudypeak` and the handholds look missing. (Alternative route: three ninja snowman assassins' gear.)
 - ⚠️ **The peak link is `action=cloudypeak2` once the gear step is done.** Before it, the map shows
   **`cloudypeak`** — and that pre-gear name **silently no-ops afterwards** (returns a bare page, no fight, no
   error, no turn spent). ✅ **Always scrape the action from `place.php?whichplace=mclargehuge` rather than
@@ -120,6 +121,10 @@ carries cold resistance alone, so you cannot wear two and keep your stat hat. Th
 Panicking Knott Yetis (HP 90, Def 92) are beatable well below that, so **clearing the yetis proves nothing
 about Groar** — measure separately.
 
+- ✅ **Turtle Tamer recipe (Level 10, buffed Muscle 119 *in the outfit*, max HP 216): 4 rounds, no damage taken.**
+  Yetis die to plain attacks in 2 rounds each. For Groar: full HP, then Reptilian Fortitude · Ghostly Shell ·
+  Tenacity of the Snapper · Spiky Shell · Patience → round 1 `Shell Up` (his hit bounces), then `Lunging
+  Thrust-Smack` ~75 per hit. Reward: **fuzzy busby**.
 - **Groar one-shot us at 53 max HP on attempt 1.** Winning prep (attempt 2, 8 rounds, never dropped low):
   1. kmail **Buffy** for **Ghostly Shell + Astral Shell** (free, ~160 damage absorption + 1 all-res);
   2. full HP (scroll 595) + ~120 MP (tiny houses) + **fresh Springy Fusilli**;

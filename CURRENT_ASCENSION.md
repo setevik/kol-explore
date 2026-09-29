@@ -31,21 +31,21 @@ signature weapon (**turtle totem**) and whether shields matter (Turtle Tamers ar
 
 ---
 
-## 📊 Character state (end of run #4 Day 7 / 2026-09-28)
+## 📊 Character state (end of run #4 Day 8 / 2026-09-29)
 
-- **LEVEL 10 Turtle Tamer.** base Muscle 85 / base Moxie 56. **Buffed Muscle 120, max HP 185, max MP 60.**
-  💰 **Meat 8,398** (after a 9k junk sale and 10k of skills). **6 adventures banked.** full 15/15 ✅ · drunk 17 ✅.
+- **LEVEL 10 Turtle Tamer.** base Muscle 94 / base Moxie 60. **Buffed Muscle 131, max HP 201, max MP 106.**
+  💰 **Meat 15,861.** **5 adventures banked.** full 15/15 ✅ · drunk 17 ✅ · spleen 15.
 - 🎽 **Worn:** Crown of the Goblin King · oil shell · scorpion whip · astral shield · old sweatpants · ring of
-  half-assed regeneration · batskin belt · eXtreme mittens. **Held:** eXtreme scarf + snowboarder pants · oil lamp ·
-  **oil slacks** (+20% init) · 2 giraffe-necked turtles (+30% init) · coffin lid · skull of the Bonerdagon ·
-  21 bubblin' crude · 1 enchanted bean · 2 irradiated turtles · 3 A-Boo clues.
-- 🧠 **Skills: all through Level 10** (Reptilian Fortitude + Shieldbutt, **5,000 each**).
-- ✅ Council done through the Cyrpt.
-  🔥 **Highlands: Oil Peak LIT · A-boo Peak LIT.** ▶ **Twin Peak: ~50 in-zone turns spent** (music/jar step done) —
-  **Cabin Fever should be due**; answer it `Burn this…`, then visit the Highland Lord.
-  🏔️ **Trapper:** stuck on the Slope's handholds (2 of 3 eXtreme noncombats still missing). Groar Def 108.
-  🌱 **Level 10 quest started — beanstalk PLANTED** (the Airship is open).
-- 🏦 Ronin: **`roninleft` 172**.
+  half-assed regeneration · batskin belt · **amulet of extreme plot significance**. **Held:** fuzzy busby (Groar
+  reward, hat) · Mohawk wig · cold outfit · oil lamp · oil slacks · coffin lid · 9 tiny houses · 6 Penultimate
+  Fantasy chests · 3 phonics down.
+- 🧠 **Skills: all through Level 10.**
+- ✅ **Council: everything through Level 9 DONE** — Highlands (3 fires) and **the Trapper (Groar dead)** closed today.
+  ▶ **Level 10: S.O.C.K. obtained; stuck at the Castle Basement** (Furry/Fitness Giants Def 121 beat me 3 times;
+  ~11 basement turns spent toward the 35-turn fallback).
+  ➕ Side quest offered: *A Quest, LOL* (Baron Rof L'm Fao's valley).
+- 🏦 🎉 **Ronin: `roninleft` 53 — it ends early tomorrow.** Then storage is unlimited and the mall delivers to
+  inventory: raid Hagnk's (herbs aren't needed; pull scrolls of drastic healing, restoratives, better food/booze).
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -63,17 +63,28 @@ signature weapon (**turtle totem**) and whether shields matter (Turtle Tamers ar
 +25%, **Regenerate 5–10 HP per adventure**, DR 15 — it answers the documented "healing costs turns" tax at low
 level), then **swap to two one-handed weapons once you own two good ones** and re-verify from `charsheet.php`.
 
-## 🔜 Next-session priorities — run #4, Day 8
+## 🔜 Next-session priorities — run #4, Day 9
 
-> **6 adventures banked. Level 10. Meat 8,398.** Pull items first.
-1. 🏦 Pulls: food (guolash, stuffing, sweet roll / vampire chowder, fillers), booze (open sauce, a lander; the bag's
-   screwdrivers/swill/salty dog fill the rest), phonics / Magi-Wipes.
-2. 🔥 **Twin Peak** until *Cabin Fever* (choice 618 → `Burn this mother-goddamning hotel to the ground.`), then the
-   Highland Lord (`place.php?whichplace=highlands&action=highlands_dude`) to close the Level 9 quest.
-3. 🌱 **Level 10: the Airship** — read `giant-castle-quest.md` first (it's a ~40-turn NC hunt for the S.O.C.K.).
-4. 🏔️ Trapper handholds when a −combat source turns up.
+> **5 adventures banked. Level 10. Meat 15,861. Ronin ends after ~53 more turns.**
+1. 🏦 Day-open pulls as usual (Ronin still on): food + booze + restoratives. **Once `roninleft` hits 0, do a storage
+   audit** (HANDOFF § Raising meat fast) — pull restoratives in bulk and sell surplus for skill money.
+2. 🏰 **Castle Basement:** either level more first, or go in with a stat margin: strongness elixirs, Tenacity,
+   Spiky Shell, Shell Up opener; heal to full between every fight. Remaining fallback ~24 turns.
+   Alternative: the **titanium assault umbrella** (storage) → choice 669 `Crawl Through the Heating Duct`.
+3. 🧠 **Level 11 → trainer** and the MacGuffin quest (`macguffin-quest.md`).
 
 ## 🗓️ Session log (this run)
+
+- **Run #4 Day 8 (2026-09-29): 🐢 Level 10. Twin Peak lit (Level 9 quest DONE), Groar dead (Trapper DONE), S.O.C.K. — 95 wins, 4 losses.**
+  🍽️ **Food +44** (guolash 18 · grape tomato 13 · pestopiary 5 + 6 · alien salad 2). 🍺 **14 = +29** (red-hot
+  boilermaker 13 · screwdriver 5 ×2 · salty dog 5 · Imp Ale 1), then **ONE margarita overdrink (+5)**.
+  🏨 **Cabin Fever on the first Twin Peak turn** → burned the lodge → Highland Lord paid out.
+  ✈️ **Airship: S.O.C.K. in ~55 turns** (4 Immateria, then *Give him the spirits*). Heavy damage → herbs ran out →
+  **Spirit Vacation as the heal** (measured: 1 adventure, full HP).
+  🏔️ **The handholds had fired days ago unnoticed** (plain noncombats weren't logged) — the charpane showed
+  `extmeter3`; one free visit to `cloudypeak` revealed the staircase. 3 yetis, then **Groar in 4 rounds, no damage
+  taken** (Muscle 119 in the outfit, full buff stack, Shell Up → Thrust-Smack). **Trapper DONE** — fuzzy busby.
+  🏰 Castle Basement: **7–3** against Def-121 giants; retreated to the Airship for the last 21 turns (14–0).
 
 - **Run #4 Day 7 (2026-09-28): 🐢 Level 9 → 10. Oil Peak and A-boo Peak lit, Twin Peak nearly done — 127 wins, 0 losses.**
   🍽️ **Food +52** (guolash 18 · stuffing 17 · giant heirloom grape tomato 15 · exotic jungle fruit 2). 🍺 **14 = +33**

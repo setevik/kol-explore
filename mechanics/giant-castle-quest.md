@@ -31,6 +31,16 @@ amulets, 41 umbrellas and 31 wigs** while the character was preparing to grind t
 displaces your off-hand and the wig your hat. Measured cost of the wig on a Muscle class: **−15 max HP,
 −10 Muscle** for as long as it is on. Quest gear is a loan; swap back the moment the step is done.
 
+## ✈️ The Airship at Level 10 (Muscle class)
+
+✅ **S.O.C.K. in ~55 Airship turns, 41 wins / 1 loss** at buffed Muscle ~120, max HP ~190: the four Immateria are
+**plain noncombats**, then choice **681** `Give him the spirits` hands over the S.O.C.K. The crew hit for ~15 per
+fight, so **budget a full heal every ~10 fights** (Spirit Vacation for a Turtle Tamer). `Check the cargo hold`
+(choice 182) is the safe answer; its chests and the crew's drops (tiny houses, phonics down) pay for the healing.
+⚠️ **The Basement is a different league:** the Furry and Fitness Giants (Att 135, **Def 121**, HP 150) went **7–3**
+against a Level 10 at buffed Muscle ~126 with Shell Up + Thrust-Smack. Come back higher, or skip it via the
+amulet route only with a stat margin over Defense 121.
+
 ## 🗺️ The castle rooms — verified choice map
 
 Rooms are noncombats that appear while adventuring the floor, and several of them **exit into each other**, so

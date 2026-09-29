@@ -173,6 +173,7 @@ The craft page (`craft.php?mode=cocktail`) `<option>` list is also the fastest w
 | dusty bottle of Zinfandel | 2274 | 2 | 7 | 3.5 |
 | Green Manalishi | 7206 | 3 | 8 | 2.7 **Level 4** — a good overdrink |
 | backwoods screwdriver | 6018 | 3 | 7 | 2.3 **Level 4** |
+| **red-hot boilermaker** | 7354 | 4 | 11–13 | 3.0 **Level 9** |
 | margarita | 1013 | 3 | 5–6 | 1.8 |
 | **Fog Murderer** | 6682 | 6 | 14 | 2.3 **Level 6** |
 | **open sauce** | 6274 | 4 | 11–13 | 3.0 **Level 7** |

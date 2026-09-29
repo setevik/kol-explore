@@ -147,8 +147,9 @@ day of Thrust-Smacking. All of these choices are single-button, safe to auto-ans
 
 **At Level 6, self-cast Tenacity of the Snapper, Ghostly Shell and Patience of the Tortoise last only 5
 adventures.** ⇒ They are pre-boss buffs, cast as the last step before the fight — not day buffs.
-⭐ **Spirit Vacation costs 1 adventure and fully restores HP *and* MP** (skill text; ⚑ unmeasured) — the fallback
-for an empty MP pool before a boss.
+⭐ **Spirit Vacation costs 1 adventure and fully restores HP *and* MP** (✅ HP 52 → full). It is the class's
+renewable heal once spleen herbs run out — at ~190 max HP one herb (~22 HP) barely matters, and a Vacation every
+~10 hard fights is cheaper than buying restoratives.
 
 ## 👑 Boss recipe that worked — Shell Up, then Thrust-Smack
 
