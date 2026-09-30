@@ -31,21 +31,20 @@ signature weapon (**turtle totem**) and whether shields matter (Turtle Tamers ar
 
 ---
 
-## 📊 Character state (end of run #4 Day 8 / 2026-09-29)
+## 📊 Character state (end of run #4 Day 9 / 2026-09-30)
 
-- **LEVEL 10 Turtle Tamer.** base Muscle 94 / base Moxie 60. **Buffed Muscle 131, max HP 201, max MP 106.**
-  💰 **Meat 15,861.** **5 adventures banked.** full 15/15 ✅ · drunk 17 ✅ · spleen 15.
-- 🎽 **Worn:** Crown of the Goblin King · oil shell · scorpion whip · astral shield · old sweatpants · ring of
-  half-assed regeneration · batskin belt · **amulet of extreme plot significance**. **Held:** fuzzy busby (Groar
-  reward, hat) · Mohawk wig · cold outfit · oil lamp · oil slacks · coffin lid · 9 tiny houses · 6 Penultimate
-  Fantasy chests · 3 phonics down.
-- 🧠 **Skills: all through Level 10.**
-- ✅ **Council: everything through Level 9 DONE** — Highlands (3 fires) and **the Trapper (Groar dead)** closed today.
-  ▶ **Level 10: S.O.C.K. obtained; stuck at the Castle Basement** (Furry/Fitness Giants Def 121 beat me 3 times;
-  ~11 basement turns spent toward the 35-turn fallback).
-  ➕ Side quest offered: *A Quest, LOL* (Baron Rof L'm Fao's valley).
-- 🏦 🎉 **Ronin: `roninleft` 53 — it ends early tomorrow.** Then storage is unlimited and the mall delivers to
-  inventory: raid Hagnk's (herbs aren't needed; pull scrolls of drastic healing, restoratives, better food/booze).
+- **LEVEL 10 Turtle Tamer** (base Muscle 103 — **one point short of Level 11**). base Moxie 67.
+  **Buffed Muscle ~143, max HP 219, max MP 112.** 💰 **Meat 147,613.** **14 adventures banked.**
+  full 15/15 ✅ · drunk **20** (14 + ONE Fog Murderer overdrink) ✅.
+- 🎽 **Worn:** **fuzzy busby** (Muscle +11, Weapon Damage +10) · oil shell · scorpion whip · astral shield · old
+  sweatpants · ring of half-assed regeneration · batskin belt · amulet of extreme plot significance.
+  Held: Crown of the Goblin King · giant discarded bottlecap (Moxie 62 — wearable, but the busby is better) · Mohawk wig.
+- 🧰 **Bag after the storage audit:** 70 phonics down · 55 ancient Magi-Wipes · 30 tiny houses · 11 filthy poultices ·
+  14 gauze garters · ~20 antidotes · 2 scrolls of drastic healing · 84+ bubblin' crude.
+  **Stocked booze/food:** 4 Ye Olde Meade · 2 Fog Murderer · 3 red-hot boilermaker · 9 herbal stuffing ·
+  3 milk of magnesium.
+- ✅ **Council: everything through Level 10 DONE** (castle Wheel spun — giant discarded bottlecap).
+- 🏦 🎉 **RONIN IS OVER.** Storage pulls are unlimited; the mall delivers to inventory.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -63,17 +62,28 @@ signature weapon (**turtle totem**) and whether shields matter (Turtle Tamers ar
 +25%, **Regenerate 5–10 HP per adventure**, DR 15 — it answers the documented "healing costs turns" tax at low
 level), then **swap to two one-handed weapons once you own two good ones** and re-verify from `charsheet.php`.
 
-## 🔜 Next-session priorities — run #4, Day 9
+## 🔜 Next-session priorities — run #4, Day 10
 
-> **5 adventures banked. Level 10. Meat 15,861. Ronin ends after ~53 more turns.**
-1. 🏦 Day-open pulls as usual (Ronin still on): food + booze + restoratives. **Once `roninleft` hits 0, do a storage
-   audit** (HANDOFF § Raising meat fast) — pull restoratives in bulk and sell surplus for skill money.
-2. 🏰 **Castle Basement:** either level more first, or go in with a stat margin: strongness elixirs, Tenacity,
-   Spiky Shell, Shell Up opener; heal to full between every fight. Remaining fallback ~24 turns.
-   Alternative: the **titanium assault umbrella** (storage) → choice 669 `Crawl Through the Heating Duct`.
-3. 🧠 **Level 11 → trainer** and the MacGuffin quest (`macguffin-quest.md`).
+> **14 adventures banked. Level 10 (1 base Muscle from 11). Meat 147,613. No Ronin.**
+1. 🍽️ **EAT: milk of magnesium first, then 3 × herbal stuffing + 3 × 1-fullness** (~70 adv) — buy more from the mall
+   as needed. 🍺 **Drink rack: 2 × Meade + boilermaker = 14, then Fog Murderer** (restock in the mall).
+2. 🧠 **Level 11 → trainer** (Wisdom of the Elder Tortoises · Blessing of the Storm Tortoise; price unmeasured) — and buy
+   anything else worth having now that meat is plentiful.
+3. 🗝️ **Level 11: the MacGuffin quest** — read `macguffin-quest.md` first (Black Forest, desert, Spookyraven, Palindome…).
+4. 🐾 Consider a better familiar (terrarium check) — the Mosquito has been out all run.
 
 ## 🗓️ Session log (this run)
+
+- **Run #4 Day 9 (2026-09-30): 🐢 Level 10 quest DONE, Ronin over, storage audit +125k meat — 97 wins, 5 losses.**
+  🍽️ **Food +44** (guolash 17 · grape tomato 15 · sweet roll 10 · alien salad 2). 🍺 **14 = +45** (Meade 16 + 16 ·
+  boilermaker 13), then **ONE Fog Murderer overdrink (+14)**.
+  🏰 **Basement → Ground Floor on the first basement turn** (671 vent → 670 mirror with the amulet). Ground Floor: *Top
+  of the Castle, Ma* after 10 fights. Top Floor with the **Mohawk wig**: Punk Giant → *Spin That Wheel* → **garbage
+  stopped**. Reward: giant discarded bottlecap. Groar's **fuzzy busby** replaced the Crown.
+  🏦 **Ronin ended mid-day.** Storage audit: pulled restoratives in bulk, then the surplus-over-3 of 192 equipment/misc
+  stacks → **184 stacks sold for exactly the predicted 125,361 meat.** Mall: Meade, Fog Murderer, boilermakers,
+  herbal stuffing, milk of magnesium (8,125 meat). **21 Penultimate Fantasy chests → +3,120 meat and 21 each of tiny
+  houses / phonics down / antidotes.** Airship XP for the rest (66–0 with phonics down as the heal).
 
 - **Run #4 Day 8 (2026-09-29): 🐢 Level 10. Twin Peak lit (Level 9 quest DONE), Groar dead (Trapper DONE), S.O.C.K. — 95 wins, 4 losses.**
   🍽️ **Food +44** (guolash 18 · grape tomato 13 · pestopiary 5 + 6 · alien salad 2). 🍺 **14 = +29** (red-hot

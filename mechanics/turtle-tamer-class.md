@@ -139,6 +139,9 @@ turtles, either can appear. A few zones have their own unique turtle instead (e.
 | 944 `Investigate` | all four Cyrpt rooms (mid underground) | mocking turtle | +10 Monster Level, 15 adv |
 | 332 `Try to tame it` | eXtreme Slope | tortoboggan | accessory: Moxie +4, +20% Initiative (Moxie 30) |
 | 962 `Help her out` | Oil Peak (unique) | oil shell | ⭐ **back item: +15 Sleaze Damage** (Turtle-Tamer-only bonus) — cracks A-boo Peak's ghosts |
+| 945 `Follow your nose` | Castle Basement | musk turtle | +combat (*High Colognic*), 15 adv |
+| 963 `Can it?` | Castle Ground Floor (unique) | frozen turtle shell | back item: **+15 Cold Damage**, +2 stench/sleaze res |
+| 964 `Rescue him` | Castle Top Floor (unique) | shocked shell | back item: physical damage every round |
 
 ⭐ **The irradiated turtle is this class's answer to the empty-MP-pool problem** — use one before a boss prep or a
 day of Thrust-Smacking. All of these choices are single-button, safe to auto-answer.

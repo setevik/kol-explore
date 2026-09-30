@@ -36,10 +36,12 @@ displaces your off-hand and the wig your hat. Measured cost of the wig on a Musc
 ✅ **S.O.C.K. in ~55 Airship turns, 41 wins / 1 loss** at buffed Muscle ~120, max HP ~190: the four Immateria are
 **plain noncombats**, then choice **681** `Give him the spirits` hands over the S.O.C.K. The crew hit for ~15 per
 fight, so **budget a full heal every ~10 fights** (Spirit Vacation for a Turtle Tamer). `Check the cargo hold`
-(choice 182) is the safe answer; its chests and the crew's drops (tiny houses, phonics down) pay for the healing.
+(choice 182) is the safe answer. ⭐ **Open the `Penultimate Fantasy chest`s it hands out** (`inv_use`): each gives
+~170 meat + a tiny house + a phonics down + an antidote — i.e. the Airship **funds its own healing**. With phonics
+down as the heal, a Level 10 went **66–0** here in a day.
 ⚠️ **The Basement is a different league:** the Furry and Fitness Giants (Att 135, **Def 121**, HP 150) went **7–3**
-against a Level 10 at buffed Muscle ~126 with Shell Up + Thrust-Smack. Come back higher, or skip it via the
-amulet route only with a stat margin over Defense 121.
+against a Level 10 at buffed Muscle ~126. Don't grind it — **the amulet route needs only one room noncombat**
+(671 → vent → 670 → mirror), and it came on the first basement turn of a fresh day.
 
 ## 🗺️ The castle rooms — verified choice map
 
@@ -60,7 +62,10 @@ Floor opens.
 
 ### Ground Floor (snarf 323)
 
-Grind ~11 turns for **Top of the Castle, Ma** (it arrives as a plain noncombat, not a choice). While here, take
+Grind ~11 turns for **Top of the Castle, Ma** (it arrives as a plain noncombat, not a choice). ✅ 10 fights at
+Level 10. Room noncombats here: **674** → `Seek the Egress Anon` (leave) · **672** *There's No Ability Like
+Possibility* → `Rifle the Wallet-Purse-Leprechaun` (three random items). The giants hit hard — heal at ~70% HP,
+not 60% (a 60% threshold went 15–3). While here, take
 **`Investigate the noisy drawer`** in *Home on the Free Range* for the **electric boning knife** — the Wall of
 Bones in the Naughty Sorceress' tower needs it later.
 
@@ -71,7 +76,7 @@ Bones in the Naughty Sorceress' tower needs it later.
 | **677** | *Copper Feel* — Steampunk Giant | `Harrumph in Disdain` (with a **model airship** → **the Wheel**) · `Investigate the Whirligigs and Gimcrackery` · `Grab a Gear` (brass gear) · `Go through the Crack` (**→ the Goth Giant's room**) |
 | **675** | *Melon Collie and the Infinite Lameness* — Goth Giant | `End His Suffering` (**starts a fight**) · `Change up the Music` (needs the **drum 'n' bass record** from the Raver's crate → **the Wheel**) · `Snag some Candles` · `Gimme Steam` (**→ the Steampunk Giant's room**) |
 | **676** | *Flavor of a Raver* — Raver Giant | `Pick a Fight` (**fight**) · `Breathe Deeply` (1,000 HP/MP per the wiki) · `Raid the Crate` (the drum 'n' bass record, first time) · `Check Behind the Giant Poster` (**→ the Punk Giant's room**) |
-| **678** | *Yeah, You're for Me, Punk Rock Giant* — Punk Giant | `Get the Punk's Attention` (with a **Mohawk wig** worn → **the Wheel**; otherwise a fight) · `Dig Through His Drawers` (450–550 meat) · **`Check behind the trash can` (→ *Copper Feel*; only after the Giant Trash Quest)** · `Look Behind the Poster` (**→ the Raver Giant's room**) |
+| **678** | *Yeah, You're for Me, Punk Rock Giant* — Punk Giant | `Get the Punk's Attention` (with a **Mohawk wig** worn → choice **679** `Spin That Wheel, Giants Get Real` → quest done; otherwise a fight) · `Dig Through His Drawers` (450–550 meat) · **`Check behind the trash can` (→ *Copper Feel*; only after the Giant Trash Quest)** · `Look Behind the Poster` (**→ the Raver Giant's room**) |
 
 🗺️ **The room graph — every exit costs NO adventure** (✅ verified):
 **Raver 676 ⇄ Punk 678** (the two posters point at each other, so a loop that only takes posters ping-pongs

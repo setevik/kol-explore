@@ -367,7 +367,7 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
   rescale the bottle counts to your own cap):**
   ⚠️ Availability is the catch: recent sessions could not source Meade/corpse-on-the-beach and used the Fog
   Murderer rack above instead. Price-check both and take whichever is actually buyable.
-  **Ye Olde Meade (6276) = 5 drunkenness / ~15 adventures**, ~639 meat in the mall — the best filler found
+  **Ye Olde Meade (6276) = 5 drunkenness / ~15 adventures** (✅ measured 16, Level 7), ~500–650 meat in the mall — the best filler found
   so far (3 adv per drunkenness). **3 × Meade (15) + 2 × bottle of popskull (1774, 2 each) = exactly 19.**
   Then spend the single overdrink on **corpse on the beach (3025) = 6 drunkenness / ~21 adventures**.
   ⚠️ Mall stores often hold only **1** of a bottle at the listed price — **iterate the cheapest few stores**
