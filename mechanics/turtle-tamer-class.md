@@ -72,10 +72,12 @@ POST `guild.php` with `action=buyskill&skillid=<short id>&pwd=`.
 | 9 | **Spiky Shell** | 2031 | 31 | **4,000** — Buff, 8 MP: damages enemies that attack you |
 | 10 | **Reptilian Fortitude** | 2008 | 8 | **5,000** — Buff, 10 MP: temporary max HP |
 | 10 | **Shieldbutt** | 2005 | 5 | **5,000** — Combat, 10 MP: extra damage based on your shield |
+| 11 | **Wisdom of the Elder Tortoises** | 2011 | 11 | **6,250** — Passive: **max MP +50%** |
+| 11 | **Blessing of the Storm Tortoise** | 2037 | 37 | **6,250** — Noncombat, 50 MP |
 
 💰 **Price is set by the skill's LEVEL, not by the skill** — ✅ measured per level: **125 · 250 · 500 · 750 ·
-1,250 · 1,750 · 2,500 · 3,250 · 4,000 · 5,000** for Levels 1–10, with *both* skills at a level costing the same.
-**Levels 11+ are unmeasured** (prices so far rise by 500–750 per level) — **read each cost from the meat delta**
+1,250 · 1,750 · 2,500 · 3,250 · 4,000 · 5,000 · 6,250** for Levels 1–11, with *both* skills at a level costing the same.
+**Levels 12+ are unmeasured** (prices so far rise by 500–750 per level) — **read each cost from the meat delta**
 and extend the table. The trainer's page lists the whole ladder by name through Level 15 (*Kneebutt · Blessing of She-Who-Was* at 7 … *Tao of the Terrapin ·
 Turtle Power* at 15) even though only your level's rows are buyable. A purchase you cannot afford is refused
 outright with *"You can't afford to train that skill."* — no meat moves, so trying is free.
@@ -119,6 +121,9 @@ constraint becomes how many restoratives you can carry.
 requirement**, 2–4 damage **+13 Weapon Damage**, 50% poison) carries Levels 5–8 on plain attacks, up to and
 including the Knob Goblin Harem, with little healing. Check storage for a no-requirement bonus-damage weapon
 before the first fight of a run.
+⭐ **Then switch to a high-base-damage weapon as soon as you meet its requirement** — Lunging Thrust-Smack triples
+*base* weapon damage, so the base matters more than bonuses: ✅ the **black sword** (16–32, Muscle 65, free from
+the Black Forest blacksmith) took Thrust-Smack from ~74 (whip) to **~150 per hit** at Level 11.
 ⚠️ **MP barely regenerates between fights at these levels** — casting Thrust-Smack on trash empties the pool for
 the day. Keep MP for bosses (or use an irradiated turtle, below).
 
@@ -139,6 +144,9 @@ turtles, either can appear. A few zones have their own unique turtle instead (e.
 | 944 `Investigate` | all four Cyrpt rooms (mid underground) | mocking turtle | +10 Monster Level, 15 adv |
 | 332 `Try to tame it` | eXtreme Slope | tortoboggan | accessory: Moxie +4, +20% Initiative (Moxie 30) |
 | 962 `Help her out` | Oil Peak (unique) | oil shell | ⭐ **back item: +15 Sleaze Damage** (Turtle-Tamer-only bonus) — cracks A-boo Peak's ghosts |
+| 329 `Fortune favors the bold` | Black Forest | hedgeturtle | potion |
+| 958 `Grab it` | Hidden City buildings | cigar box turtle | potion |
+| 946 `Walk the line` | Hidden Hospital | programmable turtle | potion |
 | 945 `Follow your nose` | Castle Basement | musk turtle | +combat (*High Colognic*), 15 adv |
 | 963 `Can it?` | Castle Ground Floor (unique) | frozen turtle shell | back item: **+15 Cold Damage**, +2 stench/sleaze res |
 | 964 `Rescue him` | Castle Top Floor (unique) | shocked shell | back item: physical damage every round |

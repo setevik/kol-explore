@@ -105,7 +105,7 @@ listing is up.
 ## 🥛 Milk of magnesium — take it every day
 
 **"The next food item you eat gives +5 Adventures", once per day.** ✅ Measured in-game: a 4-fullness food
-whose wiki average is 17.5 yielded **22**.
+whose wiki average is 17.5 yielded **22** (and **21** on another day).
 
 - **It has no visible effect** — the old "Got Milk" charpane effect is retired. Don't conclude it failed.
 - ⚠️ **It does not work with sushi** or Hobopolis food.

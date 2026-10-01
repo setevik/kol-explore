@@ -31,20 +31,22 @@ signature weapon (**turtle totem**) and whether shields matter (Turtle Tamers ar
 
 ---
 
-## 📊 Character state (end of run #4 Day 9 / 2026-09-30)
+## 📊 Character state (end of run #4 Day 10 / 2026-10-01)
 
-- **LEVEL 10 Turtle Tamer** (base Muscle 103 — **one point short of Level 11**). base Moxie 67.
-  **Buffed Muscle ~143, max HP 219, max MP 112.** 💰 **Meat 147,613.** **14 adventures banked.**
-  full 15/15 ✅ · drunk **20** (14 + ONE Fog Murderer overdrink) ✅.
-- 🎽 **Worn:** **fuzzy busby** (Muscle +11, Weapon Damage +10) · oil shell · scorpion whip · astral shield · old
-  sweatpants · ring of half-assed regeneration · batskin belt · amulet of extreme plot significance.
-  Held: Crown of the Goblin King · giant discarded bottlecap (Moxie 62 — wearable, but the busby is better) · Mohawk wig.
-- 🧰 **Bag after the storage audit:** 70 phonics down · 55 ancient Magi-Wipes · 30 tiny houses · 11 filthy poultices ·
-  14 gauze garters · ~20 antidotes · 2 scrolls of drastic healing · 84+ bubblin' crude.
-  **Stocked booze/food:** 4 Ye Olde Meade · 2 Fog Murderer · 3 red-hot boilermaker · 9 herbal stuffing ·
-  3 milk of magnesium.
-- ✅ **Council: everything through Level 10 DONE** (castle Wheel spun — giant discarded bottlecap).
-- 🏦 🎉 **RONIN IS OVER.** Storage pulls are unlimited; the mall delivers to inventory.
+- **LEVEL 11 Turtle Tamer.** base Muscle 116. **Buffed Muscle ~169, max HP 258, max MP ~150.**
+  💰 **Meat 129,100.** **16 adventures banked.** full 15/15 ✅ · drunk **20** (14 + ONE Fog Murderer) ✅.
+- 🎽 **Worn:** fuzzy busby · oil shell · **black sword** · astral shield · **black greaves** · ring of half-assed
+  regeneration · batskin belt · amulet of extreme plot significance. **Held:** antique machete (Hidden City lianas) ·
+  spare black greaves · surgical pieces · Mohawk wig · Crown.
+- 🧠 **Skills: all through Level 11** (6,250 each).
+- 🗝️ **MacGuffin quest (Level 11):** forged ID ✅ · **diary read** ✅ (4 sub-quests open) · Hidden Temple ✅ ·
+  **Hidden City:** 4 shrines ✅ · **Bowling Alley ✅ (scorched sphere)** · **Hospital ✅ (dripping sphere)** ·
+  **Office: McClusky file (complete) in hand** → next *Working Holiday* (786) → `Knock on the boss's office door` →
+  spirit · **Apartment** not started. Then spheres → altars → Ziggurat → Protector Spectre.
+  Still to do: Spookyraven cellar, the desert/pyramid, Copperhead/Zeppelin/Palindome.
+- 🧰 7 fires of unknown origin · ~55 phonics down · Magi-Wipes · ~28 tiny houses · antidotes · **stocked:** 4 Meade,
+  2 boilermakers, 3 Fog Murderers, 9 herbal stuffing, 3 milk of magnesium.
+- 🏦 No Ronin. Hidden Tavern unlocked (book of matches): Cursed Punch / Fog Murderer.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -62,17 +64,29 @@ signature weapon (**turtle totem**) and whether shields matter (Turtle Tamers ar
 +25%, **Regenerate 5–10 HP per adventure**, DR 15 — it answers the documented "healing costs turns" tax at low
 level), then **swap to two one-handed weapons once you own two good ones** and re-verify from `charsheet.php`.
 
-## 🔜 Next-session priorities — run #4, Day 10
+## 🔜 Next-session priorities — run #4, Day 11
 
-> **14 adventures banked. Level 10 (1 base Muscle from 11). Meat 147,613. No Ronin.**
-1. 🍽️ **EAT: milk of magnesium first, then 3 × herbal stuffing + 3 × 1-fullness** (~70 adv) — buy more from the mall
-   as needed. 🍺 **Drink rack: 2 × Meade + boilermaker = 14, then Fog Murderer** (restock in the mall).
-2. 🧠 **Level 11 → trainer** (Wisdom of the Elder Tortoises · Blessing of the Storm Tortoise; price unmeasured) — and buy
-   anything else worth having now that meat is plentiful.
-3. 🗝️ **Level 11: the MacGuffin quest** — read `macguffin-quest.md` first (Black Forest, desert, Spookyraven, Palindome…).
-4. 🐾 Consider a better familiar (terrarium check) — the Mosquito has been out all run.
+> **16 adventures banked. Level 11. Meat 129,100.**
+1. 🍽️ Milk of magnesium → 3 × herbal stuffing + 3 one-fullness. 🍺 Meade × 2 + boilermaker = 14 → Fog Murderer.
+2. 🏢 **Office:** adventure 343 until *Working Holiday* (786) → `Knock on the boss's office door` → spirit (fire of
+   unknown origin). 🏠 **Apartment (341):** Action Elevator (780) → `Go to the mezzanine` until Thrice-Cursed — buy
+   **Cursed Punch** at the Hidden Tavern to shortcut (it's booze — plan the liver).
+3. 🗿 Spheres → altars (free) → Ziggurat (350) → Protector Spectre (2 fires) → ancient amulet.
+4. Then the next MacGuffin branch: read `macguffin-quest.md` § Spookyraven / Just Deserts / Copperhead.
 
 ## 🗓️ Session log (this run)
+
+- **Run #4 Day 10 (2026-10-01): 🐢 Level 11. Black Market, diary, Hidden Temple, Hidden City: 2 spheres — 136 wins, 3 losses.**
+  🍽️ **Food +64** (milk of magnesium + herbal stuffing 21 / 19 / 17, then fillers). 🍺 **14 = +43** (Meade 14 + 16,
+  boilermaker 13), then **Fog Murderer overdrink +16**.
+  🧠 **Level 11 after 7 Airship fights; skills 6,250 each.**
+  🌲 **Black Forest:** black sword from the blacksmith (Thrust-Smack 74 → ~150), black greaves (rule repeated
+  "pants" three times). 3 losses = *Really Quite Poisoned* — cured with an antidote, cure built into the loop.
+  ⚠️ **The market had been found by a plain noncombat; ~40 turns were spent waiting for a 923 option.**
+  🧾 Forged ID 5,000 · **Desert Bus pass 5,000** (no meatcar) · Shore *Dude Ranch* trip → **diary** → 4 quests.
+  🏛️ **Hidden Temple in ~8 adventures with 2 stone wool** (Nostril → Pikachutlotal → door → BANANAS → do nothing).
+  🏙️ **Hidden City:** machete → **4 shrines in 4 adventures**; Bowling Alley (2 stored balls + 2 drops) → scorched
+  sphere; Hospital (dungarees) → dripping sphere; Office → **McClusky file complete**. Restocked food/booze (~9k).
 
 - **Run #4 Day 9 (2026-09-30): 🐢 Level 10 quest DONE, Ronin over, storage audit +125k meat — 97 wins, 5 losses.**
   🍽️ **Food +44** (guolash 17 · grape tomato 15 · sweet roll 10 · alien salad 2). 🍺 **14 = +45** (Meade 16 + 16 ·

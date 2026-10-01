@@ -2,7 +2,8 @@
 
 Council at L11 → "father missing; collect his diary." The real chain (quest log is the guide):
 
-1. **Transportation first:** the Shore/Desert Beach needs a vehicle. **Bitchin' meatcar** route
+1. **Transportation first:** the Shore/Desert Beach needs a vehicle. ⭐ **Simplest: a Desert Bus pass — General
+   Store row 657, 5,000 meat, no crafting** (✅ the Shore opened immediately). Otherwise the **Bitchin' meatcar** route
    (`mechanics/meatcar-build.md`): if a **meat engine (126)** survives in Hagnk's, only **tires (136) +
    sweet rims (135) → Dope Wheels (137)**, then engine+wheels → **meatcar (134)** (2 meat paste). Mall has
    all parts (~700 meat total).
@@ -22,8 +23,14 @@ Council at L11 → "father missing; collect his diary." The real chain (quest lo
      Cobbler house = choice **928** (opt 6 leaves; 3 blackberries → galoshes).
    - **Beehive side-chain:** "buzzing sound" → *Bee Persistent* (1018) → keep going ×2 (costs HP + advs,
      advs count as forest progress) → **beehive** item.
-4. **At the market: forged identification documents = 5,000 meat.**
-5. **Shore vacation WITH the forged ID → "your father's diary."** Reading it unlocks the Spookyraven
+   🚨 **The Black Market's discovery is a PLAIN noncombat, not an option on 923** — afterwards the woods map
+   (`place.php?whichplace=woods`) gains **`action=blackmarket`** and the quest log says *"You've found the Black
+   Market"*. ✅ A Muscle class (black sword, Thrust-Smack) reached it in ~30 black-monster wins with 0 real
+   losses; **check the map every ~10 fights** instead of waiting for 923 to offer it (a loop that did wasted ~40
+   turns). 924's labels: `Attack the bushes` (the fight) · `Visit the cobbler's house` · `Head toward the buzzing sound`.
+   ⚠️ **Black widows and adders poison** (*Really Quite Poisoned*, all stats −70%) — cure with an antidote at once.
+4. **At the market (`shop.php?whichshop=blackmarket`): forged identification documents = 5,000 meat.**
+5. **Shore vacation WITH the forged ID → "your father's diary"** (any of the three trips works). Reading it unlocks the Spookyraven
    cellar (choice 921 gate), the desert chain, etc.
 
 ## ⚔️ A MUSCLE CLASS WITH A DAMAGE MULTIPLIER REWRITES THIS WHOLE CHAPTER
@@ -96,8 +103,9 @@ pieces (Hidden City amulet + Spookyraven + Palindome "Staff of Fats"); Copperhea
    502→3 → **506→3 "follow the coin"** → 507→1 → **Spooky Temple map** → `inv_use` it → temple open (280).
    ⚠️ **Detect these items BY NAME on `inventory.php`, not by guessed ids** (the id list in old notes was
    wrong). ⚠️ **Choice 504 re-fires forever if left pending** — always resolve with "Take your leave".
-2. **stone wool (5643) = the accelerator.** Each gives *Stone-Faced* (5 advs) which **guarantees the
-   "Fitting In" choice (582)** — you pick where to explore. 3 handfuls did the whole temple:
+2. **stone wool (5643) = the accelerator** (mall ~660). *Stone-Faced* **guarantees the next temple adventure
+   is the "Fitting In" choice (582)** — ✅ it covers **one** noncombat, not five turns; use a fresh wool before
+   each 582 you need. ✅ **Two wools and ~8 adventures did the whole temple:**
    - **582→1 (higher levels)** → 579 → **579→2 "climb down some vines" → the Nostril of the Serpent**
    - **582→3 (downwards)** → 581 (Such Great Depths; opt 2 = once/day lake buff, opt 1 = glowing fungus)
    - **582→2 (ground floor)** → **580 Hidden Heart** → **580→2 down the stairs** (the Nostril auto-installs)
@@ -172,8 +180,9 @@ The four spheres are **not** the quest turn-in; the Ziggurat needs **four stone 
   **Auto-equip each surgical piece as it drops** (half-size scalpel / head mirror / surgical mask / surgical
   apron / dungarees, +10% each).
 - **Bowling Alley (344)** — *Life is Like a Cherry of Bowls* (**788**) is **100%** whenever you hold a bowling
-  ball; `Let's roll` ×4 gives stats, the **5th** summons the spirit. Balls are a 40% drop from **bowlers only**,
-  so this is the slow building (~1 ball per ~10 fights measured).
+  ball; `Let's roll` ×4 gives stats, the **5th** summons the spirit. **Each roll consumes the ball.** Balls are a
+  40% drop from **bowlers only** — ⭐ **check storage first**: 2 balls from a previous estate plus 2 drops did the
+  whole alley in ~15 adventures.
   ⚠️ `Let's don't` is free and re-fires forever while you hold a ball.
 - **Book of matches** (pygmy janitor drop) → `inv_use` → **unlocks the Hidden Tavern**
   (`shop.php?whichshop=hiddentavern`): **Cursed Punch** (500, row 173 — the Apartment's curse),
