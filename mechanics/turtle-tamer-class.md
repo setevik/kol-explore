@@ -74,10 +74,12 @@ POST `guild.php` with `action=buyskill&skillid=<short id>&pwd=`.
 | 10 | **Shieldbutt** | 2005 | 5 | **5,000** — Combat, 10 MP: extra damage based on your shield |
 | 11 | **Wisdom of the Elder Tortoises** | 2011 | 11 | **6,250** — Passive: **max MP +50%** |
 | 11 | **Blessing of the Storm Tortoise** | 2037 | 37 | **6,250** — Noncombat, 50 MP |
+| 12 | **Astral Shell** | 2012 | 12 | **7,500** — Buff, 10 MP: damage reduction + elemental resistance |
+| 12 | **The Long View** | 2038 | 38 | **7,500** — Passive |
 
 💰 **Price is set by the skill's LEVEL, not by the skill** — ✅ measured per level: **125 · 250 · 500 · 750 ·
-1,250 · 1,750 · 2,500 · 3,250 · 4,000 · 5,000 · 6,250** for Levels 1–11, with *both* skills at a level costing the same.
-**Levels 12+ are unmeasured** (prices so far rise by 500–750 per level) — **read each cost from the meat delta**
+1,250 · 1,750 · 2,500 · 3,250 · 4,000 · 5,000 · 6,250 · 7,500** for Levels 1–12, with *both* skills at a level costing the same.
+**Levels 13+ are unmeasured** (prices so far rise by 500–750 per level) — **read each cost from the meat delta**
 and extend the table. The trainer's page lists the whole ladder by name through Level 15 (*Kneebutt · Blessing of She-Who-Was* at 7 … *Tao of the Terrapin ·
 Turtle Power* at 15) even though only your level's rows are buyable. A purchase you cannot afford is refused
 outright with *"You can't afford to train that skill."* — no meat moves, so trying is free.
@@ -147,6 +149,7 @@ turtles, either can appear. A few zones have their own unique turtle instead (e.
 | 329 `Fortune favors the bold` | Black Forest | hedgeturtle | potion |
 | 958 `Grab it` | Hidden City buildings | cigar box turtle | potion |
 | 946 `Walk the line` | Hidden Hospital | programmable turtle | potion |
+| 942 `Tame it!` | Haunted Kitchen | gummi turtle | potion |
 | 945 `Follow your nose` | Castle Basement | musk turtle | +combat (*High Colognic*), 15 adv |
 | 963 `Can it?` | Castle Ground Floor (unique) | frozen turtle shell | back item: **+15 Cold Damage**, +2 stench/sleaze res |
 | 964 `Rescue him` | Castle Top Floor (unique) | shocked shell | back item: physical damage every round |

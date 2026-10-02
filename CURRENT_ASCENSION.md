@@ -31,22 +31,21 @@ signature weapon (**turtle totem**) and whether shields matter (Turtle Tamers ar
 
 ---
 
-## 📊 Character state (end of run #4 Day 10 / 2026-10-01)
+## 📊 Character state (end of run #4 Day 11 / 2026-10-02)
 
-- **LEVEL 11 Turtle Tamer.** base Muscle 116. **Buffed Muscle ~169, max HP 258, max MP ~150.**
-  💰 **Meat 129,100.** **16 adventures banked.** full 15/15 ✅ · drunk **20** (14 + ONE Fog Murderer) ✅.
-- 🎽 **Worn:** fuzzy busby · oil shell · **black sword** · astral shield · **black greaves** · ring of half-assed
-  regeneration · batskin belt · amulet of extreme plot significance. **Held:** antique machete (Hidden City lianas) ·
-  spare black greaves · surgical pieces · Mohawk wig · Crown.
-- 🧠 **Skills: all through Level 11** (6,250 each).
-- 🗝️ **MacGuffin quest (Level 11):** forged ID ✅ · **diary read** ✅ (4 sub-quests open) · Hidden Temple ✅ ·
-  **Hidden City:** 4 shrines ✅ · **Bowling Alley ✅ (scorched sphere)** · **Hospital ✅ (dripping sphere)** ·
-  **Office: McClusky file (complete) in hand** → next *Working Holiday* (786) → `Knock on the boss's office door` →
-  spirit · **Apartment** not started. Then spheres → altars → Ziggurat → Protector Spectre.
-  Still to do: Spookyraven cellar, the desert/pyramid, Copperhead/Zeppelin/Palindome.
-- 🧰 7 fires of unknown origin · ~55 phonics down · Magi-Wipes · ~28 tiny houses · antidotes · **stocked:** 4 Meade,
-  2 boilermakers, 3 Fog Murderers, 9 herbal stuffing, 3 milk of magnesium.
-- 🏦 No Ronin. Hidden Tavern unlocked (book of matches): Cursed Punch / Fog Murderer.
+- **LEVEL 12 Turtle Tamer.** base Muscle 127. **Buffed Muscle ~190, max HP ~290, max MP ~165.**
+  💰 **Meat ~111,900** (after 15k of Level 12 skills). **15 adventures banked.** full 15/15 ✅ · drunk **20** ✅.
+- 🎽 **Worn:** fuzzy busby · oil shell · black sword · astral shield · black greaves · ring of half-assed regeneration ·
+  batskin belt · amulet of extreme plot significance. Held: antique machete · **pool cue** · Mohawk wig · Crown.
+- 🧠 **Skills: all through Level 12** (7,500 each).
+- 🗝️ **MacGuffin:**
+  - ✅ **Hidden City DONE → ancient amulet** (all 4 spheres; Spectre 1 round).
+  - ✅ **Desert 100% explored** — the pyramid waits on the assembled Staff of Ed.
+  - ✅ **Of Mice and Shen DONE → Copperhead Charm #1.** ▶ **Merry-Go-Ron:** protester gate at 384 (2 turns spent).
+  - ▶ **Spookyraven:** telegram used, **billiards room key** in hand → Billiards Room (391) pool ghost next
+    (**drink to exactly 10 first**; pool cue held), then library → necklace → Lady's chain → ballroom (diary) → cellar.
+- 🧰 30 phonics down (mall 230) · ~45 Magi-Wipes · ~25 tiny houses · 3 fires of unknown origin · **stocked:** 4 Meade,
+  3 boilermakers, 1 Fog Murderer, 3 herbal stuffing, 1 milk of magnesium.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -64,17 +63,26 @@ signature weapon (**turtle totem**) and whether shields matter (Turtle Tamers ar
 +25%, **Regenerate 5–10 HP per adventure**, DR 15 — it answers the documented "healing costs turns" tax at low
 level), then **swap to two one-handed weapons once you own two good ones** and re-verify from `charsheet.php`.
 
-## 🔜 Next-session priorities — run #4, Day 11
+## 🔜 Next-session priorities — run #4, Day 12
 
-> **16 adventures banked. Level 11. Meat 129,100.**
-1. 🍽️ Milk of magnesium → 3 × herbal stuffing + 3 one-fullness. 🍺 Meade × 2 + boilermaker = 14 → Fog Murderer.
-2. 🏢 **Office:** adventure 343 until *Working Holiday* (786) → `Knock on the boss's office door` → spirit (fire of
-   unknown origin). 🏠 **Apartment (341):** Action Elevator (780) → `Go to the mezzanine` until Thrice-Cursed — buy
-   **Cursed Punch** at the Hidden Tavern to shortcut (it's booze — plan the liver).
-3. 🗿 Spheres → altars (free) → Ziggurat (350) → Protector Spectre (2 fires) → ancient amulet.
-4. Then the next MacGuffin branch: read `macguffin-quest.md` § Spookyraven / Just Deserts / Copperhead.
+> **15 adventures banked. Level 12.** Buy more stuffing/booze first (only 3 stuffing, 1 Fog Murderer left).
+1. 🍽️ Milk → 3 stuffing + fillers. 🎱 **Drink to EXACTLY 10 first** (2 × Meade), equip the **pool cue** (two-handed —
+   swap back after), and hunt the Billiards Room (391) for choice 875 → `Hustle the ghost` (see `pool-skill.md`).
+   Then the rest of the liver (boilermaker = 14) at day end, Fog Murderer as the overdrink.
+2. 📚 Library (390): necklace on the 5th writing desk → Lady Spookyraven chain (`spookyraven-ghost-chain.md`).
+3. 🎈 Red Zeppelin protester gate (384) — read `macguffin-quest.md` § Zeppelin gate first.
 
 ## 🗓️ Session log (this run)
+
+- **Run #4 Day 11 (2026-10-02): 🐢 Level 12. Hidden City DONE, desert 100%, Shen DONE, billiards key — ~137 wins, 1 loss.**
+  🍽️ **Food +65** (milk + stuffing 21/16/20, fillers). 🍺 3 Cursed Punch at day-open (curse) + Meade 14/15 + Imp Ale
+  = 14, then **Fog Murderer +15**.
+  🏙️ Office spirit on the 4th turn (crackling sphere) · **3 × Cursed Punch → Thrice-Cursed → elevator on encounter 9 →
+  penthouse spirit** (moss sphere) · spheres to altars (free) · **Protector Spectre in 1 round → ancient amulet.**
+  🏜️ **Desert 0 → 100% in ~60 turns** (paint +15, stone rose +15; Gnasir labels recorded). ~8 turns wasted past 100%.
+  🐍 **Shen:** First Pizza (6) → Stankara Stone (4) → Black Flag (4) → **Copperhead Charm**. Phonics down ran out
+  mid-castle — Magi-Wipes took over; restocked 30 phonics (230 each).
+  🏚️ Spookyraven: telegram → Kitchen key in 22 fights. **Level 12** (skills 7,500 each).
 
 - **Run #4 Day 10 (2026-10-01): 🐢 Level 11. Black Market, diary, Hidden Temple, Hidden City: 2 spheres — 136 wins, 3 losses.**
   🍽️ **Food +64** (milk of magnesium + herbal stuffing 21 / 19 / 17, then fillers). 🍺 **14 = +43** (Meade 14 + 16,

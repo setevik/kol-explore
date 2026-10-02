@@ -41,7 +41,7 @@ Kitchen, Conservatory, Billiards Room, Library and Stairs Up are drawn on `place
   ✅ Read progress from the fight text: *"You manage to dig through a single drawer looking for the key…"* per fight.
   ✅ **Measured end to end with no real resistance: exactly 21 fights, one drawer each, then *"Fortunately, you find
   the key, in the last drawer you check"* on the 21st — 0 losses** (Kitchen monsters are ML 20–22). Budget 21
-  adventures flat, plus a free *Lights Out* interruption.
+  adventures flat, plus a free *Lights Out* interruption. (✅ A second run needed **22**.)
   🐛 Never detect success with `/find the key/` — the failure line *"you don't find the key"* matches it too.
   ✅ **Lights Out in the Kitchen (choice 893)** — `Refuse to Take the Heat` · **`Light a Candle`** · `Open the Icebox`.
   It interrupts the grind on the manor's periodic Lights Out timer. **`Light a Candle` costs no adventure** and just

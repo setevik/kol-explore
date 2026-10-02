@@ -155,6 +155,9 @@ consumes the choice (`You lose an effect: Twice-Cursed / You acquire an effect: 
 Twice-Cursed, so **check before buying Cursed Punch**; one mezzanine ride may be all you need.
 ✅ Measured: Thrice-Cursed has **9–10 adventures** of duration and the next elevator arrived **7 encounters**
 later, so one ride is enough if you go straight there. Keep a Cursed Punch or two in reserve to top it up.
+⭐ **Fastest route: drink 3 × Cursed Punch (Hidden Tavern row 173, 1 drunk each) → Thrice-Cursed at once**, then
+adventure the Apartment: ✅ the elevator came on the 9th encounter → `Go to the Thrice-Cursed Penthouse` → spirit.
+No mezzanine rides needed. Pygmy shamans there also add curse.
 
 ## 🗿 Endgame: spheres → triangles → the Ziggurat (✅ verified, ~1 adventure)
 
@@ -219,6 +222,9 @@ that returns *"You shouldn't be here."* — **for free, forever**, so a loop wri
 the Oasis" spins on turn one. ✅ Correct order: **enter 364 while dry** (that reveals the Oasis), and only then
 run the Oasis ⇄ desert loop.
 
+✅ **Re-measured (Muscle class, Level 11–12): 0 → 100% in ~60 turns, 1 loss** — paint pamphlet at 20% (+15), stone
+rose from *All Across the Sands* (a plain Oasis noncombat) at 68% (+15). Watch the `% explored` alt-text and stop
+the loop at 100 — the desert keeps serving fights afterwards.
 ✅ **Measured run of the whole crossing** (Muscle class, Lunging, ~50 turns total): dry desert turn → Oasis
 (*Glug, Glug, Glug* = **Ultrahydrated**) → ~10 desert turns → repeat. **0 losses in 70 desert fights.**
 ⭐ **Gnasir's three errands are all obtainable in one day and each pamphlet is worth ~15%:**
@@ -310,6 +316,9 @@ Murphy's Rancid Black Flag**, and the hand-in menus were **852 then 853** (each 
 `Sit down.` button). **Read the quest log for the current artifact** after every hand-in rather than following the
 table's order. Every artifact so far comes from a *snake* monster that only appears while its step is active —
 open against it with Club Foot.
+
+✅ A third character's draw: **The First Pizza (6 Lair fights) → The Stankara Stone (4 Burrow fights) → Murphy's
+Rancid Black Flag (4 Top-Floor fights)**, hand-ins 852 → 853 → 854 — the whole quest in ~25 adventures.
 
 Completing all three ends **"Of Mice and Shen"** and yields **Copperhead Charm #1**. The second charm is held
 by his brother **Ron**, on the **Red Zeppelin** — both charms are what open the **Palindome**.
