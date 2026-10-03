@@ -31,21 +31,19 @@ signature weapon (**turtle totem**) and whether shields matter (Turtle Tamers ar
 
 ---
 
-## 📊 Character state (end of run #4 Day 11 / 2026-10-02)
+## 📊 Character state (end of run #4 Day 12 / 2026-10-03)
 
-- **LEVEL 12 Turtle Tamer.** base Muscle 127. **Buffed Muscle ~190, max HP ~290, max MP ~165.**
-  💰 **Meat ~111,900** (after 15k of Level 12 skills). **15 adventures banked.** full 15/15 ✅ · drunk **20** ✅.
-- 🎽 **Worn:** fuzzy busby · oil shell · black sword · astral shield · black greaves · ring of half-assed regeneration ·
-  batskin belt · amulet of extreme plot significance. Held: antique machete · **pool cue** · Mohawk wig · Crown.
-- 🧠 **Skills: all through Level 12** (7,500 each).
-- 🗝️ **MacGuffin:**
-  - ✅ **Hidden City DONE → ancient amulet** (all 4 spheres; Spectre 1 round).
-  - ✅ **Desert 100% explored** — the pyramid waits on the assembled Staff of Ed.
-  - ✅ **Of Mice and Shen DONE → Copperhead Charm #1.** ▶ **Merry-Go-Ron:** protester gate at 384 (2 turns spent).
-  - ▶ **Spookyraven:** telegram used, **billiards room key** in hand → Billiards Room (391) pool ghost next
-    (**drink to exactly 10 first**; pool cue held), then library → necklace → Lady's chain → ballroom (diary) → cellar.
-- 🧰 30 phonics down (mall 230) · ~45 Magi-Wipes · ~25 tiny houses · 3 fires of unknown origin · **stocked:** 4 Meade,
-  3 boilermakers, 1 Fog Murderer, 3 herbal stuffing, 1 milk of magnesium.
+- **LEVEL 12 Turtle Tamer** (base Muscle 137). **Buffed Muscle ~189, max HP ~290.**
+  💰 **Meat 106,730.** **15 adventures banked.** full 15/15 ✅ · drunk **20** ✅.
+- 🎽 **Worn:** fuzzy busby · oil shell · black sword · astral shield · black greaves · ring of half-assed
+  regeneration · batskin belt · **Lord Spookyraven's spectacles**. Held: amulet of extreme plot significance ·
+  antique machete · pool cue · **Red Zeppelin ticket**.
+- 🗝️ **MacGuffin — Staff of Ed pieces:** ✅ **ancient amulet** (Hidden City) · ✅ **Eye of Ed** (Lord Spookyraven) ·
+  ⏳ Staff of Fats (Palindome). Desert 100%. ✅ Copperhead Charm #1 (Shen).
+  ▶ **Red Zeppelin (385) boarded:** 5 crew kills — **one more opens Ron** (HP 180, Def 170) → **Copperhead Charm
+  (rampant)** → the two charms open the **Palindome**.
+- 🧰 ~28 phonics down · ~45 Magi-Wipes · 3 fires of unknown origin · **stocked:** 6 herbal stuffing, 2 milk, 4 Meade,
+  3 boilermakers, 2 Fog Murderer, 0 Flamin' Whatshisname left.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -63,16 +61,28 @@ signature weapon (**turtle totem**) and whether shields matter (Turtle Tamers ar
 +25%, **Regenerate 5–10 HP per adventure**, DR 15 — it answers the documented "healing costs turns" tax at low
 level), then **swap to two one-handed weapons once you own two good ones** and re-verify from `charsheet.php`.
 
-## 🔜 Next-session priorities — run #4, Day 12
+## 🔜 Next-session priorities — run #4, Day 13
 
-> **15 adventures banked. Level 12.** Buy more stuffing/booze first (only 3 stuffing, 1 Fog Murderer left).
-1. 🍽️ Milk → 3 stuffing + fillers. 🎱 **Drink to EXACTLY 10 first** (2 × Meade), equip the **pool cue** (two-handed —
-   swap back after), and hunt the Billiards Room (391) for choice 875 → `Hustle the ghost` (see `pool-skill.md`).
-   Then the rest of the liver (boilermaker = 14) at day end, Fog Murderer as the overdrink.
-2. 📚 Library (390): necklace on the 5th writing desk → Lady Spookyraven chain (`spookyraven-ghost-chain.md`).
-3. 🎈 Red Zeppelin protester gate (384) — read `macguffin-quest.md` § Zeppelin gate first.
+> **15 adventures banked. Level 12. Meat 106,730.**
+1. 🍽️ Milk → 3 stuffing + fillers. 🍺 2 Meade + boilermaker = 14 at day end → Fog Murderer.
+2. 🎈 **Red Zeppelin (385):** one more crew kill → **Ron Copperhead** (Shell Up → Thrust-Smack; Def 170 vs Muscle ~189)
+   → Copperhead Charm (rampant).
+3. 🏛️ **The Palindome** — read `palindome-quest.md` first (Talisman o' Namsilat from the two charms, Dr. Awkward,
+   Staff of Fats). Then assemble the Staff of Ed → the pyramid (`pyramid-lower-chamber-wheel.md`).
+4. 🧠 Level 13 → trainer.
 
 ## 🗓️ Session log (this run)
+
+- **Run #4 Day 12 (2026-10-03): 🐢 Spookyraven DONE (Eye of Ed), Zeppelin boarded — ~150 wins, 0 losses.**
+  🍽️ **Food +60**; drank to **exactly 10** first for the pool ghost (Meade 14 + 15), boilermaker later (+12) = 14,
+  **Fog Murderer +15**.
+  🎱 Pool: lost the first hustle (+1 skill), **won the second at 7 + 10 drunk + 3 chalk** → library key.
+  📚 Necklace on the 5th writing desk → finery: powder puff (7 fights), spectacles + gown (Bedroom), shoes (maze
+  904→910→911→905→top; a loose maze rule answered the Garden painting with a knight fight first).
+  💃 Ballroom: dance, then 921 `Play the music` → **cellar (manor4 only)**. Spectacles → wine-bomb route: soda (18
+  Laundry fights), vinegar (23 Wine Cellar), 6 boilers (18 fights) → wine bomb → **Lord Spookyraven in 2 rounds →
+  Eye of Ed**.
+  🎈 Protesters: 6 Flamin' + musk + oil shell → **Zeppelin open in ~42 turns**; ticket bought, 5 crew kills.
 
 - **Run #4 Day 11 (2026-10-02): 🐢 Level 12. Hidden City DONE, desert 100%, Shen DONE, billiards key — ~137 wins, 1 loss.**
   🍽️ **Food +65** (milk + stuffing 21/16/20, fillers). 🍺 3 Cursed Punch at day-open (curse) + Meade 14/15 + Imp Ale

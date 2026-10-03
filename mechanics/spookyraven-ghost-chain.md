@@ -185,7 +185,10 @@ Note: the Escher maze may require multiple tries; if you pick wrong you pop back
 4. 🐛 **Detect the clocks room by CHOICE NUMBER (905), not by text.** Its description says *"a puddle of…
    clock"* (singular) and never "melting" or "clocks", so a text regex walks straight past it, and the
    middle-button rule then loops forever with no turn cost. Other maze rooms seen: 908, 911, 913.
-5. Other Gallery noncombats: **Out in the Garden = choice 89** (`None of the above` is free and re-schedules it
+   ✅ Re-verified maze path: **904 → 910 → 911 → 905 (middle each time) → top at 905** = shoes.
+   🐛 **Restrict the maze rule to the maze's choice numbers (904–911).** A "middle button" rule applied to whatever
+   choice is open answered **89** (*Out in the Garden*) with `The second knight` — a fight.
+5. Other Gallery noncombats: **Out in the Garden = choice 89** (`The two maidens` = *Dreams and Lights*) (`None of the above` is free and re-schedules it
    10 turns later), **Lights Out in the Gallery = choice 896** (`Quit the Gallery`).
 
 ### Step 5: Deliver Finery + Dance
@@ -233,6 +236,12 @@ Cellar (manor4) room snarfblats: **Boiler Room 399, Laundry Room 400, Wine Cella
 **Crafting the solution: NOT needed manually.** When you visit the Suspicious Masonry wall holding all 6 reagents, the game auto-mixes and consumes them: *"You mix the mortar-dissolving ingredients into a nasty-smelling paste, and smear it all over the brickwork. ... The wall collapses."* No `craft.php` step.
 
 The wall collapse reveals **The Summoning Chamber** (`place.php?whichplace=manor4&action=manor4_chamberboss`) → boss fight with **Lord Spookyraven**.
+
+✅ **Wine-bomb route, measured end to end (Level 12 Muscle class, no +item, no +ML):** blasting soda on the 18th
+Laundry fight · Chateau de Vinegar on the 23rd Wine Cellar fight · 6 monstrous boilers in 18 Boiler Room fights ·
+Lord Spookyraven in 2 rounds (Shell Up → Thrust-Smack) → **Eye of Ed**. ~60 adventures from the cellar opening.
+New Bedroom menu seen: **879** (`Check the top drawer` · `Check the bottom drawer` · `Investigate the jewelry` ·
+`Ignore it`).
 
 **Lord Spookyraven (boss tactics):**
 - An easy fight — falls in ~3 rounds to a standard Pastamancer combo, full HP throughout.

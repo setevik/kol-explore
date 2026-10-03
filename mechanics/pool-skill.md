@@ -26,6 +26,9 @@ practising: every attempt is either the key or a permanent point.
 inventory. The free *That's Your Cue* noncombat fired first (the season's first Billiards noncombat). Total cost
 from key-in-hand: **8 adventures, 6 of them trivial fights**. Keep Chalky Hand refreshed while hunting the table —
 it lasts only a few adventures and cannot be applied inside the choice.
+✅ **Second character:** questlog skill 6 → first hustle lost (+1) → **7 + 10 drunk + Chalky Hand 3 = 20 → won** on the
+second table, ~12 adventures from key-in-hand. **Hand chalk drops in the Billiards Room itself.** *Lights Out in the
+Billiards Room* = choice **900** → `Get the heck out of here` (free).
 ⚠️ The questlog skill line was still readable *immediately after* winning, contrary to the note below that it only
 shows beforehand; don't rely on either — read it before hustling.
 

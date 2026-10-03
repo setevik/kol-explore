@@ -359,6 +359,8 @@ protesters; e.g. *"pour Molotov cocktails down their pants"*).
 **A Massive Mob of…** → **A Bunch of…** → **A Scattered Mob of…** → the **Red Zeppelin (385)** link goes live.
 Ours took roughly **90 turns** with no +sleaze/+hot gear; budget accordingly, and check the *name*, not a guess.
 
+✅ **Re-measured with Flamin' Whatshisname ×6 + lynyrd musk + a sleaze-damage back item (oil shell): ~42 turns, 0
+losses** — the noncombats alternated `Hide in the bushes` / `Join in` / `Eye the protesters…`.
 ✅ **Re-measured with the two cheap boosts: ~46 turns (38 fights + 8 noncombats), 0 losses.** The full name ladder,
 observed in order: **A Massive Mob of… → A Huge Mob of… → A Mob of… → A Bunch of… → A Scattered Mob of…, at which
 point the Red Zeppelin (385) link goes live** (each step took ~5–10 fights; the last two changed between two checks
