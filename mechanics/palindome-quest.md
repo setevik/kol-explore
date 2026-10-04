@@ -125,6 +125,9 @@ Dr. Awkward's "ineptitude field" means you cannot fight him yet; he clubs you do
    `Egad!  No bondage!` · `Eva, can I stack Rod's sad-ass, dork cats in a cave?`). The wiki gives them no
    different outcomes; ✅ `War, sir, is raw!` started the fight. A loop that auto-answers only single-button menus
    stops here, which is correct — just pick one.
+⚠️ **Heal before step 5** — 872 leaves you at 0 HP and a tiny house only clears Beaten Up; a Turtle Tamer walked
+   into Dr. Awkward at 22 HP and survived only thanks to `Shell Up`. ✅ Turtle Tamer, Level 12: all four photos + Vol. I
+   in ~33 Palindome turns; bird rib, lion oil and stunt nuts came from storage; Awkward died in 2 rounds.
 7. ✅ **Measured (Level 12 Seal Clubber, Muscle ~189, dual-wield):** Club Foot → Lunging Thrust-Smack, **dead in
    2 rounds, 0 damage taken**. Drops **Staff of Fats** (+ Drowsy Sword). Meat-paste **headpiece of the Staff of Ed +
    Staff of Fats → Staff of Ed (2325)**, then `place.php?whichplace=desertbeach&action=db_pyramid1` plugs it in

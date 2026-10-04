@@ -31,19 +31,20 @@ signature weapon (**turtle totem**) and whether shields matter (Turtle Tamers ar
 
 ---
 
-## 📊 Character state (end of run #4 Day 12 / 2026-10-03)
+## 📊 Character state (end of run #4 Day 13 / 2026-10-04)
 
-- **LEVEL 12 Turtle Tamer** (base Muscle 137). **Buffed Muscle ~189, max HP ~290.**
-  💰 **Meat 106,730.** **15 adventures banked.** full 15/15 ✅ · drunk **20** ✅.
-- 🎽 **Worn:** fuzzy busby · oil shell · black sword · astral shield · black greaves · ring of half-assed
-  regeneration · batskin belt · **Lord Spookyraven's spectacles**. Held: amulet of extreme plot significance ·
-  antique machete · pool cue · **Red Zeppelin ticket**.
-- 🗝️ **MacGuffin — Staff of Ed pieces:** ✅ **ancient amulet** (Hidden City) · ✅ **Eye of Ed** (Lord Spookyraven) ·
-  ⏳ Staff of Fats (Palindome). Desert 100%. ✅ Copperhead Charm #1 (Shen).
-  ▶ **Red Zeppelin (385) boarded:** 5 crew kills — **one more opens Ron** (HP 180, Def 170) → **Copperhead Charm
-  (rampant)** → the two charms open the **Palindome**.
-- 🧰 ~28 phonics down · ~45 Magi-Wipes · 3 fires of unknown origin · **stocked:** 6 herbal stuffing, 2 milk, 4 Meade,
-  3 boilermakers, 2 Fog Murderer, 0 Flamin' Whatshisname left.
+- **LEVEL 13 Turtle Tamer** (base Muscle 153). **Buffed Muscle ~188 in the war fatigues, max HP ~327, MP ~195.**
+  💰 **Meat 80,041.** **16 adventures banked.** full 15/15 ✅ · drunk **20** ✅.
+- 🎽 **Worn (war):** **War Hippy Fatigues** (reinforced beaded headband · bullet-proof corduroys · round purple
+  sunglasses) · oil shell · black sword · astral shield · batskin belt · Talisman o' Namsilat. Held: fuzzy busby ·
+  black greaves · ring of half-assed regeneration · Mega Gem · spectacles.
+- 🧠 **Skills: all through Level 13** (10,000 each).
+- ✅ **Council done through Level 11 — the HOLY MACGUFFIN is delivered** (Ed the Undying, 7 forms, 0 losses).
+- ⚔️ **Level 12: Island War STARTED (hippy side).** Battlefield **Image #7** at 0 side quests (74 fights, 0 losses).
+  Side quests not started — see `island-war.md` (Farm is cheapest; Lighthouse/Sonofa gated by battlefield progress;
+  Nunnery = pure combat).
+- 🧰 ~20 phonics down · ~45 Magi-Wipes · tiny houses · **stocked:** 3 stuffing, 1 milk, 4 Meade, 3 boilermakers,
+  3 Fog Murderer.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -61,17 +62,25 @@ signature weapon (**turtle totem**) and whether shields matter (Turtle Tamers ar
 +25%, **Regenerate 5–10 HP per adventure**, DR 15 — it answers the documented "healing costs turns" tax at low
 level), then **swap to two one-handed weapons once you own two good ones** and re-verify from `charsheet.php`.
 
-## 🔜 Next-session priorities — run #4, Day 13
+## 🔜 Next-session priorities — run #4, Day 14
 
-> **15 adventures banked. Level 12. Meat 106,730.**
-1. 🍽️ Milk → 3 stuffing + fillers. 🍺 2 Meade + boilermaker = 14 at day end → Fog Murderer.
-2. 🎈 **Red Zeppelin (385):** one more crew kill → **Ron Copperhead** (Shell Up → Thrust-Smack; Def 170 vs Muscle ~189)
-   → Copperhead Charm (rampant).
-3. 🏛️ **The Palindome** — read `palindome-quest.md` first (Talisman o' Namsilat from the two charms, Dr. Awkward,
-   Staff of Fats). Then assemble the Staff of Ed → the pyramid (`pyramid-lower-chamber-wheel.md`).
-4. 🧠 Level 13 → trainer.
+> **16 adventures banked. Level 13. Meat 80,041.** Buy food fillers first (hot honey ants / crudités).
+1. ⚔️ **Island War:** read `island-war.md` § side quests + § Farm; do the cheap side quests first to double the
+   kill rate, push the battlefield to open the Lighthouse / Sonofa Beach, keep the fatigues on for snarf 140.
+2. 🏁 Plan **The Man** (HP 2000, Def 225) for a sober morning — you cannot enter drunk.
+3. Then Level 13: the Naughty Sorceress tower (`naughty-sorceress-tower.md`).
 
 ## 🗓️ Session log (this run)
+
+- **Run #4 Day 13 (2026-10-04): 🐢 Level 12 → 13. Staff of Ed → Ed the Undying → HOLY MACGUFFIN; Island War started — ~170 wins, 1 loss.**
+  🍽️ **Food +75** (milk + stuffing 25/20/19, 3 hot honey ants 4/4/3). 🍺 Meade 15 + 15 + boilermaker 13 = 14, Fog +16.
+  🎈 One more crew kill → **Ron Copperhead** → charm #2 → Talisman o' Namsilat; Eye of Ed + ancient amulet → headpiece.
+  🏛️ **Palindome:** 4 photos + *I Love Me* in ~33 turns → photos framed → Vol. 2 → stew from storage parts → Mega Gem →
+  **Dr. Awkward in 2 rounds** (entered at 22 HP by mistake) → Staff of Fats → **Staff of Ed** → pyramid.
+  🏺 Pyramid: Upper Chamber (wheel + Middle opened in 6) → Middle (control room in 10, 1 loss to asp poison) →
+  **9 ratchets (3 stored + 6 bought at 666) + 1 wheel = the 10 turns** → token → bomb → rubble → **Ed: 7 forms, 0 losses.**
+  🏝️ No scrip: 3 Shore trips → dinghy. Fatigues from storage. **146 took ~37 Frat House turns.** War started;
+  Battlefield #0 → #7 in 74 fights. **Level 13** (skills 10,000 each).
 
 - **Run #4 Day 12 (2026-10-03): 🐢 Spookyraven DONE (Eye of Ed), Zeppelin boarded — ~150 wins, 0 losses.**
   🍽️ **Food +60**; drank to **exactly 10** first for the pool ghost (Meade 14 + 15), boilermaker later (+12) = 14,

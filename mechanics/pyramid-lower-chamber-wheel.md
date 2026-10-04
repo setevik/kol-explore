@@ -39,11 +39,13 @@ The wheel is **not** "parked at the vending machine," and you do **not** interac
   in mainpane) **immediately before** POSTing `choice.php` with `whichchoice=929&option=N`.
   A POST to an inactive choice is silently ignored (label won't change).
 
-## The wheel is NOT a 5-ring — it's ~9 positions
+## ~~The wheel is a ~9-ring~~ — WRONG, it is 5 positions and a wheel is one step
 
-A `crumbling wooden wheel` rotates +5 and **does change the alignment** (verified: a wheel
-took label #5 → #1). So the ring length is **not** 5; it is ~9 (pos4 + 5 = pos9 ≡ pos0).
-**Wheels are useful** for big +5 jumps. Hoard them (5 tomb ratchets paste into 1 wheel).
+✅ **Re-verified end to end:** from *nothing on the left, rubble on the right* the full job took exactly **10
+one-step turns** (3 → basket · 4 → vending machine · 3 → rubble) using **9 ratchets + 1 wheel**, and the wheel moved
+the label exactly one position like a ratchet. An older note here claimed a wheel was +5 on a ~9-position ring;
+that does not hold. Count wheels + ratchets against 10.
+⭐ **Tomb ratchets: just buy them** (mall ~666 each) — farming the Middle Chamber is slow and poisonous.
 
 ## The 5 named alignment labels (verified, forward single-step order)
 
@@ -153,4 +155,9 @@ each ratchet the same way, one at a time, re-reading the label between them.
    series. ⚠️ **MP budget:** Defense-lowering skill + damage skill cost ~16 MP per form, and the stack was **empty
    by form 5** — the last two (16 and 8 HP) fell to plain attacks, but bring ~110 MP or an in-combat MP item for a
    weaker character. The final form's page links to `pyramid.php`, and the **Holy MacGuffin** is in inventory.
+   ✅ **Turtle Tamer, Level 12, Muscle ~200, max HP 336, MP 89 at entry:** all seven forms, **0 losses**, rounds
+   3 · 2 · 2 · 2 · 1 · 1 · 1, opening each form with `Shell Up` then Thrust-Smack; MP ran 89 → 7. Items cannot be
+   used between forms (the next form is already an open fight).
+   🐛 **Detect the win by the item (Holy MacGuffin, 2334), not by text** — Ed's own dialogue says "Holy MacGuffin",
+   and a text check stopped the series after form 1 (harmless only because the fight stays open).
 6. **HOLY MACGUFFIN** → Council turn-in → spine quest COMPLETE.

@@ -38,7 +38,7 @@ stated range). ✅ The three ratios in bold were re-verified in-game the day thi
 | imitation White Russian | 2 | 6 | 4–6 | 2.5 — food, despite the name |
 | later tots | 1 | — | 3–4 | **3.5** ⭐ |
 | tomb aspic | 1 | — | 3–4 | 3.5 ⭐ |
-| hot honey ant | 1 | — | 3–4 | 3.5 ⭐ |
+| hot honey ant | 1 | — | 3–4 | 3.5 ⭐ (✅ measured 4 · 4 · 3; drops in the desert) |
 | incredible pizza | 4 | 9 | 12–16 | 3.5 |
 | ghuol guolash | 5 | — | 16–19 | 3.5 |
 | candied yams | 3 | 5 | 9.5 | 3.2 |

@@ -145,6 +145,9 @@ high-HP boss that hits harder over time, see the boss note in `HANDOFF.md`.
    - ⚠️ **The sunglasses are an ACCESSORY** - free an accessory slot first.
 3. **Wear the full War Hippy Fatigues -> adventure the Orcish Frat House (27)** -> choice **146**
    -> **"Screw this, head to the roof"** -> **the war starts** and `bigisland.php` goes live.
+   ⚠️ The Frat House also serves **143** (`Take the bombs and wreak some havoc` = Muscle) and **144** (`Supply Room` ·
+   `Munitions Dump` · `Officers' Lounge` = a fight) — neither starts the war. ✅ On another character 146 took **~37
+   turns** to appear (2 of the others first). No scrip in storage? Three Shore trips (9 adventures) buy the plans.
    ✅ Re-verified on a Level 13 Muscle class: 146 arrived on the **7th** Frat House turn (6 War Pledge / drill
    sergeant fights, all one round), labels `Wander this way` · `Wander that way` · `Screw this, head to the roof`.
    The island page then shows **`The Battlefield [Image #0]`** and the quest log flips to *"You've managed to get
@@ -153,7 +156,8 @@ high-HP boss that hits harder over time, see the boss note in `HANDOFF.md`.
    (the frat side's is **132**), recommended main stat **180**, ML 170–210. Keep the whole outfit on while you
    grind it.
 4. Battlefield = **snarf 140**; progress is the **"Image #N"** in the zone link (0 -> 32).
-   At 0 side quests it moves ~1 image per 9-10 wins (37 wins took us #0 -> #4).
+   At 0 side quests it moves ~1 image per 9-10 wins (37 wins took us #0 -> #4; ✅ again 74 wins → #7, 0 losses, at
+   Level 12–13 buffed Muscle ~188 in the fatigues).
 
 
 ## Verified war numbers
