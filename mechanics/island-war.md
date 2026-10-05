@@ -214,6 +214,9 @@ high-HP boss that hits harder over time, see the boss note in `HANDOFF.md`.
 - **Talk to the farmer again** when all three are gone (again **with `&pwd`**) -> *"Ach, the dooks are gone! Thank
   ye."* -> he plants soybeans -> **side quest complete**.
 - No RNG, no items to collect - purely combat, which makes it the best second pick after the Lighthouse.
+- ✅ Re-measured on another Muscle class: Lighthouse open at exactly **#7**, Sonofa's 5 barrels in **22 turns**,
+  Farm open at **#13**, whole Farm (Barn + three zones) in **~39 adventures**, 0 losses. At **#19** the island page
+  also links the **Junkyard, Orchard, Arena (concert) and Nunnery**.
 - ✅ **Measured end to end on a Level 14 Muscle class: 32 adventures, 0 losses** — 4 Barn turns to fire all three
   shoo noncombats, then **9 + 10 + 9** turns to empty the three zones. The snarfs match the monsters:
   **142 = hot ducks** (scorched / fire-breathing — the *Back 40*), **144 = rotund ducks** (the *Granary*),
@@ -231,6 +234,8 @@ high-HP boss that hits harder over time, see the boss note in `HANDOFF.md`.
 | 1x, **Level 13 Seal Clubber** (Muscle ~221, dual-wield, Lunging Thrust-Smack) | 44 | 5 (#0 -> #5), **0 losses** |
 | 2x (Lighthouse), same character | 40 | 4 (#9 -> #13), 0 losses |
 | **4x (Lighthouse + Farm)**, same character at Level 14 | 45 | 5 (#16 -> #21), 0 losses |
+| 2x (Lighthouse), **Level 13 Turtle Tamer** (Muscle ~188, black sword) | 53 | 6 (#7 -> #13), 0 losses |
+| 4x (Lighthouse + Farm), same character | 51 | 6 (#13 -> #19), 0 losses |
 
 🚨 **The wins-per-image number barely moves as the multiplier climbs** — ~9–10 wins per image at 1x, 2x *and* 4x
 on the same character. Deeper images simply need more kills, so each doubling roughly cancels the increase.

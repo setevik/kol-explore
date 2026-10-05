@@ -31,20 +31,14 @@ signature weapon (**turtle totem**) and whether shields matter (Turtle Tamers ar
 
 ---
 
-## 📊 Character state (end of run #4 Day 13 / 2026-10-04)
+## 📊 Character state (end of run #4 Day 14 / 2026-10-05)
 
-- **LEVEL 13 Turtle Tamer** (base Muscle 153). **Buffed Muscle ~188 in the war fatigues, max HP ~327, MP ~195.**
-  💰 **Meat 80,041.** **16 adventures banked.** full 15/15 ✅ · drunk **20** ✅.
-- 🎽 **Worn (war):** **War Hippy Fatigues** (reinforced beaded headband · bullet-proof corduroys · round purple
-  sunglasses) · oil shell · black sword · astral shield · batskin belt · Talisman o' Namsilat. Held: fuzzy busby ·
-  black greaves · ring of half-assed regeneration · Mega Gem · spectacles.
-- 🧠 **Skills: all through Level 13** (10,000 each).
-- ✅ **Council done through Level 11 — the HOLY MACGUFFIN is delivered** (Ed the Undying, 7 forms, 0 losses).
-- ⚔️ **Level 12: Island War STARTED (hippy side).** Battlefield **Image #7** at 0 side quests (74 fights, 0 losses).
-  Side quests not started — see `island-war.md` (Farm is cheapest; Lighthouse/Sonofa gated by battlefield progress;
-  Nunnery = pure combat).
-- 🧰 ~20 phonics down · ~45 Magi-Wipes · tiny houses · **stocked:** 3 stuffing, 1 milk, 4 Meade, 3 boilermakers,
-  3 Fog Murderer.
+- **LEVEL 13 Turtle Tamer** (base Muscle 165). **Buffed Muscle ~190 in the war fatigues, max HP ~337, MP ~199.**
+  💰 **Meat 75,188.** **16 adventures banked.** full 15/15 ✅ · drunk **20** ✅.
+- 🎽 **Worn (war):** War Hippy Fatigues · oil shell · black sword · astral shield · batskin belt · Talisman.
+- ⚔️ **Island War (hippy side): Battlefield Image #19, side quests ✅ Lighthouse ✅ Farm (×4 kill rate).**
+  Island page now also links **Junkyard, Orchard, Arena (concert), Nunnery**.
+- 🧰 ~40 phonics down (230 each) · tiny houses · **stocked:** 6 stuffing, 2 milk, 4 Meade, 2 boilermakers, 1 Fog.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -62,15 +56,21 @@ signature weapon (**turtle totem**) and whether shields matter (Turtle Tamers ar
 +25%, **Regenerate 5–10 HP per adventure**, DR 15 — it answers the documented "healing costs turns" tax at low
 level), then **swap to two one-handed weapons once you own two good ones** and re-verify from `charsheet.php`.
 
-## 🔜 Next-session priorities — run #4, Day 14
+## 🔜 Next-session priorities — run #4, Day 15
 
-> **16 adventures banked. Level 13. Meat 80,041.** Buy food fillers first (hot honey ants / crudités).
-1. ⚔️ **Island War:** read `island-war.md` § side quests + § Farm; do the cheap side quests first to double the
-   kill rate, push the battlefield to open the Lighthouse / Sonofa Beach, keep the fatigues on for snarf 140.
-2. 🏁 Plan **The Man** (HP 2000, Def 225) for a sober morning — you cannot enter drunk.
-3. Then Level 13: the Naughty Sorceress tower (`naughty-sorceress-tower.md`).
+> **16 adventures banked. Level 13. Meat 75,188.**
+1. ⚔️ A third side quest for ×8: **Nunnery** (pure combat, 100k meat recovered — slow without +meat) or the
+   **Junkyard** (molybdenum magnet, gremlins — read § Junkyard first) or **Arena** (concert). Then push to #32.
+2. 🏁 **The Man** (HP 2000, Def 225): fight **sober**, before the evening drink — plan it for a morning.
+3. Then the Naughty Sorceress tower.
 
 ## 🗓️ Session log (this run)
+
+- **Run #4 Day 14 (2026-10-05): 🐢 Island War: Lighthouse + Farm done, Battlefield #7 → #19 — ~150 wins, 0 losses.**
+  🍽️ **Food +72** (milk + stuffing 25/19/20, fillers). 🍺 Meade ×2 + boilermaker = 14, Fog +16.
+  🌊 Sonofa Beach: 5 barrels in 22 turns → Lighthouse keeper (pwd link scraped). Phonics + Magi-Wipes ran out
+  mid-beach → bought 40 phonics. 🦆 Farm at #13: Barn (pitchfork / lantern / shotgun) → zones 142/144/147 cleared →
+  farmer thanked me. Battlefield: 53 wins #7→#13 at ×2, 51 wins #13→#19 at ×4.
 
 - **Run #4 Day 13 (2026-10-04): 🐢 Level 12 → 13. Staff of Ed → Ed the Undying → HOLY MACGUFFIN; Island War started — ~170 wins, 1 loss.**
   🍽️ **Food +75** (milk + stuffing 25/20/19, 3 hot honey ants 4/4/3). 🍺 Meade 15 + 15 + boilermaker 13 = 14, Fog +16.
