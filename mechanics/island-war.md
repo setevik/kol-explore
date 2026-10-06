@@ -32,6 +32,10 @@ turns first, then re-check `bigisland.php?place=lighthouse`.
   - **Nunnery** (Themthar Hills, **snarf 126**) — recover 100,000 meat from brigands; pure combat, no RNG, but
     SLOW without +Meat% (recovered meat does NOT go to you → meat-negative).
   - **Arena/Junkyard/Farm** — gated behind battlefield progress; unlock deeper in.
+  - **Arena** — the promoter's flyers (hippy side: *jam band flyers*) must be slapped on monsters **outside the
+    battlefield** (*"too busy fighting in the war to go to a concert"* there), each use lets the monster hit you, and
+    the total flyered ML must reach 10,000 — so it costs its own adventures elsewhere.
+  - **Nunnery** brigands carry **800–1,200 meat** each, so 100,000 meat is ~100 fights without +Meat%.
 - Battlefield = **snarf 140** (as a hippy you fight frat boys). Progress is the **"Image #N"** number on the
   `bigisland.php` zone links (#0→#32), NOT the map sprite count (sprites look full even when nearly cleared).
 
@@ -51,6 +55,8 @@ snarf 27 is dead (*"you shouldn't be here"*). Instead **click "The Orcish Frat H
 
 **HP 2,000 · Attack 250 · Defense 225 · No-Hit 269 · Initiative 60 · Phylum dude · Element sleaze · no resistance.**
 Drops the **really dense meat stack** (autosells ~5,000).
+🚨 **The boss link needs at least 1 adventure left** — at 0 it answers *"You don't have time to fight here."*
+Keep one adventure in hand when the front reaches #32.
 🚨 **You cannot enter the fight while drunk** — *"You're too drunk to go there. So don't go there."* ⇒ **fight the
 boss BEFORE the evening drink step**, not after. (A day that fills the liver first cannot finish the war.)
 ⚔️ **Defense 225 is an accuracy gate** for a melee class whose buffed Muscle is below it — open with the
@@ -236,6 +242,7 @@ high-HP boss that hits harder over time, see the boss note in `HANDOFF.md`.
 | **4x (Lighthouse + Farm)**, same character at Level 14 | 45 | 5 (#16 -> #21), 0 losses |
 | 2x (Lighthouse), **Level 13 Turtle Tamer** (Muscle ~188, black sword) | 53 | 6 (#7 -> #13), 0 losses |
 | 4x (Lighthouse + Farm), same character | 51 | 6 (#13 -> #19), 0 losses |
+| 4x (Lighthouse + Farm), same character, Level 13 → 14 | ~153 | 13 (#19 -> #32), 0 losses |
 
 🚨 **The wins-per-image number barely moves as the multiplier climbs** — ~9–10 wins per image at 1x, 2x *and* 4x
 on the same character. Deeper images simply need more kills, so each doubling roughly cancels the increase.
@@ -247,6 +254,7 @@ melee character handles the ML 170–210 frat soldiers in one round with MP from
 
 ⚠️ **The war is MP-hungry as well as meat-negative** - it is easy to hit 0 MP mid-advance.
 Buy ~25 MMJ before starting and expect to restock mid-day.
+A Turtle Tamer healing on phonics down burned **~40 phonics per ~130 battlefield fights** (about one per three).
 
 
 ## The Junkyard side quest - know the cost before you commit

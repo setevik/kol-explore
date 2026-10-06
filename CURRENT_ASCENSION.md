@@ -31,14 +31,15 @@ signature weapon (**turtle totem**) and whether shields matter (Turtle Tamers ar
 
 ---
 
-## 📊 Character state (end of run #4 Day 14 / 2026-10-05)
+## 📊 Character state (end of run #4 Day 15 / 2026-10-06)
 
-- **LEVEL 13 Turtle Tamer** (base Muscle 165). **Buffed Muscle ~190 in the war fatigues, max HP ~337, MP ~199.**
-  💰 **Meat 75,188.** **16 adventures banked.** full 15/15 ✅ · drunk **20** ✅.
+- **LEVEL 14 Turtle Tamer** (base Muscle 180). **Buffed Muscle ~228 in the war fatigues, max HP ~387, MP ~233.**
+  💰 **Meat 59,840.** **14 adventures banked.** full 15/15 ✅ · drunk **20** ✅.
 - 🎽 **Worn (war):** War Hippy Fatigues · oil shell · black sword · astral shield · batskin belt · Talisman.
-- ⚔️ **Island War (hippy side): Battlefield Image #19, side quests ✅ Lighthouse ✅ Farm (×4 kill rate).**
-  Island page now also links **Junkyard, Orchard, Arena (concert), Nunnery**.
-- 🧰 ~40 phonics down (230 each) · tiny houses · **stocked:** 6 stuffing, 2 milk, 4 Meade, 2 boilermakers, 1 Fog.
+- ⚔️ **Island War (hippy side): Battlefield Image #32 — the front is CLEAR.** The boss link
+  `bigisland.php?action=bossfight&pwd=…` is live on `place=camp&whichcamp=2`. Side quests ✅ Lighthouse ✅ Farm.
+- 🧰 40 phonics down · 25 tiny houses · 6 fire of unknown origin · battlefield beer/sake bombs ·
+  **stocked:** 18 stuffing, 6 milk, 3 snowcones, 12 Meade, 10 boilermakers, 2 Fog.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -56,15 +57,24 @@ signature weapon (**turtle totem**) and whether shields matter (Turtle Tamers ar
 +25%, **Regenerate 5–10 HP per adventure**, DR 15 — it answers the documented "healing costs turns" tax at low
 level), then **swap to two one-handed weapons once you own two good ones** and re-verify from `charsheet.php`.
 
-## 🔜 Next-session priorities — run #4, Day 15
+## 🔜 Next-session priorities — run #4, Day 16
 
-> **16 adventures banked. Level 13. Meat 75,188.**
-1. ⚔️ A third side quest for ×8: **Nunnery** (pure combat, 100k meat recovered — slow without +meat) or the
-   **Junkyard** (molybdenum magnet, gremlins — read § Junkyard first) or **Arena** (concert). Then push to #32.
-2. 🏁 **The Man** (HP 2000, Def 225): fight **sober**, before the evening drink — plan it for a morning.
-3. Then the Naughty Sorceress tower.
+> **14 adventures banked. Level 14. Meat 59,840. Battlefield CLEAR.**
+1. 🏁 **The Man FIRST, sober, before eating or drinking** (HP 2000, Atk 250, Def 225; needs ≥1 adventure).
+   Full HP/MP → Shell Up round 1 → Lunging Thrust-Smack every round; heal (Cannelloni Cocoon / phonics) only
+   below ~35% HP. Buffed Muscle ~228 is just over his Defense 225. Bombs (beer/sake) as backup. Read
+   `mechanics/island-war.md` § The Man. Then `council.php` → war reward; sell the dense meat stack.
+2. 🗼 Then the **Naughty Sorceress tower** (Level 13 quest) — read the tower doc in `mechanics/` first.
+3. Eat → adventure → drink as usual.
 
 ## 🗓️ Session log (this run)
+
+- **Run #4 Day 15 (2026-10-06): 🐢 Level 14. Battlefield #19 → #32 — CLEAR. ~153 wins, 0 losses.**
+  🍽️ **Food +64** (milk + stuffing 22/17/18, crudités, jungle fruit, snowcone). 🍺 Meade 16 + 16 + boilermaker 11
+  = 14, kept fighting at 14, then Fog +14.
+  ⚔️ Skipped the third side quest (Nunnery ~100 fights without +meat, Junkyard gremlins rare, Arena flyers don't
+  work on the battlefield) and pushed at ×4: ~11–12 wins per image. Front cleared on the last adventure → boss
+  refused with *"You don't have time to fight here"* (needs ≥1 adv) → The Man tomorrow morning. 80 phonics bought.
 
 - **Run #4 Day 14 (2026-10-05): 🐢 Island War: Lighthouse + Farm done, Battlefield #7 → #19 — ~150 wins, 0 losses.**
   🍽️ **Food +72** (milk + stuffing 25/19/20, fillers). 🍺 Meade ×2 + boilermaker = 14, Fog +16.
