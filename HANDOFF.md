@@ -590,6 +590,27 @@ counter up. A boss you cannot yet beat is not a fight to retry — it is a shopp
 ⚠️ Prefer `curl` over opening a browser tab for the wiki: same content, far cheaper, and it does not disturb
 the game tab's session.
 
+## 🧪 A BOSS YOU CAN'T OUT-STAT IS A SHOPPING TRIP — STACK MALL STAT POTIONS
+
+Cheap mall potions with **different effect names stack**, and at high level their bonuses are in the hundreds,
+not single digits. ✅ Measured on a Level 14 Muscle class (base Muscle 182), one of each, applied in order:
+
+| Potion (item id) | ~mall | Effect | Muscle after |
+|---|---|---|---|
+| — | | (start) | 238 |
+| Ben-Gal™ Balm (2595) | 100 | Go Get 'Em, Tiger! (3 turns) | 265 |
+| Ferrigno's Elixir of Power (418) | 950 | Incredibly Hulking | 625 |
+| blood of the Wereseal (687) | 500 | Temporary Lycanthropy (moon-dependent) | 715 |
+| philter of phorce (421) | 400 | Phorcefullness | 896 |
+| potion of temporary gr8ness (426) | 100 | Gr8ness | 1,075 |
+| tomato juice of powerful power (420) | 100 | Tomato Power | 1,165 |
+
+Max HP rose with it (**399 → ~1,820**). About **2,150 meat for the set**, lasting 3–15 turns. The **Moxie** set works
+the same way: **Connery's Elixir of Audacity (1038)**, **serum of sarcasm (419)** and **pressurized potion of
+pulchritude (3563)** took Moxie **313 → 1,045**.
+⇒ **Before a stat-gated boss or contest, buy the set and fight inside its duration**, ideally at once, because
+fights cost no turns but recovery and walking around do. Try this before grinding levels or retrying a lost fight.
+
 ## 🧙 CHECK A SKILL'S **TYPE AND COST** BEFORE BUILDING A LOOP AROUND IT
 
 Two bugs in one day came from assuming what a skill was:

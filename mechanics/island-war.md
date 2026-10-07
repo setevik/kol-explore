@@ -85,6 +85,15 @@ normal by the time the front clears — worth ~1,000 damage in total if the figh
   lose → `campground.php?action=rest` (clears Beaten Up) → scroll(595) full HP + tiny houses(592) full MP →
   re-click frat house → retry.
 
+### ✅ VERIFIED KILL #3 — Turtle Tamer, potion-stacked, 3 rounds
+**Level 14 Turtle Tamer, buffed Muscle 228, ~390 HP, unbuffed: lost twice.** He hits **before round 1 (~100)**
+and then **55–85 a round through Astral + Ghostly Shell**. Thrust-Smack hit him **only about half the time** at
+Muscle 228 against Defense 225, for ~150–170. The second try, with shells and Reptilian Fortitude, ended at about
+600 of his 2,000 HP. ⚠️ Phonics down are refused in combat (*"That can't be used in combat"*).
+✅ **Third try: six mall Muscle potions (HANDOFF § stat potions) → Muscle 1,165, HP ~1,870** → Shell Up, then
+**one Thrust-Smack for 1,443**, dead on round 3 with no damage taken. ⇒ **For a melee class The Man is a stat check
+you can buy for ~2,000 meat.** Buy the potions before the first attempt.
+
 ### ✅ VERIFIED KILL #2 — a MUSCLE class, 7 rounds, two hits taken
 
 **Level 14 Seal Clubber, base Muscle 211 (below his Defense 225), dual-wielding black sword + Hammer of Smiting.**

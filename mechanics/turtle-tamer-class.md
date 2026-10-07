@@ -173,6 +173,9 @@ renewable heal once spleen herbs run out — at ~190 max HP one herb (~22 HP) ba
 every round.** ✅ Two rounds for the Knob Goblin King (HP 50, Def 47) at Level 6, buffed Muscle ~53 (strongness
 elixirs), with the scorpion whip (66 per Thrust-Smack). **Enter bosses with ≥ 14 MP** (6 + 8; more for bosses
 with 120 HP).
+⭐ **Against a late boss whose Defense matches your Muscle, buy Muscle instead of rounds:** the mall potion stack
+in `HANDOFF.md` (§ stat potions) took a Level 14 Turtle Tamer from Muscle 238 to 1,165, and one Thrust-Smack then
+did 1,443 damage. The class has no Defense-lowering skill, so this is how it gets past an accuracy gate.
 
 ## 🛡️ Shields are this class's slot — and they compete with dual-wielding
 

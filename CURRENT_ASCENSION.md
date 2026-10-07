@@ -31,15 +31,19 @@ signature weapon (**turtle totem**) and whether shields matter (Turtle Tamers ar
 
 ---
 
-## 📊 Character state (end of run #4 Day 15 / 2026-10-06)
+## 📊 Character state (end of run #4 Day 16 / 2026-10-07)
 
-- **LEVEL 14 Turtle Tamer** (base Muscle 180). **Buffed Muscle ~228 in the war fatigues, max HP ~387, MP ~233.**
-  💰 **Meat 59,840.** **14 adventures banked.** full 15/15 ✅ · drunk **20** ✅.
-- 🎽 **Worn (war):** War Hippy Fatigues · oil shell · black sword · astral shield · batskin belt · Talisman.
-- ⚔️ **Island War (hippy side): Battlefield Image #32 — the front is CLEAR.** The boss link
-  `bigisland.php?action=bossfight&pwd=…` is live on `place=camp&whichcamp=2`. Side quests ✅ Lighthouse ✅ Farm.
-- 🧰 40 phonics down · 25 tiny houses · 6 fire of unknown origin · battlefield beer/sake bombs ·
-  **stocked:** 18 stuffing, 6 milk, 3 snowcones, 12 Meade, 10 boilermakers, 2 Fog.
+- **LEVEL 14 Turtle Tamer** (base Muscle 190). **Buffed Muscle ~256, max HP ~429, MP ~231.**
+  💰 **Meat 45,655.** **30 adventures banked.** full 15/15 ✅ · drunk **20** ✅.
+- 🎽 **Worn:** War Hippy Fatigues · oil shell · black sword · astral shield · batskin belt · Talisman.
+- ✅ **ISLAND WAR WON** (The Man, Day 16 morning) → Blue Diamond of Honesty. **Final quest given.**
+- 🗼 **Tower:** contests ✅ (Smoothest #2 · Fastest #11 · Coldest) → sash ✅ → coronation ✅ → hedge maze ✅.
+  **Door: 4/6 locks open** (Boris · Richard's star · digital · skeleton). **Left: Jarlsberg's + Sneaky Pete's** —
+  both **key lime pies are in inventory** (items 514, 515): eat them tomorrow → keys → locks 2 and 3 → doorknob.
+- 🧰 Wall kit: **beehive ×1** ✅ · **electric boning knife ✗** (get it from the Castle Ground Floor once the Wall of
+  Bones is the live tower level — the NC is boosted then) · Shadow kit: **2 scented massage oil, 11 poultices,
+  22 gauze garters** ✅ · Wand of Nagamar ✗ (lose to form 3 first, then snarf 58).
+- 🧺 **Stocked:** 15 stuffing, 5 milk, 3 snowcones, 12 Meade, 9 boilermakers, 1 Fog, 27 phonics, 23 tiny houses.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -57,17 +61,31 @@ signature weapon (**turtle totem**) and whether shields matter (Turtle Tamers ar
 +25%, **Regenerate 5–10 HP per adventure**, DR 15 — it answers the documented "healing costs turns" tax at low
 level), then **swap to two one-handed weapons once you own two good ones** and re-verify from `charsheet.php`.
 
-## 🔜 Next-session priorities — run #4, Day 16
+## 🔜 Next-session priorities — run #4, Day 17
 
-> **14 adventures banked. Level 14. Meat 59,840. Battlefield CLEAR.**
-1. 🏁 **The Man FIRST, sober, before eating or drinking** (HP 2000, Atk 250, Def 225; needs ≥1 adventure).
-   Full HP/MP → Shell Up round 1 → Lunging Thrust-Smack every round; heal (Cannelloni Cocoon / phonics) only
-   below ~35% HP. Buffed Muscle ~228 is just over his Defense 225. Bombs (beer/sake) as backup. Read
-   `mechanics/island-war.md` § The Man. Then `council.php` → war reward; sell the dense meat stack.
-2. 🗼 Then the **Naughty Sorceress tower** (Level 13 quest) — read the tower doc in `mechanics/` first.
-3. Eat → adventure → drink as usual.
+> **30 adventures banked. Tower door 4/6. Climb SOBER — the tower map refuses you while drunk.**
+1. 🍽️ Eat: milk → **Jarlsberg's + Sneaky Pete's key lime pies** (keys!) → 1 stuffing → 3 snowcones.
+   Open `ns_lock2`, `ns_lock3`, then `ns_doorknob`.
+2. 🧱 Walls: beehive on the Wall of Skin · Wall of Meat ×~5 (1,001 meat total) · then get the **electric boning
+   knife** (Castle Ground Floor 323, choice 1026 → *noisy drawer*) and use it on the Wall of Bones · gaze in the
+   mirror · Shadow with oil/provoke/oil/poultice (healing items only).
+3. 👑 The Naughty Sorceress: **buy the Muscle potion set first** (HANDOFF § stat potions), plain attacks (she
+   blocks skills), full HP each form. Form 3 without the wand → lose → Wand of Nagamar in snarf 58 (~13 turns)
+   → win → `ns_11_prism` frees the King. Then archive this file and ascend.
+4. Drink only after the climb.
 
 ## 🗓️ Session log (this run)
+
+- **Run #4 Day 16 (2026-10-07): 🐢 ISLAND WAR WON, tower contests + maze done, door 4/6 — ~150 wins, 2 losses.**
+  🏁 **The Man:** lost twice at Muscle 228 (Thrust-Smack hit ~half the time; he hits ~80/round). Then six mall
+  Muscle potions → **Muscle 1,165, HP 1,870 → one Thrust-Smack for 1,443, dead in 3 rounds.** Council → Blue Diamond
+  of Honesty; dense meat stack sold for 5,000.
+  🍽️ **Food +72** (stuffing 25/20/18, 3 snowcones). 🍺 Meade 14 + 16 + boilermaker 11 = 14, Fog +16.
+  🗼 Keys from storage: skeleton key (bone + teeth) and Richard's star key (bought 8 stars + 4 lines). Moxie potions
+  → **Smoothest rank #2** (1 fight); Fastest #11 (Dervish died round 1); Coldest 10 fights. Sash → coronation → maze
+  (9 turns). Daily Dungeon (~6 turns) → token → **Boris's key**. Beehive (3 turns). 8-Bit Realm: **10,000 points in
+  ~90 fights** → digital key. Locks open: Boris, Richard, digital, skeleton. Bought both remaining key lime pies.
+  Castle Ground Floor ×17 for the boning knife — not boosted yet, none.
 
 - **Run #4 Day 15 (2026-10-06): 🐢 Level 14. Battlefield #19 → #32 — CLEAR. ~153 wins, 0 losses.**
   🍽️ **Food +64** (milk + stuffing 22/17/18, crudités, jungle fruit, snowcone). 🍺 Meade 16 + 16 + boilermaker 11

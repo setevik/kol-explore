@@ -121,6 +121,14 @@ the initiative crowd's champion as the real gate.
 - When all 3 crowds are gone, the desk offers **choice 1003 opt 4 "Claim your prize"** → **World's Best Adventurer sash** →
   advances to `ns_02_coronation`.
 
+### ✅ Muscle class with mall stat potions — the champions stop being a wall
+With the Moxie set (`HANDOFF.md` § stat potions) the **Smoothest** contest registered at **rank #2**, so there was
+only one opponent, *Seannery the Conman*, and he died in one round. With the Muscle set still running (Muscle ~1,140),
+the Fastest crowd's first fights died in one round each. **The Tasmanian Dervish died in round 1 even after the
+potions had worn off** (Muscle 236, ~400 HP; it took ~270 HP from the character). The Fastest contest was entered
+with only oil slacks for initiative and got **rank #11**; the Coldest was entered with no gear at all.
+Contests, coronation and maze took **~40 adventures**, with no losses.
+
 ## Step 2 — The SIX tower-door keys  (each consumed at the door)
 
 ⭐ **RAID HAGNK'S BEFORE SPENDING A SINGLE TURN ON KEYS.** Key materials and the Daily Dungeon tools all persist
@@ -140,7 +148,7 @@ key (10,000 points) as the long tail.**
 
 **Hero-key item IDs / DA Vending Machine rows** (`shop.php?whichshop=damachine`, 1 fat loot token each):
 Boris's key = **item 282, row 93** · Jarlsberg's = **item 283, row 94** · Sneaky Pete's = **item 284, row 95**.
-(Fat loot token = item 1470. Buy: `shop.php?whichshop=damachine&action=buyitem&whichrow=94&quantity=1&pwd=`.)
+(Fat loot token = **item 5221**. Buy: `shop.php?whichshop=damachine&action=buyitem&whichrow=94&quantity=1&pwd=`.)
 
 ### Richard's star key
 - **Farm the Hole in the Sky = `adventure.php?snarfblat=83`** (atop the beanstalk via `place.php?whichplace=beanstalk`;
@@ -164,6 +172,7 @@ Boris's key = **item 282, row 93** · Jarlsberg's = **item 283, row 94** · Snea
   marks which zone currently pays **DOUBLE** (+100/win vs +50). The color cycles **every 5 kills**: **black→Vanya's Castle
   565, blue→Megalo-City 566, green→Hero's Field 564, red→Fungus Plains 563.** (Bonus points from init/DA/item/meat need
   300–595% to matter — negligible for us, so it's just +100 in the matching zone, +50 off-color.)
+- ✅ **Re-measured on a Level 14 Turtle Tamer, rotating every fight: 10,000 in ~90 fights (~110/fight), 0 losses.**
 - ✅ **Measured rotation rate: ~140–170 pts/fight** (samples: 2,400 over 14 fights, then 2,800 over 18).
   ✅ **Re-measured on a Level 14 Muscle class: 3,350 points over 25 fights (~134/fight), 0 losses**, using plain
   weapon attacks (MP spend ≈ 0) and re-reading the Score colour before **every** fight. ⭐ **It is also the right
@@ -175,7 +184,8 @@ Boris's key = **item 282, row 93** · Jarlsberg's = **item 283, row 94** · Snea
   to grind at the tail of a day when the MP battery is spent.
 - **⭐ ROTATION TRICK (the whole trick — ~1.7× a fixed zone):** before each fight, read the Score color
   and adventure the matching zone. Detecting the color: the color word (green/red/blue/black) sits right after "Score:" in
-  the **fetched** `charpane.php` HTML (regex `/Score:[\s\S]{0,160}?(green|red|blue|black)/i`, default black); OR read the
+  the **fetched** `charpane.php` HTML: the score span carries **`alt='<colour> score - <points>'`**, so
+  `/alt='(\w+) score - ([\d,]+)'/` returns both colour and points in one match; OR read the
   **computed** color off the live charpane frame (`getComputedStyle(span.nes).color` — green = rgb(0,128,0)). Staying in one
   zone averages only ~63/fight — rotating is what buys the ~140–170/fight measured above.
 - **Combat is cheap:** these monsters are weak — **weapon-attack one-shots most** (round 1–2 attack, escalate to Cannelloni
@@ -271,9 +281,10 @@ zone**; that zone is **100% combat**, so it arrives as a *superlikely* override,
 
 ### 🥧 Hero-key shortcut: the key lime pies (skips a Daily-Dungeon day, for meat)
 Frank's hint names the alternative: each hero key also comes from eating the matching **key lime pie**
-(**Sneaky Pete's key lime pie = item 515**; the plain **key lime = item 512**). ⚠️ **Costs ~6,000 meat in the mall
-and one fullness slot**, so it is only worth it when you are rich, have stomach room, and want to collapse the
-**3-day** hero-key wait. If you are going to run the Daily Dungeon that day anyway, the token is free — skip the pie.
+(**Boris's = item 513 · Jarlsberg's = 514 · Sneaky Pete's = 515**; the plain **key lime = item 512**). Each costs
+**~6,000–6,800 meat** in the mall and is a normal **size-4 food worth 14–16 adventures**, about as good as the
+best everyday food, so it replaces a meal rather than wasting stomach. Worth it whenever you can afford it and
+want to collapse the **3-day** hero-key wait. If you are going to run the Daily Dungeon that day anyway, the token is free — skip the pie.
 - **The 5 tower levels.** ⚠️ The action's LEVEL number increments as you climb. ✅ **Verified full chain:**
   `ns_05_monster1` (skin) → `ns_06_monster2` (meat) → `ns_07_monster3` (bones) → **`ns_08_monster4` (mirror)** →
   `ns_09_monster5` (shadow) → `ns_10_sorcfight` (the NS) → `ns_11_prism` (free the King).
