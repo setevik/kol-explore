@@ -198,3 +198,19 @@ Structure is class-agnostic — full walkthrough in `nemesis-quest.md`. The clas
 | **Class weapon** | **Mace of the Tortoise** |
 | **Starter weapon needed, un-equipped, for the swap** | **turtle totem** |
 | **Lair-entry task** | with the *fouet de tortue-dressage* equipped, use **Apprivoisez la tortue** on **six guard turtles with hats** in the Outer Compound — **5 casts each** (4 with *Eau de Tortue*) — then return to *"A Guy in the Bushes"* |
+
+## 💎 Worth perming — the Turtle Tamer tree against the four tests (`ascension.md`)
+
+| Skill | Passive? | Works off-class? | Replaceable? | Verdict |
+|---|---|---|---|---|
+| ⭐ **The Long View** (2038) | ✅ | ✅ (nothing class-bound in it) | ❌ no item gives rollover adventures this cheaply | **Perm first** — **+3 adventures every day of every future run** |
+| **Wisdom of the Elder Tortoises** (2011) | ✅ | ✅ | partly (MP gear) | Strong for a caster: **max MP +50%** |
+| **Amphibian Sympathy** (2014) | ✅ | ✅ | partly (familiar-weight buffs) | **+5 familiar weight**, every fight |
+| Skin of the Leatherback (2004) | ✅ | ✅ | ✅ (shells, gear) | DR of level/2 — small |
+| Hero of the Half-Shell (2020) | ✅ | needs a shield and Muscle > Moxie | — | Muscle classes only |
+| Tao of the Terrapin (2021) | ✅ | ✅ | — | Doubles hat and pants power — niche |
+| Spirit Vacation (2027) | ❌ costs a turn | ✅ | ✅ (any full restore) | Skip |
+| Cold-Blooded Fearlessness (2016) | ✅ | ✅ | ✅ | +2 spooky resistance — skip |
+
+⇒ **The Long View passes all four tests and pays out daily, so it is the Turtle Tamer perm.** It grants nothing
+on the day it is learned or permed — only on proper rollovers.

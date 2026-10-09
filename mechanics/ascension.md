@@ -62,6 +62,12 @@ so any of them **cancels a dual-wield perm while worn**. Match the pet to the ne
 enchantments are stat-specific (**Muscle**: bludgeon, shield · **Mysticality**: chapeau, bracer, statuette ·
 **Moxie**: shorts, longbow) — and read the slot before the stat bonus.
 
+✅ **The Bureau's `gender` is a `<select>` (1 Male, default · 2 Female)**, not a radio, and the preview page's own
+form carries exactly the fields the commit needs: `action=ascend&confirmascend=1&whichsign&gender&whichclass&
+whichpath&asctype` — read them off that form instead of rebuilding the body by hand.
+⚑ After rebirth the new class's **starting combat skill can show `(P)`** on the charsheet (Salsaball did, for a
+Sauceror) without any karma spent — don't count it as a perm you bought.
+
 ✅ **Always read the confirmation page before committing.** It reads your choices back in plain English
 ("*You are about to step into a Normal incarnation, and be born under the The Platypus Moon Sign as a Seal
 Clubber… You have marked the following skills permanent: …*"), which is the cheapest possible check on an
