@@ -31,19 +31,16 @@ signature weapon (**turtle totem**) and whether shields matter (Turtle Tamers ar
 
 ---
 
-## 📊 Character state (end of run #4 Day 16 / 2026-10-07)
+## 📊 Character state (end of run #4 Day 17 / 2026-10-09) — 🏆 RUN WON
 
-- **LEVEL 14 Turtle Tamer** (base Muscle 190). **Buffed Muscle ~256, max HP ~429, MP ~231.**
-  💰 **Meat 45,655.** **30 adventures banked.** full 15/15 ✅ · drunk **20** ✅.
-- 🎽 **Worn:** War Hippy Fatigues · oil shell · black sword · astral shield · batskin belt · Talisman.
-- ✅ **ISLAND WAR WON** (The Man, Day 16 morning) → Blue Diamond of Honesty. **Final quest given.**
-- 🗼 **Tower:** contests ✅ (Smoothest #2 · Fastest #11 · Coldest) → sash ✅ → coronation ✅ → hedge maze ✅.
-  **Door: 4/6 locks open** (Boris · Richard's star · digital · skeleton). **Left: Jarlsberg's + Sneaky Pete's** —
-  both **key lime pies are in inventory** (items 514, 515): eat them tomorrow → keys → locks 2 and 3 → doorknob.
-- 🧰 Wall kit: **beehive ×1** ✅ · **electric boning knife ✗** (get it from the Castle Ground Floor once the Wall of
-  Bones is the live tower level — the NC is boosted then) · Shadow kit: **2 scented massage oil, 11 poultices,
-  22 gauze garters** ✅ · Wand of Nagamar ✗ (lose to form 3 first, then snarf 58).
-- 🧺 **Stocked:** 15 stuffing, 5 milk, 3 snowcones, 12 Meade, 9 boilermakers, 1 Fog, 27 phonics, 23 tiny houses.
+- 🏆 **THE NAUGHTY SORCERESS IS DEAD AND KING RALPH IS FREE** — the astral gash is open. *The Ultimate Final Epic
+  Conflict of the Ages* sits in **completed** quests. ⇒ **This run can ascend whenever you choose** (see
+  `mechanics/ascension.md`); I have NOT ascended — that is your call.
+- **LEVEL 15 Turtle Tamer** (base Muscle 201), max HP ~427, MP ~241. 💰 **Meat 11,063** (55,000 spent on the
+  last four guild skills — **the whole Turtle Tamer rack is now learned**). **15 adventures banked.** full 15/15 ·
+  drunk 20.
+- 🧺 Left over (goes to storage on ascension): 14 stuffing, 4 milk, 19 Meade, 8 boilermakers, 7 phonics, 22 tiny
+  houses, the Wand of Nagamar, and a spare Muscle potion set (2 Ben-Gal, Ferrigno's, Wereseal blood, philter).
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -61,20 +58,25 @@ signature weapon (**turtle totem**) and whether shields matter (Turtle Tamers ar
 +25%, **Regenerate 5–10 HP per adventure**, DR 15 — it answers the documented "healing costs turns" tax at low
 level), then **swap to two one-handed weapons once you own two good ones** and re-verify from `charsheet.php`.
 
-## 🔜 Next-session priorities — run #4, Day 17
+## 🔜 Next-session priorities — after run #4
 
-> **30 adventures banked. Tower door 4/6. Climb SOBER — the tower map refuses you while drunk.**
-1. 🍽️ Eat: milk → **Jarlsberg's + Sneaky Pete's key lime pies** (keys!) → 1 stuffing → 3 snowcones.
-   Open `ns_lock2`, `ns_lock3`, then `ns_doorknob`.
-2. 🧱 Walls: beehive on the Wall of Skin · Wall of Meat ×~5 (1,001 meat total) · then get the **electric boning
-   knife** (Castle Ground Floor 323, choice 1026 → *noisy drawer*) and use it on the Wall of Bones · gaze in the
-   mirror · Shadow with oil/provoke/oil/poultice (healing items only).
-3. 👑 The Naughty Sorceress: **buy the Muscle potion set first** (HANDOFF § stat potions), plain attacks (she
-   blocks skills), full HP each form. Form 3 without the wand → lose → Wand of Nagamar in snarf 58 (~13 turns)
-   → win → `ns_11_prism` frees the King. Then archive this file and ascend.
-4. Drink only after the climb.
+> **The run is WON.** Nothing in this run is left to do except ascend.
+1. ⏳ **Ascension is the user's call.** When asked: archive this file to `runs/ascension-04-turtle-tamer.md`,
+   then follow `mechanics/ascension.md` (karma, perms, `whichpath=0`). Next class per the plan: **Sauceror,
+   Disco Bandit or Accordion Thief**.
+2. Perm candidates from this run: Turtle Tamer skills worth carrying (read `mechanics/turtle-tamer-class.md`).
 
 ## 🗓️ Session log (this run)
+
+- **Run #4 Day 17 (2026-10-09): 🏆 RUN WON — Naughty Sorceress dead, King Ralph freed. Level 15. ~200 wins, 1 loss.**
+  🍽️ **Food +61** with **Jarlsberg's + Sneaky Pete's key lime pies** (19 / 14 adv, keys inside) → locks 2 and 3 →
+  door open. 🧱 Beehive → Wall of Skin · Wall of Meat ×5 · electric boning knife on the **first** Castle turn
+  (boosted) → Wall of Bones · mirror gazed · Shadow in 4 rounds.
+  👑 Sorceress: bought a Muscle potion set — **she strips every effect at round 1**, wasted. Form 1 in 3 rounds,
+  form 2 in 4, form 3 lost on purpose → **Wand of Nagamar in ~12 turns** → rematch: 3 + 14 rounds, form 3 by
+  wand → **prism → King freed.**
+  💰 Castle Ground Floor farm, ~190 turns: **~23,000 meat (~120/turn), 0 losses.** 🍺 Meade ×2 + boilermaker = 14,
+  Fog +15. **Level 15** → bought the last four guild skills (12,500 ×2 + 15,000 ×2).
 
 - **Run #4 Day 16 (2026-10-07): 🐢 ISLAND WAR WON, tower contests + maze done, door 4/6 — ~150 wins, 2 losses.**
   🏁 **The Man:** lost twice at Muscle 228 (Thrust-Smack hit ~half the time; he hits ~80/round). Then six mall

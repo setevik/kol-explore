@@ -78,11 +78,14 @@ POST `guild.php` with `action=buyskill&skillid=<short id>&pwd=`.
 | 12 | **The Long View** | 2038 | 38 | **7,500** — Passive |
 | 13 | **Cold-Blooded Fearlessness** | 2016 | 16 | **10,000** — Passive |
 | 13 | **Spirit Boon** | 2039 | 39 | **10,000** — Noncombat, 30 MP |
+| 14 | **Hero of the Half-Shell** | 2020 | 20 | **12,500** — Passive: shield mastery |
+| 14 | **Patient Smile** | 2040 | 40 | **12,500** — Noncombat, 10 MP |
+| 15 | **Tao of the Terrapin** | 2021 | 21 | **15,000** — Passive: hat and pants |
+| 15 | **Turtle Power** | 2041 | 41 | **15,000** — Noncombat, 100 MP, once per day |
 
 💰 **Price is set by the skill's LEVEL, not by the skill** — ✅ measured per level: **125 · 250 · 500 · 750 ·
-1,250 · 1,750 · 2,500 · 3,250 · 4,000 · 5,000 · 6,250 · 7,500 · 10,000** for Levels 1–13, with *both* skills at a level costing the same.
-**Levels 14+ are unmeasured** (prices rose by 500–2,500 per level) — **read each cost from the meat delta**
-and extend the table. The trainer's page lists the whole ladder by name through Level 15 (*Kneebutt · Blessing of She-Who-Was* at 7 … *Tao of the Terrapin ·
+1,250 · 1,750 · 2,500 · 3,250 · 4,000 · 5,000 · 6,250 · 7,500 · 10,000 · 12,500 · 15,000** for Levels 1–15, with *both* skills at a level costing the same.
+The trainer's page lists the whole ladder by name through Level 15 (*Kneebutt · Blessing of She-Who-Was* at 7 … *Tao of the Terrapin ·
 Turtle Power* at 15) even though only your level's rows are buyable. A purchase you cannot afford is refused
 outright with *"You can't afford to train that skill."* — no meat moves, so trying is free.
 ⭐ **Fund the top of the rack with a storage audit rather than farming** — pulling surplus stacks and autoselling

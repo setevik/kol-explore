@@ -294,6 +294,10 @@ want to collapse the **3-day** hero-key wait. If you are going to run the Daily 
     choice **923 opt 1** (blackberry patch) → **924 opt 3** (buzzing sound) → **1018 opt 1** (keep going) → **1019 opt 1**
     (beehive), ~3 turns. In the fight: `fight.php?action=useitem&whichitem=7969`. (Alternatives if no beehive: Glover
     familiar + weapon attack; multi-source damage familiars; passive-damage skills. Raising max HP does NOT help — %-based.)
+  ✅ **Turtle Tamer, Level 14: the whole floor in ~9 turns** — beehive one-shot · Wall of Meat ×5 (178–232 meat
+  each, 4 rounds each with Thrust-Smack) · **electric boning knife dropped on the first Castle Ground Floor turn once
+  the Wall of Bones was live** (17 turns there the day before, without the boost, found none) · mirror gazed ·
+  Shadow in 4 rounds (poultice 103 · oil 255 · provoke · poultice 96).
   - **Wall of Meat** (`ns_06_monster2`): **700 HP**, hits ~15% max HP/round. Kill with Mortar→Cannelloni, but you must
     **re-fight it until it has dropped 1,001 total meat** — ✅ measured **6 kills / 1,185 meat** (~197 each, 3–4 rounds
     per kill) with no +meat bonus; budget 5–6 fights. The tower action stays put until the total is reached. Full HP+MP
@@ -336,6 +340,14 @@ want to collapse the **3-day** hero-key wait. If you are going to run the Daily 
     ⚠️ Its hit scales — an opening round of ~294 damage was observed. Never enter below full HP.
 
 ## Step 5 — The Naughty Sorceress + King Ralph  ✅ (verified in-game)
+🚨 **She removes EVERY effect when the fight starts** — buffs, mall stat potions and shells alike. ✅ Measured:
+Muscle 1,010 and HP 1,606 going in, Muscle 280 and HP ~465 after round 1, with an empty effects list. ⇒ **Don't buy
+potions or cast buffs for her**; rely on base stats, gear and combat-legal healing items. (They still matter for the
+crowd champions and the Shadow.)
+✅ **Level 14 Turtle Tamer, Muscle ~280 (unbuffed), plain attacks:** form 1 in **3 rounds** (25–42 a round), form 2
+in **4–14 rounds** (34–53 a round, gauze garters/poultices at 60%), Spirit Vacation between forms. Form 3 without
+the wand served choice 1016 straight away; **the wand took ~12 turns in snarf 58**, the rematch restarted at form 1,
+and with the wand held form 3 resolved itself.
 Fight the **Naughty Sorceress (3 forms)** at `place.php?whichplace=nstower&action=ns_10_sorcfight` — ONE continuous combat
 (re-entering the action resumes it; a loss restarts it from form 1). Forms are "The Naughty Sorceress" → "(2)" → "(3)". Notes:
 - **Form 1** falls easily to Mortar→Cannelloni. **Form 2 is the wall** — she **blocks ~half your spells** and her big nuke
