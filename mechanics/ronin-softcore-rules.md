@@ -53,6 +53,14 @@
   ⭐ **Therefore: PULL ITEMS FIRST, MEAT LAST.** Food, booze and restoratives are the pulls that cannot be
   replaced by an NPC shop; meat can be topped up on any later day, and guild skills are usually affordable from a
   partial withdrawal. A safe default is **pull ~8–10 items, then take the remaining slots as meat.**
+- 🚨 **Food and booze have LEVEL REQUIREMENTS, and Day 1 starts at Level 1.** A pull you cannot consume yet
+  still costs its slot. ✅ Measured refusals: **herbal stuffing L7 · stolen sushi L6 · unidentified jerky L9 ·
+  Flamin' Whatshisname L6 · Ye Olde Meade L7 · red-hot boilermaker L9** (*"Your palate isn't sophisticated
+  enough…"* / *"Your tolerance isn't nearly high enough…"*). **Imp Ale** and **boxed wine** worked at Level 3.
+  ⇒ **On Day 1 pull only consumables you can use at Level 1–3**, and keep the good stacks for later days. The
+  General Store's **fortune cookies** (1 fullness, 40 meat) are the Day-1 food fallback — 15 of them plus milk of
+  magnesium gave +25. The General Store sells **no booze**, and the Typical Tavern page is blank until the larva quest
+  is done, so a missing Day-1 booze pull leaves the meter near empty.
 - 🎯 **The day-1 split that worked:** pull most of the previous run's meat (it funds guild skills, which are
   the biggest early power spike and are bought from **NPC shops that bypass the pull limit entirely**), and
   spend the remaining slots on **distinct** consumables — remember rule 2 means a 14-potency booze rack needs

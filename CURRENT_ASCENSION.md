@@ -31,12 +31,15 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 
 ---
 
-## 📊 Character state (start of run #5 / 2026-10-09)
+## 📊 Character state (end of run #5 Day 1 / 2026-10-09)
 
-- **LEVEL 1 Sauceror**, meat 0 on hand. **40 adventures**, full 0 · drunk 0 · **Ronin 1000**.
-- 💰 Run #4's estate (≈11,000 meat + everything carried) is in **Hagnk's storage** — Day 1's first act is a
-  storage withdrawal (Ronin: 20 pulls/day or 20,000 meat).
-- 🎽 **astral chapeau** (bought in Valhalla) — Mysticality hat.
+- **LEVEL 3 Sauceror**, base Mys 12, **max HP 8**, MP 23. 💰 Meat 10,692 (storage: 63). **0 adventures**,
+  full 15/15 · **drunk 4/14** (no legal booze left — see session log). Ronin ~930 left.
+- 🎽 astral chapeau · saucepan · old sweatpants. Familiar: **Marcellus the Mosquito**.
+- 🎒 Pulled but **level-gated** (keep): herbal stuffing (L7), stolen sushi (L6), unidentified jerky (L9),
+  Flamin' Whatshisname (L6), red-hot boilermaker (L9), Ye Olde Meade (L7). 3 dry noodles (Pastamastery).
+- 🗺️ Quests: **guild member** ✅ · larva quest open (Spooky Forest: 502 *Explore the stream* → 505 *March to the
+  marsh*) · *When Rocks Attack* accepted · Knob Goblin Encryption Key held · Dr. Hobo's map, Dolphin King's map.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -50,16 +53,25 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 - **Cannelloni Cocoon** (20 MP heal).
 - Class start: **Sauce Contemplation**, **Salsaball** (Salsaball shows `(P)` on the charsheet).
 
-## 🔜 Next-session priorities — run #5, Day 1
+**Bought from the guild:** Simmer · Curse of Vichyssoise (L1) · **Stream of Sauce** · **Saucy Salve** (L2) ·
+Expert Panhandling · Icy Glare (L3). Next: Level 4 rows.
 
-> **40 adventures. Level 1. Read `mechanics/pastamancer-class.md` (sibling class) and the Day-1 notes in
-> `HANDOFF.md` before the first fight.**
-1. 🏦 Storage withdrawal: meat for food/booze + the Day-1 gear (a scorpion whip-style no-requirement weapon,
-   Mysticality accessories).
-2. 🧙 Guild: join the Sauceror guild (read the challenge), buy Level-1 skills, start `mechanics/sauceror-class.md`.
-3. Eat → adventure (Council quests from Level 1) → drink to 14 + one overdrink.
+## 🔜 Next-session priorities — run #5, Day 2
+
+> **Max HP is the constraint (8). Stay in ML 1–2 zones until Level 4+.**
+1. 🏦 Pulls: **Level-1–4-legal** food/booze only (Imp Ale, boxed wine and similar; check the gate list in
+   `mechanics/ronin-softcore-rules.md`), plus **tiny houses / scroll of drastic healing** for healing, and gear
+   that adds HP. Food fallback: fortune cookies (General Store).
+2. Level to 4 in the Outskirts (114), buy the L4 rows, then the **larva** (Spooky Forest), then the Tavern.
+3. Fill booze to 14 + one overdrink — the Tavern should open once the larva is in.
 
 ## 🗓️ Session log (this run)
+
+- **Run #5 Day 1 (2026-10-09): 🥫 Sauceror born, guild joined, Level 1 → 3 — ~55 wins, 1 loss.**
+  🏦 Pulled 9 consumables + 11,000 meat — **six of the nine are level-gated** (L6–L9), so food was 15 fortune
+  cookies (+25 with milk) and booze only Imp Ale + boxed wine (drunk 4). 🥪 Poltersandwich in 6 Pantry turns →
+  member. 🌲 Spooky Forest one-shot me at Level 2 (max HP 4) → rest → Outskirts with Stream of Sauce:
+  Level 3, 48 wins / 0 losses. Pork elf gems sold +1,500. New doc `mechanics/sauceror-class.md`.
 
 - **2026-10-09 — Ascended into run #5.** Run #4 (Turtle Tamer) won on Day 17. Karma 3 → 114; permed **The Long
   View** (100) + **astral chapeau** (10), 4 banked. Reborn **Normal · Sauceror · Opossum · Unrestricted**.
