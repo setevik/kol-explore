@@ -59,7 +59,10 @@
   enough…"* / *"Your tolerance isn't nearly high enough…"*). **Imp Ale** and **boxed wine** worked at Level 3.
   ⇒ **On Day 1 pull only consumables you can use at Level 1–3**, and keep the good stacks for later days. The
   General Store's **fortune cookies** (1 fullness, 40 meat) are the Day-1 food fallback — 15 of them plus milk of
-  magnesium gave +25. The General Store sells **no booze**, and the Typical Tavern page is blank until the larva quest
+  magnesium gave +25. ✅ **Low-level foods that are worth a pull** (measured at Level 3): **Spam Witch sammich 2 full → 8
+  adventures** · **sweet roll Alabama 4 → 11** · Trollhouse cookies 2 → 2 · bowl of cottage cheese 2 → 2 ·
+  t8r tots / gr8ps 1 → 1. **Booze legal at Level 4:** the plain bottles (**rum, whiskey, gin, tequila — 3 drunk,
+  3 adventures each**), Imp Ale (1), boxed wine (3). The General Store sells **no booze**, and the Typical Tavern page is blank until the larva quest
   is done, so a missing Day-1 booze pull leaves the meter near empty.
 - 🎯 **The day-1 split that worked:** pull most of the previous run's meat (it funds guild skills, which are
   the biggest early power spike and are bought from **NPC shops that bypass the pull limit entirely**), and

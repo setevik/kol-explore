@@ -18,7 +18,7 @@
 - **Same challenge as the Pastamancer:** tame the **poltersandwich** in the **Haunted Pantry (113)**, choice
   **544** (single option). ✅ 6 turns, then `guild.php?place=challenge` makes you a member.
 - **Trainer** `guild.php?place=trainer`, POST `action=buyskill&skillid=<short id>&pwd=`; only your level's rows are
-  buyable. **Prices by level: 125 · 250 · 500** for Levels 1–3 (the same ladder as every guild so far).
+  buyable. **Prices by level: 125 · 250 · 500 · 750** for Levels 1–4 (the same ladder as every guild so far).
 
 | Lvl | Skill | `whichskill` | `skillid` | Notes |
 |---|---|---|---|---|
@@ -28,6 +28,10 @@
 | 2 | ⭐ **Saucy Salve** | 4014 | 14 | **Combat-only heal, 4 MP** |
 | 3 | **Expert Panhandling** | 4004 | 4 | Passive: **+10% meat (+15% with a saucepan equipped)** |
 | 3 | **Icy Glare** | 4026 | 26 | Noncombat buff, 10 MP |
+| 4 | **Inner Sauce** | 4028 | 28 | 750 |
+| 4 | **Elemental Saucesphere** | 4007 | 7 | 750 — buff, 10 MP: protection from elemental attacks |
+| 5 | **Saucestorm** | 4005 | — | Combat spell, 6 MP, hot + cold |
+| 5 | **Advanced Saucecrafting** | 4006 | — | Noncombat, 10 MP: cook sauces and salves from reagents |
 
 Later rows by level (names from the trainer page): 4 Inner Sauce · Elemental Saucesphere — 5 Advanced
 Saucecrafting · Saucestorm — 6 Curse of Marinara · Soul Saucery — 7 Wave of Sauce · Jalapeño Saucesphere —
@@ -41,3 +45,7 @@ Sauce Magic.
 ✅ **Stream of Sauce every round, Salsaball (0 MP) when MP runs short, Saucy Salve below 40% HP** carried a
 fresh Sauceror **Level 2 → 3 in the Outskirts: 48 wins, 0 losses**, no healing items. The only out-of-combat
 heal at this stage is **resting at the campground (1 adventure)**, which also clears *Beaten Up*.
+
+✅ **Level 4, max HP ~11, Sauce Contemplation cast before each fight (+max HP):** the Spooky Forest went **20 wins,
+0 losses**, and the Typical Tavern cellar 15 wins, 0 losses. The Level 2 one-round loss there was a max-HP problem
+that two levels and the buff fixed.

@@ -62,7 +62,8 @@ reserve; on a class with no heal skill see the spleen note in `HANDOFF.md`.
 
 - **Baron von Ratsworth's monocle** — accessory, **+item drop**. ⚠️ **Requires 10 base Mysticality**, so a
   Muscle class may not be able to wear it for a long time (or ever, in a short run).
-- **3 × Typical Tavern swill** from the barkeep (1 potency each — handy for landing exactly on the booze cap).
+- **3 × Typical Tavern swill** from the barkeep. ⚠️ **Each is 3 drunkenness (+6 adventures), not 1** — it
+  overshot a 13/14 liver to 16. Count it as a 3-slot drink when filling to the cap.
 - Rat whiskers, furry pills, and assorted booze drop throughout the cellar.
 
 ⚠️ **The skip-set is easy to drop when rewriting the loop.** ✅ Measured: a later revision answered *"Leave it
