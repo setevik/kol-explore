@@ -62,7 +62,13 @@
   magnesium gave +25. ✅ **Low-level foods that are worth a pull** (measured at Level 3): **Spam Witch sammich 2 full → 8
   adventures** · **sweet roll Alabama 4 → 11** · Trollhouse cookies 2 → 2 · bowl of cottage cheese 2 → 2 ·
   t8r tots / gr8ps 1 → 1. **Booze legal at Level 4:** the plain bottles (**rum, whiskey, gin, tequila — 3 drunk,
-  3 adventures each**), Imp Ale (1), boxed wine (3). The General Store sells **no booze**, and the Typical Tavern page is blank until the larva quest
+  3 adventures each**), Imp Ale (1), boxed wine (3).
+  ✅ **Measured at Levels 4–5:** **ghuol guolash 5 full → 23** · **vampire chowder 4 → 11** · **Mornington crescent
+  roll 3 → 9** · the plain cocktails (**margarita, screwdriver, salty dog, strawberry daiquiri — 3 drunk, 5–6
+  adventures**) · **white lightning 3 → 10**. Refused at Level 4: extra-flat panini, actual tapas.
+  ⚠️ **Imitation White Russian is FOOD**, not booze (*"That's not booze"*) — don't plan it into a drink total.
+  ⚠️ Without a 1- or 2-size drink the cap can't be hit exactly from 12; plan a 2-drunk bottle (popskull, cooking
+  sherry, Pinot Noir, flat champagne, aged brandy) or Imp Ale into the pull list. The General Store sells **no booze**, and the Typical Tavern page is blank until the larva quest
   is done, so a missing Day-1 booze pull leaves the meter near empty.
 - 🎯 **The day-1 split that worked:** pull most of the previous run's meat (it funds guild skills, which are
   the biggest early power spike and are bought from **NPC shops that bypass the pull limit entirely**), and

@@ -18,7 +18,7 @@
 - **Same challenge as the Pastamancer:** tame the **poltersandwich** in the **Haunted Pantry (113)**, choice
   **544** (single option). ✅ 6 turns, then `guild.php?place=challenge` makes you a member.
 - **Trainer** `guild.php?place=trainer`, POST `action=buyskill&skillid=<short id>&pwd=`; only your level's rows are
-  buyable. **Prices by level: 125 · 250 · 500 · 750** for Levels 1–4 (the same ladder as every guild so far).
+  buyable. **Prices by level: 125 · 250 · 500 · 750 · 1,250** for Levels 1–5 (the same ladder as every guild so far).
 
 | Lvl | Skill | `whichskill` | `skillid` | Notes |
 |---|---|---|---|---|
@@ -30,8 +30,8 @@
 | 3 | **Icy Glare** | 4026 | 26 | Noncombat buff, 10 MP |
 | 4 | **Inner Sauce** | 4028 | 28 | 750 |
 | 4 | **Elemental Saucesphere** | 4007 | 7 | 750 — buff, 10 MP: protection from elemental attacks |
-| 5 | **Saucestorm** | 4005 | — | Combat spell, 6 MP, hot + cold |
-| 5 | **Advanced Saucecrafting** | 4006 | — | Noncombat, 10 MP: cook sauces and salves from reagents |
+| 5 | ⭐ **Saucestorm** | 4005 | 5 | **1,250** — combat spell, 6 MP, hot + cold: the Level 5+ nuke |
+| 5 | **Advanced Saucecrafting** | 4006 | 6 | **1,250** — noncombat, 10 MP: cook sauces and salves from reagents |
 
 Later rows by level (names from the trainer page): 4 Inner Sauce · Elemental Saucesphere — 5 Advanced
 Saucecrafting · Saucestorm — 6 Curse of Marinara · Soul Saucery — 7 Wave of Sauce · Jalapeño Saucesphere —

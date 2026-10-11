@@ -85,3 +85,8 @@ The monster **wins initiative and one-shots you before round 1**. Consequences:
    at guild Level 6** is the direct fix: win initiative → stun → nuke → never get hit.
 3. Only then: stun (3004) → Cannelloni (3005) every round. The Boss Bat has just 40 HP; it dies fast **if you
    get to act at all**.
+
+✅ **A Level 4–5 Sauceror (max HP ~17, Saucestorm 4005):** the **Entryway (30) gave no sonar and no screambat in
+25 fights**, while **Guano Junction (31) gave 2 sonars and 2 screambats in 18 fights** — the Lair opened in that one
+session. Then **8 beefy bodyguard bats and the Boss Bat, 0 losses**, with Saucestorm every round. ⇒ **Wear the air
+freshener and go straight to Guano Junction** — the Entryway is not where the walls come from.

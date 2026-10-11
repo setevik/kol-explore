@@ -24,6 +24,12 @@ plenty of perfume drop along the way, plus the **Cobb's Knob lab key**. ⚠️ H
 ⚠️ **Check the King's Defense (47) against your buffed Muscle** — the disguise gets you to the fight, not through
 it. At buffed Muscle ~53 he dies in 2 rounds to Shell Up → Lunging Thrust-Smack (`turtle-tamer-class.md`).
 Drop: **Crown of the Goblin King** (hat, Power 70, **+10 Muscle**, needs **20 Moxie**).
+🚨 **The King one-shot a Level 5 Sauceror at 21 max HP** before a spell could land (he acts first). For a
+Mysticality class the throne room is a **max-HP check** — raise it well past ~40 before going in.
+⚠️ That loss arrives on the **entry page itself** (no attack form, HP 0), so a loop sees "no fight" rather than
+a loss — read HP after the throne-room fetch.
+✅ The harem disguise can come straight **from storage** (veil 306, pants 305 — two different items, two pulls), and
+**perfume dropped in 6 Harem fights** at Level 5.
 
 ## Outfit shortcut (Ronin-friendly)
 
