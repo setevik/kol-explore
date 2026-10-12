@@ -18,7 +18,7 @@
 - **Same challenge as the Pastamancer:** tame the **poltersandwich** in the **Haunted Pantry (113)**, choice
   **544** (single option). ✅ 6 turns, then `guild.php?place=challenge` makes you a member.
 - **Trainer** `guild.php?place=trainer`, POST `action=buyskill&skillid=<short id>&pwd=`; only your level's rows are
-  buyable. **Prices by level: 125 · 250 · 500 · 750 · 1,250** for Levels 1–5 (the same ladder as every guild so far).
+  buyable. **Prices by level: 125 · 250 · 500 · 750 · 1,250 · 1,750** for Levels 1–6 (the same ladder as every guild so far).
 
 | Lvl | Skill | `whichskill` | `skillid` | Notes |
 |---|---|---|---|---|
@@ -31,6 +31,8 @@
 | 4 | **Inner Sauce** | 4028 | 28 | 750 |
 | 4 | **Elemental Saucesphere** | 4007 | 7 | 750 — buff, 10 MP: protection from elemental attacks |
 | 5 | ⭐ **Saucestorm** | 4005 | 5 | **1,250** — combat spell, 6 MP, hot + cold: the Level 5+ nuke |
+| 6 | **Curse of Marinara** | 4029 | 29 | **1,750** — combat, 4 MP |
+| 6 | **Soul Saucery** | 4027 | 27 | **1,750** |
 | 5 | **Advanced Saucecrafting** | 4006 | 6 | **1,250** — noncombat, 10 MP: cook sauces and salves from reagents |
 
 Later rows by level (names from the trainer page): 4 Inner Sauce · Elemental Saucesphere — 5 Advanced
@@ -49,3 +51,16 @@ heal at this stage is **resting at the campground (1 adventure)**, which also cl
 ✅ **Level 4, max HP ~11, Sauce Contemplation cast before each fight (+max HP):** the Spooky Forest went **20 wins,
 0 losses**, and the Typical Tavern cellar 15 wins, 0 losses. The Level 2 one-round loss there was a max-HP problem
 that two levels and the buff fixed.
+
+## ⭐ Max HP for a boss: borrow Muscle
+
+A caster's max HP follows Muscle, so a **Muscle potion is a max-HP potion**. ✅ Measured at Level 5 (Muscle 17,
+max HP 23): Ben-Gal Balm +3 · **Ferrigno's Elixir of Power +28** · extra-strength strongness elixir and strongness
+elixir +3 more → **Muscle 51, max HP 57**. With that the **Knob Goblin King died in 2 rounds** (Saucestorm), where
+the day before he had one-shot the same character at 21 HP.
+⚠️ The strongness elixirs are **spleen items** — `inv_use` answers *"not implemented yet"*; use
+`inv_spleen.php?which=3&whichitem=<id>`.
+
+✅ **Friars at Level 6 (base Mys 30–36), Elemental Saucesphere + Sauce Contemplation up, Saucestorm:** all three
+groves in **~80 turns, 30 wins / 2 losses** (Neck ~10, Heart ~36 with rests, Elbow ~32). The Saucesphere is the
+right buff there — the groves deal hot damage.

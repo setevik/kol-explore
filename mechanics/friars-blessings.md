@@ -24,6 +24,8 @@ Reach the zones via `friars.php` / the Distant Woods.
 ⚠️ **A grove visited before is further along its chain** and yields its item sooner. Budget
 ~10–25 turns per grove and don't plan a whole day around it.
 Item IDs: **dodecagram 479 · box of birthday candles 480 · eldritch butterknife 481.**
+🍺 **The Dark Elbow drops Imp Ale freely** (6 in one visit) — a 1-drunk drink, exactly what is missing when
+filling the liver to an exact cap.
 
 🚨 **The three groves are NOT linked from `woods.php`** — they hang off **`friars.php`** only. Scrape the
 snarfblats from that page rather than the region map, or you will conclude the zones are locked.

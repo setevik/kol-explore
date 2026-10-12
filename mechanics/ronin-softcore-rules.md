@@ -63,7 +63,7 @@
   adventures** · **sweet roll Alabama 4 → 11** · Trollhouse cookies 2 → 2 · bowl of cottage cheese 2 → 2 ·
   t8r tots / gr8ps 1 → 1. **Booze legal at Level 4:** the plain bottles (**rum, whiskey, gin, tequila — 3 drunk,
   3 adventures each**), Imp Ale (1), boxed wine (3).
-  ✅ **Measured at Levels 4–5:** **ghuol guolash 5 full → 23** · **vampire chowder 4 → 11** · **Mornington crescent
+  ✅ **Measured at Levels 4–5:** **ghuol guolash 5 full → 23 (29 after milk of magnesium)** · **vampire chowder 4 → 11** · **Mornington crescent
   roll 3 → 9** · the plain cocktails (**margarita, screwdriver, salty dog, strawberry daiquiri — 3 drunk, 5–6
   adventures**) · **white lightning 3 → 10**. Refused at Level 4: extra-flat panini, actual tapas.
   ⚠️ **Imitation White Russian is FOOD**, not booze (*"That's not booze"*) — don't plan it into a drink total.

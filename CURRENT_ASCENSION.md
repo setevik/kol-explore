@@ -31,17 +31,16 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 
 ---
 
-## 📊 Character state (end of run #5 Day 3 / 2026-10-11)
+## 📊 Character state (end of run #5 Day 4 / 2026-10-12)
 
-- **LEVEL 5 Sauceror**, base Mys 28, **max HP ~23**, MP 59. 💰 Meat 11,518. **10 adventures banked**, full 15/15 ·
-  drunk 15 (12 + white lightning overdrink). Ronin ~790 left.
+- **LEVEL 6 Sauceror**, base Mys 36, max HP ~29, MP 74. 💰 Meat 7,751. **1 adventure banked**, full 15/15 ·
+  drunk 15. Ronin ~620 left.
 - 🎽 astral chapeau · saucepan · old sweatpants · batskin belt · Pine-Fresh air freshener. Familiar: Marcellus.
-- 🎒 Level-gated stock (keep): herbal stuffing (L7), stolen sushi (L6), jerky (L9), Flamin' (L6), boilermaker
-  (L9), Meade (L7), extra-flat panini, actual tapas. Food left: sweet roll Alabama, succulent marrow, salacious
-  crumbs, imitation White Russian (food!), alien salad. Booze left: boxed wine, tequila sunrise, monkey wrench,
-  strawberry wine, 2 swill. Harem disguise (veil, pants) + **3 Knob Goblin perfume**.
-- 🗺️ Quests: Boss Bat ✅ · **Knob open, King NOT beaten** (one-shot me at 21 HP) · **Hidden Temple unlocked** ·
-  *When Rocks Attack* accepted · Cobb's Knob lab key held.
+- 🎒 Level-gated stock (keep): herbal stuffing (L7), sushi (L6 — now legal), jerky (L9), Flamin' (L6 — now
+  legal), boilermaker (L9), Meade (L7), extra-flat panini, actual tapas. Booze: ~9 Imp Ale, boxed wine, swill,
+  martini, rum/vodka/tequila bottles. ~17 MMJ. 6 Knob Goblin perfume, harem outfit.
+- 🗺️ Quests: Boss Bat ✅ · **Knob Goblin King ✅** · **Friars ritual ✅** · Hidden Temple open · Council idle
+  until Level 7 · *When Rocks Attack* (buy Pungent Unguent).
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -56,18 +55,24 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 - Class start: **Sauce Contemplation**, **Salsaball** (Salsaball shows `(P)` on the charsheet).
 
 **Bought from the guild:** Simmer · Curse of Vichyssoise (L1) · **Stream of Sauce** · **Saucy Salve** (L2) ·
-Expert Panhandling · Icy Glare (L3) · Inner Sauce · Elemental Saucesphere (L4) · **Saucestorm** · Advanced Saucecrafting (L5).
+Expert Panhandling · Icy Glare (L3) · Inner Sauce · Elemental Saucesphere (L4) · **Saucestorm** · Advanced Saucecrafting (L5) · Curse of Marinara · Soul Saucery (L6).
 
-## 🔜 Next-session priorities — run #5, Day 4
+## 🔜 Next-session priorities — run #5, Day 5
 
-> **10 adventures banked. Max HP (~23) is the gate for the Knob Goblin King.**
-1. 🏦 Pulls: ghuol guolash / vampire chowder / Mornington crescent roll (best food found); 4 cocktails + a
-   **2-drunk bottle** (popskull / cooking sherry / Pinot Noir) for an exact 14; HP gear.
-2. Raise max HP (levels in the Harem, HP gear, Sauce Contemplation), then the **King** in the harem disguise +
-   perfume. Friars (L6) after.
-3. Consider the Hidden Temple (Nostril of the Serpent etc.) once stronger.
+> **Level 6. The Council has nothing until Level 7 (the Cyrpt).**
+1. 🏦 Pulls: ghuol guolash + vampire chowder + Mornington roll + milk (Level 6: stolen sushi now legal too);
+   cocktails/bottles + a 1–2-drunk drink for an exact 14 (Imp Ales in inventory). Ferrigno's for any boss.
+2. Level 7 (Harem / groves), buy L7 skills, then the Cyrpt (`mechanics/bonerdagon-boss.md`).
+3. Hidden Temple stone wool / Nostril if convenient; Spookyraven telegram is in inventory.
 
 ## 🗓️ Session log (this run)
+
+- **Run #5 Day 4 (2026-10-12): 🥫 Level 5 → 6, Knob Goblin King + Friars done — ~90 wins, 2 losses.**
+  🍽️ Food +55 (guolash 29 with milk, chowder 11, Mornington 9, salacious crumbs 6). 🍺 3 cocktails + swill +
+  cooking sherry = **14 exactly**, Imp Ale overdrink.
+  👑 Ferrigno's + Ben-Gal + 2 strongness elixirs → max HP 23 → 57 → **King in 2 rounds** (harem disguise +
+  perfume). 🔥 Friars with Elemental Saucesphere: dodecagram ~10 turns, candles ~36, butterknife ~32 → ritual.
+  Then 36 Harem wins.
 
 - **Run #5 Day 3 (2026-10-11): 🥫 Level 4 → 5, Boss Bat dead, Hidden Temple open — ~105 wins, 1 loss.**
   🍽️ Food +46 (**ghuol guolash 23**, vampire chowder 11, Mornington roll 9). 🍺 4 cocktails = 12 (Imitation White
