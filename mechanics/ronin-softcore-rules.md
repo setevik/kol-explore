@@ -64,7 +64,7 @@
   t8r tots / gr8ps 1 → 1. **Booze legal at Level 4:** the plain bottles (**rum, whiskey, gin, tequila — 3 drunk,
   3 adventures each**), Imp Ale (1), boxed wine (3).
   ✅ **Measured at Levels 4–5:** **ghuol guolash 5 full → 23 (29 after milk of magnesium)** · **vampire chowder 4 → 11** · **Mornington crescent
-  roll 3 → 9** · the plain cocktails (**margarita, screwdriver, salty dog, strawberry daiquiri — 3 drunk, 5–6
+  roll 3 → 9 (19 after milk)** · **stolen sushi 6 → 12** (Level 6) · the plain cocktails (**margarita, screwdriver, salty dog, strawberry daiquiri — 3 drunk, 5–6
   adventures**) · **white lightning 3 → 10**. Refused at Level 4: extra-flat panini, actual tapas.
   ⚠️ **Imitation White Russian is FOOD**, not booze (*"That's not booze"*) — don't plan it into a drink total.
   ⚠️ Without a 1- or 2-size drink the cap can't be hit exactly from 12; plan a 2-drunk bottle (popskull, cooking

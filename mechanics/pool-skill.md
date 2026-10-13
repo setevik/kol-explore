@@ -29,6 +29,8 @@ it lasts only a few adventures and cannot be applied inside the choice.
 ✅ **Second character:** questlog skill 6 → first hustle lost (+1) → **7 + 10 drunk + Chalky Hand 3 = 20 → won** on the
 second table, ~12 adventures from key-in-hand. **Hand chalk drops in the Billiards Room itself.** *Lights Out in the
 Billiards Room* = choice **900** → `Get the heck out of here` (free).
+✅ **Third character, no chalk:** questlog skill **3** with the cue → three `practice` picks (**+1 each**) → **6 + 10
+drunk = 16 → won the first hustle** (the ghost rolled low). ~20 adventures from key-in-hand at 10 drunk.
 ⚠️ The questlog skill line was still readable *immediately after* winning, contrary to the note below that it only
 shows beforehand; don't rely on either — read it before hustling.
 

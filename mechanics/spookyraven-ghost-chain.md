@@ -120,6 +120,10 @@ Boss opens with ~33 damage (gets the jump). Standard Pastamancer combo (Entangli
 
 Also expect a semi-rare **"Lights Out in the Bathroom"** (clock strikes 13, pick from toilet/vanity/door). Flavor only.
 
+✅ **Sauceror, Level 7 (max HP ~33), Saucestorm + Elemental Saucesphere:** Kitchen key in **12 fights**, necklace in
+**8 Library fights** (book shelf **889** → `Reading is for losers.  I'm outta here.`), powder puff in **23 Bathroom
+turns**, 0 losses throughout. The Saucesphere's elemental resistance is what speeds up the Kitchen drawer count.
+
 ### Step 4b: Bedroom → Gown
 
 ✅ **Verified flow (20 fights, 0 losses):** every nightstand's drawer menu appears **immediately after you defeat it**
@@ -131,6 +135,10 @@ and costs no turn. Key the loop's rule by the menu's **label set**, because each
   menu followed): `Open the top drawer` (meat) · `Open the bottom drawer` (Mysticality) · **`Look behind the
   nightstand` → *Lord Spookyraven's spectacles*, first time only** · `Look under the nightstand` (disposable
   camera) · `Ignore it`. ✅ The spectacles came from the first ornate nightstand met, on the 2nd Bedroom turn.
+- **876 — simple nightstand:** `Check the top drawer` (an old wallet) · `Check the bottom drawer` · `Ignore it`.
+🐛 **The drawer menu arrives on the FIGHT RESULT page**, not on an adventure page, so a loop that only answers
+choices it met via `adventure.php` leaves it open — and every later action (even drinking) answers *"in a choice
+adventure"*. Check `choice.php` after each Bedroom win.
 - **877 — animated mahogany nightstand:** `Check the top drawer` (half of a memo once, then coin purses) ·
   `Check the bottom drawer` (**bites you**) · `Look under the nightstand` (the class item, **only while the
   spectacles are equipped**) · `Ignore it`.

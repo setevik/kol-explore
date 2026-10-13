@@ -31,16 +31,17 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 
 ---
 
-## 📊 Character state (end of run #5 Day 4 / 2026-10-12)
+## 📊 Character state (end of run #5 Day 5 / 2026-10-13)
 
-- **LEVEL 6 Sauceror**, base Mys 36, max HP ~29, MP 74. 💰 Meat 7,751. **1 adventure banked**, full 15/15 ·
-  drunk 15. Ronin ~620 left.
-- 🎽 astral chapeau · saucepan · old sweatpants · batskin belt · Pine-Fresh air freshener. Familiar: Marcellus.
-- 🎒 Level-gated stock (keep): herbal stuffing (L7), sushi (L6 — now legal), jerky (L9), Flamin' (L6 — now
-  legal), boilermaker (L9), Meade (L7), extra-flat panini, actual tapas. Booze: ~9 Imp Ale, boxed wine, swill,
-  martini, rum/vodka/tequila bottles. ~17 MMJ. 6 Knob Goblin perfume, harem outfit.
-- 🗺️ Quests: Boss Bat ✅ · **Knob Goblin King ✅** · **Friars ritual ✅** · Hidden Temple open · Council idle
-  until Level 7 · *When Rocks Attack* (buy Pungent Unguent).
+- **LEVEL 7 Sauceror**, base Mys 43, max HP ~34, MP ~87. 💰 Meat 4,851 (low — 2,500×2 on L7 skills). **5 adventures
+  banked**, full 15/15 · drunk 16. Ronin ~460 left.
+- 🎽 astral chapeau · saucepan · old sweatpants · batskin belt · Pine-Fresh air freshener. Pool cue in inventory.
+- 🎒 Storage food left: Mornington roll (3), stolen sushi, sweet roll Alabama, Spam Witch… (**ghuol guolash and
+  vampire chowder are used up**). Level-gated: herbal stuffing (L7 — **now legal**), Meade (L7 — **now legal**),
+  jerky/boilermaker (L9).
+- 🗺️ Quests: Council L7 = **Cyrpt** (Evilometer held — deferred, too strong for HP 34) · **Spookyraven:** billiards ✅,
+  library key ✅, **necklace delivered**, powder puff ✅, **spectacles ✅**, gown + shoes left (Bedroom 393 elegant
+  nightstand / Gallery 394 maze) · Hidden Temple open.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -55,17 +56,25 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 - Class start: **Sauce Contemplation**, **Salsaball** (Salsaball shows `(P)` on the charsheet).
 
 **Bought from the guild:** Simmer · Curse of Vichyssoise (L1) · **Stream of Sauce** · **Saucy Salve** (L2) ·
-Expert Panhandling · Icy Glare (L3) · Inner Sauce · Elemental Saucesphere (L4) · **Saucestorm** · Advanced Saucecrafting (L5) · Curse of Marinara · Soul Saucery (L6).
+Expert Panhandling · Icy Glare (L3) · Inner Sauce · Elemental Saucesphere (L4) · **Saucestorm** · Advanced Saucecrafting (L5) · Curse of Marinara · Soul Saucery (L6) · Wave of Sauce · Jalapeño Saucesphere (L7).
 
-## 🔜 Next-session priorities — run #5, Day 5
+## 🔜 Next-session priorities — run #5, Day 6
 
-> **Level 6. The Council has nothing until Level 7 (the Cyrpt).**
-1. 🏦 Pulls: ghuol guolash + vampire chowder + Mornington roll + milk (Level 6: stolen sushi now legal too);
-   cocktails/bottles + a 1–2-drunk drink for an exact 14 (Imp Ales in inventory). Ferrigno's for any boss.
-2. Level 7 (Harem / groves), buy L7 skills, then the Cyrpt (`mechanics/bonerdagon-boss.md`).
-3. Hidden Temple stone wool / Nostril if convenient; Spookyraven telegram is in inventory.
+> **Level 7 → herbal stuffing and Ye Olde Meade are now legal: the real food/booze plan is back.**
+1. 🏦 Pulls: herbal stuffing ×1 + milk + Mornington roll / sushi; Meade ×1 + cocktails/Imp Ale to an exact 14.
+   Meat is low — consider pulling the storage meat and autoselling spare junk.
+2. Spookyraven: gown (Bedroom 393, elegant nightstand `Open the single drawer`) and shoes (Gallery 394 maze) →
+   dance → cellar route (spectacles held → wine-bomb route). Answer the post-fight drawer menus.
+3. Level toward 8–9 for the Cyrpt (caster needs base Mys ~65).
 
 ## 🗓️ Session log (this run)
+
+- **Run #5 Day 5 (2026-10-13): 🥫 Level 6 → 7, Spookyraven opened through the powder puff — ~80 wins, 0 losses.**
+  🍽️ Food +45 (Mornington 19 with milk, sushi 12, sweet roll 10). 🍺 3 cocktails + Imp Ale = **exactly 10 for pool**,
+  then daiquiri + Imp Ale = 14, brandy overdrink 16.
+  Harem to Level 7 (L7 skills 2,500 each; junk autosold ~2,000). Cyrpt deferred. Kitchen key in 12 fights →
+  pool: skill 3 + 3 practices → 16 → **won first hustle** → library: necklace in 8 → Lady → Bathroom puff (23 turns)
+  → Bedroom: **spectacles** on turn ~4.
 
 - **Run #5 Day 4 (2026-10-12): 🥫 Level 5 → 6, Knob Goblin King + Friars done — ~90 wins, 2 losses.**
   🍽️ Food +55 (guolash 29 with milk, chowder 11, Mornington 9, salacious crumbs 6). 🍺 3 cocktails + swill +
