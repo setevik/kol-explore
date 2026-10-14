@@ -66,6 +66,8 @@
   ✅ **Measured at Levels 4–5:** **ghuol guolash 5 full → 23 (29 after milk of magnesium)** · **vampire chowder 4 → 11** · **Mornington crescent
   roll 3 → 9 (19 after milk)** · **stolen sushi 6 → 12** (Level 6) · the plain cocktails (**margarita, screwdriver, salty dog, strawberry daiquiri — 3 drunk, 5–6
   adventures**) · **white lightning 3 → 10**. Refused at Level 4: extra-flat panini, actual tapas.
+  ✅ **From Level 7 the normal menu returns:** herbal stuffing **28 / 19** (with / after milk), **Ye Olde Meade 5 drunk
+  → 14–16**, Flamin' Whatshisname 2 drunk → 6.
   ⚠️ **Imitation White Russian is FOOD**, not booze (*"That's not booze"*) — don't plan it into a drink total.
   ⚠️ Without a 1- or 2-size drink the cap can't be hit exactly from 12; plan a 2-drunk bottle (popskull, cooking
   sherry, Pinot Noir, flat champagne, aged brandy) or Imp Ale into the pull list. The General Store sells **no booze**, and the Typical Tavern page is blank until the larva quest

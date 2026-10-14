@@ -194,6 +194,9 @@ Note: the Escher maze may require multiple tries; if you pick wrong you pop back
    clock"* (singular) and never "melting" or "clocks", so a text regex walks straight past it, and the
    middle-button rule then loops forever with no turn cost. Other maze rooms seen: 908, 911, 913.
    ✅ Re-verified maze path: **904 → 910 → 911 → 905 (middle each time) → top at 905** = shoes.
+   ✅ Another run took **904 → 907 → 908 → 911 → 905** (labels `Take the stairs forward / southwest / west /
+   sideways`) — the room sequence varies, so key the rule by number: **option 2 everywhere in 904–911, option 1 at 905**.
+   Sauceror Level 7 (HP 35): **shoes in 19 Gallery turns, 0 losses**; gown on the 2nd Bedroom turn.
    🐛 **Restrict the maze rule to the maze's choice numbers (904–911).** A "middle button" rule applied to whatever
    choice is open answered **89** (*Out in the Garden*) with `The second knight` — a fight.
 5. Other Gallery noncombats: **Out in the Garden = choice 89** (`The two maidens` = *Dreams and Lights*) (`None of the above` is free and re-schedules it

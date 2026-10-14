@@ -31,17 +31,14 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 
 ---
 
-## 📊 Character state (end of run #5 Day 5 / 2026-10-13)
+## 📊 Character state (end of run #5 Day 6 / 2026-10-14)
 
-- **LEVEL 7 Sauceror**, base Mys 43, max HP ~34, MP ~87. 💰 Meat 4,851 (low — 2,500×2 on L7 skills). **5 adventures
-  banked**, full 15/15 · drunk 16. Ronin ~460 left.
-- 🎽 astral chapeau · saucepan · old sweatpants · batskin belt · Pine-Fresh air freshener. Pool cue in inventory.
-- 🎒 Storage food left: Mornington roll (3), stolen sushi, sweet roll Alabama, Spam Witch… (**ghuol guolash and
-  vampire chowder are used up**). Level-gated: herbal stuffing (L7 — **now legal**), Meade (L7 — **now legal**),
-  jerky/boilermaker (L9).
-- 🗺️ Quests: Council L7 = **Cyrpt** (Evilometer held — deferred, too strong for HP 34) · **Spookyraven:** billiards ✅,
-  library key ✅, **necklace delivered**, powder puff ✅, **spectacles ✅**, gown + shoes left (Bedroom 393 elegant
-  nightstand / Gallery 394 maze) · Hidden Temple open.
+- **LEVEL 8 Sauceror**, base Mys 53, max HP ~44, MP ~105. 💰 Meat 2,361 (L8 skills 3,250 ×2). **3 adventures
+  banked**, full 15/15 · drunk 17. Ronin ~340 left.
+- 🎽 astral chapeau · saucepan · old sweatpants · batskin belt · Pine-Fresh air freshener.
+- 🎒 **6 ghuol guolash** (Cranny drop — tomorrow's food), plus-sized phylactery, Imp Ales, boxed wine ×4, vodka.
+- 🗺️ **Cyrpt: Alcove 0 · Cranny 0 · Niche 12 (boss next — use the plus-sized phylactery) · Nook 50.**
+  **Spookyraven: finery delivered, danced ✅** (cellar waits for the Level 11 diary). Hidden Temple open.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -56,18 +53,22 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 - Class start: **Sauce Contemplation**, **Salsaball** (Salsaball shows `(P)` on the charsheet).
 
 **Bought from the guild:** Simmer · Curse of Vichyssoise (L1) · **Stream of Sauce** · **Saucy Salve** (L2) ·
-Expert Panhandling · Icy Glare (L3) · Inner Sauce · Elemental Saucesphere (L4) · **Saucestorm** · Advanced Saucecrafting (L5) · Curse of Marinara · Soul Saucery (L6) · Wave of Sauce · Jalapeño Saucesphere (L7).
+Expert Panhandling · Icy Glare (L3) · Inner Sauce · Elemental Saucesphere (L4) · **Saucestorm** · Advanced Saucecrafting (L5) · Curse of Marinara · Soul Saucery (L6) · Wave of Sauce · Jalapeño Saucesphere (L7) · Curse of the Thousand Islands · Itchy Curse Finger (L8).
 
-## 🔜 Next-session priorities — run #5, Day 6
+## 🔜 Next-session priorities — run #5, Day 7
 
-> **Level 7 → herbal stuffing and Ye Olde Meade are now legal: the real food/booze plan is back.**
-1. 🏦 Pulls: herbal stuffing ×1 + milk + Mornington roll / sushi; Meade ×1 + cocktails/Imp Ale to an exact 14.
-   Meat is low — consider pulling the storage meat and autoselling spare junk.
-2. Spookyraven: gown (Bedroom 393, elegant nightstand `Open the single drawer`) and shoes (Gallery 394 maze) →
-   dance → cellar route (spectacles held → wine-bomb route). Answer the post-fight drawer menus.
-3. Level toward 8–9 for the Cyrpt (caster needs base Mys ~65).
+> **Meat is low (2,361). Food is covered: 6 ghuol guolash in inventory (3 × 5 = 15 full).**
+1. Eat 3 guolash (+milk pull). Pull Meade + stuffing for later, booze to 14 (Meade 5 + Meade… one per day).
+2. **Cyrpt:** Niche boss (gargantulihc — use the **plus-sized phylactery** in the fight), then the **Nook**
+   (evil eyes: `inv_use` for −3), then the **Bonerdagon** (Brother Smothers's blessing just before; Saucestorm).
+3. Level 8 → Council (Trapper). Autosell junk / sell a ghuol egg stack if meat stays low.
 
 ## 🗓️ Session log (this run)
+
+- **Run #5 Day 6 (2026-10-14): 🥫 Level 7 → 8, Spookyraven finery + dance, Cyrpt 3/4 rooms nearly — ~90 wins, 0 losses.**
+  🍽️ **Food +66** (stuffing 28/19, Mornington 9, sweet roll 10). 🍺 Meade 14 + 16, Flamin' 6, 2 Imp Ale = 14; boxed
+  wine overdrink 17. Gown (2 turns) · shoes via the Gallery maze (19 turns) · finery → dance. **Cyrpt with Saucestorm
+  + Elemental Saucesphere: Alcove and Cranny cleared, Niche 50 → 12, 78 W / 0 L.** 6 ghuol guolash from the Cranny.
 
 - **Run #5 Day 5 (2026-10-13): 🥫 Level 6 → 7, Spookyraven opened through the powder puff — ~80 wins, 0 losses.**
   🍽️ Food +45 (Mornington 19 with milk, sushi 12, sweet roll 10). 🍺 3 cocktails + Imp Ale = **exactly 10 for pool**,

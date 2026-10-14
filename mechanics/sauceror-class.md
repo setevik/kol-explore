@@ -18,7 +18,7 @@
 - **Same challenge as the Pastamancer:** tame the **poltersandwich** in the **Haunted Pantry (113)**, choice
   **544** (single option). ✅ 6 turns, then `guild.php?place=challenge` makes you a member.
 - **Trainer** `guild.php?place=trainer`, POST `action=buyskill&skillid=<short id>&pwd=`; only your level's rows are
-  buyable. **Prices by level: 125 · 250 · 500 · 750 · 1,250 · 1,750 · 2,500** for Levels 1–7 (the same ladder as every guild so far).
+  buyable. **Prices by level: 125 · 250 · 500 · 750 · 1,250 · 1,750 · 2,500 · 3,250** for Levels 1–8 (the same ladder as every guild so far).
 
 | Lvl | Skill | `whichskill` | `skillid` | Notes |
 |---|---|---|---|---|
@@ -35,6 +35,8 @@
 | 6 | **Soul Saucery** | 4027 | 27 | **1,750** |
 | 7 | **Wave of Sauce** | 4009 | 9 | **2,500** |
 | 7 | **Jalapeño Saucesphere** | 4008 | 8 | **2,500** |
+| 8 | **Curse of the Thousand Islands** | 4031 | 31 | **3,250** |
+| 8 | **Itchy Curse Finger** | 4030 | 30 | **3,250** — passive |
 | 5 | **Advanced Saucecrafting** | 4006 | 6 | **1,250** — noncombat, 10 MP: cook sauces and salves from reagents |
 
 Later rows by level (names from the trainer page): 4 Inner Sauce · Elemental Saucesphere — 5 Advanced
@@ -67,6 +69,6 @@ the day before he had one-shot the same character at 21 HP.
 groves in **~80 turns, 30 wins / 2 losses** (Neck ~10, Heart ~36 with rests, Elbow ~32). The Saucesphere is the
 right buff there — the groves deal hot damage.
 
-🚨 **The Cyrpt is not a Level 7 zone for this class.** At Level 7 (base Mys 40, max HP ~32) the Cyrpt's ML 53–79
-rooms are out of reach (see `bonerdagon-boss.md`); **Spookyraven is the right Level 7 work** — the Kitchen, pool,
-Library and Bathroom all went without a loss.
+✅ **Spookyraven and the Cyrpt are both Level 7 work for this class.** Kitchen, pool, Library, Bathroom, Bedroom
+and Gallery went without a loss, and with Elemental Saucesphere up the Cyrpt rooms went 78 W / 0 L at Levels 7–8
+(`bonerdagon-boss.md`).

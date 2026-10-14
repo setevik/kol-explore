@@ -103,6 +103,12 @@ Urn #3` (200–300 Meat).
 ✅ **Prep that beat every room boss:** full HP, ~23 MP, then `Shell Up` → `Lunging Thrust-Smack` ×2, at buffed
 Muscle above the boss's Defense (67–85 vs 63–65). A boss met mid-grind at part HP is the one that loses.
 
+✅ **Sauceror, Level 7–8 (base Mys 45–53, max HP 35–44): Saucestorm every round + Elemental Saucesphere (covers
+spooky) + Sauce Contemplation — Alcove 22 W, Cranny 28 W, Niche 28 W, 0 losses**, the Alcove and Cranny bosses dying
+inside the ordinary grind. ⇒ The warning below is a **Pastamancer** measurement (single-element spells, no
+all-element shield); a caster with a multi-element nuke and an elemental-resistance buff clears the rooms at Level 7.
+Cranny **523 `Open the rattling one`** paid off: 5 swarm fights and **6 ghuol guolash** (excellent food).
+
 🚨 **THIS IS A LEVEL 9–10 GRIND, NOT A LEVEL 8 ONE — *for a caster*.** ⚠️ **Class-specific:** the numbers
 below were measured on a Pastamancer with ~50 HP. ✅ **Re-measured on a Seal Clubber (L7–8, 128–150 max HP,
 Hide of the Walrus passive): the four sub-zones went 125W / 2L across two days**, ~1 evil per kill, with
