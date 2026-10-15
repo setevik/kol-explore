@@ -74,6 +74,11 @@ also lowers max HP (it replaces hat, weapon and pants; the two-handed mattock em
   is what catches this instantly.
 - The slope is also a **fine leveling zone** at L9–10 (≈18 substats/win, near-100% win with MP up).
 
+✅ **Storage shortcut, measured on a later run:** the previous estate held the **Mining Gear pieces, the whole
+eXtreme Cold-Weather Gear, 1 linoleum ore and goat cheese** — Phases 1–2 then cost **8 digs + 11 Goatlet wins +
+~13 Slope fights** (Sauceror, Level 8, 0 losses), and Phase 2 completed **the moment the ore and cheese were handed
+in** while wearing nothing special.
+
 ## Phase 3 — the Mist-Shrouded Peak & Groar
 
 - ⚠️ The peak link is `place.php?whichplace=mclargehuge&action=cloudypeak2` **(cloudypeak2, not cloudypeak —

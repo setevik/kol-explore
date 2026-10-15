@@ -108,6 +108,11 @@ spooky) + Sauce Contemplation — Alcove 22 W, Cranny 28 W, Niche 28 W, 0 losses
 inside the ordinary grind. ⇒ The warning below is a **Pastamancer** measurement (single-element spells, no
 all-element shield); a caster with a multi-element nuke and an elemental-resistance buff clears the rooms at Level 7.
 Cranny **523 `Open the rattling one`** paid off: 5 swarm fights and **6 ghuol guolash** (excellent food).
+Next day: the **plus-sized phylactery killed the gargantulihc in round 1**, and the **Nook went 50 → done in 29
+fights** using each *evil eye* as it dropped (−3 each). **But the Bonerdagon one-shot the same Sauceror** (45 max
+HP, Brother Smothers + Elemental Saucesphere + Jalapeño Saucesphere all up): he acts first, the heal was
+wing-flapped, and that was the fight. ⇒ **The rooms and the boss have different gates — the rooms are a damage
+check, the boss is a max-HP check** (budget ≥ 3 of his hits).
 
 🚨 **THIS IS A LEVEL 9–10 GRIND, NOT A LEVEL 8 ONE — *for a caster*.** ⚠️ **Class-specific:** the numbers
 below were measured on a Pastamancer with ~50 HP. ✅ **Re-measured on a Seal Clubber (L7–8, 128–150 max HP,

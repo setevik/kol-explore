@@ -31,14 +31,17 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 
 ---
 
-## 📊 Character state (end of run #5 Day 6 / 2026-10-14)
+## 📊 Character state (end of run #5 Day 7 / 2026-10-15)
 
-- **LEVEL 8 Sauceror**, base Mys 53, max HP ~44, MP ~105. 💰 Meat 2,361 (L8 skills 3,250 ×2). **3 adventures
-  banked**, full 15/15 · drunk 17. Ronin ~340 left.
-- 🎽 astral chapeau · saucepan · old sweatpants · batskin belt · Pine-Fresh air freshener.
-- 🎒 **6 ghuol guolash** (Cranny drop — tomorrow's food), plus-sized phylactery, Imp Ales, boxed wine ×4, vodka.
-- 🗺️ **Cyrpt: Alcove 0 · Cranny 0 · Niche 12 (boss next — use the plus-sized phylactery) · Nook 50.**
-  **Spookyraven: finery delivered, danced ✅** (cellar waits for the Level 11 diary). Hidden Temple open.
+- **LEVEL 8 Sauceror**, base Mys 60, **max HP ~45 (the binding constraint)**, MP ~115. 💰 Meat 4,895. **1 adventure
+  banked**, full 15/15 · drunk 15. **Ronin ~150 left — ends during Day 8.**
+- 🎽 astral chapeau · saucepan · old sweatpants · batskin belt · air freshener. Cold-weather outfit + mining
+  outfit in inventory.
+- 🎒 3 ghuol guolash (food for tomorrow), 6 Mountain Stream soda, succulent marrow ×4, cocktails (screwdriver,
+  salty dog, margarita, monkey wrench, strawberry wine, martini ×2), Imp Ales.
+- 🗺️ **Cyrpt: all 4 rooms clear — only the Bonerdagon left (one-shot me at 45 HP; needs much more HP).**
+  **Trapper: ore + cheese ✅, extmeter 3 ✅, peak = `cloudypeak2`** — 3 yetis + Groar (HP 250, weak to hot) left.
+  Spookyraven dance ✅ (cellar = L11). Hidden Temple open.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -55,15 +58,23 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 **Bought from the guild:** Simmer · Curse of Vichyssoise (L1) · **Stream of Sauce** · **Saucy Salve** (L2) ·
 Expert Panhandling · Icy Glare (L3) · Inner Sauce · Elemental Saucesphere (L4) · **Saucestorm** · Advanced Saucecrafting (L5) · Curse of Marinara · Soul Saucery (L6) · Wave of Sauce · Jalapeño Saucesphere (L7) · Curse of the Thousand Islands · Itchy Curse Finger (L8).
 
-## 🔜 Next-session priorities — run #5, Day 7
+## 🔜 Next-session priorities — run #5, Day 8
 
-> **Meat is low (2,361). Food is covered: 6 ghuol guolash in inventory (3 × 5 = 15 full).**
-1. Eat 3 guolash (+milk pull). Pull Meade + stuffing for later, booze to 14 (Meade 5 + Meade… one per day).
-2. **Cyrpt:** Niche boss (gargantulihc — use the **plus-sized phylactery** in the fight), then the **Nook**
-   (evil eyes: `inv_use` for −3), then the **Bonerdagon** (Brother Smothers's blessing just before; Saucestorm).
-3. Level 8 → Council (Trapper). Autosell junk / sell a ghuol egg stack if meat stays low.
+> **Ronin ends after ~150 more turns → then the whole storage opens (pull + autosell surplus = big meat; mall buys
+> go to inventory). Max HP is the gate for both remaining bosses.**
+1. Eat 3 guolash; drink the inventory cocktails to 14.
+2. Burn the Ronin turns levelling (Slope 273 was 19 W / 0 L), then **raid storage**: Muscle potions (Ferrigno's
+   etc.) and HP gear for the bosses; sell surplus.
+3. **Bonerdagon** with Muscle potions (max HP ≥ ~130) + Smothers + Saucesphere; **Groar** (hot-weak: Saucestorm)
+   in the cold outfit after the 3 yetis.
 
 ## 🗓️ Session log (this run)
+
+- **Run #5 Day 7 (2026-10-15): 🥫 Level 8 — Cyrpt rooms all clear, Trapper to the peak — ~80 wins, 1 loss.**
+  🍽️ **Food +59** (3 ghuol guolash 22/18/19, milk). 🍺 Meade 16 + 2 boxed wine + vodka = 14, Imp Ale overdrink 15.
+  💀 Phylactery → gargantulihc round 1 · Nook 29 fights with evil eyes → **Haert only**. Bonerdagon: **one-shot me**
+  at 45 HP despite Smothers + both Saucespheres. ⛰️ Trapper: storage had both outfits + linoleum + cheese →
+  8 digs, 11 Goatlet wins → handed in; Slope extmeter 3 in 13 fights; peak spotted (cloudypeak2).
 
 - **Run #5 Day 6 (2026-10-14): 🥫 Level 7 → 8, Spookyraven finery + dance, Cyrpt 3/4 rooms nearly — ~90 wins, 0 losses.**
   🍽️ **Food +66** (stuffing 28/19, Mornington 9, sweet roll 10). 🍺 Meade 14 + 16, Flamin' 6, 2 Imp Ale = 14; boxed
