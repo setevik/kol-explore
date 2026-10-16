@@ -18,7 +18,7 @@
 - **Same challenge as the Pastamancer:** tame the **poltersandwich** in the **Haunted Pantry (113)**, choice
   **544** (single option). ✅ 6 turns, then `guild.php?place=challenge` makes you a member.
 - **Trainer** `guild.php?place=trainer`, POST `action=buyskill&skillid=<short id>&pwd=`; only your level's rows are
-  buyable. **Prices by level: 125 · 250 · 500 · 750 · 1,250 · 1,750 · 2,500 · 3,250** for Levels 1–8 (the same ladder as every guild so far).
+  buyable. **Prices by level: 125 · 250 · 500 · 750 · 1,250 · 1,750 · 2,500 · 3,250 · 4,000** for Levels 1–9 (the same ladder as every guild so far).
 
 | Lvl | Skill | `whichskill` | `skillid` | Notes |
 |---|---|---|---|---|
@@ -37,6 +37,8 @@
 | 7 | **Jalapeño Saucesphere** | 4008 | 8 | **2,500** |
 | 8 | **Curse of the Thousand Islands** | 4031 | 31 | **3,250** |
 | 8 | **Itchy Curse Finger** | 4030 | 30 | **3,250** — passive |
+| 9 | **Intrinsic Spiciness** | 4010 | 10 | **4,000** — passive: sauce spells hit harder |
+| 9 | **Saucecicle** | — | 32 | **4,000** — cold spell (skipped) |
 | 5 | **Advanced Saucecrafting** | 4006 | 6 | **1,250** — noncombat, 10 MP: cook sauces and salves from reagents |
 
 Later rows by level (names from the trainer page): 4 Inner Sauce · Elemental Saucesphere — 5 Advanced
@@ -72,3 +74,7 @@ right buff there — the groves deal hot damage.
 ✅ **Spookyraven and the Cyrpt are both Level 7 work for this class.** Kitchen, pool, Library, Bathroom, Bedroom
 and Gallery went without a loss, and with Elemental Saucesphere up the Cyrpt rooms went 78 W / 0 L at Levels 7–8
 (`bonerdagon-boss.md`).
+
+✅ **The eXtreme Slope (273, cold outfit on) is this class's Level 8–9 grind:** **99 wins, 0 losses** in one day,
+Level 8 → 9, base Mys 60 → 70. Its **Mountain Stream sodas** (MP) drop steadily — feed them back into the MP
+top-up, plus magical mystery juice (guild store, 100 meat) when they run out.

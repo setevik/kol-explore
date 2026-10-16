@@ -31,17 +31,14 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 
 ---
 
-## 📊 Character state (end of run #5 Day 7 / 2026-10-15)
+## 📊 Character state (end of run #5 Day 8 / 2026-10-16)
 
-- **LEVEL 8 Sauceror**, base Mys 60, **max HP ~45 (the binding constraint)**, MP ~115. 💰 Meat 4,895. **1 adventure
-  banked**, full 15/15 · drunk 15. **Ronin ~150 left — ends during Day 8.**
-- 🎽 astral chapeau · saucepan · old sweatpants · batskin belt · air freshener. Cold-weather outfit + mining
-  outfit in inventory.
-- 🎒 3 ghuol guolash (food for tomorrow), 6 Mountain Stream soda, succulent marrow ×4, cocktails (screwdriver,
-  salty dog, margarita, monkey wrench, strawberry wine, martini ×2), Imp Ales.
-- 🗺️ **Cyrpt: all 4 rooms clear — only the Bonerdagon left (one-shot me at 45 HP; needs much more HP).**
-  **Trapper: ore + cheese ✅, extmeter 3 ✅, peak = `cloudypeak2`** — 3 yetis + Groar (HP 250, weak to hot) left.
-  Spookyraven dance ✅ (cellar = L11). Hidden Temple open.
+- **LEVEL 9 Sauceror**, base Mys 70, max HP ~54, MP ~119. 💰 Meat ~4,350. **6 adventures banked**, full 15/15 ·
+  drunk 17. **Ronin 80 left — ends early on Day 9.**
+- 🎽 astral chapeau · saucepan · old sweatpants · batskin belt · air freshener. Cold outfit + mining outfit held.
+- 🎒 ~10 MMJ, Mountain Stream sodas, gr8ps / t8r tots (1-fullness fillers), 2 martini, 5 Imp Ale.
+- 🗺️ Cyrpt: **Bonerdagon only** · Trapper: **3 yetis + Groar** at `cloudypeak2` · **Level 9 quest (Black Angus /
+  Orc Chasm) given** · Spookyraven cellar = L11 · Hidden Temple open.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -56,19 +53,22 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 - Class start: **Sauce Contemplation**, **Salsaball** (Salsaball shows `(P)` on the charsheet).
 
 **Bought from the guild:** Simmer · Curse of Vichyssoise (L1) · **Stream of Sauce** · **Saucy Salve** (L2) ·
-Expert Panhandling · Icy Glare (L3) · Inner Sauce · Elemental Saucesphere (L4) · **Saucestorm** · Advanced Saucecrafting (L5) · Curse of Marinara · Soul Saucery (L6) · Wave of Sauce · Jalapeño Saucesphere (L7) · Curse of the Thousand Islands · Itchy Curse Finger (L8).
+Expert Panhandling · Icy Glare (L3) · Inner Sauce · Elemental Saucesphere (L4) · **Saucestorm** · Advanced Saucecrafting (L5) · Curse of Marinara · Soul Saucery (L6) · Wave of Sauce · Jalapeño Saucesphere (L7) · Curse of the Thousand Islands · Itchy Curse Finger (L8) · Intrinsic Spiciness (L9).
 
-## 🔜 Next-session priorities — run #5, Day 8
+## 🔜 Next-session priorities — run #5, Day 9
 
-> **Ronin ends after ~150 more turns → then the whole storage opens (pull + autosell surplus = big meat; mall buys
-> go to inventory). Max HP is the gate for both remaining bosses.**
-1. Eat 3 guolash; drink the inventory cocktails to 14.
-2. Burn the Ronin turns levelling (Slope 273 was 19 W / 0 L), then **raid storage**: Muscle potions (Ferrigno's
-   etc.) and HP gear for the bosses; sell surplus.
-3. **Bonerdagon** with Muscle potions (max HP ≥ ~130) + Smothers + Saucesphere; **Groar** (hot-weak: Saucestorm)
-   in the cold outfit after the 3 yetis.
+> **Ronin ends after 80 turns. Then: storage audit (pull + autosell surplus — last run's estate is huge), mall
+> buys go to inventory, unlimited pulls.**
+1. Day-open (still Ronin): pull food (herbal stuffing, Mornington, milk) + Meade; eat; burn 80 turns on the Slope.
+2. **When `roninleft` = 0:** storage audit for meat; pull Muscle potions + tiny houses + phonics; buy the
+   **Muscle potion set** (HANDOFF § stat potions) for the **Bonerdagon** and **Groar**.
+3. Orc Chasm (`mechanics/orc-chasm-and-highlands.md`).
 
 ## 🗓️ Session log (this run)
+
+- **Run #5 Day 8 (2026-10-16): 🥫 Level 8 → 9 on the eXtreme Slope — 99 wins, 0 losses.**
+  🍽️ **Food +57** (3 ghuol guolash, milk). 🍺 4 cocktails + 2 Imp Ale = 14, martini overdrink 17.
+  Whole day on the Slope in the cold outfit (Mountain Stream sodas + MMJ for MP). Bought Intrinsic Spiciness.
 
 - **Run #5 Day 7 (2026-10-15): 🥫 Level 8 — Cyrpt rooms all clear, Trapper to the peak — ~80 wins, 1 loss.**
   🍽️ **Food +59** (3 ghuol guolash 22/18/19, milk). 🍺 Meade 16 + 2 boxed wine + vodka = 14, Imp Ale overdrink 15.
