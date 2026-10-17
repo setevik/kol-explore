@@ -263,6 +263,9 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
    on all of them, 0 missing prices**, and spot-checks hit *suntan lotion 150 · canopic jar 87 · ketchup hound 120
    · PADL Phone 100* exactly. ⇒ **This replaces per-item wiki lookups entirely** — the sell page already knows
    every price you own.
+   ✅ **Pull the whole estate in batches when Ronin ends:** `storage.php?action=pull` accepts **`whichitem1..10` /
+   `howmany1..10` in one request** (✅ 657 stacks emptied in 66 requests). Read `api.php?what=storage` for the
+   `{id: qty}` list first.
    ✅ **Then rank by `(qty − keep) × price`, and sell per-item with `mode=3&quantity=<surplus>`** — one POST each.
    `mode=1`/`mode=2` cannot express "keep exactly 3", and `mode=3`'s `quantity` applies to *every* checked item,
    so **one item per POST is the only way to keep a per-item reserve.**
@@ -608,6 +611,9 @@ not single digits. ✅ Measured on a Level 14 Muscle class (base Muscle 182), on
 Max HP rose with it (**399 → ~1,820**). About **2,150 meat for the set**, lasting 3–15 turns. The **Moxie** set works
 the same way: **Connery's Elixir of Audacity (1038)**, **serum of sarcasm (419)** and **pressurized potion of
 pulchritude (3563)** took Moxie **313 → 1,045**.
+⭐ **For a Mysticality or Moxie class the same set is a MAX-HP potion** (max HP follows Muscle). ✅ A Level 9
+Sauceror went **Muscle 51 → 307, max HP 57 → 313**; the Bonerdagon (which had one-shot it at 45 HP) then died in
+2 rounds without landing a hit, and the three yetis plus Groar fell inside the same potion window.
 ⇒ **Before a stat-gated boss or contest, buy the set and fight inside its duration**, ideally at once, because
 fights cost no turns but recovery and walking around do. Try this before grinding levels or retrying a lost fight.
 

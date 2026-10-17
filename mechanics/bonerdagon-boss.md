@@ -113,6 +113,8 @@ fights** using each *evil eye* as it dropped (−3 each). **But the Bonerdagon o
 HP, Brother Smothers + Elemental Saucesphere + Jalapeño Saucesphere all up): he acts first, the heal was
 wing-flapped, and that was the fight. ⇒ **The rooms and the boss have different gates — the rooms are a damage
 check, the boss is a max-HP check** (budget ≥ 3 of his hits).
+✅ **Two days later, same Sauceror at Level 9 with the mall Muscle-potion set (max HP 313), Smothers + both
+Saucespheres: dead in 2 rounds, no damage taken** (one cast wing-flapped).
 
 🚨 **THIS IS A LEVEL 9–10 GRIND, NOT A LEVEL 8 ONE — *for a caster*.** ⚠️ **Class-specific:** the numbers
 below were measured on a Pastamancer with ~50 HP. ✅ **Re-measured on a Seal Clubber (L7–8, 128–150 max HP,

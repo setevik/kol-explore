@@ -130,6 +130,9 @@ about Groar** — measure separately.
   Yetis die to plain attacks in 2 rounds each. For Groar: full HP, then Reptilian Fortitude · Ghostly Shell ·
   Tenacity of the Snapper · Spiky Shell · Patience → round 1 `Shell Up` (his hit bounces), then `Lunging
   Thrust-Smack` ~75 per hit. Reward: **fuzzy busby**.
+- ✅ **Sauceror recipe (Level 9, mall Muscle-potion set → max HP ~313, in the outfit):** 3 yetis in one round
+  each, **Groar in 4 rounds** with Saucestorm (part hot, which he is weak to), HP never below 300. The potions
+  last ~9 turns — climb straight after drinking them.
 - **Groar one-shot us at 53 max HP on attempt 1.** Winning prep (attempt 2, 8 rounds, never dropped low):
   1. kmail **Buffy** for **Ghostly Shell + Astral Shell** (free, ~160 damage absorption + 1 all-res);
   2. full HP (scroll 595) + ~120 MP (tiny houses) + **fresh Springy Fusilli**;

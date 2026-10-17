@@ -59,6 +59,9 @@ heal at this stage is **resting at the campground (1 adventure)**, which also cl
 that two levels and the buff fixed.
 
 ## ⭐ Max HP for a boss: borrow Muscle
+✅ **The full mall set at Level 9 (Ben-Gal, Ferrigno's, Wereseal blood, philter, gr8ness, tomato juice + a
+strongness elixir): max HP 57 → 313.** Bonerdagon 2 rounds, Groar 4 rounds, both untouched.
+
 
 A caster's max HP follows Muscle, so a **Muscle potion is a max-HP potion**. ✅ Measured at Level 5 (Muscle 17,
 max HP 23): Ben-Gal Balm +3 · **Ferrigno's Elixir of Power +28** · extra-strength strongness elixir and strongness

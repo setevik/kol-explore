@@ -31,14 +31,14 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 
 ---
 
-## 📊 Character state (end of run #5 Day 8 / 2026-10-16)
+## 📊 Character state (end of run #5 Day 9 / 2026-10-17)
 
-- **LEVEL 9 Sauceror**, base Mys 70, max HP ~54, MP ~119. 💰 Meat ~4,350. **6 adventures banked**, full 15/15 ·
-  drunk 17. **Ronin 80 left — ends early on Day 9.**
-- 🎽 astral chapeau · saucepan · old sweatpants · batskin belt · air freshener. Cold outfit + mining outfit held.
-- 🎒 ~10 MMJ, Mountain Stream sodas, gr8ps / t8r tots (1-fullness fillers), 2 martini, 5 Imp Ale.
-- 🗺️ Cyrpt: **Bonerdagon only** · Trapper: **3 yetis + Groar** at `cloudypeak2` · **Level 9 quest (Black Angus /
-  Orc Chasm) given** · Spookyraven cellar = L11 · Hidden Temple open.
+- **LEVEL 9 Sauceror**, base Mys 81, max HP ~63, MP ~138. 💰 **Meat 152,998** (storage audit +141,122).
+  **7 adventures banked**, full 15/15 · drunk 16. **Ronin OVER** — everything is in inventory, mall → inventory.
+- 🎽 astral chapeau · saucepan · old sweatpants · batskin belt · air freshener · loadstone (off-hand).
+- 🎒 Whole estate in inventory: 16+ Meade, boilermakers, herbal stuffing, milk, tiny houses, scrolls, sodas, MMJ.
+- 🗺️ Cyrpt ✅ (Bonerdagon dead) · Trapper ✅ (Groar; reward hat) · **Orc Chasm bridge 26/30** → then Highlands ·
+  Spookyraven cellar = L11 · Hidden Temple open.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -55,16 +55,20 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 **Bought from the guild:** Simmer · Curse of Vichyssoise (L1) · **Stream of Sauce** · **Saucy Salve** (L2) ·
 Expert Panhandling · Icy Glare (L3) · Inner Sauce · Elemental Saucesphere (L4) · **Saucestorm** · Advanced Saucecrafting (L5) · Curse of Marinara · Soul Saucery (L6) · Wave of Sauce · Jalapeño Saucesphere (L7) · Curse of the Thousand Islands · Itchy Curse Finger (L8) · Intrinsic Spiciness (L9).
 
-## 🔜 Next-session priorities — run #5, Day 9
+## 🔜 Next-session priorities — run #5, Day 10
 
-> **Ronin ends after 80 turns. Then: storage audit (pull + autosell surplus — last run's estate is huge), mall
-> buys go to inventory, unlimited pulls.**
-1. Day-open (still Ronin): pull food (herbal stuffing, Mornington, milk) + Meade; eat; burn 80 turns on the Slope.
-2. **When `roninleft` = 0:** storage audit for meat; pull Muscle potions + tiny houses + phonics; buy the
-   **Muscle potion set** (HANDOFF § stat potions) for the **Bonerdagon** and **Groar**.
-3. Orc Chasm (`mechanics/orc-chasm-and-highlands.md`).
+> **Rich (153k) and out of Ronin. Max HP (~63) is still the only weakness — the potion set fixes any boss.**
+1. Eat stuffing ×3 + milk + filler; drink Meade ×2 + boilermaker = 14.
+2. Finish the bridge (~5 fights) → Highlands three fires (`mechanics/orc-chasm-and-highlands.md`).
+3. Buy permanent HP gear / the guild L10 skills when Level 10. Then Level 10 castle quest.
 
 ## 🗓️ Session log (this run)
+
+- **Run #5 Day 9 (2026-10-17): 🥫 RONIN OVER — +141k, Bonerdagon + Groar dead, bridge 26/30 — ~120 wins, 0 losses.**
+  🍽️ Food +46. Last 80 Ronin turns on the Slope. Storage audit: 657 stacks pulled in batches, 348 surplus lines
+  sold → **+141,122**. Muscle-potion set → **max HP 57 → 313** → **Bonerdagon 2 rounds** untouched, **3 yetis +
+  Groar 4 rounds** in the same potion window. 🍺 Meade ×2 + boilermaker = 14 → Logging Camp 44 fights → bridge
+  26/30. Flamin' overdrink 16.
 
 - **Run #5 Day 8 (2026-10-16): 🥫 Level 8 → 9 on the eXtreme Slope — 99 wins, 0 losses.**
   🍽️ **Food +57** (3 ghuol guolash, milk). 🍺 4 cocktails + 2 Imp Ale = 14, martini overdrink 17.

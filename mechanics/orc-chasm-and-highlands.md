@@ -58,6 +58,8 @@ yields bonus fasteners; adventuring **Lucky!** triggers *S&M 4-EVER* for 3 lumbe
 Lucky!** — using one just turns it into a *disassembled clover* and back); overkilling
 non-pervert orcs with **cold** damage 15 points' worth opens the *Blech House* noncombat for more parts.
 
+✅ Sauceror, Level 9 (Saucestorm, loadstone in the off-hand): **44 fights, 0 losses → bridge 0 → 26/30** (one
+carried-in keepsake box included).
 **Combat note:** smut orcs are ML 69, 69 HP, **no elemental alignment** — a plain Cannelloni grind handles them.
 Measured: **40 fights, 0 losses** at base Mys ~236.
 
