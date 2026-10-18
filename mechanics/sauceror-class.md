@@ -18,7 +18,7 @@
 - **Same challenge as the Pastamancer:** tame the **poltersandwich** in the **Haunted Pantry (113)**, choice
   **544** (single option). ✅ 6 turns, then `guild.php?place=challenge` makes you a member.
 - **Trainer** `guild.php?place=trainer`, POST `action=buyskill&skillid=<short id>&pwd=`; only your level's rows are
-  buyable. **Prices by level: 125 · 250 · 500 · 750 · 1,250 · 1,750 · 2,500 · 3,250 · 4,000** for Levels 1–9 (the same ladder as every guild so far).
+  buyable. **Prices by level: 125 · 250 · 500 · 750 · 1,250 · 1,750 · 2,500 · 3,250 · 4,000 · 5,000** for Levels 1–10 (the same ladder as every guild so far).
 
 | Lvl | Skill | `whichskill` | `skillid` | Notes |
 |---|---|---|---|---|
@@ -38,7 +38,9 @@
 | 8 | **Curse of the Thousand Islands** | 4031 | 31 | **3,250** |
 | 8 | **Itchy Curse Finger** | 4030 | 30 | **3,250** — passive |
 | 9 | **Intrinsic Spiciness** | 4010 | 10 | **4,000** — passive: sauce spells hit harder |
-| 9 | **Saucecicle** | — | 32 | **4,000** — cold spell (skipped) |
+| 9 | **Saucecicle** | — | 32 | **4,000** — cold spell |
+| 10 | **Master Saucier** | — | 11 | **5,000** |
+| 10 | **Antibiotic Saucesphere** | — | 33 | **5,000** |
 | 5 | **Advanced Saucecrafting** | 4006 | 6 | **1,250** — noncombat, 10 MP: cook sauces and salves from reagents |
 
 Later rows by level (names from the trainer page): 4 Inner Sauce · Elemental Saucesphere — 5 Advanced

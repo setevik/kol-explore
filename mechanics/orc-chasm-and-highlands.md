@@ -107,6 +107,12 @@ Three peaks, any order. **A lit peak is visible on the map as an alt-text change
 💰 **50 crude (one full Oil Peak clear) comfortably funds lamp + jar + slacks (31) with 19 to spare.**
 Make all three the morning after Oil Peak — they unlock work on *both* remaining peaks.
 
+✅ **Sauceror, Level 9–10, Saucestorm (hot + cold) every round:** Oil Peak **50 turns, 0 losses** (lit on the 50th,
+via *Unimpressed with Pressure*), then **A-boo Peak lit in ~40 turns, 0 losses** — Saucestorm's hot half already
+gets past the ghosts' immunities, and the clues they drop fed *The Horror…* nine times.
+🐛 **The Horror… keeps the SAME choice number (611) on every round**, so a loop guard that stops on a repeated
+choice ends it after one round with the reduction unclaimed. Exempt 611 from that guard.
+
 ### ⚠️ A-boo Peak — a hard wall for ANY physical or spooky damage source
 
 ⚠️ **Not just a caster problem.** The ghosts' **100% damage resistance blocks plain weapon attacks too**, so a
@@ -246,6 +252,8 @@ hub read `Investigate Room 237 | Search the pantry | Leave the hotel` — no mus
 guests take no notice of you"* — that is the **scripted continuation**, not a rejection. The jar of oil was
 consumed and the step completed. Verify via the hub menu, not the prose.
 
+✅ The jar-of-oil step worked on the first hub visit (606 `Follow the faint sound of music` → 609 `Examine the
+painting` → 616 `Mingle`); every later hub visit was answered `Leave the hotel` while waiting for Cabin Fever.
 ✅ **Cabin Fever timing:** it fired on roughly the **51st** in-zone adventure for us (the free 604 intro does not
 count). Budget ~50 turns and expect no signal at all until it appears. ✅ **Re-verified independently on a Muscle
 class:** ~50 in-zone adventures, **40 fights / 0 losses at base Muscle ~96**, then Cabin Fever → burn it down.

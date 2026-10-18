@@ -31,14 +31,14 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 
 ---
 
-## 📊 Character state (end of run #5 Day 9 / 2026-10-17)
+## 📊 Character state (end of run #5 Day 10 / 2026-10-18)
 
-- **LEVEL 9 Sauceror**, base Mys 81, max HP ~63, MP ~138. 💰 **Meat 152,998** (storage audit +141,122).
-  **7 adventures banked**, full 15/15 · drunk 16. **Ronin OVER** — everything is in inventory, mall → inventory.
-- 🎽 astral chapeau · saucepan · old sweatpants · batskin belt · air freshener · loadstone (off-hand).
-- 🎒 Whole estate in inventory: 16+ Meade, boilermakers, herbal stuffing, milk, tiny houses, scrolls, sodas, MMJ.
-- 🗺️ Cyrpt ✅ (Bonerdagon dead) · Trapper ✅ (Groar; reward hat) · **Orc Chasm bridge 26/30** → then Highlands ·
-  Spookyraven cellar = L11 · Hidden Temple open.
+- **LEVEL 10 Sauceror**, base Mys 94, max HP ~70, MP ~183. 💰 Meat 141,253. **1 adventure banked**, full 15/15 ·
+  drunk 15.
+- 🎽 astral chapeau · saucepan · old sweatpants · batskin belt · air freshener · oil lamp (off-hand).
+- 🎒 ~10 stuffing, ~10 Meade, ~5 boilermaker, ~90 bubblin' crude, MMJ, sodas, scrolls, tiny houses.
+- 🗺️ Bridge ✅ · **Oil Peak ✅ · A-boo Peak ✅ · Twin Peak: 52 in-zone turns spent, jar step done — Cabin Fever due
+  any turn** → then the Highland Lord. Spookyraven cellar = L11 · Hidden Temple open.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -53,16 +53,22 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 - Class start: **Sauce Contemplation**, **Salsaball** (Salsaball shows `(P)` on the charsheet).
 
 **Bought from the guild:** Simmer · Curse of Vichyssoise (L1) · **Stream of Sauce** · **Saucy Salve** (L2) ·
-Expert Panhandling · Icy Glare (L3) · Inner Sauce · Elemental Saucesphere (L4) · **Saucestorm** · Advanced Saucecrafting (L5) · Curse of Marinara · Soul Saucery (L6) · Wave of Sauce · Jalapeño Saucesphere (L7) · Curse of the Thousand Islands · Itchy Curse Finger (L8) · Intrinsic Spiciness (L9).
+Expert Panhandling · Icy Glare (L3) · Inner Sauce · Elemental Saucesphere (L4) · **Saucestorm** · Advanced Saucecrafting (L5) · Curse of Marinara · Soul Saucery (L6) · Wave of Sauce · Jalapeño Saucesphere (L7) · Curse of the Thousand Islands · Itchy Curse Finger (L8) · Intrinsic Spiciness · Saucecicle (L9) · Master Saucier · Antibiotic Saucesphere (L10).
 
-## 🔜 Next-session priorities — run #5, Day 10
+## 🔜 Next-session priorities — run #5, Day 11
 
-> **Rich (153k) and out of Ronin. Max HP (~63) is still the only weakness — the potion set fixes any boss.**
-1. Eat stuffing ×3 + milk + filler; drink Meade ×2 + boilermaker = 14.
-2. Finish the bridge (~5 fights) → Highlands three fires (`mechanics/orc-chasm-and-highlands.md`).
-3. Buy permanent HP gear / the guild L10 skills when Level 10. Then Level 10 castle quest.
+1. Eat 3 stuffing + milk + fillers; drink Meade ×2 + boilermaker = 14.
+2. **Twin Peak → Cabin Fever → burn it** (rules 606 `Leave the hotel`, 618 `Burn this…`) → Highland Lord →
+   Council (Level 9 quest done).
+3. **Level 10 castle quest** (`mechanics/giant-castle-quest.md`): beanstalk via an enchanted bean, Airship,
+   castle. Muscle-potion set before any boss.
 
 ## 🗓️ Session log (this run)
+
+- **Run #5 Day 10 (2026-10-18): 🥫 Level 9 → 10, bridge + two peaks lit — ~140 wins, 0 losses.**
+  🍽️ **Food +58** (stuffing 25/17/16, milk). 🍺 Meade ×2 + boilermaker = 14, Imp Ale 15.
+  Bridge finished (8 fights) → Highland Lord → **Oil Peak 50 turns** → L10 skills (5,000 each) → **A-boo ~40 turns**
+  (Horror's repeated 611 needed a guard exemption) → Twin Peak: jar step + 52 in-zone turns, no Cabin Fever yet.
 
 - **Run #5 Day 9 (2026-10-17): 🥫 RONIN OVER — +141k, Bonerdagon + Groar dead, bridge 26/30 — ~120 wins, 0 losses.**
   🍽️ Food +46. Last 80 Ronin turns on the Slope. Storage audit: 657 stacks pulled in batches, 348 surplus lines
