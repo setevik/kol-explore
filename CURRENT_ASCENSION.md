@@ -31,14 +31,14 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 
 ---
 
-## 📊 Character state (end of run #5 Day 10 / 2026-10-18)
+## 📊 Character state (end of run #5 Day 11 / 2026-10-19)
 
-- **LEVEL 10 Sauceror**, base Mys 94, max HP ~70, MP ~183. 💰 Meat 141,253. **1 adventure banked**, full 15/15 ·
-  drunk 15.
-- 🎽 astral chapeau · saucepan · old sweatpants · batskin belt · air freshener · oil lamp (off-hand).
-- 🎒 ~10 stuffing, ~10 Meade, ~5 boilermaker, ~90 bubblin' crude, MMJ, sodas, scrolls, tiny houses.
-- 🗺️ Bridge ✅ · **Oil Peak ✅ · A-boo Peak ✅ · Twin Peak: 52 in-zone turns spent, jar step done — Cabin Fever due
-  any turn** → then the Highland Lord. Spookyraven cellar = L11 · Hidden Temple open.
+- **LEVEL 10 Sauceror** (base Mys 101 — Level 11 at 104), max HP ~74, MP ~197. 💰 Meat 142,244. **1 adventure
+  banked**, full 15/15 · drunk 15.
+- 🎽 astral chapeau · saucepan · old sweatpants · batskin belt · air freshener · oil lamp.
+- 🎒 ~5 stuffing, ~8 Meade, ~4 boilermaker, Penultimate Fantasy chests, tiny houses, Mohawk wig, amulets.
+- 🗺️ **Highlands ✅ (all 3 fires) · Level 10 castle ✅** · Council idle until Level 11 (MacGuffin) ·
+  Spookyraven cellar = L11 · Hidden Temple open.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -55,15 +55,21 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 **Bought from the guild:** Simmer · Curse of Vichyssoise (L1) · **Stream of Sauce** · **Saucy Salve** (L2) ·
 Expert Panhandling · Icy Glare (L3) · Inner Sauce · Elemental Saucesphere (L4) · **Saucestorm** · Advanced Saucecrafting (L5) · Curse of Marinara · Soul Saucery (L6) · Wave of Sauce · Jalapeño Saucesphere (L7) · Curse of the Thousand Islands · Itchy Curse Finger (L8) · Intrinsic Spiciness · Saucecicle (L9) · Master Saucier · Antibiotic Saucesphere (L10).
 
-## 🔜 Next-session priorities — run #5, Day 11
+## 🔜 Next-session priorities — run #5, Day 12
 
-1. Eat 3 stuffing + milk + fillers; drink Meade ×2 + boilermaker = 14.
-2. **Twin Peak → Cabin Fever → burn it** (rules 606 `Leave the hotel`, 618 `Burn this…`) → Highland Lord →
-   Council (Level 9 quest done).
-3. **Level 10 castle quest** (`mechanics/giant-castle-quest.md`): beanstalk via an enchanted bean, Airship,
-   castle. Muscle-potion set before any boss.
+1. Eat (stuffing ×3 + milk; buy more stuffing/Meade from the mall if short); drink Meade ×2 + boilermaker.
+2. Level 11 (3 more base Mys) → Council → **Holy MacGuffin** (`mechanics/macguffin-quest.md`): Black Market,
+   desert, Hidden City, Palindome, Spookyraven cellar.
+3. Keep the potion auto-refresh + Cocoon heal for anything with giants or bosses.
 
 ## 🗓️ Session log (this run)
+
+- **Run #5 Day 11 (2026-10-19): 🥫 Highlands + Level 10 castle DONE — ~75 wins, 5 losses.**
+  🍽️ **Food +58** (stuffing ×3, milk). 🍺 Meade ×2 + boilermaker = 14, Imp Ale 15.
+  Twin Peak: Cabin Fever after 14 more turns (~66 in-zone) → burned → Highland Lord ✅. Bean planted (0 adv) →
+  **S.O.C.K. in ~25 Airship turns** → basement heating duct (umbrella) → Ground Floor → Top Floor with the
+  Mohawk wig → **wheel spun, quest done.** Losses came from potions lapsing and no heals; fixed with an
+  auto-rebuy hook + Cannelloni Cocoon. Airship ×26 to finish.
 
 - **Run #5 Day 10 (2026-10-18): 🥫 Level 9 → 10, bridge + two peaks lit — ~140 wins, 0 losses.**
   🍽️ **Food +58** (stuffing 25/17/16, milk). 🍺 Meade ×2 + boilermaker = 14, Imp Ale 15.

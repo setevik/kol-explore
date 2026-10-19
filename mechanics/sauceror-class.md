@@ -83,3 +83,7 @@ and Gallery went without a loss, and with Elemental Saucesphere up the Cyrpt roo
 ✅ **The eXtreme Slope (273, cold outfit on) is this class's Level 8–9 grind:** **99 wins, 0 losses** in one day,
 Level 8 → 9, base Mys 60 → 70. Its **Mountain Stream sodas** (MP) drop steadily — feed them back into the MP
 top-up, plus magical mystery juice (guild store, 100 meat) when they run out.
+
+⭐ **A permed Cannelloni Cocoon is this class's best out-of-combat heal** (20 MP, full HP at ~70 max HP; still large
+at potion-inflated HP). A Sauceror's MP pool (~200 at Level 10) pays for it many times a day, which beats buying
+healing items — the mall's scroll of drastic healing stores often refuse a second buy.

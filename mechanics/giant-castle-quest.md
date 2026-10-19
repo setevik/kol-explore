@@ -43,6 +43,19 @@ down as the heal, a Level 10 went **66–0** here in a day.
 against a Level 10 at buffed Muscle ~126. Don't grind it — **the amulet route needs only one room noncombat**
 (671 → vent → 670 → mirror), and it came on the first basement turn of a fresh day.
 
+## ✈️ The Airship and castle as a caster (Sauceror, Level 10, max HP ~70)
+
+✅ **S.O.C.K. in ~25 Airship turns, 20 W / 0 L** with Saucestorm. **The castle giants are the problem, not the
+Airship:** without help they went 2–2 on the Ground Floor and beat the character twice on the Top Floor.
+✅ **What fixed it:** the mall Muscle-potion set (max HP ~70 → ~335), **re-bought automatically whenever the
+`Incredibly Hulking` effect lapsed** (≈ every 9 turns, ~3,500 meat a set), plus **Cannelloni Cocoon** (a permed
+20 MP heal that works out of combat) as the between-fight heal. Then: basement **669 `Crawl Through the Heating
+Duct`** with the umbrella on the 2nd turn · Ground Floor 6 W / 0 L to *Top of the Castle, Ma* · Top Floor
+676 → 678 → **679 with the Mohawk wig** on the first room visit.
+🚨 **`place.php?whichplace=giantcastle` links all three floors even while the upper ones are still locked** —
+adventuring there answers *"You have to learn to walk before you can learn to fly…"* for free. Don't read the
+links as progress; the room noncombats are the gates.
+
 ## 🗺️ The castle rooms — verified choice map
 
 Rooms are noncombats that appear while adventuring the floor, and several of them **exit into each other**, so

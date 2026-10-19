@@ -254,6 +254,7 @@ consumed and the step completed. Verify via the hub menu, not the prose.
 
 ✅ The jar-of-oil step worked on the first hub visit (606 `Follow the faint sound of music` → 609 `Examine the
 painting` → 616 `Mingle`); every later hub visit was answered `Leave the hotel` while waiting for Cabin Fever.
+⚠️ **Cabin Fever took ~66 in-zone adventures on a later run** (52 one day, 14 the next) — budget 50–70.
 ✅ **Cabin Fever timing:** it fired on roughly the **51st** in-zone adventure for us (the free 604 intro does not
 count). Budget ~50 turns and expect no signal at all until it appears. ✅ **Re-verified independently on a Muscle
 class:** ~50 in-zone adventures, **40 fights / 0 losses at base Muscle ~96**, then Cabin Fever → burn it down.
