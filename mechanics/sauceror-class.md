@@ -18,7 +18,7 @@
 - **Same challenge as the Pastamancer:** tame the **poltersandwich** in the **Haunted Pantry (113)**, choice
   **544** (single option). ✅ 6 turns, then `guild.php?place=challenge` makes you a member.
 - **Trainer** `guild.php?place=trainer`, POST `action=buyskill&skillid=<short id>&pwd=`; only your level's rows are
-  buyable. **Prices by level: 125 · 250 · 500 · 750 · 1,250 · 1,750 · 2,500 · 3,250 · 4,000 · 5,000** for Levels 1–10 (the same ladder as every guild so far).
+  buyable. **Prices by level: 125 · 250 · 500 · 750 · 1,250 · 1,750 · 2,500 · 3,250 · 4,000 · 5,000 · 6,250** for Levels 1–11 (the same ladder as every guild so far).
 
 | Lvl | Skill | `whichskill` | `skillid` | Notes |
 |---|---|---|---|---|
@@ -41,6 +41,8 @@
 | 9 | **Saucecicle** | — | 32 | **4,000** — cold spell |
 | 10 | **Master Saucier** | — | 11 | **5,000** |
 | 10 | **Antibiotic Saucesphere** | — | 33 | **5,000** |
+| 11 | ⭐ **Saucegeyser** | 4012 | 12 | **6,250** — combat, 24 MP: one cast did 177 to the Protector Spectre |
+| 11 | **Saucemaven** | 4039 | 39 | **6,250** — passive: +5 adventures from *saucy* food only (not normal food/booze) |
 | 5 | **Advanced Saucecrafting** | 4006 | 6 | **1,250** — noncombat, 10 MP: cook sauces and salves from reagents |
 
 Later rows by level (names from the trainer page): 4 Inner Sauce · Elemental Saucesphere — 5 Advanced

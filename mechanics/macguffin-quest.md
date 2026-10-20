@@ -48,6 +48,24 @@ The level gates and loss records below were measured on a **Mysticality caster**
 ⚠️ **The one hard condition is MP.** With MP at 0 the same character in the Black Forest immediately went
 **0W/3L** on plain attacks. Buy restoratives before entering — see `seal-clubber-class.md`.
 
+## 🥫 A caster with borrowed HP did the whole opening chain + Hidden City in ONE day
+
+✅ **Sauceror, Level 11 (base Mys ~105), Saucestorm, mall Muscle-potion set re-bought as it lapsed (max HP ~350),
+Cannelloni Cocoon between fights — 0 losses all day:**
+| Step | Cost |
+|---|---|
+| Black Forest → Black Market | **~30 turns, 24 W / 0 L** (map check every 10 fights) |
+| Hidden Temple (2 stone wool, 500 each) + BANANAS tiles | **4 turns** |
+| Four shrines (antique machete from storage) | **4 turns** |
+| Office (McClusky file → boss door) | 21 turns |
+| **Hospital** — surgical **dungarees + scalpel from storage** worn | **1 turn** |
+| **Bowling Alley** — **5 bowling balls bought in the mall (1,000 each)** | **5 turns** |
+| Apartment — no Cursed Punch (liver full); the shamans cursed fast | 9 turns |
+| Protector Spectre | **one Saucegeyser (177)** — fires had run out |
+⚠️ **A "use fire of unknown origin" combat rule must check the stack first** — with none left it burned 30 rounds
+on refused item uses. Elemental spells kill the spirits just as well.
+⚠️ 925's static `A helmet, please.` rule took **five black helmets** (the same trap as the greaves note below).
+
 ## 🛡️ The Black Forest blacksmith hands out a free, excellent armour set
 
 `All Over the Map` (**923**) → **`Visit the blacksmith's cottage`** → **925** *The Blackest Smith*:

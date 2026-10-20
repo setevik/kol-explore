@@ -9,8 +9,9 @@
 
 A **Pastamancer** gets bonuses that make **pasta dishes** the best food, and make *every* food better:
 - **Pasta dishes → +3–7 MP per fullness** (Pastamancer only). Free MP battery baked into the meal.
-- **Saucemaven** (Pastamancer/Sauceror passive) → **+5 adventures from EVERY food AND booze.** Biggest single
-  food/booze multiplier available to the class — prioritize learning/perming it.
+- **Saucemaven** (Pastamancer/Sauceror passive) → **+5 adventures from *saucy* foods only** — reagent pastas, hi meins
+  and scrumdiddlyumptious noodle dishes (other classes +3). ✅ Measured: no change at all to Meade, boilermakers or
+  herbal stuffing. Worth it only if the food plan is built around those dishes.
 - **Canticle of Carboloading** (Pastamancer skill) → **+3 adv to the *next* pasta dish** (cast right before eating it).
 - **Transcendental Noodlecraft** (Pastamancer skill, **lowest dish needs Level 10**) → craft **hi meins** = the premium
   Pastamancer food (5 fullness, "awesome" quality, big MP, +5 turns of an elemental Breath).

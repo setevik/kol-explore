@@ -31,14 +31,16 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 
 ---
 
-## 📊 Character state (end of run #5 Day 11 / 2026-10-19)
+## 📊 Character state (end of run #5 Day 12 / 2026-10-20)
 
-- **LEVEL 10 Sauceror** (base Mys 101 — Level 11 at 104), max HP ~74, MP ~197. 💰 Meat 142,244. **1 adventure
-  banked**, full 15/15 · drunk 15.
-- 🎽 astral chapeau · saucepan · old sweatpants · batskin belt · air freshener · oil lamp.
-- 🎒 ~5 stuffing, ~8 Meade, ~4 boilermaker, Penultimate Fantasy chests, tiny houses, Mohawk wig, amulets.
-- 🗺️ **Highlands ✅ (all 3 fires) · Level 10 castle ✅** · Council idle until Level 11 (MacGuffin) ·
-  Spookyraven cellar = L11 · Hidden Temple open.
+- **LEVEL 11 Sauceror**, base Mys 112, max HP ~75 (≈350 with the potion set), MP ~300. 💰 Meat 93,759.
+  **1 adventure banked**, full 15/15 · drunk 15.
+- 🎽 astral chapeau · saucepan · old sweatpants · batskin belt · air freshener · oil lamp. Machete, surgical gear,
+  spectacles, Mohawk wig held.
+- 🗺️ **MacGuffin:** diary ✅ · **Hidden City DONE → ancient amulet** ✅ · Spookyraven cellar open, wine-bomb route
+  active (spectacles read) — **need blasting soda (Laundry 400, 14 fights so far), Chateau de Vinegar (Wine
+  Cellar 401), then 6 monstrous boilers (399)** · Desert (Desert Bus pass held) · Palindome / Zeppelin not started.
+  Hidden Tavern open (Cursed Punch, Fog Murderer).
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -53,16 +55,25 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 - Class start: **Sauce Contemplation**, **Salsaball** (Salsaball shows `(P)` on the charsheet).
 
 **Bought from the guild:** Simmer · Curse of Vichyssoise (L1) · **Stream of Sauce** · **Saucy Salve** (L2) ·
-Expert Panhandling · Icy Glare (L3) · Inner Sauce · Elemental Saucesphere (L4) · **Saucestorm** · Advanced Saucecrafting (L5) · Curse of Marinara · Soul Saucery (L6) · Wave of Sauce · Jalapeño Saucesphere (L7) · Curse of the Thousand Islands · Itchy Curse Finger (L8) · Intrinsic Spiciness · Saucecicle (L9) · Master Saucier · Antibiotic Saucesphere (L10).
+Expert Panhandling · Icy Glare (L3) · Inner Sauce · Elemental Saucesphere (L4) · **Saucestorm** · Advanced Saucecrafting (L5) · Curse of Marinara · Soul Saucery (L6) · Wave of Sauce · Jalapeño Saucesphere (L7) · Curse of the Thousand Islands · Itchy Curse Finger (L8) · Intrinsic Spiciness · Saucecicle (L9) · Master Saucier · Antibiotic Saucesphere (L10) · Saucegeyser · Saucemaven (L11).
 
-## 🔜 Next-session priorities — run #5, Day 12
+## 🔜 Next-session priorities — run #5, Day 13
 
-1. Eat (stuffing ×3 + milk; buy more stuffing/Meade from the mall if short); drink Meade ×2 + boilermaker.
-2. Level 11 (3 more base Mys) → Council → **Holy MacGuffin** (`mechanics/macguffin-quest.md`): Black Market,
-   desert, Hidden City, Palindome, Spookyraven cellar.
-3. Keep the potion auto-refresh + Cocoon heal for anything with giants or bosses.
+> **Potion auto-refresh (`POT`) + Cocoon heal + Saucestorm is the working recipe for every Level 11 zone.**
+1. Eat stuffing ×3 + fillers (milk failed to buy — store limits); drink Meade ×2 + boilermaker (Fog Murderer from
+   the Hidden Tavern, row 175, as the overdrink).
+2. **Cellar:** soda (Laundry) → vinegar (Wine Cellar) → cook fulminate → 6 boilers → wine bomb → Lord
+   Spookyraven → Eye of Ed.
+3. **Desert** (`macguffin-quest.md`: Gnasir, ultrahydrated) and the **Copperhead Club / Zeppelin / Palindome**.
 
 ## 🗓️ Session log (this run)
+
+- **Run #5 Day 12 (2026-10-20): 🥫 Level 11. MacGuffin diary + the WHOLE Hidden City in one day — ~95 wins, 0 losses.**
+  🍽️ Food +57. 🍺 Meade ×2 + boilermaker = 14, Imp Ale 15. Castle Ground Floor (potions) → **Level 11** → Saucegeyser +
+  Saucemaven (Saucemaven turned out to cover saucy food only). Desert Bus pass · Shore · **Black Forest ~30 turns →
+  Black Market** → forged ID → Shore → **diary**. Temple 4 turns · shrines 4 · Office 21 · **Hospital 1** (stored
+  surgical gear) · **Bowling 5** (mall balls) · Apartment 9 · **Spectre: one Saucegeyser** → ancient amulet.
+  Ballroom 921 → cellar open; spectacles read → wine-bomb route; 14 Laundry fights, no soda yet.
 
 - **Run #5 Day 11 (2026-10-19): 🥫 Highlands + Level 10 castle DONE — ~75 wins, 5 losses.**
   🍽️ **Food +58** (stuffing ×3, milk). 🍺 Meade ×2 + boilermaker = 14, Imp Ale 15.
