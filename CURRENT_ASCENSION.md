@@ -31,16 +31,16 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 
 ---
 
-## 📊 Character state (end of run #5 Day 12 / 2026-10-20)
+## 📊 Character state (end of run #5 Day 13 / 2026-10-21)
 
-- **LEVEL 11 Sauceror**, base Mys 112, max HP ~75 (≈350 with the potion set), MP ~300. 💰 Meat 93,759.
-  **1 adventure banked**, full 15/15 · drunk 15.
-- 🎽 astral chapeau · saucepan · old sweatpants · batskin belt · air freshener · oil lamp. Machete, surgical gear,
-  spectacles, Mohawk wig held.
-- 🗺️ **MacGuffin:** diary ✅ · **Hidden City DONE → ancient amulet** ✅ · Spookyraven cellar open, wine-bomb route
-  active (spectacles read) — **need blasting soda (Laundry 400, 14 fights so far), Chateau de Vinegar (Wine
-  Cellar 401), then 6 monstrous boilers (399)** · Desert (Desert Bus pass held) · Palindome / Zeppelin not started.
-  Hidden Tavern open (Cursed Punch, Fog Murderer).
+- **LEVEL 12 Sauceror**, base Mys 125, max HP ~80 (≈410 with potions), MP ~333. 💰 Meat 40,532 (spending fast:
+  potions ~3.5k a set, L12 skills 15k). **1 adventure banked**, full 15/15 · drunk 15.
+- 🎽 astral chapeau · saucepan · old sweatpants · **Talisman o' Namsilat** · air freshener · oil lamp.
+- 🗺️ **MacGuffin:** headpiece of the Staff of Ed ✅ (amulet + **Eye of Ed** ✅) · **Shen ✅, Ron ✅, Talisman ✅** ·
+  **Palindome: God, red nugget, ostrich egg photos ✅, *I Love Me, Vol. I* ✅ — need the dog photo** (Bob Racecar
+  after ~10 dudes; or a disposable camera, which I hold) → 872 form → Vol. 2 → Mr. Alarm (stew: bird rib + lion oil
+  from Whitey's Grove 100, 36 stunt nuts held) → Mega Gem → Dr. Awkward → Staff of Fats. **Desert not started.**
+  Council L12 (war) not yet visited.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -55,18 +55,23 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 - Class start: **Sauce Contemplation**, **Salsaball** (Salsaball shows `(P)` on the charsheet).
 
 **Bought from the guild:** Simmer · Curse of Vichyssoise (L1) · **Stream of Sauce** · **Saucy Salve** (L2) ·
-Expert Panhandling · Icy Glare (L3) · Inner Sauce · Elemental Saucesphere (L4) · **Saucestorm** · Advanced Saucecrafting (L5) · Curse of Marinara · Soul Saucery (L6) · Wave of Sauce · Jalapeño Saucesphere (L7) · Curse of the Thousand Islands · Itchy Curse Finger (L8) · Intrinsic Spiciness · Saucecicle (L9) · Master Saucier · Antibiotic Saucesphere (L10) · Saucegeyser · Saucemaven (L11).
+Expert Panhandling · Icy Glare (L3) · Inner Sauce · Elemental Saucesphere (L4) · **Saucestorm** · Advanced Saucecrafting (L5) · Curse of Marinara · Soul Saucery (L6) · Wave of Sauce · Jalapeño Saucesphere (L7) · Curse of the Thousand Islands · Itchy Curse Finger (L8) · Intrinsic Spiciness · Saucecicle (L9) · Master Saucier · Antibiotic Saucesphere (L10) · Saucegeyser · Saucemaven (L11) · Impetuous Sauciness · Curse of Weaksauce (L12).
 
-## 🔜 Next-session priorities — run #5, Day 13
+## 🔜 Next-session priorities — run #5, Day 14
 
-> **Potion auto-refresh (`POT`) + Cocoon heal + Saucestorm is the working recipe for every Level 11 zone.**
-1. Eat stuffing ×3 + fillers (milk failed to buy — store limits); drink Meade ×2 + boilermaker (Fog Murderer from
-   the Hidden Tavern, row 175, as the overdrink).
-2. **Cellar:** soda (Laundry) → vinegar (Wine Cellar) → cook fulminate → 6 boilers → wine bomb → Lord
-   Spookyraven → Eye of Ed.
-3. **Desert** (`macguffin-quest.md`: Gnasir, ultrahydrated) and the **Copperhead Club / Zeppelin / Palindome**.
+1. Eat/drink (stuffing ×3 — only ~2 left, buy more; Meade ×2 + boilermaker; milk works at ~2,000 meat).
+2. **Palindome:** dog photo (disposable instant camera on Bob Racecar, or keep killing) → 872 POST form → Vol. 2 →
+   Mr. Alarm → Whitey's Grove (bird rib + lion oil) → cook the stew → Mega Gem → Dr. Awkward (heal first).
+3. **Desert** (Gnasir: stone rose, black paint row 282, worm pages) → pyramid with the Staff of Ed.
+4. Watch meat (40k): sell junk; potions only where fights are dangerous.
 
 ## 🗓️ Session log (this run)
+
+- **Run #5 Day 13 (2026-10-21): 🥫 Level 12. Eye of Ed, Shen, Ron, Talisman, 3 Palindome photos — ~120 wins, 0 losses.**
+  🍽️ Food +67 (milk bought at 2,000). 🍺 Meade ×2 + boilermaker = 14, Imp Ale 15.
+  Cellar: soda + vinegar in 9 fights → **Dramatic range needed to cook** → 5 boilers → wine bomb → **Lord
+  Spookyraven, one Saucegeyser → Eye of Ed** → headpiece. Shen: Stankara (4) · Eye of the Stars (rocketship in 2
+  top-floor turns + 5) · Black Flag (6) → charm. Protesters ~35 turns → Ron in 12 → Talisman. Palindome 25 fights.
 
 - **Run #5 Day 12 (2026-10-20): 🥫 Level 11. MacGuffin diary + the WHOLE Hidden City in one day — ~95 wins, 0 losses.**
   🍽️ Food +57. 🍺 Meade ×2 + boilermaker = 14, Imp Ale 15. Castle Ground Floor (potions) → **Level 11** → Saucegeyser +

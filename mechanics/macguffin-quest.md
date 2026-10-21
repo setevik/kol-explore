@@ -365,6 +365,13 @@ by his brother **Ron**, on the **Red Zeppelin** — both charms are what open th
 3. The Hole in the Sky is then open. ⚠️ **Stars, lines and the star chart all come from the Hole in the Sky
    itself** (Astronomer drops the chart) — **not** from the 8-Bit Realm, despite what the item sources imply.
 
+✅ **Sauceror, Level 11, the whole Copperhead branch in one day (0 losses):** Shen's draw was **Stankara Stone (4
+Burrow fights) → Eye of the Stars (5 Hole-in-the-Sky fights; the rocketship came from the Top Floor in 2 turns via
+Goth 675 `Gimme Steam` → 677 `Investigate the Whirligigs`) → Murphy's Rancid Black Flag (6 Top Floor fights)**.
+Then protesters ~35 turns (Flamin' ×8 and lynyrd musk from the mall, 100 each) and Ron in 12 Zeppelin fights.
+🐛 **Keep MP topped up ABOVE a real threshold, not by one item per turn** — a Saucestorm loop drained to 1 MP and a
+fight ran to the 30-round cap; MMJ can be used *inside* the fight to recover.
+
 ### 🎈 The Zeppelin protester gate (384) — Merry-Go-Ron
 
 `place.php?whichplace=zeppelin` shows the mob zone **384** and *"The Red Zeppelin (not yet clickable)"*.
