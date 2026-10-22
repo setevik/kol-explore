@@ -254,6 +254,8 @@ two pamphlets, then ten hydrated turns finished it at **100%**.
 wooden model of Seaside Town with **a socket that wants the assembled Staff of Ed** — so the desert branch then
 waits on the Spookyraven and Palindome pieces.
 
+✅ **Sauceror, Level 12: 0 → 100% in ~65 turns, 0 losses** — the paint (Black Market) and a **killing jar already in
+storage** went to Gnasir at 22% and their two pamphlets gave +30%. The Oasis was needed only every ~10 turns.
 - **The Arid, Extra-Dry Desert = snarf 364** (Desert Beach). ML 134–142, rec stat 120.
   The place page shows **`alt='(N% explored)'`** — parse that, not the visible text (the zone label is
   rendered as zonefont images, so a plain-text regex returns nothing).

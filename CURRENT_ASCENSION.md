@@ -31,16 +31,13 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 
 ---
 
-## 📊 Character state (end of run #5 Day 13 / 2026-10-21)
+## 📊 Character state (end of run #5 Day 14 / 2026-10-22)
 
-- **LEVEL 12 Sauceror**, base Mys 125, max HP ~80 (≈410 with potions), MP ~333. 💰 Meat 40,532 (spending fast:
-  potions ~3.5k a set, L12 skills 15k). **1 adventure banked**, full 15/15 · drunk 15.
-- 🎽 astral chapeau · saucepan · old sweatpants · **Talisman o' Namsilat** · air freshener · oil lamp.
-- 🗺️ **MacGuffin:** headpiece of the Staff of Ed ✅ (amulet + **Eye of Ed** ✅) · **Shen ✅, Ron ✅, Talisman ✅** ·
-  **Palindome: God, red nugget, ostrich egg photos ✅, *I Love Me, Vol. I* ✅ — need the dog photo** (Bob Racecar
-  after ~10 dudes; or a disposable camera, which I hold) → 872 form → Vol. 2 → Mr. Alarm (stew: bird rib + lion oil
-  from Whitey's Grove 100, 36 stunt nuts held) → Mega Gem → Dr. Awkward → Staff of Fats. **Desert not started.**
-  Council L12 (war) not yet visited.
+- **LEVEL 12 Sauceror**, base Mys 135. 💰 Meat 23,190 (low). **1 adventure banked**, full 15/15 · drunk 15.
+- 🗺️ **MacGuffin: Staff of Ed ✅ → pyramid open, desert 100% ✅, ancient bomb in hand, wheel parked at
+  "nothing on the left, rubble on the right"** → tomorrow: control room → descend (rubble) → **Ed the Undying**
+  (7 forms) → Holy MacGuffin → Council. 5 crumbling wheels held, 0 ratchets.
+- Council Level 12 (Island War) not yet started.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -57,15 +54,21 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 **Bought from the guild:** Simmer · Curse of Vichyssoise (L1) · **Stream of Sauce** · **Saucy Salve** (L2) ·
 Expert Panhandling · Icy Glare (L3) · Inner Sauce · Elemental Saucesphere (L4) · **Saucestorm** · Advanced Saucecrafting (L5) · Curse of Marinara · Soul Saucery (L6) · Wave of Sauce · Jalapeño Saucesphere (L7) · Curse of the Thousand Islands · Itchy Curse Finger (L8) · Intrinsic Spiciness · Saucecicle (L9) · Master Saucier · Antibiotic Saucesphere (L10) · Saucegeyser · Saucemaven (L11) · Impetuous Sauciness · Curse of Weaksauce (L12).
 
-## 🔜 Next-session priorities — run #5, Day 14
+## 🔜 Next-session priorities — run #5, Day 15
 
-1. Eat/drink (stuffing ×3 — only ~2 left, buy more; Meade ×2 + boilermaker; milk works at ~2,000 meat).
-2. **Palindome:** dog photo (disposable instant camera on Bob Racecar, or keep killing) → 872 POST form → Vol. 2 →
-   Mr. Alarm → Whitey's Grove (bird rib + lion oil) → cook the stew → Mega Gem → Dr. Awkward (heal first).
-3. **Desert** (Gnasir: stone rose, black paint row 282, worm pages) → pyramid with the Staff of Ed.
-4. Watch meat (40k): sell junk; potions only where fights are dangerous.
+1. Eat (milk 1 + stuffing 2 left — buy stuffing) / drink (Meade 2, boilermaker 0 — buy).
+2. **Ed:** potion set + full HP/MP (Cocoon, MMJ) → pyramid control → `Head down` at the rubble → 7 forms
+   (Saucegeyser) → MacGuffin → Council.
+3. **Meat is the constraint (23k):** sell junk; the war is meat-negative — farm the Castle Ground Floor if needed.
+4. Level 12 → Island War (`mechanics/island-war.md`).
 
 ## 🗓️ Session log (this run)
+
+- **Run #5 Day 14 (2026-10-22): 🥫 Palindome DONE, Staff of Ed, desert 100%, pyramid to the rubble — ~140 wins, 2 losses.**
+  🍽️ Food +68. 🍺 Meade ×2 + boilermaker = 14, Imp Ale 15. Palindome (2 losses before the potions were re-bought) →
+  dog photo via camera → 872 form → Vol. 2 → bird rib (mall) + lion oil stew → Mega Gem → **Dr. Awkward 1 round** →
+  **Staff of Ed**. Desert ~65 turns (Gnasir: paint + stored killing jar). Pyramid: Upper 9, Middle 12 → control room →
+  10 ratchets → token, bomb, rubble position (descent needs tomorrow's adventure).
 
 - **Run #5 Day 13 (2026-10-21): 🥫 Level 12. Eye of Ed, Shen, Ron, Talisman, 3 Palindome photos — ~120 wins, 0 losses.**
   🍽️ Food +67 (milk bought at 2,000). 🍺 Meade ×2 + boilermaker = 14, Imp Ale 15.

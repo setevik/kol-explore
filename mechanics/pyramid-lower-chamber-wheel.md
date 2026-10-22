@@ -60,7 +60,8 @@ The "Lower Chambers (N) (LEFT on left, RIGHT on right)" label (shown on
 | #4 | **rubble on left, vending machine on right** | **VENDING** → with the bronze token, get the **ANCIENT BOMB** |
 | #5 | **basket on left, nothing on right** | **BASKET** → gives the **ancient bronze token** (nothing useful if you already hold one) |
 
-Forward single-step order: **#1 → #2 → #3 → #4 → #5 → (4 unknown/empty positions) → #1**.
+Forward single-step order: **#1 → #2 → #3 → #4 → #5 → #1** — ✅ a full lap observed on a later run, five steps, no
+unnamed positions in between.
 
 ### ⭐ The rule that actually matters
 **Match the wiki's named alignment, then descend. Do NOT trust a "center room" model.**
@@ -161,3 +162,8 @@ each ratchet the same way, one at a time, re-reading the label between them.
    🐛 **Detect the win by the item (Holy MacGuffin, 2334), not by text** — Ed's own dialogue says "Holy MacGuffin",
    and a text check stopped the series after form 1 (harmless only because the fight stays open).
 6. **HOLY MACGUFFIN** → Council turn-in → spine quest COMPLETE.
+
+✅ **Re-run with 10 bought ratchets (666 each), 3 adventures in total:** from #2 → 3 turns → #5 basket (token) →
+4 turns → #4 (bomb) → 3 turns → #2 rubble. All three descents in one evening; the rubble descent then needs one more
+adventure the next day. 🐛 A descent with **0 adventures left** answers *"You don't have time to mess around in the
+lower chambers right now"* and spends nothing.

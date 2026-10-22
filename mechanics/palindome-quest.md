@@ -63,6 +63,13 @@ over the egg photo, so a loop that only watches for choice numbers will not see 
 Declining 129/873 costs no adventure; buying makes each one-time. ✅ Measured at Level 12 (Muscle ~189,
 Lunging Thrust-Smack): **three of the four photos in 22 Palindome fights, 0 losses** (ML 136–155).
 
+✅ **Sauceror, Level 12 (potion set re-bought as it lapsed):** three photos + Vol. I in 25 fights, then the **dog photo
+in 30 more** with the *disposable instant camera* used on Bob Racecar. **bird rib bought in the mall (~2,500)** + lion
+oil from storage → stew in the installed oven → Mega Gem → **Dr. Awkward died to one Saucegeyser.**
+🐛 **Equip the Mega Gem into an explicit, free accessory slot** (`&slot=3`): an unslotted equip replaced the Talisman
+and the office answered *"That place isn't accessible to you right now"*; re-equipping the Talisman then pushed the
+Gem off again. Both must be worn at once.
+
 ### ✅ Choice 872 "Drawn Onward" — IT IS NOT A RANDOM NONCOMBAT (solved)
 🚨🚨 **STOP GRINDING FOR IT.** ~190 turns were burned hunting 872 as a random noncombat
 (56 straight fights with Sonata of Sneakiness + hair spray, still zero). **872 is not a wandering
