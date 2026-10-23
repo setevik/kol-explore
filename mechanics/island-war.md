@@ -39,6 +39,15 @@ turns first, then re-check `bigisland.php?place=lighthouse`.
 - Battlefield = **snarf 140** (as a hippy you fight frat boys). Progress is the **"Image #N"** number on the
   `bigisland.php` zone links (#0→#32), NOT the map sprite count (sprites look full even when nearly cleared).
 
+## 🥫 A Sauceror on the battlefield — HP and MP are bought, so fund them first
+At Level 12 a Sauceror's own max HP is ~95, and the frat soldiers (ML 170–210) beat that. ✅ **The cheap HP trio,
+measured on that character:** Ferrigno's Elixir **+190 HP (950 meat)** · potion of temporary gr8ness **+95 (100)** ·
+tomato juice of powerful power **+47 (100)** — re-bought only when its own effect lapses. With it: **39 W / 0 L, #0 →
+#5**. The binding cost is **MP** (Saucestorm every round empties ~300 MP in ~30 fights → magical mystery juice).
+💰 **Fund it from the Airship (81):** 46 fights, 0 losses, no potions needed → **~7,000 meat in drops and
+Penultimate Fantasy chests**, and selling the haul (hair gel, glowing red eyes, swords, plus an estate stockpile of
+**cocoa eggshell fragments**) raised **~44,000 more**.
+
 ## ⚠️ The war is MEAT-NEGATIVE
 Enemies drop little/no meat; combat + healing burns MP (= meat). **Build a meat war chest + MP supply
 (tiny houses) BEFORE grinding.** Sustainable loop: Airship-farm (snarf 81, ~100+ meat/fight net) → spend on war → refarm.

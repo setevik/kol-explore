@@ -614,6 +614,9 @@ pulchritude (3563)** took Moxie **313 → 1,045**.
 ⭐ **For a Mysticality or Moxie class the same set is a MAX-HP potion** (max HP follows Muscle). ✅ A Level 9
 Sauceror went **Muscle 51 → 307, max HP 57 → 313**; the Bonerdagon (which had one-shot it at 45 HP) then died in
 2 rounds without landing a hit, and the three yetis plus Groar fell inside the same potion window.
+💰 **Per meat, the two 100-meat potions are the best value** (✅ Level 12 Sauceror: gr8ness +95 max HP, tomato juice
++47), Ferrigno's is the biggest single jump (+190 for 950), and Ben-Gal / Wereseal / philter add little for their
+price. For a long grind, refresh only the cheap ones plus Ferrigno's.
 ⇒ **Before a stat-gated boss or contest, buy the set and fight inside its duration**, ideally at once, because
 fights cost no turns but recovery and walking around do. Try this before grinding levels or retrying a lost fight.
 

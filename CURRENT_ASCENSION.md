@@ -31,13 +31,14 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 
 ---
 
-## 📊 Character state (end of run #5 Day 14 / 2026-10-22)
+## 📊 Character state (end of run #5 Day 15 / 2026-10-23)
 
-- **LEVEL 12 Sauceror**, base Mys 135. 💰 Meat 23,190 (low). **1 adventure banked**, full 15/15 · drunk 15.
-- 🗺️ **MacGuffin: Staff of Ed ✅ → pyramid open, desert 100% ✅, ancient bomb in hand, wheel parked at
-  "nothing on the left, rubble on the right"** → tomorrow: control room → descend (rubble) → **Ed the Undying**
-  (7 forms) → Holy MacGuffin → Council. 5 crumbling wheels held, 0 ratchets.
-- Council Level 12 (Island War) not yet started.
+- **LEVEL 12 Sauceror**, base Mys 146, max HP ~105 (≈420 with the potion trio), MP ~280. 💰 **Meat 65,311.**
+  **1 adventure banked**, full 15/15 · drunk 15.
+- 🎽 astral chapeau · saucepan · old sweatpants · batskin belt · air freshener · oil lamp. **War Hippy Fatigues held**
+  (headband, corduroys, sunglasses) — wear them for the Battlefield.
+- 🗺️ **Holy MacGuffin ✅ (Council done).** **Island War started (hippy side), Battlefield Image #5.** Level 13 at
+  base Mys 148.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -54,15 +55,21 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 **Bought from the guild:** Simmer · Curse of Vichyssoise (L1) · **Stream of Sauce** · **Saucy Salve** (L2) ·
 Expert Panhandling · Icy Glare (L3) · Inner Sauce · Elemental Saucesphere (L4) · **Saucestorm** · Advanced Saucecrafting (L5) · Curse of Marinara · Soul Saucery (L6) · Wave of Sauce · Jalapeño Saucesphere (L7) · Curse of the Thousand Islands · Itchy Curse Finger (L8) · Intrinsic Spiciness · Saucecicle (L9) · Master Saucier · Antibiotic Saucesphere (L10) · Saucegeyser · Saucemaven (L11) · Impetuous Sauciness · Curse of Weaksauce (L12).
 
-## 🔜 Next-session priorities — run #5, Day 15
+## 🔜 Next-session priorities — run #5, Day 16
 
-1. Eat (milk 1 + stuffing 2 left — buy stuffing) / drink (Meade 2, boilermaker 0 — buy).
-2. **Ed:** potion set + full HP/MP (Cocoon, MMJ) → pyramid control → `Head down` at the rubble → 7 forms
-   (Saucegeyser) → MacGuffin → Council.
-3. **Meat is the constraint (23k):** sell junk; the war is meat-negative — farm the Castle Ground Floor if needed.
-4. Level 12 → Island War (`mechanics/island-war.md`).
+1. Restock food/booze (stuffing ~1, Meade 0, boilermakers 0 left — buy Meade, boilermakers, Fog Murderer at the Hidden
+   Tavern row 175).
+2. **Battlefield** in the fatigues with the potion trio (`POT` with Ferrigno's / gr8ness / tomato) and MMJ; Lighthouse at
+   #7 (Sonofa Beach), Farm at #13. Airship whenever meat runs low.
+3. Level 13 → guild skills; The Man needs max HP — potions.
 
 ## 🗓️ Session log (this run)
+
+- **Run #5 Day 15 (2026-10-23): 🥫 HOLY MACGUFFIN; Island War started, Battlefield #5 — ~110 wins, 2 losses.**
+  🍽️ Food +68. 🍺 Meade ×2 + boilermaker = 14, Imp Ale 15. Rubble bombed → **Ed: form 2 one-shot me (no heal between
+  forms) → retry with Cocoon/MMJ between forms → all 7 → MacGuffin** → Council. 2 Shore trips → dinghy; fatigues from
+  the estate → Frat House 20 turns → **war on**. Battlefield 39 W / 1 L (#0 → #5) — meat crashed to 5.7k on potions
+  + MMJ → Airship 55 fights + selling the haul → **meat 65k**.
 
 - **Run #5 Day 14 (2026-10-22): 🥫 Palindome DONE, Staff of Ed, desert 100%, pyramid to the rubble — ~140 wins, 2 losses.**
   🍽️ Food +68. 🍺 Meade ×2 + boilermaker = 14, Imp Ale 15. Palindome (2 losses before the potions were re-bought) →

@@ -149,6 +149,9 @@ each ratchet the same way, one at a time, re-reading the label between them.
    a Muscle class should open each form with its Defense-lowering skill (Defense 162) — see its class file.
    **Zones to get there (wiki):** Upper Chamber **406** (ML 160–175, recommended stat 150) → its noncombat opens
    the Middle Chamber **407** (ML 160–170, recommended 165; tomb asps poison).
+   ✅ **Sauceror, Level 12 (potion set, max HP ~420, Saucegeyser):** form 1 died in 2 rounds, then **form 2 one-shot the
+   character from 300 HP** because the loop walked straight in without healing — and the loss restarted the series.
+   Retried with **Cannelloni Cocoon + MMJ to full between every form**: all seven forms won, Holy MacGuffin in hand.
    ✅ **Measured (Level 12 Seal Clubber, Muscle ~189, dual-wield, full HP 327 / MP 88 at entry):** all seven forms
    won, **0 losses, HP never below ~80%**, rounds per form 2 · 3 · 2 · 2 · 2 · 1 · 1. Enter via
    `place.php?whichplace=pyramid&action=pyramid_state1a`; ✅ **each won form's page links straight to `fight.php`
