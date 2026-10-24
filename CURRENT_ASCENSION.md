@@ -31,14 +31,13 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 
 ---
 
-## 📊 Character state (end of run #5 Day 15 / 2026-10-23)
+## 📊 Character state (end of run #5 Day 16 / 2026-10-24)
 
-- **LEVEL 12 Sauceror**, base Mys 146, max HP ~105 (≈420 with the potion trio), MP ~280. 💰 **Meat 65,311.**
-  **1 adventure banked**, full 15/15 · drunk 15.
-- 🎽 astral chapeau · saucepan · old sweatpants · batskin belt · air freshener · oil lamp. **War Hippy Fatigues held**
-  (headband, corduroys, sunglasses) — wear them for the Battlefield.
-- 🗺️ **Holy MacGuffin ✅ (Council done).** **Island War started (hippy side), Battlefield Image #5.** Level 13 at
-  base Mys 148.
+- **LEVEL 13 Sauceror**, base Mys 155, max HP ~110 (≈410 with the trio), MP ~390. 💰 Meat ~56,000. **1 adventure
+  banked**, full 15/15 · drunk 15. **Meade and boilermakers used up — buy for tomorrow.**
+- 🎽 astral chapeau · saucepan · old sweatpants · batskin belt · air freshener · oil lamp (fatigues in inventory).
+- 🗺️ **Island War: Battlefield #14 · Lighthouse ✅ · Farm ✅ (×4).** Level 13 guild skills not bought yet
+  (10,000 each).
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -55,15 +54,18 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 **Bought from the guild:** Simmer · Curse of Vichyssoise (L1) · **Stream of Sauce** · **Saucy Salve** (L2) ·
 Expert Panhandling · Icy Glare (L3) · Inner Sauce · Elemental Saucesphere (L4) · **Saucestorm** · Advanced Saucecrafting (L5) · Curse of Marinara · Soul Saucery (L6) · Wave of Sauce · Jalapeño Saucesphere (L7) · Curse of the Thousand Islands · Itchy Curse Finger (L8) · Intrinsic Spiciness · Saucecicle (L9) · Master Saucier · Antibiotic Saucesphere (L10) · Saucegeyser · Saucemaven (L11) · Impetuous Sauciness · Curse of Weaksauce (L12).
 
-## 🔜 Next-session priorities — run #5, Day 16
+## 🔜 Next-session priorities — run #5, Day 17
 
-1. Restock food/booze (stuffing ~1, Meade 0, boilermakers 0 left — buy Meade, boilermakers, Fog Murderer at the Hidden
-   Tavern row 175).
-2. **Battlefield** in the fatigues with the potion trio (`POT` with Ferrigno's / gr8ness / tomato) and MMJ; Lighthouse at
-   #7 (Sonofa Beach), Farm at #13. Airship whenever meat runs low.
-3. Level 13 → guild skills; The Man needs max HP — potions.
+1. Buy Meade ×2, boilermaker, stuffing ×3, milk; MMJ ×60 (guild).
+2. **Battlefield #14 → #32** in the fatigues (potion trio + MMJ). ~150 wins at ×4.
+3. **The Man** (HP 2000, sleaze, ramps) — fight SOBER before drinking, with the full potion set and Saucegeyser.
 
 ## 🗓️ Session log (this run)
+
+- **Run #5 Day 16 (2026-10-24): 🥫 Level 13. Lighthouse + Farm done, Battlefield #5 → #14 — ~95 wins, 0 losses.**
+  🍽️ Food +65. 🍺 Meade ×2 + boilermaker = 14, Imp Ale 15. Battlefield to #7 → Sonofa 5 barrels → keeper → #14 →
+  farmer → Barn (pitchfork / lantern / shotgun) → three duck zones → farmer. MMJ ran out once (loop limped on beer
+  bombs until restocked). Loot sold +5k.
 
 - **Run #5 Day 15 (2026-10-23): 🥫 HOLY MACGUFFIN; Island War started, Battlefield #5 — ~110 wins, 2 losses.**
   🍽️ Food +68. 🍺 Meade ×2 + boilermaker = 14, Imp Ale 15. Rubble bombed → **Ed: form 2 one-shot me (no heal between

@@ -48,6 +48,9 @@ tomato juice of powerful power **+47 (100)** — re-bought only when its own eff
 Penultimate Fantasy chests**, and selling the haul (hair gel, glowing red eyes, swords, plus an estate stockpile of
 **cocoa eggshell fragments**) raised **~44,000 more**.
 
+✅ Same Sauceror, next day: Lighthouse at **#7** → Sonofa **5 barrels in ~25 turns** → Farm at **#14** → Barn + three
+duck zones in **~40 turns, 0 losses**. MP cost was ~60 MMJ (6,000 meat) for the day; the war loot autosold for ~5,000.
+
 ## ⚠️ The war is MEAT-NEGATIVE
 Enemies drop little/no meat; combat + healing burns MP (= meat). **Build a meat war chest + MP supply
 (tiny houses) BEFORE grinding.** Sustainable loop: Airship-farm (snarf 81, ~100+ meat/fight net) → spend on war → refarm.
@@ -261,6 +264,7 @@ high-HP boss that hits harder over time, see the boss note in `HANDOFF.md`.
 | 2x (Lighthouse), **Level 13 Turtle Tamer** (Muscle ~188, black sword) | 53 | 6 (#7 -> #13), 0 losses |
 | 4x (Lighthouse + Farm), same character | 51 | 6 (#13 -> #19), 0 losses |
 | 4x (Lighthouse + Farm), same character, Level 13 → 14 | ~153 | 13 (#19 -> #32), 0 losses |
+| 1x → 2x, **Level 12–13 Sauceror** (Saucestorm, potion trio) | ~66 | 14 (#0 -> #14), 1 loss |
 
 🚨 **The wins-per-image number barely moves as the multiplier climbs** — ~9–10 wins per image at 1x, 2x *and* 4x
 on the same character. Deeper images simply need more kills, so each doubling roughly cancels the increase.
