@@ -265,6 +265,7 @@ high-HP boss that hits harder over time, see the boss note in `HANDOFF.md`.
 | 4x (Lighthouse + Farm), same character | 51 | 6 (#13 -> #19), 0 losses |
 | 4x (Lighthouse + Farm), same character, Level 13 → 14 | ~153 | 13 (#19 -> #32), 0 losses |
 | 1x → 2x, **Level 12–13 Sauceror** (Saucestorm, potion trio) | ~66 | 14 (#0 -> #14), 1 loss |
+| 4x (Lighthouse + Farm), same Sauceror, Level 13 | 147 | 13 (#14 -> #27), 0 losses |
 
 🚨 **The wins-per-image number barely moves as the multiplier climbs** — ~9–10 wins per image at 1x, 2x *and* 4x
 on the same character. Deeper images simply need more kills, so each doubling roughly cancels the increase.

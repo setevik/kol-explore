@@ -31,13 +31,11 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 
 ---
 
-## 📊 Character state (end of run #5 Day 16 / 2026-10-24)
+## 📊 Character state (end of run #5 Day 17 / 2026-10-25)
 
-- **LEVEL 13 Sauceror**, base Mys 155, max HP ~110 (≈410 with the trio), MP ~390. 💰 Meat ~56,000. **1 adventure
-  banked**, full 15/15 · drunk 15. **Meade and boilermakers used up — buy for tomorrow.**
-- 🎽 astral chapeau · saucepan · old sweatpants · batskin belt · air freshener · oil lamp (fatigues in inventory).
-- 🗺️ **Island War: Battlefield #14 · Lighthouse ✅ · Farm ✅ (×4).** Level 13 guild skills not bought yet
-  (10,000 each).
+- **LEVEL 13 Sauceror**, base Mys 171. 💰 Meat 49,326. **15 adventures banked**, full 15/15 · drunk 20.
+- 🗺️ **Island War: Battlefield #27** (Lighthouse ✅ Farm ✅, ×4). ~5 images (~50 wins) to clear, then **The Man**.
+- Level 13 guild skills not bought (10,000 each).
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -54,13 +52,20 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 **Bought from the guild:** Simmer · Curse of Vichyssoise (L1) · **Stream of Sauce** · **Saucy Salve** (L2) ·
 Expert Panhandling · Icy Glare (L3) · Inner Sauce · Elemental Saucesphere (L4) · **Saucestorm** · Advanced Saucecrafting (L5) · Curse of Marinara · Soul Saucery (L6) · Wave of Sauce · Jalapeño Saucesphere (L7) · Curse of the Thousand Islands · Itchy Curse Finger (L8) · Intrinsic Spiciness · Saucecicle (L9) · Master Saucier · Antibiotic Saucesphere (L10) · Saucegeyser · Saucemaven (L11) · Impetuous Sauciness · Curse of Weaksauce (L12).
 
-## 🔜 Next-session priorities — run #5, Day 17
+## 🔜 Next-session priorities — run #5, Day 18
 
-1. Buy Meade ×2, boilermaker, stuffing ×3, milk; MMJ ×60 (guild).
-2. **Battlefield #14 → #32** in the fatigues (potion trio + MMJ). ~150 wins at ×4.
-3. **The Man** (HP 2000, sleaze, ramps) — fight SOBER before drinking, with the full potion set and Saucegeyser.
+> **Stay SOBER until The Man is dead** — eat first, then the battlefield, then the boss, then drink.
+1. Restock (stuffing ×3, milk, Meade ×2, boilermaker, Fog Murderer from the Hidden Tavern row 175, MMJ).
+2. Fatigues on → Battlefield #27 → #32 (~50 wins).
+3. **The Man** (HP 2000, sleaze, ramps): full potion set + Elemental Saucesphere + full MP; Saucegeyser every round;
+   keep one adventure for the boss link. Then `council.php` → reward; sell the dense meat stack.
+4. Then the Naughty Sorceress tower (`mechanics/naughty-sorceress-tower.md`; she strips buffs).
 
 ## 🗓️ Session log (this run)
+
+- **Run #5 Day 17 (2026-10-25): 🥫 Battlefield #14 → #27 — 147 wins, 0 losses.**
+  🍽️ Food +63 (restocked everything from the mall). 🍺 Meade ×2 + boilermaker = 14 → **Fog Murderer** (Hidden
+  Tavern) overdrink +15. The whole day on the battlefield in the fatigues with the potion trio + MMJ; loot sold +8.6k.
 
 - **Run #5 Day 16 (2026-10-24): 🥫 Level 13. Lighthouse + Farm done, Battlefield #5 → #14 — ~95 wins, 0 losses.**
   🍽️ Food +65. 🍺 Meade ×2 + boilermaker = 14, Imp Ale 15. Battlefield to #7 → Sonofa 5 barrels → keeper → #14 →
