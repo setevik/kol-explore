@@ -129,6 +129,14 @@ potions had worn off** (Muscle 236, ~400 HP; it took ~270 HP from the character)
 with only oil slacks for initiative and got **rank #11**; the Coldest was entered with no gear at all.
 Contests, coronation and maze took **~40 adventures**, with no losses.
 
+### Sauceror at the desk (Level 13, potion set still running from The Man)
+**Strongest** came up as the stat contest — **Muscle 740 from the potions → rank #2** (one fight: *Mr. Loathing*,
+1 round). **Sleaziest** with the oil lamp: 10 fights ending in *Leonard*, all 1 round. **Fastest** with oil slacks:
+rank #11 — the warm-ups fell to Saucegeyser, but **two Cheetahman/Magus fights late in the crowd drained MP and HP
+and one was lost**, and **the Tasmanian Dervish beat the character twice**: ~350 damage on his first hit through
+both Saucespheres, while Saucegeyser did 238. ⇒ For a caster the Dervish is a damage-AND-HP check; keep MP above
+~300 between crowd fights and come back with more of both.
+
 ## Step 2 — The SIX tower-door keys  (each consumed at the door)
 
 ⭐ **RAID HAGNK'S BEFORE SPENDING A SINGLE TURN ON KEYS.** Key materials and the Daily Dungeon tools all persist

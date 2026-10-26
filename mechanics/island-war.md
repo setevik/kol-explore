@@ -106,6 +106,11 @@ Muscle 228 against Defense 225, for ~150–170. The second try, with shells and 
 **one Thrust-Smack for 1,443**, dead on round 3 with no damage taken. ⇒ **For a melee class The Man is a stat check
 you can buy for ~2,000 meat.** Buy the potions before the first attempt.
 
+### ✅ VERIFIED KILL #4 — Sauceror, 3 rounds, no damage taken
+**Level 13 Sauceror**, full mall Muscle-potion set (max HP 783), Elemental + Jalapeño Saucesphere, MP 422 →
+**Saucegeyser every round: 556 · 550 · 1,100**. He never hit. ⇒ A caster's big spell plus borrowed HP is enough;
+no Defense debuff is needed because spells ignore Defense.
+
 ### ✅ VERIFIED KILL #2 — a MUSCLE class, 7 rounds, two hits taken
 
 **Level 14 Seal Clubber, base Muscle 211 (below his Defense 225), dual-wielding black sword + Hammer of Smiting.**

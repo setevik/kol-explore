@@ -31,11 +31,14 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 
 ---
 
-## 📊 Character state (end of run #5 Day 17 / 2026-10-25)
+## 📊 Character state (end of run #5 Day 18 / 2026-10-26)
 
-- **LEVEL 13 Sauceror**, base Mys 171. 💰 Meat 49,326. **15 adventures banked**, full 15/15 · drunk 20.
-- 🗺️ **Island War: Battlefield #27** (Lighthouse ✅ Farm ✅, ×4). ~5 images (~50 wins) to clear, then **The Man**.
-- Level 13 guild skills not bought (10,000 each).
+- **LEVEL 14 Sauceror**. 💰 Meat 27,978. **14 adventures banked**, full 15/15 · drunk 20.
+- ✅ **ISLAND WAR WON** (The Man, 3 rounds) → Council gave the final quest.
+- 🗼 **Tower:** Strongest ✅ (rank #2) · Sleaziest ✅ · **Fastest: Tasmanian Dervish left** (lost to him twice today).
+  **Keys held:** Boris's · Richard's star key · skeleton keys ×3. **Still needed:** Jarlsberg's + Sneaky Pete's (Daily
+  Dungeon tokens or key lime pies ~6.5k each), **digital key** (8-Bit: **8,000/10,000 points**, transfunctioner worn).
+- Wall kit: beehive ✗, boning knife ✗, scented massage oil ×1.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -52,16 +55,21 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 **Bought from the guild:** Simmer · Curse of Vichyssoise (L1) · **Stream of Sauce** · **Saucy Salve** (L2) ·
 Expert Panhandling · Icy Glare (L3) · Inner Sauce · Elemental Saucesphere (L4) · **Saucestorm** · Advanced Saucecrafting (L5) · Curse of Marinara · Soul Saucery (L6) · Wave of Sauce · Jalapeño Saucesphere (L7) · Curse of the Thousand Islands · Itchy Curse Finger (L8) · Intrinsic Spiciness · Saucecicle (L9) · Master Saucier · Antibiotic Saucesphere (L10) · Saucegeyser · Saucemaven (L11) · Impetuous Sauciness · Curse of Weaksauce (L12).
 
-## 🔜 Next-session priorities — run #5, Day 18
+## 🔜 Next-session priorities — run #5, Day 19
 
-> **Stay SOBER until The Man is dead** — eat first, then the battlefield, then the boss, then drink.
-1. Restock (stuffing ×3, milk, Meade ×2, boilermaker, Fog Murderer from the Hidden Tavern row 175, MMJ).
-2. Fatigues on → Battlefield #27 → #32 (~50 wins).
-3. **The Man** (HP 2000, sleaze, ramps): full potion set + Elemental Saucesphere + full MP; Saucegeyser every round;
-   keep one adventure for the boss link. Then `council.php` → reward; sell the dense meat stack.
-4. Then the Naughty Sorceress tower (`mechanics/naughty-sorceress-tower.md`; she strips buffs).
+1. Eat/drink restock (mall). **Sober for the Dervish** (the tower refuses drunk characters).
+2. **8-Bit:** ~20 fights to 10,000 → Treasure House first chest → digital key.
+3. **Daily Dungeon** → Jarlsberg's key; buy Sneaky Pete's key lime pie (eat as food).
+4. **Dervish:** full potion set + both Saucespheres + MP ≥ 400, Saucegeyser; if it fails again, more levels/HP.
+5. Walls: beehive (Black Forest 405), boning knife (Castle 323 after the Wall of Bones is live), oils for the Shadow.
 
 ## 🗓️ Session log (this run)
+
+- **Run #5 Day 18 (2026-10-26): 🥫 ISLAND WAR WON; tower contests 2/3, three keys, 8-Bit 8,000 — ~110 wins, 3 losses.**
+  🍽️ Food +66. Battlefield #27 → #32 (40 wins) → **The Man: Saucegeyser 556/550/1,100, untouched** → Council.
+  Contests: Strongest #2 (potion Muscle 740), Sleaziest, Fastest #11 → crowd lost once (MP ran dry), **Dervish won
+  twice**. Daily Dungeon → Boris's key; stars + lines → Richard's key; 8-Bit 80 fights → 8,000.
+  🍺 Meade ×2 + boilermaker = 14, Fog Murderer 20. **Level 14.**
 
 - **Run #5 Day 17 (2026-10-25): 🥫 Battlefield #14 → #27 — 147 wins, 0 losses.**
   🍽️ Food +63 (restocked everything from the mall). 🍺 Meade ×2 + boilermaker = 14 → **Fog Murderer** (Hidden
