@@ -98,3 +98,14 @@ levers that made the late game possible: **mall Muscle potions for HP** (Ferrign
 cheap refresh) and **mall Mysticality potions for spell damage** (Hawking's + ointment of the occult) on the
 Dervish. Cannelloni Cocoon (permed) was the everyday heal. Weak spots: a tiny base HP pool all run, and MP —
 magical mystery juice (guild store, 100 meat) is a standing cost of ~5,000 meat a day from Level 11.
+
+## 💎 Worth perming — the Sauceror tree against the four tests (`ascension.md`)
+
+| Skill | Passive? | Off-class? | Verdict |
+|---|---|---|---|
+| ⭐ **Expert Panhandling** (4004) | ✅ | ✅ +10% meat (+15% with a saucepan) | **Permed** — meat was this class's bottleneck |
+| Saucegeyser (4012) | ❌ 24 MP | scales with Mysticality | strong only for a Myst class |
+| Inner Sauce (4028) | ✅ | *"significantly less MP for non-Saucerors"* | skip |
+| Intrinsic Spiciness (4010) | ✅ | sauce spells only | skip |
+| Saucemaven | ✅ | saucy food only | skip |
+| Soul Saucery | ✅ | Soulsauce is a class resource | blocked |
