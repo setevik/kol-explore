@@ -31,14 +31,14 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 
 ---
 
-## 📊 Character state (end of run #5 Day 18 / 2026-10-26)
+## 📊 Character state (end of run #5 Day 19 / 2026-10-27) — 🏆 RUN WON
 
-- **LEVEL 14 Sauceror**. 💰 Meat 27,978. **14 adventures banked**, full 15/15 · drunk 20.
-- ✅ **ISLAND WAR WON** (The Man, 3 rounds) → Council gave the final quest.
-- 🗼 **Tower:** Strongest ✅ (rank #2) · Sleaziest ✅ · **Fastest: Tasmanian Dervish left** (lost to him twice today).
-  **Keys held:** Boris's · Richard's star key · skeleton keys ×3. **Still needed:** Jarlsberg's + Sneaky Pete's (Daily
-  Dungeon tokens or key lime pies ~6.5k each), **digital key** (8-Bit: **8,000/10,000 points**, transfunctioner worn).
-- Wall kit: beehive ✗, boning knife ✗, scented massage oil ×1.
+- 🏆 **THE NAUGHTY SORCERESS IS DEAD AND KING RALPH IS FREE** — the astral gash is open. *The Ultimate Final Epic
+  Conflict of the Ages* sits in completed quests. ⇒ **This run can ascend whenever you choose** (`mechanics/ascension.md`);
+  I have NOT ascended — that is your call.
+- **LEVEL 14 Sauceror**. 💰 Meat 17,541. **1 adventure banked**, full 15/15 · drunk 15. Level 13–14 guild skills not
+  bought (10,000+ each).
+- Next class per the plan: **Disco Bandit or Accordion Thief** (the last two).
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -55,15 +55,21 @@ challenge, the skill tree with measured prices, the class resource, starting gea
 **Bought from the guild:** Simmer · Curse of Vichyssoise (L1) · **Stream of Sauce** · **Saucy Salve** (L2) ·
 Expert Panhandling · Icy Glare (L3) · Inner Sauce · Elemental Saucesphere (L4) · **Saucestorm** · Advanced Saucecrafting (L5) · Curse of Marinara · Soul Saucery (L6) · Wave of Sauce · Jalapeño Saucesphere (L7) · Curse of the Thousand Islands · Itchy Curse Finger (L8) · Intrinsic Spiciness · Saucecicle (L9) · Master Saucier · Antibiotic Saucesphere (L10) · Saucegeyser · Saucemaven (L11) · Impetuous Sauciness · Curse of Weaksauce (L12).
 
-## 🔜 Next-session priorities — run #5, Day 19
+## 🔜 Next-session priorities — after run #5
 
-1. Eat/drink restock (mall). **Sober for the Dervish** (the tower refuses drunk characters).
-2. **8-Bit:** ~20 fights to 10,000 → Treasure House first chest → digital key.
-3. **Daily Dungeon** → Jarlsberg's key; buy Sneaky Pete's key lime pie (eat as food).
-4. **Dervish:** full potion set + both Saucespheres + MP ≥ 400, Saucegeyser; if it fails again, more levels/HP.
-5. Walls: beehive (Black Forest 405), boning knife (Castle 323 after the Wall of Bones is live), oils for the Shadow.
+> **The run is WON.** Ascension is the user's call.
+1. When asked: archive this file to `runs/ascension-05-sauceror.md`, then `mechanics/ascension.md` (karma, perm
+   one skill — candidates in `mechanics/sauceror-class.md`, `whichpath=0`). Next class: Disco Bandit or Accordion
+   Thief.
 
 ## 🗓️ Session log (this run)
+
+- **Run #5 Day 19 (2026-10-27): 🏆 RUN WON — Naughty Sorceress dead, King Ralph freed. Level 14.**
+  🍽️ Food +62 (Sneaky Pete's key lime pie = key). Daily Dungeon → Jarlsberg's key; 8-Bit 20 fights → digital key.
+  **Dervish: Mysticality potions (Mys 1,062) → one Saucegeyser (573).** Sash → coronation → maze → door (6 keys) →
+  beehive → Wall of Meat ×5 → boning knife → mirror → Shadow (4 rounds). **Sorceress:** 3 losses on stripped stats →
+  HP/DA gear swap (max HP ~250) → forms 1 + 2 → form 3 loss → wand (~12 turns) → rematch won → **prism**.
+  Airship ×60 for meat. 🍺 Meade ×2 + boilermaker = 14, Imp Ale 15.
 
 - **Run #5 Day 18 (2026-10-26): 🥫 ISLAND WAR WON; tower contests 2/3, three keys, 8-Bit 8,000 — ~110 wins, 3 losses.**
   🍽️ Food +66. Battlefield #27 → #32 (40 wins) → **The Man: Saucegeyser 556/550/1,100, untouched** → Council.

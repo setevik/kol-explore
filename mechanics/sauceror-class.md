@@ -91,3 +91,10 @@ top-up, plus magical mystery juice (guild store, 100 meat) when they run out.
 ⭐ **A permed Cannelloni Cocoon is this class's best out-of-combat heal** (20 MP, full HP at ~70 max HP; still large
 at potion-inflated HP). A Sauceror's MP pool (~200 at Level 10) pays for it many times a day, which beats buying
 healing items — the mall's scroll of drastic healing stores often refuse a second buy.
+
+## 🏁 Run summary (one run, 19 days)
+Guild L1 → Level 14; **Saucestorm (L5) carried Levels 5–10, Saucegeyser (L11) carried every boss after**. The two
+levers that made the late game possible: **mall Muscle potions for HP** (Ferrigno's + gr8ness + tomato juice as the
+cheap refresh) and **mall Mysticality potions for spell damage** (Hawking's + ointment of the occult) on the
+Dervish. Cannelloni Cocoon (permed) was the everyday heal. Weak spots: a tiny base HP pool all run, and MP —
+magical mystery juice (guild store, 100 meat) is a standing cost of ~5,000 meat a day from Level 11.

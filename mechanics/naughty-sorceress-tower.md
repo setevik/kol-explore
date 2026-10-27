@@ -137,6 +137,11 @@ and one was lost**, and **the Tasmanian Dervish beat the character twice**: ~350
 both Saucespheres, while Saucegeyser did 238. ⇒ For a caster the Dervish is a damage-AND-HP check; keep MP above
 ~300 between crowd fights and come back with more of both.
 
+✅ **SOLVED for the caster the next day: Mysticality potions.** Hawking's Elixir of Brilliance (+368 Mys),
+ointment of the occult (+184) and gr8ness (part of the Muscle set) took Mysticality **234 → 1,062**; with the Muscle
+set as well (HP 777) **one Saucegeyser did 573 and the Dervish died in round 1**. ⇒ For a caster the champion is a
+spell-damage check — buy Mysticality, not only HP.
+
 ## Step 2 — The SIX tower-door keys  (each consumed at the door)
 
 ⭐ **RAID HAGNK'S BEFORE SPENDING A SINGLE TURN ON KEYS.** Key materials and the Daily Dungeon tools all persist
@@ -439,6 +444,17 @@ and the tower action list goes momentarily empty. That is not a loss; fetch the 
 ⚠️ **`inFight()` false-negatives in the tower.** The form-3 page and the post-form cutscenes contain neither
 `whichskill` nor "Attack with your weapon", so a helper testing only for those reports "no fight" on a page that
 *is* one. ✅ **Test for the combat form instead: `/<form name=attack/`.**
+
+### ✅ Sauceror (Level 14) — the whole fight on base stats plus GEAR
+She strips every effect, so a caster's borrowed HP disappears (max HP ~145). ✅ **Equipment is not stripped:** giant
+cactus quill (+30 HP), keg shield (DR 11, DA 50), reinforced beaded headband (+40 HP), black greaves (DA 30),
+walrus-tusk earring (+10), big red clown nose (+7) → **max HP ~250 with DA 80 / DR 11** — check base Muscle/Moxie
+against each requirement (124/128 here). Saucegeyser landed **136–175** a cast; she hit ~45–60 through the gear.
+Three losses before the gear swap (her blocks show as MP that never moves), then form 1 in 3 rounds, form 2 in ~13
+with poultices at 50%, form 3 lost → **wand in ~12 Misspelled Cemetary turns** → rematch won.
+🐛 **Heal AFTER loading the tower page, not straight after a form:** a Cocoon cast right after the *"Uh oh."*
+cutscene did nothing, and form 2 began at 93/227. Load `place.php?whichplace=nstower`, then heal, then verify HP.
+🐛 Keep a real MMJ stock: with none left, an in-combat "use MMJ" round is a silent no-op and the fight stalls.
 
 ### 🏁 Step 6 — free the King
 `place.php?whichplace=nstower&action=ns_11_prism` → *"Hi-keeba!"* → the prism shatters, **King Ralph XI** is
