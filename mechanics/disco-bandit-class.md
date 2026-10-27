@@ -1,0 +1,40 @@
+# Disco Bandit — class notes (Moxie)
+
+> Idempotent class reference. Current-run state lives in `CURRENT_ASCENSION.md`. Sibling class: Accordion Thief
+> (same guild, same store `guildstore1`).
+
+## Start of a run
+
+- **Starting kit:** *disco mask* (hat) and *disco ball* (weapon), worn on equip. An astral pet (astral shorts) covers pants.
+- **Starting skills:** **Suckerpunch** (5021, combat, **1 MP**, damages and weakens; shows `(P)`), **Disco Aerobics**
+  (5000, 1 MP, *Disco State of Mind*: +Moxie).
+- Max HP is tiny early (**4 at Level 1, 8 at Level 4**) — Moxie classes get HP from Muscle like everyone else.
+
+## Guild — the Department of Shadowy Arts and Crafts
+
+- **Challenge (Shifty, `guild.php?place=challenge`): "steal your own pants".** It is a noncombat in the **Sleazy
+  Back Alley (112)**: choice **542 `Yoink!`** (single option) — ✅ came on the 4th alley turn. Visit the challenge page
+  again to become a member.
+  🐛 **The gag leaves your pants slot EMPTY** — re-equip your pants afterwards.
+- **Trainer (Lefty)** `guild.php?place=trainer`, POST `action=buyskill&skillid=<short id>&pwd=`. Prices by level
+  **125 · 250 · 500** for Levels 1–3 (the same ladder as every guild).
+
+| Lvl | Skill | `whichskill` | `skillid` | Notes |
+|---|---|---|---|---|
+| 1 | Disco Eye-Poke | 5003 | 3 | Combat, 2 MP, once per fight, small damage |
+| 1 | Deft Hands | 5025 | 25 | Passive: better combat items |
+| 2 | Disco Dance of Doom | 5005 | 5 | Combat, 3 MP, once per fight: damage + weaken |
+| 2 | Overdeveloped Sense of Self Preservation | 5010 | 10 | Passive: initiative |
+| 3 | Disco Nap | — | 7 | 500 |
+| 3 | Disco State of Mind | — | 26 | 500 |
+
+Later rows by level (trainer page): 4 Disco Dance II: Electric Boogaloo · Frantic Gyrations — 5 That's Not a Knife ·
+Advanced Cocktailcrafting — 6 Nimble Fingers · Disco Face Stab — 7 Tricky Knifework · Flashy Dancer — 8 Mad Looting
+Skillz · Disco Smirk — 9 Disco Greed · Knife in the Dark — 10 Disco Shank · Disco Bravado — 11 Disco Dance 3: Back in
+the Habit · Adventurer of Leisure — 12 Ambidextrous Funkslinging · Disco Inferno — 13 Heart of Polyester · Disco
+Fever — 14 Smooth Movement · Sensitive Fingers — 15 Superhuman Cocktailcrafting · Disco Leer.
+
+## Combat at Levels 1–4
+
+✅ **Plain attacks with the disco ball + Suckerpunch (1 MP) in round 1** took a fresh Disco Bandit **Level 2 → 4 in the
+Outskirts (114): 66 wins, 0 losses**, no healing items.

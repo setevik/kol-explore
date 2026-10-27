@@ -25,27 +25,33 @@ early combat plan). The Moxie guild is separate from both previous guilds.
 
 ---
 
-## 📊 Character state (start of run #6 / 2026-10-27)
+## 📊 Character state (end of run #6 Day 1 / 2026-10-27)
 
-- **LEVEL 1 Disco Bandit**. **40 adventures**, Ronin 1000. 💰 Storage: 17,604 meat + run #5's estate.
-- 🎽 astral shorts (Valhalla).
+- **LEVEL 4 Disco Bandit**, base Moxie 14, max HP 8, MP 4. 💰 Meat ~1,800 (storage 14,604). **5 adventures banked**,
+  full 15/15 · drunk 16.
+- 🎽 disco mask · disco ball · astral shorts.
+- 🗺️ Guild member ✅ · *When Rocks Attack* accepted · Council: larva quest next.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
 **Fullness 15 · Booze cap 14 · Spleen 15.**
 **Permed, carried in (verified `(P)`):** Lunging Thrust-Smack · Double-Fisted Skull Smashing · The Long View (+3
 adv/day) · Pastamastery · Cannelloni Cocoon · **Expert Panhandling (+10% meat, NEW)**. Class start: Disco Aerobics,
-Suckerpunch (shows `(P)`).
+Suckerpunch (shows `(P)`). **Bought:** Disco Eye-Poke · Deft Hands (L1) · Disco Dance of Doom · Overdeveloped Sense
+of Self Preservation (L2) · Disco Nap · Disco State of Mind (L3).
 
-## 🔜 Next-session priorities — run #6, Day 1
+## 🔜 Next-session priorities — run #6, Day 2
 
-> **Read `mechanics/ronin-softcore-rules.md` first: Day-1 pulls must be Level-1-legal (fortune cookies; Imp Ale,
-> boxed wine, liquor bottles; Spam Witch sammich, sweet roll Alabama).**
-1. Pull items first, meat last (20 slots).
-2. Join the Moxie guild (read its challenge), buy Level-1 skills, start `mechanics/disco-bandit-class.md`.
-3. Level in the Outskirts/Pantry; Spooky Forest larva once max HP allows.
+1. Pulls (Level-4-legal): Spam Witch, sweet roll Alabama, Mornington roll, cottage cheese; 4 liquor bottles + Imp Ale +
+   a 1-drunk drink for an exact 14; tiny house/scroll; meat for L4 skills.
+2. L4 skills; Spooky Forest larva (502 stream → 505 marsh) when HP allows; Tavern rats; Bat Hole via Guano Junction.
 
 ## 🗓️ Session log (this run)
+
+- **Run #6 Day 1 (2026-10-27): 🪩 Disco Bandit born, guild joined, Level 1 → 4 — 70 wins, 0 losses.**
+  🏦 17 level-legal pulls + 3,000 meat. 🍽️ Food +19 (sweet roll refused at L1). Guild: **steal your own pants**
+  (Sleazy Back Alley 542 *Yoink!*, 4th turn). Outskirts with disco ball + Suckerpunch → Level 4. 🍺 3 bottles + boxed
+  wine + Imp Ale = 13, swill overdrink 16. New doc `mechanics/disco-bandit-class.md`.
 
 - **2026-10-27 — Ascended into run #6.** Run #5 (Sauceror) won on Day 19. Karma 4 → 115; permed **Expert
   Panhandling** (100) + **astral shorts** (10), 5 banked. Reborn **Normal · Disco Bandit · Marmot · Unrestricted**.

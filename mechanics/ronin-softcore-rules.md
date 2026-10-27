@@ -68,6 +68,8 @@
   adventures**) · **white lightning 3 → 10**. Refused at Level 4: extra-flat panini, actual tapas.
   ✅ **From Level 7 the normal menu returns:** herbal stuffing **28 / 19** (with / after milk), **Ye Olde Meade 5 drunk
   → 14–16**, Flamin' Whatshisname 2 drunk → 6.
+  ✅ **At Level 1:** Spam Witch sammich 2 → 3 · **Mornington crescent roll 3 → 9** · cottage cheese / Trollhouse 2 → 2
+  all legal; **sweet roll Alabama is refused at Level 1** (it worked at Level 3).
   ⚠️ **Imitation White Russian is FOOD**, not booze (*"That's not booze"*) — don't plan it into a drink total.
   ⚠️ Without a 1- or 2-size drink the cap can't be hit exactly from 12; plan a 2-drunk bottle (popskull, cooking
   sherry, Pinot Noir, flat champagne, aged brandy) or Imp Ale into the pull list. The General Store sells **no booze**, and the Typical Tavern page is blank until the larva quest
