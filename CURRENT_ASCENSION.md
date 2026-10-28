@@ -25,12 +25,12 @@ early combat plan). The Moxie guild is separate from both previous guilds.
 
 ---
 
-## 📊 Character state (end of run #6 Day 1 / 2026-10-27)
+## 📊 Character state (end of run #6 Day 2 / 2026-10-28)
 
-- **LEVEL 4 Disco Bandit**, base Moxie 14, max HP 8, MP 4. 💰 Meat ~1,800 (storage 14,604). **5 adventures banked**,
-  full 15/15 · drunk 16.
-- 🎽 disco mask · disco ball · astral shorts.
-- 🗺️ Guild member ✅ · *When Rocks Attack* accepted · Council: larva quest next.
+- **LEVEL 4–5 Disco Bandit**, base Moxie 20, max HP 11. 💰 Meat 11,540 (storage ~5,600). **1 adventure banked**,
+  full 15/15 · drunk 15.
+- 🗺️ Larva ✅ · Tavern ✅ · **Boss Bat next** (needs a Pine-Fresh air freshener pull for Guano Junction) · **Hidden
+  Temple unlocked** · *When Rocks Attack* accepted.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -38,15 +38,20 @@ early combat plan). The Moxie guild is separate from both previous guilds.
 **Permed, carried in (verified `(P)`):** Lunging Thrust-Smack · Double-Fisted Skull Smashing · The Long View (+3
 adv/day) · Pastamastery · Cannelloni Cocoon · **Expert Panhandling (+10% meat, NEW)**. Class start: Disco Aerobics,
 Suckerpunch (shows `(P)`). **Bought:** Disco Eye-Poke · Deft Hands (L1) · Disco Dance of Doom · Overdeveloped Sense
-of Self Preservation (L2) · Disco Nap · Disco State of Mind (L3).
+of Self Preservation (L2) · Disco Nap · Disco State of Mind (L3) · Electric Boogaloo · Frantic Gyrations (L4).
 
-## 🔜 Next-session priorities — run #6, Day 2
+## 🔜 Next-session priorities — run #6, Day 3
 
-1. Pulls (Level-4-legal): Spam Witch, sweet roll Alabama, Mornington roll, cottage cheese; 4 liquor bottles + Imp Ale +
-   a 1-drunk drink for an exact 14; tiny house/scroll; meat for L4 skills.
-2. L4 skills; Spooky Forest larva (502 stream → 505 marsh) when HP allows; Tavern rats; Bat Hole via Guano Junction.
+1. Pulls: **Pine-Fresh air freshener (556)**, ghuol guolash / vampire chowder if any remain, Spam Witch, 4 liquor
+   bottles + cooking sherry (exact 14), tiny house, scroll. L5 skills.
+2. Bat Hole: Guano Junction (31) with the freshener → sonars/screambats → Boss Bat.
+3. Then the Knob (encryption key from the Outskirts; harem disguise from storage).
 
 ## 🗓️ Session log (this run)
+
+- **Run #6 Day 2 (2026-10-28): 🪩 Larva + Tavern done, Hidden Temple unlocked — 59 wins, 0 losses.**
+  🍽️ Food +21. 🍺 4 bottles + cooking sherry = **14 exactly**, Imp Ale 15. Toot Oriole gems +1,000. Spooky Forest larva
+  on the first marsh visit, Tavern 13 fights, temple items (coin rule misfired on a wrong item id).
 
 - **Run #6 Day 1 (2026-10-27): 🪩 Disco Bandit born, guild joined, Level 1 → 4 — 70 wins, 0 losses.**
   🏦 17 level-legal pulls + 3,000 meat. 🍽️ Food +19 (sweet roll refused at L1). Guild: **steal your own pants**

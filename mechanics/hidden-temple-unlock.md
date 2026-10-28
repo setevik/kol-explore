@@ -79,6 +79,8 @@ before grinding for it.
    ⚠️ **It repeats** — a rule that always picks *Investigate the dense foliage* collected **4 fertilizers in 4 visits**.
    Switch the 506 rule away from it once one is in the bag.
 3. **tree-holed coin** — Arboreal opt 2 → Consciousness of a Stream opt 2 (Squeeze into the cave). Also yields +300 Meat from Chester Meatpot's corpse.
+   🔢 **The coin is item 4676** (fertilizer 76, map 74). A rule that tested a guessed id kept re-squeezing the cave for
+   ~7 turns after the coin had already dropped — the cave only gives it once.
 4. **Spooky Temple map** — with tree-holed coin in inventory: Arboreal opt 3 → Through Thicket and Thinnet opt 3 (Follow the coin — only appears with the coin) → O Lith, Mon opt 1 (Insert coin).
 
 ### Final step

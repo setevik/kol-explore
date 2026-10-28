@@ -17,7 +17,7 @@
   again to become a member.
   🐛 **The gag leaves your pants slot EMPTY** — re-equip your pants afterwards.
 - **Trainer (Lefty)** `guild.php?place=trainer`, POST `action=buyskill&skillid=<short id>&pwd=`. Prices by level
-  **125 · 250 · 500** for Levels 1–3 (the same ladder as every guild).
+  **125 · 250 · 500 · 750** for Levels 1–4 (the same ladder as every guild).
 
 | Lvl | Skill | `whichskill` | `skillid` | Notes |
 |---|---|---|---|---|
@@ -25,8 +25,10 @@
 | 1 | Deft Hands | 5025 | 25 | Passive: better combat items |
 | 2 | Disco Dance of Doom | 5005 | 5 | Combat, 3 MP, once per fight: damage + weaken |
 | 2 | Overdeveloped Sense of Self Preservation | 5010 | 10 | Passive: initiative |
-| 3 | Disco Nap | — | 7 | 500 |
-| 3 | Disco State of Mind | — | 26 | 500 |
+| 3 | Disco Nap | 5007 | 7 | 500 |
+| 3 | Disco State of Mind | 5026 | 26 | 500 |
+| 4 | Disco Dance II: Electric Boogaloo | 5008 | 8 | 750 |
+| 4 | Frantic Gyrations | 5027 | 27 | 750 |
 
 Later rows by level (trainer page): 4 Disco Dance II: Electric Boogaloo · Frantic Gyrations — 5 That's Not a Knife ·
 Advanced Cocktailcrafting — 6 Nimble Fingers · Disco Face Stab — 7 Tricky Knifework · Flashy Dancer — 8 Mad Looting
@@ -38,3 +40,6 @@ Fever — 14 Smooth Movement · Sensitive Fingers — 15 Superhuman Cocktailcraf
 
 ✅ **Plain attacks with the disco ball + Suckerpunch (1 MP) in round 1** took a fresh Disco Bandit **Level 2 → 4 in the
 Outskirts (114): 66 wins, 0 losses**, no healing items.
+
+✅ **Level 4, max HP ~11, Disco Aerobics (+Moxie) refreshed before each fight:** the Spooky Forest and the Tavern cellar
+went **52 wins, 0 losses** — a Moxie class's high Moxie makes low-level monsters miss, which is its early defence.
