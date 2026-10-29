@@ -17,7 +17,7 @@
   again to become a member.
   🐛 **The gag leaves your pants slot EMPTY** — re-equip your pants afterwards.
 - **Trainer (Lefty)** `guild.php?place=trainer`, POST `action=buyskill&skillid=<short id>&pwd=`. Prices by level
-  **125 · 250 · 500 · 750** for Levels 1–4 (the same ladder as every guild).
+  **125 · 250 · 500 · 750 · 1,250 · 1,750** for Levels 1–6 (the same ladder as every guild).
 
 | Lvl | Skill | `whichskill` | `skillid` | Notes |
 |---|---|---|---|---|
@@ -29,6 +29,10 @@
 | 3 | Disco State of Mind | 5026 | 26 | 500 |
 | 4 | Disco Dance II: Electric Boogaloo | 5008 | 8 | 750 |
 | 4 | Frantic Gyrations | 5027 | 27 | 750 |
+| 5 | That's Not a Knife | 5028 | 28 | 1,250 |
+| 5 | Advanced Cocktailcrafting | 5014 | 14 | 1,250 |
+| 6 | Nimble Fingers | 5004 | 4 | 1,750 — passive |
+| 6 | Disco Face Stab | 5012 | 12 | 1,750 |
 
 Later rows by level (trainer page): 4 Disco Dance II: Electric Boogaloo · Frantic Gyrations — 5 That's Not a Knife ·
 Advanced Cocktailcrafting — 6 Nimble Fingers · Disco Face Stab — 7 Tricky Knifework · Flashy Dancer — 8 Mad Looting
@@ -43,3 +47,7 @@ Outskirts (114): 66 wins, 0 losses**, no healing items.
 
 ✅ **Level 4, max HP ~11, Disco Aerobics (+Moxie) refreshed before each fight:** the Spooky Forest and the Tavern cellar
 went **52 wins, 0 losses** — a Moxie class's high Moxie makes low-level monsters miss, which is its early defence.
+
+✅ **Levels 4–6 with plain disco-ball attacks + Suckerpunch / Dance of Doom openers:** Guano Junction (air freshener)
+opened the Boss Bat's lair in **13 fights**, the Boss Bat fell in the next **7**, and the Harem went **47 wins, 0 losses**
+(Level 5 → 6, plus 3 perfumes). No healing items needed — the class's Moxie keeps low-level monsters missing.

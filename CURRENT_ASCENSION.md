@@ -25,12 +25,12 @@ early combat plan). The Moxie guild is separate from both previous guilds.
 
 ---
 
-## 📊 Character state (end of run #6 Day 2 / 2026-10-28)
+## 📊 Character state (end of run #6 Day 3 / 2026-10-29)
 
-- **LEVEL 4–5 Disco Bandit**, base Moxie 20, max HP 11. 💰 Meat 11,540 (storage ~5,600). **1 adventure banked**,
-  full 15/15 · drunk 15.
-- 🗺️ Larva ✅ · Tavern ✅ · **Boss Bat next** (needs a Pine-Fresh air freshener pull for Guano Junction) · **Hidden
-  Temple unlocked** · *When Rocks Attack* accepted.
+- **LEVEL 6 Disco Bandit**, base Moxie 30, max HP ~22. 💰 Meat 8,043 (storage ~3,700 + **2 Ferrigno's Elixirs**).
+  **1 adventure banked**, full 15/15 · drunk 15.
+- 🎽 disco mask · disco ball · astral shorts · air freshener. Harem veil + pants, **3 Knob Goblin perfume** held.
+- 🗺️ Boss Bat ✅ · **Knob open — King next** (pull a Ferrigno's for HP) · Hidden Temple unlocked.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -38,16 +38,21 @@ early combat plan). The Moxie guild is separate from both previous guilds.
 **Permed, carried in (verified `(P)`):** Lunging Thrust-Smack · Double-Fisted Skull Smashing · The Long View (+3
 adv/day) · Pastamastery · Cannelloni Cocoon · **Expert Panhandling (+10% meat, NEW)**. Class start: Disco Aerobics,
 Suckerpunch (shows `(P)`). **Bought:** Disco Eye-Poke · Deft Hands (L1) · Disco Dance of Doom · Overdeveloped Sense
-of Self Preservation (L2) · Disco Nap · Disco State of Mind (L3) · Electric Boogaloo · Frantic Gyrations (L4).
+of Self Preservation (L2) · Disco Nap · Disco State of Mind (L3) · Electric Boogaloo · Frantic Gyrations (L4) · That's Not a Knife · Advanced Cocktailcrafting (L5) · Nimble
+Fingers · Disco Face Stab (L6).
 
-## 🔜 Next-session priorities — run #6, Day 3
+## 🔜 Next-session priorities — run #6, Day 4
 
-1. Pulls: **Pine-Fresh air freshener (556)**, ghuol guolash / vampire chowder if any remain, Spam Witch, 4 liquor
-   bottles + cooking sherry (exact 14), tiny house, scroll. L5 skills.
-2. Bat Hole: Guano Junction (31) with the freshener → sonars/screambats → Boss Bat.
-3. Then the Knob (encryption key from the Outskirts; harem disguise from storage).
+1. Pulls: **Ferrigno's ×1** (King), food (Spam Witch, crumbs, marrow, small fillers; check stolen sushi L6), bottles +
+   sherry, tiny house.
+2. **Knob Goblin King** in the harem disguise + perfume, Ferrigno's for HP. Then the Friars (L6).
 
 ## 🗓️ Session log (this run)
+
+- **Run #6 Day 3 (2026-10-29): 🪩 Level 4 → 6, Boss Bat dead, Knob opened — ~95 wins, 0 losses.**
+  🍽️ **Food +35** (vampire chowder 10, sweet roll 9, crumbs 7, marrow 7). 🍺 4 bottles + sherry = 14, Imp Ale 15.
+  Guano Junction 13 fights → lair → Boss Bat. Knob map used (key from Day 1). Outskirts to base Moxie 25 → Harem 47 wins.
+  2 Ferrigno's bought into storage for tomorrow.
 
 - **Run #6 Day 2 (2026-10-28): 🪩 Larva + Tavern done, Hidden Temple unlocked — 59 wins, 0 losses.**
   🍽️ Food +21. 🍺 4 bottles + cooking sherry = **14 exactly**, Imp Ale 15. Toot Oriole gems +1,000. Spooky Forest larva
