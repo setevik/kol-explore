@@ -25,12 +25,12 @@ early combat plan). The Moxie guild is separate from both previous guilds.
 
 ---
 
-## 📊 Character state (end of run #6 Day 3 / 2026-10-29)
+## 📊 Character state (end of run #6 Day 4 / 2026-10-30)
 
-- **LEVEL 6 Disco Bandit**, base Moxie 30, max HP ~22. 💰 Meat 8,043 (storage ~3,700 + **2 Ferrigno's Elixirs**).
-  **1 adventure banked**, full 15/15 · drunk 15.
-- 🎽 disco mask · disco ball · astral shorts · air freshener. Harem veil + pants, **3 Knob Goblin perfume** held.
-- 🗺️ Boss Bat ✅ · **Knob open — King next** (pull a Ferrigno's for HP) · Hidden Temple unlocked.
+- **LEVEL 6 Disco Bandit**, base Moxie 38, max HP ~26, MP ~24. 💰 Meat 13,699. **1 adventure banked**, full 15/15 ·
+  drunk 15. Ronin ~690.
+- 🎽 disco mask · broken beer bottle (daily knife) · astral shorts · batskin belt. **Crown of the Goblin King** held.
+- 🗺️ **Knob Goblin King ✅** · **Friars next** (L6) · Hidden Temple unlocked.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -41,13 +41,19 @@ Suckerpunch (shows `(P)`). **Bought:** Disco Eye-Poke · Deft Hands (L1) · Disc
 of Self Preservation (L2) · Disco Nap · Disco State of Mind (L3) · Electric Boogaloo · Frantic Gyrations (L4) · That's Not a Knife · Advanced Cocktailcrafting (L5) · Nimble
 Fingers · Disco Face Stab (L6).
 
-## 🔜 Next-session priorities — run #6, Day 4
+## 🔜 Next-session priorities — run #6, Day 5
 
-1. Pulls: **Ferrigno's ×1** (King), food (Spam Witch, crumbs, marrow, small fillers; check stolen sushi L6), bottles +
-   sherry, tiny house.
-2. **Knob Goblin King** in the harem disguise + perfume, Ferrigno's for HP. Then the Friars (L6).
+1. Pulls: food (stolen sushi, crumbs, marrow, Spam Witch …), 4 bottles + sherry, tiny houses, Ferrigno's (buy into
+   storage the day before). Cast That's Not a Knife each morning.
+2. **Friars** (groves 539/540/541, hot damage, ML 40–52) — take it slow at ~26 HP; level in the Harem otherwise.
+3. Spookyraven (telegram) for Level 7 stats.
 
 ## 🗓️ Session log (this run)
+
+- **Run #6 Day 4 (2026-10-30): 🪩 Knob Goblin King dead — ~70 wins, 1 loss.**
+  🍽️ **Food +31** (stolen sushi 13, crumbs, marrow). 🍺 4 bottles + sherry = 14, Imp Ale 15.
+  King lost at 57 HP on plain attacks → That's Not a Knife (broken beer bottle) + Harem 40 wins → King won with the dance
+  combo (Dance of Doom → Dance II → Face Stab) on the second Ferrigno's. Dense meat stacks sold +2,000.
 
 - **Run #6 Day 3 (2026-10-29): 🪩 Level 4 → 6, Boss Bat dead, Knob opened — ~95 wins, 0 losses.**
   🍽️ **Food +35** (vampire chowder 10, sweet roll 9, crumbs 7, marrow 7). 🍺 4 bottles + sherry = 14, Imp Ale 15.

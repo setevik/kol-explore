@@ -28,6 +28,8 @@ Drop: **Crown of the Goblin King** (hat, Power 70, **+10 Muscle**, needs **20 Mo
 Mysticality class the throne room is a **max-HP check** — raise it well past ~40 before going in.
 ⚠️ That loss arrives on the **entry page itself** (no attack form, HP 0), so a loop sees "no fight" rather than
 a loss — read HP after the throne-room fetch.
+⚠️ **The disguise also costs a Moxie class its hat's Moxie** — a Disco Bandit lost ~10 Moxie in it, and with it some of
+its defence. Enter with full MP for your burst skills; see `disco-bandit-class.md`.
 ✅ The harem disguise can come straight **from storage** (veil 306, pants 305 — two different items, two pulls), and
 **perfume dropped in 6 Harem fights** at Level 5.
 

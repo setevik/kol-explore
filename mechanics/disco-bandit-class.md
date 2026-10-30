@@ -51,3 +51,12 @@ went **52 wins, 0 losses** — a Moxie class's high Moxie makes low-level monste
 ✅ **Levels 4–6 with plain disco-ball attacks + Suckerpunch / Dance of Doom openers:** Guano Junction (air freshener)
 opened the Boss Bat's lair in **13 fights**, the Boss Bat fell in the next **7**, and the Harem went **47 wins, 0 losses**
 (Level 5 → 6, plus 3 perfumes). No healing items needed — the class's Moxie keeps low-level monsters missing.
+
+## ⭐ The dance combo and the daily knife (Levels 5–6)
+- **That's Not a Knife** (5028, L5) is a **once-a-day noncombat** that hands you a **broken beer bottle** — a knife-type
+  weapon that replaced the disco ball for the rest of the day.
+- **Combat line that works on a boss:** `Disco Dance of Doom` (3 MP) → `Disco Dance II: Electric Boogaloo` (4 MP) →
+  `Disco Face Stab` (8 MP, L6) → `Suckerpunch` (1 MP) each round after. All the dances are **once per fight**, so a
+  full combo needs **~15 MP at entry**; *Frantic Gyrations* (passive) notes that dancing builds *Disco Momentum*.
+- ✅ **Knob Goblin King at Level 6:** lost the first try (plain attacks, Moxie lowered by the harem disguise), **won the
+  second in 3 rounds** with the combo above, full MP from a tiny house and Ferrigno's for HP (28 max HP, ended on 7).
