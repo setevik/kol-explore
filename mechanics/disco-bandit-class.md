@@ -56,7 +56,17 @@ opened the Boss Bat's lair in **13 fights**, the Boss Bat fell in the next **7**
 - **That's Not a Knife** (5028, L5) is a **once-a-day noncombat** that hands you a **broken beer bottle** — a knife-type
   weapon that replaced the disco ball for the rest of the day.
 - **Combat line that works on a boss:** `Disco Dance of Doom` (3 MP) → `Disco Dance II: Electric Boogaloo` (4 MP) →
-  `Disco Face Stab` (8 MP, L6) → `Suckerpunch` (1 MP) each round after. All the dances are **once per fight**, so a
+  `Disco Face Stab` (8 MP, L6) → **plain weapon attacks** after. All the dances are **once per fight**, so a
   full combo needs **~15 MP at entry**; *Frantic Gyrations* (passive) notes that dancing builds *Disco Momentum*.
 - ✅ **Knob Goblin King at Level 6:** lost the first try (plain attacks, Moxie lowered by the harem disguise), **won the
   second in 3 rounds** with the combo above, full MP from a tiny house and Ferrigno's for HP (28 max HP, ended on 7).
+
+## ⚠️ Suckerpunch is not a fallback
+- Past Level 1, **Suckerpunch deals 1 damage** and the fight's MP regen covers its cost, so a loop that casts it
+  "whenever MP ≥ 1" never runs dry and **hits the 30-round limit — an automatic loss**. Once the dances are spent,
+  fall back to the weapon attack.
+
+## 🏚️ Spookyraven at Level 7 (dance combo + broken beer bottle, max HP ~30)
+- ✅ Kitchen → billiards (pool cue) → Library necklace → Bathroom puff → Bedroom gown → Gallery shoes in one day,
+  0 losses apart from the Suckerpunch loops. Tiny houses (heal + clear Beaten Up) carried the HP.
+- **Level 7 trainer:** Tricky Knifework and Flashy Dancer, 2,500 Meat each.

@@ -168,7 +168,7 @@ Keep grinding until you find an Elegant Nightstand. Fight drops in this zone are
 ### Step 4c: Gallery → Shoes (The Art Puzzle)
 
 Gallery has 4 noteworthy encounters:
-1. **"Out in the Garden"** painting — talk to the maidens, drink their blue vial → **Dreams and Lights** effect (10 advs, ~75% MP cost reduction in Gallery). HUGE for sustain.
+1. **"Out in the Garden"** painting (choice 89, `The two maidens`) — talk to the maidens, drink their blue vial → **Dreams and Lights** effect (10 advs, ~75% MP cost reduction in Gallery). HUGE for sustain.
 2. **"Lights Out in the Gallery"** semi-rare (Magritte apple painting, Paint-Splattered dropcloth) — flavor only.
 3. Pitchfork Couple combat — a 2-enemy fight that's immune to Entangling Noodles. Use Ravioli Shurikens directly.
 4. **"Louvre It or Leave It"** — an M.C. Escher stairway lithograph you walk INTO, leading to a surrealist maze:

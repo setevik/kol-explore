@@ -25,12 +25,13 @@ early combat plan). The Moxie guild is separate from both previous guilds.
 
 ---
 
-## 📊 Character state (end of run #6 Day 4 / 2026-10-30)
+## 📊 Character state (end of run #6 Day 5 / 2026-10-31)
 
-- **LEVEL 6 Disco Bandit**, base Moxie 38, max HP ~26, MP ~24. 💰 Meat 13,699. **1 adventure banked**, full 15/15 ·
-  drunk 15. Ronin ~690.
-- 🎽 disco mask · broken beer bottle (daily knife) · astral shorts · batskin belt. **Crown of the Goblin King** held.
-- 🗺️ **Knob Goblin King ✅** · **Friars next** (L6) · Hidden Temple unlocked.
+- **LEVEL 7 Disco Bandit**, base Moxie 44, max HP ~32, MP ~27. 💰 Meat 9,771. **3 adventures banked**, full ·
+  drunk 15. Ronin ~770.
+- 🎽 disco mask · broken beer bottle (daily knife) · astral shorts · batskin belt. Lord Spookyraven's spectacles held.
+- 🗺️ Knob King ✅ · **Lady Spookyraven's finery delivered → Ballroom next** · Friars still open · Hidden Temple unlocked.
+- Skills: trainer bought out through Level 7 (Tricky Knifework, Flashy Dancer).
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -41,14 +42,20 @@ Suckerpunch (shows `(P)`). **Bought:** Disco Eye-Poke · Deft Hands (L1) · Disc
 of Self Preservation (L2) · Disco Nap · Disco State of Mind (L3) · Electric Boogaloo · Frantic Gyrations (L4) · That's Not a Knife · Advanced Cocktailcrafting (L5) · Nimble
 Fingers · Disco Face Stab (L6).
 
-## 🔜 Next-session priorities — run #6, Day 5
+## 🔜 Next-session priorities — run #6, Day 6
 
-1. Pulls: food (stolen sushi, crumbs, marrow, Spam Witch …), 4 bottles + sherry, tiny houses, Ferrigno's (buy into
-   storage the day before). Cast That's Not a Knife each morning.
-2. **Friars** (groves 539/540/541, hot damage, ML 40–52) — take it slow at ~26 HP; level in the Harem otherwise.
-3. Spookyraven (telegram) for Level 7 stats.
+1. Pulls: food + 4 bottles + sherry, tiny houses (only 0 left), Ferrigno's. Cast That's Not a Knife each morning.
+2. **Spookyraven Ballroom** — dance with Lady Spookyraven (Level 7+ stats), then the third floor.
+3. **Friars** (groves 539/540/541) — level 7 should handle the hot damage now.
+4. Combat: dance combo, then **plain attacks** — never Suckerpunch as the fallback (30-round loss).
 
 ## 🗓️ Session log (this run)
+
+- **Run #6 Day 5 (2026-10-31): 🪩 Level 7, all of Lady Spookyraven's finery delivered — 2 losses.**
+  🍽️ Full stomach from pulls. 🍺 rum, whiskey, gin, tequila, Imp Ale = 13 → cooking sherry 15.
+  Telegram → Kitchen key → billiards (pool cue) → Library necklace → Bathroom puff (cosmetics wraith) → Bedroom gown
+  (+ spectacles) → Gallery shoes (maidens' Dreams and Lights, maze 904→910→911→905). Two 30-round losses from a
+  Suckerpunch fallback loop, fixed. L7 skills 5,000.
 
 - **Run #6 Day 4 (2026-10-30): 🪩 Knob Goblin King dead — ~70 wins, 1 loss.**
   🍽️ **Food +31** (stolen sushi 13, crumbs, marrow). 🍺 4 bottles + sherry = 14, Imp Ale 15.
