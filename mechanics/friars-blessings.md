@@ -23,6 +23,8 @@ Reach the zones via `friars.php` / the Distant Woods.
 ✅ **Verified in-game (Pastamancer, base Mys 33–38, Springy Fusilli up):** 66 turns total, ~20–24 each (37W/17L).
 ⚠️ **A grove visited before is further along its chain** and yields its item sooner. Budget
 ~10–25 turns per grove and don't plan a whole day around it.
+✅ **Disco Bandit, Level 7 (max HP ~35, dance combo + broken beer bottle): 43 W / 0 L, 50 turns for all three
+groves** — each item came on the 4th noncombat (~13–17 fights each).
 Item IDs: **dodecagram 479 · box of birthday candles 480 · eldritch butterknife 481.**
 🍺 **The Dark Elbow drops Imp Ale freely** (6 in one visit) — a 1-drunk drink, exactly what is missing when
 filling the liver to an exact cap.

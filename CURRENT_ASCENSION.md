@@ -25,13 +25,14 @@ early combat plan). The Moxie guild is separate from both previous guilds.
 
 ---
 
-## 📊 Character state (end of run #6 Day 5 / 2026-10-31)
+## 📊 Character state (end of run #6 Day 6 / 2026-11-01)
 
-- **LEVEL 7 Disco Bandit**, base Moxie 44, max HP ~32, MP ~27. 💰 Meat 9,771. **3 adventures banked**, full ·
-  drunk 15. Ronin ~770.
-- 🎽 disco mask · broken beer bottle (daily knife) · astral shorts · batskin belt. Lord Spookyraven's spectacles held.
-- 🗺️ Knob King ✅ · **Lady Spookyraven's finery delivered → Ballroom next** · Friars still open · Hidden Temple unlocked.
-- Skills: trainer bought out through Level 7 (Tricky Knifework, Flashy Dancer).
+- **LEVEL 7 Disco Bandit**, base Moxie 52, max HP ~42, MP ~34. 💰 Meat 14,141. **5 adventures banked**, full 15 ·
+  drunk 16. Ronin ~467.
+- 🎽 disco mask · broken beer bottle (daily knife) · astral shorts · batskin belt. 1 tiny house, 1 Ferrigno's held.
+- 🗺️ Spookyraven Lady chain ✅ (danced) · **Friars ✅** · **Cyrpt in progress** (Evilometer: Alcove 10, Cranny 14,
+  Niche 50, Nook 50 — both bosses waiting).
+- Skills: trainer bought out through Level 7.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -42,14 +43,19 @@ Suckerpunch (shows `(P)`). **Bought:** Disco Eye-Poke · Deft Hands (L1) · Disc
 of Self Preservation (L2) · Disco Nap · Disco State of Mind (L3) · Electric Boogaloo · Frantic Gyrations (L4) · That's Not a Knife · Advanced Cocktailcrafting (L5) · Nimble
 Fingers · Disco Face Stab (L6).
 
-## 🔜 Next-session priorities — run #6, Day 6
+## 🔜 Next-session priorities — run #6, Day 7
 
-1. Pulls: food + 4 bottles + sherry, tiny houses (only 0 left), Ferrigno's. Cast That's Not a Knife each morning.
-2. **Spookyraven Ballroom** — dance with Lady Spookyraven (Level 7+ stats), then the third floor.
-3. **Friars** (groves 539/540/541) — level 7 should handle the hot damage now.
-4. Combat: dance combo, then **plain attacks** — never Suckerpunch as the fallback (30-round loss).
+1. Pulls: food + 4 bottles + 2 Imp Ale (8 in hand) + sherry, tiny houses, Ferrigno's.
+2. **Cyrpt room bosses** (Alcove ≤13, Cranny 14 — 120 HP, Att ~73): full HP + MP, Ferrigno's, Brother Smothers's
+   Blessing (`friars.php` action=buffs&bro=3), dance combo then attacks. Then Niche (phylactery: 157 `second one`)
+   and Nook (evil eyes).
+3. Bonerdagon is a max-HP check (~46 spooky/round) — likely Level 8–9 with the Muscle-potion set.
 
 ## 🗓️ Session log (this run)
+
+- **Run #6 Day 6 (2026-11-01): 🪩 Lady's dance, Friars done, Cyrpt half-cleared — 81 wins, 0 losses.**
+  🍽️ Full 15 (6293 + 8412 + 545 + mutton/onigiri/salad/crudités). 🍺 4 bottles + 2 Imp Ale = 14, sherry 16.
+  Ballroom dance (1 turn). Groves 17/21/17 turns, 43 W. Evilometer 200 → 124: Cranny → 14, Alcove → 10.
 
 - **Run #6 Day 5 (2026-10-31): 🪩 Level 7, all of Lady Spookyraven's finery delivered — 2 losses.**
   🍽️ Full stomach from pulls. 🍺 rum, whiskey, gin, tequila, Imp Ale = 13 → cooking sherry 15.

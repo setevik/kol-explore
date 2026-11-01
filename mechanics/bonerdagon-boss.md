@@ -116,6 +116,9 @@ check, the boss is a max-HP check** (budget ≥ 3 of his hits).
 ✅ **Two days later, same Sauceror at Level 9 with the mall Muscle-potion set (max HP 313), Smothers + both
 Saucespheres: dead in 2 rounds, no damage taken** (one cast wing-flapped).
 
+✅ **Disco Bandit, Level 7 (max HP ~40, dance combo + broken beer bottle, Brother Smothers's Blessing): Cranny 50 → 14
+in 22 fights and Alcove 50 → 10 in 16 fights + 3 coffins, 0 losses.** The Alcove drops faster than 1 evil per fight.
+
 🚨 **THIS IS A LEVEL 9–10 GRIND, NOT A LEVEL 8 ONE — *for a caster*.** ⚠️ **Class-specific:** the numbers
 below were measured on a Pastamancer with ~50 HP. ✅ **Re-measured on a Seal Clubber (L7–8, 128–150 max HP,
 Hide of the Walrus passive): the four sub-zones went 125W / 2L across two days**, ~1 evil per kill, with
