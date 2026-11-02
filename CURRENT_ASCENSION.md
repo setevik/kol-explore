@@ -25,14 +25,14 @@ early combat plan). The Moxie guild is separate from both previous guilds.
 
 ---
 
-## 📊 Character state (end of run #6 Day 6 / 2026-11-01)
+## 📊 Character state (end of run #6 Day 7 / 2026-11-02)
 
-- **LEVEL 7 Disco Bandit**, base Moxie 52, max HP ~42, MP ~34. 💰 Meat 14,141. **5 adventures banked**, full 15 ·
-  drunk 16. Ronin ~467.
-- 🎽 disco mask · broken beer bottle (daily knife) · astral shorts · batskin belt. 1 tiny house, 1 Ferrigno's held.
-- 🗺️ Spookyraven Lady chain ✅ (danced) · **Friars ✅** · **Cyrpt in progress** (Evilometer: Alcove 10, Cranny 14,
-  Niche 50, Nook 50 — both bosses waiting).
-- Skills: trainer bought out through Level 7.
+- **LEVEL 8 Disco Bandit**, base Moxie 60, max HP ~48, MP ~40. 💰 Meat 16,901. **2 adventures banked**, full 15 ·
+  drunk 16. Ronin ~364.
+- 🎽 disco mask · broken beer bottle · astral shorts · batskin belt. Held: eXtreme scarf + snowboarder pants, mining
+  gear, Homeopathic Elixirs. Storage: 13 tiny houses, Ferrigno's.
+- 🗺️ **Cyrpt rooms all clear (Evilometer 999) → Bonerdagon next** · **Trapper: ore + cheese done** → cold gear.
+- Food in storage is thinning: sushi/sweet roll/marrow stacks gone; marrow, sweet roll Alabama, pestopiary left.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -43,15 +43,19 @@ Suckerpunch (shows `(P)`). **Bought:** Disco Eye-Poke · Deft Hands (L1) · Disc
 of Self Preservation (L2) · Disco Nap · Disco State of Mind (L3) · Electric Boogaloo · Frantic Gyrations (L4) · That's Not a Knife · Advanced Cocktailcrafting (L5) · Nimble
 Fingers · Disco Face Stab (L6).
 
-## 🔜 Next-session priorities — run #6, Day 7
+## 🔜 Next-session priorities — run #6, Day 8
 
-1. Pulls: food + 4 bottles + 2 Imp Ale (8 in hand) + sherry, tiny houses, Ferrigno's.
-2. **Cyrpt room bosses** (Alcove ≤13, Cranny 14 — 120 HP, Att ~73): full HP + MP, Ferrigno's, Brother Smothers's
-   Blessing (`friars.php` action=buffs&bro=3), dance combo then attacks. Then Niche (phylactery: 157 `second one`)
-   and Nook (evil eyes).
-3. Bonerdagon is a max-HP check (~46 spooky/round) — likely Level 8–9 with the Muscle-potion set.
+1. Pulls: **eXtreme mittens (399)**, tiny houses, Ferrigno's, food (check what's left), 4 bottles + sherry.
+2. **Bonerdagon** (`crypt.php?action=heart`, choice 527 opt 1): ~46 spooky/round, 120 HP. Ferrigno's + Ben-Gal
+   (general store row 630) + full MP + Smothers's blessing LAST; dance combo then attacks.
+3. **eXtreme Slope** (273) with outfit 7 → three Extremity NCs → `cloudypeak` visit → Groar.
 
 ## 🗓️ Session log (this run)
+
+- **Run #6 Day 7 (2026-11-02): 🪩 Level 8, Cyrpt rooms cleared, Trapper's ore + cheese — ~80 wins, 0 losses.**
+  🍽️ Full 15 (sweet roll Alabama, marrow, pestopiary, small fills). 🍺 4 bottles + 2 Imp Ale = 14, sherry 16.
+  Ferrigno's → Alcove + Cranny bosses one fight each; Niche boss without the phylactery; Nook 31 fights → 999.
+  Goatlet 3 cheese in 5; mine 15 digs for 3 linoleum (cave-in to 0 HP, Galaktik elixirs). Goatlet +17 wins.
 
 - **Run #6 Day 6 (2026-11-01): 🪩 Lady's dance, Friars done, Cyrpt half-cleared — 81 wins, 0 losses.**
   🍽️ Full 15 (6293 + 8412 + 545 + mutton/onigiri/salad/crudités). 🍺 4 bottles + 2 Imp Ale = 14, sherry 16.

@@ -118,6 +118,9 @@ Saucespheres: dead in 2 rounds, no damage taken** (one cast wing-flapped).
 
 ✅ **Disco Bandit, Level 7 (max HP ~40, dance combo + broken beer bottle, Brother Smothers's Blessing): Cranny 50 → 14
 in 22 fights and Alcove 50 → 10 in 16 fights + 3 coffins, 0 losses.** The Alcove drops faster than 1 evil per fight.
+  Next day the **Alcove and Cranny bosses died in one fight each on Ferrigno's (max HP 42 → 117)**; the gargantulihc
+  died at 45 HP without the phylactery, and the Nook went 50 → 0 in 31 fights with evil eyes. The Niche **157**
+  `Check out the second one` is one-time — afterwards it returns a broken-urn page, so switch to `Urn #3`.
 
 🚨 **THIS IS A LEVEL 9–10 GRIND, NOT A LEVEL 8 ONE — *for a caster*.** ⚠️ **Class-specific:** the numbers
 below were measured on a Pastamancer with ~50 HP. ✅ **Re-measured on a Seal Clubber (L7–8, 128–150 max HP,

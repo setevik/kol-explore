@@ -47,6 +47,9 @@ eXtreme power · 1 loadstone. ⇒ **Budget ~8–12 digs per specific ore type** 
 up to mine right now"* — no adventure is spent, so a dig loop "digs" forever for nothing. The Mining Gear outfit
 also lowers max HP (it replaces hat, weapon and pants; the two-handed mattock empties the off-hand).
 ✅ **Heal before each dig and check that the adventure count moved.**
+💊 **Meat-only healing for a class with no heal skill:** Doc Galaktik's shop (`shop.php?whichshop=doc`, POST
+`action=buyitem&whichrow=696`) sells the **Homeopathic Elixir (234), +18 HP for 120 Meat**. One cave-in emptied a
+41-HP Level 8 character, so heal to ~75% before every dig. ✅ 3 linoleum in 15 digs.
 ⭐ **Check Hagnk's for the ore first** — in Ronin you can pull only **1 per day**, so pull one and mine the rest.
 - Turn both in at the cabin → he starts fixing the ski lift and says get warm clothes.
 
