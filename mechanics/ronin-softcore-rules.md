@@ -90,3 +90,6 @@ also caches briefly after a buy, so use a varying `for=` param.
 **Mall buy mechanics** (`mallstore.php`): the item radio is `input[name="whichitem"]` with value
 `"<itemid>.<price>"` (e.g. `316.300`). ⚠️ Match it via **DOM** (`[...d.querySelectorAll('input[name="whichitem"]')]
 .find(i => i.value.startsWith(id + '.'))`) — a regex like `name="whichitem" value="…"` fails on attribute order.
+
+⚠️ **sheet cake** is **15 fullness for 25 adventures** (1.7 per fullness) — it fills the whole stomach; eat only if
+nothing better is in storage. *pie man was not meant to eat* is larger than 15 fullness.

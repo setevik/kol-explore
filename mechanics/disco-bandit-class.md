@@ -33,6 +33,9 @@
 | 5 | Advanced Cocktailcrafting | 5014 | 14 | 1,250 |
 | 6 | Nimble Fingers | 5004 | 4 | 1,750 — passive |
 | 6 | Disco Face Stab | 5012 | 12 | 1,750 |
+| 7 | Tricky Knifework | — | 29 | 2,500 |
+| 7 | Flashy Dancer | — | 30 | 2,500 |
+| 8–9 | Mad Looting Skillz · Disco Smirk · Disco Greed · Knife in the Dark | — | 6 · 31 · 32 · 33 | ~14,000 for the four |
 
 Later rows by level (trainer page): 4 Disco Dance II: Electric Boogaloo · Frantic Gyrations — 5 That's Not a Knife ·
 Advanced Cocktailcrafting — 6 Nimble Fingers · Disco Face Stab — 7 Tricky Knifework · Flashy Dancer — 8 Mad Looting
@@ -70,3 +73,11 @@ opened the Boss Bat's lair in **13 fights**, the Boss Bat fell in the next **7**
 - ✅ Kitchen → billiards (pool cue) → Library necklace → Bathroom puff → Bedroom gown → Gallery shoes in one day,
   0 losses apart from the Suckerpunch loops. Tiny houses (heal + clear Beaten Up) carried the HP.
 - **Level 7 trainer:** Tricky Knifework and Flashy Dancer, 2,500 Meat each.
+
+## 🦴 Bosses at Levels 8–9
+- ✅ **Bonerdagon at Level 8 in 4 rounds**: Ferrigno's + Ben-Gal Balm (max HP 48 → 145), Smothers's Blessing, dance
+  combo then the daily knife (86 per swing). ⚠️ Raising max HP does not heal — heal *after* the potions (entered at
+  50/145 and still won).
+- ❌ **Groar at Level 8 without HP potions** (max HP ~53): lost in 4 rounds, ~23–35 cold per round. The yetis die in
+  3 rounds each. Go back with the HP potions and in-fight healing.
+- 🩹 **Disco Nap (5007) is the class's heal** — use it before buying elixirs.
