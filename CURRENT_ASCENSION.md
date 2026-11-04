@@ -25,14 +25,13 @@ early combat plan). The Moxie guild is separate from both previous guilds.
 
 ---
 
-## 📊 Character state (end of run #6 Day 8 / 2026-11-03)
+## 📊 Character state (end of run #6 Day 9 / 2026-11-04)
 
-- **LEVEL 9 Disco Bandit**, base Moxie 69, max HP ~56, MP ~53. 💰 Meat 2,726 (guild skills). **2 adventures
-  banked**, full 15 · drunk 16. Ronin ~280.
-- 🎽 eXtreme Cold-Weather Gear on (outfit 7) · daily knife (sharpened spoon today). Mining gear held.
-- 🗺️ **Cyrpt ✅ (Bonerdagon dead)** · Trapper: yetis cleared, **Groar next** (re-enter at Groar) · Level 9 quest
-  (Black Angus / Highlands) given.
-- Skills: trainer bought out through Level 9.
+- **LEVEL 9 Disco Bandit**, base Moxie 76, max HP ~61, MP ~53. 💰 Meat 3,769. **0 adventures banked**, full 15 ·
+  drunk 16. Ronin ~181.
+- 🎽 disco mask · broken beer bottle (daily knife) · loadstone · astral shorts. fuzzy busby held (Muscle-gated).
+- 🗺️ **Trapper ✅ (Groar dead)** · **Orc Chasm bridge ✅** · Highlands: landlord met, **Oil Peak ~21/49 slicks**;
+  A-boo and Twin Peak untouched.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -43,15 +42,19 @@ Suckerpunch (shows `(P)`). **Bought:** Disco Eye-Poke · Deft Hands (L1) · Disc
 of Self Preservation (L2) · Disco Nap · Disco State of Mind (L3) · Electric Boogaloo · Frantic Gyrations (L4) · That's Not a Knife · Advanced Cocktailcrafting (L5) · Nimble
 Fingers · Disco Face Stab (L6).
 
-## 🔜 Next-session priorities — run #6, Day 9
+## 🔜 Next-session priorities — run #6, Day 10
 
-1. Meat is low (2.7k): sell the Bonerdagon skull / mine gems / dense stacks if needed. Pulls: tiny houses,
-   Ferrigno's, food (check storage), 4 bottles + 2 Imp Ale (2 left) + sherry.
-2. **Groar**: outfit 7, Ferrigno's + Ben-Gal, **heal after**, full MP, Disco Nap / elixirs in-fight; dance combo then
-   knife. Fur → Trapper.
-3. Level 9 quest: Orc Chasm bridge → Highlands (see mechanics notes).
+1. Meat 3.7k: Doc's MP tonics cost 90 for 9 MP — prefer tiny houses (13 in storage, 1 pull/day) and Disco Nap.
+   Food in storage is nearly out; check what's left and buy cheap food if needed.
+2. **Oil Peak** to lit (~28 more slicks), then A-boo Peak / Twin Peak (see orc-chasm-and-highlands.md).
+3. 🚨 After the overdrink, STOP — adventuring while overdrunk wastes turns.
 
 ## 🗓️ Session log (this run)
+
+- **Run #6 Day 9 (2026-11-04): 🪩 Groar dead, Orc Chasm bridged, Oil Peak started — 115 wins, 0 losses.**
+  🍽️ sweet roll, marrow, pestopiary, tuna, honey ant, baguette, Knob nuts = 15. 🍺 4 bottles + 2 Imp Ale = 14,
+  sherry 16 (then 5 turns wasted adventuring overdrunk — mistake). Groar 6 rounds on Ferrigno's + Ben-Gal.
+  5 dense meat stacks +6,000. Bridge 72 fights; Oil Peak 21.
 
 - **Run #6 Day 8 (2026-11-03): 🪩 Bonerdagon dead, Level 9 — ~70 wins, 3 losses.**
   🍽️ sheet cake 15 (25 adv — poor). 🍺 4 bottles + 2 Imp Ale = 14, sherry 16.

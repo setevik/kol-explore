@@ -78,6 +78,9 @@ opened the Boss Bat's lair in **13 fights**, the Boss Bat fell in the next **7**
 - ✅ **Bonerdagon at Level 8 in 4 rounds**: Ferrigno's + Ben-Gal Balm (max HP 48 → 145), Smothers's Blessing, dance
   combo then the daily knife (86 per swing). ⚠️ Raising max HP does not heal — heal *after* the potions (entered at
   50/145 and still won).
+- ✅ **Groar at Level 9 in 6 rounds**: outfit 7, Ferrigno's + Ben-Gal (max HP 164), healed to full with Disco Nap
+  (8 MP, +20 HP) and Homeopathic Elixirs, Smothers's Blessing, dance combo then knife; ~20–28 cold per round.
+  Restore MP (tiny house) *before* the HP potions — Disco Nap needs the MP.
 - ❌ **Groar at Level 8 without HP potions** (max HP ~53): lost in 4 rounds, ~23–35 cold per round. The yetis die in
   3 rounds each. Go back with the HP potions and in-fight healing.
 - 🩹 **Disco Nap (5007) is the class's heal** — use it before buying elixirs.

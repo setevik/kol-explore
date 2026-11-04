@@ -60,6 +60,8 @@ non-pervert orcs with **cold** damage 15 points' worth opens the *Blech House* n
 
 ✅ Sauceror, Level 9 (Saucestorm, loadstone in the off-hand): **44 fights, 0 losses → bridge 0 → 26/30** (one
 carried-in keepsake box included).
+✅ Disco Bandit, Level 9 (dance combo + daily knife, loadstone off-hand, no keepsake boxes): **72 fights, 0 losses
+→ bridge built**.
 **Combat note:** smut orcs are ML 69, 69 HP, **no elemental alignment** — a plain Cannelloni grind handles them.
 Measured: **40 fights, 0 losses** at base Mys ~236.
 
@@ -81,6 +83,7 @@ Three peaks, any order. **A lit peak is visible on the map as an alt-text change
 ### ⭐ Oil Peak — do this one FIRST, whatever your class (verified twice, ~50 turns)
 
 - Monsters: **oil slick** at +0–19 ML, **no elemental alignment, no damage resistance.** Ordinary DPS works.
+- ✅ Disco Bandit, Level 9: 21 fights, 0 losses; one *Pushin' Down on Me* noncombat on the way.
 - Each oil slick removes **6.34 µB/Hg**; 310.66 total ⇒ **49 slicks**. ✅ Measured: **50 fights, 0 losses**, peak lit.
 - Every kill drops **bubblin' crude** — a full clear banks about **50**, which is the currency for the
   cross-peak synergy items below. Don't sell it.
