@@ -162,6 +162,10 @@ The wall comes down the moment you carry **elemental damage that isn't spooky**.
 - Ghosts have only 40 HP and **0 initiative**, so you always strike first. This is one of the safest zones in the
   game once the lamp is on — and it costs no MP at all, which makes it ideal for the tail of a day.
 
+✅ **Disco Bandit, Level 9, oil lamp + plain attacks: A-boo lit in 44 turns (27 ghost wins, 0 losses), clues used as
+they dropped.** 🐛 *The Horror…* (611) is one choice number for every round, so a loop that stops on "same choice
+twice" must exempt 611; each round's labels change (*Talk to the Ghosts* → *Try to Talk Some Sense in…*).
+
 #### ⭐ *The Horror…* is worth ~4× a ghost — spend clues, but stop before the peak is done
 
 Using an **A-Boo clue** (`inv_use.php?which=3&whichitem=5964&pwd=<hash>`) makes your **next** A-boo adventure
@@ -224,8 +228,12 @@ gated on stats/buffs and can be done in any order; the fourth only appears once 
    booze bonuses do NOT**). ⚠️ Buffy's Fat Leon's is only +20%, so this needs real stacking.
 3. **Follow the faint sound of music** — needs a **jar of oil**, made from **12 bubblin' crude** (free if you did
    Oil Peak first).
+   ✅ Path: lodge **606** `Follow the faint sound of music` → **609** `Examine the painting` → **616** `Mingle` —
+   the jar is consumed there. The lodge's first visit is **604** (`Continue...` → `Everything goes black.`).
 4. **"Wait — who's that?"** — needs **≥+40% combat initiative**.
 
+⚠️ **Twin Peak monsters are much tougher than the other peaks** — a Level 9 Disco Bandit (base Moxie 81) lost 3 of
+5 fights to the Bubblemint Twins. The oil slacks also cost Moxie when they replace better pants.
 🎯 **Fallback that needs no gear at all: after 50 adventures spent in Twin Peak without solving it, the
 `Cabin Fever` noncombat appears and lets you burn the lodge down and light the beacon.** That makes Twin Peak a
 guaranteed ~50-turn completion for an under-geared character — but see the warning below about *how* those 50

@@ -25,13 +25,13 @@ early combat plan). The Moxie guild is separate from both previous guilds.
 
 ---
 
-## 📊 Character state (end of run #6 Day 9 / 2026-11-04)
+## 📊 Character state (end of run #6 Day 10 / 2026-11-05)
 
-- **LEVEL 9 Disco Bandit**, base Moxie 76, max HP ~61, MP ~53. 💰 Meat 3,769. **0 adventures banked**, full 15 ·
-  drunk 16. Ronin ~181.
-- 🎽 disco mask · broken beer bottle (daily knife) · loadstone · astral shorts. fuzzy busby held (Muscle-gated).
-- 🗺️ **Trapper ✅ (Groar dead)** · **Orc Chasm bridge ✅** · Highlands: landlord met, **Oil Peak ~21/49 slicks**;
-  A-boo and Twin Peak untouched.
+- **LEVEL 9 Disco Bandit**, base Moxie 81, max HP ~64, MP ~56. 💰 Meat 4,028. **10 adventures banked**, full 15 ·
+  drunk 16. **Ronin ~91 — out of Ronin in ~1 day.**
+- 🎽 disco mask · broken beer bottle · **oil lamp** · astral shorts. Held: oil slacks, loadstone, 18 crude.
+- 🗺️ **Oil Peak ✅ · A-boo Peak ✅** · Twin Peak: jar-of-oil step done; still need stench res 4, +50% item,
+  +40% init (or 50-turn fallback; ~10 turns spent).
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -42,14 +42,19 @@ Suckerpunch (shows `(P)`). **Bought:** Disco Eye-Poke · Deft Hands (L1) · Disc
 of Self Preservation (L2) · Disco Nap · Disco State of Mind (L3) · Electric Boogaloo · Frantic Gyrations (L4) · That's Not a Knife · Advanced Cocktailcrafting (L5) · Nimble
 Fingers · Disco Face Stab (L6).
 
-## 🔜 Next-session priorities — run #6, Day 10
+## 🔜 Next-session priorities — run #6, Day 11
 
-1. Meat 3.7k: Doc's MP tonics cost 90 for 9 MP — prefer tiny houses (13 in storage, 1 pull/day) and Disco Nap.
-   Food in storage is nearly out; check what's left and buy cheap food if needed.
-2. **Oil Peak** to lit (~28 more slicks), then A-boo Peak / Twin Peak (see orc-chasm-and-highlands.md).
-3. 🚨 After the overdrink, STOP — adventuring while overdrunk wastes turns.
+1. Leave Ronin (~91 turns) → pull all of storage in batches, autosell surplus — fixes meat and food.
+2. **Twin Peak**: Buffy Fat Leon's (+20% item) + item potions for the pantry; stench-res and init (+oil slacks
+   20%) for the other two; otherwise level first — the twins beat a Level 9 Moxie 81.
+3. Then the Highland Lord → Level 10 (Beanstalk).
 
 ## 🗓️ Session log (this run)
+
+- **Run #6 Day 10 (2026-11-05): 🪩 Oil Peak and A-boo Peak lit — 61 wins, 3 losses.**
+  🍽️ sweet roll, marrow, pestopiary, baguette, aspic, honey ant, tuna = 15. 🍺 4 bottles + 2 Willer = 14, sherry 16.
+  Oil Peak 28 more → lit; crude → lamp, jar, slacks. A-boo 44 turns with clues → lit. Twin Peak: jar step done,
+  then lost 3 to the Bubblemint Twins — stopped.
 
 - **Run #6 Day 9 (2026-11-04): 🪩 Groar dead, Orc Chasm bridged, Oil Peak started — 115 wins, 0 losses.**
   🍽️ sweet roll, marrow, pestopiary, tuna, honey ant, baguette, Knob nuts = 15. 🍺 4 bottles + 2 Imp Ale = 14,
