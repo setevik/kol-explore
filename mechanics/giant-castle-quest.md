@@ -43,6 +43,13 @@ down as the heal, a Level 10 went **66–0** here in a day.
 against a Level 10 at buffed Muscle ~126. Don't grind it — **the amulet route needs only one room noncombat**
 (671 → vent → 670 → mirror), and it came on the first basement turn of a fresh day.
 
+## ✈️ The Airship as a Moxie class (Disco Bandit, Level 10, max HP ~67)
+
+✅ **S.O.C.K. in 30 Airship turns, 21 W / 0 L** (dance combo + knife). The **beanstalk is planted at
+`place.php?whichplace=plains&action=garbage_grounds`** (the coffee grounds; the other `garbage_*` actions are
+flavour). ❌ The Basement went **1 W / 2 L** on the first three turns (Neckbeard Giant) at max HP ~62 — bring HP
+potions before trying the amulet/umbrella room route.
+
 ## ✈️ The Airship and castle as a caster (Sauceror, Level 10, max HP ~70)
 
 ✅ **S.O.C.K. in ~25 Airship turns, 20 W / 0 L** with Saucestorm. **The castle giants are the problem, not the

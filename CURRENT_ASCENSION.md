@@ -25,13 +25,14 @@ early combat plan). The Moxie guild is separate from both previous guilds.
 
 ---
 
-## 📊 Character state (end of run #6 Day 10 / 2026-11-05)
+## 📊 Character state (end of run #6 Day 11 / 2026-11-06)
 
-- **LEVEL 9 Disco Bandit**, base Moxie 81, max HP ~64, MP ~56. 💰 Meat 4,028. **10 adventures banked**, full 15 ·
-  drunk 16. **Ronin ~91 — out of Ronin in ~1 day.**
-- 🎽 disco mask · broken beer bottle · **oil lamp** · astral shorts. Held: oil slacks, loadstone, 18 crude.
-- 🗺️ **Oil Peak ✅ · A-boo Peak ✅** · Twin Peak: jar-of-oil step done; still need stench res 4, +50% item,
-  +40% init (or 50-turn fallback; ~10 turns spent).
+- **LEVEL 10 Disco Bandit**, base Moxie 89, max HP ~66, MP ~89. 💰 **Meat 90,594** (storage sold). **2 adventures
+  banked**, full 15 · drunk 16. **Out of Ronin — storage fully pulled (625 stacks).**
+- 🎽 disco mask · broken beer bottle · oil lamp · astral shorts · amulet of extreme plot significance. Held:
+  titanium assault umbrella, Mohawk wig, 12 tiny houses, 37 phonics down, Ferrigno's/Ben-Gal etc.
+- 🗺️ **Highlands ✅ (all three fires)** · Level 10: **beanstalk planted, S.O.C.K. ✅** → Castle Basement next.
+- Skills: trainer bought out through Level 10.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -42,14 +43,19 @@ Suckerpunch (shows `(P)`). **Bought:** Disco Eye-Poke · Deft Hands (L1) · Disc
 of Self Preservation (L2) · Disco Nap · Disco State of Mind (L3) · Electric Boogaloo · Frantic Gyrations (L4) · That's Not a Knife · Advanced Cocktailcrafting (L5) · Nimble
 Fingers · Disco Face Stab (L6).
 
-## 🔜 Next-session priorities — run #6, Day 11
+## 🔜 Next-session priorities — run #6, Day 12
 
-1. Leave Ronin (~91 turns) → pull all of storage in batches, autosell surplus — fixes meat and food.
-2. **Twin Peak**: Buffy Fat Leon's (+20% item) + item potions for the pantry; stench-res and init (+oil slacks
-   20%) for the other two; otherwise level first — the twins beat a Level 9 Moxie 81.
-3. Then the Highland Lord → Level 10 (Beanstalk).
+1. Food/booze from the whole inventory now (rank by adventures per fullness/drunk; see food/drinks notes).
+2. **Castle Basement (322)** with HP potions up (mall Muscle set; re-buy when *Incredibly Hulking* lapses), amulet
+   + umbrella worn: 671 vent → 670 mirror / 669 duct. Then Ground Floor (~11 turns), Top Floor with the Mohawk wig.
+3. Then Level 11 (MacGuffin).
 
 ## 🗓️ Session log (this run)
+
+- **Run #6 Day 11 (2026-11-06): 🪩 Twin Peak burnt, Level 10, out of Ronin, S.O.C.K. — 82 wins, 3 losses.**
+  🍽️ sweet roll, marrow, pestopiary, baguette, aspic, honey ant, Knob nuts = 15. 🍺 4 bottles + 2 Willer = 14,
+  sherry 16. Twin Peak 50-turn fallback → Cabin Fever → all fires lit. Bean in 6 Beanbat fights → planted;
+  Airship 30 turns → S.O.C.K. Basement 1–2, backed off. Storage pulled, +88,077 sold. L10 skills 10,000.
 
 - **Run #6 Day 10 (2026-11-05): 🪩 Oil Peak and A-boo Peak lit — 61 wins, 3 losses.**
   🍽️ sweet roll, marrow, pestopiary, baguette, aspic, honey ant, tuna = 15. 🍺 4 bottles + 2 Willer = 14, sherry 16.

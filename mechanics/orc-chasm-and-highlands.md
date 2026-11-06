@@ -232,6 +232,9 @@ gated on stats/buffs and can be done in any order; the fourth only appears once 
    the jar is consumed there. The lodge's first visit is **604** (`Continue...` → `Everything goes black.`).
 4. **"Wait — who's that?"** — needs **≥+40% combat initiative**.
 
+✅ **The 50-turn fallback, measured (Disco Bandit, Level 9–10): ~46 Twin Peak turns after the jar step → choice
+618 *Cabin Fever* → `Burn this … hotel to the ground` lit the peak.** 40 W / 0 L at full HP and normal pants; 606
+`Leave the hotel` on each lodge visit.
 ⚠️ **Twin Peak monsters are much tougher than the other peaks** — a Level 9 Disco Bandit (base Moxie 81) lost 3 of
 5 fights to the Bubblemint Twins. The oil slacks also cost Moxie when they replace better pants.
 🎯 **Fallback that needs no gear at all: after 50 adventures spent in Twin Peak without solving it, the

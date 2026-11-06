@@ -36,6 +36,7 @@
 | 7 | Tricky Knifework | — | 29 | 2,500 |
 | 7 | Flashy Dancer | — | 30 | 2,500 |
 | 8–9 | Mad Looting Skillz · Disco Smirk · Disco Greed · Knife in the Dark | — | 6 · 31 · 32 · 33 | ~14,000 for the four |
+| 10 | Disco Shank · Disco Bravado | — | 35 · 34 | 5,000 each |
 
 Later rows by level (trainer page): 4 Disco Dance II: Electric Boogaloo · Frantic Gyrations — 5 That's Not a Knife ·
 Advanced Cocktailcrafting — 6 Nimble Fingers · Disco Face Stab — 7 Tricky Knifework · Flashy Dancer — 8 Mad Looting
