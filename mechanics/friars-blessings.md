@@ -47,6 +47,9 @@ After the ritual, Pandamonium opens. Collect 3 talismans, turn them in at Azazel
 Zones via `pandamonium.php?action=` **temp**(Azazel) / **infe**(Hey Deze alley) / **beli**(Belilafs alley) /
 **moan**(Moaning Panda) / **sven**(Sven Golly) / **mourn**(Mourn). All three sub-quests:
 
+✅ **Disco Bandit, Level 10 (base Moxie 93): Laugh Floor 13 fights (5 imp air + glasses), Backstage 22 turns (5
+passes + all four band items), 0 losses.** 🐛 **`action=moan` takes two visits** — the first only introduces the
+stranger; the second hands over the tutu.
 1. **Azazel's tutu** — farm **5 imp air (4698)** on **The Laugh Floor (242, needs base Mys 60)** + **5 bus passes
    (4699)** on **Infernal Rackets Backstage (243, base Mys 55)**, then visit **`action=moan`** (auto-turn-in).
 2. **Azazel's unicorn** — the **Sven Golly logic puzzle** (`action=sven` → click **Help** = `preaction=help`).

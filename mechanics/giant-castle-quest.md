@@ -50,6 +50,10 @@ against a Level 10 at buffed Muscle ~126. Don't grind it — **the amulet route 
 flavour). ❌ The Basement went **1 W / 2 L** on the first three turns (Neckbeard Giant) at max HP ~62 — bring HP
 potions before trying the amulet/umbrella room route.
 
+✅ **Next day, same Disco Bandit with the mall Muscle set (max HP ~300), amulet + umbrella worn: Basement 669
+`Crawl Through the Heating Duct` on turn 8 (7 W / 0 L) → Ground Floor 10 W → Top Floor 676 → 678 → 679 with the
+Mohawk wig on turn 7. Whole castle 25 turns, 0 losses.** Once the potions lapse the Top Floor giants win (2 losses).
+
 ## ✈️ The Airship and castle as a caster (Sauceror, Level 10, max HP ~70)
 
 ✅ **S.O.C.K. in ~25 Airship turns, 20 W / 0 L** with Saucestorm. **The castle giants are the problem, not the

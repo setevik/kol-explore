@@ -25,14 +25,14 @@ early combat plan). The Moxie guild is separate from both previous guilds.
 
 ---
 
-## 📊 Character state (end of run #6 Day 11 / 2026-11-06)
+## 📊 Character state (end of run #6 Day 12 / 2026-11-09)
 
-- **LEVEL 10 Disco Bandit**, base Moxie 89, max HP ~66, MP ~89. 💰 **Meat 90,594** (storage sold). **2 adventures
-  banked**, full 15 · drunk 16. **Out of Ronin — storage fully pulled (625 stacks).**
-- 🎽 disco mask · broken beer bottle · oil lamp · astral shorts · amulet of extreme plot significance. Held:
-  titanium assault umbrella, Mohawk wig, 12 tiny houses, 37 phonics down, Ferrigno's/Ben-Gal etc.
-- 🗺️ **Highlands ✅ (all three fires)** · Level 10: **beanstalk planted, S.O.C.K. ✅** → Castle Basement next.
-- Skills: trainer bought out through Level 10.
+- **LEVEL 11 Disco Bandit**, base Moxie 107, max HP ~76, MP ~104. 💰 Meat 80,049. **15 adventures banked**, full 15
+  · drunk 24 (**Liver of Steel: cap 19**).
+- 🎽 disco mask · broken beer bottle · oil lamp · astral shorts · eXtreme mittens. Held: Desert Bus pass, tiny
+  houses, Muscle potions, phonics down.
+- 🗺️ **Level 10 castle ✅ · Azazel ✅ (Liver of Steel)** · **Level 11 MacGuffin quest given.**
+- Skills: trainer bought out through Level 11.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -43,14 +43,19 @@ Suckerpunch (shows `(P)`). **Bought:** Disco Eye-Poke · Deft Hands (L1) · Disc
 of Self Preservation (L2) · Disco Nap · Disco State of Mind (L3) · Electric Boogaloo · Frantic Gyrations (L4) · That's Not a Knife · Advanced Cocktailcrafting (L5) · Nimble
 Fingers · Disco Face Stab (L6).
 
-## 🔜 Next-session priorities — run #6, Day 12
+## 🔜 Next-session priorities — run #6, Day 13
 
-1. Food/booze from the whole inventory now (rank by adventures per fullness/drunk; see food/drinks notes).
-2. **Castle Basement (322)** with HP potions up (mall Muscle set; re-buy when *Incredibly Hulking* lapses), amulet
-   + umbrella worn: 671 vent → 670 mirror / 669 duct. Then Ground Floor (~11 turns), Top Floor with the Mohawk wig.
-3. Then Level 11 (MacGuffin).
+1. EAT: milk of magnesium + 3 herbal stuffing (mall ~274) + 1-fullness snacks. DRINK to **19**: Meade ×3 (5) + 4,
+   overdrink one more Meade last.
+2. **MacGuffin:** Desert Bus pass (held) → Shore vacation → Black Forest (405) to the Black Market (Muscle potions
+   + full MP; map check every 10 fights) → forged ID → Shore → diary.
 
 ## 🗓️ Session log (this run)
+
+- **Run #6 Day 12 (2026-11-09): 🪩 Castle done, Liver of Steel, Level 11 — ~150 wins, 3 losses.**
+  🍽️ milk + 3 herbal stuffing (58) + 2 honey ant + later tots = 15 (68 adv). 🍺 steel margarita 5 → 2 Meade + rum +
+  Willer = 19, Meade overdrink 24. Castle 25 turns with the Muscle set. Laugh Floor + Backstage → Azazel.
+  Top Floor grind lost twice once potions lapsed → Airship 114 W / 1 L to Level 11. L11 skills 12,500.
 
 - **Run #6 Day 11 (2026-11-06): 🪩 Twin Peak burnt, Level 10, out of Ronin, S.O.C.K. — 82 wins, 3 losses.**
   🍽️ sweet roll, marrow, pestopiary, baguette, aspic, honey ant, Knob nuts = 15. 🍺 4 bottles + 2 Willer = 14,
