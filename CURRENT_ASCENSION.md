@@ -25,14 +25,13 @@ early combat plan). The Moxie guild is separate from both previous guilds.
 
 ---
 
-## 📊 Character state (end of run #6 Day 12 / 2026-11-09)
+## 📊 Character state (end of run #6 Day 13 / 2026-11-10)
 
-- **LEVEL 11 Disco Bandit**, base Moxie 107, max HP ~76, MP ~104. 💰 Meat 80,049. **15 adventures banked**, full 15
-  · drunk 24 (**Liver of Steel: cap 19**).
-- 🎽 disco mask · broken beer bottle · oil lamp · astral shorts · eXtreme mittens. Held: Desert Bus pass, tiny
-  houses, Muscle potions, phonics down.
-- 🗺️ **Level 10 castle ✅ · Azazel ✅ (Liver of Steel)** · **Level 11 MacGuffin quest given.**
-- Skills: trainer bought out through Level 11.
+- **LEVEL 11 Disco Bandit**, base Moxie 124, max HP ~90 (≈260 on the Muscle set), MP ~110. 💰 Meat 30,541.
+  **15 adventures banked**, full 15 · drunk 24 (cap 19).
+- 🎽 disco mask · broken beer bottle · **unstable fulminate (off-hand, heating)** · astral shorts · spectacles.
+- 🗺️ MacGuffin: **diary read · Hidden City ✅ (ancient amulet)** · Spookyraven cellar: soda + vinegar →
+  fulminate equipped, **Boiler Room 13 wins, no wine bomb yet** · Palindome and Desert not started.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -43,14 +42,19 @@ Suckerpunch (shows `(P)`). **Bought:** Disco Eye-Poke · Deft Hands (L1) · Disc
 of Self Preservation (L2) · Disco Nap · Disco State of Mind (L3) · Electric Boogaloo · Frantic Gyrations (L4) · That's Not a Knife · Advanced Cocktailcrafting (L5) · Nimble
 Fingers · Disco Face Stab (L6).
 
-## 🔜 Next-session priorities — run #6, Day 13
+## 🔜 Next-session priorities — run #6, Day 14
 
-1. EAT: milk of magnesium + 3 herbal stuffing (mall ~274) + 1-fullness snacks. DRINK to **19**: Meade ×3 (5) + 4,
-   overdrink one more Meade last.
-2. **MacGuffin:** Desert Bus pass (held) → Shore vacation → Black Forest (405) to the Black Market (Muscle potions
-   + full MP; map check every 10 fights) → forged ID → Shore → diary.
+1. EAT: milk + 3 herbal stuffing + 3 one-fullness snacks (buy honey ants/aspic). DRINK: 3 Meade + 4 to 19, Meade last.
+2. **Boiler Room (399)** with the fulminate until the wine bomb drops → `manor4_chamberwall` → Lord Spookyraven.
+3. Then Palindome (palindome-quest.md) and the Desert (Desert Beach open via the bus pass).
+4. Watch meat: the Muscle set costs ~5k a refill.
 
 ## 🗓️ Session log (this run)
+
+- **Run #6 Day 13 (2026-11-10): 🪩 diary read, Hidden City done in a day, cellar opened — ~180 wins, 0 losses.**
+  🍽️ milk + 3 herbal stuffing (59) + 3 later tots = 15. 🍺 3 Meade + rum + Willer = 19, Meade 24.
+  Black Forest 39 W → market → forged ID → diary. Temple 4 turns, shrines 4, Hospital 13, Bowling 5, Apartment 16,
+  Office 30, Spectre 1 fire. Ballroom 921 → cellar; soda (30), vinegar (8), fulminate cooked, boilers 13.
 
 - **Run #6 Day 12 (2026-11-09): 🪩 Castle done, Liver of Steel, Level 11 — ~150 wins, 3 losses.**
   🍽️ milk + 3 herbal stuffing (58) + 2 honey ant + later tots = 15 (68 adv). 🍺 steel margarita 5 → 2 Meade + rum +

@@ -305,6 +305,8 @@ Check manor3 for `snarfblat=` links before planning around the six-ingredient re
    **Laundry Room (400)**. ✅ Measured: the **4th cabinet** (9 fights). Cellar monsters are ML 134–164 with
    Defense 129–148 — ✅ a Level 12 Muscle class (Muscle ~189, dual-wield, Lunging Thrust-Smack) won all 52 fights
    in one round.
+   ✅ Disco Bandit, Level 11, no +item: soda after **30 Laundry fights**, vinegar after **8 Wine Cellar fights**.
+   Lights Out here: Laundry **891** `Feel Your Way to the Door`.
 4. ✅ **Cook them:** `craft.php?mode=cook&action=craft&a=7491&b=7492&qty=1` → *unstable fulminate* (7493, off-hand).
    🚨 **It needs an oven:** without one the craft answers *"You need a more advanced cooking appliance…"*. Buy the
    **Dramatic™ range** (General Store row 643, 1,000 meat) and `inv_use` it once — it installs permanently.

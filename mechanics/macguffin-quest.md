@@ -66,6 +66,16 @@ Cannelloni Cocoon between fights — 0 losses all day:**
 on refused item uses. Elemental spells kill the spirits just as well.
 ⚠️ 925's static `A helmet, please.` rule took **five black helmets** (the same trap as the greaves note below).
 
+## 🪩 A Moxie class with borrowed HP: opening chain + Hidden City in ONE day (Disco Bandit, Level 11)
+
+✅ Mall Muscle set re-bought as it lapsed (max HP ~250), dance combo + daily knife, **0 losses all day**:
+Black Forest → market **39 wins** (all 923 → blackberry → 924 `Attack the bushes`; the market still appeared) ·
+temple **2 stone wool, 4 turns** · BANANAS · shrines **4 turns** (machete) · Hospital **13 turns** (dungarees) ·
+Bowling **5 turns** (5 balls) · Apartment **16 turns** (shamans cursed to Thrice-Cursed without Cursed Punch) ·
+Office **30 turns** · Spectre **1 fire**.
+🐛 **Office 786 rule: key `Raid the supply cabinet` on "no binder clip held", not on "no pages yet"** — pages
+drop before the first 786, so a page-count rule never takes the clip and the file never assembles.
+
 ## 🛡️ The Black Forest blacksmith hands out a free, excellent armour set
 
 `All Over the Map` (**923**) → **`Visit the blacksmith's cottage`** → **925** *The Blackest Smith*:
