@@ -266,6 +266,9 @@ waits on the Spookyraven and Palindome pieces.
 
 ✅ **Sauceror, Level 12: 0 → 100% in ~65 turns, 0 losses** — the paint (Black Market) and a **killing jar already in
 storage** went to Gnasir at 22% and their two pamphlets gave +30%. The Oasis was needed only every ~10 turns.
+🐛 **Gnasir's 805 menu stays open after a hand-in** — a loop must answer it (give every errand item it lists, then
+`"No, that's all."`) or every later Oasis/desert visit re-serves 805 for free. ✅ Disco Bandit, Level 12: 0 → 62% in
+~50 turns (paint pamphlet +15%), 0 losses.
 - **The Arid, Extra-Dry Desert = snarf 364** (Desert Beach). ML 134–142, rec stat 120.
   The place page shows **`alt='(N% explored)'`** — parse that, not the visible text (the zone label is
   rendered as zonefont images, so a plain-text regex returns nothing).

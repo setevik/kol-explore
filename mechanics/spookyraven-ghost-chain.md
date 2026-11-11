@@ -312,6 +312,7 @@ Check manor3 for `snarfblat=` links before planning around the six-ingredient re
    **Dramatic™ range** (General Store row 643, 1,000 meat) and `inv_use` it once — it installs permanently.
    ✅ Sauceror, Level 11: soda + vinegar in **9 cellar fights total**, 5 boilers in 24 Boiler Room fights, and **Lord
    Spookyraven died to one Saucegeyser**.
+   ✅ Disco Bandit: wine bomb after **17 boiler wins** (two days); Lord Spookyraven died in 4 rounds (dance combo).
 5. Equip it and fight **monstrous boilers** in the **Boiler Room (399)**; at **51 degrees** it becomes a **wine
    bomb** (7494) and drops out of the off-hand into inventory.
    🚨 **The wiki's `10 + ML/2` means +10 plus half your BONUS Monster Level — not the boiler's own ML 134.**

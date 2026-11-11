@@ -38,6 +38,7 @@
 | 8–9 | Mad Looting Skillz · Disco Smirk · Disco Greed · Knife in the Dark | — | 6 · 31 · 32 · 33 | ~14,000 for the four |
 | 10 | Disco Shank · Disco Bravado | — | 35 · 34 | 5,000 each |
 | 11 | Disco Dance 3: Back in the Habit · Adventurer of Leisure | — | 36 · 11 | 6,250 each |
+| 12 | Ambidextrous Funkslinging · Disco Inferno | — | 15 · 37 | 7,500 each |
 
 Later rows by level (trainer page): 4 Disco Dance II: Electric Boogaloo · Frantic Gyrations — 5 That's Not a Knife ·
 Advanced Cocktailcrafting — 6 Nimble Fingers · Disco Face Stab — 7 Tricky Knifework · Flashy Dancer — 8 Mad Looting

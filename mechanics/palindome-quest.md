@@ -135,6 +135,12 @@ Dr. Awkward's "ineptitude field" means you cannot fight him yet; he clubs you do
 ⚠️ **Heal before step 5** — 872 leaves you at 0 HP and a tiny house only clears Beaten Up; a Turtle Tamer walked
    into Dr. Awkward at 22 HP and survived only thanks to `Shell Up`. ✅ Turtle Tamer, Level 12: all four photos + Vol. I
    in ~33 Palindome turns; bird rib, lion oil and stunt nuts came from storage; Awkward died in 2 rounds.
+✅ **Disco Bandit, Level 12, whole Copperhead → Palindome branch in one day, 0 losses:** Shen's draw Eye of the Stars
+(rocketship in 1 Top-Floor turn via Goth 675 → 677; 5 Hole fights) → Stankara Stone (4) → Black Flag (5); protesters
+**43 turns** with 8 Flamin' Whatshisname in the bag (the noncombat numbers 856/857/858 vary, so key the rule by
+label); Ron in 13 Zeppelin fights; photos + Vol. I in 34 Palindome turns; **bird rib ~2,500 + lion oil ~1,500 from
+the mall**; Awkward in 4 rounds. 🐛 Meat paste is made with a POST to `craft.php` (`action=makepaste`,
+`whichitem=25`, `qty`) — the GET form answers *Invalid input*.
 7. ✅ **Measured (Level 12 Seal Clubber, Muscle ~189, dual-wield):** Club Foot → Lunging Thrust-Smack, **dead in
    2 rounds, 0 damage taken**. Drops **Staff of Fats** (+ Drowsy Sword). Meat-paste **headpiece of the Staff of Ed +
    Staff of Fats → Staff of Ed (2325)**, then `place.php?whichplace=desertbeach&action=db_pyramid1` plugs it in

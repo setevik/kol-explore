@@ -25,13 +25,14 @@ early combat plan). The Moxie guild is separate from both previous guilds.
 
 ---
 
-## 📊 Character state (end of run #6 Day 13 / 2026-11-10)
+## 📊 Character state (end of run #6 Day 14 / 2026-11-11)
 
-- **LEVEL 11 Disco Bandit**, base Moxie 124, max HP ~90 (≈260 on the Muscle set), MP ~110. 💰 Meat 30,541.
-  **15 adventures banked**, full 15 · drunk 24 (cap 19).
-- 🎽 disco mask · broken beer bottle · **unstable fulminate (off-hand, heating)** · astral shorts · spectacles.
-- 🗺️ MacGuffin: **diary read · Hidden City ✅ (ancient amulet)** · Spookyraven cellar: soda + vinegar →
-  fulminate equipped, **Boiler Room 13 wins, no wine bomb yet** · Palindome and Desert not started.
+- **LEVEL 12 Disco Bandit**, base Moxie 138, max HP ~90 (≈275 on the Muscle set), MP ~120. 💰 Meat 38,361.
+  **16 adventures banked**, full 15 · drunk 24 (cap 19).
+- 🎽 disco mask · broken beer bottle · oil lamp · astral shorts · Talisman o' Namsilat · Mega Gem. 3 killing jars.
+- 🗺️ MacGuffin: **Staff of Ed ✅** (Hidden City + Spookyraven + Palindome all done) · **Desert 62%** (paint given;
+  give a killing jar to Gnasir next) · then the pyramid. Level 12 Island War not started.
+- Skills: trainer bought out through Level 12.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -42,14 +43,18 @@ Suckerpunch (shows `(P)`). **Bought:** Disco Eye-Poke · Deft Hands (L1) · Disc
 of Self Preservation (L2) · Disco Nap · Disco State of Mind (L3) · Electric Boogaloo · Frantic Gyrations (L4) · That's Not a Knife · Advanced Cocktailcrafting (L5) · Nimble
 Fingers · Disco Face Stab (L6).
 
-## 🔜 Next-session priorities — run #6, Day 14
+## 🔜 Next-session priorities — run #6, Day 15
 
-1. EAT: milk + 3 herbal stuffing + 3 one-fullness snacks (buy honey ants/aspic). DRINK: 3 Meade + 4 to 19, Meade last.
-2. **Boiler Room (399)** with the fulminate until the wine bomb drops → `manor4_chamberwall` → Lord Spookyraven.
-3. Then Palindome (palindome-quest.md) and the Desert (Desert Beach open via the bus pass).
-4. Watch meat: the Muscle set costs ~5k a refill.
+1. EAT/DRINK as usual (herbal stuffing ×3 + snacks; Meade ×3 + 4, Meade last). Restock phonics down.
+2. `db_gnasir` → give a **killing jar** → pamphlet; desert to 100% (Oasis ⇄ 364) → `db_pyramid1` (Staff of Ed).
+3. Pyramid (pyramid-lower-chamber-wheel.md) → Ed. Then the Level 12 Island War.
 
 ## 🗓️ Session log (this run)
+
+- **Run #6 Day 14 (2026-11-11): 🪩 Level 12, Lord Spookyraven + Copperheads + Dr. Awkward → Staff of Ed — ~150 wins, 0 losses.**
+  🍽️ milk + 3 herbal stuffing (61) + 3 later tots = 15. 🍺 3 Meade + rum + Willer = 19, Meade 24.
+  Wine bomb (4 boilers) → Lord Spookyraven. Loot sold +48k. Shen (Eye/Stone/Flag) ~30 turns, protesters 43, Ron 13,
+  Palindome 34 → Awkward. Desert 0 → 62%.
 
 - **Run #6 Day 13 (2026-11-10): 🪩 diary read, Hidden City done in a day, cellar opened — ~180 wins, 0 losses.**
   🍽️ milk + 3 herbal stuffing (59) + 3 later tots = 15. 🍺 3 Meade + rum + Willer = 19, Meade 24.
