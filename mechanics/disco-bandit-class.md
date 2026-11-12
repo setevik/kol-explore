@@ -39,6 +39,7 @@
 | 10 | Disco Shank · Disco Bravado | — | 35 · 34 | 5,000 each |
 | 11 | Disco Dance 3: Back in the Habit · Adventurer of Leisure | — | 36 · 11 | 6,250 each |
 | 12 | Ambidextrous Funkslinging · Disco Inferno | — | 15 · 37 | 7,500 each |
+| 13 | Heart of Polyester (passive, So-So Sleaze Resistance +2) · Disco Fever (10 MP buff, 10 turns) | 5016 · 5009 | 16 · 9 | — |
 
 Later rows by level (trainer page): 4 Disco Dance II: Electric Boogaloo · Frantic Gyrations — 5 That's Not a Knife ·
 Advanced Cocktailcrafting — 6 Nimble Fingers · Disco Face Stab — 7 Tricky Knifework · Flashy Dancer — 8 Mad Looting
@@ -87,3 +88,11 @@ opened the Boss Bat's lair in **13 fights**, the Boss Bat fell in the next **7**
 - ❌ **Groar at Level 8 without HP potions** (max HP ~53): lost in 4 rounds, ~23–35 cold per round. The yetis die in
   3 rounds each. Go back with the HP potions and in-fight healing.
 - 🩹 **Disco Nap (5007) is the class's heal** — use it before buying elixirs.
+
+## ⚔️ Levels 12–13: the dance combo IS the defence (Ed, the Island War)
+- ✅ **The weakening from the dances is what keeps ML 170–210 monsters off you.** Battlefield (hippy side, Moxie ~140,
+  max HP ~140, no potions): **dance combo then attacks = 4 rounds, ~0 HP lost, 110+ wins, 0 losses** — the
+  **same fight on attacks only LOST in 6 rounds (120 HP taken)**. Never drop the dances to save MP; buy the MP.
+- 💧 **MP bill: 15 MP per fight** (3 + 4 + 8). ~25 restoratives a day; **Monstar energy beverages (70–80 MP)** first.
+- 🏺 **Ed the Undying, Level 12:** all seven forms with the combo and no damage taken — see
+  `pyramid-lower-chamber-wheel.md`. Connery's Elixir of Audacity (Moxie ×~3 for a few turns) is the key potion.

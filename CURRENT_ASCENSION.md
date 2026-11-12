@@ -25,31 +25,47 @@ early combat plan). The Moxie guild is separate from both previous guilds.
 
 ---
 
-## 📊 Character state (end of run #6 Day 14 / 2026-11-11)
+## 📊 Character state (end of run #6 Day 15 / 2026-11-12)
 
-- **LEVEL 12 Disco Bandit**, base Moxie 138, max HP ~90 (≈275 on the Muscle set), MP ~120. 💰 Meat 38,361.
+- **LEVEL 13 Disco Bandit**, base Moxie ~153, max HP ~145, MP ~170. 💰 Meat 20,315.
   **16 adventures banked**, full 15 · drunk 24 (cap 19).
-- 🎽 disco mask · broken beer bottle · oil lamp · astral shorts · Talisman o' Namsilat · Mega Gem. 3 killing jars.
-- 🗺️ MacGuffin: **Staff of Ed ✅** (Hidden City + Spookyraven + Palindome all done) · **Desert 62%** (paint given;
-  give a killing jar to Gnasir next) · then the pyramid. Level 12 Island War not started.
-- Skills: trainer bought out through Level 12.
+- 🎽 **War Hippy Fatigues worn** (headband · bullet-proof corduroys · round purple sunglasses) + broken beer bottle ·
+  oil lamp · amulet of extreme plot significance · Mega Gem. The disco mask / astral shorts / Talisman are off.
+- 🗺️ **MacGuffin quest DONE** (Ed dead, Holy MacGuffin turned in). **Island War started, hippy side:
+  battlefield Image #12, Lighthouse ✅ (2x).** Dingy dinghy built.
+- 🎒 Restoratives: 14 phonics down, 7 tiny houses, 1 Monstar, ~15 soda, 30 antidotes, 31 torpedoes. 2 Meade left.
+  Lots of frat war loot to sell (beer helmets, denim pants, pledge pins, paddles, keg shields, PADL phones…).
+- 🔐 **Login lives in pass-connector's own Chrome** (port 9222) — drive it with `tools/kol-cdp.mjs` (see HANDOFF).
+- Skills: trainer bought out through **Level 12**; **Level 13 (Heart of Polyester · Disco Fever) not yet bought.**
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
-**Fullness 15 · Booze cap 14 · Spleen 15.**
+**Fullness 15 · Booze cap 19 (Liver of Steel, earned Day 12; was 14) · Spleen 15.**
 **Permed, carried in (verified `(P)`):** Lunging Thrust-Smack · Double-Fisted Skull Smashing · The Long View (+3
 adv/day) · Pastamastery · Cannelloni Cocoon · **Expert Panhandling (+10% meat, NEW)**. Class start: Disco Aerobics,
 Suckerpunch (shows `(P)`). **Bought:** Disco Eye-Poke · Deft Hands (L1) · Disco Dance of Doom · Overdeveloped Sense
 of Self Preservation (L2) · Disco Nap · Disco State of Mind (L3) · Electric Boogaloo · Frantic Gyrations (L4) · That's Not a Knife · Advanced Cocktailcrafting (L5) · Nimble
-Fingers · Disco Face Stab (L6).
+Fingers · Disco Face Stab (L6) · Tricky Knifework · Flashy Dancer (L7) · Mad Looting Skillz · Disco Smirk (L8) ·
+Disco Greed · Knife in the Dark (L9) · Disco Shank · Disco Bravado (L10) · Disco Dance 3 · Adventurer of Leisure (L11) ·
+Ambidextrous Funkslinging · Disco Inferno (L12) — trainer page shows only L13+ left (✅ checked Day 15).
 
-## 🔜 Next-session priorities — run #6, Day 15
+## 🔜 Next-session priorities — run #6, Day 16
 
-1. EAT/DRINK as usual (herbal stuffing ×3 + snacks; Meade ×3 + 4, Meade last). Restock phonics down.
-2. `db_gnasir` → give a **killing jar** → pamphlet; desert to 100% (Oasis ⇄ 364) → `db_pyramid1` (Staff of Ed).
-3. Pyramid (pyramid-lower-chamber-wheel.md) → Ed. Then the Level 12 Island War.
+1. Log in via `request_login` only if `127.0.0.1:9222` has no KoL `game.php` tab; load `tools/engine/*`.
+2. **Sell the war loot first** (keep 1 set of Frat Warrior Fatigues pieces), then buy the L13 skills if Meat allows.
+3. EAT: milk + 3 herbal stuffing (mall 270) + 3 later tots (1 left — buy or use hot honey ant). DRINK: buy Meade.
+   **Buy ~15 Monstar energy beverages** (MP) — 15 MP per fight.
+4. War: battlefield to **#13 → accept the Farm** (`bigisland.php?place=farm&action=farmer&pwd`) → Barn + 3 duck
+   zones (4x). Then battlefield to #32 → **The Man BEFORE drinking** (can't enter drunk). Then the NS tower.
 
 ## 🗓️ Session log (this run)
+
+- **Run #6 Day 15 (2026-11-12): 🪩 Desert 100%, Ed dead, war started, Level 13 — ~160 wins, 1 loss.**
+  🍽️ milk + 3 herbal stuffing (58) + 3 later tots = 15. 🍺 3 Meade + rum + Willer = 19, Meade 24.
+  Login landed in pass-connector's Chrome → drove it over DevTools. Gnasir: jar + 15 pages → hooks + drum machine
+  (2,800) → 100%. Pyramid 16 turns; 6 ratchets lost to an unread label (12 bought/dropped, 3 wheels, exactly enough).
+  Ed 7 forms, 0 damage. Shore ×2 → dinghy. War on turn 1; battlefield 111 W / 1 L (attack-only test), #0 → #12;
+  Sonofa 25 turns → Lighthouse.
 
 - **Run #6 Day 14 (2026-11-11): 🪩 Level 12, Lord Spookyraven + Copperheads + Dr. Awkward → Staff of Ed — ~150 wins, 0 losses.**
   🍽️ milk + 3 herbal stuffing (61) + 3 later tots = 15. 🍺 3 Meade + rum + Willer = 19, Meade 24.

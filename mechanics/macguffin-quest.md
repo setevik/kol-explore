@@ -290,6 +290,11 @@ storage** went to Gnasir at 22% and their two pamphlets gave +30%. The Oasis was
   3. **killing jar (6847)** — **banshee librarian, Haunted Library (390)**. ⚠️ **Very low drop rate:
      28 library fights / 6+ banshees with Fat Leon's up produced none.**
   He also wants **15 worm-riding manual pages** (scattered desert drops) → sandworm riding.
+  ⭐⭐ ✅ **The pages are the biggest single jump, and they cost zero adventures once you hold 15.** Hand them in
+  (*"I think I found all the missing pages of your book."*) → **worm-riding hooks** (item 2302, a two-handed
+  club, equipment tab). **Equip the hooks and `inv_use` a drum machine** (item 2328, mall ~2,800 meat, not a
+  quest drop) → *"…you fasten your hooks to its side…"* → ✅ measured **77% → 100% in one use, no adventure**.
+  Re-equip your real weapon and off-hand afterwards (the hooks displace both).
   ⚠️ **Turn-ins bounce navigation until the 805 choice is closed** — finish with *"No, that's all."*
 - 💧 **Budget MP hard here:** Weapon of the Pastalord is **32 MP/cast**, so a desert day burns ~2× the
   old juice bill. Buy ~25 MMJ **and** keep tiny houses/sodas, or you will stall mid-crossing (happened

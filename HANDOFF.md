@@ -16,6 +16,17 @@
 ## Login & session
 
 - **Test account:** read test account login/password from `credentials.local.md` (it's not a secret and shouldn't be treated so). URL `https://www.kingdomofloathing.com/login.php`.
+- 🔐 **Logging in with the Proton Pass connector (`request_login`) — the session lands in a DIFFERENT Chrome.**
+  pass-connector fills the form in its **own dedicated "login Chrome"** (separate profile, DevTools on
+  `127.0.0.1:9222`), *not* Claude in Chrome and not the desktop app's browser. Its cookies exist only there, so
+  after a `logged_in` result **Claude in Chrome's tab is still logged out**. ✅ Measured symptoms: the Claude in
+  Chrome tab stayed on `login.php`, and every later `request_login` returned `fill_failed / no_login_form`
+  — because the connector picks the best-matching KoL tab *in the login Chrome*, which was already on `game.php`.
+  ✅ **Fix that works: drive the login Chrome over DevTools** with `node tools/kol-cdp.mjs <file.js|"code">`
+  (finds the KoL tab on `127.0.0.1:9222`, runs the code with `await` in page context, prints JSON with `pwd`/hex
+  masked). Helpers persist on `window` between calls. Load the engine from `tools/engine/` (see its README).
+  Check `curl -s 127.0.0.1:9222/json/list` first: if a KoL `game.php` tab is listed, you are already logged in —
+  don't call `request_login` again. Close the KoL tab at wrap-up with `Target.closeTarget` (or in that window).
 - `game.php` uses a **4-frame layout**: `charpane`, `menupane`, `mainpane`, `chatpane`. Frame nav goes through
   `window.frames['mainpane'].location.href = 'path'`. Most actions are done by `fetch()` in the top-window context.
 - **If the login form shows** (`input[name="loginname"]`): set `forms['Login'].loginname/password`, call `.submit()`.
@@ -162,6 +173,9 @@ you have actually bought:
 |---|---|
 | Pastamancer | `mechanics/pastamancer-class.md` |
 | Seal Clubber | `mechanics/seal-clubber-class.md` |
+| Turtle Tamer | `mechanics/turtle-tamer-class.md` |
+| Sauceror | `mechanics/sauceror-class.md` |
+| Disco Bandit | `mechanics/disco-bandit-class.md` |
 
 General, class-agnostic combat rules live in three places:
 - **`mechanics/combat-mechanics.md`** — the formulas: hit chance, damage dealt and taken, crits/fumbles, DA/DR and
@@ -364,6 +378,7 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
   | **magical mystery juice (518)** | ~25–28 | **guild store** `shop.php?whichshop=guildstore2` **row 527**, ~100 meat | Cheapest by far *when the guild sells it*. **Frequently absent from the MALL entirely** — a mall search can return zero listings while the guild still stocks it. Buy the day's supply here first. |
   | **Mountain Stream soda (357)** | ~37 | mall, tradeable | The fallback. **Price is volatile — observed anywhere from ~50 to ~294 each.** Always price-check before bulk-buying (see the commodity rule below). |
   | **tiny house (592)** | ~23 | drops / mall | Free when it drops, and **also clears Beaten Up**. |
+| ⭐ **Monstar energy beverage (2389)** | **70–80** | drops / mall (~390) | ✅ The deepest single MP item; **out of combat only**. Estates and battlefield drops hoard them — **check inventory before buying anything else.** |
 | ⭐ **phonics down (593)** | **46–50** | drops / mall | ✅ **Restores that much HP *and* MP from one item** — it is both halves of the recovery ladder at once, and it outclasses everything above it. |
 | ⭐ **ancient Magi-Wipes (2616)** | **50–60** | drops / mall | ✅ **HP *and* MP, and removes negative effects** — i.e. it doubles as debuff removal before a boss. |
 - ⭐ **ALTERNATIVE rack, worked at a 19 cap (higher yield, but only if these are in stock — banks ~74 adv;

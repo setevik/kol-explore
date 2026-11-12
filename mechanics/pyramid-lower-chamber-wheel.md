@@ -3,6 +3,15 @@
 The wheel is **not** "parked at the vending machine," and you do **not** interact with a
 *centre* room between the two named rooms. Here is the verified mechanic.
 
+## 🚨 Read the label from the ALT TEXT — and a rotation loop that can't read it must STOP, not rotate
+
+The Lower Chambers label is **not in the page's visible text** — the pyramid is drawn as images, and the label
+lives only in the image attribute: `alt="The Lower Chambers (1) (rats on left, basket on right)"`.
+✅ Parse: `/alt=["']The Lower Chambers[^"']*?\(([^()"']+)\)["']/`.
+❌ **Measured cost: 6 tomb ratchets.** A "rotate until the label matches" loop parsed the stripped text, got
+`null` every time, never matched — and rotated on every iteration. ✅ **Make `null` a hard stop** (fail closed,
+see HANDOFF § guards), and give the loop a turn budget equal to the steps you expect (#3 → #5 is 2, not 6).
+
 ## How rotation works
 
 - **Control Room** = `place.php?whichplace=pyramid&action=pyramid_control` → choice **929
@@ -162,6 +171,10 @@ each ratchet the same way, one at a time, re-reading the label between them.
    ✅ **Turtle Tamer, Level 12, Muscle ~200, max HP 336, MP 89 at entry:** all seven forms, **0 losses**, rounds
    3 · 2 · 2 · 2 · 1 · 1 · 1, opening each form with `Shell Up` then Thrust-Smack; MP ran 89 → 7. Items cannot be
    used between forms (the next form is already an open fight).
+   ✅ **Disco Bandit, Level 12, Moxie 529 (Connery's Elixir of Audacity) / Muscle 329 (Ferrigno's + tomato juice),
+   Ghostly + Astral Shell, max HP 332, MP 101:** all seven forms, **0 losses, no damage taken**, rounds
+   4 · 4 · 3 · 3 · 3 · 2 · 2 with the dance combo (Dance of Doom → Dance II → Face Stab) then one weapon attack.
+   MP 101 → 35. A buffed Moxie far above Ed's Attack 180 means he simply never connects.
    🐛 **Detect the win by the item (Holy MacGuffin, 2334), not by text** — Ed's own dialogue says "Holy MacGuffin",
    and a text check stopped the series after form 1 (harmless only because the fight stays open).
 6. **HOLY MACGUFFIN** → Council turn-in → spine quest COMPLETE.

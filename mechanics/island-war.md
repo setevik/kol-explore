@@ -204,6 +204,9 @@ high-HP boss that hits harder over time, see the boss note in `HANDOFF.md`.
   ✅ **Measured: 26 turns → 5 lobsterfrogmen → 5 barrels, 0 losses** (21 of the 26 were noncombats; the zone is
   **10% combat**, and every lobsterfrogman drops a barrel, so the turns go on finding them, not on drops).
   ML 171, Defense 152, 190 HP — one round each for a Level 13 Muscle class.
+  ✅ Re-measured (Level 12 Disco Bandit): **25 turns → 5 lobsterfrogmen → 5 barrels**. ⚠️ **One of the zone's
+  noncombats can take you to 0 HP** (Beaten Up after a run of plain noncombats, no fight lost) — a loop must check
+  Beaten Up after noncombats too, not just after fights. Tiny house → continue.
   🚨 **The turn-in link needs the pwd: `bigisland.php?place=lighthouse&action=pyro&pwd=<hash>`.**
   ✅ Measured failure and fix: the same URL **without** `&pwd` returned a normal 200 whose text was just
   *"The Lighthouse — Back to the Main Map"* — no keeper, no error — and the barrels stayed in inventory; the next
@@ -271,6 +274,8 @@ high-HP boss that hits harder over time, see the boss note in `HANDOFF.md`.
 | 4x (Lighthouse + Farm), same character, Level 13 → 14 | ~153 | 13 (#19 -> #32), 0 losses |
 | 1x → 2x, **Level 12–13 Sauceror** (Saucestorm, potion trio) | ~66 | 14 (#0 -> #14), 1 loss |
 | 4x (Lighthouse + Farm), same Sauceror, Level 13 | 147 | 13 (#14 -> #27), 0 losses |
+| 1x, **Level 12 Disco Bandit** (Moxie ~140, dance combo + broken beer bottle, no potions) | 60 | 7 (#0 -> #7), 1 loss (attack-only test) |
+| 2x (Lighthouse), same character, Level 12 → 13 | 51 | 5 (#7 -> #12), 0 losses |
 
 🚨 **The wins-per-image number barely moves as the multiplier climbs** — ~9–10 wins per image at 1x, 2x *and* 4x
 on the same character. Deeper images simply need more kills, so each doubling roughly cancels the increase.
