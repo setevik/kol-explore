@@ -6,9 +6,14 @@ window.runFight = async (page, o={}) => {
     const s = await ST(); rounds++;
     const have = new Set(skillsIn(p).map(x=>x.id));
     let url = null;
+    if (/Naughty Sorority Nurse/.test(page)) { // heals 75-100/round: needs >100 per round -> two bombs (Ambidextrous Funkslinging)
+      const inv = await INV(); const b = [2350, 2348, 2040, 630].filter(x => +(inv[x]||0) > 0);
+      if (b.length) { url = '/fight.php?action=useitem&whichitem='+b[0]+'&whichitem2='+(b[1]||b[0])+'&pwd='+_pwd; log.push('B'); }
+    }
     for (const [id,mp] of [['5005',3],['5008',4],['5012',8]]) {
       if (!o.noSkill && !used.has(id) && have.has(id) && +s.mp >= mp+2) { url='/fight.php?action=skill&whichskill='+id+'&pwd='+_pwd; used.add(id); log.push(id); break; }
     }
+    if (!url && rounds >= 7 && /whichitem=630|value=["']?630/.test(p)) { url = '/fight.php?action=useitem&whichitem=630&pwd='+_pwd; log.push('T'); } // attacks not landing: torpedo
     if (!url) { url = '/fight.php?action=attack&pwd='+_pwd; log.push('a'); }
     p = await G(url);
   }
@@ -18,8 +23,8 @@ window.runFight = async (page, o={}) => {
   return { res: inFight(p)?'stuck':(lose?'lose':(win?'win':'?')), rounds, log:log.join(''), monster:(page.match(/id=["']?monname["']?>([^<]+)/)||[])[1], meat:(t.match(/You gain (\d+) Meat/)||[])[1], items:[...t.matchAll(/You acquire an item: ([^.]+?)(?= You| \(|$)/g)].map(m=>m[1]).slice(0,4), page:p };
 };
 window.heal = async () => {
-  for (let i=0;i<6;i++){ const s=await ST(); if (+s.hp >= +s.maxhp*0.8) return s;
-    if (+s.mp >= 24) await G('/runskillz.php?action=Skillz&whichskill=3012&ajax=1&quantity=1&pwd='+_pwd); // cannelloni cocoon (perm)
+  for (let i=0;i<6;i++){ const s=await ST(); if (+s.hp >= +s.maxhp*0.6) return s;
+    if (+s.mp >= 40) await G('/runskillz.php?action=Skillz&whichskill=3012&ajax=1&quantity=1&pwd='+_pwd); // cannelloni cocoon (perm)
     else await G('/inv_use.php?which=3&whichitem=592&pwd='+_pwd+'&ajax=1'); }
   return await ST();
 };

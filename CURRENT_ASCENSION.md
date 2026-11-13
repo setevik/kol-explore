@@ -25,18 +25,15 @@ early combat plan). The Moxie guild is separate from both previous guilds.
 
 ---
 
-## 📊 Character state (end of run #6 Day 15 / 2026-11-12)
+## 📊 Character state (end of run #6 Day 16 / 2026-11-13)
 
-- **LEVEL 13 Disco Bandit**, base Moxie ~153, max HP ~145, MP ~170. 💰 Meat 20,315.
-  **16 adventures banked**, full 15 · drunk 24 (cap 19).
-- 🎽 **War Hippy Fatigues worn** (headband · bullet-proof corduroys · round purple sunglasses) + broken beer bottle ·
-  oil lamp · amulet of extreme plot significance · Mega Gem. The disco mask / astral shorts / Talisman are off.
-- 🗺️ **MacGuffin quest DONE** (Ed dead, Holy MacGuffin turned in). **Island War started, hippy side:
-  battlefield Image #12, Lighthouse ✅ (2x).** Dingy dinghy built.
-- 🎒 Restoratives: 14 phonics down, 7 tiny houses, 1 Monstar, ~15 soda, 30 antidotes, 31 torpedoes. 2 Meade left.
-  Lots of frat war loot to sell (beer helmets, denim pants, pledge pins, paddles, keg shields, PADL phones…).
-- 🔐 **Login lives in pass-connector's own Chrome** (port 9222) — drive it with `tools/kol-cdp.mjs` (see HANDOFF).
-- Skills: trainer bought out through **Level 12**; **Level 13 (Heart of Polyester · Disco Fever) not yet bought.**
+- **LEVEL 13 Disco Bandit**, max HP ~153, MP ~175. 💰 Meat 9,514. **15 adventures banked**, full 15 · drunk 24 (cap 19).
+- 🎽 War Hippy Fatigues + broken beer bottle · oil lamp · amulet of extreme plot significance · Mega Gem.
+- ⚔️ **Island War, hippy side: battlefield Image #25. Side quests: Lighthouse ✅ · Farm ✅ (4x).** 7 images to go.
+- 🎒 4 Monstar · 6 phonics · 6 tiny houses · 15 soda · bombs: 16 beer · 9 water pipe · 5 patchouli · torpedoes 0.
+  Kept 1 beer helmet / denim pants / pledge pin (Frat Warrior Fatigues).
+- 🔐 Login: `request_login` → pass-connector's Chrome (port 9222) → `tools/kol-cdp.mjs` + `tools/engine/*`.
+- Skills: trainer bought out through **Level 13** (Disco Fever, Heart of Polyester, 10,000 each). L14 next.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -49,16 +46,20 @@ Fingers · Disco Face Stab (L6) · Tricky Knifework · Flashy Dancer (L7) · Mad
 Disco Greed · Knife in the Dark (L9) · Disco Shank · Disco Bravado (L10) · Disco Dance 3 · Adventurer of Leisure (L11) ·
 Ambidextrous Funkslinging · Disco Inferno (L12) — trainer page shows only L13+ left (✅ checked Day 15).
 
-## 🔜 Next-session priorities — run #6, Day 16
+## 🔜 Next-session priorities — run #6, Day 17
 
-1. Log in via `request_login` only if `127.0.0.1:9222` has no KoL `game.php` tab; load `tools/engine/*`.
-2. **Sell the war loot first** (keep 1 set of Frat Warrior Fatigues pieces), then buy the L13 skills if Meat allows.
-3. EAT: milk + 3 herbal stuffing (mall 270) + 3 later tots (1 left — buy or use hot honey ant). DRINK: buy Meade.
-   **Buy ~15 Monstar energy beverages** (MP) — 15 MP per fight.
-4. War: battlefield to **#13 → accept the Farm** (`bigisland.php?place=farm&action=farmer&pwd`) → Barn + 3 duck
-   zones (4x). Then battlefield to #32 → **The Man BEFORE drinking** (can't enter drunk). Then the NS tower.
+1. Login + engine (HANDOFF § Proton Pass). `fight.js` already has the 60% heal and the nurse rule.
+2. EAT (milk + 3 herbal stuffing + fillers; buy later tots/ants). Buy ~15 Monstar, 4 Meade. **Don't drink yet.**
+3. Battlefield #25 → #32 (~70 wins), then **The Man BEFORE drinking** (`bigisland.php?action=bossfight&pwd`; shells
+   up, full HP/MP, dance combo + bombs). Council → war done. Then spend the rest / start the NS tower.
+4. DRINK last as usual; sell new war loot (keep 1 fatigues set).
 
 ## 🗓️ Session log (this run)
+
+- **Run #6 Day 16 (2026-11-13): 🪩 Farm done, front #12 → #25, L13 skills — ~170 wins, 2 losses.**
+  🍽️ milk + 3 herbal stuffing (60) + tot + 2 honey ants = 15. 🍺 3 Meade + rum + Imp Ale = 19, Meade 24.
+  Loot +9,186 → L13 skills 20,000. Farm 36 turns (Barn 8, zones 10/9/9). Two Naughty Sorority Nurse losses
+  (30-round limit; she heals) → beat with two bombs a round. 22 Monstars + 7,800 Meat of MP.
 
 - **Run #6 Day 15 (2026-11-12): 🪩 Desert 100%, Ed dead, war started, Level 13 — ~160 wins, 1 loss.**
   🍽️ milk + 3 herbal stuffing (58) + 3 later tots = 15. 🍺 3 Meade + rum + Willer = 19, Meade 24.

@@ -51,6 +51,16 @@ Penultimate Fantasy chests**, and selling the haul (hair gel, glowing red eyes, 
 ✅ Same Sauceror, next day: Lighthouse at **#7** → Sonofa **5 barrels in ~25 turns** → Farm at **#14** → Barn + three
 duck zones in **~40 turns, 0 losses**. MP cost was ~60 MMJ (6,000 meat) for the day; the war loot autosold for ~5,000.
 
+## 🩺 The Naughty Sorority Nurse — a battlefield monster that cannot be out-attacked
+✅ Verified (hippy-side battlefield): **instead of attacking she heals herself 75–100 HP every round** (160 HP max,
+Defense 166). Weapon attacks *and* one torpedo a round (~45) never get ahead of the heal, so the fight runs to the
+**30-round limit = an automatic loss** (*"…took more than 30 rounds, which is sort of unreasonable. You lose."*).
+It cost one loss and a Beaten Up before the cause was found.
+✅ **Fix: > 100 damage in ONE round.** With **Ambidextrous Funkslinging** (two combat items per round:
+`fight.php?action=useitem&whichitem=<a>&whichitem2=<b>`) a **beer bomb + water pipe bomb** (55–75 each — both drop on
+this battlefield) killed her in 2 rounds. Without it: a stun (macrame net / superamplified boom box, per the wiki).
+⇒ **Give the fight loop a monster-name rule for her**, not a round cap — a cap only decides *when* you lose.
+
 ## ⚠️ The war is MEAT-NEGATIVE
 Enemies drop little/no meat; combat + healing burns MP (= meat). **Build a meat war chest + MP supply
 (tiny houses) BEFORE grinding.** Sustainable loop: Airship-farm (snarf 81, ~100+ meat/fight net) → spend on war → refarm.
@@ -276,6 +286,7 @@ high-HP boss that hits harder over time, see the boss note in `HANDOFF.md`.
 | 4x (Lighthouse + Farm), same Sauceror, Level 13 | 147 | 13 (#14 -> #27), 0 losses |
 | 1x, **Level 12 Disco Bandit** (Moxie ~140, dance combo + broken beer bottle, no potions) | 60 | 7 (#0 -> #7), 1 loss (attack-only test) |
 | 2x (Lighthouse), same character, Level 12 → 13 | 51 | 5 (#7 -> #12), 0 losses |
+| 4x (Lighthouse + Farm), same Disco Bandit, Level 13 | ~135 | 12 (#13 -> #25), 2 losses (both the nurse above) |
 
 🚨 **The wins-per-image number barely moves as the multiplier climbs** — ~9–10 wins per image at 1x, 2x *and* 4x
 on the same character. Deeper images simply need more kills, so each doubling roughly cancels the increase.
