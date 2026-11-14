@@ -25,6 +25,9 @@
   ✅ **Fix that works: drive the login Chrome over DevTools** with `node tools/kol-cdp.mjs <file.js|"code">`
   (finds the KoL tab on `127.0.0.1:9222`, runs the code with `await` in page context, prints JSON with `pwd`/hex
   masked). Helpers persist on `window` between calls. Load the engine from `tools/engine/` (see its README).
+  ⚠️ **If the connector's own code changes, the running extension keeps serving the OLD build** until the desktop app is
+  fully quit (⌘Q) and reopened — toggling it is not enough. ✅ Tell: `ps -axo pid,lstart,command | grep pass-connector`
+  shows a start time older than the build, and `request_login` answers `denied / approval_unavailable`.
   Check `curl -s 127.0.0.1:9222/json/list` first: if a KoL `game.php` tab is listed, you are already logged in —
   don't call `request_login` again. Close the KoL tab at wrap-up with `Target.closeTarget` (or in that window).
 - `game.php` uses a **4-frame layout**: `charpane`, `menupane`, `mainpane`, `chatpane`. Frame nav goes through
@@ -380,7 +383,7 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
   | **tiny house (592)** | ~23 | drops / mall | Free when it drops, and **also clears Beaten Up**. |
 | ⭐ **Monstar energy beverage (2389)** | **70–80** | drops / mall (~390) | ✅ The deepest single MP item; **out of combat only**. Estates and battlefield drops hoard them — **check inventory before buying anything else.** |
 | ⭐ **phonics down (593)** | **46–50** | drops / mall | ✅ **Restores that much HP *and* MP from one item** — it is both halves of the recovery ladder at once, and it outclasses everything above it. |
-| ⭐ **ancient Magi-Wipes (2616)** | **50–60** | drops / mall | ✅ **HP *and* MP, and removes negative effects** — i.e. it doubles as debuff removal before a boss. |
+| ⭐ **ancient Magi-Wipes (2616)** | **50–60** | drops / mall | ✅ **HP *and* MP.** ⚠️ It did **not** remove `Easily Embarrassed` — for a debuff use the antidote (588) below. |
 - ⭐ **ALTERNATIVE rack, worked at a 19 cap (higher yield, but only if these are in stock — banks ~74 adv;
   rescale the bottle counts to your own cap):**
   ⚠️ Availability is the catch: recent sessions could not source Meade/corpse-on-the-beach and used the Fog
@@ -402,7 +405,9 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
 - **HP:** **scroll of drastic healing (595)** = full HP (does NOT clear Beaten Up); **Lasagna Bandages (3009)** heals
   ~16 HP/cast out of combat. Campground rest (`campground.php?action=rest`) clears Beaten Up (~+10 MP/adv — poor MP source).
 - **Combat item:** **photoprotoneutron torpedo (630)** — MP-free reliable damage; boss insurance & stuck-fight finisher.
-- **Antidote:** soft green echo eyedrop antidote (588) cures poison via `uneffect.php?using=true&whichitem=588&whicheffect=<id>&pwd=`.
+- **Antidote:** ✅ **soft green echo eyedrop antidote (588) removes ANY one effect, not just poison** (*"Wow! This thing
+  will cure anything!"* — measured clearing `Easily Embarrassed`, effect id 433, before a boss; an ancient Magi-Wipe had
+  just failed to). Use `whicheffect=<effects[key][4]>`. It cures poison via `uneffect.php?using=true&whichitem=588&whicheffect=<id>&pwd=`.
   ⚠️ **The effect id differs per poison level:** *Hardly Poisoned at All* **8** · *A Little Bit Poisoned* **282** ·
   *Somewhat Poisoned* **283** · *Really Quite Poisoned* **284** · *Majorly Poisoned* **264**. Read it from
   `api.php?what=status` → `effects[<key>][4]`; a blank or wrong id answers *"You have to pick an effect."*

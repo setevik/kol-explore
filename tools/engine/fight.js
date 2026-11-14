@@ -6,7 +6,7 @@ window.runFight = async (page, o={}) => {
     const s = await ST(); rounds++;
     const have = new Set(skillsIn(p).map(x=>x.id));
     let url = null;
-    if (/Naughty Sorority Nurse/.test(page)) { // heals 75-100/round: needs >100 per round -> two bombs (Ambidextrous Funkslinging)
+    if (/Naughty Sorority Nurse/.test(page) || (/War Frat Streaker/.test(page) && used.size >= 1)) { // heals 75-100/round: needs >100 per round -> two bombs (Ambidextrous Funkslinging)
       const inv = await INV(); const b = [2350, 2348, 2040, 630].filter(x => +(inv[x]||0) > 0);
       if (b.length) { url = '/fight.php?action=useitem&whichitem='+b[0]+'&whichitem2='+(b[1]||b[0])+'&pwd='+_pwd; log.push('B'); }
     }

@@ -25,15 +25,19 @@ early combat plan). The Moxie guild is separate from both previous guilds.
 
 ---
 
-## 📊 Character state (end of run #6 Day 16 / 2026-11-13)
+## 📊 Character state (end of run #6 Day 17 / 2026-11-14)
 
-- **LEVEL 13 Disco Bandit**, max HP ~153, MP ~175. 💰 Meat 9,514. **15 adventures banked**, full 15 · drunk 24 (cap 19).
-- 🎽 War Hippy Fatigues + broken beer bottle · oil lamp · amulet of extreme plot significance · Mega Gem.
-- ⚔️ **Island War, hippy side: battlefield Image #25. Side quests: Lighthouse ✅ · Farm ✅ (4x).** 7 images to go.
-- 🎒 4 Monstar · 6 phonics · 6 tiny houses · 15 soda · bombs: 16 beer · 9 water pipe · 5 patchouli · torpedoes 0.
-  Kept 1 beer helmet / denim pants / pledge pin (Frat Warrior Fatigues).
-- 🔐 Login: `request_login` → pass-connector's Chrome (port 9222) → `tools/kol-cdp.mjs` + `tools/engine/*`.
-- Skills: trainer bought out through **Level 13** (Disco Fever, Heart of Polyester, 10,000 each). L14 next.
+- **LEVEL 14 Disco Bandit**, max HP ~160, MP ~180. 💰 Meat 12,799. **17 adventures banked**, full 15 · drunk 24 (cap 19).
+- 🎽 broken beer bottle · oil lamp · amulet of extreme plot significance · Mega Gem · **continuum transfunctioner**
+  (acc 3, swap back to round purple sunglasses / ring as needed) · War Hippy Fatigues headband + corduroys.
+- 🏆 **ALL COUNCIL QUESTS DONE — Island War won** (The Man, 14 rounds). Final quest: the Naughty Sorceress' Tower.
+- 🔑 **Tower keys: skeleton ×2 ✅ · Richard's star key ✅ · digital key ✅ · Boris's ✅ · Jarlsberg's ❌ · Sneaky Pete's ❌**
+  (Daily Dungeon done Day 17; 2 more DD days, or key lime pies 514/515 at ~6–7k each).
+- 🏰 Tower: only the **contest booth** is open (not registered yet). Wand of Nagamar: not obtained (search unlocks only
+  after losing to form 3).
+- 🎒 3 Monstar · 6 phonics · tiny houses · ~10 beer bombs / few pipe bombs · 0 torpedoes · antidotes. 0 Meade.
+- 🔐 Login: `request_login` → pass-connector's Chrome (9222) → `tools/kol-cdp.mjs` + `tools/engine/*`.
+- Skills: trainer bought out through **Level 13**. **L14 (Smooth Movement · Sensitive Fingers) now available** — price?
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -46,15 +50,22 @@ Fingers · Disco Face Stab (L6) · Tricky Knifework · Flashy Dancer (L7) · Mad
 Disco Greed · Knife in the Dark (L9) · Disco Shank · Disco Bravado (L10) · Disco Dance 3 · Adventurer of Leisure (L11) ·
 Ambidextrous Funkslinging · Disco Inferno (L12) — trainer page shows only L13+ left (✅ checked Day 15).
 
-## 🔜 Next-session priorities — run #6, Day 17
+## 🔜 Next-session priorities — run #6, Day 18
 
-1. Login + engine (HANDOFF § Proton Pass). `fight.js` already has the 60% heal and the nurse rule.
-2. EAT (milk + 3 herbal stuffing + fillers; buy later tots/ants). Buy ~15 Monstar, 4 Meade. **Don't drink yet.**
-3. Battlefield #25 → #32 (~70 wins), then **The Man BEFORE drinking** (`bigisland.php?action=bossfight&pwd`; shells
-   up, full HP/MP, dance combo + bombs). Council → war done. Then spend the rest / start the NS tower.
-4. DRINK last as usual; sell new war loot (keep 1 fatigues set).
+1. Login + engine. EAT (milk + 3 herbal stuffing + fillers). Buy Meade ×4, Monstar ×10.
+2. **Daily Dungeon EARLY** → token → **Jarlsberg's key** (DA machine row 94; `_freeMax=8` for the tool rooms).
+3. **Contest desk, sober, one contest at a time** (mechanics § Step 1): initiative gear (oil slacks) for Fastest;
+   oil lamp for the element; Connery's/Ferrigno's for the stat. Then the three crowds (full HP/MP before each).
+4. Coronation → hedge maze (Frank, 9 turns) → open the 5 key locks. Last key (Sneaky Pete's) = DD Day 19 or a pie.
+5. L14 skills if Meat allows. DRINK last (8-Bit is done — spend booze advs on crowds only if not "Too Drunk").
 
 ## 🗓️ Session log (this run)
+
+- **Run #6 Day 17 (2026-11-14): 🪩 War WON, Level 14, four tower keys — ~115 wins, 1 loss.**
+  🍽️ milk + 3 herbal stuffing (59) + ant + 2 Knob nuts = 15. 🍺 3 Meade + rum + Imp Ale = 19, Meade 24.
+  Login blocked until the app was restarted (pass-connector rewrite). Loot +6,999. Front #25 → #32 (lost once to the
+  War Frat Streaker). Easily Embarrassed cured by antidote → The Man in 14 rounds (Connery's, bombs) → +5,000 stack.
+  Daily Dungeon 7 turns → Boris's. Hole in the Sky 13 → star key. 8-Bit 66 fights → digital key.
 
 - **Run #6 Day 16 (2026-11-13): 🪩 Farm done, front #12 → #25, L13 skills — ~170 wins, 2 losses.**
   🍽️ milk + 3 herbal stuffing (60) + tot + 2 honey ants = 15. 🍺 3 Meade + rum + Imp Ale = 19, Meade 24.

@@ -20,7 +20,7 @@ window.burst = async (snarf, n, stopFn, chooser) => {
       if (inFight(p)) { const r = await runFight(p); if (r.res!=='win') { out.stop='choice fight '+r.res; break; } out.w++; }
     } else out.nc.push(txt(p).replace(/^Adventure Results:\s*/,'').slice(0,70));
     await sleep(600); const a = await ST();
-    if (+a.adventures >= before) { if (++free>=3) { out.stop='free encounters'; break; } } else free=0;
+    if (+a.adventures >= before) { if (++free>=(window._freeMax||3)) { out.stop='free encounters'; break; } } else free=0;
   }
   const s=await ST(); out.adv=s.adventures; out.hp=s.hp+'/'+s.maxhp; out.meat=s.meat; return out;
 };

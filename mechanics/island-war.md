@@ -61,6 +61,13 @@ It cost one loss and a Beaten Up before the cause was found.
 this battlefield) killed her in 2 rounds. Without it: a stun (macrame net / superamplified boom box, per the wiki).
 ⇒ **Give the fight loop a monster-name rule for her**, not a round cap — a cap only decides *when* you lose.
 
+## 🏃 The War Frat Streaker — a mini-boss inside the battlefield's last images
+✅ Verified (hippy side): **HP 350 · Attack 220 · Defense 198 · sleaze**, a *boss* (no insta-kills), appearing
+**between 901 and 999 frat casualties, if at all** (wiki). A character who wins every ordinary battlefield fight with
+no potions can lose to him outright — it was the only loss in ~70 fights from #25 to #32. ⇒ From about #29 on,
+treat each fight as possibly him: give the loop a name rule (open with a weakening skill, then **two bombs a round**)
+or keep the HP potions running.
+
 ## ⚠️ The war is MEAT-NEGATIVE
 Enemies drop little/no meat; combat + healing burns MP (= meat). **Build a meat war chest + MP supply
 (tiny houses) BEFORE grinding.** Sustainable loop: Airship-farm (snarf 81, ~100+ meat/fight net) → spend on war → refarm.
@@ -149,6 +156,13 @@ The doctrine above is confirmed, and can be tightened:
   can GET that directly instead of hunting the map pixel.
 - **Drop:** *really dense meat stack* (**autosells for 5,000 meat** — see the sell endpoint note below), plus a
   stat point. That single item funded the whole evening's shopping.
+
+### ✅ Disco Bandit kill — 14 rounds, 21 HP lost
+**Entry:** Level 13, **Connery's Elixir of Audacity + Ferrigno's + tomato juice** (Moxie 616 · Muscle 403 · max HP
+446), Ghostly + Astral Shell, full MP, **debuff cleared first**. **Line:** Dance of Doom → Dance II → Face Stab, then
+**beer bomb + water pipe bomb every round** (Ambidextrous Funkslinging; ~70–90 each, sometimes several hits) — 11
+rounds of bombs, ~25 bombs. At Moxie ~2.5× his Attack he connected **once**. ⇒ For a Moxie class the Moxie potion
+*is* the defence; bombs are the damage.
 
 ### Reward
 Visiting `council.php` after the kill auto-completes the war → war-hero medal (the specific reward varies by
@@ -287,6 +301,7 @@ high-HP boss that hits harder over time, see the boss note in `HANDOFF.md`.
 | 1x, **Level 12 Disco Bandit** (Moxie ~140, dance combo + broken beer bottle, no potions) | 60 | 7 (#0 -> #7), 1 loss (attack-only test) |
 | 2x (Lighthouse), same character, Level 12 → 13 | 51 | 5 (#7 -> #12), 0 losses |
 | 4x (Lighthouse + Farm), same Disco Bandit, Level 13 | ~135 | 12 (#13 -> #25), 2 losses (both the nurse above) |
+| 4x, same character, Level 13 | ~73 | 7 (#25 -> #32), 1 loss (the War Frat Streaker) |
 
 🚨 **The wins-per-image number barely moves as the multiplier climbs** — ~9–10 wins per image at 1x, 2x *and* 4x
 on the same character. Deeper images simply need more kills, so each doubling roughly cancels the increase.

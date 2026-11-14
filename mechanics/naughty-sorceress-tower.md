@@ -191,6 +191,8 @@ Boris's key = **item 282, row 93** · Jarlsberg's = **item 283, row 94** · Snea
   weapon attacks (MP spend ≈ 0) and re-reading the Score colour before **every** fight. ⭐ **It is also the right
   place to spend booze adventures at day's end: the 8-Bit Realm is NOT the tower**, so it still works while drunk,
   whereas the tower map refuses you ("Too Drunk!").
+  ✅ **Re-measured on a Level 14 Disco Bandit, rotating, plain weapon attacks (no skills): 10,020 in 66 fights, 0 losses**,
+  half of them while at the booze cap.
   ⇒ **10,000 from a standing start ≈ 60–75 fights.** (An older ~110/fight estimate is on the low side; the
   ~63/fight figure below is for staying in ONE zone, which is the thing to avoid.) Weapon-attack rounds 1–2 and
   escalate to Cannelloni only if the monster survives — **MP cost is near zero**, which makes this the right zone
@@ -234,6 +236,8 @@ Boris's key = **item 282, row 93** · Jarlsberg's = **item 283, row 94** · Snea
   also cut Muscle 246 → 185; the gear accounted for ~6 HP of the fall. ✅ **Read `api.php?what=status` → `effects`
   before concluding anything from a stat change.**
   Monster rooms = fight. With tools, a full run ≈ 6–8 adv (only monster/chest rooms cost turns).
+  🐛 ✅ **The tool rooms cost NO adventure, so a loop's "3 free encounters in a row ⇒ abort" guard trips on the
+  first trap/lock streak** — raise that limit for the dungeon (8 is enough). ✅ Measured: full run in **7 adventures**.
 - **DA Vending Machine = `shop.php?whichshop=damachine`.** Hero keys: **Boris's = row 93, Jarlsberg's = row 94,
   Sneaky Pete's = row 95**, each **1 fat loot token**. (Also sells hero-outfit pieces rows 96–98.)
 - ⚠️ The 3 hero keys are a "zap group" (zapping one → a different one you lack) but you need all 3 at once, so
