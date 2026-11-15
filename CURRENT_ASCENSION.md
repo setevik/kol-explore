@@ -32,7 +32,7 @@ early combat plan). The Moxie guild is separate from both previous guilds.
   Hippy headband · oil slacks. magilaser blastercannon in the bag (ranged).
 - 🏰 **Tower: contests ✅ (sash) · coronation ✅ · hedge maze ✅ · door 5/6 — only Sneaky Pete's lock left.**
 - 🧰 **Tower kit in hand:** beehive (Wall of Skin) · electric boning knife (Wall of Bones) · 2 scented massage oil +
-  3 filthy poultice + 16 gauze garters (Shadow). Wand of Nagamar: no (search unlocks after losing to form 3).
+  3 filthy poultice + 16 gauze garters (Shadow). Wand of Nagamar: **craft it** — have ruby W ×1 · lowercase N ×1 · heavy D ×4; **buy 1 metallic A** (tradeable), 3 meat pastes.
 - 🔐 Login: `request_login` (retry once on `page_changed`) → `tools/kol-cdp.mjs` + `tools/engine/*`.
 - Skills: trainer bought through **L13 + Sensitive Fingers**; **Smooth Movement (L14) not yet bought.**
 
@@ -52,8 +52,8 @@ Ambidextrous Funkslinging · Disco Inferno (L12) — trainer page shows only L13
 1. Login + engine. EAT (milk + 3 herbal stuffing + fillers). Buy Meade ×4, Monstar ×8. **Stay sober until the NS.**
 2. **Daily Dungeon** → token → **Sneaky Pete's key** (row 95) → `ns_lock3` → `ns_doorknob`.
 3. Walls: beehive · Wall of Meat ×5–6 (full HP/MP between) · boning knife · **gaze** the mirror · Shadow (oils/poultice,
-   no skills). Read § Step 5 before the NS: she strips every buff at the start. Expect to lose form 3 → farm the wand
-   in snarf 58 (~13 turns) → win → free the King (`ns_11_prism`). Then ascension planning (`mechanics/ascension.md`).
+   no skills). **Before the NS: buy metallic A → paste W+A, N+D, WA+ND → Wand of Nagamar in inventory** (no planned
+   loss). Read § Step 5: she strips every buff at the start. Win → free the King (`ns_11_prism`) → `mechanics/ascension.md`.
 
 ## 🗓️ Session log (this run)
 

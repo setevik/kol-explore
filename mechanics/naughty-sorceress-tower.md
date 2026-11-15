@@ -265,8 +265,11 @@ Boris's key = **item 282, row 93** · Jarlsberg's = **item 283, row 94** · Snea
 ⚠️ **Common misconception (corrected):** the wand is **not** for the Wall of Skin — it's for the **Naughty Sorceress's
 third/final form** (must be **in inventory**, not equipped post-NS13; it turns her attacks into harmless anagram objects).
 Two ways to obtain it:
-- **Craft it:** meat-paste **ruby W + metallic A + lowercase n + heavy D** (spells "WAND"). The **lowercase n**'s only
-  source is **The Valley of Rof L'm Fao** (gated behind Fernswarthy's Basement / Black Angus — usually not worth it).
+- ⭐ **Craft it — check this FIRST, before planning a loss:** meat-paste **ruby W + metallic A → WA**, **lowercase N +
+  heavy D → ND**, then **WA + ND → Wand of Nagamar** (three pastes). ✅ Wiki: **the letters, WA and ND are all
+  tradeable** (only the wand isn't), so any missing letter is a **mall purchase**, not a quest. Metallic A also drops
+  from the Airship's *MagiMechTech MechaMech* and the Giant castle Basement; the letters persist in a previous
+  ascension's estate, so **check inventory/storage for all four**. A planned loss to form 3 is only the fallback.
   *(Letters collected for the active run are tracked in `CURRENT_ASCENSION.md`.)*
 - **Bear Verb Orgy** (anagram of *Grave Robbery*) — a **noncombat** in **The VERY Unquiet Garves = `adventure.php?snarfblat=58`**
   (The Misspelled Cemetary; regular Unquiet Garves = 21) → pry open Nagamar's coffin → the assembled **Wand of Nagamar**.
