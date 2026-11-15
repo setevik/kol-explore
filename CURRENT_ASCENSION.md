@@ -25,19 +25,16 @@ early combat plan). The Moxie guild is separate from both previous guilds.
 
 ---
 
-## 📊 Character state (end of run #6 Day 17 / 2026-11-14)
+## 📊 Character state (end of run #6 Day 18 / 2026-11-15)
 
-- **LEVEL 14 Disco Bandit**, max HP ~160, MP ~180. 💰 Meat 12,799. **17 adventures banked**, full 15 · drunk 24 (cap 19).
-- 🎽 broken beer bottle · oil lamp · amulet of extreme plot significance · Mega Gem · **continuum transfunctioner**
-  (acc 3, swap back to round purple sunglasses / ring as needed) · War Hippy Fatigues headband + corduroys.
-- 🏆 **ALL COUNCIL QUESTS DONE — Island War won** (The Man, 14 rounds). Final quest: the Naughty Sorceress' Tower.
-- 🔑 **Tower keys: skeleton ×2 ✅ · Richard's star key ✅ · digital key ✅ · Boris's ✅ · Jarlsberg's ❌ · Sneaky Pete's ❌**
-  (Daily Dungeon done Day 17; 2 more DD days, or key lime pies 514/515 at ~6–7k each).
-- 🏰 Tower: only the **contest booth** is open (not registered yet). Wand of Nagamar: not obtained (search unlocks only
-  after losing to form 3).
-- 🎒 3 Monstar · 6 phonics · tiny houses · ~10 beer bombs / few pipe bombs · 0 torpedoes · antidotes. 0 Meade.
-- 🔐 Login: `request_login` → pass-connector's Chrome (9222) → `tools/kol-cdp.mjs` + `tools/engine/*`.
-- Skills: trainer bought out through **Level 13**. **L14 (Smooth Movement · Sensitive Fingers) now available** — price?
+- **LEVEL 14 Disco Bandit**, max HP ~178, MP ~190. 💰 Meat 21,055. **14 adventures banked**, full 15 · drunk 24 (cap 19).
+- 🎽 broken beer bottle · oil lamp · amulet · Mega Gem · **Blue Diamond of Honesty** (acc, +7 all, +9% item) · War
+  Hippy headband · oil slacks. magilaser blastercannon in the bag (ranged).
+- 🏰 **Tower: contests ✅ (sash) · coronation ✅ · hedge maze ✅ · door 5/6 — only Sneaky Pete's lock left.**
+- 🧰 **Tower kit in hand:** beehive (Wall of Skin) · electric boning knife (Wall of Bones) · 2 scented massage oil +
+  3 filthy poultice + 16 gauze garters (Shadow). Wand of Nagamar: no (search unlocks after losing to form 3).
+- 🔐 Login: `request_login` (retry once on `page_changed`) → `tools/kol-cdp.mjs` + `tools/engine/*`.
+- Skills: trainer bought through **L13 + Sensitive Fingers**; **Smooth Movement (L14) not yet bought.**
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -50,16 +47,21 @@ Fingers · Disco Face Stab (L6) · Tricky Knifework · Flashy Dancer (L7) · Mad
 Disco Greed · Knife in the Dark (L9) · Disco Shank · Disco Bravado (L10) · Disco Dance 3 · Adventurer of Leisure (L11) ·
 Ambidextrous Funkslinging · Disco Inferno (L12) — trainer page shows only L13+ left (✅ checked Day 15).
 
-## 🔜 Next-session priorities — run #6, Day 18
+## 🔜 Next-session priorities — run #6, Day 19 — 🏁 THE NAUGHTY SORCERESS
 
-1. Login + engine. EAT (milk + 3 herbal stuffing + fillers). Buy Meade ×4, Monstar ×10.
-2. **Daily Dungeon EARLY** → token → **Jarlsberg's key** (DA machine row 94; `_freeMax=8` for the tool rooms).
-3. **Contest desk, sober, one contest at a time** (mechanics § Step 1): initiative gear (oil slacks) for Fastest;
-   oil lamp for the element; Connery's/Ferrigno's for the stat. Then the three crowds (full HP/MP before each).
-4. Coronation → hedge maze (Frank, 9 turns) → open the 5 key locks. Last key (Sneaky Pete's) = DD Day 19 or a pie.
-5. L14 skills if Meat allows. DRINK last (8-Bit is done — spend booze advs on crowds only if not "Too Drunk").
+1. Login + engine. EAT (milk + 3 herbal stuffing + fillers). Buy Meade ×4, Monstar ×8. **Stay sober until the NS.**
+2. **Daily Dungeon** → token → **Sneaky Pete's key** (row 95) → `ns_lock3` → `ns_doorknob`.
+3. Walls: beehive · Wall of Meat ×5–6 (full HP/MP between) · boning knife · **gaze** the mirror · Shadow (oils/poultice,
+   no skills). Read § Step 5 before the NS: she strips every buff at the start. Expect to lose form 3 → farm the wand
+   in snarf 58 (~13 turns) → win → free the King (`ns_11_prism`). Then ascension planning (`mechanics/ascension.md`).
 
 ## 🗓️ Session log (this run)
+
+- **Run #6 Day 18 (2026-11-15): 🪩 Contests won, maze run, 5 of 6 locks — ~150 wins, 3 losses.**
+  🍽️ milk + 3 herbal stuffing (57) + 3 Knob nuts = 15. 🍺 3 Meade + rum + Imp Ale = 19, Meade 24.
+  DD → Jarlsberg's. Desk: Smartest #2 (Myst potions), Sleaziest #11, Fastest #11. Lost to the Dervish (no HP potions)
+  and twice to a Porkpocket (grease → thrown knife); sold pixels/gel +22,851. Sash → coronation → maze 9 turns →
+  locks 1/2/4/5/6. Beehive 4 turns; castle ~85 turns → knife + ~17k meat. Sensitive Fingers 12,500.
 
 - **Run #6 Day 17 (2026-11-14): 🪩 War WON, Level 14, four tower keys — ~115 wins, 1 loss.**
   🍽️ milk + 3 herbal stuffing (59) + ant + 2 Knob nuts = 15. 🍺 3 Meade + rum + Imp Ale = 19, Meade 24.

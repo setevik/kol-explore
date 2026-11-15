@@ -100,3 +100,6 @@ opened the Boss Bat's lair in **13 fights**, the Boss Bat fell in the next **7**
   hits (see the Naughty Sorority Nurse in `island-war.md`). Keep a stock of the battlefield's beer/water pipe bombs.
 - 🏺 **Ed the Undying, Level 12:** all seven forms with the combo and no damage taken — see
   `pyramid-lower-chamber-wheel.md`. Connery's Elixir of Audacity (Moxie ×~3 for a few turns) is the key potion.
+- 🎯 **Ranged weapons swing on Moxie.** A melee knife is fine for the dance combo, but anything that forces a *throw*
+  (the tower's Porkpocket) leaves it doing ~5 damage. Keep a ranged weapon (e.g. *magilaser blastercannon*) in the bag.
+- 💸 **Level 14 trainer:** Sensitive Fingers = **12,500** (✅ measured; L13 skills were 10,000 each).

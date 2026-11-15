@@ -837,7 +837,9 @@ buy it for the MP, not for the convenience).
 At L16 with a working nuke, **`adventure.php?snarfblat=323`** yields a measured **~105–120 meat per turn**
 (80–180 per fight, 4 giant types, ~150 HP each, no elemental alignment) at **0 losses over 86 fights**. It also
 re-drops the **electric boning knife** (choice 1026 → "Investigate the noisy drawer") that the Wall of Bones
-needs. That makes it the default "I need several thousand meat before a boss" zone once the castle is open.
+needs. ✅ **Re-measured: ~150 meat/turn, 0 losses over ~120 fights** (Level 14 Moxie class, dance combo).
+⚠️ **Its noncombats need exit rules or a loop stalls:** 1026 without the drawer → `Leave through a vent`; **672 / 673 /
+674** → `Go out the Way You Came In` / `Get out of this Junk` / `Seek the Egress Anon`. Match `/Egress|Get out|Leave|Way You Came/`. That makes it the default "I need several thousand meat before a boss" zone once the castle is open.
 
 ## 🚨 Ask the QUEST LOG whether you already have the quest item
 

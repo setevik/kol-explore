@@ -142,6 +142,24 @@ ointment of the occult (+184) and gr8ness (part of the Muscle set) took Mystical
 set as well (HP 777) **one Saucegeyser did 573 and the Dervish died in round 1**. ⇒ For a caster the champion is a
 spell-damage check — buy Mysticality, not only HP.
 
+### Disco Bandit at the desk (Level 14) — Smartest / Sleaziest / Fastest
+- **Smartest** (off-stat Mysticality): **Hawking's Elixir of Brilliance + ointment of the occult + gr8ness took Mys
+  118 → 590 → rank #2**; one opponent, *The Mastermind*, 5 rounds. Sleaziest with the oil lamp + Disco Fever → #11;
+  Fastest in oil slacks → #11.
+- 🏎️ **The Tasmanian Dervish beat a 160-max-HP character in 3 rounds *with* Connery's up.** Re-fought with
+  **Connery's + Ferrigno's + tomato juice + Ghostly/Astral Shell (max HP 470, Moxie 655)** → won in 4 rounds.
+  ⇒ Buy the potions for the **champion**, not the warm-ups — they last only ~5 turns.
+- 🥓 🚨 **The Porkpocket (Sleaziest warm-up) greases your pocket: every weapon attack becomes a THROW of your weapon.**
+  A melee knife then does **~5 damage** (*"you'd probably be better off using a ranged weapon like a crossbow or a
+  musical instrument"*), so the fight runs to 20+ rounds and is lost — twice, from full HP. ✅ **Fix: bombs (two a
+  round, Funkslinging) or equip a ranged weapon before the crowd** (a magilaser blastercannon then carried the
+  champion, *Leonard*, in 4 rounds).
+- 🏅 **The tower does not advance by itself after the third crowd** — go back to the desk: choice 1003 now offers
+  **`Claim your prize`** → *World's Best Adventurer sash* → only then does `ns_02_coronation` appear.
+- 🌿 Hedge-maze labels beyond the ones above: step **1011** = **`Do what the man says`** (the other is *Go down the
+  manhole*), **1012** = `Follow the left wall`. The coronation's 1022 keeps re-serving after it's answered — harmless
+  (no adventure); drive the maze from `ns_03_hedgemaze`, not from `choice.php`.
+
 ## Step 2 — The SIX tower-door keys  (each consumed at the door)
 
 ⭐ **RAID HAGNK'S BEFORE SPENDING A SINGLE TURN ON KEYS.** Key materials and the Daily Dungeon tools all persist
@@ -322,7 +340,9 @@ want to collapse the **3-day** hero-key wait. If you are going to run the Daily 
   - **Wall of Bones** (`ns_07_monster3`): only **GROUP/AoE damage** works — single-target spells (Cannelloni) make it FULLY
     HEAL. **✅ electric boning knife (item 7970) = instant kill** (`fight.php?action=useitem&whichitem=7970`). Get it from the
     **Castle Ground Floor (snarf 323)** → "Home on the Free Range" **choice 1026 opt 2** ("investigate the noisy drawer"); the
-    NC is boosted to 3 copies once tower level 3 is unlocked, so it drops in ~1 turn. (Stuffed Mortar Shell 3007 is also group
+    NC is boosted to 3 copies once tower level 3 is unlocked, so it drops in ~1 turn.
+    ✅ It can also come **before** the tower: on another character the **first** *noisy drawer* (turn ~10 on the Ground
+    Floor, tower walls not yet reached) gave the knife. Unboosted it's luck — but the farm pays ~150 meat/turn anyway. (Stuffed Mortar Shell 3007 is also group
     damage but only once/fight.)
   ✅ **Walls re-verified end to end on a Level 15 Muscle class, 8 adventures total, 0 losses:** beehive
   **one-shot** the Wall of Skin · **5 Wall of Meat kills** at ~200 meat each (204/210/202/210/194 = 1,020) cleared
