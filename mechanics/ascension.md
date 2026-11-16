@@ -56,6 +56,11 @@ and — in **Softcore** — the **entire estate and meat balance, moved to Hagnk
 intact). The new character starts with **meat 0** and a handful of class starting gear, so **day 1's first act
 should be a storage withdrawal**, not farming.
 
+🐛 **The armory (`afterlife.php?place=armory`) forms carry `whichitem` ids but no parseable names** — get the id
+from the wiki (✅ **astral shorts = 5033**) and post `action=buyarmory&whichitem=<id>`; the response names the item
+(*"You acquire an item: astral shorts"*), which is the confirmation. The Bureau's preview form is the commit body:
+✅ re-verified `action=ascend&confirmascend=1&whichsign&gender&whichclass&whichpath=0&asctype=2` + `lamepathok=1`.
+
 ⚠️ **Pick the astral pet for the loadout you will actually run.** Each is 10 karma, and two of the seven occupy
 contested slots: the **astral bludgeon is 2-handed** and the **astral shield / astral statuette are off-hand**,
 so any of them **cancels a dual-wield perm while worn**. Match the pet to the new class's mainstat — the
