@@ -10,7 +10,7 @@ window.runFight = async (page, o={}) => {
       const inv = await INV(); const b = [2350, 2348, 2040, 630].filter(x => +(inv[x]||0) > 0);
       if (b.length) { url = '/fight.php?action=useitem&whichitem='+b[0]+'&whichitem2='+(b[1]||b[0])+'&pwd='+_pwd; log.push('B'); }
     }
-    for (const [id,mp] of [['5005',3],['5008',4],['5012',8]]) {
+    for (const [id,mp] of (window._openers || [['5005',3],['5008',4],['5012',8]])) {
       if (!o.noSkill && !used.has(id) && have.has(id) && +s.mp >= mp+2) { url='/fight.php?action=skill&whichskill='+id+'&pwd='+_pwd; used.add(id); log.push(id); break; }
     }
     if (!url && rounds >= 7 && /whichitem=630|value=["']?630/.test(p)) { url = '/fight.php?action=useitem&whichitem=630&pwd='+_pwd; log.push('T'); } // attacks not landing: torpedo

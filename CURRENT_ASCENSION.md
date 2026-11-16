@@ -24,25 +24,36 @@ Disco Bandit ✅ · **Accordion Thief ▶**. **Create `mechanics/accordion-thief
 skills with prices, class resource, early combat plan). The Moxie guild is shared with the Disco Bandit
 (`guildstore1`), but the trainer rack is the Accordion Thief's own.
 
-## 📊 Character state (run #7 start / 2026-11-16)
+## 📊 Character state (end of run #7 Day 1 / 2026-11-16)
 
-- **Level 1 Accordion Thief**, 40 adventures, Meat 0 on hand. **Ronin 1,000.** Estate + **~19,393 meat** in Hagnk's.
-- 🎽 **astral shorts** (Moxie, +init, regen) bought in Valhalla.
+- **Level 4 Accordion Thief**, max HP ~10. 💰 Meat 9,571 on hand; **~10,393 meat still in Hagnk's**.
+  **18 adventures banked**, full 15 · drunk 17 (cap 14).
+- 🎽 mariachi hat · stolen accordion · astral shorts.
+- 🗺️ Guild member ✅ · Toot ✅ (gems sold +2,500) · **Larva ✅ · Tavern ✅** · **Boss Bat quest active** (Bat Hole entryway
+  15 turns in). Telegram from Lady Spookyraven in inventory (for later).
+- Skills bought: Moxious Madrigal · Dissonant Riff · Mojomuscular Melody · Cadenza · Cletus's Canticle · Crab Claw
+  Technique · Power Ballad · Accordion Bash (all L1–4).
 
 ### 🔓 CAPS & SKILLS THIS RUN
 **Fullness 15 · Booze cap 14 (no Liver of Steel yet) · Spleen 15.**
 **Permed, carried in:** Lunging Thrust-Smack · Double-Fisted Skull Smashing · The Long View (+3 adv/day) ·
 Pastamastery · Cannelloni Cocoon · Expert Panhandling · **Ambidextrous Funkslinging (NEW — two combat items/round)**.
-Verify `(P)` on the charsheet on Day 1. Guild skills: none bought yet.
+✅ All `(P)` on the charsheet. Guild skills: see Character state.
 
-## 🔜 Next-session priorities — run #7, Day 1
+## 🔜 Next-session priorities — run #7, Day 2
 
-1. Login + engine. **Pull items first, then meat** (Ronin: 20 slots/day, 1 per 1,000 meat — HANDOFF § Raising meat).
-   Level-legal food/booze, restoratives, bombs (Funkslinging makes two-a-round a weapon from Level 1).
-2. Join the guild (class challenge — research it; write `mechanics/accordion-thief-class.md`). Buy the L1 skills.
-3. Pick a familiar (`api.php` `familiar` "0" ⇒ none out). Level up; start the Council quests.
+1. Login: **pre-open login.php in the login Chrome and wait ~3 s** (one Touch ID). Load engine;
+   `window._openers=[['6029',2]]`; heal = campground rest until restoratives.
+2. Pulls (20): level-legal food/booze for Level 4–5 (sweet roll Alabama L4, vampire chowder L4, flavorless gruel L4,
+   Knob nuts L4…), a few restoratives (poultices/garters), and meat.
+3. Boss Bat: Guano Junction needs stench resistance (`mechanics/bat-hole-boss-bat.md`). Then L5 Knob quest.
 
 ## 🗓️ Session log (this run)
+
+- **Run #7 Day 1 (2026-11-16): 🪗 Accordion Thief born, guild joined, Level 1 → 4 — ~50 wins, 0 losses.**
+  🏦 11 pulls + 9,000 meat. 🍽️ guolash, baguette, crumbs, marrow, tots = 15 (39 adv). 🍺 rum, vodka, gin, whiskey,
+  sherry = 14, boxed wine 17. Pants yoinked (6 alley turns); L1–4 skills 2,750. Toot gems +2,500. Larva (marsh, first
+  visit), Tavern cellar (~15 turns), Bat Hole 15. New doc `mechanics/accordion-thief-class.md`.
 
 - **2026-11-16 — Ascended into run #7.** Run #6 (Disco Bandit) won on Day 19. Karma 6 → 116 → permed **Ambidextrous
   Funkslinging** (100) + **astral shorts** (10), 6 banked. Reborn **Normal · Accordion Thief · Marmot · Unrestricted**.
