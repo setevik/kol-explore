@@ -25,13 +25,6 @@
   ✅ **Fix that works: drive the login Chrome over DevTools** with `node tools/kol-cdp.mjs <file.js|"code">`
   (finds the KoL tab on `127.0.0.1:9222`, runs the code with `await` in page context, prints JSON with `pwd`/hex
   masked). Helpers persist on `window` between calls. Load the engine from `tools/engine/` (see its README).
-  🐛 **Two Touch ID prompts per login = the KoL login URL hadn't settled.** ✅ Measured in the login Chrome: a fresh
-  `login.php` tab reports `readyState complete` at `/login.php`, then **~1.2 s later rewrites itself to
-  `/login.php?loginid=…`**. The broker captures the URL before the Touch ID prompt and, after it, demands the exact
-  same string — so the first request returns `fill_failed / page_changed` *after* you approved, and the retry
-  (on the now-stable `?loginid=` URL, which survives reloads) asks again. ✅ **Workaround: open the login page
-  yourself and wait ~3 s** (`curl -X PUT "127.0.0.1:9222/json/new?https://www.kingdomofloathing.com/login.php"`,
-  `sleep 3`), then call `request_login` — one prompt, `logged_in` first try.
   ⚠️ **If the connector's own code changes, the running extension keeps serving the OLD build** until the desktop app is
   fully quit (⌘Q) and reopened — toggling it is not enough. ✅ Tell: `ps -axo pid,lstart,command | grep pass-connector`
   shows a start time older than the build, and `request_login` answers `denied / approval_unavailable`.

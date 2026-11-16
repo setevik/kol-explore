@@ -42,7 +42,7 @@ Pastamastery · Cannelloni Cocoon · Expert Panhandling · **Ambidextrous Funksl
 
 ## 🔜 Next-session priorities — run #7, Day 2
 
-1. Login: **pre-open login.php in the login Chrome and wait ~3 s** (one Touch ID). Load engine;
+1. Login (`request_login`). Load engine;
    `window._openers=[['6029',2]]`; heal = campground rest until restoratives.
 2. Pulls (20): level-legal food/booze for Level 4–5 (sweet roll Alabama L4, vampire chowder L4, flavorless gruel L4,
    Knob nuts L4…), a few restoratives (poultices/garters), and meat.
