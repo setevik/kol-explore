@@ -25,16 +25,14 @@ early combat plan). The Moxie guild is separate from both previous guilds.
 
 ---
 
-## 📊 Character state (end of run #6 Day 18 / 2026-11-15)
+## 📊 Character state (end of run #6 Day 19 / 2026-11-16) — 🏆 RUN WON
 
-- **LEVEL 14 Disco Bandit**, max HP ~178, MP ~190. 💰 Meat 21,055. **14 adventures banked**, full 15 · drunk 24 (cap 19).
-- 🎽 broken beer bottle · oil lamp · amulet · Mega Gem · **Blue Diamond of Honesty** (acc, +7 all, +9% item) · War
-  Hippy headband · oil slacks. magilaser blastercannon in the bag (ranged).
-- 🏰 **Tower: contests ✅ (sash) · coronation ✅ · hedge maze ✅ · door 5/6 — only Sneaky Pete's lock left.**
-- 🧰 **Tower kit in hand:** beehive (Wall of Skin) · electric boning knife (Wall of Bones) · 2 scented massage oil +
-  3 filthy poultice + 16 gauze garters (Shadow). Wand of Nagamar: **craft it** — have ruby W ×1 · lowercase N ×1 · heavy D ×4; **buy 1 metallic A** (tradeable), 3 meat pastes.
-- 🔐 Login: `request_login` (retry once on `page_changed`) → `tools/kol-cdp.mjs` + `tools/engine/*`.
-- Skills: trainer bought through **L13 + Sensitive Fingers**; **Smooth Movement (L14) not yet bought.**
+- **King Ralph freed on Day 19** — the Naughty Sorceress beaten (bombs, two a round), astral gash open.
+- **LEVEL 14 Disco Bandit**, 💰 Meat 5,330, **112 adventures unspent**, full 15 · drunk 0 (4 Meade in the bag).
+- **Ascension not done yet** — waiting on the perm choice. Karma expected ≈ 5 banked + 111 = **116** (one softcore perm).
+  Candidates (one-time window for this class): **Ambidextrous Funkslinging** (two combat items/round — won the
+  Nurse, The Man, the Porkpocket and the NS) · Nimble Fingers (+20% meat) · Advanced Cocktailcrafting · Adventurer of Leisure.
+- Next class under the plan: **Accordion Thief** (the last one).
 
 ### 🔓 CAPS & SKILLS THIS RUN
 
@@ -47,15 +45,17 @@ Fingers · Disco Face Stab (L6) · Tricky Knifework · Flashy Dancer (L7) · Mad
 Disco Greed · Knife in the Dark (L9) · Disco Shank · Disco Bravado (L10) · Disco Dance 3 · Adventurer of Leisure (L11) ·
 Ambidextrous Funkslinging · Disco Inferno (L12) — trainer page shows only L13+ left (✅ checked Day 15).
 
-## 🔜 Next-session priorities — run #6, Day 19 — 🏁 THE NAUGHTY SORCERESS
+## 🔜 Next-session priorities — ascend into run #7
 
-1. Login + engine. EAT (milk + 3 herbal stuffing + fillers). Buy Meade ×4, Monstar ×8. **Stay sober until the NS.**
-2. **Daily Dungeon** → token → **Sneaky Pete's key** (row 95) → `ns_lock3` → `ns_doorknob`.
-3. Walls: beehive · Wall of Meat ×5–6 (full HP/MP between) · boning knife · **gaze** the mirror · Shadow (oils/poultice,
-   no skills). **Before the NS: buy metallic A → paste W+A, N+D, WA+ND → Wand of Nagamar in inventory** (no planned
-   loss). Read § Step 5: she strips every buff at the start. Win → free the King (`ns_11_prism`) → `mechanics/ascension.md`.
+1. Decide the perm (recommendation: Ambidextrous Funkslinging) + astral pet; follow `mechanics/ascension.md`.
+2. Archive this file to `runs/ascension-06-disco-bandit.md` and start a fresh `CURRENT_ASCENSION.md` for the Accordion Thief.
 
 ## 🗓️ Session log (this run)
+
+- **Run #6 Day 19 (2026-11-16): 🏆 NAUGHTY SORCERESS BEATEN, KING FREED — ~12 wins, 2 losses (Wall of Meat).**
+  🍽️ milk + 3 herbal stuffing (63) + 3 later tots = 15. Wand crafted (metallic A 258 + 3 meat paste). DD → Sneaky Pete's →
+  door open. Beehive · Wall of Meat ×4 kills after 2 losses (Connery's + Shank/Stab/Inferno) · knife · mirror ·
+  Shadow 4 rounds (2 oils) · NS forms 5 + 16 rounds on bombs, no damage · prism. Not drunk — day paused for the perm decision.
 
 - **Run #6 Day 18 (2026-11-15): 🪩 Contests won, maze run, 5 of 6 locks — ~150 wins, 3 losses.**
   🍽️ milk + 3 herbal stuffing (57) + 3 Knob nuts = 15. 🍺 3 Meade + rum + Imp Ale = 19, Meade 24.

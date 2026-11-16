@@ -483,6 +483,21 @@ with poultices at 50%, form 3 lost → **wand in ~12 Misspelled Cemetary turns**
 cutscene did nothing, and form 2 began at 93/227. Load `place.php?whichplace=nstower`, then heal, then verify HP.
 🐛 Keep a real MMJ stock: with none left, an in-combat "use MMJ" round is a silent no-op and the fight stalls.
 
+### ✅ Disco Bandit (Level 14) — bombs, two a round, and she never lands a hit
+She strips every effect (max HP 643 → 202, Moxie 537 → ~200), and skills are blocked — but **combat items are not
+skills**. With **Ambidextrous Funkslinging, a beer bomb + water pipe bomb every round**: **form 1 in 5 rounds, form 2
+in 16, HP 202/202 the entire time**, then form 3 resolved itself (wand held) → `ns_11_prism`. ~42 bombs at ~300 meat;
+16 garters + 9 poultices carried, none used. Re-enter `ns_10_sorcfight` while the tower list is blank between forms.
+✅ **The wand was crafted, not won by losing:** ruby W + mall metallic A (258) → WA, lowercase N + heavy D → ND, WA + ND.
+Each paste needs a **meat paste** in inventory (buy a few; `craft.php` answers *"You don't have any meat paste"*).
+
+### 🧱 The walls as a Disco Bandit (Level 14, no +meat)
+- **Wall of Meat lost twice on the dance combo alone** (dances do ~7–15 to it). ✅ What works: **Connery's first**, then
+  **Disco Shank (~195) · Face Stab (~140) · Disco Inferno (~90)**, then *ranged* weapon attacks (magilaser) on that Moxie —
+  **8 rounds a kill, ending ~48 HP**; 4 kills cleared it. Buy one Connery's per kill.
+- **Shadow at 638 max HP: 4 rounds, 2 massage oils** (provoke → oil → provoke → oil; it hit for ~200). Cannelloni
+  Cocoon healed **589 in one cast** at that max HP — the cheap way to reach "full" first.
+
 ### 🏁 Step 6 — free the King
 `place.php?whichplace=nstower&action=ns_11_prism` → *"Hi-keeba!"* → the prism shatters, **King Ralph XI** is
 freed and **the astral gash opens**. No adventure cost, no choice to answer. ✅ **You may free the King while
