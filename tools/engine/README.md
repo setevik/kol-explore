@@ -12,3 +12,9 @@ node tools/kol-cdp.mjs tools/engine/burst.js     # burst(snarf, n, stopFn, choos
 `fight.js`'s combat line is the **Disco Bandit dance combo** (5005 → 5008 → 5012, then weapon attacks) — swap
 the skill list for another class (see `mechanics/<class>-class.md`). Afterwards drive the game with inline code:
 `node tools/kol-cdp.mjs "return await burst(140, 25)" 600000`.
+
+**Knobs on `window`:** `_openers=[[skillId,mp],…]` (cast once each, in order) · `_bombIf=/>Monster Name</` +
+`_bombAfter=N` + `_bombs=[itemIds]` — after N openers, throw two items per round (Ambidextrous Funkslinging) at a
+named boss. ⚠️ Match the **`>Name<` of the monname span**, not "fighting Name" — the page markup sits between
+those words, so `/fighting The Boss Bat/` silently never fired and the fight was lost on plain attacks.
+Override `window.heal` / `window.topMP` when the run has no restoratives (e.g. heal = campground rest).

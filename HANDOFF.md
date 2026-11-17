@@ -16,20 +16,26 @@
 ## Login & session
 
 - **Test account:** read test account login/password from `credentials.local.md` (it's not a secret and shouldn't be treated so). URL `https://www.kingdomofloathing.com/login.php`.
-- 🔐 **Logging in with the Proton Pass connector (`request_login`) — the session lands in a DIFFERENT Chrome.**
-  pass-connector fills the form in its **own dedicated "login Chrome"** (separate profile, DevTools on
-  `127.0.0.1:9222`), *not* Claude in Chrome and not the desktop app's browser. Its cookies exist only there, so
-  after a `logged_in` result **Claude in Chrome's tab is still logged out**. ✅ Measured symptoms: the Claude in
-  Chrome tab stayed on `login.php`, and every later `request_login` returned `fill_failed / no_login_form`
-  — because the connector picks the best-matching KoL tab *in the login Chrome*, which was already on `game.php`.
-  ✅ **Fix that works: drive the login Chrome over DevTools** with `node tools/kol-cdp.mjs <file.js|"code">`
-  (finds the KoL tab on `127.0.0.1:9222`, runs the code with `await` in page context, prints JSON with `pwd`/hex
-  masked). Helpers persist on `window` between calls. Load the engine from `tools/engine/` (see its README).
+- 🔐 **Logging in with the Proton Pass connector (`fill_credentials`) — it only FILLS; you open the page and submit.**
+  pass-connector works in its **own dedicated "login Chrome"** (separate profile, DevTools on `127.0.0.1:9222`),
+  *not* Claude in Chrome and not the desktop app's browser; the session's cookies exist only there.
+  ✅ **Recipe (verified):**
+  1. `curl -s 127.0.0.1:9222/json/list` — if a KoL `game.php` tab is listed you are already logged in; skip to 4.
+  2. `node tools/kol-login-target.mjs` opens (or reuses) `login.php`, waits out KoL's `?loginid=` URL rewrite, and
+     prints `{target, document, fields:{username,password}}` (CDP targetId + backendNodeIds).
+     Call `fill_credentials` with `url: https://www.kingdomofloathing.com/login.php` and those ids → `filled`.
+  3. `node tools/kol-login-target.mjs submit` → `game.php` should be listed.
+     🚨 **`login.php` has a second form (a newsletter signup).** Clicking "the first form's submit button" posted
+     the empty newsletter form to a third-party site instead of logging in — the script now submits only the form
+     that owns the password input. Nothing was filled into the newsletter form, but never submit by "first form".
+  4. Drive the game with `node tools/kol-cdp.mjs <file.js|"code">` (finds the KoL tab, runs the code with `await`
+     in page context, prints JSON with `pwd`/hex masked). Helpers persist on `window` between calls. Load the
+     engine from `tools/engine/` (see its README).
   ⚠️ **If the connector's own code changes, the running extension keeps serving the OLD build** until the desktop app is
   fully quit (⌘Q) and reopened — toggling it is not enough. ✅ Tell: `ps -axo pid,lstart,command | grep pass-connector`
-  shows a start time older than the build, and `request_login` answers `denied / approval_unavailable`.
-  Check `curl -s 127.0.0.1:9222/json/list` first: if a KoL `game.php` tab is listed, you are already logged in —
-  don't call `request_login` again. Close the KoL tab at wrap-up with `Target.closeTarget` (or in that window).
+  shows a start time older than the build, and the tool list / error codes don't match the connector's README
+  (e.g. an old tool name answering `fill_failed / invalid_url`). Close the KoL tab at wrap-up with
+  `Target.closeTarget` (or `curl 127.0.0.1:9222/json/close/<id>`).
 - `game.php` uses a **4-frame layout**: `charpane`, `menupane`, `mainpane`, `chatpane`. Frame nav goes through
   `window.frames['mainpane'].location.href = 'path'`. Most actions are done by `fetch()` in the top-window context.
 - **If the login form shows** (`input[name="loginname"]`): set `forms['Login'].loginname/password`, call `.submit()`.

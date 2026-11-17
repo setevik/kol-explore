@@ -46,3 +46,15 @@ openers with `window._openers = [['6029',2]]` (see `tools/engine/fight.js`).
 - **Outskirts noncombats (114):** **111** *Malice in Chains* → `Serve your sentence` (✅ costs a normal turn; `Plot a
   cunning escape` was silently refused and left the choice open) · **113** → `Abscond with some goodies` · **118**
   *When Rocks Attack* → `"Sorry, gotta run."`.
+
+## Levels 4–5: Boss Bat and leveling
+
+- **The Power Ballad of the Arrowsmith (6008) is the HP fix:** max HP 16 → 46 at Level 5. Cast it right before a
+  boss — it is short. A Level 5 Accordion Thief at 17 max HP **lost to the Boss Bat on attacks alone**; with the
+  Ballad + Moxious Madrigal, then **Accordion Bash (6032) → two bombs per round** (Ambidextrous Funkslinging), he died
+  in 4 rounds. Beefy bodyguard bats fell to Bash/Riff + attacks.
+- **Guano Junction (31)** with the Pine-Fresh air freshener: 18 wins / 0 losses, 1 sonar + screambat walls → Lair
+  open in ~18 turns. The freshener's Mysticality 10 requirement is checked against **buffed** Mysticality.
+- **Haunted Kitchen (388)** at Level 5 with Dissonant Riff + attacks: **69 wins / 0 losses**, ~4.3 raw Moxie per
+  turn — base Moxie 21 → 28 in one day, clearing the Knob's base-25 gate. Kitchen noncombat **893** → `Refuse to Take
+  the Heat`.
