@@ -12,6 +12,8 @@ fight's drop list. The groves are ML 40–52 and deal **hot** damage.
 
 The three zones and their items:
 - **Dark Neck of the Woods** (snarfblat 541): yields the `dodecagram`
+  ⚠️ **Hellions here beat a Level 6 Moxie class at ~26 max HP** — twice, even with Power Ballad (+HP) recast between
+  fights, while P/W imps died easily. Expect this grove to want Level 7+ and real HP.
 - **Dark Heart of the Woods** (snarfblat 540): yields the `box of birthday candles`
 - **Dark Elbow of the Woods** (snarfblat 539): yields the `eldritch butterknife`
 

@@ -58,3 +58,7 @@ openers with `window._openers = [['6029',2]]` (see `tools/engine/fight.js`).
 - **Haunted Kitchen (388)** at Level 5 with Dissonant Riff + attacks: **69 wins / 0 losses**, ~4.3 raw Moxie per
   turn — base Moxie 21 → 28 in one day, clearing the Knob's base-25 gate. Kitchen noncombat **893** → `Refuse to Take
   the Heat`.
+- **Harem (259) is the Level 5–7 zone:** 82 wins / 0 losses with Dissonant Riff + attacks, ~5 raw Moxie per turn
+  (base 28 → 37 in one day). Drops the disguise pieces and perfume as you go.
+- **Knob Goblin King:** harem disguise + perfume, Power Ballad + Cletus + Madrigal up (max HP 55), then **Accordion
+  Bash → two bombs** (`_bombIf=/Knob Goblin King/`) — dead in 2 rounds at Level 6.

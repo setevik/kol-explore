@@ -215,6 +215,10 @@ General, class-agnostic combat rules live in three places:
   3 = quantity, and it rejects anything else with *"That radio button has to be a 1, 2, or 3"*), plus the item
   checkbox **`item<ID>=<ID>`** — the value must be the id, not `on`, or you get *"You neglected to select any
   items."* The sell page lists each item's unit price next to it; read it there rather than guessing.
+- 🚨 **A multi-item pull (`whichitem1..10`) is rejected WHOLE if any one item is missing from storage.** ✅ Measured: one
+  item no longer in Hagnk's (*"You haven't got any of that item in your storage"*) made the other nine pull nothing,
+  silently. Verify each batch by inventory delta and the storage page's *"You may take N more items"* line, and
+  re-send the batch without the missing item.
 - 🎉 **RONIN ENDS AT ~1,000 TURNS — CHECK `api.php?what=status` → `roninleft`. When it's 0, the economy transforms:**
   Hagnk's is **fully open (UNLIMITED pulls, no 1/day/item cap, no meat cost to pull)**, and **mall buys go to
   INVENTORY and spend INVENTORY meat** like normal (no more Hagnk's-purse detour). ✅ **First thing after Ronin ends:
