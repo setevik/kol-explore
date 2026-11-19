@@ -24,16 +24,17 @@ Disco Bandit ✅ · **Accordion Thief ▶**. **Create `mechanics/accordion-thief
 skills with prices, class resource, early combat plan). The Moxie guild is shared with the Disco Bandit
 (`guildstore1`), but the trainer rack is the Accordion Thief's own.
 
-## 📊 Character state (end of run #7 Day 3 / 2026-11-18)
+## 📊 Character state (end of run #7 Day 4 / 2026-11-19)
 
-- **Level 6 Accordion Thief** (base Moxie 37 — Level 7 at 40), max HP ~29 (~56 with Power Ballad). 💰 Meat 6,649 on
-  hand; **~10,393 meat still in Hagnk's**. **35 adventures banked**, full 15 · drunk 17 (cap 14).
+- **Level 7 Accordion Thief** (base Moxie 44 — Level 8 at 53), max HP ~35 (~65 with Power Ballad). 💰 Meat 6,442 on
+  hand; **~7,393 meat still in Hagnk's**. **42 adventures banked**, full 15 · drunk 17 (cap 14).
 - 🎽 mariachi hat · stolen accordion · astral shorts · batskin belt · ring of half-assed regeneration · Pine-Fresh air
-  freshener. Crown of the Goblin King, harem veil/pants, DD tools (pole, lockpicks, ring) in inventory.
-- 🗺️ Guild ✅ · Toot ✅ · Larva ✅ · Tavern ✅ · Boss Bat ✅ · **Knob Goblin King ✅ (Day 3)** · **Friars quest active**
-  (Dark Neck: 2 of 4 noncombats seen, no dodecagram yet). Hero keys: **Boris's ✅** (Day 3 DD).
-- Skills bought: L1–6 set (Polka, Accordion Appreciation, Jackasses' Symphony, Concerto de los Muertos).
-- Combat items: water pipe bomb, sake bomb, depantsing bomb (1 each; beer bomb used). Restoratives: garters ×2,
+  freshener. Crown of the Goblin King, harem disguise, DD tools in inventory.
+- 🗺️ Guild ✅ · Toot ✅ · Larva ✅ · Tavern ✅ · Boss Bat ✅ · Knob King ✅ · **Friars ✅ (Day 4)** — Pandamonium open
+  (high-level; Liver of Steel later) · **Cyrpt quest active** (Evilometer in inventory). Hero keys: **Boris's ✅
+  Jarlsberg's ✅**.
+- Skills bought: L1–7 set (+ Fat Leon's Phat Loot Lyric, Five Finger Discount).
+- Combat items: beer bomb, water pipe bomb, sake bomb, depantsing bomb (1 each). Restoratives: garters ×2,
   poultices ×2, Monstar ×2, Magi-Wipes, antidote.
 
 ### 🔓 CAPS & SKILLS THIS RUN
@@ -42,18 +43,21 @@ skills with prices, class resource, early combat plan). The Moxie guild is share
 Pastamastery · Cannelloni Cocoon · Expert Panhandling · **Ambidextrous Funkslinging (NEW — two combat items/round)**.
 ✅ All `(P)` on the charsheet. Guild skills: see Character state.
 
-## 🔜 Next-session priorities — run #7, Day 4
+## 🔜 Next-session priorities — run #7, Day 5
 
 1. Login (`fill_credentials` recipe in HANDOFF). Load engine; `window._openers=[['6029',2]]`; heal = campground rest.
-2. Pulls (20): DD tools are already in inventory. Food (L6 OK: sweet roll, mana curds, gruel + F3 from inventory) ·
-   booze (only 1 martini/margarita were in storage — use backwoods, Manalishi, whiskey sour, daiquiri, screwdriver,
-   gin/vodka/whiskey) · bombs (beer bomb 2350 ×1/day) · a few hundred meat if needed. One missing item rejects a
-   whole pull batch.
-3. Daily Dungeon early (325, `_freeMax=8`) → Jarlsberg's key (row 94).
-4. Harem (259) to Level 7 (base Moxie 40), buy L7 skills (Fat Leon's 6010 → skillid 10, Five Finger Discount 35).
-5. Friars: retry the groves at Level 7; Hellions in the Dark Neck beat L6. Try Dark Heart (540) / Elbow (539) first.
+2. Pulls: food (sweet roll, mana curds, gruel + F3 from inventory) · **Ye Olde Meade 6276 (L7, 5 drunk → 15 adv!)** +
+   backwoods / Manalishi / whiskey sour / daiquiri / screwdriver · beer bomb.
+3. Daily Dungeon early (325, `_freeMax=8`) → **Sneaky Pete's key** (row 95) — the last hero key.
+4. **Cyrpt** (`mechanics/bonerdagon-boss.md`): use the Evilometer, clear the four zones' Evil, then the Bonerdagon
+   (Level 8+ recommended; elemental resistance + Ballad). Level in the Harem / Cyrpt zones as you go.
 
 ## 🗓️ Session log (this run)
+
+- **Run #7 Day 4 (2026-11-19): 🕯️ Friars ritual done, Level 7, Jarlsberg's key — ~75 wins, 0 losses.** 🏦 10 pulls +
+  3,000 meat. 🍽️ sweet roll, mana curds, gruel, brains = 15 (36 adv). 🍺 Ye Olde Meade (15 adv!), backwoods,
+  Manalishi, whiskey sour = 14, daiquiri 17. DD (7 turns) → Jarlsberg's key. Harem 31–0 → L7, L7 skills. Friars:
+  Heart, Elbow, Neck 29–0 → ritual → Cyrpt quest. Harem 11–0 to finish.
 
 - **Run #7 Day 3 (2026-11-18): 👑 Knob Goblin King dead, Level 6, Boris's key — ~90 wins, 2 losses.** 🏦 20 pulls
   (harem disguise, DD tools, food, booze, bombs). 🍽️ sweet roll, mana curds, gruel, brains = 15 (36 adv). 🍺 martini,

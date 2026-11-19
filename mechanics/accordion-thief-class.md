@@ -62,3 +62,5 @@ openers with `window._openers = [['6029',2]]` (see `tools/engine/fight.js`).
   (base 28 → 37 in one day). Drops the disguise pieces and perfume as you go.
 - **Knob Goblin King:** harem disguise + perfume, Power Ballad + Cletus + Madrigal up (max HP 55), then **Accordion
   Bash → two bombs** (`_bombIf=/Knob Goblin King/`) — dead in 2 rounds at Level 6.
+- **Friars groves at Level 7:** keep Power Ballad recast between fights (heal override rests until MP ≥ 12, then
+  casts 6008) and open with Bash → Riff — all three ritual items, 29 wins / 0 losses. At Level 6 Hellions won twice.
