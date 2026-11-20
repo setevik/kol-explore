@@ -122,6 +122,12 @@ in 22 fights and Alcove 50 → 10 in 16 fights + 3 coffins, 0 losses.** The Alco
   died at 45 HP without the phylactery, and the Nook went 50 → 0 in 31 fights with evil eyes. The Niche **157**
   `Check out the second one` is one-time — afterwards it returns a broken-urn page, so switch to `Urn #3`.
 
+✅ **Accordion Thief, Level 7 (max HP ~36, ~66 with Power Ballad recast between fights, Accordion Bash → Dissonant
+Riff, two bombs per round on each room boss via `_bombIf`, Brother Smothers's Blessing for the first ~20 turns):
+Cranny 50 → 0 (25 W) and Alcove 50 → 0 (18 W) in one session, then Niche 50 → 12 (26 W) — 69 wins, 0 losses.**
+Cranny 523 `Open the rattling one` and Alcove 153 `Investigate the fancy coffin` both fine. The Ballad rests cost
+roughly one extra adventure per two fights.
+
 🚨 **THIS IS A LEVEL 9–10 GRIND, NOT A LEVEL 8 ONE — *for a caster*.** ⚠️ **Class-specific:** the numbers
 below were measured on a Pastamancer with ~50 HP. ✅ **Re-measured on a Seal Clubber (L7–8, 128–150 max HP,
 Hide of the Walrus passive): the four sub-zones went 125W / 2L across two days**, ~1 evil per kill, with

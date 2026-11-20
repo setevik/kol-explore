@@ -24,18 +24,18 @@ Disco Bandit ✅ · **Accordion Thief ▶**. **Create `mechanics/accordion-thief
 skills with prices, class resource, early combat plan). The Moxie guild is shared with the Disco Bandit
 (`guildstore1`), but the trainer rack is the Accordion Thief's own.
 
-## 📊 Character state (end of run #7 Day 4 / 2026-11-19)
+## 📊 Character state (end of run #7 Day 5 / 2026-11-20)
 
-- **Level 7 Accordion Thief** (base Moxie 44 — Level 8 at 53), max HP ~35 (~65 with Power Ballad). 💰 Meat 6,442 on
-  hand; **~7,393 meat still in Hagnk's**. **42 adventures banked**, full 15 · drunk 17 (cap 14).
+- **Level 7 Accordion Thief** (base Moxie 52 — Level 8 at 53), max HP ~45 (~75 with Power Ballad). 💰 Meat 9,148 on
+  hand; **~7,393 meat still in Hagnk's**. **33 adventures banked**, full 15 · drunk 17 (cap 14).
 - 🎽 mariachi hat · stolen accordion · astral shorts · batskin belt · ring of half-assed regeneration · Pine-Fresh air
   freshener. Crown of the Goblin King, harem disguise, DD tools in inventory.
-- 🗺️ Guild ✅ · Toot ✅ · Larva ✅ · Tavern ✅ · Boss Bat ✅ · Knob King ✅ · **Friars ✅ (Day 4)** — Pandamonium open
-  (high-level; Liver of Steel later) · **Cyrpt quest active** (Evilometer in inventory). Hero keys: **Boris's ✅
-  Jarlsberg's ✅**.
-- Skills bought: L1–7 set (+ Fat Leon's Phat Loot Lyric, Five Finger Discount).
-- Combat items: beer bomb, water pipe bomb, sake bomb, depantsing bomb (1 each). Restoratives: garters ×2,
-  poultices ×2, Monstar ×2, Magi-Wipes, antidote.
+- 🗺️ … Boss Bat ✅ · Knob King ✅ · Friars ✅ · **Cyrpt in progress: Alcove 0 ✅ · Cranny 0 ✅ · Niche 12 (its boss,
+  the gargantulihc, is next — a plus-sized phylactery is in inventory and kills him outright) · Nook 50.**
+  **Hero keys: Boris's ✅ Jarlsberg's ✅ Sneaky Pete's ✅ (all three).**
+- Skills bought: L1–7 set.
+- Combat items: **none left** (all four bombs spent on room bosses). Restoratives: garters ×2, poultices ×2,
+  Monstar ×2, Magi-Wipes, antidote.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 **Fullness 15 · Booze cap 14 (no Liver of Steel yet) · Spleen 15.**
@@ -43,16 +43,23 @@ skills with prices, class resource, early combat plan). The Moxie guild is share
 Pastamastery · Cannelloni Cocoon · Expert Panhandling · **Ambidextrous Funkslinging (NEW — two combat items/round)**.
 ✅ All `(P)` on the charsheet. Guild skills: see Character state.
 
-## 🔜 Next-session priorities — run #7, Day 5
+## 🔜 Next-session priorities — run #7, Day 6
 
-1. Login (`fill_credentials` recipe in HANDOFF). Load engine; `window._openers=[['6029',2]]`; heal = campground rest.
-2. Pulls: food (sweet roll, mana curds, gruel + F3 from inventory) · **Ye Olde Meade 6276 (L7, 5 drunk → 15 adv!)** +
-   backwoods / Manalishi / whiskey sour / daiquiri / screwdriver · beer bomb.
-3. Daily Dungeon early (325, `_freeMax=8`) → **Sneaky Pete's key** (row 95) — the last hero key.
-4. **Cyrpt** (`mechanics/bonerdagon-boss.md`): use the Evilometer, clear the four zones' Evil, then the Bonerdagon
-   (Level 8+ recommended; elemental resistance + Ballad). Level in the Harem / Cyrpt zones as you go.
+1. Login (`fill_credentials` recipe in HANDOFF). Load engine + the Cyrpt helpers (Ballad heal override, `_cy`
+   chooser, `evil()`, `_bombIf` for room bosses — see `mechanics/bonerdagon-boss.md`).
+2. Pulls: food (sweet roll, mana curds, gruel + brains/baguette) · Meade 6276 + backwoods / Manalishi / gin / vodka /
+   whiskey (whiskey sour and screwdriver are gone from storage) · **bombs: beer 2350, water pipe 2348, sake 2067,
+   depantsing 2397** (one each).
+3. Daily Dungeon (no keys needed — skip unless it pays; hero keys are done).
+4. **Brother Smothers's Blessing** (`friars.php` POST `action=buffs&bro=3`) → Niche: **use the plus-sized phylactery in
+   the gargantulihc fight** → Nook (use evil eyes, −3 each) → **Bonerdagon** at full HP with Ballad (he is a max-HP
+   check, ~46 spooky/round; take Smothers right before `crypt.php?action=heart` → choice 527 option 1).
 
 ## 🗓️ Session log (this run)
+
+- **Run #7 Day 5 (2026-11-20): 🔑 all three hero keys, Cyrpt half cleared — ~73 wins, 0 losses.** 🏦 9 pulls.
+  🍽️ sweet roll, mana curds, gruel, brains = 15 (32 adv). 🍺 Meade, backwoods, Manalishi, gin = 14, vodka 17.
+  DD → Sneaky Pete's key. Smothers → Cranny 25–0 and Alcove 18–0 (both bosses bombed), Niche 26–0 to 12 evil.
 
 - **Run #7 Day 4 (2026-11-19): 🕯️ Friars ritual done, Level 7, Jarlsberg's key — ~75 wins, 0 losses.** 🏦 10 pulls +
   3,000 meat. 🍽️ sweet roll, mana curds, gruel, brains = 15 (36 adv). 🍺 Ye Olde Meade (15 adv!), backwoods,
