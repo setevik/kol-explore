@@ -57,7 +57,7 @@ Pastamastery · Cannelloni Cocoon · Expert Panhandling · **Ambidextrous Funksl
 ## 🗓️ Session log (this run)
 
 - **Run #7 Day 7 (2026-11-22): 🦴 Cyrpt rooms cleared, Level 8, Trapper's ore + cheese in — ~99 wins, 1 loss.** (Day 6 /
-  11-21 went unplayed; its adventures carried over: 119 at login.) 🏦 17 pulls. 🍽️ sweet roll, curds, gruel, baguette = 15
+  11-21 went unplayed; its adventures carried over: 119 at login.) 🏦 16 pulls. 🍽️ sweet roll, curds, gruel, baguette = 15
   (35 adv). 🍺 Meade, backwoods, Manalishi, martini = 14, whiskey 17. Phylactery killed the gargantulihc; Nook 29–0.
   L8 skills. 3 linoleum in 6 digs; Goatlet 69–0. Slope lost once in the cold outfit. No Daily Dungeon.
 
