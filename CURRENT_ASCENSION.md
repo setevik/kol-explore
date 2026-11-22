@@ -24,18 +24,17 @@ Disco Bandit ✅ · **Accordion Thief ▶**. **Create `mechanics/accordion-thief
 skills with prices, class resource, early combat plan). The Moxie guild is shared with the Disco Bandit
 (`guildstore1`), but the trainer rack is the Accordion Thief's own.
 
-## 📊 Character state (end of run #7 Day 5 / 2026-11-20)
+## 📊 Character state (end of run #7 Day 7 / 2026-11-22)
 
-- **Level 7 Accordion Thief** (base Moxie 52 — Level 8 at 53), max HP ~45 (~75 with Power Ballad). 💰 Meat 9,148 on
-  hand; **~7,393 meat still in Hagnk's**. **33 adventures banked**, full 15 · drunk 17 (cap 14).
+- **Level 8 Accordion Thief** (base Moxie 62 — Level 9 at 68), max HP ~53 (~83 with Power Ballad). 💰 Meat 6,689 on
+  hand; **~7,393 meat still in Hagnk's**. **38 adventures banked**, full 15 · drunk 17 (cap 14).
 - 🎽 mariachi hat · stolen accordion · astral shorts · batskin belt · ring of half-assed regeneration · Pine-Fresh air
-  freshener. Crown of the Goblin King, harem disguise, DD tools in inventory.
-- 🗺️ … Boss Bat ✅ · Knob King ✅ · Friars ✅ · **Cyrpt in progress: Alcove 0 ✅ · Cranny 0 ✅ · Niche 12 (its boss,
-  the gargantulihc, is next — a plus-sized phylactery is in inventory and kills him outright) · Nook 50.**
-  **Hero keys: Boris's ✅ Jarlsberg's ✅ Sneaky Pete's ✅ (all three).**
-- Skills bought: L1–7 set.
-- Combat items: **none left** (all four bombs spent on room bosses). Restoratives: garters ×2, poultices ×2,
-  Monstar ×2, Magi-Wipes, antidote.
+  freshener. In pack: Crown of the Goblin King, harem disguise, mining gear, eXtreme Cold-Weather Gear, DD tools.
+- 🗺️ Boss Bat ✅ · Knob King ✅ · Friars ✅ · **Cyrpt: all four rooms clear — only the Bonerdagon remains** ·
+  **Trapper: ore + cheese handed in; eXtreme meter 1 of 3** (Slope lost once in the outfit). All three hero keys ✅.
+- Skills bought: L1–8 set (+ Brawnee's Anthem, Suspicious Gaze).
+- Combat items: **6 Knob Goblin firecrackers**, no bombs on hand. Restoratives: garters ×2, poultices ×2, Monstar ×2,
+  Magi-Wipes, antidote. MP ended low (6/46).
 
 ### 🔓 CAPS & SKILLS THIS RUN
 **Fullness 15 · Booze cap 14 (no Liver of Steel yet) · Spleen 15.**
@@ -43,19 +42,24 @@ skills with prices, class resource, early combat plan). The Moxie guild is share
 Pastamastery · Cannelloni Cocoon · Expert Panhandling · **Ambidextrous Funkslinging (NEW — two combat items/round)**.
 ✅ All `(P)` on the charsheet. Guild skills: see Character state.
 
-## 🔜 Next-session priorities — run #7, Day 6
+## 🔜 Next-session priorities — run #7, Day 8
 
-1. Login (`fill_credentials` recipe in HANDOFF). Load engine + the Cyrpt helpers (Ballad heal override, `_cy`
-   chooser, `evil()`, `_bombIf` for room bosses — see `mechanics/bonerdagon-boss.md`).
-2. Pulls: food (sweet roll, mana curds, gruel + brains/baguette) · Meade 6276 + backwoods / Manalishi / gin / vodka /
-   whiskey (whiskey sour and screwdriver are gone from storage) · **bombs: beer 2350, water pipe 2348, sake 2067,
-   depantsing 2397** (one each).
-3. Daily Dungeon (no keys needed — skip unless it pays; hero keys are done).
-4. **Brother Smothers's Blessing** (`friars.php` POST `action=buffs&bro=3`) → Niche: **use the plus-sized phylactery in
-   the gargantulihc fight** → Nook (use evil eyes, −3 each) → **Bonerdagon** at full HP with Ballad (he is a max-HP
-   check, ~46 spooky/round; take Smothers right before `crypt.php?action=heart` → choice 527 option 1).
+1. Login (`fill_credentials` recipe in HANDOFF). Load engine + `tools/engine/cyrpt.js`; `heal=balladHeal`,
+   `topMP` no-op, `_openers=[['6032',5],['6029',2]]`.
+2. Pulls, **one item per request**: food (sweet roll, gruel + mana curds/F3 in pack) · Meade 6276 + backwoods 6018,
+   Manalishi 7206, then pack booze · **beer bomb 2350, sake bomb 2067, depantsing bomb 2397** · a poultice if useful.
+3. **Bonerdagon first:** full HP/MP, Power Ballad up, **Brother Smothers LAST** (`friars.php` POST `action=buffs&bro=3`),
+   then `crypt.php?action=heart` → choice 527 option 1, Bash → two bombs per round (`_bombIf=/Bonerdagon/`). He has 120
+   HP, acts first and hits ~31–46 spooky. Back to the Council after.
+4. Goatlet (271) to **Level 9 (base Moxie 68)**, buy L9 skills (Psalm 11, Bawdy Refrain 37), then retry the Slope (273).
+5. Daily Dungeon only if it pays: hero keys are done.
 
 ## 🗓️ Session log (this run)
+
+- **Run #7 Day 7 (2026-11-22): 🦴 Cyrpt rooms cleared, Level 8, Trapper's ore + cheese in — ~99 wins, 1 loss.** (Day 6 /
+  11-21 went unplayed; its adventures carried over: 119 at login.) 🏦 17 pulls. 🍽️ sweet roll, curds, gruel, baguette = 15
+  (35 adv). 🍺 Meade, backwoods, Manalishi, martini = 14, whiskey 17. Phylactery killed the gargantulihc; Nook 29–0.
+  L8 skills. 3 linoleum in 6 digs; Goatlet 69–0. Slope lost once in the cold outfit. No Daily Dungeon.
 
 - **Run #7 Day 5 (2026-11-20): 🔑 all three hero keys, Cyrpt half cleared — ~73 wins, 0 losses.** 🏦 9 pulls.
   🍽️ sweet roll, mana curds, gruel, brains = 15 (32 adv). 🍺 Meade, backwoods, Manalishi, gin = 14, vodka 17.

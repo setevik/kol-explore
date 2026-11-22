@@ -7,6 +7,7 @@ node tools/kol-cdp.mjs tools/engine/helpers.js   # G/P/ST/INV, inFight, getChoic
 node tools/kol-cdp.mjs tools/engine/mall.js      # mallPrices(name), mallBuy(id, n, maxPrice, name)
 node tools/kol-cdp.mjs tools/engine/fight.js     # runFight(page,{noSkill}), heal(), topMP(min)
 node tools/kol-cdp.mjs tools/engine/burst.js     # burst(snarf, n, stopFn, chooser), pyrLinks()
+node tools/kol-cdp.mjs tools/engine/cyrpt.js     # optional: evil(), _cy, useEvilEyes(), balladHeal (Accordion Thief)
 ```
 
 `fight.js`'s combat line is the **Disco Bandit dance combo** (5005 → 5008 → 5012, then weapon attacks) — swap

@@ -36,7 +36,8 @@
 | 6 | Concerto de los Muertos | 6034 | Combat, 8 |
 | 7 | Fat Leon's Phat Loot Lyric | 6010 | Buff, 11 (+item) |
 | 7 | Five Finger Discount | 6035 | Passive |
-| later | Brawnee's Anthem 6009 · Psalm of Pointiness 6011 · Stevedave's Shanty 6013 · Ode to Booze 6014 · Sonata of Sneakiness 6015 · Carlweather's Cantata 6016 · Ur-Kel's Aria 6017 · Aloysius' Antiphon 6003 · Suspicious Gaze 6036 · Bawdy Refrain 6037 · Thief Among the Honorable 6038 · Sticky Fingers 6039 · Cone of Zydeco 6040 · Master Accordion Master Thief 6041 · Knowing Smile 6042 · Mariachi Memory 6043 | | |
+| 8 | Brawnee's Anthem of Absorption 6009 · Suspicious Gaze 6036 | | ✅ POST skillid 9 / 36 |
+| later | Psalm of Pointiness 6011 · Stevedave's Shanty 6013 · Ode to Booze 6014 · Sonata of Sneakiness 6015 · Carlweather's Cantata 6016 · Ur-Kel's Aria 6017 · Aloysius' Antiphon 6003 · Bawdy Refrain 6037 · Thief Among the Honorable 6038 · Sticky Fingers 6039 · Cone of Zydeco 6040 · Master Accordion Master Thief 6041 · Knowing Smile 6042 · Mariachi Memory 6043 | | |
 
 ## Combat at Levels 1–4
 

@@ -128,6 +128,11 @@ Cranny 50 → 0 (25 W) and Alcove 50 → 0 (18 W) in one session, then Niche 50 
 Cranny 523 `Open the rattling one` and Alcove 153 `Investigate the fancy coffin` both fine. The Ballad rests cost
 roughly one extra adventure per two fights.
 
+✅ **Same Accordion Thief, finishing the rooms:** the **plus-sized phylactery + a firecracker** killed the gargantulihc
+in one fight, and the Nook went 50 → clear in 29 wins + 3 evil eyes, 0 losses, with the giant skeelton dying to
+Bash → two bombs. `tools/engine/cyrpt.js` holds the helpers. The clear reads `Haert: 999`, and the burst loop's
+free-encounter guard stops there because the room no longer gives fights.
+
 🚨 **THIS IS A LEVEL 9–10 GRIND, NOT A LEVEL 8 ONE — *for a caster*.** ⚠️ **Class-specific:** the numbers
 below were measured on a Pastamancer with ~50 HP. ✅ **Re-measured on a Seal Clubber (L7–8, 128–150 max HP,
 Hide of the Walrus passive): the four sub-zones went 125W / 2L across two days**, ~1 evil per kill, with

@@ -82,6 +82,11 @@ eXtreme Cold-Weather Gear, 1 linoleum ore and goat cheese** — Phases 1–2 the
 ~13 Slope fights** (Sauceror, Level 8, 0 losses), and Phase 2 completed **the moment the ore and cheese were handed
 in** while wearing nothing special.
 
+✅ **Moxie class at Level 8:** storage mining gear → **3 linoleum in 6 promising digs**; the **Goatlet went 69–0** on
+Accordion Bash → Riff with Power Ballad (also ~11 raw Moxie per turn, a strong Level 8 grind).
+🚨 **The cold outfit replaces a Moxie class's hat and pants, and the Slope then beats it at Level 8:** first fight lost,
+at max HP ~55. Level up before wearing it there; *Discovering Your Extremity* still fires on the first outfit turn.
+
 ## Phase 3 — the Mist-Shrouded Peak & Groar
 
 - ⚠️ The peak link is `place.php?whichplace=mclargehuge&action=cloudypeak2` **(cloudypeak2, not cloudypeak —
