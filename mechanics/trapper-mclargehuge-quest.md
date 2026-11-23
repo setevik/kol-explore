@@ -87,6 +87,9 @@ Accordion Bash → Riff with Power Ballad (also ~11 raw Moxie per turn, a strong
 🚨 **The cold outfit replaces a Moxie class's hat and pants, and the Slope then beats it at Level 8:** first fight lost,
 at max HP ~55. Level up before wearing it there; *Discovering Your Extremity* still fires on the first outfit turn.
 
+✅ **The same Moxie class at Level 9 cleared the Slope in the outfit: 22 wins, 0 losses** with Power Ballad + Madrigal
+kept up. Meter 1 → 3 took 11 fights, and the `cloudypeak` visit then exposed `cloudypeak2`.
+
 ## Phase 3 — the Mist-Shrouded Peak & Groar
 
 - ⚠️ The peak link is `place.php?whichplace=mclargehuge&action=cloudypeak2` **(cloudypeak2, not cloudypeak —

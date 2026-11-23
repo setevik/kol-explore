@@ -133,6 +133,9 @@ in one fight, and the Nook went 50 → clear in 29 wins + 3 evil eyes, 0 losses,
 Bash → two bombs. `tools/engine/cyrpt.js` holds the helpers. The clear reads `Haert: 999`, and the burst loop's
 free-encounter guard stops there because the room no longer gives fights.
 
+✅ **Accordion Thief, Level 8 (max HP 84 with Power Ballad, buffed Moxie ~92, Madrigal + Cletus, Brother Smothers cast
+last): dead in 2 rounds** — Accordion Bash stun, then beer bomb + sake bomb in one Funkslinging throw.
+
 🚨 **THIS IS A LEVEL 9–10 GRIND, NOT A LEVEL 8 ONE — *for a caster*.** ⚠️ **Class-specific:** the numbers
 below were measured on a Pastamancer with ~50 HP. ✅ **Re-measured on a Seal Clubber (L7–8, 128–150 max HP,
 Hide of the Walrus passive): the four sub-zones went 125W / 2L across two days**, ~1 evil per kill, with

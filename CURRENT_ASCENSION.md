@@ -24,17 +24,18 @@ Disco Bandit ✅ · **Accordion Thief ▶**. **Create `mechanics/accordion-thief
 skills with prices, class resource, early combat plan). The Moxie guild is shared with the Disco Bandit
 (`guildstore1`), but the trainer rack is the Accordion Thief's own.
 
-## 📊 Character state (end of run #7 Day 7 / 2026-11-22)
+## 📊 Character state (end of run #7 Day 8 / 2026-11-23)
 
-- **Level 8 Accordion Thief** (base Moxie 62 — Level 9 at 68), max HP ~53 (~83 with Power Ballad). 💰 Meat 6,689 on
-  hand; **~7,393 meat still in Hagnk's**. **38 adventures banked**, full 15 · drunk 17 (cap 14).
+- **Level 9 Accordion Thief** (base Moxie 70 — Level 10 at 85), max HP ~60 (~90 with Power Ballad). 💰 Meat 5,633 on
+  hand; **7,393 meat in Hagnk's**. **62 adventures banked**, full 15 · drunk 20 (cap 14).
 - 🎽 mariachi hat · stolen accordion · astral shorts · batskin belt · ring of half-assed regeneration · Pine-Fresh air
-  freshener. In pack: Crown of the Goblin King, harem disguise, mining gear, eXtreme Cold-Weather Gear, DD tools.
-- 🗺️ Boss Bat ✅ · Knob King ✅ · Friars ✅ · **Cyrpt: all four rooms clear — only the Bonerdagon remains** ·
-  **Trapper: ore + cheese handed in; eXtreme meter 1 of 3** (Slope lost once in the outfit). All three hero keys ✅.
-- Skills bought: L1–8 set (+ Brawnee's Anthem, Suspicious Gaze).
-- Combat items: **6 Knob Goblin firecrackers**, no bombs on hand. Restoratives: garters ×2, poultices ×2, Monstar ×2,
-  Magi-Wipes, antidote. MP ended low (6/46).
+  freshener. In pack: skull of the Bonerdagon, Crown of the Goblin King, harem disguise, mining gear, eXtreme
+  Cold-Weather Gear, DD tools.
+- 🗺️ Boss Bat ✅ · Knob King ✅ · Friars ✅ · **Bonerdagon ✅ (Day 8)** · **Trapper: `cloudypeak2` open — 3 Knott Yetis, then
+  Groar (Def 108, never misses)** · **L9 Black Angus / Orc Chasm quest active** (bridge not started). All three hero keys ✅.
+- Skills bought: L1–9 set (+ Psalm of Pointiness, Bawdy Refrain).
+- Combat items: 6 Knob Goblin firecrackers + 1 depantsing bomb. Restoratives:
+  garters ×2, poultices ×2, Magi-Wipes, antidote; soda/Monstar 0. MP ended low (12/53).
 
 ### 🔓 CAPS & SKILLS THIS RUN
 **Fullness 15 · Booze cap 14 (no Liver of Steel yet) · Spleen 15.**
@@ -42,19 +43,21 @@ skills with prices, class resource, early combat plan). The Moxie guild is share
 Pastamastery · Cannelloni Cocoon · Expert Panhandling · **Ambidextrous Funkslinging (NEW — two combat items/round)**.
 ✅ All `(P)` on the charsheet. Guild skills: see Character state.
 
-## 🔜 Next-session priorities — run #7, Day 8
+## 🔜 Next-session priorities — run #7, Day 9
 
-1. Login (`fill_credentials` recipe in HANDOFF). Load engine + `tools/engine/cyrpt.js`; `heal=balladHeal`,
-   `topMP` no-op, `_openers=[['6032',5],['6029',2]]`.
-2. Pulls, **one item per request**: food (sweet roll, gruel + mana curds/F3 in pack) · Meade 6276 + backwoods 6018,
-   Manalishi 7206, then pack booze · **beer bomb 2350, sake bomb 2067, depantsing bomb 2397** · a poultice if useful.
-3. **Bonerdagon first:** full HP/MP, Power Ballad up, **Brother Smothers LAST** (`friars.php` POST `action=buffs&bro=3`),
-   then `crypt.php?action=heart` → choice 527 option 1, Bash → two bombs per round (`_bombIf=/Bonerdagon/`). He has 120
-   HP, acts first and hits ~31–46 spooky. Back to the Council after.
-4. Goatlet (271) to **Level 9 (base Moxie 68)**, buy L9 skills (Psalm 11, Bawdy Refrain 37), then retry the Slope (273).
-5. Daily Dungeon only if it pays: hero keys are done.
+1. Login (`fill_credentials` recipe in HANDOFF). Load engine + `tools/engine/cyrpt.js`; `topMP` no-op,
+   `_openers=[['6032',5],['6029',2]]`, Ballad + Madrigal heal override.
+2. Pulls, **one item per request**: sweet roll (1 left), gruel, curds + F3 · Meade 6276, corpse on the beach 3025,
+   corpsedriver 3027 (1 left), backwoods 6018 · beer 2350, sake 2067 · meat as needed.
+3. **Orc Chasm** (`mechanics/orc-chasm-and-highlands.md`): Logging Camp 295 (rec. 75), 30 lumber + 30 fasteners; scrape the
+   `bridge<N>` action. Good Moxie XP toward Level 10 (base 85).
+4. **Groar waits** for buffed Moxie well above his Defense 108 *in the outfit* (68 unbuffed there now) and more HP.
 
 ## 🗓️ Session log (this run)
+
+- **Run #7 Day 8 (2026-11-23): 🐉 Bonerdagon dead, Level 9, peak open — 75 wins, 0 losses.** 🏦 9 pulls. 🍽️ sweet roll,
+  curds, gruel, baguette = 15 (34 adv). 🍺 Meade, corpsedriver, backwoods = 14, corpsetini 20 (62 adv). Bonerdagon in 2
+  rounds (Bash + two bombs), chest + Goatlet took meat 6.7k → 12.7k. Goatlet 52–0 → L9, L9 skills. Slope 22–0, meter 3, `cloudypeak2`.
 
 - **Run #7 Day 7 (2026-11-22): 🦴 Cyrpt rooms cleared, Level 8, Trapper's ore + cheese in — ~99 wins, 1 loss.** (Day 6 /
   11-21 went unplayed; its adventures carried over: 119 at login.) 🏦 16 pulls. 🍽️ sweet roll, curds, gruel, baguette = 15

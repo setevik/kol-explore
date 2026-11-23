@@ -260,3 +260,9 @@ whole point of cap for nothing.
 
 ⚠️ **Don't invent mixer recipes.** `bottle of rum + soda water` answers *"Those two items don't combine to make a
 refreshing cocktail"* — ✅ but **nothing is consumed**, so a failed craft costs nothing and is safe to probe.
+
+## Measured: high-potency Level 5 drinks
+
+✅ At the 14 cap, **corpsedriver (3027, 6 drunk, Level 5) gave 19 adventures**, and **corpsetini (3026, 6 drunk, Level 5)
+as the single overdrink gave 20**. That matches Ye Olde Meade's ~3.2 adventures per drunk (5 drunk → 16), and a size-6
+overdrink banks far more than a size-3 one for the same "one drink past the cap".
