@@ -62,6 +62,8 @@ non-pervert orcs with **cold** damage 15 points' worth opens the *Blech House* n
 carried-in keepsake box included).
 ✅ Disco Bandit, Level 9 (dance combo + daily knife, loadstone off-hand, no keepsake boxes): **72 fights, 0 losses
 → bridge built**.
+✅ Accordion Thief, Level 9 (Accordion Bash → Dissonant Riff, Power Ballad + Madrigal kept up, one keepsake box pulled
+from storage): **75 fights, 0 losses → bridge built.** Oil Peak right after: 24 slicks, 0 losses.
 **Combat note:** smut orcs are ML 69, 69 HP, **no elemental alignment** — a plain Cannelloni grind handles them.
 Measured: **40 fights, 0 losses** at base Mys ~236.
 

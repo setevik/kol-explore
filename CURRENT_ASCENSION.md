@@ -24,18 +24,18 @@ Disco Bandit ✅ · **Accordion Thief ▶**. **Create `mechanics/accordion-thief
 skills with prices, class resource, early combat plan). The Moxie guild is shared with the Disco Bandit
 (`guildstore1`), but the trainer rack is the Accordion Thief's own.
 
-## 📊 Character state (end of run #7 Day 8 / 2026-11-23)
+## 📊 Character state (end of run #7 Day 9 / 2026-11-24)
 
-- **Level 9 Accordion Thief** (base Moxie 70 — Level 10 at 85), max HP ~60 (~90 with Power Ballad). 💰 Meat 5,633 on
-  hand; **7,393 meat in Hagnk's**. **62 adventures banked**, full 15 · drunk 20 (cap 14).
+- **Level 9 Accordion Thief** (base Moxie 78 — Level 10 at 85), max HP ~95 (with Power Ballad). 💰 Meat 8,274 on hand;
+  **7,393 meat in Hagnk's**. **61 adventures banked**, full 15 · drunk 20 (cap 14).
 - 🎽 mariachi hat · stolen accordion · astral shorts · batskin belt · ring of half-assed regeneration · Pine-Fresh air
   freshener. In pack: skull of the Bonerdagon, Crown of the Goblin King, harem disguise, mining gear, eXtreme
-  Cold-Weather Gear, DD tools.
-- 🗺️ Boss Bat ✅ · Knob King ✅ · Friars ✅ · **Bonerdagon ✅ (Day 8)** · **Trapper: `cloudypeak2` open — 3 Knott Yetis, then
-  Groar (Def 108, never misses)** · **L9 Black Angus / Orc Chasm quest active** (bridge not started). All three hero keys ✅.
-- Skills bought: L1–9 set (+ Psalm of Pointiness, Bawdy Refrain).
-- Combat items: 6 Knob Goblin firecrackers + 1 depantsing bomb. Restoratives:
-  garters ×2, poultices ×2, Magi-Wipes, antidote; soda/Monstar 0. MP ended low (12/53).
+  Cold-Weather Gear, DD tools, 24 bubblin' crude.
+- 🗺️ Boss Bat ✅ · Knob King ✅ · Friars ✅ · Bonerdagon ✅ · **Orc Chasm bridge ✅ (Day 9)** · **Highlands: lord talked to;
+  Oil Peak 24 of 49 slicks; A-boo and Twin untouched** · **Trapper: Groar waits at `cloudypeak2`** (needs buffed Moxie
+  well above Def 108 in the outfit). All three hero keys ✅.
+- Combat items: beer bomb, sake bomb, depantsing bomb (1 each), 6 Knob Goblin firecrackers. Restoratives: Monstar ×1,
+  garters ×2, poultices ×2, Magi-Wipes, antidote. MP ended low (6/59).
 
 ### 🔓 CAPS & SKILLS THIS RUN
 **Fullness 15 · Booze cap 14 (no Liver of Steel yet) · Spleen 15.**
@@ -43,17 +43,21 @@ skills with prices, class resource, early combat plan). The Moxie guild is share
 Pastamastery · Cannelloni Cocoon · Expert Panhandling · **Ambidextrous Funkslinging (NEW — two combat items/round)**.
 ✅ All `(P)` on the charsheet. Guild skills: see Character state.
 
-## 🔜 Next-session priorities — run #7, Day 9
+## 🔜 Next-session priorities — run #7, Day 10
 
-1. Login (`fill_credentials` recipe in HANDOFF). Load engine + `tools/engine/cyrpt.js`; `topMP` no-op,
-   `_openers=[['6032',5],['6029',2]]`, Ballad + Madrigal heal override.
-2. Pulls, **one item per request**: sweet roll (1 left), gruel, curds + F3 · Meade 6276, corpse on the beach 3025,
-   corpsedriver 3027 (1 left), backwoods 6018 · beer 2350, sake 2067 · meat as needed.
-3. **Orc Chasm** (`mechanics/orc-chasm-and-highlands.md`): Logging Camp 295 (rec. 75), 30 lumber + 30 fasteners; scrape the
-   `bridge<N>` action. Good Moxie XP toward Level 10 (base 85).
-4. **Groar waits** for buffed Moxie well above his Defense 108 *in the outfit* (68 unbuffed there now) and more HP.
+1. Login (`fill_credentials` recipe in HANDOFF). Load engine; `topMP` no-op, `_openers=[['6032',5],['6029',2]]`,
+   Ballad + Madrigal heal override.
+2. Pulls, one item per request. **Food:** sweet roll is gone — gruel 6415, mana curds 6416, giant heirloom grape tomato
+   6281 (F5), + an F3 from the pack. **Booze:** the corpse drinks are gone — Meade 6276 (5), open sauce 6274 (4, L7),
+   backwoods 6018 (3), limoncello 6036 (2) = 14, then one D3 overdrink from the pack. A keepsake box 5788 only if useful.
+3. **Oil Peak (298):** 25 more slicks → lit. Then A-boo Peak (296) / Twin Peak (297) per `mechanics/orc-chasm-and-highlands.md`.
+4. Level 10 at base Moxie 85 → buy L10 skills (Stevedave's Shanty 13, Thief Among the Honorable 38). Groar after.
 
 ## 🗓️ Session log (this run)
+
+- **Run #7 Day 9 (2026-11-24): 🌉 Orc Chasm bridged, Highlands open — 99 wins, 0 losses.** 🏦 10 pulls. 🍽️ sweet roll,
+  curds, gruel, baguette = 15 (37 adv). 🍺 Meade, corpse on the beach, backwoods = 14, corpsedriver 20 (61 adv).
+  Keepsake box + Logging Camp 75–0 → bridge. Highland lord met. Oil Peak 24–0.
 
 - **Run #7 Day 8 (2026-11-23): 🐉 Bonerdagon dead, Level 9, peak open — 75 wins, 0 losses.** 🏦 9 pulls. 🍽️ sweet roll,
   curds, gruel, baguette = 15 (34 adv). 🍺 Meade, corpsedriver, backwoods = 14, corpsetini 20 (62 adv). Bonerdagon in 2
