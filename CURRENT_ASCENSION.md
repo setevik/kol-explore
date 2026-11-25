@@ -24,18 +24,17 @@ Disco Bandit ✅ · **Accordion Thief ▶**. **Create `mechanics/accordion-thief
 skills with prices, class resource, early combat plan). The Moxie guild is shared with the Disco Bandit
 (`guildstore1`), but the trainer rack is the Accordion Thief's own.
 
-## 📊 Character state (end of run #7 Day 9 / 2026-11-24)
+## 📊 Character state (end of run #7 Day 10 / 2026-11-25)
 
-- **Level 9 Accordion Thief** (base Moxie 78 — Level 10 at 85), max HP ~95 (with Power Ballad). 💰 Meat 8,274 on hand;
-  **7,393 meat in Hagnk's**. **61 adventures banked**, full 15 · drunk 20 (cap 14).
-- 🎽 mariachi hat · stolen accordion · astral shorts · batskin belt · ring of half-assed regeneration · Pine-Fresh air
-  freshener. In pack: skull of the Bonerdagon, Crown of the Goblin King, harem disguise, mining gear, eXtreme
-  Cold-Weather Gear, DD tools, 24 bubblin' crude.
-- 🗺️ Boss Bat ✅ · Knob King ✅ · Friars ✅ · Bonerdagon ✅ · **Orc Chasm bridge ✅ (Day 9)** · **Highlands: lord talked to;
-  Oil Peak 24 of 49 slicks; A-boo and Twin untouched** · **Trapper: Groar waits at `cloudypeak2`** (needs buffed Moxie
-  well above Def 108 in the outfit). All three hero keys ✅.
-- Combat items: beer bomb, sake bomb, depantsing bomb (1 each), 6 Knob Goblin firecrackers. Restoratives: Monstar ×1,
-  garters ×2, poultices ×2, Magi-Wipes, antidote. MP ended low (6/59).
+- **Level 10 Accordion Thief** (base Moxie 85 — Level 11 at 104), max HP ~100 (with Power Ballad). 💰 **Meat 31,929**
+  (Hagnk's emptied). **56 adventures banked**, full 15 · drunk 19 (cap 14).
+- ⭐ **RONIN IS OVER** (`roninleft` 0): the whole estate is in inventory, and the mall delivers to inventory.
+- 🎽 mariachi hat · stolen accordion (2-handed) · astral shorts · batskin belt · ring of half-assed regeneration · Pine-Fresh
+  air freshener. Also: diamond-studded cane + oil lamp (A-boo kit), oil slacks (+20% init), Crown, eXtreme gear, etc.
+- 🗺️ Boss Bat ✅ · Knob King ✅ · Friars ✅ · Bonerdagon ✅ · Orc Chasm ✅ · **Highlands: Oil Peak ✅ · A-boo Peak ✅ · Twin
+  Peak: jar step ✅, ~20 turns in (50-turn Cabin Fever fallback, or the stench/+item/+init steps)** · **Trapper: Groar
+  waits** · **L10 garbage / beanstalk quest active.** All three hero keys ✅.
+- Skills bought: L1–10 set (+ Stevedave's Shanty, Thief Among the Honorable).
 
 ### 🔓 CAPS & SKILLS THIS RUN
 **Fullness 15 · Booze cap 14 (no Liver of Steel yet) · Spleen 15.**
@@ -43,17 +42,23 @@ skills with prices, class resource, early combat plan). The Moxie guild is share
 Pastamastery · Cannelloni Cocoon · Expert Panhandling · **Ambidextrous Funkslinging (NEW — two combat items/round)**.
 ✅ All `(P)` on the charsheet. Guild skills: see Character state.
 
-## 🔜 Next-session priorities — run #7, Day 10
+## 🔜 Next-session priorities — run #7, Day 11
 
-1. Login (`fill_credentials` recipe in HANDOFF). Load engine; `topMP` no-op, `_openers=[['6032',5],['6029',2]]`,
-   Ballad + Madrigal heal override.
-2. Pulls, one item per request. **Food:** sweet roll is gone — gruel 6415, mana curds 6416, giant heirloom grape tomato
-   6281 (F5), + an F3 from the pack. **Booze:** the corpse drinks are gone — Meade 6276 (5), open sauce 6274 (4, L7),
-   backwoods 6018 (3), limoncello 6036 (2) = 14, then one D3 overdrink from the pack. A keepsake box 5788 only if useful.
-3. **Oil Peak (298):** 25 more slicks → lit. Then A-boo Peak (296) / Twin Peak (297) per `mechanics/orc-chasm-and-highlands.md`.
-4. Level 10 at base Moxie 85 → buy L10 skills (Stevedave's Shanty 13, Thief Among the Honorable 38). Groar after.
+1. Login (`fill_credentials` recipe in HANDOFF). Load engine; `topMP` no-op (or real MP restoratives now — buy from the
+   mall), `_openers=[['6032',5],['6029',2]]`, Ballad + Madrigal heal override.
+2. **No pull limits now.** Food: best adventures per fullness from inventory/mall (see `mechanics/eating-strategy.md`).
+   Booze: **Ye Olde Meade ×2 + open sauce = 14, then one Meade** (13 Meade in pack).
+3. **Twin Peak (297):** either buy stench resistance ≥4, +50% item and +40% init and clear the lodge, or keep going to
+   the 50-turn *Cabin Fever* (618 → `Burn this…`). Then the Highland lord.
+4. **Groar** with mall potions (Moxie / HP) in the cold outfit; the L10 beanstalk quest (`giant-castle-quest.md`).
+5. Use the meat: MP restoratives, Level 11 skills at base Moxie 104.
 
 ## 🗓️ Session log (this run)
+
+- **Run #7 Day 10 (2026-11-25): 🔥 two signal fires lit, Ronin over, Level 10 — ~68 wins, 0 losses.** 🏦 7 pulls.
+  🍽️ grape tomato, curds, gruel, cottage cheese = 15 (33 adv). Oil Peak lit (25–0); lamp, jar and slacks from crude.
+  A-boo lit with cane + lamp (4 Horrors). **Ronin ended** → estate pulled (612 stacks + 7,393 meat), surplus sold +25,194.
+  Twin Peak 20–0 with the jar step. 🍺 Meade ×2 + open sauce = 14, Meade 19. L10 skills.
 
 - **Run #7 Day 9 (2026-11-24): 🌉 Orc Chasm bridged, Highlands open — 99 wins, 0 losses.** 🏦 10 pulls. 🍽️ sweet roll,
   curds, gruel, baguette = 15 (37 adv). 🍺 Meade, corpse on the beach, backwoods = 14, corpsedriver 20 (61 adv).

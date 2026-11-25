@@ -7,6 +7,7 @@ node tools/kol-cdp.mjs tools/engine/helpers.js   # G/P/ST/INV, inFight, getChoic
 node tools/kol-cdp.mjs tools/engine/mall.js      # mallPrices(name), mallBuy(id, n, maxPrice, name)
 node tools/kol-cdp.mjs tools/engine/fight.js     # runFight(page,{noSkill}), heal(), topMP(min)
 node tools/kol-cdp.mjs tools/engine/burst.js     # burst(snarf, n, stopFn, chooser), pyrLinks()
+node tools/kol-cdp.mjs tools/engine/estate.js    # post-Ronin: pullAll(), sellPlan(keep, protectRe), sellPlanRun(plan)
 node tools/kol-cdp.mjs tools/engine/cyrpt.js     # optional: evil(), _cy, useEvilEyes(), balladHeal (Accordion Thief)
 ```
 

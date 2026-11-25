@@ -168,6 +168,12 @@ The wall comes down the moment you carry **elemental damage that isn't spooky**.
 they dropped.** 🐛 *The Horror…* (611) is one choice number for every round, so a loop that stops on "same choice
 twice" must exempt 611; each round's labels change (*Talk to the Ghosts* → *Try to Talk Some Sense in…*).
 
+✅ **Accordion Thief, Level 9:** the stolen accordion is **two-handed**, so the lamp needs a one-handed weapon —
+a **diamond-studded cane** + oil lamp with Dissonant Riff + plain attacks lit A-boo in ~50 turns, 0 losses, 4 clues used.
+🐛 **`burst()` answers ONE round of 611 and returns** — the encounter is left open, and every later action (rests
+included) silently does nothing, so a loop reads "cannot heal" forever. After each A-boo adventure, keep answering
+611 with the non-Flee option until `choice.php` stops showing it.
+
 #### ⭐ *The Horror…* is worth ~4× a ghost — spend clues, but stop before the peak is done
 
 Using an **A-Boo clue** (`inv_use.php?which=3&whichitem=5964&pwd=<hash>`) makes your **next** A-boo adventure
@@ -243,6 +249,9 @@ gated on stats/buffs and can be done in any order; the fourth only appears once 
 `Cabin Fever` noncombat appears and lets you burn the lodge down and light the beacon.** That makes Twin Peak a
 guaranteed ~50-turn completion for an under-geared character — but see the warning below about *how* those 50
 turns get spent.
+
+✅ **Accordion Thief, Level 9–10 (base Moxie 83, Bash → Riff, normal pants): 20 Twin Peak fights, 0 losses**, jar
+step done on the first lodge visit. Unlike the Disco Bandit above, the twins were not a problem.
 
 #### ✅ Verified in-game — choice numbers and the exact flow
 

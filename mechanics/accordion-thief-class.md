@@ -38,7 +38,8 @@
 | 7 | Five Finger Discount | 6035 | Passive |
 | 8 | Brawnee's Anthem of Absorption 6009 · Suspicious Gaze 6036 | | ✅ POST skillid 9 / 36 |
 | 9 | Psalm of Pointiness 6011 · Bawdy Refrain 6037 | | ✅ POST skillid 11 / 37 |
-| later | Stevedave's Shanty 6013 · Ode to Booze 6014 · Sonata of Sneakiness 6015 · Carlweather's Cantata 6016 · Ur-Kel's Aria 6017 · Aloysius' Antiphon 6003 · Thief Among the Honorable 6038 · Sticky Fingers 6039 · Cone of Zydeco 6040 · Master Accordion Master Thief 6041 · Knowing Smile 6042 · Mariachi Memory 6043 | | |
+| 10 | Stevedave's Shanty 6013 · Thief Among the Honorable 6038 | | ✅ POST skillid 13 / 38 |
+| later | Ode to Booze 6014 · Sonata of Sneakiness 6015 · Carlweather's Cantata 6016 · Ur-Kel's Aria 6017 · Aloysius' Antiphon 6003 · Sticky Fingers 6039 · Cone of Zydeco 6040 · Master Accordion Master Thief 6041 · Knowing Smile 6042 · Mariachi Memory 6043 | | |
 
 ## Combat at Levels 1–4
 
@@ -68,3 +69,5 @@ openers with `window._openers = [['6029',2]]` (see `tools/engine/fight.js`).
   casts 6008) and open with Bash → Riff — all three ritual items, 29 wins / 0 losses. At Level 6 Hellions won twice.
 - **Song limit:** with Ballad, Madrigal and Cletus running, a fourth song (Brawnee's Anthem) did not land. Expect to
   hold **three songs at once** and choose them for the fight.
+- ⚠️ **The stolen accordion is two-handed** — no off-hand. For an off-hand item (the oil lamp at A-boo Peak) swap to a
+  one-handed weapon and lose the accordion skills (Accordion Bash needs an accordion; Dissonant Riff does not).

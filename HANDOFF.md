@@ -291,6 +291,9 @@ Before farming meat for hours, check these — they found 2,749 meat in minutes 
    on all of them, 0 missing prices**, and spot-checks hit *suntan lotion 150 · canopic jar 87 · ketchup hound 120
    · PADL Phone 100* exactly. ⇒ **This replaces per-item wiki lookups entirely** — the sell page already knows
    every price you own.
+   ✅ **`tools/engine/estate.js` does the whole raid:** `pullAll()` (every stack + Hagnk's meat) → `sellPlan(3, protectRe)`
+   (keep 3, skip consumables and protected names) → `sellPlanRun(plan)`. ✅ Measured: 612 stacks pulled, 78 stacks sold
+   for 25,194 meat, 0 adventures.
    ✅ **Pull the whole estate in batches when Ronin ends:** `storage.php?action=pull` accepts **`whichitem1..10` /
    `howmany1..10` in one request** (✅ 657 stacks emptied in 66 requests). Read `api.php?what=storage` for the
    `{id: qty}` list first.
