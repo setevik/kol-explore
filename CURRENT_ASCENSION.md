@@ -24,17 +24,16 @@ Disco Bandit ✅ · **Accordion Thief ▶**. **Create `mechanics/accordion-thief
 skills with prices, class resource, early combat plan). The Moxie guild is shared with the Disco Bandit
 (`guildstore1`), but the trainer rack is the Accordion Thief's own.
 
-## 📊 Character state (end of run #7 Day 10 / 2026-11-25)
+## 📊 Character state (end of run #7 Day 11 / 2026-11-26)
 
-- **Level 10 Accordion Thief** (base Moxie 85 — Level 11 at 104), max HP ~100 (with Power Ballad). 💰 **Meat 31,929**
-  (Hagnk's emptied). **56 adventures banked**, full 15 · drunk 19 (cap 14).
-- ⭐ **RONIN IS OVER** (`roninleft` 0): the whole estate is in inventory, and the mall delivers to inventory.
+- **Level 10 Accordion Thief** (base Moxie 99 — Level 11 at 104), max HP ~77 (~110 with Power Ballad). 💰 Meat 11,859.
+  **52 adventures banked**, full 15 · drunk 19 (cap 14). Ronin over (mall → inventory).
 - 🎽 mariachi hat · stolen accordion (2-handed) · astral shorts · batskin belt · ring of half-assed regeneration · Pine-Fresh
-  air freshener. Also: diamond-studded cane + oil lamp (A-boo kit), oil slacks (+20% init), Crown, eXtreme gear, etc.
-- 🗺️ Boss Bat ✅ · Knob King ✅ · Friars ✅ · Bonerdagon ✅ · Orc Chasm ✅ · **Highlands: Oil Peak ✅ · A-boo Peak ✅ · Twin
-  Peak: jar step ✅, ~20 turns in (50-turn Cabin Fever fallback, or the stench/+item/+init steps)** · **Trapper: Groar
-  waits** · **L10 garbage / beanstalk quest active.** All three hero keys ✅.
-- Skills bought: L1–10 set (+ Stevedave's Shanty, Thief Among the Honorable).
+  air freshener. Pack: fuzzy montera (Trapper reward), giant discarded torn-up glove (trash reward), S.O.C.K., amulet /
+  umbrella / wig, cane + oil lamp, cold outfit, 11 tiny houses, ~10 Meade, combat items (bombs, firecrackers).
+- 🗺️ **Council quests through Level 10 all done:** Boss Bat · Knob King · Friars · Bonerdagon · **Trapper ✅ (Groar)** ·
+  **Highlands ✅ (all three fires)** · **Giant Trash ✅**. Next: **Level 11 MacGuffin** at Level 11. Hero keys ✅ (3).
+- Skills bought: L1–10 set.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 **Fullness 15 · Booze cap 14 (no Liver of Steel yet) · Spleen 15.**
@@ -42,18 +41,22 @@ skills with prices, class resource, early combat plan). The Moxie guild is share
 Pastamastery · Cannelloni Cocoon · Expert Panhandling · **Ambidextrous Funkslinging (NEW — two combat items/round)**.
 ✅ All `(P)` on the charsheet. Guild skills: see Character state.
 
-## 🔜 Next-session priorities — run #7, Day 11
+## 🔜 Next-session priorities — run #7, Day 12
 
-1. Login (`fill_credentials` recipe in HANDOFF). Load engine; `topMP` no-op (or real MP restoratives now — buy from the
-   mall), `_openers=[['6032',5],['6029',2]]`, Ballad + Madrigal heal override.
-2. **No pull limits now.** Food: best adventures per fullness from inventory/mall (see `mechanics/eating-strategy.md`).
-   Booze: **Ye Olde Meade ×2 + open sauce = 14, then one Meade** (13 Meade in pack).
-3. **Twin Peak (297):** either buy stench resistance ≥4, +50% item and +40% init and clear the lodge, or keep going to
-   the 50-turn *Cabin Fever* (618 → `Burn this…`). Then the Highland lord.
-4. **Groar** with mall potions (Moxie / HP) in the cold outfit; the L10 beanstalk quest (`giant-castle-quest.md`).
-5. Use the meat: MP restoratives, Level 11 skills at base Moxie 104.
+1. Login (`fill_credentials` recipe in HANDOFF; if it times out, ask for the Touch ID approval and then just submit).
+   Load engine; `_openers=[['6032',5],['6029',2]]`; default heal (Cocoon / tiny house).
+2. Eat: **3 herbal stuffing (mall, L7) + 3 later tots** (~65 adv). Drink: **Meade ×2 + 2 popskull = 14, then one Meade.**
+3. **5 more base Moxie → Level 11** (Slope 273 in normal gear, 56–0), buy L11 skills (Sticky Fingers 39, Aloysius' 3).
+4. **Level 11 MacGuffin quest** (`mechanics/macguffin-quest.md`): the Council's diary, Black Market, desert/pyramid,
+   Spookyraven, hidden city. Buy the HP potion set for anything that hits hard (Ferrigno's + tomato juice).
 
 ## 🗓️ Session log (this run)
+
+- **Run #7 Day 11 (2026-11-26): 🏔️ Groar, Twin Peak and the Giant Trash quest — ~125 wins, 3 losses.** 🍽️ 3 herbal
+  stuffing + 3 later tots = 15 (65 adv). Twin Peak fallback → Highlands done. Groar in 5 rounds on paired torpedoes →
+  fuzzy montera. Bean planted; Airship (1 loss unbuffed, then 18–0 on Ferrigno's) → S.O.C.K.; amulet mirror, Ground
+  Floor (1 loss), wig → wheel → trash quest done. Slope 56–0, base Moxie 99. 🍺 Meade ×2 + popskull ×2 = 14, Meade 19.
+  ~20k meat spent on potions, torpedoes, tiny houses and food.
 
 - **Run #7 Day 10 (2026-11-25): 🔥 two signal fires lit, Ronin over, Level 10 — ~68 wins, 0 losses.** 🏦 7 pulls.
   🍽️ grape tomato, curds, gruel, cottage cheese = 15 (33 adv). Oil Peak lit (25–0); lamp, jar and slacks from crude.

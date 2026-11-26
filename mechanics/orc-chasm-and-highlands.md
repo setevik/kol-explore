@@ -245,6 +245,8 @@ gated on stats/buffs and can be done in any order; the fourth only appears once 
 `Leave the hotel` on each lodge visit.
 ⚠️ **Twin Peak monsters are much tougher than the other peaks** — a Level 9 Disco Bandit (base Moxie 81) lost 3 of
 5 fights to the Bubblemint Twins. The oil slacks also cost Moxie when they replace better pants.
+✅ **Accordion Thief, Level 10: the 50-turn fallback over two days, 49 fights, 0 losses** → 618 `Burn this…` lit the
+peak. Then `highlands_dude` again closes the quest.
 🎯 **Fallback that needs no gear at all: after 50 adventures spent in Twin Peak without solving it, the
 `Cabin Fever` noncombat appears and lets you burn the lodge down and light the beacon.** That makes Twin Peak a
 guaranteed ~50-turn completion for an under-geared character — but see the warning below about *how* those 50

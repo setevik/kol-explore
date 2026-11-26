@@ -14,7 +14,9 @@ window.runFight = async (page, o={}) => {
     for (const [id,mp] of (window._openers || [['5005',3],['5008',4],['5012',8]])) {
       if (!o.noSkill && !used.has(id) && have.has(id) && +s.mp >= mp+2) { url='/fight.php?action=skill&whichskill='+id+'&pwd='+_pwd; used.add(id); log.push(id); break; }
     }
-    if (!url && rounds >= 7 && /whichitem=630|value=["']?630/.test(p)) { url = '/fight.php?action=useitem&whichitem=630&pwd='+_pwd; log.push('T'); } // attacks not landing: torpedo
+    if (!url && rounds >= 7) { // attacks not landing: throw the first two finishers on hand (Funkslinging takes a pair)
+      const inv = await INV(); const f = (window._finishers || [630, 2350, 2067, 2397, 2348, 747]).filter(x => +(inv[x]||0) > 0);
+      if (f.length) { const b = +(inv[f[0]]) > 1 ? f[0] : (f[1] || f[0]); url = '/fight.php?action=useitem&whichitem='+f[0]+'&whichitem2='+b+'&pwd='+_pwd; log.push('T'); } }
     if (!url) { url = '/fight.php?action=attack&pwd='+_pwd; log.push('a'); }
     p = await G(url);
   }

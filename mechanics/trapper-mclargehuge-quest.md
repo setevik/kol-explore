@@ -116,6 +116,12 @@ plus **8 dense meat stacks = 8,000 meat autosell**.
 **Mysticality-gated** (headhunter necktie +15 needs base Myst 65) and **requirements read BASE stats**, so
 lending yourself Myst with a keg shield does not unlock them. See HANDOFF.
 
+✅ **Accordion Thief recipe (Level 10, cold outfit, buffed Moxie 99, max HP 99 with Power Ballad): Groar in 5 rounds
+without the accuracy gate mattering** — Ambidextrous Funkslinging throws **two photoprotoneutron torpedoes (630,
+~290 meat in the mall) per round**, and item damage ignores his Defense. When HP fell under ~55%, the pair became
+**filthy poultice + torpedo** (heal and damage in one round). 16 torpedoes covered 3 yetis (one torpedo each as a
+finisher) and Groar. ⇒ **With Funkslinging, Groar is a shopping trip, not a stat check.**
+
 ### 🚨 Groar's numbers — why it is an ACCURACY gate first
 
 | HP | Attack | Defense | No-Hit | Initiative | Element |

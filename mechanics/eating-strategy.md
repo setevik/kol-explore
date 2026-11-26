@@ -125,3 +125,6 @@ day's boss, or with an antidote in hand — never right before a hard fight. Cac
   eats nothing (see `HANDOFF.md` § "Item endpoints").
 - **Food, booze and spleen are three separate meters** with three separate endpoints — a "food" that refuses
   `inv_eat` may be a spleen item.
+
+✅ **Measured: 3 × herbal stuffing (mall ~270) = 18 + 20 + 17 adventures** at Level 10 — 55 for 12 fullness, then
+3 later tots for 10 more: **65 adventures from one 15-fullness day.**

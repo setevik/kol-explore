@@ -71,3 +71,7 @@ openers with `window._openers = [['6029',2]]` (see `tools/engine/fight.js`).
   hold **three songs at once** and choose them for the fight.
 - ⚠️ **The stolen accordion is two-handed** — no off-hand. For an off-hand item (the oil lamp at A-boo Peak) swap to a
   one-handed weapon and lose the accordion skills (Accordion Bash needs an accordion; Dissonant Riff does not).
+- **Funkslinging + torpedoes beats Defense gates:** item damage ignores the monster's Defense, so Groar (Def 108)
+  died in 5 rounds to two photoprotoneutron torpedoes per round while plain swings would have missed.
+- **eXtreme Slope noncombats** (the AT chooser used): **15** → `Let irony take its course` · **16** → `Flee in terror` ·
+  **17** → `Give him some boarding tips` · **575** → `Open the bag`. 56 wins / 0 losses there at Level 10 in normal gear.

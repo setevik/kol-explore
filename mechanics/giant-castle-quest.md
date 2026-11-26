@@ -54,6 +54,17 @@ potions before trying the amulet/umbrella room route.
 `Crawl Through the Heating Duct` on turn 8 (7 W / 0 L) → Ground Floor 10 W → Top Floor 676 → 678 → 679 with the
 Mohawk wig on turn 7. Whole castle 25 turns, 0 losses.** Once the potions lapse the Top Floor giants win (2 losses).
 
+## ✈️ The Airship and castle as an Accordion Thief (Level 10, max HP ~70)
+
+❌ **Unbuffed, the Airship's MagiMechTech MechaMech won on the 5th fight.** ✅ With Ferrigno's + tomato juice (max HP
+~70 → ~310), **S.O.C.K. in 18 more fights, 0 losses.** Castle: amulet worn → basement **670 `Check out the Mirror`**
+on turn 9 (one loss to a Possibility Giant on the Ground Floor once the potions lapsed) → Ground Floor *Top of the
+Castle, Ma* in 4 turns → **Mohawk wig → 678 → 679 on the Top Floor's 10th turn.** Whole quest ~45 turns.
+🐛 **A Possessed Can of Cranberry Sauce in the Basement dodged every accordion swing for 25 rounds** (the fight loop's
+cap) and left the fight open. `tools/engine/fight.js` now throws the first two combat items on hand after round 7
+(`window._finishers`); two beer bombs + a depantsing bomb ended it.
+💰 Potion upkeep: ~1,000 meat per 5 turns (Ferrigno's 950 + tomato juice ~320; gr8ness was 1,170 that day — skip it).
+
 ## ✈️ The Airship and castle as a caster (Sauceror, Level 10, max HP ~70)
 
 ✅ **S.O.C.K. in ~25 Airship turns, 20 W / 0 L** with Saucestorm. **The castle giants are the problem, not the

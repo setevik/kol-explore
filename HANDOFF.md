@@ -31,6 +31,10 @@
   4. Drive the game with `node tools/kol-cdp.mjs <file.js|"code">` (finds the KoL tab, runs the code with `await`
      in page context, prints JSON with `pwd`/hex masked). Helpers persist on `window` between calls. Load the
      engine from `tools/engine/` (see its README).
+  ⚠️ **`fill_credentials` can answer `Request timed out` while the Touch ID prompt is still pending** — the broker
+  (`pass-connector-broker fill`) keeps running and fills the form once the user approves. ✅ Measured: two timeouts,
+  the user approved, the broker exited, and `kol-login-target.mjs submit` logged straight in. **Don't re-call the
+  tool in a loop** (each call queues another prompt); ask the user to approve, wait for the broker to exit, then submit.
   ⚠️ **If the connector's own code changes, the running extension keeps serving the OLD build** until the desktop app is
   fully quit (⌘Q) and reopened — toggling it is not enough. ✅ Tell: `ps -axo pid,lstart,command | grep pass-connector`
   shows a start time older than the build, and the tool list / error codes don't match the connector's README
