@@ -76,6 +76,21 @@ Office **30 turns** · Spectre **1 fire**.
 🐛 **Office 786 rule: key `Raid the supply cabinet` on "no binder clip held", not on "no pages yet"** — pages
 drop before the first 786, so a page-count rule never takes the clip and the file never assembles.
 
+## 🪗 Accordion Thief, Level 11 (base Moxie 104–109), borrowed HP — measured
+
+✅ Ferrigno's + tomato juice re-used as they lapse (max HP ~77 → ~270), openers 6032 + 6029:
+Black Forest → market **25 wins / 0 losses** (923 → blackberry patch → 924 `Attack the bushes` every time; the market
+still appeared) · temple items **15 Spooky Forest turns** · **2 stone wool** · BANANAS · shrines **4 turns** (machete) ·
+Bowling **5 turns** (5 balls, 1 fire on the spirit).
+🚨 **Hidden Hospital pygmies out-last melee:** with the accordion's attacks every fight ran ~7 rounds and
+ended only when the item finisher kicked in; at ~45 damage a round **one janitor won in round 6**. And once the
+potions ran out (max HP back to 76) a **witch surgeon won in round 1**. ✅ Fix: **throw two fires of unknown origin
+from round one** (`_bombIf=/pygmy/`, `_bombAfter=0`, `_bombs=[7208]`) — every fight was over in **2–3 rounds**, at
+~200–400 meat. Keep a heal wrapper that **stops when max HP drops** (a potion lapsed and the stack is empty), not only
+when current HP is low.
+✅ **Scalpel + dungarees + head mirror + surgical mask worn → 784 on the 4th Hospital turn.** The head mirror and the
+mask are **accessories** — equip them with `&slot=1..3`, or the game answers "You may only equip 3 accessories".
+
 ## 🛡️ The Black Forest blacksmith hands out a free, excellent armour set
 
 `All Over the Map` (**923**) → **`Visit the blacksmith's cottage`** → **925** *The Blackest Smith*:

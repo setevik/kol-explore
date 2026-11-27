@@ -71,6 +71,8 @@ The 1-fullness 3.5-adv snacks come from earlier content and run out; **herbal st
 mall at ~390 meat**, which is **~22 meat per adventure** — cheap enough that a full meter is a rounding error
 against a day's farming. ✅ Measured best day so far: **3 × herbal stuffing + 3 × hot honey ant = 15 fullness for
 71 adventures** (milk of magnesium first).
+⚠️ **The 1-fullness snacks swing hard:** later tots, tomb aspic and hot honey ant were all ~9,000–11,000 on one day.
+**candied yams (1369, 3 fullness) at ~100** measured **10 adventures** — the cheap way to fill the last 3.
 ⚠️ Price-check the rest before assuming: the same session showed *later tots* at **3,874** and *tomb aspic* at
 **1,475** — the snacks that are excellent when they drop are terrible to buy. *incredible pizza* at ~240 (3.5) is
 the other good buy.

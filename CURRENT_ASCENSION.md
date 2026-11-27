@@ -24,16 +24,18 @@ Disco Bandit ✅ · **Accordion Thief ▶**. **Create `mechanics/accordion-thief
 skills with prices, class resource, early combat plan). The Moxie guild is shared with the Disco Bandit
 (`guildstore1`), but the trainer rack is the Accordion Thief's own.
 
-## 📊 Character state (end of run #7 Day 11 / 2026-11-26)
+## 📊 Character state (end of run #7 Day 12 / 2026-11-27)
 
-- **Level 10 Accordion Thief** (base Moxie 99 — Level 11 at 104), max HP ~77 (~110 with Power Ballad). 💰 Meat 11,859.
-  **52 adventures banked**, full 15 · drunk 19 (cap 14). Ronin over (mall → inventory).
-- 🎽 mariachi hat · stolen accordion (2-handed) · astral shorts · batskin belt · ring of half-assed regeneration · Pine-Fresh
-  air freshener. Pack: fuzzy montera (Trapper reward), giant discarded torn-up glove (trash reward), S.O.C.K., amulet /
-  umbrella / wig, cane + oil lamp, cold outfit, 11 tiny houses, ~10 Meade, combat items (bombs, firecrackers).
-- 🗺️ **Council quests through Level 10 all done:** Boss Bat · Knob King · Friars · Bonerdagon · **Trapper ✅ (Groar)** ·
-  **Highlands ✅ (all three fires)** · **Giant Trash ✅**. Next: **Level 11 MacGuffin** at Level 11. Hero keys ✅ (3).
-- Skills bought: L1–10 set.
+- **Level 11 Accordion Thief** (base Moxie 109), max HP ~82 (~275 on Ferrigno's + tomato juice). 💰 Meat 16,453.
+  **58 adventures banked**, full 15 · drunk 19 (cap 14). Ronin over (mall → inventory).
+- 🎽 ⚠️ **Still wearing the Hospital set:** half-size scalpel (in place of the stolen accordion, id 11) · bloodied
+  surgical dungarees (in place of astral shorts) · head mirror + surgical mask (in place of the ring and the Pine-Fresh
+  freshener). Re-equip the accordion before any non-city fighting. Pack: antique machete, 5 fires of unknown origin,
+  8 Ferrigno's, 8 tomato juice, 8 tiny houses, ~8 Meade, 7 popskull, book of matches, Desert Bus pass.
+- 🗺️ **Level 11 MacGuffin:** diary read ✅ (Black Market found, forged ID used). Hidden Temple ✅, Hidden City open,
+  four shrines ✅. **Bowling Alley ✅ (scorched sphere) · Hospital ✅ (dripping sphere).** Left: **Apartment (341) ·
+  Office (343)**, then place spheres → Ziggurat → Protector Spectre. Not started: desert, Spookyraven, Palindome.
+- Skills bought: L1–11 set (L11: Sticky Fingers, Aloysius' Antiphon of Aptitude).
 
 ### 🔓 CAPS & SKILLS THIS RUN
 **Fullness 15 · Booze cap 14 (no Liver of Steel yet) · Spleen 15.**
@@ -41,16 +43,25 @@ skills with prices, class resource, early combat plan). The Moxie guild is share
 Pastamastery · Cannelloni Cocoon · Expert Panhandling · **Ambidextrous Funkslinging (NEW — two combat items/round)**.
 ✅ All `(P)` on the charsheet. Guild skills: see Character state.
 
-## 🔜 Next-session priorities — run #7, Day 12
+## 🔜 Next-session priorities — run #7, Day 13
 
-1. Login (`fill_credentials` recipe in HANDOFF; if it times out, ask for the Touch ID approval and then just submit).
-   Load engine; `_openers=[['6032',5],['6029',2]]`; default heal (Cocoon / tiny house).
-2. Eat: **3 herbal stuffing (mall, L7) + 3 later tots** (~65 adv). Drink: **Meade ×2 + 2 popskull = 14, then one Meade.**
-3. **5 more base Moxie → Level 11** (Slope 273 in normal gear, 56–0), buy L11 skills (Sticky Fingers 39, Aloysius' 3).
-4. **Level 11 MacGuffin quest** (`mechanics/macguffin-quest.md`): the Council's diary, Black Market, desert/pyramid,
-   Spookyraven, hidden city. Buy the HP potion set for anything that hits hard (Ferrigno's + tomato juice).
+1. Login (`fill_credentials` recipe in HANDOFF). Load engine + `_openers=[['6032',5],['6029',2]]`; reload the
+   potion-keeping heal wrapper (Ferrigno's 418 + tomato juice 420 re-used as they lapse) — **without them pygmies
+   kill in 1–6 rounds.** Pygmy fights: `_bombIf=/pygmy/`, `_bombAfter=0`, `_bombs=[7208]`, `_finishers=[7208]`
+   (two fires a round, ~2 rounds). Buy ~30 more fires (100 each).
+2. Eat: 3 herbal stuffing + candied yams (later tots were 11,000). Drink at the end: Meade ×2 + 2 popskull, Meade.
+3. **Apartment (341)**: Cursed Punch ×3 from the Hidden Tavern (use the book of matches first) → Thrice-Cursed →
+   elevator → penthouse → spirit (fire). **Office (343)**: 786 clip rule → McClusky file → boss door → spirit.
+4. Spheres to their altars → Ziggurat (350) → Protector Spectre (2 fires) → ancient amulet. Then the desert.
 
 ## 🗓️ Session log (this run)
+
+- **Run #7 Day 12 (2026-11-27): 🏙️ Level 11, diary in hand, Hidden City open, two spheres — ~115 wins, 2 losses.**
+  🍽️ 3 herbal stuffing + candied yams = 15 (63 adv; tots spiked to 11k). Slope 62–0 → L11, L11 skills (~12.5k).
+  Surplus autosold +50,680. Bus pass → Shore → Black Forest 25–0 on potions → forged ID → diary. Spooky Forest
+  temple items, 2 stone wool, BANANAS → Hidden City; shrines 4 turns (machete). Bowling 5 turns → spirit 1 fire.
+  Hospital: 2 losses (potions ran out; melee pygmy fights run 7 rounds) → fire-first + surgical set → spirit.
+  🍺 Meade ×2 + popskull ×2 = 14, Meade 19.
 
 - **Run #7 Day 11 (2026-11-26): 🏔️ Groar, Twin Peak and the Giant Trash quest — ~125 wins, 3 losses.** 🍽️ 3 herbal
   stuffing + 3 later tots = 15 (65 adv). Twin Peak fallback → Highlands done. Groar in 5 rounds on paired torpedoes →
