@@ -91,6 +91,14 @@ when current HP is low.
 ✅ **Scalpel + dungarees + head mirror + surgical mask worn → 784 on the 4th Hospital turn.** The head mirror and the
 mask are **accessories** — equip them with `&slot=1..3`, or the game answers "You may only equip 3 accessories".
 
+✅ **Same Accordion Thief, the rest of the Hidden City:** 3 × Cursed Punch → Thrice-Cursed → Apartment elevator on the
+9th turn → spirit (1 fire). Office ~20 turns. 🚨 **Count your fires before a spirit:** the two-fires-a-round pygmy
+rule had used them all, and the Office spirit stood through 15 refused rounds. **Any elemental combat item works** —
+✅ frigid ninja stars + flaming feather did 21 + 91 and killed it. Placing the spheres and the Ziggurat vines cost
+nothing (machete); the Spectre fell to 1 fire.
+✅ **Desert, same character: 0 → 100% in ~60 turns, 0 losses** on potions — Gnasir took black paint + a killing jar
+(42% after two pamphlets), 15 pages arrived by 69%, hooks + drum machine → 99%, one more turn → 100%.
+
 ## 🛡️ The Black Forest blacksmith hands out a free, excellent armour set
 
 `All Over the Map` (**923**) → **`Visit the blacksmith's cottage`** → **925** *The Blackest Smith*:

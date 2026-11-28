@@ -49,6 +49,10 @@ shows beforehand; don't rely on either — read it before hustling.
    Practice can give as little as **+1 each** (the range is 1–4), so budget ~4 practices × ~11 turns each.
 6. **Hustle.** Reward: **Spookyraven library key (7302)** → the Haunted Library (390).
 
+✅ **Accordion Thief:** questlog skill 5 with the cue + 10 drunk → lost two hustles **without chalk**, then won the
+first hustle after rubbing on **hand chalk (item 1794)**. ⚠️ Find the chalk's id by name — a guessed id from a
+nearby inventory row used a hot coal instead.
+
 ## 🚨 The drunkenness trap (verified on the wiki)
 
 **+1 skill per point of drunkenness up to 10 — then −2 per point beyond it.**

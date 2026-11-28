@@ -657,6 +657,9 @@ Sauceror went **Muscle 51 → 307, max HP 57 → 313**; the Bonerdagon (which ha
 💰 **Per meat, the two 100-meat potions are the best value** (✅ Level 12 Sauceror: gr8ness +95 max HP, tomato juice
 +47), Ferrigno's is the biggest single jump (+190 for 950), and Ben-Gal / Wereseal / philter add little for their
 price. For a long grind, refresh only the cheap ones plus Ferrigno's.
+⚠️ **The 100-meat tomato juice / Gr8ness listings sit in one store with a per-day limit** — after the first buys
+`mallBuy` returns 0 at a 150 cap while the listing still shows 100. The next listings were ~322 (tomato) and
+~1,170 (Gr8ness). ✅ A melee character at ML 130+ burned ~25 Ferrigno's + tomato juice in two days.
 ⇒ **Before a stat-gated boss or contest, buy the set and fight inside its duration**, ideally at once, because
 fights cost no turns but recovery and walking around do. Try this before grinding levels or retrying a lost fight.
 

@@ -24,18 +24,18 @@ Disco Bandit ✅ · **Accordion Thief ▶**. **Create `mechanics/accordion-thief
 skills with prices, class resource, early combat plan). The Moxie guild is shared with the Disco Bandit
 (`guildstore1`), but the trainer rack is the Accordion Thief's own.
 
-## 📊 Character state (end of run #7 Day 12 / 2026-11-27)
+## 📊 Character state (end of run #7 Day 13 / 2026-11-28)
 
-- **Level 11 Accordion Thief** (base Moxie 109), max HP ~82 (~275 on Ferrigno's + tomato juice). 💰 Meat 16,453.
-  **58 adventures banked**, full 15 · drunk 19 (cap 14). Ronin over (mall → inventory).
-- 🎽 ⚠️ **Still wearing the Hospital set:** half-size scalpel (in place of the stolen accordion, id 11) · bloodied
-  surgical dungarees (in place of astral shorts) · head mirror + surgical mask (in place of the ring and the Pine-Fresh
-  freshener). Re-equip the accordion before any non-city fighting. Pack: antique machete, 5 fires of unknown origin,
-  8 Ferrigno's, 8 tomato juice, 8 tiny houses, ~8 Meade, 7 popskull, book of matches, Desert Bus pass.
-- 🗺️ **Level 11 MacGuffin:** diary read ✅ (Black Market found, forged ID used). Hidden Temple ✅, Hidden City open,
-  four shrines ✅. **Bowling Alley ✅ (scorched sphere) · Hospital ✅ (dripping sphere).** Left: **Apartment (341) ·
-  Office (343)**, then place spheres → Ziggurat → Protector Spectre. Not started: desert, Spookyraven, Palindome.
-- Skills bought: L1–11 set (L11: Sticky Fingers, Aloysius' Antiphon of Aptitude).
+- **Level 11 Accordion Thief** (base Moxie 123), max HP ~88 (~280 on Ferrigno's + tomato juice). 💰 Meat 7,298.
+  **21 adventures banked**, full 15 · drunk 19 (cap 14). Ronin over (mall → inventory).
+- 🎽 stolen accordion (11) · bloodied surgical dungarees · head mirror · Lord Spookyraven's spectacles (accessory 3).
+  Astral shorts, ring and Pine-Fresh freshener are in the pack. Pack: antique machete, 9 fires of unknown origin,
+  9 tiny houses, 6 Meade, 4 popskull, pool cue, worm-riding hooks. **No HP potions left.**
+- 🗺️ **Level 11 MacGuffin:** diary ✅ · **Hidden City ✅ (ancient amulet)** · **desert 100% ✅** (pyramid waits for the
+  Staff of Ed) · **Lady Spookyraven chain ✅ → cellar (manor4) open**, wine-bomb route unlocked (spectacles read the
+  recipe). Left: **blasting soda (Laundry 400) + Chateau de Vinegar (Wine Cellar 401) → unstable fulminate (needs the
+  Dramatic range, 1,000) → 6 monstrous boilers (399) → wine bomb → Lord Spookyraven → Eye of Ed.** Palindome not started.
+- Skills bought: L1–11 set.
 
 ### 🔓 CAPS & SKILLS THIS RUN
 **Fullness 15 · Booze cap 14 (no Liver of Steel yet) · Spleen 15.**
@@ -43,18 +43,24 @@ skills with prices, class resource, early combat plan). The Moxie guild is share
 Pastamastery · Cannelloni Cocoon · Expert Panhandling · **Ambidextrous Funkslinging (NEW — two combat items/round)**.
 ✅ All `(P)` on the charsheet. Guild skills: see Character state.
 
-## 🔜 Next-session priorities — run #7, Day 13
+## 🔜 Next-session priorities — run #7, Day 14
 
-1. Login (`fill_credentials` recipe in HANDOFF). Load engine + `_openers=[['6032',5],['6029',2]]`; reload the
-   potion-keeping heal wrapper (Ferrigno's 418 + tomato juice 420 re-used as they lapse) — **without them pygmies
-   kill in 1–6 rounds.** Pygmy fights: `_bombIf=/pygmy/`, `_bombAfter=0`, `_bombs=[7208]`, `_finishers=[7208]`
-   (two fires a round, ~2 rounds). Buy ~30 more fires (100 each).
-2. Eat: 3 herbal stuffing + candied yams (later tots were 11,000). Drink at the end: Meade ×2 + 2 popskull, Meade.
-3. **Apartment (341)**: Cursed Punch ×3 from the Hidden Tavern (use the book of matches first) → Thrice-Cursed →
-   elevator → penthouse → spirit (fire). **Office (343)**: 786 clip rule → McClusky file → boss door → spirit.
-4. Spheres to their altars → Ziggurat (350) → Protector Spectre (2 fires) → ancient amulet. Then the desert.
+1. Login. Load engine + `_openers=[['6032',5],['6029',2]]` + the potion heal wrapper (Ferrigno's 418, tomato juice
+   420, Gr8ness 426 — buy the 100-meat listings first; one store caps per day).
+2. 💰 **Meat is the bottleneck** (7,298). Potions cost ~250 meat a turn. Run `sellPlan(1, …)` again (Slope drops),
+   then decide how many cellar turns the budget covers.
+3. Eat 3 herbal stuffing + candied yams. **Cellar on potions only** (a Laundry cabinet won at 88 HP): soda +
+   vinegar, Dramatic range, fulminate, 6 boilers, Lord Spookyraven.
+4. Then the Palindome (`mechanics/palindome-quest.md`). Drink last: Meade ×2 + 2 popskull, Meade.
 
 ## 🗓️ Session log (this run)
+
+- **Run #7 Day 13 (2026-11-28): 🗿 Hidden City done, desert crossed, Lady Spookyraven danced — ~190 wins, 1 loss.**
+  🍽️ 3 herbal stuffing + candied yams = 15 (65 adv). 3 Cursed Punch → Apartment spirit (9 turns). Office: file in
+  ~20 turns; fires ran out on its spirit, frigid ninja stars + flaming feather finished it. Spheres placed (free),
+  Spectre 1 fire → ancient amulet. Desert 0 → 100% in ~60 turns, 0 losses (paint + killing jar + 15 pages, worm via
+  drum machine). Pool ghost on the 2nd hustle at 10 drunk; necklace 14 fights; puff 9 · gown 9 · shoes 5; dance;
+  organ → cellar. Laundry cabinet won at 88 HP (no potions). Slope 34–0. 🍺 3 punch, Meade, popskull ×3 = 14, Meade 19.
 
 - **Run #7 Day 12 (2026-11-27): 🏙️ Level 11, diary in hand, Hidden City open, two spheres — ~115 wins, 2 losses.**
   🍽️ 3 herbal stuffing + candied yams = 15 (63 adv; tots spiked to 11k). Slope 62–0 → L11, L11 skills (~12.5k).

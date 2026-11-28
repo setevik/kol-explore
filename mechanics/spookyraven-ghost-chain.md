@@ -307,6 +307,9 @@ Check manor3 for `snarfblat=` links before planning around the six-ingredient re
    in one round.
    ✅ Disco Bandit, Level 11, no +item: soda after **30 Laundry fights**, vinegar after **8 Wine Cellar fights**.
    Lights Out here: Laundry **891** `Feel Your Way to the Door`.
+   🚨 ✅ **Accordion Thief, Level 11, max HP 88 (no potions): the first cabinet of Dr. Limpieza won**, through six
+   fires. Come down only with borrowed HP.
+   **Library Lights Out = 894** → `Get out of the Library` (free).
 4. ✅ **Cook them:** `craft.php?mode=cook&action=craft&a=7491&b=7492&qty=1` → *unstable fulminate* (7493, off-hand).
    🚨 **It needs an oven:** without one the craft answers *"You need a more advanced cooking appliance…"*. Buy the
    **Dramatic™ range** (General Store row 643, 1,000 meat) and `inv_use` it once — it installs permanently.
